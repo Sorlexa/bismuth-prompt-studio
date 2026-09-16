@@ -1,0 +1,1725 @@
+{
+ "_note": "P(stance | place): the share of a place's own posts that carry each base stance (danbooru related_tag of the place tag). Written by tools/build/harvest_place_stances.py.",
+ "places": {
+  "airplane interior": {
+   "sitting": 0.434,
+   "standing": 0.0709,
+   "flying": 0.0511,
+   "on chair": 0.0482,
+   "lying": 0.0128
+  },
+  "airport": {
+   "standing": 0.1978,
+   "sitting": 0.1774,
+   "walking": 0.0906,
+   "running": 0.0277,
+   "flying": 0.0277,
+   "lying": 0.0148
+  },
+  "alley": {
+   "standing": 0.267,
+   "sitting": 0.0769,
+   "squatting": 0.0559,
+   "walking": 0.0545,
+   "kneeling": 0.0241
+  },
+  "amusement park": {
+   "sitting": 0.1586,
+   "standing": 0.1558,
+   "running": 0.0206,
+   "walking": 0.0192,
+   "lying": 0.0171
+  },
+  "apartment": {
+   "standing": 0.1792,
+   "sitting": 0.1264,
+   "lying": 0.0273,
+   "on bed": 0.0259,
+   "walking": 0.0255,
+   "on floor": 0.0174,
+   "on back": 0.017,
+   "squatting": 0.0146
+  },
+  "aquarium": {
+   "standing": 0.1794,
+   "sitting": 0.1156,
+   "walking": 0.0216,
+   "lying": 0.0174
+  },
+  "arcade": {
+   "sitting": 0.1786,
+   "standing": 0.1391,
+   "lying": 0.0207
+  },
+  "architecture": {
+   "sitting": 0.2242,
+   "standing": 0.1898,
+   "lying": 0.033,
+   "walking": 0.0302,
+   "flying": 0.019,
+   "floating": 0.0178,
+   "kneeling": 0.0172,
+   "seiza": 0.0168
+  },
+  "arena": {
+   "standing": 0.2263,
+   "fighting stance": 0.0673,
+   "lying": 0.052,
+   "sitting": 0.0489,
+   "flying": 0.0275,
+   "on back": 0.0245,
+   "jumping": 0.0245,
+   "on stomach": 0.0214,
+   "floating": 0.0183
+  },
+  "ashiyu": {
+   "sitting": 0.7517,
+   "standing": 0.0298,
+   "lying": 0.0166
+  },
+  "asteroid": {
+   "flying": 0.1341,
+   "floating": 0.0543,
+   "standing": 0.0335,
+   "sitting": 0.0277
+  },
+  "bakery": {
+   "standing": 0.1973,
+   "sitting": 0.0674,
+   "walking": 0.0368
+  },
+  "bamboo forest": {
+   "standing": 0.1274,
+   "sitting": 0.1239,
+   "walking": 0.022,
+   "lying": 0.0213,
+   "flying": 0.0123,
+   "running": 0.0115,
+   "kneeling": 0.0113
+  },
+  "bar (place)": {
+   "sitting": 0.3654,
+   "standing": 0.1358,
+   "on chair": 0.0222,
+   "lying": 0.0192
+  },
+  "barn": {
+   "sitting": 0.1109,
+   "standing": 0.107,
+   "lying": 0.0486,
+   "squatting": 0.0409,
+   "kneeling": 0.0331,
+   "on back": 0.0311,
+   "top-down bottom-up": 0.0292,
+   "straddling": 0.0233,
+   "all fours": 0.0195,
+   "wariza": 0.0175
+  },
+  "baseball stadium": {
+   "standing": 0.3791,
+   "on ground": 0.0831,
+   "sitting": 0.0453,
+   "running": 0.0403,
+   "squatting": 0.034,
+   "jumping": 0.0164,
+   "walking": 0.0126
+  },
+  "bathroom": {
+   "sitting": 0.1944,
+   "standing": 0.165,
+   "kneeling": 0.0442,
+   "lying": 0.0362,
+   "squatting": 0.0292,
+   "on back": 0.0236,
+   "on floor": 0.018,
+   "straddling": 0.0152,
+   "wariza": 0.0128,
+   "all fours": 0.0124
+  },
+  "bathtub": {
+   "sitting": 0.2264,
+   "lying": 0.0636,
+   "standing": 0.053,
+   "on back": 0.0384,
+   "kneeling": 0.0264,
+   "all fours": 0.0154,
+   "straddling": 0.0126,
+   "on floor": 0.0112
+  },
+  "battlefield": {
+   "standing": 0.1659,
+   "sitting": 0.0509,
+   "flying": 0.0442,
+   "fighting stance": 0.0409,
+   "kneeling": 0.031,
+   "walking": 0.0265,
+   "lying": 0.0243,
+   "on ground": 0.0188,
+   "running": 0.0144
+  },
+  "beach": {
+   "sitting": 0.1746,
+   "standing": 0.1532,
+   "lying": 0.099,
+   "on back": 0.0384,
+   "kneeling": 0.0362,
+   "on stomach": 0.0308,
+   "wariza": 0.027,
+   "on side": 0.026,
+   "on ground": 0.017,
+   "squatting": 0.0168,
+   "all fours": 0.0154
+  },
+  "bedroom": {
+   "on bed": 0.4278,
+   "sitting": 0.2804,
+   "lying": 0.256,
+   "on back": 0.1232,
+   "standing": 0.0692,
+   "on side": 0.0658,
+   "on stomach": 0.0514,
+   "kneeling": 0.0504,
+   "straddling": 0.039,
+   "wariza": 0.0384,
+   "all fours": 0.031,
+   "on floor": 0.0266
+  },
+  "bookstore": {
+   "standing": 0.1994,
+   "sitting": 0.0872,
+   "walking": 0.0374,
+   "squatting": 0.0218,
+   "lying": 0.0187,
+   "on chair": 0.0156
+  },
+  "boxing ring": {
+   "standing": 0.1417,
+   "sitting": 0.0875,
+   "fighting stance": 0.0465,
+   "lying": 0.0377,
+   "on back": 0.0221
+  },
+  "bridge": {
+   "standing": 0.2152,
+   "sitting": 0.127,
+   "walking": 0.0548,
+   "flying": 0.032,
+   "running": 0.0198,
+   "squatting": 0.0132
+  },
+  "bus interior": {
+   "sitting": 0.5005,
+   "standing": 0.1253,
+   "on chair": 0.0256,
+   "lying": 0.0183
+  },
+  "bus stop": {
+   "standing": 0.3213,
+   "sitting": 0.2742,
+   "walking": 0.0194,
+   "squatting": 0.016,
+   "running": 0.0131
+  },
+  "cafe": {
+   "sitting": 0.365,
+   "standing": 0.1328,
+   "on chair": 0.0563,
+   "walking": 0.017
+  },
+  "canal": {
+   "standing": 0.1691,
+   "sitting": 0.1378,
+   "walking": 0.0442,
+   "flying": 0.0325,
+   "squatting": 0.0182,
+   "lying": 0.0169
+  },
+  "canyon": {
+   "standing": 0.2031,
+   "sitting": 0.107,
+   "flying": 0.0698,
+   "walking": 0.0357,
+   "fighting stance": 0.0264,
+   "floating": 0.0217
+  },
+  "car interior": {
+   "sitting": 0.3678,
+   "lying": 0.0318,
+   "on back": 0.0186,
+   "straddling": 0.0174,
+   "standing": 0.0134
+  },
+  "carousel": {
+   "sitting": 0.2958,
+   "standing": 0.1083
+  },
+  "casino": {
+   "sitting": 0.2413,
+   "standing": 0.088,
+   "lying": 0.0627,
+   "on back": 0.0298,
+   "kneeling": 0.0241,
+   "on side": 0.0234,
+   "squatting": 0.0171
+  },
+  "castle": {
+   "standing": 0.1822,
+   "sitting": 0.1144,
+   "flying": 0.036,
+   "floating": 0.0254,
+   "walking": 0.0204
+  },
+  "cathedral": {
+   "standing": 0.1773,
+   "sitting": 0.1302,
+   "flying": 0.0332,
+   "kneeling": 0.0277,
+   "floating": 0.0277,
+   "walking": 0.0235
+  },
+  "cave": {
+   "standing": 0.1572,
+   "sitting": 0.1328,
+   "lying": 0.0407,
+   "floating": 0.0246,
+   "kneeling": 0.0243,
+   "walking": 0.0231,
+   "flying": 0.019,
+   "on back": 0.0186,
+   "running": 0.0166,
+   "straddling": 0.0147,
+   "on ground": 0.014,
+   "on side": 0.0135,
+   "all fours": 0.0133
+  },
+  "changing room": {
+   "standing": 0.3089,
+   "sitting": 0.0604
+  },
+  "church": {
+   "standing": 0.1764,
+   "sitting": 0.128,
+   "kneeling": 0.025,
+   "squatting": 0.018,
+   "lying": 0.0172,
+   "walking": 0.0166
+  },
+  "city": {
+   "standing": 0.2002,
+   "sitting": 0.1314,
+   "flying": 0.0374,
+   "walking": 0.037,
+   "floating": 0.0246,
+   "lying": 0.0158,
+   "running": 0.0148
+  },
+  "cityscape": {
+   "standing": 0.1746,
+   "sitting": 0.1566,
+   "flying": 0.0384,
+   "walking": 0.023,
+   "floating": 0.0206,
+   "lying": 0.0196,
+   "midair": 0.015
+  },
+  "classroom": {
+   "sitting": 0.3836,
+   "standing": 0.154,
+   "on chair": 0.0856,
+   "lying": 0.0406,
+   "on back": 0.03,
+   "on floor": 0.0188,
+   "kneeling": 0.0154,
+   "squatting": 0.0142
+  },
+  "cliff": {
+   "standing": 0.2221,
+   "sitting": 0.1407,
+   "flying": 0.0402,
+   "walking": 0.0316,
+   "falling": 0.0255,
+   "jumping": 0.0243,
+   "lying": 0.0205,
+   "on ground": 0.0203,
+   "running": 0.0185,
+   "floating": 0.0179,
+   "squatting": 0.0137
+  },
+  "clock tower": {
+   "standing": 0.1493,
+   "sitting": 0.1488,
+   "flying": 0.0546,
+   "walking": 0.0219,
+   "floating": 0.0205
+  },
+  "closet": {
+   "sitting": 0.2219,
+   "standing": 0.1939,
+   "lying": 0.083,
+   "on bed": 0.0624,
+   "on back": 0.0427,
+   "on floor": 0.0329,
+   "kneeling": 0.0296,
+   "on side": 0.0271,
+   "straddling": 0.0214,
+   "all fours": 0.0205,
+   "wariza": 0.0181
+  },
+  "clothes shop": {
+   "standing": 0.379,
+   "sitting": 0.0416,
+   "walking": 0.022,
+   "squatting": 0.0196
+  },
+  "clubroom": {
+   "sitting": 0.3627,
+   "standing": 0.201,
+   "on chair": 0.1814,
+   "lying": 0.0343,
+   "kneeling": 0.0221,
+   "on floor": 0.0221
+  },
+  "cockpit": {
+   "sitting": 0.2783,
+   "flying": 0.0958,
+   "standing": 0.038,
+   "lying": 0.0335,
+   "on back": 0.0194,
+   "straddling": 0.019,
+   "floating": 0.013,
+   "on chair": 0.0109
+  },
+  "construction site": {
+   "standing": 0.1901,
+   "sitting": 0.1901,
+   "walking": 0.0296,
+   "squatting": 0.0198
+  },
+  "convenience store": {
+   "standing": 0.1996,
+   "sitting": 0.0632,
+   "squatting": 0.0342,
+   "walking": 0.0171
+  },
+  "convention": {
+   "standing": 0.1781,
+   "sitting": 0.1621,
+   "on chair": 0.0297,
+   "walking": 0.0205,
+   "running": 0.0183
+  },
+  "courtroom": {
+   "standing": 0.1147,
+   "sitting": 0.0676
+  },
+  "crosswalk": {
+   "standing": 0.2574,
+   "walking": 0.1464,
+   "sitting": 0.0481,
+   "running": 0.032,
+   "squatting": 0.0169
+  },
+  "dance studio": {
+   "standing": 0.3212,
+   "sitting": 0.164,
+   "on floor": 0.0752,
+   "stretching": 0.0661,
+   "lying": 0.0319,
+   "wariza": 0.0228,
+   "on stomach": 0.0182
+  },
+  "desert": {
+   "standing": 0.165,
+   "sitting": 0.1038,
+   "flying": 0.0424,
+   "walking": 0.033,
+   "lying": 0.023,
+   "running": 0.0214,
+   "floating": 0.0144,
+   "kneeling": 0.0134
+  },
+  "dining room": {
+   "sitting": 0.3909,
+   "on chair": 0.1531,
+   "standing": 0.1107,
+   "lying": 0.0326,
+   "on back": 0.0228
+  },
+  "dirt road": {
+   "standing": 0.187,
+   "walking": 0.109,
+   "sitting": 0.0959,
+   "running": 0.0376,
+   "flying": 0.0216,
+   "on ground": 0.0216,
+   "lying": 0.016
+  },
+  "dock": {
+   "sitting": 0.3013,
+   "standing": 0.1664,
+   "lying": 0.0273,
+   "flying": 0.0237,
+   "walking": 0.0215,
+   "kneeling": 0.0201,
+   "on back": 0.0172
+  },
+  "dressing room": {
+   "sitting": 0.3438,
+   "standing": 0.2178,
+   "on chair": 0.0716
+  },
+  "dungeon": {
+   "standing": 0.1379,
+   "sitting": 0.114,
+   "kneeling": 0.0589,
+   "lying": 0.0507,
+   "on back": 0.0335,
+   "straddling": 0.032,
+   "squatting": 0.0313,
+   "on floor": 0.0283,
+   "all fours": 0.0231
+  },
+  "factory": {
+   "standing": 0.1874,
+   "sitting": 0.1439,
+   "walking": 0.042,
+   "flying": 0.0195,
+   "running": 0.018,
+   "floating": 0.0165,
+   "lying": 0.012
+  },
+  "farm": {
+   "standing": 0.1505,
+   "sitting": 0.093,
+   "walking": 0.0383,
+   "on ground": 0.0178,
+   "lying": 0.0164,
+   "flying": 0.0164,
+   "kneeling": 0.0137,
+   "squatting": 0.0137
+  },
+  "ferris wheel": {
+   "sitting": 0.1702,
+   "standing": 0.1363
+  },
+  "field": {
+   "standing": 0.2072,
+   "sitting": 0.13,
+   "lying": 0.0742,
+   "on ground": 0.0484,
+   "on back": 0.048,
+   "walking": 0.0194,
+   "on side": 0.0166,
+   "running": 0.0164,
+   "kneeling": 0.0162,
+   "flying": 0.015,
+   "floating": 0.013
+  },
+  "fitness gym": {
+   "standing": 0.1477,
+   "sitting": 0.1366,
+   "squatting": 0.0612,
+   "lying": 0.0496,
+   "on back": 0.0395,
+   "stretching": 0.0303,
+   "straddling": 0.0192,
+   "running": 0.0162
+  },
+  "fitting room": {
+   "standing": 0.4163,
+   "sitting": 0.0221
+  },
+  "floating island": {
+   "standing": 0.1947,
+   "sitting": 0.143,
+   "flying": 0.0897,
+   "floating": 0.0715,
+   "on ground": 0.0261,
+   "falling": 0.0233,
+   "walking": 0.0182,
+   "kneeling": 0.0159
+  },
+  "flower field": {
+   "standing": 0.2014,
+   "sitting": 0.1312,
+   "lying": 0.0814,
+   "on back": 0.0542,
+   "on ground": 0.0504,
+   "kneeling": 0.0196,
+   "on side": 0.019,
+   "floating": 0.0144,
+   "walking": 0.0138,
+   "wariza": 0.0134,
+   "flying": 0.013
+  },
+  "flower shop": {
+   "standing": 0.3018,
+   "sitting": 0.0866,
+   "walking": 0.0394,
+   "squatting": 0.0262
+  },
+  "forest": {
+   "sitting": 0.1598,
+   "standing": 0.1594,
+   "lying": 0.028,
+   "walking": 0.028,
+   "on ground": 0.0248,
+   "flying": 0.0206,
+   "squatting": 0.0192,
+   "kneeling": 0.0148,
+   "floating": 0.0142,
+   "running": 0.0142,
+   "on back": 0.0136
+  },
+  "fountain": {
+   "sitting": 0.2812,
+   "standing": 0.1914,
+   "lying": 0.0273,
+   "walking": 0.0273,
+   "flying": 0.0181,
+   "squatting": 0.0177
+  },
+  "garage": {
+   "standing": 0.1843,
+   "sitting": 0.1376,
+   "squatting": 0.0172,
+   "walking": 0.0172,
+   "lying": 0.0147
+  },
+  "garden": {
+   "sitting": 0.2351,
+   "standing": 0.1893,
+   "squatting": 0.0377,
+   "lying": 0.0286,
+   "on chair": 0.0283,
+   "walking": 0.0218,
+   "kneeling": 0.0182,
+   "on ground": 0.0163
+  },
+  "gazebo": {
+   "sitting": 0.289,
+   "standing": 0.2205,
+   "lying": 0.0437,
+   "floating": 0.0285
+  },
+  "genkan": {
+   "standing": 0.4929,
+   "sitting": 0.0912,
+   "on floor": 0.0627,
+   "lying": 0.0285,
+   "kneeling": 0.0228,
+   "squatting": 0.0199
+  },
+  "grasslands": {
+   "sitting": 0.1612,
+   "standing": 0.1446,
+   "on ground": 0.0992,
+   "lying": 0.0661,
+   "on back": 0.0358,
+   "running": 0.0317,
+   "walking": 0.0303,
+   "floating": 0.0234,
+   "flying": 0.0234
+  },
+  "graveyard": {
+   "standing": 0.1714,
+   "sitting": 0.1302,
+   "kneeling": 0.0236,
+   "floating": 0.0218,
+   "squatting": 0.0197,
+   "lying": 0.0194,
+   "walking": 0.0165,
+   "on ground": 0.0165,
+   "flying": 0.0144
+  },
+  "greenhouse": {
+   "standing": 0.2511,
+   "sitting": 0.2002,
+   "squatting": 0.0283,
+   "on chair": 0.0204
+  },
+  "gym storeroom": {
+   "lying": 0.225,
+   "sitting": 0.2188,
+   "on back": 0.1554,
+   "standing": 0.1348,
+   "on floor": 0.0565,
+   "kneeling": 0.0535,
+   "straddling": 0.0478,
+   "all fours": 0.0463,
+   "on side": 0.0418,
+   "squatting": 0.0371,
+   "wariza": 0.0248,
+   "on stomach": 0.017
+  },
+  "hallway": {
+   "standing": 0.231,
+   "walking": 0.0776,
+   "sitting": 0.0596,
+   "running": 0.0476,
+   "lying": 0.0214,
+   "on floor": 0.0178
+  },
+  "hangar": {
+   "standing": 0.1572,
+   "sitting": 0.0823,
+   "flying": 0.0591,
+   "floating": 0.0285,
+   "walking": 0.02
+  },
+  "harbor": {
+   "sitting": 0.1883,
+   "standing": 0.1737,
+   "walking": 0.0276,
+   "flying": 0.0244,
+   "lying": 0.0146
+  },
+  "highway": {
+   "standing": 0.1499,
+   "sitting": 0.0861,
+   "running": 0.0287,
+   "walking": 0.0255,
+   "flying": 0.0223,
+   "floating": 0.0207,
+   "lying": 0.0144,
+   "on back": 0.0128
+  },
+  "hill": {
+   "standing": 0.1916,
+   "sitting": 0.147,
+   "walking": 0.0492,
+   "on ground": 0.0376,
+   "flying": 0.028,
+   "lying": 0.023,
+   "running": 0.0202,
+   "floating": 0.0148
+  },
+  "horse racing track": {
+   "running": 0.3425,
+   "standing": 0.084,
+   "sitting": 0.0354,
+   "on ground": 0.032
+  },
+  "hospital": {
+   "sitting": 0.204,
+   "on bed": 0.1413,
+   "lying": 0.1202,
+   "standing": 0.1026,
+   "on back": 0.0885,
+   "kneeling": 0.0258,
+   "straddling": 0.0182
+  },
+  "hotel": {
+   "standing": 0.1541,
+   "sitting": 0.1429,
+   "on bed": 0.098,
+   "lying": 0.07,
+   "on back": 0.0336,
+   "walking": 0.028,
+   "on stomach": 0.0168
+  },
+  "hotel room": {
+   "on bed": 0.3732,
+   "sitting": 0.2293,
+   "lying": 0.189,
+   "standing": 0.1183,
+   "on back": 0.1012,
+   "on side": 0.0476,
+   "straddling": 0.0439,
+   "on stomach": 0.0378,
+   "wariza": 0.0366,
+   "kneeling": 0.028,
+   "all fours": 0.0183
+  },
+  "house": {
+   "standing": 0.191,
+   "sitting": 0.1326,
+   "walking": 0.0502,
+   "flying": 0.0262,
+   "running": 0.0208,
+   "lying": 0.0206,
+   "floating": 0.015,
+   "squatting": 0.0142
+  },
+  "hut": {
+   "standing": 0.1914,
+   "sitting": 0.1714,
+   "lying": 0.06,
+   "squatting": 0.0371,
+   "on back": 0.0286,
+   "walking": 0.0229,
+   "kneeling": 0.0171,
+   "on side": 0.0171
+  },
+  "in orbit": {
+   "flying": 0.1181,
+   "floating": 0.1023,
+   "sitting": 0.0597,
+   "standing": 0.0195,
+   "falling": 0.0122
+  },
+  "industrial": {
+   "standing": 0.1792,
+   "sitting": 0.0889,
+   "flying": 0.0346,
+   "walking": 0.0316,
+   "kneeling": 0.0136
+  },
+  "infirmary": {
+   "sitting": 0.2643,
+   "on bed": 0.2609,
+   "lying": 0.146,
+   "on back": 0.0985,
+   "straddling": 0.0707,
+   "standing": 0.0679,
+   "on side": 0.0323,
+   "all fours": 0.03,
+   "wariza": 0.026,
+   "kneeling": 0.0226,
+   "squatting": 0.0175,
+   "on chair": 0.0158
+  },
+  "island": {
+   "standing": 0.1485,
+   "sitting": 0.141,
+   "flying": 0.0895,
+   "lying": 0.0383,
+   "floating": 0.0198,
+   "kneeling": 0.0181,
+   "jumping": 0.0141
+  },
+  "izakaya": {
+   "sitting": 0.2419,
+   "standing": 0.0558,
+   "on chair": 0.0233
+  },
+  "jungle": {
+   "standing": 0.141,
+   "sitting": 0.1144,
+   "lying": 0.0245,
+   "flying": 0.0225,
+   "walking": 0.0184,
+   "kneeling": 0.0163,
+   "squatting": 0.0157,
+   "running": 0.0157
+  },
+  "kitchen": {
+   "standing": 0.2172,
+   "sitting": 0.1032
+  },
+  "laboratory": {
+   "standing": 0.2366,
+   "sitting": 0.1853,
+   "lying": 0.0398,
+   "on back": 0.0251,
+   "running": 0.0188
+  },
+  "lake": {
+   "standing": 0.1856,
+   "sitting": 0.1796,
+   "flying": 0.037,
+   "lying": 0.0242,
+   "walking": 0.0234,
+   "floating": 0.0214,
+   "on ground": 0.0182
+  },
+  "landscape": {
+   "standing": 0.1388,
+   "sitting": 0.0754,
+   "flying": 0.042,
+   "walking": 0.0364,
+   "floating": 0.014,
+   "on ground": 0.0114,
+   "lying": 0.008
+  },
+  "library": {
+   "sitting": 0.2386,
+   "standing": 0.1282,
+   "floating": 0.0322,
+   "on chair": 0.0284,
+   "lying": 0.0242,
+   "flying": 0.0166,
+   "on floor": 0.0166,
+   "squatting": 0.0132,
+   "walking": 0.0124,
+   "kneeling": 0.0122
+  },
+  "lighthouse": {
+   "standing": 0.2037,
+   "sitting": 0.1761,
+   "walking": 0.0319,
+   "flying": 0.0252,
+   "lying": 0.0232
+  },
+  "living room": {
+   "sitting": 0.4373,
+   "on couch": 0.2791,
+   "lying": 0.118,
+   "standing": 0.1106,
+   "on floor": 0.069,
+   "on back": 0.0527,
+   "kneeling": 0.0527,
+   "on chair": 0.0453,
+   "on stomach": 0.0371,
+   "indian style": 0.0267,
+   "on side": 0.0252
+  },
+  "locker room": {
+   "standing": 0.2814,
+   "sitting": 0.1212,
+   "lying": 0.033,
+   "straddling": 0.0232,
+   "on back": 0.021,
+   "on floor": 0.0198,
+   "kneeling": 0.0182,
+   "squatting": 0.0166
+  },
+  "love hotel": {
+   "on bed": 0.3483,
+   "sitting": 0.1973,
+   "lying": 0.1486,
+   "standing": 0.1373,
+   "on back": 0.0999,
+   "straddling": 0.0474,
+   "kneeling": 0.0387,
+   "wariza": 0.0337,
+   "on side": 0.0325,
+   "on stomach": 0.0312,
+   "all fours": 0.0262
+  },
+  "maid cafe": {
+   "standing": 0.1869,
+   "sitting": 0.1252,
+   "on chair": 0.0231
+  },
+  "mall": {
+   "standing": 0.2598,
+   "sitting": 0.1225,
+   "walking": 0.0735,
+   "floating": 0.0196,
+   "running": 0.0196
+  },
+  "market": {
+   "standing": 0.2437,
+   "walking": 0.0945,
+   "sitting": 0.0901,
+   "squatting": 0.0251,
+   "running": 0.0251,
+   "flying": 0.0236
+  },
+  "market stall": {
+   "standing": 0.2282,
+   "sitting": 0.0953,
+   "walking": 0.0584,
+   "squatting": 0.0216
+  },
+  "meadow": {
+   "sitting": 0.2033,
+   "standing": 0.1954,
+   "on ground": 0.1046,
+   "lying": 0.0947,
+   "on back": 0.0645,
+   "walking": 0.025,
+   "flying": 0.025,
+   "yokozuwari": 0.0191,
+   "kneeling": 0.0184,
+   "running": 0.0171,
+   "on side": 0.0164,
+   "wariza": 0.0164,
+   "floating": 0.0125
+  },
+  "messy room": {
+   "sitting": 0.3617,
+   "lying": 0.1883,
+   "on back": 0.1027,
+   "standing": 0.0963,
+   "on bed": 0.0899,
+   "on floor": 0.0878,
+   "on side": 0.0484,
+   "on chair": 0.0362,
+   "on stomach": 0.0346,
+   "on couch": 0.0335,
+   "wariza": 0.0293,
+   "kneeling": 0.0282,
+   "indian style": 0.0213
+  },
+  "moon": {
+   "sitting": 0.1322,
+   "standing": 0.1226,
+   "floating": 0.0258,
+   "flying": 0.0252,
+   "lying": 0.0202
+  },
+  "mountain": {
+   "standing": 0.1958,
+   "sitting": 0.1506,
+   "flying": 0.0498,
+   "walking": 0.0306,
+   "floating": 0.0196,
+   "lying": 0.0172,
+   "running": 0.0156,
+   "on ground": 0.0142
+  },
+  "movie theater": {
+   "sitting": 0.5516,
+   "on chair": 0.0861,
+   "standing": 0.0397,
+   "walking": 0.0142
+  },
+  "museum": {
+   "standing": 0.2159,
+   "sitting": 0.1092,
+   "walking": 0.0397,
+   "running": 0.0174,
+   "lying": 0.0149
+  },
+  "nature": {
+   "sitting": 0.174,
+   "standing": 0.171,
+   "lying": 0.0314,
+   "on ground": 0.031,
+   "walking": 0.0262,
+   "flying": 0.018,
+   "squatting": 0.0164,
+   "on back": 0.015,
+   "kneeling": 0.0148,
+   "floating": 0.0142
+  },
+  "nightclub": {
+   "standing": 0.1638,
+   "sitting": 0.1469,
+   "squatting": 0.1186,
+   "kneeling": 0.0339,
+   "lying": 0.0311,
+   "straddling": 0.0254
+  },
+  "ocean": {
+   "standing": 0.1892,
+   "sitting": 0.1454,
+   "lying": 0.0502,
+   "wariza": 0.0208,
+   "kneeling": 0.02,
+   "on back": 0.0174,
+   "on stomach": 0.0174,
+   "on side": 0.0136,
+   "walking": 0.0132
+  },
+  "office": {
+   "sitting": 0.3484,
+   "standing": 0.1121,
+   "on chair": 0.1006,
+   "lying": 0.0216,
+   "squatting": 0.0157
+  },
+  "on roof": {
+   "sitting": 0.4094,
+   "standing": 0.1994,
+   "squatting": 0.0436,
+   "lying": 0.0348,
+   "flying": 0.0348,
+   "running": 0.0232,
+   "floating": 0.0221
+  },
+  "onsen": {
+   "sitting": 0.3072,
+   "standing": 0.0854,
+   "lying": 0.0226,
+   "kneeling": 0.017,
+   "straddling": 0.0112,
+   "on back": 0.0108,
+   "wariza": 0.01
+  },
+  "otaku room": {
+   "sitting": 0.4052,
+   "lying": 0.1271,
+   "on chair": 0.0829,
+   "on bed": 0.0755,
+   "standing": 0.046,
+   "on back": 0.0442,
+   "on stomach": 0.0405,
+   "on floor": 0.0331,
+   "on side": 0.0258,
+   "wariza": 0.0258
+  },
+  "pagoda": {
+   "standing": 0.2363,
+   "sitting": 0.173,
+   "walking": 0.0404,
+   "flying": 0.0358,
+   "floating": 0.0221
+  },
+  "park": {
+   "sitting": 0.2789,
+   "standing": 0.1624,
+   "walking": 0.0369,
+   "squatting": 0.03,
+   "lying": 0.0219,
+   "running": 0.0179
+  },
+  "parking lot": {
+   "standing": 0.2779,
+   "sitting": 0.1132,
+   "walking": 0.043,
+   "squatting": 0.0301,
+   "on ground": 0.0201,
+   "lying": 0.0186
+  },
+  "path": {
+   "standing": 0.216,
+   "walking": 0.1028,
+   "sitting": 0.073,
+   "running": 0.033,
+   "flying": 0.019,
+   "floating": 0.0138,
+   "lying": 0.0132
+  },
+  "phone booth": {
+   "standing": 0.2614,
+   "sitting": 0.0875,
+   "squatting": 0.0166
+  },
+  "pier": {
+   "sitting": 0.3779,
+   "standing": 0.1813,
+   "lying": 0.0415,
+   "walking": 0.0293,
+   "squatting": 0.0238,
+   "flying": 0.0189,
+   "running": 0.0165,
+   "on back": 0.0159,
+   "kneeling": 0.0153
+  },
+  "plain": {
+   "standing": 0.1846,
+   "sitting": 0.0954,
+   "walking": 0.0431,
+   "on ground": 0.0308,
+   "lying": 0.0277,
+   "floating": 0.0185,
+   "on back": 0.0154,
+   "flying": 0.0154,
+   "running": 0.0123
+  },
+  "planet": {
+   "sitting": 0.1006,
+   "standing": 0.1004,
+   "floating": 0.0686,
+   "flying": 0.0396,
+   "lying": 0.0196
+  },
+  "playground": {
+   "sitting": 0.2791,
+   "standing": 0.1538,
+   "squatting": 0.0415,
+   "lying": 0.0252,
+   "running": 0.0171,
+   "on back": 0.0163,
+   "walking": 0.0146
+  },
+  "pond": {
+   "sitting": 0.262,
+   "standing": 0.1572,
+   "lying": 0.0552,
+   "on back": 0.0304,
+   "squatting": 0.0248,
+   "walking": 0.0243,
+   "on ground": 0.0233,
+   "kneeling": 0.0192,
+   "floating": 0.019,
+   "seiza": 0.0149,
+   "on side": 0.0144
+  },
+  "pool": {
+   "sitting": 0.2162,
+   "standing": 0.1546,
+   "lying": 0.0592,
+   "on back": 0.0288,
+   "kneeling": 0.0216,
+   "on stomach": 0.0136,
+   "squatting": 0.0118,
+   "on side": 0.0116
+  },
+  "poolside": {
+   "sitting": 0.3534,
+   "standing": 0.1322,
+   "lying": 0.067,
+   "on back": 0.0298,
+   "kneeling": 0.0294,
+   "on side": 0.0198,
+   "wariza": 0.0188,
+   "all fours": 0.0142,
+   "on stomach": 0.013,
+   "squatting": 0.0124
+  },
+  "prison": {
+   "sitting": 0.1817,
+   "standing": 0.1114,
+   "kneeling": 0.0503,
+   "lying": 0.0495,
+   "squatting": 0.0433,
+   "on back": 0.0271,
+   "on floor": 0.0217,
+   "walking": 0.0209,
+   "on bed": 0.0186,
+   "wariza": 0.0178,
+   "straddling": 0.0178
+  },
+  "prison cell": {
+   "sitting": 0.164,
+   "standing": 0.0957,
+   "lying": 0.0577,
+   "squatting": 0.0418,
+   "kneeling": 0.041,
+   "on back": 0.0372,
+   "straddling": 0.0281,
+   "on floor": 0.0258,
+   "all fours": 0.019,
+   "on bed": 0.0175,
+   "on side": 0.0167
+  },
+  "public restroom": {
+   "standing": 0.2538,
+   "sitting": 0.1746,
+   "squatting": 0.0844,
+   "kneeling": 0.032,
+   "on floor": 0.0275,
+   "lying": 0.0222
+  },
+  "racetrack": {
+   "standing": 0.1325,
+   "sitting": 0.1069,
+   "running": 0.0392,
+   "lying": 0.0196
+  },
+  "railroad crossing": {
+   "standing": 0.2594,
+   "walking": 0.057,
+   "sitting": 0.0535,
+   "running": 0.0175,
+   "squatting": 0.0167
+  },
+  "railroad tracks": {
+   "standing": 0.2348,
+   "sitting": 0.1139,
+   "walking": 0.0525,
+   "lying": 0.0203,
+   "running": 0.02,
+   "squatting": 0.0131,
+   "flying": 0.0131
+  },
+  "restaurant": {
+   "sitting": 0.42,
+   "standing": 0.1048,
+   "on chair": 0.0538
+  },
+  "rice paddy": {
+   "standing": 0.1909,
+   "sitting": 0.1127,
+   "walking": 0.0833,
+   "running": 0.0261,
+   "squatting": 0.0235,
+   "flying": 0.0235,
+   "lying": 0.016,
+   "on ground": 0.0135
+  },
+  "river": {
+   "sitting": 0.1826,
+   "standing": 0.1742,
+   "walking": 0.0388,
+   "flying": 0.038,
+   "lying": 0.024,
+   "on ground": 0.0166,
+   "squatting": 0.0164,
+   "floating": 0.0136,
+   "running": 0.013,
+   "on back": 0.0122
+  },
+  "road": {
+   "standing": 0.2378,
+   "walking": 0.0944,
+   "sitting": 0.081,
+   "running": 0.031,
+   "squatting": 0.0202,
+   "flying": 0.0156
+  },
+  "roller coaster": {
+   "sitting": 0.1616,
+   "standing": 0.1351,
+   "walking": 0.0212,
+   "floating": 0.0185
+  },
+  "rooftop": {
+   "sitting": 0.2396,
+   "standing": 0.207,
+   "lying": 0.0272,
+   "squatting": 0.0256,
+   "flying": 0.0234,
+   "jumping": 0.0166,
+   "floating": 0.015,
+   "walking": 0.015
+  },
+  "ruins": {
+   "standing": 0.2398,
+   "sitting": 0.1768,
+   "walking": 0.0252,
+   "floating": 0.0234,
+   "flying": 0.0198,
+   "lying": 0.0184,
+   "kneeling": 0.0154
+  },
+  "running track": {
+   "standing": 0.227,
+   "running": 0.1577,
+   "sitting": 0.108,
+   "stretching": 0.0607,
+   "lying": 0.0411,
+   "on ground": 0.0411,
+   "jumping": 0.0245,
+   "squatting": 0.0239,
+   "all fours": 0.0227,
+   "on back": 0.0209,
+   "kneeling": 0.0153
+  },
+  "rural": {
+   "standing": 0.181,
+   "sitting": 0.1003,
+   "walking": 0.0875,
+   "running": 0.0173,
+   "lying": 0.0166,
+   "on ground": 0.0143,
+   "squatting": 0.0113
+  },
+  "sauna": {
+   "sitting": 0.532,
+   "standing": 0.0574,
+   "lying": 0.0574,
+   "on back": 0.0336,
+   "kneeling": 0.0152,
+   "on stomach": 0.0141,
+   "straddling": 0.0135
+  },
+  "savannah": {
+   "standing": 0.1496,
+   "sitting": 0.1496,
+   "running": 0.0525,
+   "walking": 0.0446,
+   "on ground": 0.0446,
+   "lying": 0.042,
+   "all fours": 0.0341,
+   "jumping": 0.0262,
+   "wariza": 0.021,
+   "flying": 0.021,
+   "kneeling": 0.0184,
+   "on stomach": 0.0184,
+   "on back": 0.0157
+  },
+  "school": {
+   "sitting": 0.21,
+   "standing": 0.1978,
+   "on chair": 0.04,
+   "walking": 0.0296,
+   "lying": 0.0208,
+   "squatting": 0.0188,
+   "running": 0.0158
+  },
+  "school gateway": {
+   "standing": 0.4626,
+   "walking": 0.0554,
+   "running": 0.036,
+   "sitting": 0.0305
+  },
+  "school gym": {
+   "standing": 0.2193,
+   "sitting": 0.1929,
+   "on floor": 0.0992,
+   "lying": 0.0637,
+   "jumping": 0.0391,
+   "stretching": 0.0391,
+   "on back": 0.0364,
+   "kneeling": 0.0346,
+   "straddling": 0.0328,
+   "all fours": 0.0218,
+   "squatting": 0.0209,
+   "running": 0.02,
+   "wariza": 0.0182,
+   "top-down bottom-up": 0.0136,
+   "indian style": 0.0136
+  },
+  "seafloor": {
+   "sitting": 0.0787,
+   "standing": 0.0656,
+   "floating": 0.0341,
+   "walking": 0.0341,
+   "lying": 0.0289,
+   "kneeling": 0.0184
+  },
+  "shop": {
+   "standing": 0.2322,
+   "sitting": 0.0918,
+   "walking": 0.0472,
+   "squatting": 0.0302
+  },
+  "shore": {
+   "standing": 0.1926,
+   "sitting": 0.165,
+   "lying": 0.0666,
+   "on back": 0.0328,
+   "squatting": 0.0254,
+   "kneeling": 0.024,
+   "walking": 0.0222,
+   "wariza": 0.0214,
+   "on side": 0.0168,
+   "on stomach": 0.0166,
+   "on ground": 0.0158
+  },
+  "shower (place)": {
+   "standing": 0.3357,
+   "sitting": 0.0513,
+   "kneeling": 0.0138,
+   "straddling": 0.0116,
+   "squatting": 0.0114,
+   "on floor": 0.0112
+  },
+  "shrine": {
+   "standing": 0.1974,
+   "sitting": 0.1284,
+   "walking": 0.0224,
+   "lying": 0.0164,
+   "squatting": 0.0158,
+   "flying": 0.0152
+  },
+  "sidewalk": {
+   "standing": 0.2712,
+   "walking": 0.1384,
+   "sitting": 0.0881,
+   "squatting": 0.0336,
+   "running": 0.0231
+  },
+  "skating rink": {
+   "standing": 0.1628,
+   "sitting": 0.0631,
+   "lying": 0.0233,
+   "on back": 0.0233
+  },
+  "skyscraper": {
+   "standing": 0.2304,
+   "sitting": 0.161,
+   "flying": 0.0324,
+   "walking": 0.0264,
+   "floating": 0.0238,
+   "lying": 0.019,
+   "falling": 0.0178,
+   "squatting": 0.0148,
+   "midair": 0.0148
+  },
+  "soapland": {
+   "lying": 0.2241,
+   "sitting": 0.1958,
+   "on back": 0.1415,
+   "kneeling": 0.1108,
+   "straddling": 0.1061,
+   "on stomach": 0.0637,
+   "seiza": 0.0495,
+   "wariza": 0.0401,
+   "all fours": 0.0377,
+   "standing": 0.0354,
+   "on side": 0.033
+  },
+  "space": {
+   "floating": 0.0886,
+   "standing": 0.0734,
+   "sitting": 0.0674,
+   "flying": 0.051,
+   "lying": 0.0168
+  },
+  "space station": {
+   "flying": 0.1265,
+   "floating": 0.1148,
+   "standing": 0.0715,
+   "sitting": 0.0632,
+   "lying": 0.0116
+  },
+  "spacecraft interior": {
+   "sitting": 0.1832,
+   "floating": 0.0823,
+   "standing": 0.0749,
+   "lying": 0.0416,
+   "flying": 0.0389,
+   "on bed": 0.0222,
+   "on back": 0.0185,
+   "on chair": 0.0176,
+   "kneeling": 0.0139,
+   "walking": 0.0139
+  },
+  "stadium": {
+   "standing": 0.2508,
+   "sitting": 0.0847,
+   "running": 0.033,
+   "jumping": 0.0303,
+   "squatting": 0.0286
+  },
+  "stage": {
+   "standing": 0.2606,
+   "sitting": 0.0788,
+   "jumping": 0.0232,
+   "squatting": 0.0222,
+   "kneeling": 0.0192
+  },
+  "stone walkway": {
+   "standing": 0.2105,
+   "sitting": 0.096,
+   "walking": 0.0774,
+   "lying": 0.0268,
+   "squatting": 0.0248,
+   "running": 0.0237,
+   "on ground": 0.0227,
+   "kneeling": 0.0206,
+   "on back": 0.0196,
+   "floating": 0.0196
+  },
+  "stream": {
+   "sitting": 0.2328,
+   "standing": 0.189,
+   "walking": 0.042,
+   "lying": 0.0309,
+   "squatting": 0.0287,
+   "on ground": 0.0221,
+   "running": 0.0172,
+   "kneeling": 0.0168,
+   "flying": 0.0168,
+   "floating": 0.0141,
+   "on back": 0.0133
+  },
+  "street": {
+   "standing": 0.24,
+   "walking": 0.1012,
+   "sitting": 0.0748,
+   "running": 0.0308,
+   "squatting": 0.0228
+  },
+  "subway": {
+   "sitting": 0.2781,
+   "standing": 0.1775,
+   "walking": 0.0318,
+   "running": 0.0146
+  },
+  "subway station": {
+   "standing": 0.2634,
+   "sitting": 0.0793,
+   "walking": 0.0614,
+   "running": 0.0409,
+   "squatting": 0.0256,
+   "wariza": 0.0153
+  },
+  "supermarket": {
+   "standing": 0.2039,
+   "sitting": 0.0749,
+   "walking": 0.0416,
+   "squatting": 0.0374,
+   "lying": 0.025,
+   "on back": 0.0166
+  },
+  "tavern": {
+   "sitting": 0.3514,
+   "standing": 0.1637,
+   "on chair": 0.0385
+  },
+  "temple": {
+   "standing": 0.1981,
+   "sitting": 0.1223,
+   "walking": 0.0341,
+   "flying": 0.0263,
+   "floating": 0.0209,
+   "lying": 0.0163,
+   "kneeling": 0.0155
+  },
+  "theater": {
+   "sitting": 0.3155,
+   "standing": 0.2039,
+   "on chair": 0.0558,
+   "walking": 0.017
+  },
+  "toilet stall": {
+   "sitting": 0.2249,
+   "standing": 0.1861,
+   "squatting": 0.1097,
+   "straddling": 0.0307,
+   "kneeling": 0.0285,
+   "lying": 0.0161
+  },
+  "tower": {
+   "standing": 0.1842,
+   "sitting": 0.1262,
+   "flying": 0.0536,
+   "walking": 0.0334,
+   "floating": 0.0248,
+   "running": 0.0154
+  },
+  "town": {
+   "standing": 0.2127,
+   "sitting": 0.1226,
+   "walking": 0.066,
+   "flying": 0.0351,
+   "running": 0.0224,
+   "floating": 0.0161
+  },
+  "train interior": {
+   "sitting": 0.4244,
+   "standing": 0.1862
+  },
+  "train station": {
+   "standing": 0.2849,
+   "sitting": 0.1417,
+   "walking": 0.0473,
+   "running": 0.0154
+  },
+  "train station platform": {
+   "standing": 0.3666,
+   "sitting": 0.1377,
+   "walking": 0.0446
+  },
+  "treehouse": {
+   "sitting": 0.1862,
+   "standing": 0.1347,
+   "lying": 0.043,
+   "flying": 0.0344,
+   "walking": 0.0287,
+   "on stomach": 0.0172
+  },
+  "tunnel": {
+   "standing": 0.208,
+   "sitting": 0.0793,
+   "walking": 0.0655,
+   "running": 0.031,
+   "lying": 0.0241,
+   "floating": 0.0149
+  },
+  "underwater": {
+   "sitting": 0.0498,
+   "standing": 0.0196,
+   "lying": 0.014,
+   "floating": 0.0124
+  },
+  "vehicle interior": {
+   "sitting": 0.399,
+   "standing": 0.06,
+   "lying": 0.0446,
+   "on back": 0.0219
+  },
+  "village": {
+   "standing": 0.1838,
+   "sitting": 0.1043,
+   "walking": 0.0586,
+   "flying": 0.0449,
+   "floating": 0.0161,
+   "running": 0.0144,
+   "on ground": 0.0144
+  },
+  "volcano": {
+   "standing": 0.1554,
+   "sitting": 0.1018,
+   "flying": 0.0761,
+   "lying": 0.0326,
+   "running": 0.0202,
+   "walking": 0.0179,
+   "squatting": 0.0155,
+   "on stomach": 0.0155
+  },
+  "warehouse": {
+   "standing": 0.1755,
+   "sitting": 0.1556,
+   "kneeling": 0.0331,
+   "squatting": 0.0265
+  },
+  "water": {
+   "sitting": 0.1772,
+   "standing": 0.1536,
+   "lying": 0.0678,
+   "on back": 0.037,
+   "kneeling": 0.0204,
+   "wariza": 0.0142,
+   "on side": 0.013
+  },
+  "waterfall": {
+   "sitting": 0.2048,
+   "standing": 0.1904,
+   "flying": 0.034,
+   "lying": 0.0248,
+   "walking": 0.02,
+   "kneeling": 0.0162,
+   "floating": 0.0156,
+   "on ground": 0.0136,
+   "squatting": 0.013
+  },
+  "waterpark": {
+   "standing": 0.2275,
+   "sitting": 0.1826,
+   "lying": 0.0419,
+   "on back": 0.0329,
+   "midair": 0.024,
+   "running": 0.021
+  },
+  "well": {
+   "sitting": 0.1655,
+   "standing": 0.1199,
+   "lying": 0.0338,
+   "flying": 0.0203,
+   "falling": 0.0203,
+   "on back": 0.0186,
+   "kneeling": 0.0186,
+   "walking": 0.0152
+  },
+  "wetland": {
+   "standing": 0.1599,
+   "sitting": 0.129,
+   "lying": 0.0444,
+   "walking": 0.0282,
+   "on back": 0.0188,
+   "floating": 0.0148,
+   "flying": 0.0134,
+   "on ground": 0.0134,
+   "squatting": 0.0121
+  },
+  "wheat field": {
+   "standing": 0.1952,
+   "sitting": 0.0737,
+   "lying": 0.0395,
+   "on back": 0.0296,
+   "walking": 0.0197,
+   "on ground": 0.0145,
+   "running": 0.013
+  },
+  "windmill": {
+   "standing": 0.206,
+   "sitting": 0.1623,
+   "flying": 0.0366,
+   "walking": 0.0277,
+   "on ground": 0.0248,
+   "lying": 0.0159
+  },
+  "wooden bridge": {
+   "standing": 0.2733,
+   "sitting": 0.1422,
+   "walking": 0.09,
+   "flying": 0.0411,
+   "floating": 0.0284,
+   "lying": 0.019,
+   "running": 0.019
+  },
+  "wrestling ring": {
+   "standing": 0.0759,
+   "sitting": 0.0702,
+   "lying": 0.063,
+   "on back": 0.0351,
+   "jumping": 0.0206,
+   "kneeling": 0.0186,
+   "straddling": 0.0144
+  },
+  "zoo": {
+   "standing": 0.0964,
+   "sitting": 0.0663,
+   "lying": 0.0331,
+   "squatting": 0.0241
+  }
+ }
+}

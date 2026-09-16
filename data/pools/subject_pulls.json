@@ -1,0 +1,2887 @@
+{
+ "locations": {
+  "airfield": {
+   "goggles": 19.4
+  },
+  "airplane interior": {
+   "garrison cap": 24.5,
+   "goggles": 4.2,
+   "headset": 6.3,
+   "helmet": 3.5,
+   "scarf": 3.8,
+   "skirt suit": 67.4,
+   "suit": 6.7,
+   "suitcase": 30.6,
+   "sunglasses": 3.1
+  },
+  "airport": {
+   "backpack": 10.2,
+   "casual": 9.3,
+   "jeans": 9.6,
+   "pants": 3.4,
+   "shoulder bag": 14.9,
+   "sneakers": 8.4,
+   "suit": 5.1,
+   "suitcase": 431.3,
+   "sunglasses": 9.4,
+   "watch": 10.6
+  },
+  "aisle": {
+   "casual": 22.0,
+   "collared shirt": 3.8,
+   "hood": 3.3
+  },
+  "alley": {
+   "backpack": 5.2,
+   "hoodie": 3.1,
+   "sneakers": 5.2
+  },
+  "amphitheater": {},
+  "amusement park": {
+   "backpack": 5.3,
+   "beret": 4.2,
+   "cardigan": 3.3,
+   "casual": 8.2,
+   "dot nose": 4.6,
+   "fake animal ears": 4.6,
+   "handbag": 14.2,
+   "plaid skirt": 3.0,
+   "shoulder bag": 11.4
+  },
+  "apartment": {
+   "backpack": 4.2,
+   "hoodie": 3.0,
+   "school bag": 7.3,
+   "sneakers": 3.2,
+   "t-shirt": 4.2
+  },
+  "aquarium": {
+   "backpack": 4.9,
+   "casual": 7.6,
+   "handbag": 13.9,
+   "plaid skirt": 3.3,
+   "shoulder bag": 11.5
+  },
+  "aqueduct": {
+   "armor": 4.0
+  },
+  "arcade": {
+   "backpack": 6.4,
+   "casual": 8.0,
+   "headphones": 5.1,
+   "hood": 3.4,
+   "hoodie": 4.5,
+   "sneakers": 5.8
+  },
+  "archery dojo": {
+   "brown gloves": 13.4,
+   "hakama": 117.9,
+   "hakama short skirt": 146.5,
+   "hakama skirt": 141.2,
+   "japanese clothes": 17.4,
+   "muneate": 517.8,
+   "partially fingerless gloves": 170.6,
+   "single glove": 74.0,
+   "tasuki": 191.4,
+   "yugake": 1929.2
+  },
+  "architecture": {
+   "chinese clothes": 11.1,
+   "floral print": 7.3,
+   "hakama": 8.6,
+   "hanfu": 29.0,
+   "kimono": 6.8,
+   "obi": 8.3,
+   "qipao": 6.6,
+   "robe": 7.3,
+   "sash": 6.9,
+   "tassel": 10.4
+  },
+  "arena": {
+   "armor": 8.4,
+   "bandages": 4.9,
+   "bikini armor": 25.2,
+   "cape": 4.2,
+   "gauntlets": 6.0,
+   "helmet": 10.2,
+   "pelvic curtain": 5.5,
+   "thigh boots": 4.5,
+   "torn clothes": 4.6,
+   "wristband": 10.2
+  },
+  "armory": {
+   "armor": 7.2,
+   "belt": 5.2,
+   "boots": 3.8,
+   "helmet": 15.4,
+   "nose": 53.0
+  },
+  "art gallery": {
+   "beret": 3.9,
+   "black hat": 4.1,
+   "buttons": 3.7,
+   "capelet": 3.8,
+   "coat": 3.9,
+   "pants": 3.6,
+   "purple hat": 23.4,
+   "three-quarter sleeves": 30.1
+  },
+  "ashiyu": {
+   "barefoot": 8.1,
+   "floral print": 6.2,
+   "haori": 34.2,
+   "horse ears": 4.5,
+   "japanese clothes": 10.7,
+   "kimono": 15.9,
+   "obi": 20.1,
+   "sash": 14.3,
+   "wide sleeves": 6.1,
+   "yukata": 98.6
+  },
+  "asteroid": {
+   "helmet": 7.0,
+   "mecha pilot suit": 20.1,
+   "military uniform": 3.3,
+   "spikes": 8.0
+  },
+  "backstage": {
+   "armband": 6.6,
+   "detached collar": 5.1,
+   "dot nose": 8.4,
+   "faceless": 7.9,
+   "headset": 13.9,
+   "idol clothes": 157.5,
+   "mini hat": 28.3,
+   "strapless dress": 8.8,
+   "top hat": 16.3,
+   "wrist cuffs": 4.3
+  },
+  "bakery": {
+   "apron": 11.8,
+   "brown hat": 9.4,
+   "buttons": 3.6,
+   "chef hat": 140.6,
+   "dog ears": 5.4,
+   "handbag": 13.9,
+   "headscarf": 34.9,
+   "oven mitts": 183.5,
+   "white hat": 4.0
+  },
+  "ballroom": {
+   "epaulettes": 14.1,
+   "formal clothes": 32.6,
+   "frilled sleeves": 11.1,
+   "long skirt": 10.7,
+   "off-shoulder dress": 15.0,
+   "pendant": 12.3,
+   "strapless dress": 12.3,
+   "suit": 14.1,
+   "tokin hat": 12.6,
+   "tuxedo": 161.3
+  },
+  "bamboo forest": {
+   "brooch": 6.7,
+   "carrot necklace": 151.8,
+   "floppy ears": 20.8,
+   "hanfu": 13.8,
+   "long skirt": 9.0,
+   "nurse cap": 8.1,
+   "rabbit ears": 6.8,
+   "suspenders": 17.7,
+   "wide sleeves": 5.8,
+   "wolf ears": 9.3
+  },
+  "bar (place)": {
+   "black bowtie": 9.0,
+   "detached collar": 9.5,
+   "fake animal ears": 9.9,
+   "fake tail": 11.7,
+   "fishnet pantyhose": 16.4,
+   "fishnets": 8.9,
+   "playboy bunny": 16.8,
+   "rabbit ears": 8.6,
+   "strapless leotard": 15.9,
+   "wrist cuffs": 8.9
+  },
+  "barn": {
+   "animal print": 16.3,
+   "bell": 10.2,
+   "cow ears": 39.8,
+   "cow print": 54.7,
+   "cow print gloves": 86.4,
+   "cowboy hat": 42.5,
+   "micro bikini": 6.7,
+   "neck bell": 14.1,
+   "overalls": 20.3,
+   "print gloves": 54.3
+  },
+  "baseball stadium": {
+   "baseball helmet": 1122.9,
+   "baseball mitt": 2005.2,
+   "belt buckle": 78.2,
+   "belt pouch": 127.0,
+   "bike shorts": 62.7,
+   "pink neckerchief": 306.3,
+   "shin guards": 410.4,
+   "sportswear": 275.3,
+   "striped shirt": 96.9,
+   "wristband": 58.3
+  },
+  "bathroom": {
+   "pubic hair": 4.2
+  },
+  "bathtub": {
+   "barefoot": 3.6
+  },
+  "battlefield": {
+   "armor": 17.1,
+   "armored boots": 19.5,
+   "armored dress": 33.9,
+   "camouflage": 22.4,
+   "cape": 6.1,
+   "gauntlets": 26.4,
+   "helmet": 26.1,
+   "military uniform": 15.6,
+   "pauldrons": 20.6,
+   "pouch": 9.9
+  },
+  "beach": {
+   "bikini": 11.1,
+   "halterneck": 7.7,
+   "sandals": 6.1,
+   "sarong": 17.8,
+   "side-tie bikini bottom": 13.7,
+   "straw hat": 12.4,
+   "string bikini": 12.5,
+   "sun hat": 15.2,
+   "sunglasses": 7.7,
+   "swimsuit": 9.9
+  },
+  "bedroom": {
+   "barefoot": 3.7,
+   "bra": 4.7,
+   "lingerie": 5.6,
+   "no shoes": 5.1,
+   "pajamas": 18.6,
+   "panties": 3.0,
+   "pubic hair": 3.2
+  },
+  "bell tower": {
+   "ascot": 3.8,
+   "bell": 33.1,
+   "capelet": 3.0,
+   "flower": 3.6,
+   "frilled sleeves": 4.3,
+   "gem": 5.6,
+   "suit": 6.1,
+   "veil": 9.7
+  },
+  "bookstore": {
+   "apron": 7.9,
+   "backpack": 11.8,
+   "black-framed eyewear": 8.7,
+   "glasses": 5.3,
+   "handbag": 17.2,
+   "long skirt": 9.0,
+   "school bag": 11.4,
+   "shoulder bag": 16.0,
+   "watch": 8.9,
+   "wristwatch": 13.2
+  },
+  "bowling alley": {
+   "kneehighs": 4.5,
+   "miniskirt": 3.5,
+   "pleated skirt": 3.1,
+   "sneakers": 9.6
+  },
+  "boxing ring": {
+   "bandages": 5.5,
+   "bandaid": 4.5,
+   "bike shorts": 7.8,
+   "blue gloves": 14.9,
+   "boxing gloves": 1548.1,
+   "crop top": 4.2,
+   "red gloves": 18.4,
+   "shorts": 7.4,
+   "sportswear": 10.5,
+   "tank top": 7.9
+  },
+  "bridge": {
+   "backpack": 4.5,
+   "floral print": 3.2,
+   "kimono": 3.0,
+   "obi": 3.9,
+   "sash": 3.4
+  },
+  "bunker": {
+   "boots": 3.4,
+   "helmet": 33.4,
+   "military uniform": 35.7,
+   "pants": 3.7
+  },
+  "bus interior": {
+   "backpack": 9.1,
+   "cardigan": 4.5,
+   "earphones": 33.3,
+   "faceless": 4.8,
+   "garrison cap": 28.3,
+   "handbag": 9.5,
+   "red necktie": 5.0,
+   "school bag": 20.5,
+   "shoulder bag": 10.2,
+   "sweater vest": 5.0
+  },
+  "bus stop": {
+   "backpack": 8.8,
+   "kneehighs": 4.9,
+   "loafers": 8.3,
+   "plaid skirt": 4.4,
+   "school bag": 34.4,
+   "school uniform": 3.6,
+   "see-through clothes": 5.5,
+   "serafuku": 3.8,
+   "shoulder bag": 12.8,
+   "suitcase": 33.1
+  },
+  "cafe": {
+   "apron": 10.6,
+   "casual": 7.1,
+   "maid": 7.2,
+   "maid headdress": 6.2,
+   "sweater": 3.6,
+   "waitress": 49.6
+  },
+  "cafeteria": {
+   "blazer": 5.3,
+   "dot nose": 5.3,
+   "faceless": 8.2,
+   "horse ears": 4.9,
+   "lapels": 10.4,
+   "military uniform": 4.1,
+   "plaid skirt": 4.6,
+   "pocket": 8.5,
+   "sailor shirt": 15.1,
+   "school uniform": 4.1
+  },
+  "canal": {
+   "backpack": 6.0,
+   "school bag": 10.5,
+   "shoulder bag": 9.2
+  },
+  "candy store": {
+   "apron": 3.4,
+   "backpack": 8.5,
+   "buttons": 3.9,
+   "sandals": 6.2,
+   "scarf": 4.3,
+   "socks": 3.4
+  },
+  "canyon": {
+   "backpack": 5.9,
+   "brown gloves": 4.9,
+   "cape": 3.1,
+   "chaps": 82.9,
+   "cowboy hat": 24.0,
+   "gem": 3.1,
+   "goggles": 4.5,
+   "helmet": 5.5,
+   "pauldrons": 5.4,
+   "pouch": 5.5
+  },
+  "car interior": {
+   "black necktie": 3.1,
+   "formal clothes": 4.5,
+   "suit": 5.3,
+   "sunglasses": 4.9
+  },
+  "carousel": {
+   "beret": 3.4,
+   "capelet": 3.2,
+   "dot nose": 4.0,
+   "frilled sleeves": 4.5,
+   "frills": 3.1,
+   "shoes": 3.1,
+   "sweet lolita": 198.5,
+   "top hat": 8.5,
+   "yume kawaii": 82.2
+  },
+  "casino": {
+   "detached collar": 26.9,
+   "fake animal ears": 26.8,
+   "fake tail": 30.0,
+   "fishnet pantyhose": 50.6,
+   "fishnets": 27.1,
+   "leotard": 22.8,
+   "playboy bunny": 51.8,
+   "rabbit ears": 24.2,
+   "strapless leotard": 46.5,
+   "traditional bowtie": 65.3
+  },
+  "castle": {
+   "armor": 6.1,
+   "cape": 5.5,
+   "crown": 7.8,
+   "gauntlets": 7.9,
+   "gem": 3.9,
+   "helmet": 5.2,
+   "pauldrons": 7.3,
+   "tiara": 5.8,
+   "witch hat": 4.8
+  },
+  "cat cafe": {
+   "apron": 15.7,
+   "bowtie": 4.4,
+   "cat ears": 7.1,
+   "maid": 11.5,
+   "maid headdress": 10.5,
+   "short sleeves": 3.2,
+   "socks": 3.8,
+   "waitress": 110.6
+  },
+  "cathedral": {
+   "angel wings": 7.3,
+   "armor": 3.6,
+   "cape": 4.0,
+   "capelet": 3.3,
+   "feathered wings": 5.1,
+   "gauntlets": 6.4,
+   "nun": 40.4,
+   "robe": 8.8,
+   "thigh boots": 3.4,
+   "veil": 14.8
+  },
+  "cave": {
+   "armor": 3.2,
+   "backpack": 4.2,
+   "colored skin": 4.1,
+   "green skin": 9.6,
+   "helmet": 4.1
+  },
+  "changing room": {
+   "bra": 13.0,
+   "lace trim": 5.3,
+   "lingerie": 8.3,
+   "no bra": 3.4,
+   "panties": 5.9,
+   "pubic hair": 3.7,
+   "school swimsuit": 7.4,
+   "wide-eyed": 8.2
+  },
+  "church": {
+   "cross necklace": 25.8,
+   "formal clothes": 5.0,
+   "lace trim": 6.4,
+   "nun": 61.5,
+   "pelvic curtain": 5.2,
+   "priest": 105.3,
+   "robe": 6.2,
+   "strapless dress": 11.0,
+   "tiara": 5.1,
+   "veil": 27.3
+  },
+  "city": {
+   "backpack": 3.8,
+   "sneakers": 3.4
+  },
+  "cityscape": {},
+  "classroom": {
+   "blazer": 9.1,
+   "cardigan": 6.0,
+   "kneehighs": 5.2,
+   "plaid skirt": 7.9,
+   "pleated skirt": 5.2,
+   "red neckerchief": 5.5,
+   "school bag": 13.9,
+   "school uniform": 7.2,
+   "serafuku": 5.5,
+   "uwabaki": 47.9
+  },
+  "cliff": {
+   "backpack": 4.9,
+   "cape": 3.4,
+   "helmet": 3.9
+  },
+  "clock tower": {
+   "ascot": 5.3,
+   "bat wings": 17.1,
+   "brooch": 4.1,
+   "hat bow": 4.8,
+   "hat ornament": 9.3,
+   "hat ribbon": 8.8,
+   "maid": 5.0,
+   "maid headdress": 5.7,
+   "mob cap": 8.7,
+   "witch hat": 5.1
+  },
+  "closet": {
+   "bra": 3.8
+  },
+  "clothes shop": {
+   "bra": 4.2,
+   "casual": 12.3,
+   "handbag": 30.4,
+   "hoodie": 5.1,
+   "jeans": 10.6,
+   "scrunchie": 4.7,
+   "shoulder bag": 16.1,
+   "sweater": 4.6,
+   "t-shirt": 6.6,
+   "wavy mouth": 4.7
+  },
+  "clubroom": {
+   "aqua neckerchief": 294.8,
+   "cardigan": 21.8,
+   "green bowtie": 36.7,
+   "half gloves": 19.8,
+   "red neckerchief": 43.5,
+   "sailor dress": 78.7,
+   "sideways mouth": 66.6,
+   "striped bowtie": 40.1,
+   "uwabaki": 86.5,
+   "yellow neckerchief": 42.2
+  },
+  "cockpit": {
+   "bodysuit": 17.6,
+   "bracer": 17.4,
+   "goggles": 5.2,
+   "headset": 6.9,
+   "helmet": 22.1,
+   "jumpsuit": 27.6,
+   "mecha pilot suit": 144.8,
+   "military uniform": 5.2,
+   "pilot helmet": 588.8,
+   "plugsuit (evangelion)": 108.2
+  },
+  "conservatory": {
+   "apron": 3.3,
+   "ascot": 3.9,
+   "buttons": 3.7,
+   "competition swimsuit": 18.9,
+   "flower": 6.5,
+   "hair flower": 4.6,
+   "maid headdress": 3.2
+  },
+  "construction site": {
+   "bear ears": 67.8,
+   "eyepatch": 10.1,
+   "fishnet gloves": 185.7,
+   "fishnets": 7.8,
+   "goggles": 18.6,
+   "hard hat": 924.1,
+   "helmet": 22.8,
+   "jumpsuit": 47.5,
+   "mismatched gloves": 53.5,
+   "single elbow glove": 51.9
+  },
+  "control tower": {
+   "helmet": 30.9,
+   "military uniform": 15.1
+  },
+  "convenience store": {
+   "apron": 4.1,
+   "backpack": 4.8,
+   "beret": 3.5,
+   "forehead": 6.7,
+   "mask": 3.1,
+   "striped shirt": 23.3
+  },
+  "convention": {
+   "@ @": 11.1,
+   "backpack": 9.6,
+   "baseball cap": 5.9,
+   "beret": 3.8,
+   "hoodie": 3.9,
+   "mask": 5.8,
+   "mob cap": 4.0,
+   "sunglasses": 5.2,
+   "t-shirt": 7.4,
+   "wavy mouth": 5.0
+  },
+  "cooling tower": {},
+  "courtroom": {
+   "badge": 22.6,
+   "formal clothes": 27.2,
+   "handcuffs": 20.8,
+   "lapel pin": 91.7,
+   "lapels": 16.0,
+   "magatama": 50.2,
+   "magatama necklace": 81.8,
+   "suit": 26.1,
+   "suit jacket": 17.1,
+   "waistcoat": 35.0
+  },
+  "crosswalk": {
+   "backpack": 8.6,
+   "coat": 3.1,
+   "hoodie": 3.0,
+   "kneehighs": 4.6,
+   "loafers": 8.2,
+   "school bag": 13.3,
+   "shoes": 4.1,
+   "shoulder bag": 15.7,
+   "sneakers": 8.0,
+   "socks": 3.5
+  },
+  "cubicle": {
+   "black-framed eyewear": 12.8,
+   "dress shirt": 10.6,
+   "formal clothes": 14.0,
+   "headset": 9.0,
+   "high-waist skirt": 14.8,
+   "lanyard": 193.4,
+   "semi-rimless eyewear": 12.0,
+   "skirt suit": 112.5,
+   "sleeves rolled up": 9.5,
+   "suit": 16.1
+  },
+  "dam": {
+   "hood": 3.4,
+   "hoodie": 6.3
+  },
+  "dance studio": {
+   "ballet class clothes": 7286.7,
+   "ballet slippers": 1486.6,
+   "bike shorts": 8.4,
+   "leg warmers": 18.9,
+   "leotard": 19.3,
+   "off-shoulder shirt": 12.9,
+   "pantyhose": 8.0,
+   "t-shirt": 12.7,
+   "torn pantyhose": 11.3,
+   "tutu": 726.6
+  },
+  "desert": {
+   "armlet": 5.4,
+   "armor": 3.2,
+   "backpack": 3.2,
+   "cowboy hat": 29.6,
+   "goggles": 6.9,
+   "helmet": 8.0,
+   "military uniform": 4.7
+  },
+  "dining room": {
+   "apron": 4.6,
+   "ascot": 3.5,
+   "dress shirt": 3.1,
+   "flower": 3.1,
+   "frilled sleeves": 3.9,
+   "puffy short sleeves": 3.5,
+   "turtleneck": 4.9,
+   "vest": 3.4
+  },
+  "dirt road": {
+   "backpack": 7.5,
+   "flower": 3.5,
+   "helmet": 3.8,
+   "military uniform": 4.4
+  },
+  "dock": {
+   "backpack": 3.4,
+   "sandals": 5.2
+  },
+  "dressing room": {
+   "beret": 5.5,
+   "bra": 4.7,
+   "dot nose": 11.3,
+   "idol clothes": 77.0,
+   "lace": 10.9,
+   "lace trim": 7.1,
+   "makeup": 6.1,
+   "mini hat": 13.9,
+   "plaid skirt": 5.4,
+   "white hat": 5.0
+  },
+  "drydock": {},
+  "dungeon": {
+   "blindfold": 13.7,
+   "collar": 6.9,
+   "cuffs": 46.2,
+   "gag": 40.4,
+   "green skin": 13.6,
+   "helmet": 5.3,
+   "metal collar": 43.2,
+   "shackles": 98.2,
+   "thigh boots": 5.4,
+   "torn clothes": 7.5
+  },
+  "factory": {
+   "backpack": 3.8,
+   "goggles": 4.6,
+   "helmet": 5.6,
+   "sneakers": 3.0
+  },
+  "farm": {
+   "animal print": 10.6,
+   "bell": 6.8,
+   "brown hat": 7.7,
+   "cow ears": 30.2,
+   "cow print": 34.8,
+   "neck bell": 7.6,
+   "overalls": 41.9,
+   "straw hat": 35.9,
+   "sun hat": 13.1
+  },
+  "ferris wheel": {
+   "beret": 3.3,
+   "handbag": 11.7,
+   "shoulder bag": 9.6
+  },
+  "field": {
+   "flower": 9.9,
+   "head wreath": 15.7,
+   "plaid skirt": 3.5,
+   "straw hat": 12.3,
+   "sun hat": 10.2
+  },
+  "fitness gym": {
+   "biceps": 38.5,
+   "dolphin shorts": 24.9,
+   "gym shorts": 87.4,
+   "gym uniform": 16.1,
+   "leggings": 34.2,
+   "sportswear": 50.7,
+   "tank top": 11.8,
+   "towel around neck": 46.4,
+   "wristband": 10.5,
+   "yoga pants": 362.6
+  },
+  "fitting room": {
+   "bikini": 6.5,
+   "bra": 9.5,
+   "halterneck": 7.1,
+   "lingerie": 10.9,
+   "micro bikini": 7.9,
+   "panties": 4.0,
+   "side-tie bikini bottom": 11.2,
+   "string bikini": 13.1,
+   "swimsuit": 5.5,
+   "wavy mouth": 5.7
+  },
+  "floating castle": {
+   "armor": 9.9,
+   "detached sleeves": 3.3,
+   "fingerless gloves": 3.0,
+   "white sleeves": 7.4
+  },
+  "floating city": {
+   "witch hat": 3.9
+  },
+  "floating island": {
+   "angel wings": 6.4,
+   "armor": 4.3,
+   "backpack": 3.2,
+   "cape": 3.2,
+   "feathered wings": 4.2,
+   "helmet": 3.1,
+   "knee boots": 4.2,
+   "robe": 4.9,
+   "tunic": 22.3
+  },
+  "flower field": {
+   "ascot": 3.8,
+   "capelet": 3.3,
+   "flower": 13.7,
+   "head wreath": 18.6,
+   "plaid skirt": 5.0,
+   "sleeveless dress": 3.6,
+   "straw hat": 15.9,
+   "sun hat": 13.4,
+   "vest": 3.2
+  },
+  "flower shop": {
+   "apron": 14.0,
+   "floral print": 3.5,
+   "flower": 12.2,
+   "hair flower": 3.0,
+   "pocket": 6.2,
+   "shoulder bag": 11.5,
+   "sleeves rolled up": 9.2,
+   "wing collar": 4.8
+  },
+  "forest": {
+   "backpack": 3.0,
+   "wolf ears": 3.4
+  },
+  "fountain": {
+   "flower": 4.2,
+   "gem": 3.2
+  },
+  "garage": {
+   "bandaid": 3.7,
+   "goggles": 6.6,
+   "helmet": 6.1,
+   "jeans": 10.8,
+   "jumpsuit": 35.8,
+   "overalls": 13.0,
+   "pants": 3.7,
+   "sneakers": 11.0,
+   "t-shirt": 5.2,
+   "tank top": 8.9
+  },
+  "garden": {
+   "floral print": 4.6,
+   "flower": 8.6,
+   "frilled sleeves": 4.8,
+   "juliet sleeves": 3.8
+  },
+  "gas station": {
+   "baseball cap": 24.2,
+   "denim shorts": 9.4,
+   "helmet": 4.8,
+   "jumpsuit": 27.7,
+   "pants": 3.5,
+   "red hat": 10.0,
+   "sneakers": 8.3,
+   "sunglasses": 4.0,
+   "tank top": 3.1
+  },
+  "gazebo": {
+   "ascot": 3.1,
+   "chinese clothes": 5.0,
+   "flower": 7.8,
+   "frilled sleeves": 4.0,
+   "gem": 6.9,
+   "hair flower": 4.2,
+   "hanfu": 20.9,
+   "juliet sleeves": 4.5,
+   "tiara": 6.0
+  },
+  "genkan": {
+   "backpack": 9.5,
+   "camisole": 6.8,
+   "handbag": 17.9,
+   "loafers": 10.9,
+   "sandals": 7.0,
+   "school bag": 17.0,
+   "shoes": 6.1,
+   "shoulder bag": 11.2,
+   "slippers": 72.6,
+   "sneakers": 10.5
+  },
+  "geyser": {},
+  "glacier": {
+   "bikini": 6.6,
+   "goggles": 59.5,
+   "scarf": 17.1,
+   "side-tie bikini bottom": 24.2,
+   "ski goggles": 3112.9,
+   "string bikini": 13.6,
+   "swimsuit": 5.2,
+   "white scarf": 124.3,
+   "white-framed eyewear": 90.4,
+   "zipper": 12.8
+  },
+  "grasslands": {
+   "backpack": 3.2,
+   "flower": 3.2,
+   "helmet": 3.4,
+   "knee boots": 3.4
+  },
+  "graveyard": {
+   "bandages": 6.2,
+   "bat wings": 6.0,
+   "colored skin": 3.0,
+   "formal clothes": 4.5,
+   "hat ornament": 16.3,
+   "juliet sleeves": 3.5,
+   "star hat ornament": 49.2,
+   "suit": 4.0,
+   "witch hat": 8.1
+  },
+  "greenhouse": {
+   "apron": 4.2,
+   "flower": 6.5,
+   "frilled sleeves": 3.8,
+   "puffy long sleeves": 4.1
+  },
+  "grocery store": {
+   "apron": 4.7,
+   "bandaid": 5.1,
+   "casual": 8.6,
+   "crop top": 4.0,
+   "headscarf": 26.7,
+   "necklace": 3.3,
+   "pants": 3.6,
+   "sandals": 6.2,
+   "shoulder bag": 16.3,
+   "sweatpants": 163.9
+  },
+  "gym": {},
+  "gym storeroom": {
+   "buruma": 111.7,
+   "gym shorts": 84.2,
+   "gym uniform": 132.8,
+   "kneehighs": 9.2,
+   "no bra": 12.7,
+   "no shoes": 6.3,
+   "short sleeves": 5.6,
+   "socks": 5.8,
+   "sportswear": 19.1,
+   "uwabaki": 45.9
+  },
+  "hallway": {
+   "blazer": 7.2,
+   "faceless": 4.7,
+   "kneehighs": 3.8,
+   "loafers": 4.0,
+   "military uniform": 3.9,
+   "plaid skirt": 4.0,
+   "pleated skirt": 3.4,
+   "school bag": 9.4,
+   "school uniform": 3.7,
+   "uwabaki": 32.5
+  },
+  "hangar": {
+   "bodysuit": 5.6,
+   "helmet": 17.3,
+   "jumpsuit": 42.5,
+   "mecha pilot suit": 75.8,
+   "military uniform": 11.0
+  },
+  "harbor": {
+   "backpack": 4.7,
+   "military uniform": 7.2,
+   "peaked cap": 6.4,
+   "serafuku": 3.6,
+   "sneakers": 3.7
+  },
+  "highway": {
+   "backpack": 4.1,
+   "helmet": 5.3,
+   "sneakers": 3.4
+  },
+  "hill": {
+   "backpack": 4.7,
+   "helmet": 3.3
+  },
+  "horse racing track": {
+   "buruma": 18.3,
+   "ear covers": 52.8,
+   "ear ornament": 68.7,
+   "gym shorts": 66.7,
+   "horse ears": 46.5,
+   "mini crown": 19.0,
+   "mismatched gloves": 27.9,
+   "pillbox hat": 166.7,
+   "sailor shirt": 25.4,
+   "track suit": 74.1
+  },
+  "hospital": {
+   "bandages": 13.6,
+   "bandaid": 7.4,
+   "garter straps": 3.5,
+   "mask": 3.4,
+   "nurse cap": 86.3,
+   "pajamas": 7.9,
+   "surgical mask": 42.1
+  },
+  "hotel": {
+   "backpack": 5.4,
+   "bra": 3.9,
+   "faceless": 8.8,
+   "floral print": 3.4,
+   "handbag": 14.5,
+   "ring": 3.2,
+   "sunglasses": 4.9
+  },
+  "hotel room": {
+   "bra": 5.6,
+   "faceless": 8.8,
+   "heart-shaped pupils": 3.2,
+   "no bra": 3.2,
+   "panties": 3.0,
+   "plaid skirt": 3.0,
+   "pubic hair": 7.0,
+   "ring": 4.1
+  },
+  "house": {
+   "backpack": 5.0
+  },
+  "hut": {
+   "barefoot": 3.3,
+   "bikini": 5.0,
+   "bracelet": 3.6,
+   "floral print": 3.2,
+   "sandals": 6.7,
+   "side-tie bikini bottom": 8.4,
+   "straw hat": 14.4,
+   "string bikini": 6.6,
+   "sunglasses": 3.1,
+   "swimsuit": 4.2
+  },
+  "in orbit": {
+   "casual": 5.2,
+   "helmet": 12.0,
+   "mecha pilot suit": 19.0,
+   "space helmet": 149.9
+  },
+  "industrial": {
+   "backpack": 4.2,
+   "eyeshadow": 4.0,
+   "goggles": 3.8,
+   "helmet": 6.9,
+   "steampunk": 148.1
+  },
+  "infirmary": {
+   "bandages": 4.7,
+   "bandaid": 5.1,
+   "bra": 5.7,
+   "buruma": 16.9,
+   "garter straps": 6.9,
+   "gym uniform": 21.3,
+   "lace trim": 7.0,
+   "no bra": 5.0,
+   "nurse cap": 95.7,
+   "white hat": 3.9
+  },
+  "island": {
+   "bikini": 3.1,
+   "sandals": 3.5,
+   "side-tie bikini bottom": 3.8,
+   "straw hat": 9.5,
+   "sun hat": 8.9,
+   "sunglasses": 3.5
+  },
+  "izakaya": {
+   "apron": 8.9,
+   "bird wings": 152.5,
+   "headscarf": 63.1,
+   "horn ornament": 17.7,
+   "japanese clothes": 8.8,
+   "kimono": 12.9,
+   "obi": 24.6,
+   "sash": 13.3,
+   "tasuki": 281.2,
+   "tokin hat": 12.0
+  },
+  "jetty": {
+   "sandals": 8.5,
+   "school uniform": 3.2,
+   "serafuku": 5.3,
+   "straw hat": 47.6
+  },
+  "jungle": {
+   "animal print": 6.3,
+   "armlet": 5.8,
+   "backpack": 6.9,
+   "camouflage": 28.2,
+   "helmet": 7.2,
+   "loincloth": 46.1,
+   "military uniform": 5.2,
+   "pouch": 7.3,
+   "tank top": 3.6
+  },
+  "junkyard": {
+   "boots": 3.9,
+   "goggles": 6.4,
+   "knee boots": 6.7,
+   "mask": 5.4,
+   "neckerchief": 3.5,
+   "sneakers": 7.0,
+   "torn clothes": 3.2
+  },
+  "kitchen": {
+   "apron": 20.1,
+   "oven mitts": 171.6,
+   "sleeves rolled up": 7.6,
+   "slippers": 18.8,
+   "t-shirt": 3.4
+  },
+  "laboratory": {
+   "brown gloves": 8.0,
+   "coat": 7.0,
+   "collared coat": 54.9,
+   "eyes visible through hair": 6.3,
+   "fur-trimmed gloves": 25.2,
+   "gag": 15.1,
+   "gauntlets": 6.5,
+   "latex": 22.8,
+   "pauldrons": 10.5,
+   "semi-rimless eyewear": 7.1
+  },
+  "lake": {
+   "backpack": 3.3
+  },
+  "landscape": {
+   "backpack": 3.1
+  },
+  "library": {
+   "bat wings": 14.7,
+   "capelet": 4.4,
+   "cardigan": 4.1,
+   "crescent hat ornament": 74.9,
+   "demon wings": 8.1,
+   "hat ornament": 26.5,
+   "hat ribbon": 4.9,
+   "mob cap": 11.8,
+   "round eyewear": 4.5,
+   "witch hat": 6.1
+  },
+  "lighthouse": {
+   "gem": 3.6,
+   "sandals": 4.0,
+   "sun hat": 10.8,
+   "white hat": 3.3
+  },
+  "living room": {
+   "barefoot": 3.9,
+   "dot nose": 7.8,
+   "dress shirt": 3.1,
+   "eyelashes": 3.3,
+   "hoodie": 3.2,
+   "no shoes": 5.4,
+   "pants": 3.1,
+   "slippers": 20.8,
+   "sweater": 3.3,
+   "t-shirt": 5.9
+  },
+  "locker room": {
+   "bra": 7.4,
+   "buruma": 16.1,
+   "competition swimsuit": 22.5,
+   "gym uniform": 16.0,
+   "lingerie": 8.0,
+   "male underwear": 18.8,
+   "panties": 3.7,
+   "school swimsuit": 12.1,
+   "sportswear": 19.4,
+   "thick thighs": 3.8
+  },
+  "love hotel": {
+   "bra": 4.8,
+   "faceless": 11.9,
+   "handbag": 15.4,
+   "heart-shaped pupils": 4.7,
+   "no shoes": 3.2,
+   "plaid skirt": 3.6,
+   "pubic hair": 6.4,
+   "ring": 3.4,
+   "school bag": 11.1
+  },
+  "maid cafe": {
+   "apron": 28.2,
+   "detached collar": 7.3,
+   "frilled hairband": 19.9,
+   "frills": 7.1,
+   "garter straps": 8.3,
+   "maid": 49.8,
+   "maid headdress": 43.2,
+   "puffy short sleeves": 9.9,
+   "waitress": 111.7,
+   "wrist cuffs": 11.4
+  },
+  "mall": {
+   "backpack": 6.9,
+   "casual": 8.7,
+   "coat": 3.8,
+   "dot nose": 5.8,
+   "handbag": 33.1,
+   "jeans": 10.7,
+   "plaid skirt": 3.8,
+   "shoulder bag": 16.8,
+   "sunglasses": 3.7,
+   "sweater": 3.2
+  },
+  "marina": {},
+  "maritime port": {},
+  "market": {
+   "apron": 3.8,
+   "armor": 3.3,
+   "backpack": 4.9,
+   "robe": 5.9,
+   "witch hat": 3.2
+  },
+  "market stall": {
+   "floral print": 17.0,
+   "japanese clothes": 9.7,
+   "kimono": 13.7,
+   "mask": 8.0,
+   "obi": 25.0,
+   "pouch": 8.7,
+   "sandals": 5.4,
+   "sash": 15.5,
+   "wide sleeves": 6.2,
+   "yukata": 83.6
+  },
+  "meadow": {
+   "capelet": 3.7,
+   "flower": 7.4,
+   "head wreath": 18.4
+  },
+  "megastructure": {
+   "armor": 3.9,
+   "backpack": 5.6,
+   "helmet": 4.5,
+   "nun": 10.8,
+   "sweater vest": 5.6,
+   "white sleeves": 4.9
+  },
+  "mesa": {
+   "belt": 4.9,
+   "boots": 3.6,
+   "cowboy hat": 119.0,
+   "cowboy western": 530.6,
+   "fingerless gloves": 3.2,
+   "high heels": 4.6
+  },
+  "messy room": {
+   "barefoot": 5.0,
+   "headphones": 6.2,
+   "no shoes": 4.5,
+   "slippers": 20.2,
+   "socks": 3.3,
+   "t-shirt": 9.0,
+   "tank top": 4.1
+  },
+  "military base": {
+   "camouflage": 76.2,
+   "helmet": 19.2,
+   "military hat": 35.7,
+   "military uniform": 31.7
+  },
+  "minaret": {
+   "arabian clothes": 564.5,
+   "pants": 5.6,
+   "see-through clothes": 11.9
+  },
+  "moon": {
+   "bat wings": 6.8,
+   "hat ribbon": 3.9,
+   "mob cap": 3.9,
+   "witch hat": 5.3
+  },
+  "morgue": {},
+  "mosque": {
+   "pants": 4.0
+  },
+  "motel": {},
+  "mountain": {
+   "backpack": 4.2,
+   "tassel": 3.4
+  },
+  "movie theater": {
+   "3d glasses": 988.6,
+   "black necktie": 5.0,
+   "casual": 9.6,
+   "faceless": 6.1,
+   "hoodie": 3.4,
+   "suit": 4.1,
+   "sweater": 3.5
+  },
+  "museum": {
+   "backpack": 5.8,
+   "black necktie": 3.5,
+   "coat": 3.3,
+   "gem": 3.7,
+   "pants": 3.1,
+   "robe": 5.4,
+   "shoulder bag": 9.2
+  },
+  "nature": {
+   "backpack": 3.1,
+   "wolf ears": 3.0
+  },
+  "nightclub": {
+   "bodystocking": 23.8,
+   "fake animal ears": 8.8,
+   "fishnet thighhighs": 20.3,
+   "fishnets": 16.3,
+   "high heels": 9.4,
+   "playboy bunny": 14.5,
+   "raver": 1875.6,
+   "strapless leotard": 13.7,
+   "thick thighs": 8.9,
+   "thong": 12.6
+  },
+  "nuclear powerplant": {
+   "boots": 4.7
+  },
+  "oasis": {
+   "arabian clothes": 192.2,
+   "armlet": 19.1,
+   "circlet": 17.0,
+   "gold choker": 118.1,
+   "hair ears": 162.5,
+   "harem outfit": 153.2,
+   "hoop earrings": 18.9,
+   "neck ring": 45.8,
+   "pelvic curtain": 9.3,
+   "thighlet": 27.4
+  },
+  "observatory": {
+   "buckle": 10.4,
+   "buttons": 3.9,
+   "puffy short sleeves": 3.3,
+   "robe": 12.7,
+   "witch hat": 7.0
+  },
+  "ocean": {
+   "bikini": 8.7,
+   "halterneck": 6.9,
+   "o-ring": 4.8,
+   "sandals": 4.4,
+   "side-tie bikini bottom": 10.9,
+   "straw hat": 13.8,
+   "string bikini": 9.4,
+   "sun hat": 13.3,
+   "sunglasses": 5.3,
+   "swimsuit": 7.9
+  },
+  "office": {
+   "business suit": 87.0,
+   "dress shirt": 6.4,
+   "formal clothes": 15.3,
+   "high-waist skirt": 11.6,
+   "lanyard": 117.9,
+   "skirt suit": 110.2,
+   "sleeves rolled up": 6.9,
+   "suit": 17.3,
+   "watch": 10.5,
+   "wristwatch": 13.0
+  },
+  "oil rig": {
+   "black gloves": 4.3,
+   "shorts": 5.0
+  },
+  "on roof": {
+   "boots": 3.4,
+   "capelet": 3.6,
+   "chinese clothes": 4.1,
+   "hair tubes": 4.6,
+   "red hat": 5.2,
+   "sandals": 4.0,
+   "santa costume": 10.8,
+   "santa hat": 9.3,
+   "sash": 3.8,
+   "tassel": 4.3
+  },
+  "onsen": {
+   "collarbone": 3.3,
+   "yukata": 9.4
+  },
+  "otaku room": {
+   "backpack": 4.9,
+   "charm (object)": 25.6,
+   "glasses": 3.6,
+   "headphones": 12.2,
+   "no shoes": 6.9,
+   "slippers": 19.2,
+   "socks": 3.0,
+   "sticker": 70.0,
+   "t-shirt": 6.3,
+   "tank top": 3.6
+  },
+  "pagoda": {
+   "floral print": 10.9,
+   "hakama": 12.0,
+   "hakama skirt": 12.7,
+   "japanese clothes": 8.2,
+   "kimono": 8.6,
+   "obi": 8.9,
+   "shimenawa": 24.0,
+   "short kimono": 23.7,
+   "tassel": 9.8,
+   "wide sleeves": 7.2
+  },
+  "park": {
+   "backpack": 4.9,
+   "casual": 6.4,
+   "dot nose": 4.4,
+   "handbag": 11.9,
+   "kneehighs": 3.0,
+   "loafers": 5.1,
+   "plaid skirt": 4.6,
+   "sneakers": 5.6
+  },
+  "parking garage": {
+   "armband": 9.7,
+   "belt": 3.7,
+   "jeans": 24.7,
+   "mask": 4.0,
+   "pants": 3.7,
+   "shoes": 3.9,
+   "sneakers": 13.6,
+   "torn clothes": 4.8
+  },
+  "parking lot": {
+   "backpack": 8.2,
+   "hood": 3.2,
+   "hoodie": 4.8,
+   "jeans": 12.8,
+   "loafers": 4.6,
+   "pants": 3.2,
+   "shoes": 4.1,
+   "shoulder bag": 9.4,
+   "sneakers": 12.7,
+   "t-shirt": 3.9
+  },
+  "path": {
+   "backpack": 5.7,
+   "flower": 3.0
+  },
+  "pharmacy": {
+   "nurse cap": 83.4
+  },
+  "phone booth": {
+   "backpack": 3.9,
+   "black hat": 3.8,
+   "coat": 3.7,
+   "hat bow": 4.9
+  },
+  "pier": {
+   "barefoot": 3.8,
+   "sandals": 5.0,
+   "straw hat": 11.1,
+   "sun hat": 10.2
+  },
+  "plain": {
+   "backpack": 4.2,
+   "green hat": 7.4,
+   "helmet": 3.7,
+   "robe": 6.8
+  },
+  "planet": {
+   "helmet": 8.6,
+   "space helmet": 115.5
+  },
+  "planetarium": {
+   "blue hat": 9.1,
+   "high heels": 3.5
+  },
+  "playground": {
+   "backpack": 9.3,
+   "blazer": 4.0,
+   "loafers": 5.6,
+   "plaid skirt": 5.1,
+   "randoseru": 23.5,
+   "school bag": 9.6,
+   "shoes": 3.6,
+   "sneakers": 7.1,
+   "socks": 3.7,
+   "t-shirt": 3.7
+  },
+  "pond": {
+   "chinese clothes": 3.3,
+   "floral print": 3.0,
+   "flower": 4.3,
+   "obi": 3.3,
+   "sash": 3.4,
+   "tassel": 3.8
+  },
+  "pool": {
+   "bikini": 6.8,
+   "competition swimsuit": 52.0,
+   "goggles": 7.4,
+   "halterneck": 5.1,
+   "o-ring": 5.2,
+   "school swimsuit": 24.7,
+   "side-tie bikini bottom": 8.0,
+   "string bikini": 8.8,
+   "sunglasses": 4.5,
+   "swimsuit": 10.7
+  },
+  "poolside": {
+   "barefoot": 4.6,
+   "bikini": 6.5,
+   "competition swimsuit": 71.9,
+   "goggles": 9.7,
+   "halterneck": 6.0,
+   "o-ring": 6.8,
+   "school swimsuit": 30.2,
+   "side-tie bikini bottom": 8.3,
+   "string bikini": 11.2,
+   "swimsuit": 11.8
+  },
+  "power plant": {},
+  "prison": {
+   "cuffs": 74.3,
+   "gag": 26.8,
+   "handcuffs": 99.1,
+   "metal collar": 36.1,
+   "peaked cap": 9.3,
+   "police hat": 60.7,
+   "shackles": 95.7,
+   "striped shirt": 11.6,
+   "torn clothes": 7.8,
+   "torn thighhighs": 14.6
+  },
+  "prison cell": {
+   "collar": 4.7,
+   "cuffs": 58.4,
+   "gag": 27.8,
+   "handcuffs": 87.2,
+   "police hat": 73.7,
+   "shackles": 65.2,
+   "striped shirt": 11.6,
+   "torn clothes": 4.4
+  },
+  "public restroom": {
+   "blazer": 5.1,
+   "kneehighs": 4.3,
+   "loafers": 5.6,
+   "panties": 4.1,
+   "pubic hair": 8.5,
+   "sneakers": 5.0,
+   "socks": 3.5
+  },
+  "racetrack": {
+   "cropped jacket": 11.6,
+   "earpiece": 42.6,
+   "half gloves": 15.5,
+   "helmet": 14.0,
+   "high heel boots": 10.8,
+   "racing suit": 706.0,
+   "shrug (clothing)": 11.8,
+   "thigh boots": 10.5,
+   "visor cap": 10.1,
+   "zipper": 8.1
+  },
+  "railroad crossing": {
+   "backpack": 9.6,
+   "blazer": 4.5,
+   "kneehighs": 6.7,
+   "loafers": 10.8,
+   "plaid skirt": 4.3,
+   "pleated skirt": 4.0,
+   "school bag": 31.0,
+   "school uniform": 4.0,
+   "serafuku": 5.1,
+   "shoulder bag": 15.6
+  },
+  "railroad tracks": {
+   "backpack": 8.6,
+   "kneehighs": 4.0,
+   "loafers": 7.0,
+   "school bag": 14.9,
+   "shoulder bag": 9.3,
+   "suitcase": 33.3
+  },
+  "record store": {
+   "apron": 8.0,
+   "earrings": 3.5,
+   "headphones": 33.4,
+   "hood": 7.4,
+   "hoodie": 13.2,
+   "jacket": 3.1,
+   "mask": 9.8
+  },
+  "refinery": {},
+  "restaurant": {
+   "apron": 5.1,
+   "sweater": 3.4,
+   "waitress": 71.8
+  },
+  "rice paddy": {
+   "backpack": 5.3,
+   "beads": 9.7,
+   "gym uniform": 10.2,
+   "hair tubes": 3.3,
+   "mob cap": 3.8,
+   "sandals": 3.4,
+   "school bag": 8.3,
+   "straw hat": 13.6,
+   "tassel": 5.7,
+   "tube top": 20.5
+  },
+  "river": {
+   "backpack": 5.7,
+   "hair bobbles": 6.3
+  },
+  "road": {
+   "backpack": 6.4,
+   "kneehighs": 3.6,
+   "loafers": 5.3,
+   "school bag": 11.0,
+   "shoulder bag": 9.4,
+   "sneakers": 5.3
+  },
+  "roller coaster": {
+   "beret": 3.1,
+   "casual": 6.7,
+   "dot nose": 4.8,
+   "handbag": 11.0,
+   "shoulder bag": 8.4,
+   "sunglasses": 3.1
+  },
+  "rooftop": {
+   "blazer": 3.5,
+   "kneehighs": 3.8,
+   "loafers": 4.9,
+   "plaid skirt": 3.2
+  },
+  "rope bridge": {},
+  "ruins": {
+   "armor": 3.0,
+   "backpack": 5.0,
+   "helmet": 4.4,
+   "thigh boots": 3.0
+  },
+  "running track": {
+   "buruma": 137.2,
+   "cheerleader": 23.5,
+   "gym shorts": 141.0,
+   "gym uniform": 114.5,
+   "headband": 8.5,
+   "lanyard": 33.6,
+   "sneakers": 24.6,
+   "sports bikini": 335.5,
+   "sportswear": 38.0,
+   "sticker": 40.4
+  },
+  "runway": {
+   "ankle boots": 23.8,
+   "gothic lolita": 34.3,
+   "headset": 6.5,
+   "helmet": 12.3,
+   "jumpsuit": 36.1,
+   "military uniform": 7.6,
+   "pilot helmet": 726.4,
+   "sneakers": 3.5,
+   "white skin": 9.3
+  },
+  "rural": {
+   "backpack": 6.9,
+   "kneehighs": 3.7,
+   "loafers": 4.4,
+   "school bag": 18.8,
+   "shoulder bag": 5.4,
+   "sneakers": 3.2,
+   "straw hat": 15.9,
+   "sun hat": 6.8
+  },
+  "salon": {},
+  "salt flats": {},
+  "sauna": {
+   "barefoot": 3.1,
+   "pubic hair": 7.8,
+   "thick thighs": 9.1,
+   "towel around neck": 43.5
+  },
+  "savannah": {
+   "animal print": 58.2,
+   "hat feather": 156.8,
+   "leopard print": 38.6,
+   "orange bowtie": 220.3,
+   "pith helmet": 829.3,
+   "print gloves": 117.7,
+   "short-sleeved sweater": 196.1,
+   "tooth necklace": 159.1,
+   "two-tone bowtie": 445.7,
+   "white bowtie": 59.1
+  },
+  "school": {
+   "blazer": 10.6,
+   "cardigan": 5.7,
+   "gym uniform": 9.3,
+   "kneehighs": 6.2,
+   "loafers": 5.9,
+   "plaid skirt": 6.6,
+   "school bag": 20.0,
+   "school uniform": 7.4,
+   "sweater vest": 6.4,
+   "uwabaki": 46.2
+  },
+  "school entrance": {},
+  "school gateway": {
+   "backpack": 9.7,
+   "blazer": 17.5,
+   "blue bowtie": 9.4,
+   "blue necktie": 15.4,
+   "briefcase": 74.5,
+   "kneehighs": 10.2,
+   "loafers": 20.0,
+   "plaid skirt": 22.1,
+   "school bag": 49.5,
+   "shoulder bag": 10.7
+  },
+  "school gym": {
+   "bike shorts": 6.8,
+   "buruma": 73.7,
+   "gym shorts": 149.5,
+   "gym uniform": 115.3,
+   "knee pads": 25.9,
+   "kneehighs": 6.9,
+   "sneakers": 14.1,
+   "sportswear": 75.9,
+   "t-shirt": 7.3,
+   "uwabaki": 47.5
+  },
+  "seafloor": {
+   "barefoot": 5.0,
+   "bikini": 3.0,
+   "diving mask": 164.4,
+   "diving suit": 128.2,
+   "gem": 3.8,
+   "goggles": 8.1,
+   "sandals": 3.2,
+   "swimsuit": 3.3
+  },
+  "sewer": {
+   "helmet": 4.6,
+   "mask": 4.3,
+   "tentacle hair": 19.4,
+   "thigh boots": 3.5,
+   "torn clothes": 4.3
+  },
+  "sex shop": {
+   "mask": 13.8,
+   "panties": 3.4,
+   "pleated skirt": 4.4,
+   "school uniform": 4.3
+  },
+  "shack": {
+   "backpack": 5.7,
+   "belt buckle": 9.4,
+   "brooch": 5.4,
+   "buckle": 6.9,
+   "pendant": 13.2,
+   "red hat": 5.7
+  },
+  "shed": {
+   "backpack": 4.6,
+   "gym uniform": 11.0,
+   "sandals": 3.1,
+   "sneakers": 5.9,
+   "t-shirt": 6.7,
+   "wristband": 5.9
+  },
+  "shipyard": {
+   "muneate": 73.1,
+   "school uniform": 3.0,
+   "serafuku": 4.9
+  },
+  "shooting range": {
+   "baseball cap": 12.3,
+   "camouflage": 47.7,
+   "ear protection": 1640.3,
+   "headphones": 7.0,
+   "headset": 15.3,
+   "military uniform": 10.3,
+   "multicolored gloves": 46.4,
+   "pouch": 15.4,
+   "safety glasses": 731.2,
+   "sleeves rolled up": 15.0
+  },
+  "shop": {
+   "apron": 5.6,
+   "backpack": 5.3,
+   "handbag": 11.3,
+   "shoulder bag": 10.3,
+   "sneakers": 3.9,
+   "striped shirt": 8.9
+  },
+  "shore": {
+   "barefoot": 3.6,
+   "bikini": 6.7,
+   "bracelet": 3.7,
+   "halterneck": 5.9,
+   "sandals": 5.3,
+   "side-tie bikini bottom": 6.9,
+   "string bikini": 8.3,
+   "sun hat": 10.5,
+   "sunglasses": 5.3,
+   "swimsuit": 6.0
+  },
+  "shower (place)": {
+   "armpits": 3.8,
+   "competition swimsuit": 11.0,
+   "faceless": 5.5,
+   "pubic hair": 6.2,
+   "school swimsuit": 4.8,
+   "thick thighs": 4.6,
+   "wide hips": 5.6
+  },
+  "shrine": {
+   "furisode": 46.9,
+   "geta": 15.3,
+   "hakama": 19.7,
+   "hakama skirt": 20.9,
+   "miko": 63.8,
+   "nontraditional miko": 20.0,
+   "obi": 15.2,
+   "ribbon-trimmed sleeves": 14.6,
+   "shimenawa": 117.9,
+   "tabi": 19.2
+  },
+  "sidewalk": {
+   "backpack": 8.3,
+   "dot nose": 4.0,
+   "handbag": 13.5,
+   "kneehighs": 4.9,
+   "loafers": 9.8,
+   "school bag": 18.0,
+   "shoes": 4.6,
+   "shoulder bag": 12.6,
+   "sneakers": 8.6,
+   "socks": 3.9
+  },
+  "skating rink": {
+   "blue gloves": 9.8,
+   "bridal gauntlets": 6.1,
+   "dress flower": 47.1,
+   "earmuffs": 18.1,
+   "frilled gloves": 36.3,
+   "leotard": 4.4,
+   "pantyhose": 4.3,
+   "sleeveless dress": 4.4,
+   "strapless dress": 5.7,
+   "winter clothes": 16.3
+  },
+  "skyscraper": {
+   "backpack": 3.5,
+   "bodysuit": 4.0,
+   "sneakers": 4.1
+  },
+  "slums": {
+   "armor": 5.6,
+   "bangle": 62.5,
+   "belt": 4.6,
+   "boots": 4.5,
+   "bracelet": 7.0,
+   "cropped jacket": 19.8,
+   "pants": 5.4,
+   "sleeveless turtleneck": 81.7,
+   "suspenders": 19.6,
+   "turtleneck": 10.5
+  },
+  "soapland": {
+   "bikini": 4.8,
+   "eyes visible through hair": 6.1,
+   "faceless": 6.7,
+   "lingerie": 6.0,
+   "micro bikini": 18.4,
+   "pubic hair": 6.0,
+   "school swimsuit": 5.3,
+   "scrunchie": 4.8,
+   "side-tie bikini bottom": 5.3,
+   "string bikini": 8.5
+  },
+  "soccer field": {
+   "buruma": 9.7,
+   "cheerleader": 24.9,
+   "gym uniform": 11.5,
+   "kneehighs": 8.7,
+   "shorts": 7.8,
+   "sneakers": 11.4,
+   "socks": 5.6,
+   "sportswear": 193.8,
+   "striped shirt": 10.3,
+   "wristband": 13.9
+  },
+  "space": {
+   "bodysuit": 3.4,
+   "helmet": 9.6,
+   "mecha pilot suit": 11.9,
+   "space helmet": 113.1
+  },
+  "space elevator": {
+   "bodysuit": 4.4,
+   "nun": 23.5,
+   "sweater vest": 15.1
+  },
+  "space station": {
+   "helmet": 14.3,
+   "military uniform": 3.4,
+   "space helmet": 158.9,
+   "spikes": 4.6
+  },
+  "spacecraft interior": {
+   "armor": 3.5,
+   "bodysuit": 7.3,
+   "colored skin": 3.1,
+   "helmet": 14.9,
+   "mecha pilot suit": 35.3,
+   "military uniform": 11.9,
+   "space helmet": 85.5
+  },
+  "stable": {
+   "animal print": 22.6,
+   "bandana": 16.4,
+   "bandana around neck": 163.0,
+   "cow ears": 48.0,
+   "cow print": 78.5,
+   "cow print gloves": 141.9,
+   "cowboy hat": 52.7,
+   "cowboy western": 219.2,
+   "print gloves": 92.8,
+   "straw hat": 15.3
+  },
+  "stadium": {
+   "baseball cap": 13.9,
+   "buruma": 29.7,
+   "cheerleader": 73.5,
+   "crop top": 6.2,
+   "gym uniform": 29.5,
+   "single glove": 11.3,
+   "sneakers": 8.7,
+   "sportswear": 38.8,
+   "sticker": 38.9,
+   "wristband": 10.7
+  },
+  "staff room": {
+   "glasses": 8.0,
+   "school uniform": 3.3
+  },
+  "stage": {
+   "bracelet": 3.2,
+   "dot nose": 7.6,
+   "headset": 11.6,
+   "high heels": 3.7,
+   "idol clothes": 103.7,
+   "plaid skirt": 3.4,
+   "thigh strap": 3.3,
+   "top hat": 9.9,
+   "white gloves": 3.2,
+   "wrist cuffs": 4.7
+  },
+  "stilt house": {
+   "flower": 3.2,
+   "sandals": 11.6
+  },
+  "stone walkway": {
+   "dot nose": 17.7,
+   "floral print": 9.6,
+   "hair tubes": 8.2,
+   "hakama": 8.9,
+   "nontraditional miko": 12.2,
+   "obi": 10.2,
+   "ribbon trim": 8.9,
+   "ribbon-trimmed sleeves": 12.5,
+   "sash": 7.0,
+   "shimenawa": 50.9
+  },
+  "storage room": {
+   "gag": 25.4,
+   "kneehighs": 5.9,
+   "lanyard": 37.2,
+   "miniskirt": 3.4,
+   "neck ribbon": 4.0,
+   "neckerchief": 4.1,
+   "red neckerchief": 11.2,
+   "sailor collar": 3.4,
+   "serafuku": 3.3,
+   "suit": 5.2
+  },
+  "stream": {
+   "backpack": 6.9,
+   "barefoot": 3.7,
+   "hair bobbles": 6.5,
+   "tokin hat": 6.7
+  },
+  "street": {
+   "backpack": 6.6,
+   "handbag": 11.6,
+   "kneehighs": 3.1,
+   "loafers": 5.4,
+   "school bag": 12.4,
+   "shoulder bag": 10.2,
+   "sneakers": 5.6
+  },
+  "strip club": {
+   "bra": 5.8,
+   "detached collar": 5.8,
+   "fake animal ears": 5.7,
+   "fishnet thighhighs": 42.1,
+   "fishnets": 11.6,
+   "high heels": 8.8,
+   "makeup": 5.7,
+   "piercing": 6.1,
+   "rabbit ears": 5.8,
+   "thong": 22.0
+  },
+  "suburb": {
+   "backpack": 10.4,
+   "blazer": 9.4,
+   "school bag": 21.2,
+   "sweater vest": 15.6
+  },
+  "subway": {
+   "backpack": 8.3,
+   "formal clothes": 5.9,
+   "handbag": 12.0,
+   "jeans": 7.9,
+   "peaked cap": 8.5,
+   "school bag": 14.2,
+   "shoulder bag": 9.7,
+   "sneakers": 6.6,
+   "suit": 6.6,
+   "watch": 7.6
+  },
+  "subway entrance": {},
+  "subway station": {
+   "backpack": 9.0,
+   "blazer": 3.5,
+   "casual": 6.2,
+   "handbag": 20.2,
+   "loafers": 5.2,
+   "shoulder bag": 11.2,
+   "sneakers": 4.2,
+   "suit": 4.1,
+   "suitcase": 36.3
+  },
+  "supermarket": {
+   "backpack": 3.7,
+   "cardigan": 3.1,
+   "casual": 8.8,
+   "hood": 3.2,
+   "hoodie": 4.6,
+   "pants": 3.1,
+   "shoulder bag": 9.2,
+   "sneakers": 5.8,
+   "sweater": 3.3,
+   "t-shirt": 4.6
+  },
+  "synagogue": {},
+  "tank interior": {
+   "blouse": 11.8,
+   "dress shirt": 6.9,
+   "garrison cap": 61.5,
+   "headphones": 12.7,
+   "helmet": 7.6,
+   "military hat": 30.3,
+   "military uniform": 58.8,
+   "miniskirt": 9.7,
+   "pleated skirt": 7.3,
+   "tank helmet": 697.5
+  },
+  "tavern": {
+   "armor": 7.0,
+   "brown gloves": 11.1,
+   "colored skin": 5.1,
+   "corset": 6.9,
+   "eyepatch": 7.0,
+   "helmet": 5.4,
+   "pauldrons": 9.1,
+   "pointy ears": 6.1,
+   "waitress": 67.5,
+   "witch hat": 4.1
+  },
+  "temple": {
+   "floral print": 7.3,
+   "hakama": 8.1,
+   "hakama skirt": 8.4,
+   "japanese clothes": 6.4,
+   "kimono": 7.0,
+   "miko": 23.8,
+   "obi": 9.5,
+   "robe": 6.0,
+   "sash": 6.3,
+   "shimenawa": 26.1
+  },
+  "theater": {
+   "blue hat": 6.2,
+   "casual": 6.4,
+   "faceless": 9.0,
+   "formal clothes": 4.9,
+   "gem": 4.1,
+   "juliet sleeves": 4.1,
+   "lapels": 9.7,
+   "suit": 6.2,
+   "top hat": 11.3
+  },
+  "toilet stall": {
+   "blazer": 5.5,
+   "cardigan": 3.6,
+   "faceless": 8.7,
+   "kneehighs": 4.0,
+   "panties": 5.1,
+   "plaid skirt": 3.5,
+   "pubic hair": 9.0,
+   "school uniform": 3.5,
+   "sneakers": 4.5,
+   "socks": 3.8
+  },
+  "tomb": {},
+  "tower": {
+   "bat wings": 5.8,
+   "helmet": 3.3,
+   "mob cap": 3.2,
+   "witch hat": 3.3
+  },
+  "town": {
+   "backpack": 4.4
+  },
+  "town square": {
+   "belt": 3.0,
+   "beret": 6.7,
+   "boots": 3.8,
+   "eyelashes": 3.1,
+   "gold trim": 11.2,
+   "hair tubes": 7.1,
+   "high heels": 3.2,
+   "military uniform": 6.3,
+   "white hat": 4.2
+  },
+  "train interior": {
+   "backpack": 7.2,
+   "blazer": 5.7,
+   "cardigan": 4.7,
+   "earphones": 23.4,
+   "faceless": 8.9,
+   "formal clothes": 6.7,
+   "handbag": 11.2,
+   "school bag": 32.4,
+   "shoulder bag": 12.2,
+   "suit": 7.4
+  },
+  "train station": {
+   "backpack": 12.1,
+   "blazer": 4.8,
+   "handbag": 13.8,
+   "kneehighs": 5.1,
+   "loafers": 8.2,
+   "plaid skirt": 4.7,
+   "scarf": 4.9,
+   "school bag": 28.1,
+   "shoulder bag": 16.1,
+   "suitcase": 81.5
+  },
+  "train station platform": {
+   "backpack": 14.4,
+   "handbag": 15.0,
+   "loafers": 13.0,
+   "long skirt": 6.6,
+   "plaid skirt": 6.0,
+   "school bag": 30.3,
+   "shoulder bag": 21.2,
+   "sneakers": 5.9,
+   "suitcase": 81.5,
+   "winter clothes": 12.4
+  },
+  "treehouse": {
+   "backpack": 4.5,
+   "fairy wings": 35.1,
+   "flat cap": 24.2,
+   "flower": 3.3,
+   "witch hat": 4.4
+  },
+  "trench": {
+   "brodie helmet": 1188.0,
+   "camouflage": 74.8,
+   "fur hat": 43.2,
+   "helmet": 50.9,
+   "military hat": 39.6,
+   "military uniform": 59.3,
+   "pouch": 30.3,
+   "stahlhelm": 937.0,
+   "trench coat": 83.6,
+   "ushanka": 110.9
+  },
+  "tundra": {
+   "coat": 4.9,
+   "hood": 3.7
+  },
+  "tunnel": {
+   "backpack": 6.4,
+   "helmet": 3.7
+  },
+  "underwater": {
+   "barefoot": 3.2,
+   "gem": 3.3,
+   "goggles": 3.9,
+   "school swimsuit": 6.3
+  },
+  "underwater city": {
+   "hood": 3.1,
+   "hoodie": 3.5
+  },
+  "vehicle interior": {
+   "helmet": 5.1,
+   "juliet sleeves": 3.9,
+   "military uniform": 5.1,
+   "suit": 3.3
+  },
+  "village": {
+   "backpack": 4.5,
+   "geta": 13.9,
+   "hat ribbon": 4.0,
+   "robe": 4.8,
+   "witch hat": 3.6
+  },
+  "volcano": {
+   "animal print": 5.8,
+   "backpack": 4.1,
+   "hat feather": 18.0,
+   "helmet": 4.2,
+   "knee boots": 3.9,
+   "spikes": 5.1
+  },
+  "warehouse": {
+   "beret": 4.0,
+   "blazer": 6.1,
+   "gag": 12.8,
+   "goggles": 6.0,
+   "helmet": 3.9,
+   "jumpsuit": 31.7,
+   "knee boots": 4.8,
+   "military uniform": 4.2,
+   "sleeves rolled up": 7.5,
+   "tank top": 4.6
+  },
+  "wasteland": {
+   "armor": 5.6,
+   "bodysuit": 4.7,
+   "dot nose": 4.4,
+   "flat cap": 27.1,
+   "gem": 5.5,
+   "goggles": 6.7,
+   "helmet": 7.5,
+   "mob cap": 4.5,
+   "scarf": 3.8,
+   "torn clothes": 4.3
+  },
+  "watchtower": {
+   "armor": 3.3,
+   "cape": 3.4,
+   "helmet": 11.2,
+   "military uniform": 12.1
+  },
+  "water": {
+   "bikini": 4.8,
+   "halterneck": 4.0,
+   "school swimsuit": 4.8,
+   "side-tie bikini bottom": 5.9,
+   "string bikini": 5.3,
+   "swimsuit": 4.9
+  },
+  "waterfall": {
+   "backpack": 5.1,
+   "hair bobbles": 6.0,
+   "pom pom (clothes)": 4.8,
+   "tokin hat": 14.0,
+   "wolf ears": 5.1
+  },
+  "waterpark": {
+   "bikini": 12.7,
+   "bracelet": 8.6,
+   "competition swimsuit": 17.3,
+   "dot nose": 15.0,
+   "goggles": 8.8,
+   "halterneck": 9.4,
+   "heart-shaped eyewear": 49.3,
+   "side-tie bikini bottom": 16.8,
+   "string bikini": 15.7,
+   "swimsuit": 11.4
+  },
+  "weapon shop": {
+   "apron": 6.6,
+   "armor": 13.2,
+   "boots": 3.6,
+   "helmet": 17.7
+  },
+  "well": {
+   "hair bobbles": 21.2,
+   "hair over eyes": 13.1,
+   "hair tubes": 3.2,
+   "hat bow": 3.1,
+   "witch hat": 3.2
+  },
+  "wetland": {
+   "backpack": 3.5,
+   "colored skin": 3.9,
+   "green skin": 11.3,
+   "helmet": 4.4
+  },
+  "wharf": {
+   "loafers": 13.3,
+   "pleated skirt": 3.5,
+   "sailor collar": 3.4,
+   "sandals": 8.3,
+   "serafuku": 3.5,
+   "shoes": 4.2,
+   "short sleeves": 3.1,
+   "shorts": 3.2
+  },
+  "wheat field": {
+   "armlet": 5.4,
+   "armor": 3.1,
+   "coat": 6.8,
+   "necklace": 4.4,
+   "pauldrons": 11.2,
+   "straw hat": 15.3,
+   "wolf ears": 7.3
+  },
+  "windmill": {
+   "backpack": 4.3,
+   "brown gloves": 5.5,
+   "cape": 3.4,
+   "flower": 4.6,
+   "frilled sleeves": 3.4,
+   "green hat": 8.6
+  },
+  "wooden bridge": {
+   "chinese clothes": 4.0,
+   "floral print": 6.3,
+   "hakama": 6.2,
+   "japanese clothes": 5.1,
+   "kimono": 6.4,
+   "obi": 8.7,
+   "sandals": 6.0,
+   "sash": 7.2,
+   "tassel": 6.1,
+   "wide sleeves": 4.1
+  },
+  "workshop": {
+   "apron": 4.2,
+   "backpack": 5.2,
+   "brown gloves": 7.9,
+   "goggles": 13.4,
+   "helmet": 4.6,
+   "lips": 3.3,
+   "overalls": 16.0,
+   "t-shirt": 5.3,
+   "tank top": 7.5
+  },
+  "wrestling ring": {
+   "bat wings": 5.7,
+   "black wings": 6.5,
+   "knee boots": 6.6,
+   "knee pads": 69.9,
+   "lace-up boots": 10.5,
+   "leotard": 7.5,
+   "mask": 6.7,
+   "thick thighs": 8.7,
+   "tokin hat": 13.9,
+   "wristband": 7.8
+  },
+  "zoo": {
+   "bear hat": 1430.2,
+   "black scarf": 163.1,
+   "green hat": 38.9,
+   "head wreath": 19.1,
+   "nun": 22.4,
+   "overalls": 108.8,
+   "penguin hat": 10433.8,
+   "round eyewear": 15.2,
+   "rubber boots": 107.0,
+   "traditional nun": 204.7
+  }
+ },
+ "min_lift": 3.0,
+ "min_share": 0.02,
+ "styles": {
+  "1920s (style)": {
+   "hat": 3.1
+  },
+  "1930s (style)": {
+   "ascot": 3.8,
+   "bowtie": 3.2,
+   "colored skin": 7.3,
+   "goggles": 8.8,
+   "makeup": 4.1,
+   "pac-man eyes": 3194.1,
+   "shoes": 4.0,
+   "shorts": 4.1,
+   "tentacle hair": 18.4,
+   "vest": 3.9
+  },
+  "1940s (style)": {},
+  "1950s (style)": {
+   "helmet": 16.5,
+   "makeup": 13.3
+  },
+  "1960s (style)": {
+   "helmet": 11.5,
+   "military uniform": 4.4,
+   "tentacle hair": 27.1
+  },
+  "1970s (style)": {
+   "bodysuit": 5.0,
+   "epaulettes": 7.2,
+   "fur hat": 33.6,
+   "helmet": 17.6,
+   "mecha pilot suit": 36.5,
+   "military uniform": 12.4,
+   "spikes": 10.0
+  },
+  "1980s (style)": {
+   "armor": 3.8,
+   "bikini armor": 12.7,
+   "headband": 4.3,
+   "helmet": 9.5,
+   "knee boots": 5.1,
+   "mecha pilot suit": 25.4,
+   "military uniform": 9.3,
+   "spikes": 4.8
+  },
+  "1990s (style)": {
+   "armor": 3.4,
+   "double bun": 3.3,
+   "forehead mark": 10.5,
+   "hair bobbles": 3.9,
+   "headband": 4.7,
+   "helmet": 3.4,
+   "knee boots": 3.5,
+   "pauldrons": 6.5,
+   "round eyewear": 3.5,
+   "wristband": 3.9
+  },
+  "2000s (style)": {
+   "brown gloves": 4.2,
+   "juliet sleeves": 4.8,
+   "school swimsuit": 3.5
+  },
+  "abstract": {
+   "colored skin": 3.1,
+   "no mouth": 11.1,
+   "no nose": 12.4,
+   "white skin": 5.9
+  },
+  "acid graphics": {
+   "arm warmers": 30.6,
+   "belt collar": 24.1,
+   "chain necklace": 44.5,
+   "leg warmers": 48.8,
+   "loose socks": 21.5,
+   "punk": 212.0,
+   "sticker": 53.9,
+   "streetwear": 789.4,
+   "tenshi kaiwai": 310.6,
+   "y2k fashion": 1320.2
+  },
+  "afrofuturism": {},
+  "animification": {
+   "beanie": 8.1,
+   "blue gloves": 6.9,
+   "bodysuit": 6.9,
+   "colored skin": 4.4,
+   "eyeshadow": 4.9,
+   "goggles": 4.1,
+   "hood": 3.9,
+   "hoodie": 4.1,
+   "makeup": 4.0,
+   "superhero costume": 32.5
+  },
+  "art deco": {
+   "necklace": 3.0
+  },
+  "art nouveau": {
+   "colored skin": 4.2,
+   "crown": 4.6,
+   "flower": 7.2,
+   "gem": 4.2,
+   "lips": 3.2,
+   "robe": 5.1,
+   "shawl": 6.7,
+   "strapless dress": 3.5,
+   "tiara": 3.5,
+   "white skin": 11.8
+  },
+  "biopunk": {
+   "armor": 9.2,
+   "bodysuit": 5.8,
+   "colored skin": 4.8,
+   "helmet": 14.3,
+   "mask": 3.1,
+   "mecha pilot suit": 22.6,
+   "spikes": 12.6,
+   "tentacle hair": 13.4
+  },
+  "blingee": {},
+  "cartoonized": {
+   "dot nose": 7.2,
+   "eyelashes": 4.8,
+   "eyeshadow": 4.7,
+   "forehead": 29.5,
+   "helmet": 3.6,
+   "no nose": 13.3,
+   "sandals": 3.1,
+   "sneakers": 4.2,
+   "suit": 4.1
+  },
+  "cave paintings": {
+   "pants": 3.1
+  },
+  "choco girl": {
+   "brown hat": 13.8,
+   "food print": 97.1,
+   "handbag": 32.0,
+   "heisei retro": 433.3,
+   "himekaji": 5222.5,
+   "lace": 21.4,
+   "lace trim": 8.0,
+   "polka dot": 46.9,
+   "scrunchie": 7.2,
+   "sweet lolita": 359.0
+  },
+  "cubism": {
+   "animal hat": 49.2,
+   "blue skin": 52.5,
+   "cat hat": 136.7,
+   "multicolored skin": 130.8,
+   "nontraditional miko": 43.9,
+   "red skin": 71.4,
+   "two-tone skin": 151.5,
+   "white skin": 23.6,
+   "yellow ascot": 26.2,
+   "yellow skin": 252.3
+  },
+  "cyber sigilism": {
+   "chain necklace": 74.7,
+   "character charm": 175.4,
+   "charm (object)": 56.9,
+   "cross necklace": 50.6,
+   "goth fashion": 87.3,
+   "punk": 536.6,
+   "spiked choker": 206.5,
+   "spiked collar": 44.0,
+   "streetwear": 649.0,
+   "y2k fashion": 1396.6
+  },
+  "cyberpunk": {
+   "bodysuit": 8.8,
+   "cropped jacket": 4.8,
+   "eyeliner": 15.7,
+   "helmet": 5.0,
+   "lips": 4.4,
+   "makeup": 6.8,
+   "mask": 4.6,
+   "mechanical hands": 62.1,
+   "nose": 8.0,
+   "pouch": 5.6
+  },
+  "dieselpunk": {
+   "helmet": 23.2
+  },
+  "dorfic": {
+   "bracelet": 7.3,
+   "cat ears": 7.8,
+   "cyber fashion": 4642.2,
+   "headphones": 22.7,
+   "headset": 67.5,
+   "knee boots": 9.3,
+   "orange gloves": 141.6,
+   "piano print": 342.7,
+   "platform boots": 62.8,
+   "star-shaped pupils": 11.5
+  },
+  "dunhuang style": {
+   "anklet": 50.0,
+   "armlet": 47.1,
+   "bangle": 44.8,
+   "chinese clothes": 54.4,
+   "feixianji (hairstyle)": 1232.6,
+   "forehead mark": 74.9,
+   "gold necklace": 145.5,
+   "hanfu": 150.0,
+   "shawl": 182.4,
+   "tube top": 73.7
+  },
+  "emo art": {
+   "scene fashion": 13607.4
+  },
+  "faux retro artstyle": {
+   "black sleeves": 5.2,
+   "dot nose": 7.9,
+   "headphones": 4.1
+  },
+  "frutiger aero": {
+   "aqua necktie": 16.8,
+   "black sleeves": 5.5,
+   "cropped jacket": 4.1,
+   "cyber fashion": 323.5,
+   "headphones": 11.7,
+   "headset": 11.9,
+   "thigh boots": 5.4
+  },
+  "frutiger metro": {
+   "bracelet": 3.9,
+   "cyber fashion": 134.0,
+   "decora": 405.9,
+   "earphones": 18.0,
+   "formal clothes": 4.5,
+   "goggles": 4.5,
+   "headphones": 24.4,
+   "headset": 23.4,
+   "necktie": 3.4,
+   "punk": 157.8
+  },
+  "glitch art": {
+   "colored skin": 3.8,
+   "dot nose": 3.0,
+   "no mouth": 12.7,
+   "turtleneck": 3.2,
+   "turtleneck sweater": 4.4,
+   "white skin": 6.7,
+   "wide-eyed": 6.0
+  },
+  "grind fiction": {
+   "cyber fashion": 572.5,
+   "fingerless gloves": 7.3,
+   "goggles": 20.3,
+   "headphones": 53.6,
+   "pants": 6.9,
+   "sleeveless shirt": 6.2,
+   "streetwear": 1367.3,
+   "sunglasses": 9.7,
+   "t-shirt": 11.9,
+   "wristband": 23.9
+  },
+  "gurokawa": {
+   "animal ear headphones": 34.4,
+   "bandaid": 20.9,
+   "bear ears": 123.1,
+   "decora": 1171.9,
+   "leg warmers": 30.0,
+   "paw gloves": 38.9,
+   "pink skin": 59.0,
+   "scene fashion": 2208.4,
+   "sticker": 58.6,
+   "yami kawaii": 1050.7
+  },
+  "heisei retro": {
+   "arm warmers": 37.1,
+   "bag charm": 84.4,
+   "charm (object)": 80.9,
+   "food print": 64.3,
+   "leg warmers": 49.5,
+   "randoseru": 136.0,
+   "sticker": 45.4,
+   "strawberry print": 153.4,
+   "y2k fashion": 437.9,
+   "yume kawaii": 419.8
+  },
+  "impressionism": {
+   "hat ribbon": 6.0,
+   "long skirt": 9.8,
+   "mob cap": 3.2,
+   "pom pom (clothes)": 6.5,
+   "puffy short sleeves": 3.2,
+   "red hat": 5.0,
+   "ribbon trim": 4.2,
+   "sun hat": 7.0,
+   "tokin hat": 13.1
+  },
+  "ligne claire": {
+   "backpack": 4.4,
+   "bandaid": 3.5,
+   "loafers": 4.2,
+   "red neckerchief": 5.8,
+   "sneakers": 5.6
+  },
+  "low poly": {
+   "belt pouch": 17.4,
+   "blue skin": 29.9,
+   "colored skin": 9.4,
+   "garrison cap": 23.6,
+   "green hat": 11.8,
+   "multicolored skin": 66.2,
+   "red skin": 38.2,
+   "suspenders": 9.2,
+   "two-tone skin": 80.5,
+   "yellow skin": 130.4
+  },
+  "nihonga": {
+   "geta": 15.6,
+   "hair stick": 8.5,
+   "hakama": 5.8,
+   "japanese clothes": 7.6,
+   "kimono": 8.4,
+   "obi": 8.7,
+   "sandals": 5.5,
+   "sash": 5.6,
+   "shimenawa": 17.1,
+   "tabi": 9.8
+  },
+  "pinup (style)": {
+   "hoop earrings": 14.5,
+   "lingerie": 10.1,
+   "lips": 14.6,
+   "long legs": 13.5,
+   "makeup": 10.1,
+   "narrow waist": 30.7,
+   "nose": 37.3,
+   "thick thighs": 12.2,
+   "thong": 15.2,
+   "wide hips": 10.1
+  },
+  "retrofuturism": {
+   "cyber fashion": 3934.7,
+   "fishbowl helmet": 570.1,
+   "head-mounted display": 49.6,
+   "headphones": 18.9,
+   "headset": 40.6,
+   "orange gloves": 41.9,
+   "space helmet": 101.1,
+   "streetwear": 177.3,
+   "uchuu kei": 2643.5,
+   "yume kawaii": 75.3
+  },
+  "rubber hose (style)": {
+   "pac-man eyes": 4225.0,
+   "shoes": 3.2,
+   "shorts": 4.6
+  },
+  "shoe diva": {
+   "belt": 5.5,
+   "crop top": 7.2,
+   "eyelashes": 20.4,
+   "eyeshadow": 42.1,
+   "french girly": 6417.6,
+   "high heels": 16.0,
+   "lips": 12.9,
+   "makeup": 19.1,
+   "miniskirt": 6.0,
+   "socks": 4.5
+  },
+  "silkpunk": {
+   "chinese clothes": 26.8
+  },
+  "solarpunk": {
+   "backpack": 8.5,
+   "flower": 5.6,
+   "goggles": 6.7,
+   "sneakers": 5.4
+  },
+  "steampunk": {
+   "belt pouch": 26.2,
+   "brown gloves": 19.5,
+   "corset": 24.6,
+   "goggles": 41.9,
+   "mechanical wings": 48.3,
+   "monocle": 58.1,
+   "pocket watch": 54.4,
+   "pouch": 18.2,
+   "top hat": 42.6,
+   "underbust": 22.7
+  },
+  "sumi-e": {
+   "ascot": 3.9,
+   "dragon wings": 62.4,
+   "glowing mouth": 658.0,
+   "hat ribbon": 8.6,
+   "kimono": 3.7,
+   "mob cap": 12.1,
+   "puffy short sleeves": 4.5,
+   "slit pupils": 4.0,
+   "spikes": 22.2,
+   "triangular headpiece": 17.0
+  },
+  "superflat": {
+   "anklet": 8.4,
+   "bracelet": 4.2,
+   "colored skin": 5.7,
+   "decora": 781.5,
+   "headphones": 3.4,
+   "no mouth": 15.5,
+   "no nose": 37.5,
+   "punk": 242.2,
+   "ring": 5.9,
+   "white skin": 13.6
+  },
+  "surreal": {
+   "faceless": 4.5,
+   "white skin": 4.3
+  },
+  "synthwave": {
+   "sunglasses": 15.9
+  },
+  "tenshi kaiwai": {
+   "angel wings": 20.5,
+   "bandaid": 39.0,
+   "frilled hairband": 25.4,
+   "jersey maid": 840.6,
+   "leg warmers": 101.6,
+   "loose socks": 54.9,
+   "mini wings": 56.6,
+   "track suit": 32.2,
+   "yume kawaii": 164.0,
+   "zipper pull tab": 21.7
+  },
+  "toon (style)": {
+   "colored skin": 8.0,
+   "eyelashes": 3.2,
+   "eyeshadow": 6.8,
+   "forehead": 4.8,
+   "green skin": 12.4,
+   "hoodie": 3.1,
+   "makeup": 4.6,
+   "nose": 10.6,
+   "wide hips": 5.9
+  },
+  "ukiyo-e": {
+   "geta": 15.8,
+   "hair stick": 9.8,
+   "hakama": 6.8,
+   "japanese clothes": 8.5,
+   "kimono": 9.8,
+   "obi": 11.0,
+   "sandals": 7.5,
+   "sash": 7.0,
+   "shimenawa": 20.4,
+   "tabi": 12.6
+  },
+  "vaporwave": {
+   "bandaid": 9.2,
+   "headphones": 6.0,
+   "heart choker": 46.6,
+   "heart collar": 168.6,
+   "o-ring": 6.6,
+   "pink choker": 33.7,
+   "sneakers": 11.5,
+   "sticker": 44.9,
+   "string bikini": 7.9,
+   "sunglasses": 5.8
+  },
+  "weirdcore": {
+   "black hat": 6.2,
+   "capelet": 5.2,
+   "collared dress": 16.4,
+   "contrast collar": 65.8,
+   "hat bow": 13.0,
+   "mob cap": 9.4,
+   "no mouth": 22.5,
+   "ribbon trim": 7.1,
+   "sleeve cuffs": 16.1,
+   "white hat": 6.3
+  },
+  "western comics (style)": {
+   "bodysuit": 24.1,
+   "cape": 7.0,
+   "green skin": 13.5,
+   "helmet": 10.3,
+   "makeup": 5.9,
+   "mask": 14.4,
+   "no pupils": 13.5,
+   "spikes": 7.5,
+   "superhero costume": 231.4,
+   "yellow gloves": 18.7
+  },
+  "whimsy twee": {
+   "apple print": 4995.4,
+   "buttons": 8.0,
+   "charm (object)": 60.4,
+   "food print": 184.4,
+   "handbag": 34.2,
+   "heisei retro": 2926.9,
+   "polka dot": 65.2,
+   "red-framed eyewear": 24.4,
+   "sneakers": 11.1,
+   "twee fashion": 13598.8
+  },
+  "yami kawaii": {
+   "bandaid": 47.2,
+   "cross-laced sleeves": 155.9,
+   "decora": 895.0,
+   "jirai kei": 95.4,
+   "leg warmers": 29.4,
+   "mismatched legwear": 23.4,
+   "nail art": 173.5,
+   "nurse cap": 51.7,
+   "subcul jirai": 1642.6,
+   "yume kawaii": 76.4
+  },
+  "yume kawaii": {
+   "bandaid": 7.8,
+   "dot nose": 8.5,
+   "fairy kei": 1418.9,
+   "frills": 5.4,
+   "heisei retro": 391.8,
+   "pink bowtie": 16.6,
+   "polka dot": 10.0,
+   "puffy long sleeves": 5.5,
+   "puffy short sleeves": 6.4,
+   "sweet lolita": 185.9
+  }
+ }
+}

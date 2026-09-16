@@ -1,0 +1,153 @@
+{
+ "_note": "P(context | effect): the share of an effect's own posts that carry a place, a weather, a season, a time of day or a lighting-pool entry. Written by tools/build/harvest_effect_contexts.py.",
+ "min_share": 0.03,
+ "effects": {
+  "condensation": {
+   "kind": "environment",
+   "contexts": {
+    "rain": 0.2904,
+    "window fog": 0.2058,
+    "shower (place)": 0.0945,
+    "reflection": 0.0701,
+    "night": 0.0683,
+    "water": 0.0602,
+    "bathroom": 0.0507,
+    "day": 0.0502
+   }
+  },
+  "dust": {
+   "kind": "environment",
+   "contexts": {
+    "glowing": 0.1142,
+    "day": 0.1048,
+    "desert": 0.0577,
+    "light particles": 0.0546,
+    "sunlight": 0.0507,
+    "wind": 0.0493,
+    "fire": 0.0433,
+    "cloudy sky": 0.0397,
+    "ruins": 0.0382
+   }
+  },
+  "falling feathers": {
+   "kind": "environment",
+   "contexts": {
+    "day": 0.081,
+    "light particles": 0.0498,
+    "glowing": 0.0396,
+    "night": 0.0394,
+    "cloudy sky": 0.0382,
+    "moon": 0.0324
+   }
+  },
+  "falling leaves": {
+   "kind": "environment",
+   "contexts": {
+    "autumn leaves": 0.2618,
+    "day": 0.2508,
+    "autumn": 0.1332,
+    "wind": 0.1006,
+    "sunlight": 0.082,
+    "nature": 0.078,
+    "water": 0.0624,
+    "forest": 0.0576,
+    "cloudy sky": 0.051,
+    "light particles": 0.037,
+    "night": 0.031
+   }
+  },
+  "falling petals": {
+   "kind": "environment",
+   "contexts": {
+    "cherry blossoms": 0.2412,
+    "day": 0.1336,
+    "wind": 0.0502,
+    "night": 0.0454,
+    "water": 0.0388,
+    "light particles": 0.0384,
+    "moon": 0.0376,
+    "sunlight": 0.0354
+   }
+  },
+  "flying paper": {
+   "kind": "environment",
+   "contexts": {
+    "wind": 0.0976,
+    "day": 0.093,
+    "light particles": 0.0505,
+    "night": 0.0391,
+    "sunlight": 0.0339,
+    "water": 0.0316,
+    "cloudy sky": 0.0316,
+    "glowing": 0.0304
+   }
+  },
+  "foam": {
+   "kind": "environment",
+   "contexts": {
+    "water": 0.1462,
+    "bathtub": 0.0878,
+    "bathroom": 0.0684,
+    "day": 0.0671,
+    "bath": 0.064,
+    "ocean": 0.0521,
+    "beach": 0.0445
+   }
+  },
+  "soap bubbles": {
+   "kind": "environment",
+   "contexts": {
+    "bathtub": 0.2122,
+    "bath": 0.2112,
+    "bathroom": 0.2086,
+    "water": 0.202,
+    "day": 0.05,
+    "shower (place)": 0.0484,
+    "onsen": 0.0312
+   }
+  },
+  "water drop": {
+   "kind": "environment",
+   "contexts": {
+    "water": 0.3686,
+    "day": 0.2522,
+    "rain": 0.1276,
+    "ocean": 0.122,
+    "cloudy sky": 0.0744,
+    "sunlight": 0.0708,
+    "beach": 0.06,
+    "night": 0.0328
+   }
+  },
+  "hot": {
+   "kind": "environment",
+   "contexts": {
+    "day": 0.1198,
+    "summer": 0.0614,
+    "sunlight": 0.0428,
+    "water": 0.0334
+   }
+  },
+  "glint": {
+   "kind": "light",
+   "contexts": {
+    "day": 0.1092,
+    "light particles": 0.0712,
+    "water": 0.0524,
+    "glowing": 0.04,
+    "sunlight": 0.0394,
+    "night": 0.036
+   }
+  },
+  "sparks": {
+   "kind": "light",
+   "contexts": {
+    "glowing": 0.1718,
+    "fire": 0.1534,
+    "night": 0.0632,
+    "light particles": 0.0403,
+    "day": 0.0374
+   }
+  }
+ }
+}

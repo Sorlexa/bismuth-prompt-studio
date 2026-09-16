@@ -1,0 +1,172 @@
+{
+ "_note": "Subsection 1a: quality tags. THERE IS NO BUILDER FOR THIS FILE, and that is the point. Every other pool is harvested from a measurable source -- location_pool from danbooru's curated wiki, style_pool from two wiki pages plus measured setting-pull, arity and contradictions from post counts. Quality vocabulary cannot be built that way because it does not exist on danbooru: masterpiece, best quality, amazing quality, very aesthetic, good quality, high detail, 8k, ultra detailed, intricate details, superb quality and masterwork ALL return exactly zero posts. They are conditioning tokens injected by finetuners at training time, not tags. So no co-occurrence, no lift, no arity, no contradiction -- the measurement apparatus this project relies on is blind here, and the only real evidence is A/B generation. This file is AUTHORED, and every entry records where its authority comes from in 'provenance'.",
+ "_structure_note": "GROUPS CONTROL DRAWING, NOT PROVENANCE. They are cut by word form -- things ending in 'details' pile up on each other, things ending in 'quality' pile up on each other -- because that is what makes a prompt read as padding. Where a tag came from is a separate axis and lives in 'provenance', so that 'superb quality' can sit beside README-documented entries without pretending a README vouched for it.",
+ "_admission_rules": {
+  "_note": "Seven rules a candidate must pass before entering this pool. Derived from the author's rejections, which were more informative than the acceptances. Rule 5 is machine-checkable and caught 'fine' (530 posts, fine art parody) and 'focus' (54 tags: female focus, solo focus) that reading had missed.",
+  "1_style_neutral": "No medium or approach. linework, inking, painterly, rendering all name a style, and danbooru already has style tags. A quality modifier must not smuggle a style choice in.",
+  "2_subject_neutral": "Must hold with no people present. anatomy, weight, proportions presuppose a person; 'no humans' is a valid cast.",
+  "3_colour_neutral": "Must hold in greyscale. The entire colour family dies on this rule.",
+  "4_no_renderable_nouns": "The model draws what you name. 'sound' produces sound-effect symbols, 'gradients' produces literal gradients, 'execution' produces beheadings.",
+  "5_no_tag_collision": "Reject if the word is a real tag, or a component of many tags. Rejected on measurement: perspective (10,015), sound (34,888), contrast (1,245), execution (997), texture (832), fine (530), studio (308), polish (127 + nail polish), print (0 bare but inside 360 tags), focus (54 tags), gradient (52 tags), line (9 tags), sharp (sharp teeth).",
+  "6_no_observer": "Nothing implying someone being persuaded -- 'convincing proportions' asks whom.",
+  "7_no_genre_lock": "Nothing that only makes sense for anime: key visual, light novel illustration."
+ },
+ "base": {
+  "_rule": "Always emitted, never randomised, always first. The base is stability; only the boosters vary.",
+  "illustrious": [
+   "masterpiece",
+   "best quality"
+  ],
+  "anima": [
+   "masterpiece",
+   "best quality"
+  ]
+ },
+ "score": {
+  "_rule": "ANIMA ONLY, and included from 'standard' upward: one value drawn at random. Illustrious does not use bare score_N, and Pony's score_9_up is a different vocabulary again -- emitting either into Illustrious is a mode error.",
+  "anima": [
+   "score_7",
+   "score_8",
+   "score_9"
+  ],
+  "illustrious": []
+ },
+ "pool": {
+  "_rule": "'maximum' only. Draw 3-5 in total across all groups, honouring each group's max_draw and the weights below.",
+  "groups": {
+   "resolution": {
+    "max_draw": 1,
+    "_why": "max_draw 1 IS the exclusivity: all three are the same claim at three strengths (>=1600px, >=3200px, beyond) and must never co-occur.",
+    "tags": [
+     "highres",
+     "absurdres",
+     "incredibly absurdres"
+    ]
+   },
+   "quality_words": {
+    "max_draw": 2,
+    "_why": "All assert 'this is good' in the same breath. Three of them in one prompt is padding, not emphasis.",
+    "tags": [
+     "amazing quality",
+     "very aesthetic",
+     "good quality",
+     "superb quality"
+    ]
+   },
+   "detail_words": {
+    "max_draw": 2,
+    "_why": "'detail' combines with almost any descriptor, so this group grows fastest and pads fastest.",
+    "tags": [
+     "ultra detailed",
+     "high detail",
+     "intricate details",
+     "refined details",
+     "delicate details",
+     "nuanced details"
+    ]
+   },
+   "standalone": {
+    "tags": [
+     "8k",
+     "professional illustration",
+     "masterwork"
+    ]
+   }
+  },
+  "weights": {
+   "_note": "Relative draw probability, default 1.0. masterwork is halved because 'masterpiece' is always in the base and the two are near-synonyms -- at full rate a third of maximum draws would carry both.",
+   "masterwork": 0.5
+  },
+  "provenance": {
+   "_note": "Where each entry's authority comes from. grounded = a real danbooru tag with posts behind it, the only vocabulary here with a causal chain. documented = zero on danbooru but vouched for in a model README in this family. convention = zero on danbooru and unvouched, community carry-over. authored = invented for this project, screened against the seven rules, selected by the author's.",
+   "absurdres": {
+    "source": "grounded",
+    "posts": 2954892
+   },
+   "incredibly absurdres": {
+    "source": "grounded",
+    "posts": 6537
+   },
+   "amazing quality": {
+    "source": "documented"
+   },
+   "very aesthetic": {
+    "source": "documented"
+   },
+   "good quality": {
+    "source": "documented"
+   },
+   "8k": {
+    "source": "convention"
+   },
+   "ultra detailed": {
+    "source": "convention"
+   },
+   "high detail": {
+    "source": "convention"
+   },
+   "intricate details": {
+    "source": "convention"
+   },
+   "superb quality": {
+    "source": "authored"
+   },
+   "refined details": {
+    "source": "authored"
+   },
+   "delicate details": {
+    "source": "authored"
+   },
+   "nuanced details": {
+    "source": "authored"
+   },
+   "professional illustration": {
+    "source": "authored"
+   },
+   "masterwork": {
+    "source": "authored"
+   },
+   "highres": {
+    "source": "grounded",
+    "posts": 8066720
+   }
+  }
+ },
+ "draw": {
+  "min": 3,
+  "max": 5
+ },
+ "negative": {
+  "_rule": "Always standard, no user control. The mirror of the same scale, defined once so the two ends cannot drift apart.",
+  "anima": [
+   "worst quality",
+   "low quality",
+   "score_1",
+   "score_2",
+   "score_3",
+   "artist name",
+   "blurry",
+   "jpeg artifacts",
+   "chromatic aberration"
+  ],
+  "illustrious": [
+   "worst quality",
+   "low quality",
+   "bad quality",
+   "lowres",
+   "jpeg artifacts",
+   "bad anatomy",
+   "signature",
+   "watermark"
+  ]
+ },
+ "rejected": {
+  "_note": "Real, popular danbooru meta tags deliberately kept OUT. They change the STYLE -- output looks like promotional art or a scanned artbook page -- which is a style choice, not a quality boost. Including them would repeat the mistake of filing 'underwater' under lighting.",
+  "official art": 535525,
+  "game cg": 170037,
+  "scan": 94200,
+  "official wallpaper": 10511,
+  "artbook": 4829,
+  "absurdly detailed composition": 3253
+ }
+}

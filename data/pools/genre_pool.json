@@ -1,0 +1,641 @@
+{
+ "_note": "GENRE pool, two-level (the author's rework 2026-09-03): buckets are global genres, leaves are what the dice emit. The roll picks a bucket (capped shares, mild count tilt) then a leaf (log-damped posts). A leaf's anchors are the tags emitted, its members the measured tags the affinity builder merges for it, its aliases what a user may type. rollable:false leaves and buckets are typed-only. Written by tools/build/write_genre_pool.py -- edit that script, not this file.",
+ "default": "everyday",
+ "buckets": {
+  "everyday": {
+   "hint": "the neutral modern world; nothing implies another genre",
+   "rollable": true,
+   "share": 0.35
+  },
+  "fantasy": {
+   "hint": "magic and the medieval-adjacent; light or dark by leaf",
+   "rollable": true,
+   "share": 0.15
+  },
+  "science fiction": {
+   "hint": "technology-forward futures",
+   "rollable": true,
+   "share": 0.15
+  },
+  "historical": {
+   "hint": "a period of the past, real or mythic",
+   "rollable": true,
+   "share": 0.15
+  },
+  "supernatural": {
+   "hint": "beings from beyond, and the dread beside them; light or dark by leaf",
+   "rollable": true,
+   "share": 0.12
+  },
+  "superhero": {
+   "hint": "modern-day fantasy: costumed heroes, villains and the city",
+   "rollable": true,
+   "share": 0.08
+  }
+ },
+ "genres": {
+  "everyday": {
+   "bucket": "everyday",
+   "posts": 26732,
+   "hint": "the mundane modern world, everyday warmth, low stakes (default when nothing implies otherwise)",
+   "anchors": [
+    "contemporary",
+    "slice of life"
+   ],
+   "members": [
+    "contemporary",
+    "slice of life"
+   ],
+   "aliases": [
+    "everyday",
+    "modern",
+    "modern day",
+    "present day",
+    "contemporary",
+    "slice of life",
+    "daily life",
+    "everyday life"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "fantasy": {
+   "bucket": "fantasy",
+   "posts": 19131,
+   "hint": "light fantasy: magic, medieval-adjacent, elves and knights plausible",
+   "anchors": [
+    "fantasy"
+   ],
+   "members": [
+    "fantasy",
+    "magic",
+    "witch",
+    "dungeon"
+   ],
+   "aliases": [
+    "fantasy",
+    "high fantasy",
+    "magic",
+    "magical",
+    "sword and sorcery",
+    "isekai",
+    "fairy tale"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "dark fantasy": {
+   "bucket": "fantasy",
+   "posts": 11268,
+   "hint": "dark fantasy: gothic mood, ruin and menace, demons and vampires plausible",
+   "anchors": [
+    "fantasy",
+    "gothic"
+   ],
+   "members": [
+    "gothic",
+    "vampire",
+    "demon",
+    "horror (theme)"
+   ],
+   "aliases": [
+    "dark fantasy",
+    "gothic fantasy",
+    "grimdark",
+    "gothic"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": [],
+   "weight": 0.6
+  },
+  "science fiction": {
+   "bucket": "science fiction",
+   "posts": 39525,
+   "hint": "technology-forward, spacecraft, cybernetics plausible",
+   "anchors": [
+    "science fiction"
+   ],
+   "members": [
+    "science fiction"
+   ],
+   "aliases": [
+    "science fiction",
+    "sci-fi",
+    "scifi",
+    "sci fi",
+    "space opera",
+    "futuristic"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "mecha": {
+   "bucket": "science fiction",
+   "posts": 60597,
+   "hint": "giant robots and their pilots, hangars and battlefields",
+   "anchors": [
+    "mecha"
+   ],
+   "members": [
+    "mecha"
+   ],
+   "aliases": [
+    "mecha",
+    "giant robot",
+    "mech"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "space": {
+   "bucket": "science fiction",
+   "posts": 24387,
+   "hint": "outer space: stations, ships, planets, zero gravity",
+   "anchors": [
+    "space"
+   ],
+   "members": [
+    "space"
+   ],
+   "aliases": [
+    "space",
+    "outer space",
+    "in space",
+    "spaceship",
+    "space station"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "cyborg": {
+   "bucket": "science fiction",
+   "posts": 16000,
+   "hint": "augmented bodies, prosthetics and implants",
+   "anchors": [
+    "cyborg"
+   ],
+   "members": [
+    "cyborg",
+    "android"
+   ],
+   "aliases": [
+    "cyborg",
+    "augmented"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "cyberpunk": {
+   "bucket": "science fiction",
+   "posts": 4083,
+   "hint": "neon city, corporate dystopia, wired bodies",
+   "anchors": [
+    "cyberpunk"
+   ],
+   "members": [
+    "cyberpunk"
+   ],
+   "aliases": [
+    "cyberpunk",
+    "neon city",
+    "megacity"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "steampunk": {
+   "bucket": "science fiction",
+   "posts": 2017,
+   "hint": "brass, steam, goggles and airships; Victorian technology imagined forward",
+   "anchors": [
+    "steampunk"
+   ],
+   "members": [
+    "steampunk"
+   ],
+   "aliases": [
+    "steampunk"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "post-apocalypse": {
+   "bucket": "science fiction",
+   "posts": 1656,
+   "hint": "ruins, scavenged gear, harsh survival",
+   "anchors": [
+    "post-apocalypse"
+   ],
+   "members": [
+    "post-apocalypse"
+   ],
+   "aliases": [
+    "post-apocalypse",
+    "post-apocalyptic",
+    "post apocalyptic",
+    "apocalypse",
+    "wasteland"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "dieselpunk": {
+   "bucket": "science fiction",
+   "posts": 54,
+   "hint": "interwar machinery imagined forward",
+   "anchors": [
+    "dieselpunk"
+   ],
+   "members": [
+    "dieselpunk"
+   ],
+   "aliases": [
+    "dieselpunk"
+   ],
+   "rollable": false,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "pirate": {
+   "bucket": "historical",
+   "posts": 8039,
+   "hint": "the age of sail: pirates, ships, ports and treasure",
+   "anchors": [
+    "pirate"
+   ],
+   "members": [
+    "pirate"
+   ],
+   "aliases": [
+    "pirate",
+    "pirates",
+    "age of sail",
+    "buccaneer"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "world war": {
+   "bucket": "historical",
+   "posts": 4361,
+   "hint": "the world wars: period uniforms, trenches, propaganda posters",
+   "anchors": [
+    "world war ii"
+   ],
+   "members": [
+    "world war ii",
+    "world war i"
+   ],
+   "aliases": [
+    "world war",
+    "world war ii",
+    "world war i",
+    "ww2",
+    "ww1",
+    "wwii",
+    "wwi",
+    "world war 2",
+    "world war 1",
+    "the great war"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "medieval": {
+   "bucket": "historical",
+   "posts": 1366,
+   "hint": "historical pre-modern Europe, armour and homespun",
+   "anchors": [
+    "medieval"
+   ],
+   "members": [
+    "medieval"
+   ],
+   "aliases": [
+    "medieval",
+    "middle ages",
+    "dark ages"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "victorian": {
+   "bucket": "historical",
+   "posts": 1153,
+   "hint": "19th-century Britain: corsets, top hats, gaslight",
+   "anchors": [
+    "victorian"
+   ],
+   "members": [
+    "victorian"
+   ],
+   "aliases": [
+    "victorian",
+    "victorian era",
+    "19th century",
+    "edwardian"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "norse": {
+   "bucket": "historical",
+   "posts": 840,
+   "hint": "vikings and the Norse world: longships, furs, runes, the old gods",
+   "anchors": [
+    "viking"
+   ],
+   "members": [
+    "viking",
+    "norse mythology"
+   ],
+   "aliases": [
+    "norse",
+    "vikings",
+    "norse mythology",
+    "valhalla"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "greco-roman": {
+   "bucket": "historical",
+   "posts": 8000,
+   "hint": "ancient Greece and Rome: togas, laurels, columns, the classical gods",
+   "anchors": [
+    "greco-roman clothes"
+   ],
+   "members": [
+    "greco-roman clothes",
+    "ancient greek clothes",
+    "laurel crown",
+    "toga",
+    "chiton",
+    "gladiator",
+    "greco-roman architecture",
+    "greek mythology"
+   ],
+   "aliases": [
+    "greco-roman",
+    "ancient rome",
+    "rome",
+    "roman",
+    "ancient greece",
+    "greece",
+    "greek",
+    "olympus",
+    "sparta",
+    "spartan",
+    "toga"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "ancient egypt": {
+   "bucket": "historical",
+   "posts": 6796,
+   "hint": "ancient Egypt: linen and gold, the Nile, pharaohs and the old gods",
+   "anchors": [
+    "ancient egyptian"
+   ],
+   "members": [
+    "ancient egyptian",
+    "egyptian clothes",
+    "usekh collar",
+    "egyptian mythology",
+    "sphinx",
+    "pharaoh"
+   ],
+   "aliases": [
+    "ancient egypt",
+    "egypt",
+    "egyptian",
+    "egyptian mythology",
+    "nile"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "ancient japan": {
+   "bucket": "historical",
+   "posts": 43000,
+   "hint": "pre-modern Japan: shrines and castles, samurai and miko, the old spirits",
+   "anchors": [
+    "miko",
+    "samurai"
+   ],
+   "members": [
+    "miko",
+    "samurai",
+    "ninja",
+    "onmyouji",
+    "heian",
+    "japanese mythology"
+   ],
+   "aliases": [
+    "ancient japan",
+    "feudal japan",
+    "edo",
+    "edo period",
+    "sengoku",
+    "heian",
+    "jidaigeki",
+    "samurai era",
+    "japanese mythology"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "prehistoric": {
+   "bucket": "historical",
+   "posts": 7000,
+   "hint": "the stone age: furs, bone, fire, dinosaurs by licence",
+   "anchors": [
+    "cavewoman",
+    "caveman"
+   ],
+   "members": [
+    "dinosaur",
+    "caveman",
+    "cavewoman",
+    "fur bikini",
+    "bone"
+   ],
+   "aliases": [
+    "prehistoric",
+    "stone age",
+    "cavewoman",
+    "prehistory"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": [
+    "prehistoric"
+   ]
+  },
+  "superhero": {
+   "bucket": "superhero",
+   "posts": 19791,
+   "hint": "costumed heroes, villains and the city",
+   "anchors": [
+    "superhero"
+   ],
+   "members": [
+    "superhero"
+   ],
+   "aliases": [
+    "superhero",
+    "superheroine",
+    "supervillain",
+    "hero",
+    "heroine"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "supernatural": {
+   "bucket": "supernatural",
+   "posts": 139092,
+   "hint": "beings from beyond in an otherwise ordinary world; one being per picture",
+   "anchors": [
+    "ghost",
+    "witch",
+    "vampire",
+    "demon",
+    "zombie",
+    "youkai",
+    "werewolf"
+   ],
+   "members": [
+    "ghost",
+    "witch",
+    "vampire",
+    "demon",
+    "zombie",
+    "youkai",
+    "werewolf",
+    "dhampir",
+    "devil",
+    "succubus",
+    "undead",
+    "oni",
+    "kitsune",
+    "tengu"
+   ],
+   "aliases": [
+    "ghosts",
+    "haunted",
+    "haunting",
+    "spirit",
+    "witches",
+    "witchcraft",
+    "coven",
+    "vampires",
+    "demons",
+    "incubus",
+    "zombies",
+    "walking dead",
+    "yokai",
+    "werewolves",
+    "lycanthrope"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": []
+  },
+  "horror": {
+   "bucket": "supernatural",
+   "posts": 18518,
+   "hint": "dread and the uncanny, the dark twin of supernatural; never guro or body horror",
+   "anchors": [
+    "horror (theme)",
+    "surreal",
+    "creepy",
+    "abandoned",
+    "nightmare"
+   ],
+   "members": [
+    "horror (theme)",
+    "surreal",
+    "creepy",
+    "abandoned",
+    "nightmare"
+   ],
+   "aliases": [
+    "horror",
+    "scary",
+    "terrifying",
+    "surreal",
+    "surrealism",
+    "dreamlike",
+    "creepy",
+    "eerie",
+    "unsettling",
+    "abandoned",
+    "derelict",
+    "nightmare",
+    "cosmic horror",
+    "lovecraftian",
+    "eldritch"
+   ],
+   "rollable": true,
+   "holiday": false,
+   "location_shaped": false,
+   "always": [],
+   "weight": 0.4
+  }
+ },
+ "rejected_dead": [
+  "modern (= contemporary)",
+  "wild west (= western, dropped)",
+  "space opera (= science fiction)",
+  "isekai (a fantasy trope)",
+  "renaissance",
+  "adventure (its parts are locations)",
+  "aztec",
+  "body horror",
+  "guro",
+  "home (its rooms roll under contemporary)"
+ ]
+}

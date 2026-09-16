@@ -1,0 +1,1228 @@
+{
+ "_note": "measured gender lean of occupation nouns: share of solo posts tagged 1girl vs 1boy (gelbooru). default female >= 0.90, male <= 0.10, else roll. Built by build_occupation_gender.py.",
+ "min_posts": 30,
+ "nouns": {
+  "1boy": {
+   "female_share": 0.015,
+   "posts": 681304,
+   "default": "male"
+  },
+  "1girl": {
+   "female_share": 0.998,
+   "posts": 6503426,
+   "default": "female"
+  },
+  "1other": {
+   "female_share": 0.797,
+   "posts": 2961,
+   "default": "roll"
+  },
+  "2boys": {
+   "female_share": 0.795,
+   "posts": 707,
+   "default": "roll"
+  },
+  "2others": {
+   "female_share": 0.817,
+   "posts": 257,
+   "default": "roll"
+  },
+  "adult baby": {
+   "female_share": 0.909,
+   "posts": 220,
+   "default": "female"
+  },
+  "adventurer": {
+   "female_share": 0.881,
+   "posts": 286,
+   "default": "roll"
+  },
+  "aged down": {
+   "female_share": 0.769,
+   "posts": 23232,
+   "default": "roll"
+  },
+  "aged up": {
+   "female_share": 0.925,
+   "posts": 16324,
+   "default": "female"
+  },
+  "ainu": {
+   "female_share": 0.869,
+   "posts": 352,
+   "default": "roll"
+  },
+  "alchemist": {
+   "female_share": 0.903,
+   "posts": 144,
+   "default": "female"
+  },
+  "alternate persona": {
+   "female_share": 0.901,
+   "posts": 778,
+   "default": "female"
+  },
+  "ambiguous gender": {
+   "female_share": 0.606,
+   "posts": 160,
+   "default": "roll"
+  },
+  "archer": {
+   "female_share": 0.161,
+   "posts": 1316,
+   "default": "roll"
+  },
+  "artist painter": {
+   "female_share": 0.904,
+   "posts": 114,
+   "default": "female"
+  },
+  "artist self-insert": {
+   "female_share": 0.873,
+   "posts": 1465,
+   "default": "roll"
+  },
+  "assassin": {
+   "female_share": 0.863,
+   "posts": 190,
+   "default": "roll"
+  },
+  "assertive female": {
+   "female_share": 0.863,
+   "posts": 629,
+   "default": "roll"
+  },
+  "astronaut": {
+   "female_share": 0.777,
+   "posts": 740,
+   "default": "roll"
+  },
+  "bald female": {
+   "female_share": 0.983,
+   "posts": 174,
+   "default": "female"
+  },
+  "ballerina": {
+   "female_share": 0.989,
+   "posts": 1573,
+   "default": "female"
+  },
+  "banchou": {
+   "female_share": 0.775,
+   "posts": 453,
+   "default": "roll"
+  },
+  "bard": {
+   "female_share": 0.371,
+   "posts": 205,
+   "default": "roll"
+  },
+  "barista": {
+   "female_share": 0.779,
+   "posts": 321,
+   "default": "roll"
+  },
+  "barmaid": {
+   "female_share": 1.0,
+   "posts": 214,
+   "default": "female"
+  },
+  "bartender": {
+   "female_share": 0.864,
+   "posts": 770,
+   "default": "roll"
+  },
+  "bear boy": {
+   "female_share": 0.003,
+   "posts": 604,
+   "default": "male"
+  },
+  "bear girl": {
+   "female_share": 0.997,
+   "posts": 2032,
+   "default": "female"
+  },
+  "bird boy": {
+   "female_share": 0.017,
+   "posts": 699,
+   "default": "male"
+  },
+  "bishounen": {
+   "female_share": 0.003,
+   "posts": 13868,
+   "default": "male"
+  },
+  "blacksmith": {
+   "female_share": 0.677,
+   "posts": 235,
+   "default": "roll"
+  },
+  "blind": {
+   "female_share": 0.789,
+   "posts": 1033,
+   "default": "roll"
+  },
+  "booth babe": {
+   "female_share": 1.0,
+   "posts": 67,
+   "default": "female"
+  },
+  "boxer": {
+   "female_share": 0.598,
+   "posts": 87,
+   "default": "roll"
+  },
+  "bride": {
+   "female_share": 0.98,
+   "posts": 7224,
+   "default": "female"
+  },
+  "brother and sister": {
+   "female_share": 0.673,
+   "posts": 315,
+   "default": "roll"
+  },
+  "brothers": {
+   "female_share": 0.149,
+   "posts": 47,
+   "default": "roll"
+  },
+  "buddhist nun": {
+   "female_share": 0.966,
+   "posts": 87,
+   "default": "female"
+  },
+  "butcher": {
+   "female_share": 0.588,
+   "posts": 34,
+   "default": "roll"
+  },
+  "butler": {
+   "female_share": 0.502,
+   "posts": 931,
+   "default": "roll"
+  },
+  "cactus girl": {
+   "female_share": 1.0,
+   "posts": 37,
+   "default": "female"
+  },
+  "carhop": {
+   "female_share": 0.952,
+   "posts": 42,
+   "default": "female"
+  },
+  "cashier": {
+   "female_share": 0.949,
+   "posts": 138,
+   "default": "female"
+  },
+  "caveman": {
+   "female_share": 0.81,
+   "posts": 84,
+   "default": "roll"
+  },
+  "cheerleader": {
+   "female_share": 0.978,
+   "posts": 16713,
+   "default": "female"
+  },
+  "chef": {
+   "female_share": 0.774,
+   "posts": 945,
+   "default": "roll"
+  },
+  "chijo": {
+   "female_share": 0.981,
+   "posts": 54,
+   "default": "female"
+  },
+  "chikan": {
+   "female_share": 0.953,
+   "posts": 43,
+   "default": "female"
+  },
+  "child": {
+   "female_share": 0.784,
+   "posts": 33163,
+   "default": "roll"
+  },
+  "choujuu gigaku": {
+   "female_share": 1.0,
+   "posts": 45,
+   "default": "female"
+  },
+  "cleric": {
+   "female_share": 0.92,
+   "posts": 137,
+   "default": "female"
+  },
+  "commissioner insert": {
+   "female_share": 0.897,
+   "posts": 58,
+   "default": "roll"
+  },
+  "conductor": {
+   "female_share": 0.715,
+   "posts": 305,
+   "default": "roll"
+  },
+  "construction worker": {
+   "female_share": 0.627,
+   "posts": 59,
+   "default": "roll"
+  },
+  "couple": {
+   "female_share": 0.655,
+   "posts": 351,
+   "default": "roll"
+  },
+  "cowboy": {
+   "female_share": 0.589,
+   "posts": 822,
+   "default": "roll"
+  },
+  "crazy": {
+   "female_share": 0.794,
+   "posts": 981,
+   "default": "roll"
+  },
+  "crossdressing": {
+   "female_share": 0.064,
+   "posts": 30660,
+   "default": "male"
+  },
+  "cuntboy": {
+   "female_share": 0.019,
+   "posts": 262,
+   "default": "male"
+  },
+  "dancer": {
+   "female_share": 0.981,
+   "posts": 4796,
+   "default": "female"
+  },
+  "dark persona": {
+   "female_share": 0.867,
+   "posts": 7679,
+   "default": "roll"
+  },
+  "dark-skinned female": {
+   "female_share": 0.997,
+   "posts": 150582,
+   "default": "female"
+  },
+  "dark-skinned male": {
+   "female_share": 0.045,
+   "posts": 23620,
+   "default": "male"
+  },
+  "dentist": {
+   "female_share": 0.727,
+   "posts": 33,
+   "default": "roll"
+  },
+  "detective": {
+   "female_share": 0.885,
+   "posts": 958,
+   "default": "roll"
+  },
+  "doctor": {
+   "female_share": 0.669,
+   "posts": 864,
+   "default": "roll"
+  },
+  "dominatrix": {
+   "female_share": 0.993,
+   "posts": 1574,
+   "default": "female"
+  },
+  "drag queen": {
+   "female_share": 0.086,
+   "posts": 35,
+   "default": "male"
+  },
+  "east asian": {
+   "female_share": 0.984,
+   "posts": 28322,
+   "default": "female"
+  },
+  "elite four": {
+   "female_share": 0.895,
+   "posts": 790,
+   "default": "roll"
+  },
+  "engineer": {
+   "female_share": 0.914,
+   "posts": 35,
+   "default": "female"
+  },
+  "fabulous": {
+   "female_share": 0.056,
+   "posts": 302,
+   "default": "male"
+  },
+  "faceless female": {
+   "female_share": 0.988,
+   "posts": 1624,
+   "default": "female"
+  },
+  "farmer": {
+   "female_share": 0.762,
+   "posts": 160,
+   "default": "roll"
+  },
+  "father and child": {
+   "female_share": 0.725,
+   "posts": 178,
+   "default": "roll"
+  },
+  "father and daughter": {
+   "female_share": 0.833,
+   "posts": 150,
+   "default": "roll"
+  },
+  "female pervert": {
+   "female_share": 0.99,
+   "posts": 1534,
+   "default": "female"
+  },
+  "feminine": {
+   "female_share": 0.03,
+   "posts": 100,
+   "default": "male"
+  },
+  "fictional persona": {
+   "female_share": 0.901,
+   "posts": 778,
+   "default": "female"
+  },
+  "firefighter": {
+   "female_share": 0.76,
+   "posts": 304,
+   "default": "roll"
+  },
+  "florist": {
+   "female_share": 0.75,
+   "posts": 68,
+   "default": "roll"
+  },
+  "fujoshi": {
+   "female_share": 0.976,
+   "posts": 170,
+   "default": "female"
+  },
+  "gangster": {
+   "female_share": 0.724,
+   "posts": 58,
+   "default": "roll"
+  },
+  "geisha": {
+   "female_share": 0.961,
+   "posts": 204,
+   "default": "female"
+  },
+  "gender transitioning": {
+   "female_share": 0.265,
+   "posts": 162,
+   "default": "roll"
+  },
+  "girly boy": {
+   "female_share": 0.013,
+   "posts": 473,
+   "default": "male"
+  },
+  "gladiator": {
+   "female_share": 0.894,
+   "posts": 263,
+   "default": "roll"
+  },
+  "glutton": {
+   "female_share": 0.964,
+   "posts": 110,
+   "default": "female"
+  },
+  "goalkeeper": {
+   "female_share": 0.239,
+   "posts": 117,
+   "default": "roll"
+  },
+  "gopnik": {
+   "female_share": 0.881,
+   "posts": 42,
+   "default": "roll"
+  },
+  "groom": {
+   "female_share": 0.233,
+   "posts": 146,
+   "default": "roll"
+  },
+  "gym leader": {
+   "female_share": 0.914,
+   "posts": 8403,
+   "default": "female"
+  },
+  "half-nightmare": {
+   "female_share": 0.911,
+   "posts": 45,
+   "default": "female"
+  },
+  "hikikomori": {
+   "female_share": 0.895,
+   "posts": 38,
+   "default": "roll"
+  },
+  "hostess": {
+   "female_share": 1.0,
+   "posts": 62,
+   "default": "female"
+  },
+  "housewife": {
+   "female_share": 0.993,
+   "posts": 577,
+   "default": "female"
+  },
+  "hunter": {
+   "female_share": 0.931,
+   "posts": 101,
+   "default": "female"
+  },
+  "husband and wife": {
+   "female_share": 0.675,
+   "posts": 83,
+   "default": "roll"
+  },
+  "idol": {
+   "female_share": 0.949,
+   "posts": 10526,
+   "default": "female"
+  },
+  "interracial": {
+   "female_share": 0.713,
+   "posts": 407,
+   "default": "roll"
+  },
+  "jester": {
+   "female_share": 0.763,
+   "posts": 891,
+   "default": "roll"
+  },
+  "jockey": {
+   "female_share": 0.909,
+   "posts": 44,
+   "default": "female"
+  },
+  "judge": {
+   "female_share": 0.711,
+   "posts": 90,
+   "default": "roll"
+  },
+  "kindergarten teacher": {
+   "female_share": 0.909,
+   "posts": 44,
+   "default": "female"
+  },
+  "king": {
+   "female_share": 0.172,
+   "posts": 174,
+   "default": "roll"
+  },
+  "knight": {
+   "female_share": 0.628,
+   "posts": 4223,
+   "default": "roll"
+  },
+  "kuudere": {
+   "female_share": 0.988,
+   "posts": 85,
+   "default": "female"
+  },
+  "left-handed": {
+   "female_share": 0.874,
+   "posts": 944,
+   "default": "roll"
+  },
+  "librarian": {
+   "female_share": 0.945,
+   "posts": 55,
+   "default": "female"
+  },
+  "lifeguard": {
+   "female_share": 0.805,
+   "posts": 763,
+   "default": "roll"
+  },
+  "luchador": {
+   "female_share": 0.383,
+   "posts": 60,
+   "default": "roll"
+  },
+  "mad scientist": {
+   "female_share": 0.667,
+   "posts": 33,
+   "default": "roll"
+  },
+  "magician": {
+   "female_share": 0.909,
+   "posts": 788,
+   "default": "female"
+  },
+  "maid": {
+   "female_share": 0.956,
+   "posts": 120208,
+   "default": "female"
+  },
+  "mailman": {
+   "female_share": 0.796,
+   "posts": 167,
+   "default": "roll"
+  },
+  "majorette": {
+   "female_share": 0.988,
+   "posts": 86,
+   "default": "female"
+  },
+  "male focus": {
+   "female_share": 0.003,
+   "posts": 606005,
+   "default": "male"
+  },
+  "male playboy bunny": {
+   "female_share": 0.005,
+   "posts": 1725,
+   "default": "male"
+  },
+  "male yandere": {
+   "female_share": 0.007,
+   "posts": 148,
+   "default": "male"
+  },
+  "manly": {
+   "female_share": 0.018,
+   "posts": 6065,
+   "default": "male"
+  },
+  "mature female": {
+   "female_share": 0.996,
+   "posts": 36585,
+   "default": "female"
+  },
+  "mature male": {
+   "female_share": 0.002,
+   "posts": 20365,
+   "default": "male"
+  },
+  "mechanic": {
+   "female_share": 0.857,
+   "posts": 491,
+   "default": "roll"
+  },
+  "merchant": {
+   "female_share": 0.896,
+   "posts": 48,
+   "default": "roll"
+  },
+  "meta": {
+   "female_share": 0.94,
+   "posts": 385,
+   "default": "female"
+  },
+  "miko": {
+   "female_share": 0.988,
+   "posts": 22311,
+   "default": "female"
+  },
+  "military medic": {
+   "female_share": 1.0,
+   "posts": 82,
+   "default": "female"
+  },
+  "military operator": {
+   "female_share": 0.895,
+   "posts": 457,
+   "default": "roll"
+  },
+  "mime": {
+   "female_share": 1.0,
+   "posts": 40,
+   "default": "female"
+  },
+  "model": {
+   "female_share": 0.983,
+   "posts": 1466,
+   "default": "female"
+  },
+  "monk": {
+   "female_share": 0.685,
+   "posts": 486,
+   "default": "roll"
+  },
+  "mother and child": {
+   "female_share": 0.824,
+   "posts": 244,
+   "default": "roll"
+  },
+  "motherly": {
+   "female_share": 1.0,
+   "posts": 87,
+   "default": "female"
+  },
+  "muscular uke": {
+   "female_share": 0.005,
+   "posts": 193,
+   "default": "male"
+  },
+  "mute": {
+   "female_share": 0.938,
+   "posts": 32,
+   "default": "female"
+  },
+  "mvp": {
+   "female_share": 0.918,
+   "posts": 73,
+   "default": "female"
+  },
+  "native american": {
+   "female_share": 0.738,
+   "posts": 1053,
+   "default": "roll"
+  },
+  "necromancer": {
+   "female_share": 0.932,
+   "posts": 296,
+   "default": "female"
+  },
+  "night battle idiot": {
+   "female_share": 1.0,
+   "posts": 77,
+   "default": "female"
+  },
+  "ninja": {
+   "female_share": 0.881,
+   "posts": 13188,
+   "default": "roll"
+  },
+  "nudist": {
+   "female_share": 0.982,
+   "posts": 1183,
+   "default": "female"
+  },
+  "nun": {
+   "female_share": 0.956,
+   "posts": 17258,
+   "default": "female"
+  },
+  "nurse": {
+   "female_share": 0.977,
+   "posts": 13663,
+   "default": "female"
+  },
+  "oc x canon": {
+   "female_share": 0.62,
+   "posts": 50,
+   "default": "roll"
+  },
+  "office lady": {
+   "female_share": 0.996,
+   "posts": 11675,
+   "default": "female"
+  },
+  "old": {
+   "female_share": 0.164,
+   "posts": 4277,
+   "default": "roll"
+  },
+  "old man": {
+   "female_share": 0.018,
+   "posts": 3545,
+   "default": "male"
+  },
+  "old woman": {
+   "female_share": 0.99,
+   "posts": 618,
+   "default": "female"
+  },
+  "onmyouji": {
+   "female_share": 0.671,
+   "posts": 1040,
+   "default": "roll"
+  },
+  "osugaki": {
+   "female_share": 0.042,
+   "posts": 48,
+   "default": "male"
+  },
+  "otaku": {
+   "female_share": 0.721,
+   "posts": 258,
+   "default": "roll"
+  },
+  "other focus": {
+   "female_share": 0.623,
+   "posts": 252,
+   "default": "roll"
+  },
+  "otoko no ko": {
+   "female_share": 0.007,
+   "posts": 46481,
+   "default": "male"
+  },
+  "paladin": {
+   "female_share": 0.759,
+   "posts": 137,
+   "default": "roll"
+  },
+  "parent and child": {
+   "female_share": 0.788,
+   "posts": 415,
+   "default": "roll"
+  },
+  "patissier": {
+   "female_share": 0.923,
+   "posts": 65,
+   "default": "female"
+  },
+  "pedophile": {
+   "female_share": 0.966,
+   "posts": 148,
+   "default": "female"
+  },
+  "people": {
+   "female_share": 0.742,
+   "posts": 520,
+   "default": "roll"
+  },
+  "phantom thief": {
+   "female_share": 0.87,
+   "posts": 391,
+   "default": "roll"
+  },
+  "pharaoh": {
+   "female_share": 0.417,
+   "posts": 72,
+   "default": "roll"
+  },
+  "photographer": {
+   "female_share": 0.968,
+   "posts": 62,
+   "default": "female"
+  },
+  "pilot": {
+   "female_share": 0.751,
+   "posts": 370,
+   "default": "roll"
+  },
+  "playboy bunny": {
+   "female_share": 0.986,
+   "posts": 104113,
+   "default": "female"
+  },
+  "police": {
+   "female_share": 0.895,
+   "posts": 7163,
+   "default": "roll"
+  },
+  "policeman": {
+   "female_share": 0.067,
+   "posts": 267,
+   "default": "male"
+  },
+  "policewoman": {
+   "female_share": 0.995,
+   "posts": 4805,
+   "default": "female"
+  },
+  "politician": {
+   "female_share": 0.379,
+   "posts": 58,
+   "default": "roll"
+  },
+  "priest": {
+   "female_share": 0.348,
+   "posts": 1024,
+   "default": "roll"
+  },
+  "prince": {
+   "female_share": 0.09,
+   "posts": 299,
+   "default": "male"
+  },
+  "princess": {
+   "female_share": 0.991,
+   "posts": 3821,
+   "default": "female"
+  },
+  "prisoner": {
+   "female_share": 0.782,
+   "posts": 445,
+   "default": "roll"
+  },
+  "product girl": {
+   "female_share": 0.996,
+   "posts": 477,
+   "default": "female"
+  },
+  "queen": {
+   "female_share": 0.997,
+   "posts": 610,
+   "default": "female"
+  },
+  "race queen": {
+   "female_share": 0.996,
+   "posts": 7772,
+   "default": "female"
+  },
+  "ranger": {
+   "female_share": 0.929,
+   "posts": 42,
+   "default": "female"
+  },
+  "raver": {
+   "female_share": 0.919,
+   "posts": 37,
+   "default": "female"
+  },
+  "reporter": {
+   "female_share": 1.0,
+   "posts": 66,
+   "default": "female"
+  },
+  "sailor": {
+   "female_share": 0.87,
+   "posts": 3453,
+   "default": "roll"
+  },
+  "sailor senshi": {
+   "female_share": 0.983,
+   "posts": 845,
+   "default": "female"
+  },
+  "salaryman": {
+   "female_share": 0.055,
+   "posts": 418,
+   "default": "male"
+  },
+  "samurai": {
+   "female_share": 0.626,
+   "posts": 1809,
+   "default": "roll"
+  },
+  "school nurse": {
+   "female_share": 0.972,
+   "posts": 286,
+   "default": "female"
+  },
+  "scientist": {
+   "female_share": 0.75,
+   "posts": 200,
+   "default": "roll"
+  },
+  "secretary": {
+   "female_share": 0.996,
+   "posts": 11675,
+   "default": "female"
+  },
+  "security guard": {
+   "female_share": 0.795,
+   "posts": 39,
+   "default": "roll"
+  },
+  "selfcest": {
+   "female_share": 0.807,
+   "posts": 83,
+   "default": "roll"
+  },
+  "shaman": {
+   "female_share": 0.692,
+   "posts": 91,
+   "default": "roll"
+  },
+  "shepherd": {
+   "female_share": 0.738,
+   "posts": 42,
+   "default": "roll"
+  },
+  "shortstack": {
+   "female_share": 0.994,
+   "posts": 3609,
+   "default": "female"
+  },
+  "shosei": {
+   "female_share": 0.031,
+   "posts": 32,
+   "default": "male"
+  },
+  "shota": {
+   "female_share": 0.006,
+   "posts": 18968,
+   "default": "male"
+  },
+  "shrine maiden": {
+   "female_share": 0.988,
+   "posts": 22311,
+   "default": "female"
+  },
+  "siblings": {
+   "female_share": 0.78,
+   "posts": 868,
+   "default": "roll"
+  },
+  "sisters": {
+   "female_share": 0.944,
+   "posts": 250,
+   "default": "female"
+  },
+  "slave": {
+   "female_share": 0.979,
+   "posts": 14878,
+   "default": "female"
+  },
+  "soldier": {
+   "female_share": 0.858,
+   "posts": 1666,
+   "default": "roll"
+  },
+  "sole female": {
+   "female_share": 0.998,
+   "posts": 6503449,
+   "default": "female"
+  },
+  "solo": {
+   "female_share": 0.906,
+   "posts": 7140628,
+   "default": "female"
+  },
+  "sorcerer": {
+   "female_share": 0.549,
+   "posts": 718,
+   "default": "roll"
+  },
+  "sorceress": {
+   "female_share": 0.991,
+   "posts": 17841,
+   "default": "female"
+  },
+  "spy": {
+   "female_share": 0.97,
+   "posts": 33,
+   "default": "female"
+  },
+  "store clerk": {
+   "female_share": 0.95,
+   "posts": 181,
+   "default": "female"
+  },
+  "stormtrooper": {
+   "female_share": 0.594,
+   "posts": 64,
+   "default": "roll"
+  },
+  "stripper": {
+   "female_share": 0.942,
+   "posts": 497,
+   "default": "female"
+  },
+  "sukeban": {
+   "female_share": 0.976,
+   "posts": 334,
+   "default": "female"
+  },
+  "tall female": {
+   "female_share": 0.985,
+   "posts": 855,
+   "default": "female"
+  },
+  "tall male": {
+   "female_share": 0.054,
+   "posts": 37,
+   "default": "male"
+  },
+  "taller than canon": {
+   "female_share": 0.812,
+   "posts": 32,
+   "default": "roll"
+  },
+  "teacher": {
+   "female_share": 0.959,
+   "posts": 4309,
+   "default": "female"
+  },
+  "teacher and student": {
+   "female_share": 0.717,
+   "posts": 46,
+   "default": "roll"
+  },
+  "team flare": {
+   "female_share": 0.644,
+   "posts": 73,
+   "default": "roll"
+  },
+  "team galactic": {
+   "female_share": 0.639,
+   "posts": 208,
+   "default": "roll"
+  },
+  "team magma": {
+   "female_share": 0.92,
+   "posts": 388,
+   "default": "female"
+  },
+  "team plasma": {
+   "female_share": 0.515,
+   "posts": 68,
+   "default": "roll"
+  },
+  "team rainbow rocket": {
+   "female_share": 0.855,
+   "posts": 55,
+   "default": "roll"
+  },
+  "team rocket": {
+   "female_share": 0.76,
+   "posts": 1307,
+   "default": "roll"
+  },
+  "thief": {
+   "female_share": 0.899,
+   "posts": 79,
+   "default": "roll"
+  },
+  "toddler": {
+   "female_share": 0.76,
+   "posts": 146,
+   "default": "roll"
+  },
+  "tomboy": {
+   "female_share": 0.997,
+   "posts": 8774,
+   "default": "female"
+  },
+  "train attendant": {
+   "female_share": 0.953,
+   "posts": 64,
+   "default": "female"
+  },
+  "train conductor": {
+   "female_share": 0.944,
+   "posts": 409,
+   "default": "female"
+  },
+  "trap": {
+   "female_share": 0.007,
+   "posts": 46481,
+   "default": "male"
+  },
+  "traumatized": {
+   "female_share": 0.849,
+   "posts": 53,
+   "default": "roll"
+  },
+  "travel attendant": {
+   "female_share": 0.983,
+   "posts": 838,
+   "default": "female"
+  },
+  "trial captain": {
+   "female_share": 0.974,
+   "posts": 937,
+   "default": "female"
+  },
+  "tsundere": {
+   "female_share": 0.977,
+   "posts": 3415,
+   "default": "female"
+  },
+  "ugly bastard": {
+   "female_share": 0.225,
+   "posts": 129,
+   "default": "roll"
+  },
+  "utaite": {
+   "female_share": 0.88,
+   "posts": 3274,
+   "default": "roll"
+  },
+  "victorian maid": {
+   "female_share": 0.961,
+   "posts": 542,
+   "default": "female"
+  },
+  "viking": {
+   "female_share": 0.476,
+   "posts": 166,
+   "default": "roll"
+  },
+  "virgin": {
+   "female_share": 0.995,
+   "posts": 634,
+   "default": "female"
+  },
+  "virtual youtuber": {
+   "female_share": 0.959,
+   "posts": 404572,
+   "default": "female"
+  },
+  "voice actor": {
+   "female_share": 0.981,
+   "posts": 1491,
+   "default": "female"
+  },
+  "vs seeker": {
+   "female_share": 0.732,
+   "posts": 56,
+   "default": "roll"
+  },
+  "waiter": {
+   "female_share": 0.141,
+   "posts": 397,
+   "default": "roll"
+  },
+  "waitress": {
+   "female_share": 0.983,
+   "posts": 9714,
+   "default": "female"
+  },
+  "warrior": {
+   "female_share": 0.927,
+   "posts": 1179,
+   "default": "female"
+  },
+  "weight conscious": {
+   "female_share": 0.974,
+   "posts": 1120,
+   "default": "female"
+  },
+  "witch": {
+   "female_share": 0.991,
+   "posts": 17841,
+   "default": "female"
+  },
+  "wizard": {
+   "female_share": 0.549,
+   "posts": 718,
+   "default": "roll"
+  },
+  "yandere": {
+   "female_share": 0.946,
+   "posts": 4191,
+   "default": "female"
+  },
+  "yuujo": {
+   "female_share": 0.994,
+   "posts": 166,
+   "default": "female"
+  },
+  "fisherman": {
+   "default": "male",
+   "ruled": "the author's 2026-09-15"
+  },
+  "lumberjack": {
+   "default": "male",
+   "ruled": "the author's 2026-09-15"
+  },
+  "trucker": {
+   "default": "male",
+   "ruled": "the author's 2026-09-15"
+  }
+ }
+}

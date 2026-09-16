@@ -1,0 +1,457 @@
+{
+ "ambient lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "atmospheric lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "aurora": {
+  "posts": 2053,
+  "section": "booru",
+  "source": "booru"
+ },
+ "backlighting": {
+  "posts": 45338,
+  "section": "directional",
+  "source": "wiki"
+ },
+ "bloom": {
+  "posts": 5386,
+  "section": "types",
+  "source": "wiki"
+ },
+ "blue theme": {
+  "posts": 533,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "bokeh": {
+  "posts": 50263,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "candlelight": {
+  "posts": 4390,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "caustics": {
+  "posts": 3886,
+  "section": "light through objects",
+  "source": "wiki"
+ },
+ "ceiling light": {
+  "posts": 6412,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "chiaroscuro": {
+  "posts": 437,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "christmas lights": {
+  "posts": 3275,
+  "section": "booru",
+  "source": "booru"
+ },
+ "cinematic lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "city lights": {
+  "posts": 6854,
+  "section": "booru",
+  "source": "booru"
+ },
+ "colored shadow": {
+  "posts": 4009,
+  "section": "absence-of-light",
+  "source": "wiki"
+ },
+ "colored smoke": {
+  "posts": 866,
+  "section": "booru",
+  "source": "booru"
+ },
+ "contrast": {
+  "posts": 1245,
+  "section": "booru",
+  "source": "booru"
+ },
+ "crack of light": {
+  "posts": 1145,
+  "section": "light through gaps",
+  "source": "wiki"
+ },
+ "dappled lighting": {
+  "posts": 15047,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "dark theme": {
+  "posts": 19840,
+  "section": "absence-of-light",
+  "source": "wiki"
+ },
+ "dark shadows": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "dawn": {
+  "posts": 1749,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "day": {
+  "posts": 454122,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "deep shadows": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "desk lamp": {
+  "posts": 3872,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "different reflection": {
+  "posts": 5179,
+  "section": "booru",
+  "source": "booru"
+ },
+ "different shadow": {
+  "posts": 1439,
+  "section": "booru",
+  "source": "booru"
+ },
+ "dim lighting": {
+  "posts": 1298,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "dispersion (optics)": {
+  "posts": 123,
+  "section": "light through objects",
+  "source": "wiki"
+ },
+ "dramatic lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "dramatic shadows": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "drop shadow": {
+  "posts": 16860,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "dusk": {
+  "posts": 6051,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "dust particles": {
+  "posts": 18333,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "dynamic lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "embers": {
+  "posts": 6658,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "glowing": {
+  "posts": 141370,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "evening": {
+  "posts": 13170,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "face in shadow": {
+  "posts": 625,
+  "section": "booru",
+  "source": "booru"
+ },
+ "fire": {
+  "posts": 111084,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "flare": {
+  "posts": 200,
+  "section": "misc",
+  "source": "wiki"
+ },
+ "flashlight": {
+  "posts": 2949,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "floodlights": {
+  "posts": 203,
+  "section": "misc",
+  "source": "wiki"
+ },
+ "gentle shadows": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "glowing particles": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "light rays": {
+  "posts": 33103,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "golden hour lighting": {
+  "posts": 380,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "green theme": {
+  "posts": 466,
+  "section": "booru",
+  "source": "booru"
+ },
+ "hanging light": {
+  "posts": 1820,
+  "section": "booru",
+  "source": "booru"
+ },
+ "hard shadows": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "high contrast": {
+  "posts": 4814,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "lantern": {
+  "posts": 38572,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "light particles": {
+  "posts": 80549,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "moody lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "moonbeam": {
+  "posts": 72,
+  "section": "types",
+  "source": "wiki"
+ },
+ "moonlight": {
+  "posts": 4997,
+  "section": "types",
+  "source": "wiki"
+ },
+ "morning": {
+  "posts": 4418,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "sunlight": {
+  "posts": 101924,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "neon lighting": {
+  "posts": 4080,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "night": {
+  "posts": 176617,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "outer glow": {
+  "posts": 762,
+  "section": "booru",
+  "source": "booru"
+ },
+ "overexposure": {
+  "posts": 736,
+  "section": "misc",
+  "source": "wiki"
+ },
+ "overlighting": {
+  "posts": 498,
+  "section": "directional",
+  "source": "wiki"
+ },
+ "pov shadow": {
+  "posts": 592,
+  "section": "booru",
+  "source": "booru"
+ },
+ "rainbow": {
+  "posts": 14043,
+  "section": "light through objects",
+  "source": "wiki"
+ },
+ "red theme": {
+  "posts": 873,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "reflection": {
+  "posts": 55953,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "refraction": {
+  "posts": 1157,
+  "section": "light through objects",
+  "source": "wiki"
+ },
+ "rim lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "ring light reflection": {
+  "posts": 5448,
+  "section": "booru",
+  "source": "booru"
+ },
+ "screen light": {
+  "posts": 1150,
+  "section": "booru",
+  "source": "booru"
+ },
+ "sidelighting": {
+  "posts": 12997,
+  "section": "directional",
+  "source": "wiki"
+ },
+ "silhouette": {
+  "posts": 22805,
+  "section": "absence-of-light",
+  "source": "wiki"
+ },
+ "soft lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "soft shadows": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "volumetric lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "spotlight": {
+  "posts": 9363,
+  "section": "types",
+  "source": "wiki"
+ },
+ "stage lights": {
+  "posts": 7070,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "subsurface scattering": {
+  "posts": 289,
+  "section": "light through objects",
+  "source": "wiki"
+ },
+ "sunbeam": {
+  "posts": 13273,
+  "section": "types",
+  "source": "wiki"
+ },
+ "sunrise": {
+  "posts": 4992,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "sunset": {
+  "posts": 41203,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "torch": {
+  "posts": 3959,
+  "section": "sources",
+  "source": "wiki"
+ },
+ "tree shade": {
+  "posts": 3929,
+  "section": "absence-of-light",
+  "source": "wiki"
+ },
+ "twilight": {
+  "posts": 8918,
+  "section": "time-of-day-lighting",
+  "source": "wiki"
+ },
+ "ultraviolet light": {
+  "posts": 260,
+  "section": "misc",
+  "source": "wiki"
+ },
+ "underlighting": {
+  "posts": 1273,
+  "section": "directional",
+  "source": "wiki"
+ },
+ "warm lighting": {
+  "posts": 0,
+  "section": "finetune",
+  "source": "corpus"
+ },
+ "window fog": {
+  "posts": 455,
+  "section": "booru",
+  "source": "booru"
+ },
+ "window light": {
+  "posts": 596,
+  "section": "booru",
+  "source": "booru"
+ },
+ "window shadow": {
+  "posts": 4150,
+  "section": "absence-of-light",
+  "source": "wiki"
+ }
+}

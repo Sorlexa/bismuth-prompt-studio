@@ -1,0 +1,322 @@
+{
+ "_note": "NL-channel style vocabulary: styles Anima reproduces that DO NOT EXIST as booru tags -- studio looks, director hands, era aesthetics, technique phrases. Nothing here is measurable by post count, lift or pulls; the evidence is A/B GENERATION, and every entry records its verdict and where the test came from. ANIMA-ONLY until tested on Illustrious: these work through the Qwen3 text encoder reading plain English plus Anima's NL captions, a channel Illustrious's CLIP largely lacks.",
+ "_channel_note": "These are NL PHRASES, a different channel from booru tags. 'Ukiyo-e style' testing INEFFECTIVE here does not contradict `ukiyo-e` (684 posts, measured pulls) in style_pool -- the tag channel and the phrase channel are separately alive or dead. Where a booru twin exists it is named in `tag_twin`, and the generator must not emit both phrasings of one concept in one prompt.",
+ "_source": {
+  "article": "https://note.com/ai_0049/n/n74ccab5370e0",
+  "method": "fixed seed, with/without tag, visual comparison; 108 tags on Anima base",
+  "date_imported": "2026-08-28",
+  "finding": "tags combining a distinctive palette with concrete motifs reproduce best; abstract worldview descriptors converge or die -- independently the same rule as 'the model draws what you name'"
+ },
+ "pool": {
+  "Studio Ghibli style": {
+   "verdict": "strong",
+   "group": "studio",
+   "palette": {},
+   "techniques": {},
+   "mediums": {
+    "watercolor pencil (medium)": 0.036,
+    "watercolor (medium)": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "Pixar style": {
+   "verdict": "strong",
+   "group": "studio",
+   "palette": {},
+   "techniques": {
+    "depth of field": 0.048
+   },
+   "mediums": {
+    "render": 0.036,
+    "cgi": 0.036,
+    "3d": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "Spider-Verse style": {
+   "verdict": "strong",
+   "group": "studio",
+   "palette": {},
+   "techniques": {
+    "chromatic aberration": 0.048,
+    "halftone": 0.048
+   },
+   "mediums": {
+    "ink (medium)": 0.036,
+    "cgi": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "DreamWorks style": {
+   "verdict": "partial",
+   "group": "studio",
+   "palette": {},
+   "techniques": {},
+   "mediums": {
+    "3d": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "Studio Colorido style": {
+   "verdict": "partial",
+   "group": "studio",
+   "palette": {
+    "pastel colors": 0.049
+   },
+   "techniques": {},
+   "mediums": {
+    "pastel (medium)": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "Akira Toriyama style": {
+   "verdict": "strong",
+   "group": "director",
+   "palette": {
+    "flat color": 0.049
+   },
+   "techniques": {},
+   "mediums": {},
+   "definition_src": "claude"
+  },
+  "Tim Burton style": {
+   "verdict": "strong",
+   "group": "director",
+   "palette": {
+    "saturated": 0.049,
+    "dark": 0.049
+   },
+   "techniques": {},
+   "mediums": {},
+   "definition_src": "claude"
+  },
+  "Hayao Miyazaki style": {
+   "verdict": "partial",
+   "group": "director",
+   "palette": {},
+   "techniques": {},
+   "mediums": {
+    "hand-drawn": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "Satoshi Kon style": {
+   "verdict": "partial",
+   "group": "director",
+   "palette": {
+    "muted colors": 0.049
+   },
+   "techniques": {},
+   "mediums": {},
+   "definition_src": "claude"
+  },
+  "Mamoru Hosoda style": {
+   "verdict": "partial",
+   "group": "director",
+   "palette": {},
+   "techniques": {},
+   "mediums": {
+    "pen (medium)": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "VHS anime aesthetic": {
+   "verdict": "strong",
+   "group": "era",
+   "palette": {
+    "anime coloring": 0.049
+   },
+   "techniques": {
+    "chromatic aberration": 0.048
+   },
+   "mediums": {},
+   "definition_src": "claude"
+  },
+  "golden age comic style": {
+   "verdict": "strong",
+   "group": "era",
+   "tag_twin": "western comics (style)",
+   "palette": {},
+   "techniques": {
+    "halftone": 0.048
+   },
+   "mediums": {},
+   "definition_src": "claude"
+  },
+  "digital painting style": {
+   "verdict": "strong",
+   "group": "technique",
+   "palette": {},
+   "techniques": {},
+   "mediums": {
+    "painting (medium)": 0.036,
+    "render": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "shoujo manga style": {
+   "verdict": "strong",
+   "group": "subgenre",
+   "palette": {},
+   "techniques": {},
+   "mediums": {
+    "screentones": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "shounen manga style": {
+   "verdict": "strong",
+   "group": "subgenre",
+   "palette": {},
+   "techniques": {},
+   "mediums": {
+    "screentone": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "seinen manga style": {
+   "verdict": "strong",
+   "group": "subgenre",
+   "palette": {},
+   "techniques": {},
+   "mediums": {},
+   "definition_src": "claude"
+  },
+  "Arknights style": {
+   "verdict": "strong",
+   "group": "game",
+   "palette": {
+    "saturated": 0.049
+   },
+   "techniques": {},
+   "mediums": {
+    "render": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "Korean manhwa style": {
+   "verdict": "strong",
+   "group": "game",
+   "palette": {},
+   "techniques": {},
+   "mediums": {
+    "airbrush (medium)": 0.036,
+    "render": 0.036
+   },
+   "definition_src": "claude"
+  },
+  "gothic style": {
+   "verdict": "strong",
+   "group": "worldview",
+   "palette": {
+    "dark": 0.049
+   },
+   "techniques": {},
+   "mediums": {},
+   "definition_src": "claude"
+  },
+  "film noir style": {
+   "verdict": "partial",
+   "group": "worldview",
+   "palette": {
+    "monochrome": 0.049,
+    "greyscale": 0.049
+   },
+   "techniques": {},
+   "mediums": {},
+   "definition_src": "claude"
+  }
+ },
+ "rejected": {
+  "_note": "Tested and found dead or harmful ON ANIMA BASE. 'ineffective' is a dead token; 'misconverted' is WORSE THAN NOTHING -- it changes the image wrongly (Katsuhiro Otomo style does not give you Otomo). 'converged' means the phrase produces the same generic output as its siblings. All are RETEST CANDIDATES on finetunes -- Bismuth Anima may differ.",
+  "Makoto Shinkai style": "ineffective",
+  "Kyoto Animation style": "ineffective",
+  "Trigger style": "ineffective",
+  "Disney style": "ineffective",
+  "Disney Renaissance style": "ineffective",
+  "Illumination style": "ineffective",
+  "Arcane style": "ineffective",
+  "Cartoon Network style": "ineffective",
+  "Nickelodeon style": "ineffective",
+  "Sunrise mecha anime style": "ineffective",
+  "Katsuhiro Otomo style": "misconverted",
+  "Hideaki Anno style": "misconverted",
+  "Isao Takahata style": "ineffective",
+  "Masaaki Yuasa style": "ineffective",
+  "Moebius style": "ineffective",
+  "vintage anime style": "ineffective",
+  "Showa anime style": "ineffective",
+  "classic Disney style": "ineffective",
+  "old cartoon style": "ineffective",
+  "Y2K anime style": "ineffective",
+  "cel shading style": "ineffective",
+  "flat color illustration": "ineffective",
+  "impasto style": "ineffective",
+  "pastel style": "ineffective",
+  "crayon drawing style": "ineffective",
+  "sketch style": "ineffective",
+  "line art": "ineffective",
+  "ink wash painting style": "misconverted",
+  "colored pencil style": "misconverted",
+  "3D render style": "ineffective",
+  "claymation style": "ineffective",
+  "stop motion style": "ineffective",
+  "isometric art style": "ineffective",
+  "toon shading 3D": "ineffective",
+  "cinematic 3D render": "ineffective",
+  "game CG style": "ineffective",
+  "voxel art style": "misconverted",
+  "Pixar-style 3D": "misconverted",
+  "chibi style": "ineffective",
+  "kawaii style": "ineffective",
+  "moe style": "ineffective",
+  "mecha anime style": "ineffective",
+  "magical girl style": "ineffective",
+  "dark fantasy anime style": "ineffective",
+  "sports anime style": "ineffective",
+  "webtoon style": "converged",
+  "gacha game style": "converged",
+  "Genshin Impact style": "converged",
+  "Fate/Grand Order style": "converged",
+  "VTuber illustration style": "ineffective",
+  "visual novel style": "ineffective",
+  "light novel cover style": "ineffective",
+  "Live2D style": "misconverted",
+  "ukiyo-e style": "ineffective",
+  "Bauhaus style": "ineffective",
+  "steampunk style": "converged",
+  "dieselpunk style": "converged",
+  "solarpunk style": "converged",
+  "space opera style": "converged",
+  "biopunk style": "converged",
+  "dystopian concept art style": "ineffective",
+  "hentai anime style": "ineffective",
+  "erotic anime style": "ineffective",
+  "porn anime style": "ineffective",
+  "hentai art style": "ineffective",
+  "ecchi tentacle style": "ineffective",
+  "porn style": "ineffective",
+  "eroge style": "ineffective",
+  "bishoujo game style": "ineffective",
+  "90s anime style": "duplicate of the measured booru style '1990s (style)' (the author's 2026-09-15)",
+  "80s anime style": "duplicate of the measured booru style '1980s (style)' (the author's 2026-09-15)",
+  "retro anime style": "duplicate of the measured booru style 'retro artstyle' (the author's 2026-09-15)",
+  "watercolor painting style": "duplicate of the measured booru style 'watercolor (medium)' (the author's 2026-09-15)",
+  "oil painting style": "duplicate of the measured booru style 'oil painting (medium)' (the author's 2026-09-15)",
+  "gouache painting style": "duplicate of the measured booru style 'gouache (medium)' (the author's 2026-09-15)",
+  "charcoal drawing style": "duplicate of the measured booru style 'charcoal (medium)' (the author's 2026-09-15)",
+  "soft pastel style": "duplicate of the measured booru style 'pastel (medium)' (the author's 2026-09-15)",
+  "pencil style": "duplicate of the measured booru style 'graphite (medium)' (the author's 2026-09-15)",
+  "low poly 3D style": "duplicate of the measured booru style 'low poly' (the author's 2026-09-15)",
+  "art nouveau style": "duplicate of the measured booru style 'art nouveau' (the author's 2026-09-15)",
+  "pop art style": "duplicate of the measured booru style 'pop art' (the author's 2026-09-15)",
+  "vaporwave style": "duplicate of the measured booru style 'vaporwave' (the author's 2026-09-15)",
+  "psychedelic art style": "duplicate of the measured booru style 'psychedelic' (the author's 2026-09-15)",
+  "art deco style": "duplicate of the measured booru style 'art deco' (the author's 2026-09-15)",
+  "surrealism style": "duplicate of the measured booru style 'surreal' (the author's 2026-09-15)",
+  "impressionism style": "duplicate of the measured booru style 'impressionism' (the author's 2026-09-15)",
+  "minimalist style": "duplicate of the measured booru style 'minimalism' (the author's 2026-09-15)",
+  "cyberpunk style": "duplicate of the measured booru style 'cyberpunk' (the author's 2026-09-15)",
+  "retrofuturism style": "duplicate of the measured booru style 'retrofuturism' (the author's 2026-09-15)"
+ }
+}

@@ -1,0 +1,1111 @@
+{
+ "_note": "P(companion | tag, level): danbooru related_tag of '<tag> rating:<g|s|q|e>'. An empty row = too few posts at that rating. Measured on SOLO posts (pair postures excepted). Written by tools/build/harvest_levels.py --table emotion_beside.",
+ "levels": {
+  "safe": {
+   "expressionless": {},
+   "embarrassed": {},
+   "happy": {},
+   "surprised": {},
+   "scared": {
+    "surprised": 0.0742,
+    "angry": 0.0526,
+    "happy": 0.0414,
+    "expressionless": 0.028,
+    "nervous": 0.0276
+   },
+   "annoyed": {
+    "happy": 0.116,
+    "angry": 0.0784,
+    "surprised": 0.0442,
+    "expressionless": 0.0404,
+    "embarrassed": 0.025,
+    "smug": 0.0216,
+    "nervous": 0.0202
+   },
+   "drunk": {
+    "happy": 0.0324,
+    "surprised": 0.0249,
+    "angry": 0.0225
+   },
+   "nervous": {
+    "happy": 0.1242,
+    "surprised": 0.0624,
+    "embarrassed": 0.0602,
+    "expressionless": 0.0524,
+    "angry": 0.0438,
+    "scared": 0.042,
+    "annoyed": 0.0294,
+    "shy": 0.0216
+   },
+   "sad": {
+    "happy": 0.1188,
+    "angry": 0.067,
+    "expressionless": 0.0464,
+    "surprised": 0.0464,
+    "annoyed": 0.0182,
+    "serious": 0.0172,
+    "scared": 0.0162
+   },
+   "shy": {
+    "embarrassed": 0.1309,
+    "happy": 0.0966,
+    "surprised": 0.06,
+    "nervous": 0.044,
+    "flustered": 0.0302,
+    "expressionless": 0.028,
+    "angry": 0.019
+   },
+   "sleepy": {
+    "happy": 0.0327,
+    "surprised": 0.0327,
+    "expressionless": 0.0174
+   },
+   "thinking": {
+    "happy": 0.0494,
+    "surprised": 0.0435,
+    "expressionless": 0.0382,
+    "angry": 0.0265,
+    "embarrassed": 0.0181,
+    "nervous": 0.0173
+   },
+   "flustered": {
+    "embarrassed": 0.1531,
+    "surprised": 0.1051,
+    "happy": 0.0675,
+    "nervous": 0.0372,
+    "shy": 0.0292,
+    "expressionless": 0.0271,
+    "angry": 0.0264,
+    "annoyed": 0.0191,
+    "smug": 0.0173
+   },
+   "unamused": {
+    "expressionless": 0.0623,
+    "happy": 0.0546,
+    "annoyed": 0.0485,
+    "angry": 0.038,
+    "surprised": 0.0279,
+    "smug": 0.0186,
+    "embarrassed": 0.0162
+   },
+   "worried": {
+    "surprised": 0.0794,
+    "happy": 0.0741,
+    "angry": 0.0701,
+    "scared": 0.0428,
+    "expressionless": 0.0415,
+    "nervous": 0.0358,
+    "sad": 0.0354,
+    "embarrassed": 0.0314,
+    "annoyed": 0.0257,
+    "serious": 0.0232,
+    "smug": 0.0232
+   },
+   "confused": {
+    "surprised": 0.0987,
+    "happy": 0.0704,
+    "angry": 0.0484,
+    "embarrassed": 0.0414,
+    "expressionless": 0.0283,
+    "annoyed": 0.0275,
+    "scared": 0.0259,
+    "nervous": 0.0221,
+    "thinking": 0.0178
+   },
+   "disgust": {
+    "angry": 0.0643,
+    "happy": 0.0559,
+    "surprised": 0.0559,
+    "expressionless": 0.0327,
+    "scared": 0.0232,
+    "annoyed": 0.0232,
+    "embarrassed": 0.0211,
+    "smug": 0.0169
+   },
+   "pain": {
+    "angry": 0.0671,
+    "surprised": 0.0477,
+    "happy": 0.0348,
+    "expressionless": 0.0232,
+    "scared": 0.0219,
+    "sad": 0.0194,
+    "annoyed": 0.0181
+   },
+   "exhausted": {
+    "happy": 0.0582,
+    "surprised": 0.0414,
+    "angry": 0.0335,
+    "sleepy": 0.0311,
+    "expressionless": 0.0263,
+    "annoyed": 0.0231,
+    "worried": 0.0175
+   },
+   "excited": {
+    "happy": 0.1971,
+    "surprised": 0.0696,
+    "expressionless": 0.0351,
+    "annoyed": 0.0345,
+    "embarrassed": 0.0304,
+    "nervous": 0.0304,
+    "angry": 0.0298,
+    "scared": 0.0269
+   },
+   "determined": {
+    "happy": 0.1494,
+    "expressionless": 0.1009,
+    "surprised": 0.0465,
+    "serious": 0.0336,
+    "scared": 0.0317
+   },
+   "struggling": {
+    "angry": 0.0718,
+    "happy": 0.0258,
+    "scared": 0.0184,
+    "exhausted": 0.0184
+   },
+   "panicking": {
+    "scared": 0.0841,
+    "surprised": 0.0808,
+    "embarrassed": 0.0393,
+    "angry": 0.0393,
+    "happy": 0.0382,
+    "expressionless": 0.0317,
+    "nervous": 0.0251,
+    "worried": 0.0251,
+    "smug": 0.0197,
+    "confused": 0.0186
+   },
+   "bored": {
+    "happy": 0.1016,
+    "expressionless": 0.0924,
+    "surprised": 0.0647,
+    "annoyed": 0.0508,
+    "angry": 0.0462,
+    "excited": 0.03,
+    "nervous": 0.0254,
+    "thinking": 0.0231,
+    "unamused": 0.0208,
+    "embarrassed": 0.0185
+   },
+   "crazy": {
+    "scared": 0.1082,
+    "nervous": 0.0541,
+    "happy": 0.0387,
+    "worried": 0.0387,
+    "angry": 0.0361,
+    "surprised": 0.0206
+   },
+   "depressed": {
+    "sad": 0.1211,
+    "surprised": 0.0617,
+    "happy": 0.0551,
+    "expressionless": 0.0507,
+    "angry": 0.0374,
+    "exhausted": 0.022,
+    "scared": 0.0198
+   },
+   "angry": {
+    "happy": 0.0536,
+    "surprised": 0.052,
+    "annoyed": 0.0298,
+    "embarrassed": 0.0242,
+    "scared": 0.0242,
+    "expressionless": 0.024,
+    "smug": 0.0228,
+    "sad": 0.0212,
+    "serious": 0.0174,
+    "jealous": 0.0154
+   },
+   "serious": {
+    "expressionless": 0.0496,
+    "happy": 0.0418,
+    "angry": 0.0328,
+    "surprised": 0.0192
+   },
+   "smug": {
+    "angry": 0.0542,
+    "surprised": 0.0466,
+    "happy": 0.0454,
+    "embarrassed": 0.0322,
+    "expressionless": 0.0302,
+    "annoyed": 0.023
+   },
+   "aroused": {
+    "embarrassed": 0.0792,
+    "surprised": 0.0693,
+    "flustered": 0.0594,
+    "angry": 0.0495,
+    "scared": 0.0396,
+    "happy": 0.0297,
+    "thinking": 0.0297,
+    "expressionless": 0.0198
+   },
+   "jealous": {
+    "angry": 0.1163,
+    "surprised": 0.0401,
+    "happy": 0.0361,
+    "annoyed": 0.03,
+    "embarrassed": 0.0199,
+    "smug": 0.0178,
+    "scared": 0.0158
+   },
+   "naughty face": {
+    "smug": 0.0473,
+    "angry": 0.0402,
+    "embarrassed": 0.0378,
+    "surprised": 0.0331,
+    "happy": 0.0284,
+    "seductive smile": 0.0284,
+    "annoyed": 0.0213,
+    "serious": 0.0165
+   },
+   "seductive smile": {
+    "naughty face": 0.0377,
+    "embarrassed": 0.0346,
+    "smug": 0.0346,
+    "happy": 0.0283,
+    "nervous": 0.0283,
+    "expressionless": 0.0252,
+    "surprised": 0.0252,
+    "shy": 0.022,
+    "flustered": 0.022,
+    "angry": 0.0189
+   },
+   "ahegao": {
+    "angry": 0.0455,
+    "expressionless": 0.0227,
+    "embarrassed": 0.0227,
+    "happy": 0.0227
+   },
+   "torogao": {
+    "happy": 0.0345,
+    "annoyed": 0.0345
+   },
+   "fucked silly": {}
+  },
+  "sensitive": {
+   "expressionless": {
+    "happy": 0.0306,
+    "surprised": 0.021,
+    "embarrassed": 0.0198,
+    "serious": 0.0178
+   },
+   "embarrassed": {
+    "surprised": 0.0602,
+    "happy": 0.0336,
+    "angry": 0.0284,
+    "shy": 0.0206
+   },
+   "happy": {
+    "embarrassed": 0.0398,
+    "surprised": 0.0398,
+    "angry": 0.0294,
+    "expressionless": 0.0248,
+    "annoyed": 0.0164
+   },
+   "surprised": {
+    "embarrassed": 0.0716,
+    "angry": 0.0414,
+    "happy": 0.0396,
+    "scared": 0.0178,
+    "expressionless": 0.0168
+   },
+   "scared": {
+    "surprised": 0.072,
+    "angry": 0.052,
+    "happy": 0.0266,
+    "nervous": 0.0238,
+    "expressionless": 0.0194,
+    "embarrassed": 0.0174
+   },
+   "annoyed": {
+    "angry": 0.0759,
+    "happy": 0.0741,
+    "embarrassed": 0.045,
+    "surprised": 0.0415,
+    "smug": 0.0254,
+    "expressionless": 0.0246,
+    "nervous": 0.0188,
+    "unamused": 0.0163
+   },
+   "drunk": {
+    "surprised": 0.0248,
+    "embarrassed": 0.024,
+    "angry": 0.0228,
+    "happy": 0.0192
+   },
+   "nervous": {
+    "embarrassed": 0.1141,
+    "happy": 0.0638,
+    "surprised": 0.0578,
+    "scared": 0.0374,
+    "angry": 0.0337,
+    "shy": 0.0291,
+    "expressionless": 0.0257,
+    "annoyed": 0.0236
+   },
+   "sad": {
+    "happy": 0.1025,
+    "angry": 0.0668,
+    "surprised": 0.0503,
+    "expressionless": 0.0357,
+    "scared": 0.0214,
+    "embarrassed": 0.0208,
+    "annoyed": 0.0185,
+    "serious": 0.0156
+   },
+   "shy": {
+    "embarrassed": 0.2076,
+    "happy": 0.0847,
+    "surprised": 0.0482,
+    "nervous": 0.045,
+    "angry": 0.0209,
+    "flustered": 0.0205
+   },
+   "sleepy": {
+    "surprised": 0.0376,
+    "happy": 0.0307,
+    "angry": 0.0192,
+    "expressionless": 0.0165,
+    "embarrassed": 0.015
+   },
+   "thinking": {
+    "surprised": 0.0525,
+    "embarrassed": 0.0519,
+    "happy": 0.042,
+    "expressionless": 0.0303,
+    "angry": 0.0286,
+    "smug": 0.0169
+   },
+   "flustered": {
+    "embarrassed": 0.165,
+    "surprised": 0.095,
+    "nervous": 0.032,
+    "angry": 0.0283,
+    "shy": 0.0272,
+    "happy": 0.0267,
+    "expressionless": 0.0176
+   },
+   "unamused": {
+    "expressionless": 0.0514,
+    "annoyed": 0.0386,
+    "angry": 0.0347,
+    "surprised": 0.0289,
+    "happy": 0.0259,
+    "embarrassed": 0.0176
+   },
+   "worried": {
+    "surprised": 0.0777,
+    "angry": 0.0613,
+    "happy": 0.054,
+    "scared": 0.0474,
+    "embarrassed": 0.0417,
+    "expressionless": 0.0311,
+    "nervous": 0.0311,
+    "sad": 0.0253,
+    "serious": 0.0245,
+    "annoyed": 0.0221,
+    "smug": 0.0204
+   },
+   "confused": {
+    "surprised": 0.0954,
+    "embarrassed": 0.0703,
+    "happy": 0.0606,
+    "angry": 0.0606,
+    "scared": 0.0323,
+    "nervous": 0.0299,
+    "annoyed": 0.0243,
+    "smug": 0.0178,
+    "flustered": 0.017
+   },
+   "disgust": {
+    "angry": 0.0782,
+    "surprised": 0.0541,
+    "embarrassed": 0.0427,
+    "happy": 0.0384,
+    "expressionless": 0.0313,
+    "annoyed": 0.0299,
+    "scared": 0.0228,
+    "unamused": 0.0171
+   },
+   "pain": {
+    "angry": 0.0422,
+    "surprised": 0.0392,
+    "scared": 0.0281
+   },
+   "exhausted": {
+    "surprised": 0.041,
+    "happy": 0.0256,
+    "expressionless": 0.023,
+    "angry": 0.0218
+   },
+   "excited": {
+    "happy": 0.1286,
+    "surprised": 0.0939,
+    "embarrassed": 0.0737,
+    "nervous": 0.0448,
+    "expressionless": 0.0434,
+    "annoyed": 0.0419,
+    "angry": 0.0361,
+    "scared": 0.0289,
+    "smug": 0.0217
+   },
+   "determined": {
+    "happy": 0.1077,
+    "expressionless": 0.08,
+    "serious": 0.0492,
+    "scared": 0.0338,
+    "angry": 0.0308,
+    "surprised": 0.0277,
+    "nervous": 0.0277
+   },
+   "struggling": {
+    "embarrassed": 0.0508,
+    "angry": 0.0398,
+    "surprised": 0.0288,
+    "scared": 0.0234
+   },
+   "panicking": {
+    "surprised": 0.1026,
+    "scared": 0.0861,
+    "embarrassed": 0.0549,
+    "angry": 0.033,
+    "nervous": 0.0275,
+    "expressionless": 0.0256,
+    "happy": 0.0201
+   },
+   "bored": {
+    "happy": 0.0809,
+    "angry": 0.0421,
+    "expressionless": 0.0356,
+    "scared": 0.0324,
+    "unamused": 0.0291,
+    "embarrassed": 0.0259,
+    "surprised": 0.0259,
+    "annoyed": 0.0259
+   },
+   "crazy": {
+    "scared": 0.0781,
+    "angry": 0.0554,
+    "expressionless": 0.0327,
+    "happy": 0.0277,
+    "smug": 0.0252,
+    "embarrassed": 0.0202,
+    "annoyed": 0.0176,
+    "nervous": 0.0176,
+    "sad": 0.0176,
+    "surprised": 0.0151
+   },
+   "depressed": {
+    "sad": 0.1111,
+    "happy": 0.0774,
+    "surprised": 0.0505,
+    "expressionless": 0.0438,
+    "embarrassed": 0.0269,
+    "angry": 0.0269
+   },
+   "angry": {
+    "surprised": 0.0552,
+    "embarrassed": 0.047,
+    "happy": 0.037,
+    "annoyed": 0.0244,
+    "jealous": 0.023,
+    "expressionless": 0.019,
+    "smug": 0.0178,
+    "scared": 0.0174
+   },
+   "serious": {
+    "expressionless": 0.052,
+    "happy": 0.0374,
+    "angry": 0.0308,
+    "surprised": 0.0182
+   },
+   "smug": {
+    "embarrassed": 0.0488,
+    "angry": 0.0442,
+    "surprised": 0.0348,
+    "happy": 0.0218,
+    "annoyed": 0.0214,
+    "expressionless": 0.018
+   },
+   "aroused": {
+    "embarrassed": 0.0835,
+    "surprised": 0.0533,
+    "naughty face": 0.0497,
+    "angry": 0.032,
+    "nervous": 0.0213,
+    "seductive smile": 0.0213,
+    "shy": 0.0213,
+    "happy": 0.0195
+   },
+   "jealous": {
+    "angry": 0.1443,
+    "surprised": 0.0402,
+    "embarrassed": 0.0279,
+    "annoyed": 0.0258,
+    "happy": 0.025,
+    "smug": 0.018,
+    "scared": 0.016
+   },
+   "naughty face": {
+    "embarrassed": 0.0575,
+    "seductive smile": 0.0537,
+    "surprised": 0.0381,
+    "smug": 0.0222,
+    "angry": 0.0202
+   },
+   "seductive smile": {
+    "naughty face": 0.0814,
+    "embarrassed": 0.0419,
+    "surprised": 0.023,
+    "happy": 0.0177
+   },
+   "ahegao": {
+    "embarrassed": 0.0355,
+    "surprised": 0.0261,
+    "torogao": 0.0237,
+    "angry": 0.019,
+    "aroused": 0.019,
+    "expressionless": 0.0166
+   },
+   "torogao": {
+    "ahegao": 0.0595,
+    "embarrassed": 0.0298,
+    "surprised": 0.0298,
+    "naughty face": 0.0298,
+    "shy": 0.0298,
+    "angry": 0.0179
+   },
+   "fucked silly": {
+    "ahegao": 0.2727,
+    "torogao": 0.1818,
+    "happy": 0.0909,
+    "scared": 0.0909
+   }
+  },
+  "nsfw": {
+   "expressionless": {
+    "embarrassed": 0.0434,
+    "surprised": 0.0308,
+    "happy": 0.0197,
+    "angry": 0.017
+   },
+   "embarrassed": {
+    "surprised": 0.0902,
+    "angry": 0.0306,
+    "happy": 0.0206,
+    "naughty face": 0.0194
+   },
+   "happy": {
+    "embarrassed": 0.1177,
+    "surprised": 0.0572,
+    "angry": 0.0397
+   },
+   "surprised": {
+    "embarrassed": 0.1832,
+    "angry": 0.0326,
+    "naughty face": 0.0298,
+    "happy": 0.0212
+   },
+   "scared": {
+    "surprised": 0.0754,
+    "embarrassed": 0.053,
+    "angry": 0.0505,
+    "horrified": 0.0423,
+    "nervous": 0.0215,
+    "naughty face": 0.0191
+   },
+   "annoyed": {
+    "embarrassed": 0.1144,
+    "angry": 0.0858,
+    "happy": 0.0424,
+    "surprised": 0.0392,
+    "smug": 0.0201
+   },
+   "drunk": {
+    "embarrassed": 0.0352,
+    "surprised": 0.033,
+    "happy": 0.0198,
+    "angry": 0.0183,
+    "naughty face": 0.0169
+   },
+   "nervous": {
+    "embarrassed": 0.2044,
+    "surprised": 0.0681,
+    "happy": 0.0434,
+    "shy": 0.0307,
+    "angry": 0.0281,
+    "naughty face": 0.0264,
+    "scared": 0.0221,
+    "expressionless": 0.0196
+   },
+   "sad": {
+    "happy": 0.0636,
+    "surprised": 0.0593,
+    "angry": 0.0593,
+    "scared": 0.0424,
+    "embarrassed": 0.0381,
+    "expressionless": 0.0297
+   },
+   "shy": {
+    "embarrassed": 0.2349,
+    "happy": 0.0525,
+    "nervous": 0.0472,
+    "surprised": 0.0433,
+    "naughty face": 0.0289,
+    "seductive smile": 0.0249
+   },
+   "sleepy": {
+    "surprised": 0.059,
+    "embarrassed": 0.0385,
+    "confused": 0.0179
+   },
+   "thinking": {
+    "surprised": 0.1163,
+    "embarrassed": 0.064,
+    "expressionless": 0.0465,
+    "annoyed": 0.0349,
+    "angry": 0.0291,
+    "nervous": 0.0233
+   },
+   "flustered": {
+    "embarrassed": 0.2173,
+    "surprised": 0.1139,
+    "nervous": 0.0274,
+    "angry": 0.0253
+   },
+   "unamused": {
+    "expressionless": 0.0927,
+    "surprised": 0.053,
+    "angry": 0.0497,
+    "embarrassed": 0.0464,
+    "annoyed": 0.043,
+    "happy": 0.0298,
+    "drunk": 0.0199,
+    "disgust": 0.0166
+   },
+   "worried": {
+    "embarrassed": 0.0694,
+    "nervous": 0.0556,
+    "scared": 0.0451,
+    "angry": 0.0417,
+    "struggling": 0.0382,
+    "surprised": 0.0347,
+    "happy": 0.0243,
+    "expressionless": 0.0208,
+    "drunk": 0.0208
+   },
+   "confused": {
+    "embarrassed": 0.1403,
+    "surprised": 0.0827,
+    "happy": 0.0396,
+    "naughty face": 0.0396,
+    "drunk": 0.0324,
+    "nervous": 0.0288,
+    "shy": 0.0288,
+    "sleepy": 0.0252,
+    "expressionless": 0.0216,
+    "angry": 0.018
+   },
+   "disgust": {
+    "angry": 0.0818,
+    "embarrassed": 0.0591,
+    "annoyed": 0.05,
+    "surprised": 0.0364,
+    "expressionless": 0.0227,
+    "unamused": 0.0227
+   },
+   "pain": {
+    "surprised": 0.052,
+    "angry": 0.0426,
+    "happy": 0.026,
+    "scared": 0.0189
+   },
+   "exhausted": {
+    "naughty face": 0.026,
+    "angry": 0.0195
+   },
+   "excited": {
+    "embarrassed": 0.1239,
+    "happy": 0.0973,
+    "surprised": 0.0796,
+    "nervous": 0.0354,
+    "aroused": 0.0354,
+    "naughty face": 0.0265,
+    "scared": 0.0265,
+    "drunk": 0.0265
+   },
+   "determined": {
+    "surprised": 0.2121,
+    "serious": 0.0909,
+    "embarrassed": 0.0606,
+    "happy": 0.0606,
+    "angry": 0.0606,
+    "scared": 0.0606
+   },
+   "struggling": {
+    "angry": 0.0416,
+    "scared": 0.0416,
+    "embarrassed": 0.039,
+    "surprised": 0.0364,
+    "worried": 0.0286,
+    "pain": 0.0182
+   },
+   "panicking": {
+    "embarrassed": 0.1533,
+    "surprised": 0.1095,
+    "scared": 0.0511,
+    "worried": 0.0292,
+    "angry": 0.0219
+   },
+   "bored": {
+    "expressionless": 0.0556,
+    "nervous": 0.0556,
+    "embarrassed": 0.037,
+    "happy": 0.037,
+    "surprised": 0.037,
+    "naughty face": 0.037,
+    "unamused": 0.037
+   },
+   "crazy": {
+    "scared": 0.0909,
+    "angry": 0.0545,
+    "horrified": 0.0545,
+    "expressionless": 0.0364,
+    "surprised": 0.0364,
+    "happy": 0.0182
+   },
+   "depressed": {
+    "sad": 0.2353,
+    "surprised": 0.1176,
+    "angry": 0.1176,
+    "expressionless": 0.0588,
+    "smug": 0.0588,
+    "fucked silly": 0.0588
+   },
+   "angry": {
+    "embarrassed": 0.1302,
+    "surprised": 0.0623,
+    "happy": 0.0294,
+    "annoyed": 0.0218,
+    "scared": 0.0164
+   },
+   "serious": {
+    "embarrassed": 0.0533,
+    "expressionless": 0.0373,
+    "surprised": 0.0373,
+    "angry": 0.0373
+   },
+   "smug": {
+    "embarrassed": 0.0906,
+    "naughty face": 0.0434,
+    "surprised": 0.039,
+    "angry": 0.0295
+   },
+   "aroused": {
+    "naughty face": 0.0457,
+    "embarrassed": 0.0399,
+    "seductive smile": 0.0281,
+    "surprised": 0.027,
+    "angry": 0.0211
+   },
+   "jealous": {
+    "angry": 0.1667,
+    "surprised": 0.07,
+    "embarrassed": 0.0367,
+    "happy": 0.0333,
+    "annoyed": 0.0267,
+    "drunk": 0.0267,
+    "naughty face": 0.0233
+   },
+   "naughty face": {
+    "embarrassed": 0.0697,
+    "surprised": 0.0495,
+    "seductive smile": 0.0462
+   },
+   "seductive smile": {
+    "naughty face": 0.1428,
+    "embarrassed": 0.0575,
+    "surprised": 0.0197
+   },
+   "ahegao": {
+    "fucked silly": 0.0624,
+    "naughty face": 0.0326,
+    "torogao": 0.0258,
+    "aroused": 0.0149,
+    "surprised": 0.0136
+   },
+   "torogao": {
+    "ahegao": 0.0365,
+    "surprised": 0.0212,
+    "embarrassed": 0.0173,
+    "naughty face": 0.0154
+   },
+   "fucked silly": {
+    "ahegao": 0.5897,
+    "surprised": 0.1154,
+    "torogao": 0.0641,
+    "smug": 0.0513,
+    "naughty face": 0.0385,
+    "exhausted": 0.0385,
+    "happy": 0.0256,
+    "angry": 0.0256,
+    "confused": 0.0256
+   }
+  },
+  "explicit": {
+   "expressionless": {
+    "bored": 0.0223
+   },
+   "embarrassed": {
+    "surprised": 0.051,
+    "nervous": 0.0232,
+    "angry": 0.0226,
+    "shy": 0.0186
+   },
+   "happy": {
+    "embarrassed": 0.0431,
+    "naughty face": 0.0251,
+    "surprised": 0.0212,
+    "ahegao": 0.0205
+   },
+   "surprised": {
+    "embarrassed": 0.0918,
+    "ahegao": 0.0222,
+    "angry": 0.0198,
+    "naughty face": 0.0198,
+    "nervous": 0.0176
+   },
+   "scared": {
+    "surprised": 0.053,
+    "embarrassed": 0.0402,
+    "nervous": 0.0343,
+    "pain": 0.0244
+   },
+   "annoyed": {
+    "angry": 0.1075,
+    "embarrassed": 0.0587,
+    "surprised": 0.0358,
+    "disgust": 0.0239,
+    "happy": 0.0209,
+    "ahegao": 0.0189
+   },
+   "drunk": {
+    "ahegao": 0.0225
+   },
+   "nervous": {
+    "embarrassed": 0.1484,
+    "surprised": 0.068,
+    "scared": 0.0382,
+    "happy": 0.0343,
+    "naughty face": 0.0253,
+    "shy": 0.0207,
+    "ahegao": 0.0194
+   },
+   "sad": {
+    "scared": 0.0599,
+    "embarrassed": 0.0369,
+    "aroused": 0.0369,
+    "happy": 0.0323,
+    "despair": 0.0323,
+    "surprised": 0.0276,
+    "pain": 0.0276,
+    "expressionless": 0.023,
+    "angry": 0.023
+   },
+   "shy": {
+    "embarrassed": 0.2036,
+    "happy": 0.0496,
+    "nervous": 0.0407,
+    "surprised": 0.0242,
+    "naughty face": 0.0242,
+    "torogao": 0.0178
+   },
+   "sleepy": {
+    "surprised": 0.0511,
+    "aroused": 0.0292,
+    "confused": 0.0292
+   },
+   "thinking": {
+    "embarrassed": 0.0545,
+    "surprised": 0.0545,
+    "angry": 0.0364,
+    "ahegao": 0.0303,
+    "torogao": 0.0303
+   },
+   "flustered": {
+    "embarrassed": 0.1477,
+    "surprised": 0.1159,
+    "nervous": 0.0364,
+    "naughty face": 0.025,
+    "smug": 0.025,
+    "scared": 0.0205
+   },
+   "unamused": {
+    "expressionless": 0.1321,
+    "bored": 0.0857,
+    "annoyed": 0.0571,
+    "angry": 0.0321,
+    "embarrassed": 0.025,
+    "surprised": 0.025
+   },
+   "worried": {
+    "embarrassed": 0.0833,
+    "nervous": 0.0633,
+    "scared": 0.06,
+    "angry": 0.0267,
+    "torogao": 0.0267,
+    "surprised": 0.0233,
+    "fucked silly": 0.0233,
+    "ahegao": 0.02
+   },
+   "confused": {
+    "surprised": 0.0687,
+    "embarrassed": 0.056,
+    "smug": 0.0229,
+    "ahegao": 0.0229,
+    "nervous": 0.0204
+   },
+   "disgust": {
+    "angry": 0.0893,
+    "annoyed": 0.0476,
+    "embarrassed": 0.0456,
+    "ahegao": 0.0238,
+    "surprised": 0.0218,
+    "expressionless": 0.0198
+   },
+   "pain": {
+    "scared": 0.0557,
+    "ahegao": 0.0345,
+    "surprised": 0.0225,
+    "embarrassed": 0.0199,
+    "angry": 0.0199
+   },
+   "exhausted": {
+    "fucked silly": 0.1046,
+    "ahegao": 0.0646,
+    "surprised": 0.0431,
+    "happy": 0.0338,
+    "angry": 0.0215,
+    "torogao": 0.0215,
+    "embarrassed": 0.0185
+   },
+   "excited": {
+    "happy": 0.1076,
+    "embarrassed": 0.0852,
+    "aroused": 0.0628,
+    "surprised": 0.0538,
+    "ahegao": 0.0404,
+    "nervous": 0.0404,
+    "angry": 0.0269
+   },
+   "determined": {
+    "ahegao": 0.1333,
+    "embarrassed": 0.0667,
+    "happy": 0.0667,
+    "fucked silly": 0.0667,
+    "exhausted": 0.0667
+   },
+   "struggling": {
+    "scared": 0.0588,
+    "embarrassed": 0.0535,
+    "angry": 0.0481,
+    "fucked silly": 0.0294,
+    "ahegao": 0.0267,
+    "surprised": 0.0241,
+    "aroused": 0.0241,
+    "expressionless": 0.0214
+   },
+   "panicking": {
+    "scared": 0.1579,
+    "surprised": 0.1158,
+    "embarrassed": 0.0632,
+    "pain": 0.0316,
+    "struggling": 0.0316
+   },
+   "bored": {
+    "expressionless": 0.1934,
+    "unamused": 0.0663,
+    "annoyed": 0.0359,
+    "surprised": 0.0193
+   },
+   "crazy": {
+    "surprised": 0.069,
+    "ahegao": 0.069,
+    "happy": 0.0517,
+    "naughty face": 0.0517,
+    "fucked silly": 0.0517,
+    "scared": 0.0345
+   },
+   "depressed": {
+    "sad": 0.1429,
+    "fucked silly": 0.1429,
+    "expressionless": 0.0714,
+    "happy": 0.0714,
+    "drunk": 0.0714,
+    "jealous": 0.0714,
+    "despair": 0.0714
+   },
+   "angry": {
+    "embarrassed": 0.0616,
+    "surprised": 0.0307,
+    "annoyed": 0.0283,
+    "ahegao": 0.0246
+   },
+   "serious": {
+    "embarrassed": 0.0748,
+    "expressionless": 0.0544,
+    "angry": 0.034,
+    "ahegao": 0.0272
+   },
+   "smug": {
+    "naughty face": 0.0616,
+    "embarrassed": 0.0306,
+    "ahegao": 0.0301,
+    "surprised": 0.0205,
+    "seductive smile": 0.0205,
+    "angry": 0.0175
+   },
+   "aroused": {
+    "naughty face": 0.0477,
+    "ahegao": 0.0327,
+    "embarrassed": 0.0311,
+    "torogao": 0.0215,
+    "happy": 0.0185
+   },
+   "jealous": {
+    "angry": 0.1744,
+    "surprised": 0.0233,
+    "expressionless": 0.0194,
+    "embarrassed": 0.0194
+   },
+   "naughty face": {
+    "ahegao": 0.042,
+    "seductive smile": 0.0338,
+    "aroused": 0.022,
+    "embarrassed": 0.0206,
+    "fucked silly": 0.0184
+   },
+   "seductive smile": {
+    "naughty face": 0.1588,
+    "aroused": 0.0294,
+    "smug": 0.0271,
+    "ahegao": 0.0191
+   },
+   "ahegao": {
+    "fucked silly": 0.1854,
+    "torogao": 0.0196
+   },
+   "torogao": {
+    "fucked silly": 0.063,
+    "ahegao": 0.042,
+    "embarrassed": 0.0186
+   },
+   "fucked silly": {
+    "ahegao": 0.4678,
+    "torogao": 0.069,
+    "naughty face": 0.0162
+   }
+  }
+ }
+}

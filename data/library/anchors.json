@@ -1,0 +1,6584 @@
+{
+ "_note": "WHERE A THING SITS (write_anchors.py, 2026-09-21). One thing per anchor: a typed 'nipple clamps' takes the nipples and no other accessory may land there. Derived from the tag's own words against the booru's body vocabulary; --measure stores P(anchor part | the thing).",
+ "anchors": [
+  "nipples",
+  "navel",
+  "tongue",
+  "lip",
+  "nose",
+  "eyes",
+  "ears",
+  "head",
+  "neck",
+  "wrists",
+  "fingers",
+  "waist",
+  "thighs",
+  "ankles",
+  "feet",
+  "mouth",
+  "genitals",
+  "anus",
+  "tail",
+  "arms",
+  "back"
+ ],
+ "things": {
+  "3d glasses": {
+   "anchor": "eyes",
+   "posts": 527
+  },
+  "acorn hair ornament": {
+   "anchor": "head",
+   "posts": 66
+  },
+  "adjusting collar": {
+   "anchor": "neck",
+   "posts": 268
+  },
+  "adjusting necklace": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "adjusting necktie": {
+   "anchor": "neck",
+   "posts": 2546
+  },
+  "adrian helmet": {
+   "anchor": "head",
+   "posts": 53
+  },
+  "airplane hair ornament": {
+   "anchor": "head",
+   "posts": 137
+  },
+  "alien hair ornament": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "alpaca hair ornament": {
+   "anchor": "head",
+   "posts": 58
+  },
+  "alternate hair ornament": {
+   "anchor": "head",
+   "posts": 1297
+  },
+  "altyn helmet": {
+   "anchor": "head",
+   "posts": 368
+  },
+  "amazon (dragon's crown) (cosplay)": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "american flag hat": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "american football helmet": {
+   "anchor": "head",
+   "posts": 235
+  },
+  "ammunition belt": {
+   "anchor": "waist",
+   "posts": 2299
+  },
+  "anal fingering": {
+   "anchor": "anus",
+   "posts": 4403
+  },
+  "anchor choker": {
+   "anchor": "neck",
+   "posts": 1610
+  },
+  "anchor earrings": {
+   "anchor": "ears",
+   "posts": 848
+  },
+  "anchor hair ornament": {
+   "anchor": "head",
+   "posts": 9009
+  },
+  "anchor hat ornament": {
+   "anchor": "head",
+   "posts": 541
+  },
+  "anchor necklace": {
+   "anchor": "neck",
+   "posts": 1817
+  },
+  "animal collar": {
+   "anchor": "neck",
+   "posts": 18451
+  },
+  "animal ear hairband": {
+   "anchor": "ears",
+   "posts": 48256
+  },
+  "animal ear headband": {
+   "anchor": "ears",
+   "posts": 0
+  },
+  "animal ear helmet": {
+   "anchor": "ears",
+   "posts": 938
+  },
+  "animal ear hood": {
+   "anchor": "ears",
+   "posts": 3902
+  },
+  "animal hairband": {
+   "anchor": "head",
+   "posts": 55
+  },
+  "animal hat": {
+   "anchor": "head",
+   "posts": 19820
+  },
+  "animal helmet": {
+   "anchor": "head",
+   "posts": 1590
+  },
+  "animal hood": {
+   "anchor": "head",
+   "posts": 33558
+  },
+  "ankh earrings": {
+   "anchor": "ears",
+   "posts": 116
+  },
+  "ankh necklace": {
+   "anchor": "neck",
+   "posts": 613
+  },
+  "ankle bell": {
+   "anchor": "ankles",
+   "posts": 499
+  },
+  "ankle belt": {
+   "anchor": "waist",
+   "posts": 348
+  },
+  "ankle cuffs": {
+   "anchor": "wrists",
+   "posts": 4174
+  },
+  "ankle garter": {
+   "anchor": "ankles",
+   "posts": 947
+  },
+  "ankle strap": {
+   "anchor": "ankles",
+   "posts": 3827
+  },
+  "anklet": {
+   "anchor": "ankles",
+   "posts": 29831
+  },
+  "anti-magic mask (tensura)": {
+   "anchor": "mouth",
+   "posts": 76
+  },
+  "apple earrings": {
+   "anchor": "ears",
+   "posts": 79
+  },
+  "apple hair ornament": {
+   "anchor": "head",
+   "posts": 1013
+  },
+  "aqua armband": {
+   "anchor": "arms",
+   "posts": 161
+  },
+  "aqua belt": {
+   "anchor": "waist",
+   "posts": 792
+  },
+  "aqua bowtie": {
+   "anchor": "neck",
+   "posts": 9196
+  },
+  "aqua choker": {
+   "anchor": "neck",
+   "posts": 843
+  },
+  "aqua collar": {
+   "anchor": "neck",
+   "posts": 387
+  },
+  "aqua hairband": {
+   "anchor": "head",
+   "posts": 2164
+  },
+  "aqua hat": {
+   "anchor": "head",
+   "posts": 3175
+  },
+  "aqua headband": {
+   "anchor": "head",
+   "posts": 436
+  },
+  "aqua helmet": {
+   "anchor": "head",
+   "posts": 72
+  },
+  "aqua hood": {
+   "anchor": "head",
+   "posts": 78
+  },
+  "aqua necktie": {
+   "anchor": "neck",
+   "posts": 22658
+  },
+  "aqua sailor collar": {
+   "anchor": "neck",
+   "posts": 1078
+  },
+  "aqua wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 86
+  },
+  "arched crown": {
+   "anchor": "head",
+   "posts": 2116
+  },
+  "argyle bowtie": {
+   "anchor": "neck",
+   "posts": 96
+  },
+  "argyle choker": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "argyle hairband": {
+   "anchor": "head",
+   "posts": 107
+  },
+  "argyle hat": {
+   "anchor": "head",
+   "posts": 307
+  },
+  "argyle necktie": {
+   "anchor": "neck",
+   "posts": 159
+  },
+  "arm belt": {
+   "anchor": "waist",
+   "posts": 13039
+  },
+  "arm cuffs": {
+   "anchor": "wrists",
+   "posts": 1809
+  },
+  "arm garter": {
+   "anchor": "arms",
+   "posts": 10826
+  },
+  "arm strap": {
+   "anchor": "arms",
+   "posts": 25305
+  },
+  "armband": {
+   "anchor": "arms",
+   "posts": 83534
+  },
+  "arrow hair ornament": {
+   "anchor": "head",
+   "posts": 357
+  },
+  "arrow symbol hair ornament": {
+   "anchor": "head",
+   "posts": 88
+  },
+  "asymmetrical mask": {
+   "anchor": "mouth",
+   "posts": 85
+  },
+  "aviator glasses": {
+   "anchor": "eyes",
+   "posts": 83
+  },
+  "aviator goggles": {
+   "anchor": "eyes",
+   "posts": 731
+  },
+  "ayam hat": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "back-print panties": {
+   "anchor": "back",
+   "posts": 1403
+  },
+  "backwards hat": {
+   "anchor": "head",
+   "posts": 8974
+  },
+  "ball earrings": {
+   "anchor": "ears",
+   "posts": 0
+  },
+  "ball gag": {
+   "anchor": "mouth",
+   "posts": 13646
+  },
+  "bamboo hair ornament": {
+   "anchor": "head",
+   "posts": 51
+  },
+  "banana hair ornament": {
+   "anchor": "head",
+   "posts": 98
+  },
+  "bandage on nose": {
+   "anchor": "nose",
+   "posts": 351
+  },
+  "bandage over one eye": {
+   "anchor": "eyes",
+   "posts": 8937
+  },
+  "bandaged ear": {
+   "anchor": "ears",
+   "posts": 266
+  },
+  "bandaged feet": {
+   "anchor": "feet",
+   "posts": 0
+  },
+  "bandaged fingers": {
+   "anchor": "fingers",
+   "posts": 1549
+  },
+  "bandaged foot": {
+   "anchor": "feet",
+   "posts": 1365
+  },
+  "bandaged head": {
+   "anchor": "head",
+   "posts": 8198
+  },
+  "bandaged horn": {
+   "anchor": "head",
+   "posts": 203
+  },
+  "bandaged neck": {
+   "anchor": "neck",
+   "posts": 6830
+  },
+  "bandaged tail": {
+   "anchor": "tail",
+   "posts": 449
+  },
+  "bandaged wings": {
+   "anchor": "back",
+   "posts": 89
+  },
+  "bandaged wrist": {
+   "anchor": "wrists",
+   "posts": 2893
+  },
+  "bandages over eyes": {
+   "anchor": "eyes",
+   "posts": 745
+  },
+  "bandages over mouth": {
+   "anchor": "mouth",
+   "posts": 266
+  },
+  "bandaid hair ornament": {
+   "anchor": "head",
+   "posts": 6333
+  },
+  "bandaid on arm": {
+   "anchor": "arms",
+   "posts": 5967
+  },
+  "bandaid on back": {
+   "anchor": "back",
+   "posts": 0
+  },
+  "bandaid on ear": {
+   "anchor": "ears",
+   "posts": 214
+  },
+  "bandaid on finger": {
+   "anchor": "fingers",
+   "posts": 954
+  },
+  "bandaid on foot": {
+   "anchor": "feet",
+   "posts": 329
+  },
+  "bandaid on head": {
+   "anchor": "head",
+   "posts": 1537
+  },
+  "bandaid on horn": {
+   "anchor": "head",
+   "posts": 245
+  },
+  "bandaid on neck": {
+   "anchor": "neck",
+   "posts": 1498
+  },
+  "bandaid on nose": {
+   "anchor": "nose",
+   "posts": 14376
+  },
+  "bandaid on pussy": {
+   "anchor": "genitals",
+   "posts": 4470
+  },
+  "bandaid on tail": {
+   "anchor": "tail",
+   "posts": 115
+  },
+  "bandaid on thigh": {
+   "anchor": "thighs",
+   "posts": 2537
+  },
+  "bandaid on wrist": {
+   "anchor": "wrists",
+   "posts": 134
+  },
+  "bandaids on nipples": {
+   "anchor": "nipples",
+   "posts": 7248
+  },
+  "bandana around arm": {
+   "anchor": "arms",
+   "posts": 1096
+  },
+  "bandana around neck": {
+   "anchor": "neck",
+   "posts": 3224
+  },
+  "bandana over mouth": {
+   "anchor": "mouth",
+   "posts": 618
+  },
+  "bangs pinned back": {
+   "anchor": "back",
+   "posts": 7781
+  },
+  "baozi hair ornament": {
+   "anchor": "head",
+   "posts": 92
+  },
+  "baseball helmet": {
+   "anchor": "head",
+   "posts": 921
+  },
+  "bat earrings": {
+   "anchor": "ears",
+   "posts": 233
+  },
+  "bat hair ornament": {
+   "anchor": "head",
+   "posts": 5784
+  },
+  "bat hat ornament": {
+   "anchor": "head",
+   "posts": 64
+  },
+  "bat mask": {
+   "anchor": "mouth",
+   "posts": 356
+  },
+  "bat necklace": {
+   "anchor": "neck",
+   "posts": 135
+  },
+  "bead anklet": {
+   "anchor": "ankles",
+   "posts": 695
+  },
+  "bead bracelet": {
+   "anchor": "wrists",
+   "posts": 16795
+  },
+  "bead choker": {
+   "anchor": "neck",
+   "posts": 1164
+  },
+  "bead necklace": {
+   "anchor": "neck",
+   "posts": 20020
+  },
+  "bear ear hairband": {
+   "anchor": "ears",
+   "posts": 346
+  },
+  "bear hair ornament": {
+   "anchor": "head",
+   "posts": 4310
+  },
+  "bear hat": {
+   "anchor": "head",
+   "posts": 521
+  },
+  "bear hood": {
+   "anchor": "head",
+   "posts": 1320
+  },
+  "bear mask": {
+   "anchor": "mouth",
+   "posts": 104
+  },
+  "bee hair ornament": {
+   "anchor": "head",
+   "posts": 56
+  },
+  "beer hat": {
+   "anchor": "head",
+   "posts": 68
+  },
+  "beige sailor collar": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "bell choker": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "bell ear ornament": {
+   "anchor": "ears",
+   "posts": 227
+  },
+  "bell earrings": {
+   "anchor": "ears",
+   "posts": 1153
+  },
+  "bell sleeves": {
+   "anchor": "arms",
+   "posts": 851
+  },
+  "belt": {
+   "anchor": "waist",
+   "posts": 515217
+  },
+  "belt bag": {
+   "anchor": "waist",
+   "posts": 961
+  },
+  "belt boots": {
+   "anchor": "waist",
+   "posts": 2116
+  },
+  "belt bow": {
+   "anchor": "waist",
+   "posts": 301
+  },
+  "belt bra": {
+   "anchor": "waist",
+   "posts": 2783
+  },
+  "belt buckle": {
+   "anchor": "waist",
+   "posts": 54604
+  },
+  "belt chain": {
+   "anchor": "waist",
+   "posts": 0
+  },
+  "belt charm": {
+   "anchor": "waist",
+   "posts": 327
+  },
+  "belt collar": {
+   "anchor": "neck",
+   "posts": 19986
+  },
+  "belt pouch": {
+   "anchor": "waist",
+   "posts": 18702
+  },
+  "belt skirt": {
+   "anchor": "waist",
+   "posts": 821
+  },
+  "bib collar": {
+   "anchor": "neck",
+   "posts": 2789
+  },
+  "bicycle helmet": {
+   "anchor": "head",
+   "posts": 486
+  },
+  "big hat": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "bird earrings": {
+   "anchor": "ears",
+   "posts": 0
+  },
+  "bird hair ornament": {
+   "anchor": "head",
+   "posts": 1253
+  },
+  "bird hat": {
+   "anchor": "head",
+   "posts": 367
+  },
+  "bird hat ornament": {
+   "anchor": "head",
+   "posts": 1071
+  },
+  "bird hood": {
+   "anchor": "head",
+   "posts": 151
+  },
+  "bird mask": {
+   "anchor": "mouth",
+   "posts": 1838
+  },
+  "birthday glasses": {
+   "anchor": "eyes",
+   "posts": 84
+  },
+  "bit gag": {
+   "anchor": "mouth",
+   "posts": 4442
+  },
+  "black armband": {
+   "anchor": "arms",
+   "posts": 4114
+  },
+  "black belt": {
+   "anchor": "waist",
+   "posts": 105211
+  },
+  "black blindfold": {
+   "anchor": "eyes",
+   "posts": 0
+  },
+  "black bowtie": {
+   "anchor": "neck",
+   "posts": 69741
+  },
+  "black choker": {
+   "anchor": "neck",
+   "posts": 274724
+  },
+  "black collar": {
+   "anchor": "neck",
+   "posts": 45709
+  },
+  "black crown": {
+   "anchor": "head",
+   "posts": 1000
+  },
+  "black garter belt": {
+   "anchor": "waist",
+   "posts": 4206
+  },
+  "black garter straps": {
+   "anchor": "thighs",
+   "posts": 7040
+  },
+  "black hairband": {
+   "anchor": "head",
+   "posts": 151864
+  },
+  "black hat": {
+   "anchor": "head",
+   "posts": 253919
+  },
+  "black headband": {
+   "anchor": "head",
+   "posts": 8657
+  },
+  "black helmet": {
+   "anchor": "head",
+   "posts": 4020
+  },
+  "black hood": {
+   "anchor": "head",
+   "posts": 4797
+  },
+  "black mask": {
+   "anchor": "mouth",
+   "posts": 15454
+  },
+  "black necktie": {
+   "anchor": "neck",
+   "posts": 106861
+  },
+  "black sailor collar": {
+   "anchor": "neck",
+   "posts": 65230
+  },
+  "black surgical mask": {
+   "anchor": "mouth",
+   "posts": 0
+  },
+  "black tiara": {
+   "anchor": "head",
+   "posts": 4274
+  },
+  "black veil": {
+   "anchor": "head",
+   "posts": 10532
+  },
+  "black wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 3915
+  },
+  "blanket veil": {
+   "anchor": "head",
+   "posts": 174
+  },
+  "blindfold": {
+   "anchor": "eyes",
+   "posts": 30371
+  },
+  "blindfold mask": {
+   "anchor": "eyes",
+   "posts": 3303
+  },
+  "blood on mask": {
+   "anchor": "mouth",
+   "posts": 202
+  },
+  "blue armband": {
+   "anchor": "arms",
+   "posts": 5282
+  },
+  "blue belt": {
+   "anchor": "waist",
+   "posts": 11027
+  },
+  "blue bowtie": {
+   "anchor": "neck",
+   "posts": 53838
+  },
+  "blue choker": {
+   "anchor": "neck",
+   "posts": 17763
+  },
+  "blue collar": {
+   "anchor": "neck",
+   "posts": 5019
+  },
+  "blue crown": {
+   "anchor": "head",
+   "posts": 660
+  },
+  "blue earrings": {
+   "anchor": "ears",
+   "posts": 0
+  },
+  "blue garter belt": {
+   "anchor": "waist",
+   "posts": 193
+  },
+  "blue garter straps": {
+   "anchor": "thighs",
+   "posts": 332
+  },
+  "blue hairband": {
+   "anchor": "head",
+   "posts": 32356
+  },
+  "blue hat": {
+   "anchor": "head",
+   "posts": 81712
+  },
+  "blue headband": {
+   "anchor": "head",
+   "posts": 4580
+  },
+  "blue helmet": {
+   "anchor": "head",
+   "posts": 4308
+  },
+  "blue hood": {
+   "anchor": "head",
+   "posts": 2838
+  },
+  "blue mask": {
+   "anchor": "mouth",
+   "posts": 1149
+  },
+  "blue necktie": {
+   "anchor": "neck",
+   "posts": 81443
+  },
+  "blue sailor collar": {
+   "anchor": "neck",
+   "posts": 91615
+  },
+  "blue tiara": {
+   "anchor": "head",
+   "posts": 285
+  },
+  "blue veil": {
+   "anchor": "head",
+   "posts": 3313
+  },
+  "blue wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 2294
+  },
+  "blueberry hair ornament": {
+   "anchor": "head",
+   "posts": 139
+  },
+  "boar hood": {
+   "anchor": "head",
+   "posts": 157
+  },
+  "boar mask": {
+   "anchor": "mouth",
+   "posts": 352
+  },
+  "boater hat": {
+   "anchor": "head",
+   "posts": 2354
+  },
+  "bomb hair ornament": {
+   "anchor": "head",
+   "posts": 115
+  },
+  "bone earrings": {
+   "anchor": "ears",
+   "posts": 69
+  },
+  "bone hair ornament": {
+   "anchor": "head",
+   "posts": 7546
+  },
+  "bone necklace": {
+   "anchor": "neck",
+   "posts": 448
+  },
+  "boonie hat": {
+   "anchor": "head",
+   "posts": 295
+  },
+  "bow choker": {
+   "anchor": "neck",
+   "posts": 6085
+  },
+  "bow earrings": {
+   "anchor": "ears",
+   "posts": 4365
+  },
+  "bow garter belt": {
+   "anchor": "waist",
+   "posts": 233
+  },
+  "bow hairband": {
+   "anchor": "head",
+   "posts": 24902
+  },
+  "bow headband": {
+   "anchor": "head",
+   "posts": 96
+  },
+  "bow necklace": {
+   "anchor": "neck",
+   "posts": 87
+  },
+  "bowl hat": {
+   "anchor": "head",
+   "posts": 2871
+  },
+  "bowler hat": {
+   "anchor": "head",
+   "posts": 1923
+  },
+  "bowtie": {
+   "anchor": "neck",
+   "posts": 493672
+  },
+  "bracelet": {
+   "anchor": "wrists",
+   "posts": 271326
+  },
+  "braided hair rings": {
+   "anchor": "fingers",
+   "posts": 15885
+  },
+  "braided hairband": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "bridal veil": {
+   "anchor": "head",
+   "posts": 22421
+  },
+  "brodie helmet": {
+   "anchor": "head",
+   "posts": 456
+  },
+  "broken heart hair ornament": {
+   "anchor": "head",
+   "posts": 1034
+  },
+  "broken mask": {
+   "anchor": "mouth",
+   "posts": 1411
+  },
+  "brown armband": {
+   "anchor": "arms",
+   "posts": 191
+  },
+  "brown belt": {
+   "anchor": "waist",
+   "posts": 48691
+  },
+  "brown bowtie": {
+   "anchor": "neck",
+   "posts": 3888
+  },
+  "brown bracelet": {
+   "anchor": "wrists",
+   "posts": 62
+  },
+  "brown choker": {
+   "anchor": "neck",
+   "posts": 2775
+  },
+  "brown collar": {
+   "anchor": "neck",
+   "posts": 2148
+  },
+  "brown garter straps": {
+   "anchor": "thighs",
+   "posts": 104
+  },
+  "brown hairband": {
+   "anchor": "head",
+   "posts": 5520
+  },
+  "brown hat": {
+   "anchor": "head",
+   "posts": 46596
+  },
+  "brown headband": {
+   "anchor": "head",
+   "posts": 712
+  },
+  "brown helmet": {
+   "anchor": "head",
+   "posts": 734
+  },
+  "brown hood": {
+   "anchor": "head",
+   "posts": 664
+  },
+  "brown mask": {
+   "anchor": "mouth",
+   "posts": 322
+  },
+  "brown necktie": {
+   "anchor": "neck",
+   "posts": 5147
+  },
+  "brown sailor collar": {
+   "anchor": "neck",
+   "posts": 5994
+  },
+  "brown veil": {
+   "anchor": "head",
+   "posts": 84
+  },
+  "brown wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 162
+  },
+  "bucket hat": {
+   "anchor": "head",
+   "posts": 3839
+  },
+  "bullet earrings": {
+   "anchor": "ears",
+   "posts": 307
+  },
+  "bullet necklace": {
+   "anchor": "neck",
+   "posts": 246
+  },
+  "bunny hood (zelda)": {
+   "anchor": "head",
+   "posts": 99
+  },
+  "burger hair ornament": {
+   "anchor": "head",
+   "posts": 262
+  },
+  "burger king crown": {
+   "anchor": "head",
+   "posts": 100
+  },
+  "butt plug": {
+   "anchor": "anus",
+   "posts": 7474
+  },
+  "butt plug tail": {
+   "anchor": "anus",
+   "posts": 0
+  },
+  "butterfly choker": {
+   "anchor": "neck",
+   "posts": 554
+  },
+  "butterfly earrings": {
+   "anchor": "ears",
+   "posts": 1406
+  },
+  "butterfly hair ornament": {
+   "anchor": "head",
+   "posts": 37120
+  },
+  "butterfly hat ornament": {
+   "anchor": "head",
+   "posts": 1014
+  },
+  "butterfly mask": {
+   "anchor": "mouth",
+   "posts": 279
+  },
+  "butterfly necklace": {
+   "anchor": "neck",
+   "posts": 686
+  },
+  "butterfly ring": {
+   "anchor": "fingers",
+   "posts": 168
+  },
+  "buttoned cuffs": {
+   "anchor": "wrists",
+   "posts": 3833
+  },
+  "cabbie hat": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "cake hair ornament": {
+   "anchor": "head",
+   "posts": 360
+  },
+  "cake-shaped hat": {
+   "anchor": "head",
+   "posts": 132
+  },
+  "camouflage hat": {
+   "anchor": "head",
+   "posts": 428
+  },
+  "camouflage helmet": {
+   "anchor": "head",
+   "posts": 338
+  },
+  "campaign hat": {
+   "anchor": "head",
+   "posts": 72
+  },
+  "candy apple hair ornament": {
+   "anchor": "head",
+   "posts": 91
+  },
+  "candy cane hair ornament": {
+   "anchor": "head",
+   "posts": 84
+  },
+  "candy hair ornament": {
+   "anchor": "head",
+   "posts": 2783
+  },
+  "captive bead ring": {
+   "anchor": "fingers",
+   "posts": 1007
+  },
+  "carnival mask": {
+   "anchor": "mouth",
+   "posts": 61
+  },
+  "carrot earrings": {
+   "anchor": "ears",
+   "posts": 121
+  },
+  "carrot hair ornament": {
+   "anchor": "head",
+   "posts": 7638
+  },
+  "carrot necklace": {
+   "anchor": "neck",
+   "posts": 3889
+  },
+  "cat choker": {
+   "anchor": "neck",
+   "posts": 1391
+  },
+  "cat ear hairband": {
+   "anchor": "ears",
+   "posts": 5199
+  },
+  "cat ear helmet": {
+   "anchor": "ears",
+   "posts": 0
+  },
+  "cat ear panties": {
+   "anchor": "ears",
+   "posts": 3972
+  },
+  "cat earrings": {
+   "anchor": "ears",
+   "posts": 341
+  },
+  "cat hair ornament": {
+   "anchor": "head",
+   "posts": 10122
+  },
+  "cat hat": {
+   "anchor": "head",
+   "posts": 6497
+  },
+  "cat hat ornament": {
+   "anchor": "head",
+   "posts": 120
+  },
+  "cat helmet": {
+   "anchor": "head",
+   "posts": 221
+  },
+  "cat hood": {
+   "anchor": "head",
+   "posts": 7827
+  },
+  "cat mask": {
+   "anchor": "mouth",
+   "posts": 1505
+  },
+  "cat o-ring": {
+   "anchor": "fingers",
+   "posts": 292
+  },
+  "catcher's mask": {
+   "anchor": "mouth",
+   "posts": 243
+  },
+  "cavalier hat": {
+   "anchor": "head",
+   "posts": 512
+  },
+  "chain around arm": {
+   "anchor": "arms",
+   "posts": 779
+  },
+  "chain around neck": {
+   "anchor": "neck",
+   "posts": 313
+  },
+  "chain belt": {
+   "anchor": "waist",
+   "posts": 885
+  },
+  "chain bracelet": {
+   "anchor": "wrists",
+   "posts": 709
+  },
+  "chain earrings": {
+   "anchor": "ears",
+   "posts": 664
+  },
+  "chain hairband": {
+   "anchor": "head",
+   "posts": 88
+  },
+  "chain headband": {
+   "anchor": "head",
+   "posts": 2410
+  },
+  "chain necklace": {
+   "anchor": "neck",
+   "posts": 12078
+  },
+  "chained wrists": {
+   "anchor": "wrists",
+   "posts": 1682
+  },
+  "championship belt": {
+   "anchor": "waist",
+   "posts": 506
+  },
+  "chaperon hat": {
+   "anchor": "head",
+   "posts": 179
+  },
+  "character hair ornament": {
+   "anchor": "head",
+   "posts": 5588
+  },
+  "character hat": {
+   "anchor": "head",
+   "posts": 407
+  },
+  "character hat ornament": {
+   "anchor": "head",
+   "posts": 307
+  },
+  "character hood": {
+   "anchor": "head",
+   "posts": 995
+  },
+  "character mask": {
+   "anchor": "mouth",
+   "posts": 969
+  },
+  "chastity belt": {
+   "anchor": "waist",
+   "posts": 762
+  },
+  "checkerboard cookie hair ornament": {
+   "anchor": "head",
+   "posts": 74
+  },
+  "checkered armband": {
+   "anchor": "arms",
+   "posts": 123
+  },
+  "checkered belt": {
+   "anchor": "waist",
+   "posts": 104
+  },
+  "checkered bowtie": {
+   "anchor": "neck",
+   "posts": 528
+  },
+  "checkered bracelet": {
+   "anchor": "wrists",
+   "posts": 74
+  },
+  "checkered collar": {
+   "anchor": "neck",
+   "posts": 241
+  },
+  "checkered hairband": {
+   "anchor": "head",
+   "posts": 1674
+  },
+  "checkered hat": {
+   "anchor": "head",
+   "posts": 589
+  },
+  "checkered necktie": {
+   "anchor": "neck",
+   "posts": 3379
+  },
+  "checkered wristband": {
+   "anchor": "wrists",
+   "posts": 110
+  },
+  "cheese hair ornament": {
+   "anchor": "head",
+   "posts": 86
+  },
+  "chef hat": {
+   "anchor": "head",
+   "posts": 7563
+  },
+  "cherry earrings": {
+   "anchor": "ears",
+   "posts": 752
+  },
+  "cherry hair ornament": {
+   "anchor": "head",
+   "posts": 2666
+  },
+  "cherry hat ornament": {
+   "anchor": "head",
+   "posts": 135
+  },
+  "chest belt": {
+   "anchor": "waist",
+   "posts": 8915
+  },
+  "chicken mask": {
+   "anchor": "mouth",
+   "posts": 60
+  },
+  "chocolate hair ornament": {
+   "anchor": "head",
+   "posts": 87
+  },
+  "choker": {
+   "anchor": "neck",
+   "posts": 622642
+  },
+  "choker jewel": {
+   "anchor": "neck",
+   "posts": 351
+  },
+  "christmas tree hair ornament": {
+   "anchor": "head",
+   "posts": 346
+  },
+  "claw ring": {
+   "anchor": "fingers",
+   "posts": 3664
+  },
+  "cleave gag": {
+   "anchor": "mouth",
+   "posts": 2633
+  },
+  "clerical collar": {
+   "anchor": "neck",
+   "posts": 361
+  },
+  "clitoris chain": {
+   "anchor": "genitals",
+   "posts": 147
+  },
+  "clitoris clamp": {
+   "anchor": "genitals",
+   "posts": 101
+  },
+  "clitoris leash": {
+   "anchor": "genitals",
+   "posts": 99
+  },
+  "clitoris ring": {
+   "anchor": "fingers",
+   "posts": 737
+  },
+  "cloche hat": {
+   "anchor": "head",
+   "posts": 121
+  },
+  "clock hair ornament": {
+   "anchor": "head",
+   "posts": 126
+  },
+  "clock hat ornament": {
+   "anchor": "head",
+   "posts": 55
+  },
+  "cloth gag": {
+   "anchor": "mouth",
+   "posts": 4890
+  },
+  "clothes gag": {
+   "anchor": "mouth",
+   "posts": 269
+  },
+  "cloud hair ornament": {
+   "anchor": "head",
+   "posts": 1192
+  },
+  "clover earrings": {
+   "anchor": "ears",
+   "posts": 79
+  },
+  "clover hair ornament": {
+   "anchor": "head",
+   "posts": 6332
+  },
+  "clown mask": {
+   "anchor": "mouth",
+   "posts": 287
+  },
+  "club hair ornament": {
+   "anchor": "head",
+   "posts": 490
+  },
+  "cock ring": {
+   "anchor": "fingers",
+   "posts": 1271
+  },
+  "coin hair ornament": {
+   "anchor": "head",
+   "posts": 1565
+  },
+  "coin mask": {
+   "anchor": "mouth",
+   "posts": 325
+  },
+  "coke-bottle glasses": {
+   "anchor": "eyes",
+   "posts": 2627
+  },
+  "collar": {
+   "anchor": "neck",
+   "posts": 279780
+  },
+  "collar chain (jewelry)": {
+   "anchor": "neck",
+   "posts": 606
+  },
+  "collar jewel": {
+   "anchor": "neck",
+   "posts": 778
+  },
+  "collar tabs": {
+   "anchor": "neck",
+   "posts": 686
+  },
+  "collar tug": {
+   "anchor": "neck",
+   "posts": 1178
+  },
+  "colored blindfold": {
+   "anchor": "eyes",
+   "posts": 1009
+  },
+  "combat helmet": {
+   "anchor": "head",
+   "posts": 5200
+  },
+  "condom belt": {
+   "anchor": "waist",
+   "posts": 2823
+  },
+  "condom thigh strap": {
+   "anchor": "thighs",
+   "posts": 570
+  },
+  "conical hat": {
+   "anchor": "head",
+   "posts": 811
+  },
+  "contrast collar": {
+   "anchor": "neck",
+   "posts": 11770
+  },
+  "controller hair ornament": {
+   "anchor": "head",
+   "posts": 61
+  },
+  "conveyor belt": {
+   "anchor": "waist",
+   "posts": 374
+  },
+  "conveyor belt sushi": {
+   "anchor": "waist",
+   "posts": 196
+  },
+  "cookie hair ornament": {
+   "anchor": "head",
+   "posts": 252
+  },
+  "coral hair ornament": {
+   "anchor": "head",
+   "posts": 569
+  },
+  "corinthian helmet": {
+   "anchor": "head",
+   "posts": 214
+  },
+  "covering another's eyes": {
+   "anchor": "eyes",
+   "posts": 1868
+  },
+  "covering anus": {
+   "anchor": "anus",
+   "posts": 101
+  },
+  "covering crotch": {
+   "anchor": "genitals",
+   "posts": 16009
+  },
+  "covering head": {
+   "anchor": "head",
+   "posts": 368
+  },
+  "covering nipples": {
+   "anchor": "nipples",
+   "posts": 3975
+  },
+  "covering one eye": {
+   "anchor": "eyes",
+   "posts": 2150
+  },
+  "covering own ears": {
+   "anchor": "ears",
+   "posts": 1090
+  },
+  "covering own eyes": {
+   "anchor": "eyes",
+   "posts": 5360
+  },
+  "covering own mouth": {
+   "anchor": "mouth",
+   "posts": 33060
+  },
+  "cow ear hairband": {
+   "anchor": "ears",
+   "posts": 1766
+  },
+  "cow hair ornament": {
+   "anchor": "head",
+   "posts": 58
+  },
+  "cow hat": {
+   "anchor": "head",
+   "posts": 391
+  },
+  "cow hood": {
+   "anchor": "head",
+   "posts": 462
+  },
+  "cow mask": {
+   "anchor": "mouth",
+   "posts": 69
+  },
+  "cow print pasties": {
+   "anchor": "nipples",
+   "posts": 118
+  },
+  "cowboy hat": {
+   "anchor": "head",
+   "posts": 13554
+  },
+  "crab hair ornament": {
+   "anchor": "head",
+   "posts": 140
+  },
+  "cracked kawaii mask": {
+   "anchor": "mouth",
+   "posts": 571
+  },
+  "cracked mask": {
+   "anchor": "mouth",
+   "posts": 913
+  },
+  "crescent choker": {
+   "anchor": "neck",
+   "posts": 644
+  },
+  "crescent earrings": {
+   "anchor": "ears",
+   "posts": 7004
+  },
+  "crescent hair ornament": {
+   "anchor": "head",
+   "posts": 18160
+  },
+  "crescent hat ornament": {
+   "anchor": "head",
+   "posts": 14535
+  },
+  "crescent necklace": {
+   "anchor": "neck",
+   "posts": 2078
+  },
+  "criss-cross back-straps": {
+   "anchor": "back",
+   "posts": 885
+  },
+  "crocodile hair ornament": {
+   "anchor": "head",
+   "posts": 167
+  },
+  "cross choker": {
+   "anchor": "neck",
+   "posts": 2292
+  },
+  "cross earrings": {
+   "anchor": "ears",
+   "posts": 14387
+  },
+  "cross hair ornament": {
+   "anchor": "head",
+   "posts": 18820
+  },
+  "cross hat ornament": {
+   "anchor": "head",
+   "posts": 324
+  },
+  "cross necklace": {
+   "anchor": "neck",
+   "posts": 21470
+  },
+  "cross pasties": {
+   "anchor": "nipples",
+   "posts": 2793
+  },
+  "crotch rope": {
+   "anchor": "genitals",
+   "posts": 5767
+  },
+  "crown": {
+   "anchor": "head",
+   "posts": 99847
+  },
+  "crown bow": {
+   "anchor": "head",
+   "posts": 390
+  },
+  "crown braid": {
+   "anchor": "head",
+   "posts": 36980
+  },
+  "crown earrings": {
+   "anchor": "ears",
+   "posts": 378
+  },
+  "crown hair ornament": {
+   "anchor": "head",
+   "posts": 1272
+  },
+  "crown hat": {
+   "anchor": "head",
+   "posts": 136
+  },
+  "crown hat ornament": {
+   "anchor": "head",
+   "posts": 180
+  },
+  "crown of insight": {
+   "anchor": "head",
+   "posts": 85
+  },
+  "crown of thorns": {
+   "anchor": "head",
+   "posts": 1002
+  },
+  "crown-shaped pupils": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "crystal earrings": {
+   "anchor": "ears",
+   "posts": 2705
+  },
+  "crystal hair ornament": {
+   "anchor": "head",
+   "posts": 716
+  },
+  "crystal necklace": {
+   "anchor": "neck",
+   "posts": 614
+  },
+  "cube earrings": {
+   "anchor": "ears",
+   "posts": 72
+  },
+  "cube hair ornament": {
+   "anchor": "head",
+   "posts": 15931
+  },
+  "cuff title": {
+   "anchor": "wrists",
+   "posts": 80
+  },
+  "cuffs": {
+   "anchor": "wrists",
+   "posts": 44919
+  },
+  "cuffs-to-collar": {
+   "anchor": "neck",
+   "posts": 653
+  },
+  "cum on goggles": {
+   "anchor": "eyes",
+   "posts": 53
+  },
+  "cum on mask": {
+   "anchor": "mouth",
+   "posts": 140
+  },
+  "cursor hair ornament": {
+   "anchor": "head",
+   "posts": 51
+  },
+  "custodian helmet": {
+   "anchor": "head",
+   "posts": 52
+  },
+  "d-pad hair ornament": {
+   "anchor": "head",
+   "posts": 3356
+  },
+  "dangle earrings": {
+   "anchor": "ears",
+   "posts": 1341
+  },
+  "dango hair ornament": {
+   "anchor": "head",
+   "posts": 227
+  },
+  "deer hood": {
+   "anchor": "head",
+   "posts": 51
+  },
+  "deku mask": {
+   "anchor": "mouth",
+   "posts": 80
+  },
+  "demon hood": {
+   "anchor": "head",
+   "posts": 60
+  },
+  "den-o belt": {
+   "anchor": "waist",
+   "posts": 58
+  },
+  "dental gag": {
+   "anchor": "mouth",
+   "posts": 179
+  },
+  "detached collar": {
+   "anchor": "neck",
+   "posts": 188051
+  },
+  "detached hood": {
+   "anchor": "head",
+   "posts": 1328
+  },
+  "deviruchi hat": {
+   "anchor": "head",
+   "posts": 183
+  },
+  "diagonal-striped bowtie": {
+   "anchor": "neck",
+   "posts": 5746
+  },
+  "diagonal-striped hat": {
+   "anchor": "head",
+   "posts": 106
+  },
+  "diagonal-striped necktie": {
+   "anchor": "neck",
+   "posts": 11607
+  },
+  "diamond earrings": {
+   "anchor": "ears",
+   "posts": 380
+  },
+  "diamond hair ornament": {
+   "anchor": "head",
+   "posts": 3300
+  },
+  "diamond hairband": {
+   "anchor": "head",
+   "posts": 6125
+  },
+  "diamond ring": {
+   "anchor": "fingers",
+   "posts": 105
+  },
+  "diamond-shaped earrings": {
+   "anchor": "ears",
+   "posts": 1842
+  },
+  "dice earrings": {
+   "anchor": "ears",
+   "posts": 157
+  },
+  "dice hair ornament": {
+   "anchor": "head",
+   "posts": 2537
+  },
+  "dice necklace": {
+   "anchor": "neck",
+   "posts": 167
+  },
+  "dilation belt": {
+   "anchor": "waist",
+   "posts": 152
+  },
+  "dildo gag": {
+   "anchor": "mouth",
+   "posts": 633
+  },
+  "dildo under mask": {
+   "anchor": "mouth",
+   "posts": 111
+  },
+  "dinosaur hood": {
+   "anchor": "head",
+   "posts": 264
+  },
+  "diving helmet": {
+   "anchor": "head",
+   "posts": 312
+  },
+  "diving mask": {
+   "anchor": "mouth",
+   "posts": 3349
+  },
+  "diving mask around neck": {
+   "anchor": "neck",
+   "posts": 203
+  },
+  "diving mask on head": {
+   "anchor": "head",
+   "posts": 1784
+  },
+  "dixie cup hat": {
+   "anchor": "head",
+   "posts": 3082
+  },
+  "dog collar": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "dog ear hairband": {
+   "anchor": "ears",
+   "posts": 153
+  },
+  "dog hair ornament": {
+   "anchor": "head",
+   "posts": 943
+  },
+  "dog hat": {
+   "anchor": "head",
+   "posts": 185
+  },
+  "dog hood": {
+   "anchor": "head",
+   "posts": 550
+  },
+  "dog mask": {
+   "anchor": "mouth",
+   "posts": 171
+  },
+  "doll hair ornament": {
+   "anchor": "head",
+   "posts": 175
+  },
+  "dolphin earrings": {
+   "anchor": "ears",
+   "posts": 64
+  },
+  "dolphin hair ornament": {
+   "anchor": "head",
+   "posts": 925
+  },
+  "dolphin hat ornament": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "domino mask": {
+   "anchor": "mouth",
+   "posts": 7630
+  },
+  "donald duck sailor hat": {
+   "anchor": "head",
+   "posts": 50
+  },
+  "donut hair ornament": {
+   "anchor": "head",
+   "posts": 214
+  },
+  "dragon hair ornament": {
+   "anchor": "head",
+   "posts": 60
+  },
+  "dragon hat": {
+   "anchor": "head",
+   "posts": 93
+  },
+  "dragon mask": {
+   "anchor": "mouth",
+   "posts": 83
+  },
+  "dragonfly hair ornament": {
+   "anchor": "head",
+   "posts": 146
+  },
+  "dragoon helmet": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "drawn crown": {
+   "anchor": "head",
+   "posts": 268
+  },
+  "dss choker": {
+   "anchor": "neck",
+   "posts": 449
+  },
+  "duck hair ornament": {
+   "anchor": "head",
+   "posts": 235
+  },
+  "duck hood": {
+   "anchor": "head",
+   "posts": 88
+  },
+  "duellist's cap (tier 6)": {
+   "anchor": "head",
+   "posts": 251
+  },
+  "ear chain": {
+   "anchor": "ears",
+   "posts": 2005
+  },
+  "ear cuffs": {
+   "anchor": "ears",
+   "posts": 204
+  },
+  "ear ornament": {
+   "anchor": "ears",
+   "posts": 33483
+  },
+  "ear piercing": {
+   "anchor": "ears",
+   "posts": 109014
+  },
+  "earrings": {
+   "anchor": "ears",
+   "posts": 857643
+  },
+  "egg hair ornament": {
+   "anchor": "head",
+   "posts": 2115
+  },
+  "eggshell hat": {
+   "anchor": "head",
+   "posts": 214
+  },
+  "elden ring (object)": {
+   "anchor": "fingers",
+   "posts": 188
+  },
+  "electric plug tail": {
+   "anchor": "tail",
+   "posts": 1310
+  },
+  "elf hat": {
+   "anchor": "head",
+   "posts": 54
+  },
+  "emblem ring": {
+   "anchor": "fingers",
+   "posts": 105
+  },
+  "emoji hair ornament": {
+   "anchor": "head",
+   "posts": 69
+  },
+  "energy ring": {
+   "anchor": "fingers",
+   "posts": 229
+  },
+  "erdtree (elden ring)": {
+   "anchor": "fingers",
+   "posts": 234
+  },
+  "eye mask": {
+   "anchor": "eyes",
+   "posts": 22787
+  },
+  "eyeball hair ornament": {
+   "anchor": "head",
+   "posts": 1512
+  },
+  "eyeball hat ornament": {
+   "anchor": "head",
+   "posts": 78
+  },
+  "eyewear chain": {
+   "anchor": "eyes",
+   "posts": 0
+  },
+  "eyewear strap": {
+   "anchor": "eyes",
+   "posts": 4981
+  },
+  "fan hair ornament": {
+   "anchor": "head",
+   "posts": 1510
+  },
+  "fang necklace": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "fast helmet": {
+   "anchor": "head",
+   "posts": 276
+  },
+  "feather earrings": {
+   "anchor": "ears",
+   "posts": 6112
+  },
+  "feather hair ornament": {
+   "anchor": "head",
+   "posts": 26840
+  },
+  "feather necklace": {
+   "anchor": "neck",
+   "posts": 624
+  },
+  "fellatio under mask": {
+   "anchor": "mouth",
+   "posts": 597
+  },
+  "festoon (necklace)": {
+   "anchor": "neck",
+   "posts": 56
+  },
+  "fez hat": {
+   "anchor": "head",
+   "posts": 235
+  },
+  "fierce deity mask (zelda)": {
+   "anchor": "mouth",
+   "posts": 57
+  },
+  "fire hair ornament": {
+   "anchor": "head",
+   "posts": 151
+  },
+  "firefighter helmet": {
+   "anchor": "head",
+   "posts": 309
+  },
+  "fish earrings": {
+   "anchor": "ears",
+   "posts": 131
+  },
+  "fish hair ornament": {
+   "anchor": "head",
+   "posts": 5355
+  },
+  "fish hat": {
+   "anchor": "head",
+   "posts": 257
+  },
+  "fish hat ornament": {
+   "anchor": "head",
+   "posts": 85
+  },
+  "fish skeleton earrings": {
+   "anchor": "ears",
+   "posts": 112
+  },
+  "fish skeleton hair ornament": {
+   "anchor": "head",
+   "posts": 571
+  },
+  "fishbowl helmet": {
+   "anchor": "head",
+   "posts": 652
+  },
+  "flat top chef hat": {
+   "anchor": "head",
+   "posts": 420
+  },
+  "flight attendant hat": {
+   "anchor": "head",
+   "posts": 104
+  },
+  "flight goggles": {
+   "anchor": "eyes",
+   "posts": 0
+  },
+  "floating crown": {
+   "anchor": "head",
+   "posts": 903
+  },
+  "floating earrings": {
+   "anchor": "ears",
+   "posts": 13600
+  },
+  "floating hair ornament": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "floating hat": {
+   "anchor": "head",
+   "posts": 344
+  },
+  "flotation belt": {
+   "anchor": "waist",
+   "posts": 62
+  },
+  "flower anklet": {
+   "anchor": "ankles",
+   "posts": 165
+  },
+  "flower as hat": {
+   "anchor": "head",
+   "posts": 180
+  },
+  "flower bracelet": {
+   "anchor": "wrists",
+   "posts": 1956
+  },
+  "flower choker": {
+   "anchor": "neck",
+   "posts": 2749
+  },
+  "flower earrings": {
+   "anchor": "ears",
+   "posts": 8552
+  },
+  "flower hairband": {
+   "anchor": "head",
+   "posts": 1535
+  },
+  "flower hairclip": {
+   "anchor": "head",
+   "posts": 2772
+  },
+  "flower in hat": {
+   "anchor": "head",
+   "posts": 70
+  },
+  "flower necklace": {
+   "anchor": "neck",
+   "posts": 3025
+  },
+  "flower ring": {
+   "anchor": "fingers",
+   "posts": 370
+  },
+  "fogged glasses": {
+   "anchor": "eyes",
+   "posts": 98
+  },
+  "fold-over collar": {
+   "anchor": "neck",
+   "posts": 600
+  },
+  "food-themed choker": {
+   "anchor": "neck",
+   "posts": 59
+  },
+  "food-themed earrings": {
+   "anchor": "ears",
+   "posts": 2897
+  },
+  "food-themed hair ornament": {
+   "anchor": "head",
+   "posts": 29728
+  },
+  "food-themed hat": {
+   "anchor": "head",
+   "posts": 591
+  },
+  "food-themed hat ornament": {
+   "anchor": "head",
+   "posts": 296
+  },
+  "food-themed necklace": {
+   "anchor": "neck",
+   "posts": 324
+  },
+  "fork hair ornament": {
+   "anchor": "head",
+   "posts": 610
+  },
+  "four-leaf clover earrings": {
+   "anchor": "ears",
+   "posts": 290
+  },
+  "four-leaf clover hair ornament": {
+   "anchor": "head",
+   "posts": 2231
+  },
+  "four-leaf clover necklace": {
+   "anchor": "neck",
+   "posts": 136
+  },
+  "fox hair ornament": {
+   "anchor": "head",
+   "posts": 1220
+  },
+  "fox hat": {
+   "anchor": "head",
+   "posts": 554
+  },
+  "fox hood": {
+   "anchor": "head",
+   "posts": 251
+  },
+  "fox mask": {
+   "anchor": "mouth",
+   "posts": 19502
+  },
+  "friendship bracelet": {
+   "anchor": "wrists",
+   "posts": 0
+  },
+  "frilled anklet": {
+   "anchor": "ankles",
+   "posts": 300
+  },
+  "frilled armband": {
+   "anchor": "arms",
+   "posts": 2031
+  },
+  "frilled bowtie": {
+   "anchor": "neck",
+   "posts": 267
+  },
+  "frilled bracelet": {
+   "anchor": "wrists",
+   "posts": 329
+  },
+  "frilled choker": {
+   "anchor": "neck",
+   "posts": 16876
+  },
+  "frilled collar": {
+   "anchor": "neck",
+   "posts": 14204
+  },
+  "frilled cuffs": {
+   "anchor": "wrists",
+   "posts": 4322
+  },
+  "frilled garter belt": {
+   "anchor": "waist",
+   "posts": 166
+  },
+  "frilled hairband": {
+   "anchor": "head",
+   "posts": 23969
+  },
+  "frilled hat": {
+   "anchor": "head",
+   "posts": 11637
+  },
+  "frilled headband": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "frilled hood": {
+   "anchor": "head",
+   "posts": 152
+  },
+  "frilled necktie": {
+   "anchor": "neck",
+   "posts": 349
+  },
+  "frilled sailor collar": {
+   "anchor": "neck",
+   "posts": 3510
+  },
+  "frilled shirt collar": {
+   "anchor": "neck",
+   "posts": 61056
+  },
+  "frilled thigh strap": {
+   "anchor": "thighs",
+   "posts": 21911
+  },
+  "frilled wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 7829
+  },
+  "frilled wristband": {
+   "anchor": "wrists",
+   "posts": 1729
+  },
+  "frog hair ornament": {
+   "anchor": "head",
+   "posts": 22569
+  },
+  "frog hat": {
+   "anchor": "head",
+   "posts": 456
+  },
+  "frog hat ornament": {
+   "anchor": "head",
+   "posts": 57
+  },
+  "frog hood": {
+   "anchor": "head",
+   "posts": 437
+  },
+  "frog mask": {
+   "anchor": "mouth",
+   "posts": 73
+  },
+  "fruit hair ornament": {
+   "anchor": "head",
+   "posts": 395
+  },
+  "fruit hat ornament": {
+   "anchor": "head",
+   "posts": 1465
+  },
+  "fuck-me pasties": {
+   "anchor": "nipples",
+   "posts": 119
+  },
+  "funeral veil": {
+   "anchor": "head",
+   "posts": 79
+  },
+  "fur anklet": {
+   "anchor": "ankles",
+   "posts": 123
+  },
+  "fur bracelet": {
+   "anchor": "wrists",
+   "posts": 459
+  },
+  "fur choker": {
+   "anchor": "neck",
+   "posts": 1595
+  },
+  "fur collar": {
+   "anchor": "neck",
+   "posts": 37360
+  },
+  "fur collar (body fur)": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "fur cuffs": {
+   "anchor": "wrists",
+   "posts": 1082
+  },
+  "fur hat": {
+   "anchor": "head",
+   "posts": 9121
+  },
+  "fur wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 959
+  },
+  "fur-trimmed choker": {
+   "anchor": "neck",
+   "posts": 763
+  },
+  "fur-trimmed collar": {
+   "anchor": "neck",
+   "posts": 3976
+  },
+  "fur-trimmed hairband": {
+   "anchor": "head",
+   "posts": 66
+  },
+  "fur-trimmed hood": {
+   "anchor": "head",
+   "posts": 7107
+  },
+  "gag": {
+   "anchor": "mouth",
+   "posts": 31966
+  },
+  "gag around neck": {
+   "anchor": "neck",
+   "posts": 483
+  },
+  "gag harness": {
+   "anchor": "mouth",
+   "posts": 2385
+  },
+  "gag under mask": {
+   "anchor": "mouth",
+   "posts": 305
+  },
+  "galea helmet": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "gaping nipples": {
+   "anchor": "nipples",
+   "posts": 0
+  },
+  "garter belt": {
+   "anchor": "waist",
+   "posts": 37176
+  },
+  "garter straps": {
+   "anchor": "thighs",
+   "posts": 114385
+  },
+  "gas mask": {
+   "anchor": "mouth",
+   "posts": 5553
+  },
+  "gas mask canister": {
+   "anchor": "mouth",
+   "posts": 65
+  },
+  "gat (hat)": {
+   "anchor": "head",
+   "posts": 491
+  },
+  "gear hair ornament": {
+   "anchor": "head",
+   "posts": 705
+  },
+  "gear hat ornament": {
+   "anchor": "head",
+   "posts": 139
+  },
+  "gem belt": {
+   "anchor": "waist",
+   "posts": 89
+  },
+  "gem hair ornament": {
+   "anchor": "head",
+   "posts": 1695
+  },
+  "gem hat ornament": {
+   "anchor": "head",
+   "posts": 225
+  },
+  "ghost earrings": {
+   "anchor": "ears",
+   "posts": 182
+  },
+  "ghost hair ornament": {
+   "anchor": "head",
+   "posts": 1727
+  },
+  "ghost mask": {
+   "anchor": "mouth",
+   "posts": 74
+  },
+  "gimp mask": {
+   "anchor": "mouth",
+   "posts": 456
+  },
+  "gingham bowtie": {
+   "anchor": "neck",
+   "posts": 89
+  },
+  "gingham necktie": {
+   "anchor": "neck",
+   "posts": 78
+  },
+  "glasses": {
+   "anchor": "eyes",
+   "posts": 505079
+  },
+  "glasses case": {
+   "anchor": "eyes",
+   "posts": 65
+  },
+  "glasses on head": {
+   "anchor": "eyes",
+   "posts": 0
+  },
+  "glove cuffs": {
+   "anchor": "wrists",
+   "posts": 119
+  },
+  "glowing necklace": {
+   "anchor": "neck",
+   "posts": 69
+  },
+  "goggles": {
+   "anchor": "eyes",
+   "posts": 88316
+  },
+  "goggles around arm": {
+   "anchor": "eyes",
+   "posts": 56
+  },
+  "goggles around neck": {
+   "anchor": "eyes",
+   "posts": 7197
+  },
+  "goggles on eyes": {
+   "anchor": "eyes",
+   "posts": 126
+  },
+  "goggles on head": {
+   "anchor": "eyes",
+   "posts": 51417
+  },
+  "goggles on headwear": {
+   "anchor": "eyes",
+   "posts": 9127
+  },
+  "gold anklet": {
+   "anchor": "ankles",
+   "posts": 1146
+  },
+  "gold belt": {
+   "anchor": "waist",
+   "posts": 1699
+  },
+  "gold bracelet": {
+   "anchor": "wrists",
+   "posts": 11172
+  },
+  "gold choker": {
+   "anchor": "neck",
+   "posts": 6654
+  },
+  "gold collar": {
+   "anchor": "neck",
+   "posts": 1620
+  },
+  "gold crown": {
+   "anchor": "head",
+   "posts": 4682
+  },
+  "gold earrings": {
+   "anchor": "ears",
+   "posts": 15549
+  },
+  "gold hairband": {
+   "anchor": "head",
+   "posts": 4662
+  },
+  "gold mask": {
+   "anchor": "mouth",
+   "posts": 199
+  },
+  "gold necklace": {
+   "anchor": "neck",
+   "posts": 11309
+  },
+  "gold ring": {
+   "anchor": "fingers",
+   "posts": 5414
+  },
+  "gold tiara": {
+   "anchor": "head",
+   "posts": 2216
+  },
+  "golden cross (elden ring)": {
+   "anchor": "fingers",
+   "posts": 67
+  },
+  "gradient bowtie": {
+   "anchor": "neck",
+   "posts": 61
+  },
+  "gradient necktie": {
+   "anchor": "neck",
+   "posts": 705
+  },
+  "grape hair ornament": {
+   "anchor": "head",
+   "posts": 942
+  },
+  "grape hat ornament": {
+   "anchor": "head",
+   "posts": 884
+  },
+  "green armband": {
+   "anchor": "arms",
+   "posts": 2497
+  },
+  "green belt": {
+   "anchor": "waist",
+   "posts": 3244
+  },
+  "green bowtie": {
+   "anchor": "neck",
+   "posts": 17275
+  },
+  "green choker": {
+   "anchor": "neck",
+   "posts": 5239
+  },
+  "green collar": {
+   "anchor": "neck",
+   "posts": 1636
+  },
+  "green crown": {
+   "anchor": "head",
+   "posts": 126
+  },
+  "green hairband": {
+   "anchor": "head",
+   "posts": 8386
+  },
+  "green hat": {
+   "anchor": "head",
+   "posts": 41965
+  },
+  "green headband": {
+   "anchor": "head",
+   "posts": 3348
+  },
+  "green helmet": {
+   "anchor": "head",
+   "posts": 1517
+  },
+  "green hood": {
+   "anchor": "head",
+   "posts": 1175
+  },
+  "green mask": {
+   "anchor": "mouth",
+   "posts": 399
+  },
+  "green necktie": {
+   "anchor": "neck",
+   "posts": 23939
+  },
+  "green sailor collar": {
+   "anchor": "neck",
+   "posts": 10446
+  },
+  "green veil": {
+   "anchor": "head",
+   "posts": 360
+  },
+  "green wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 297
+  },
+  "grenade hair ornament": {
+   "anchor": "head",
+   "posts": 462
+  },
+  "grenade pin in mouth": {
+   "anchor": "mouth",
+   "posts": 170
+  },
+  "grey armband": {
+   "anchor": "arms",
+   "posts": 210
+  },
+  "grey belt": {
+   "anchor": "waist",
+   "posts": 5158
+  },
+  "grey bowtie": {
+   "anchor": "neck",
+   "posts": 2227
+  },
+  "grey choker": {
+   "anchor": "neck",
+   "posts": 2004
+  },
+  "grey collar": {
+   "anchor": "neck",
+   "posts": 739
+  },
+  "grey crown": {
+   "anchor": "head",
+   "posts": 253
+  },
+  "grey garter straps": {
+   "anchor": "thighs",
+   "posts": 92
+  },
+  "grey hairband": {
+   "anchor": "head",
+   "posts": 3708
+  },
+  "grey hat": {
+   "anchor": "head",
+   "posts": 17020
+  },
+  "grey headband": {
+   "anchor": "head",
+   "posts": 325
+  },
+  "grey helmet": {
+   "anchor": "head",
+   "posts": 1459
+  },
+  "grey hood": {
+   "anchor": "head",
+   "posts": 646
+  },
+  "grey mask": {
+   "anchor": "mouth",
+   "posts": 525
+  },
+  "grey necktie": {
+   "anchor": "neck",
+   "posts": 5358
+  },
+  "grey sailor collar": {
+   "anchor": "neck",
+   "posts": 10982
+  },
+  "grey veil": {
+   "anchor": "head",
+   "posts": 630
+  },
+  "grey wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 192
+  },
+  "groucho glasses": {
+   "anchor": "eyes",
+   "posts": 438
+  },
+  "guan hat": {
+   "anchor": "head",
+   "posts": 515
+  },
+  "guy fawkes mask": {
+   "anchor": "mouth",
+   "posts": 58
+  },
+  "hair belt": {
+   "anchor": "waist",
+   "posts": 1028
+  },
+  "hair ornament": {
+   "anchor": "head",
+   "posts": 2075149
+  },
+  "hair rings": {
+   "anchor": "fingers",
+   "posts": 70635
+  },
+  "hairband": {
+   "anchor": "head",
+   "posts": 707635
+  },
+  "hairclip": {
+   "anchor": "head",
+   "posts": 512646
+  },
+  "half crown braid": {
+   "anchor": "head",
+   "posts": 2030
+  },
+  "half eye mask": {
+   "anchor": "eyes",
+   "posts": 450
+  },
+  "half mask": {
+   "anchor": "mouth",
+   "posts": 3178
+  },
+  "hamburger hat": {
+   "anchor": "head",
+   "posts": 104
+  },
+  "hamster hood": {
+   "anchor": "head",
+   "posts": 111
+  },
+  "hanafuda earrings": {
+   "anchor": "ears",
+   "posts": 1063
+  },
+  "hand glasses": {
+   "anchor": "eyes",
+   "posts": 76
+  },
+  "hand on mask": {
+   "anchor": "mouth",
+   "posts": 198
+  },
+  "hand on own hat": {
+   "anchor": "head",
+   "posts": 1363
+  },
+  "hard hat": {
+   "anchor": "head",
+   "posts": 2136
+  },
+  "hat": {
+   "anchor": "head",
+   "posts": 1702768
+  },
+  "hat around neck": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "hat basket": {
+   "anchor": "head",
+   "posts": 254
+  },
+  "hat bell": {
+   "anchor": "head",
+   "posts": 1188
+  },
+  "hat belt": {
+   "anchor": "head",
+   "posts": 1955
+  },
+  "hat bow": {
+   "anchor": "head",
+   "posts": 87522
+  },
+  "hat chain": {
+   "anchor": "head",
+   "posts": 137
+  },
+  "hat feather": {
+   "anchor": "head",
+   "posts": 19569
+  },
+  "hat flaps": {
+   "anchor": "head",
+   "posts": 97
+  },
+  "hat flower": {
+   "anchor": "head",
+   "posts": 38897
+  },
+  "hat loss": {
+   "anchor": "head",
+   "posts": 598
+  },
+  "hat on back": {
+   "anchor": "head",
+   "posts": 2233
+  },
+  "hat on chest": {
+   "anchor": "head",
+   "posts": 94
+  },
+  "hat on horn": {
+   "anchor": "head",
+   "posts": 53
+  },
+  "hat ornament": {
+   "anchor": "head",
+   "posts": 45912
+  },
+  "hat over eyes": {
+   "anchor": "eyes",
+   "posts": 1271
+  },
+  "hat over hat": {
+   "anchor": "head",
+   "posts": 122
+  },
+  "hat over hood": {
+   "anchor": "head",
+   "posts": 114
+  },
+  "hat over one eye": {
+   "anchor": "eyes",
+   "posts": 2081
+  },
+  "hat ribbon": {
+   "anchor": "head",
+   "posts": 86904
+  },
+  "hat tassel": {
+   "anchor": "head",
+   "posts": 1932
+  },
+  "hat tip": {
+   "anchor": "head",
+   "posts": 2240
+  },
+  "hat under hood": {
+   "anchor": "head",
+   "posts": 452
+  },
+  "hat with ears": {
+   "anchor": "ears",
+   "posts": 2136
+  },
+  "hat writing": {
+   "anchor": "head",
+   "posts": 250
+  },
+  "head chain": {
+   "anchor": "head",
+   "posts": 2558
+  },
+  "headband": {
+   "anchor": "head",
+   "posts": 132848
+  },
+  "headband around neck": {
+   "anchor": "head",
+   "posts": 199
+  },
+  "heart belt": {
+   "anchor": "waist",
+   "posts": 0
+  },
+  "heart bracelet": {
+   "anchor": "wrists",
+   "posts": 188
+  },
+  "heart butt plug": {
+   "anchor": "anus",
+   "posts": 103
+  },
+  "heart choker": {
+   "anchor": "neck",
+   "posts": 10066
+  },
+  "heart collar": {
+   "anchor": "neck",
+   "posts": 2771
+  },
+  "heart crown": {
+   "anchor": "head",
+   "posts": 62
+  },
+  "heart ear ornament": {
+   "anchor": "ears",
+   "posts": 1306
+  },
+  "heart earrings": {
+   "anchor": "ears",
+   "posts": 19253
+  },
+  "heart hair ornament": {
+   "anchor": "head",
+   "posts": 46101
+  },
+  "heart hairband": {
+   "anchor": "head",
+   "posts": 161
+  },
+  "heart hat ornament": {
+   "anchor": "head",
+   "posts": 1375
+  },
+  "heart necklace": {
+   "anchor": "neck",
+   "posts": 10630
+  },
+  "heart o-ring": {
+   "anchor": "fingers",
+   "posts": 7455
+  },
+  "heart pasties": {
+   "anchor": "nipples",
+   "posts": 13293
+  },
+  "heart ring": {
+   "anchor": "fingers",
+   "posts": 246
+  },
+  "heart ring bottom": {
+   "anchor": "fingers",
+   "posts": 104
+  },
+  "heart ring choker": {
+   "anchor": "neck",
+   "posts": 717
+  },
+  "heart ring top": {
+   "anchor": "fingers",
+   "posts": 210
+  },
+  "helmet": {
+   "anchor": "head",
+   "posts": 114622
+  },
+  "helmet over eyes": {
+   "anchor": "eyes",
+   "posts": 1640
+  },
+  "henshin belt gavv": {
+   "anchor": "waist",
+   "posts": 97
+  },
+  "hexagon hair ornament": {
+   "anchor": "head",
+   "posts": 1701
+  },
+  "hexagram hair ornament": {
+   "anchor": "head",
+   "posts": 303
+  },
+  "high belt": {
+   "anchor": "waist",
+   "posts": 0
+  },
+  "high collar": {
+   "anchor": "neck",
+   "posts": 65255
+  },
+  "high-waist belt": {
+   "anchor": "waist",
+   "posts": 2983
+  },
+  "high-waist panties": {
+   "anchor": "waist",
+   "posts": 81
+  },
+  "hockey helmet": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "hockey mask": {
+   "anchor": "mouth",
+   "posts": 816
+  },
+  "holding belt": {
+   "anchor": "waist",
+   "posts": 213
+  },
+  "holding bracelet": {
+   "anchor": "wrists",
+   "posts": 57
+  },
+  "holding collar": {
+   "anchor": "neck",
+   "posts": 533
+  },
+  "holding crown": {
+   "anchor": "head",
+   "posts": 734
+  },
+  "holding earrings": {
+   "anchor": "ears",
+   "posts": 95
+  },
+  "holding hair ornament": {
+   "anchor": "head",
+   "posts": 345
+  },
+  "holding mask": {
+   "anchor": "mouth",
+   "posts": 10198
+  },
+  "holding necklace": {
+   "anchor": "neck",
+   "posts": 1760
+  },
+  "holding ring": {
+   "anchor": "fingers",
+   "posts": 778
+  },
+  "holding swim ring": {
+   "anchor": "fingers",
+   "posts": 6409
+  },
+  "holding unworn hat": {
+   "anchor": "head",
+   "posts": 13209
+  },
+  "holding unworn helmet": {
+   "anchor": "head",
+   "posts": 4645
+  },
+  "holding unworn necktie": {
+   "anchor": "neck",
+   "posts": 233
+  },
+  "holly hair ornament": {
+   "anchor": "head",
+   "posts": 1409
+  },
+  "holly hat ornament": {
+   "anchor": "head",
+   "posts": 286
+  },
+  "holy ring": {
+   "anchor": "fingers",
+   "posts": 219
+  },
+  "hood": {
+   "anchor": "head",
+   "posts": 443425
+  },
+  "hood basket": {
+   "anchor": "head",
+   "posts": 209
+  },
+  "hood down": {
+   "anchor": "head",
+   "posts": 145466
+  },
+  "hood up": {
+   "anchor": "head",
+   "posts": 80675
+  },
+  "hoop earrings": {
+   "anchor": "ears",
+   "posts": 45265
+  },
+  "horn band legwear": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "horn bell": {
+   "anchor": "head",
+   "posts": 93
+  },
+  "horn hairband": {
+   "anchor": "head",
+   "posts": 4838
+  },
+  "horn ornament": {
+   "anchor": "head",
+   "posts": 20770
+  },
+  "horn ring": {
+   "anchor": "head",
+   "posts": 2007
+  },
+  "horned hat": {
+   "anchor": "head",
+   "posts": 1363
+  },
+  "horned helmet": {
+   "anchor": "head",
+   "posts": 6725
+  },
+  "horned hood": {
+   "anchor": "head",
+   "posts": 1211
+  },
+  "horned mask": {
+   "anchor": "mouth",
+   "posts": 2366
+  },
+  "horned tiara": {
+   "anchor": "head",
+   "posts": 130
+  },
+  "horse earrings": {
+   "anchor": "ears",
+   "posts": 64
+  },
+  "horse mask": {
+   "anchor": "mouth",
+   "posts": 262
+  },
+  "horseshoe hat ornament": {
+   "anchor": "head",
+   "posts": 1121
+  },
+  "horseshoe necklace": {
+   "anchor": "neck",
+   "posts": 59
+  },
+  "hourglass earrings": {
+   "anchor": "ears",
+   "posts": 232
+  },
+  "hutou hat": {
+   "anchor": "head",
+   "posts": 67
+  },
+  "hyottoko mask": {
+   "anchor": "mouth",
+   "posts": 359
+  },
+  "hypnosis earrings": {
+   "anchor": "ears",
+   "posts": 76
+  },
+  "ice cream hair ornament": {
+   "anchor": "head",
+   "posts": 466
+  },
+  "improvised gag": {
+   "anchor": "mouth",
+   "posts": 10178
+  },
+  "innertube hair ornament": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "insect hair ornament": {
+   "anchor": "head",
+   "posts": 225
+  },
+  "instrument hair ornament": {
+   "anchor": "head",
+   "posts": 92
+  },
+  "inverted cross earrings": {
+   "anchor": "ears",
+   "posts": 406
+  },
+  "inverted cross necklace": {
+   "anchor": "neck",
+   "posts": 172
+  },
+  "jack-o'-lantern earrings": {
+   "anchor": "ears",
+   "posts": 364
+  },
+  "jack-o'-lantern hair ornament": {
+   "anchor": "head",
+   "posts": 770
+  },
+  "jack-o'-lantern hat ornament": {
+   "anchor": "head",
+   "posts": 500
+  },
+  "jade bracelet": {
+   "anchor": "wrists",
+   "posts": 371
+  },
+  "jellyfish earrings": {
+   "anchor": "ears",
+   "posts": 71
+  },
+  "jellyfish hair ornament": {
+   "anchor": "head",
+   "posts": 255
+  },
+  "jewel butt plug": {
+   "anchor": "anus",
+   "posts": 754
+  },
+  "jeweled crown": {
+   "anchor": "head",
+   "posts": 290
+  },
+  "jeweled hat": {
+   "anchor": "head",
+   "posts": 118
+  },
+  "jingle bell earrings": {
+   "anchor": "ears",
+   "posts": 286
+  },
+  "judgement armband (toaru)": {
+   "anchor": "arms",
+   "posts": 864
+  },
+  "kabuto (helmet)": {
+   "anchor": "head",
+   "posts": 1697
+  },
+  "keaton mask": {
+   "anchor": "mouth",
+   "posts": 103
+  },
+  "kendo mask": {
+   "anchor": "mouth",
+   "posts": 72
+  },
+  "key choker": {
+   "anchor": "neck",
+   "posts": 378
+  },
+  "key earrings": {
+   "anchor": "ears",
+   "posts": 2665
+  },
+  "key hair ornament": {
+   "anchor": "head",
+   "posts": 404
+  },
+  "key necklace": {
+   "anchor": "neck",
+   "posts": 4066
+  },
+  "key ring": {
+   "anchor": "fingers",
+   "posts": 940
+  },
+  "kitchen hood": {
+   "anchor": "head",
+   "posts": 219
+  },
+  "knife hair ornament": {
+   "anchor": "head",
+   "posts": 306
+  },
+  "knit hat": {
+   "anchor": "head",
+   "posts": 958
+  },
+  "knot gag": {
+   "anchor": "mouth",
+   "posts": 225
+  },
+  "lace choker": {
+   "anchor": "neck",
+   "posts": 3281
+  },
+  "lace collar": {
+   "anchor": "neck",
+   "posts": 887
+  },
+  "lace garter belt": {
+   "anchor": "waist",
+   "posts": 408
+  },
+  "lace hairband": {
+   "anchor": "head",
+   "posts": 351
+  },
+  "lace thigh strap": {
+   "anchor": "thighs",
+   "posts": 73
+  },
+  "lace veil": {
+   "anchor": "head",
+   "posts": 82
+  },
+  "lace wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 60
+  },
+  "lace-trimmed blindfold": {
+   "anchor": "eyes",
+   "posts": 188
+  },
+  "lace-trimmed bowtie": {
+   "anchor": "neck",
+   "posts": 86
+  },
+  "lace-trimmed choker": {
+   "anchor": "neck",
+   "posts": 2655
+  },
+  "lace-trimmed collar": {
+   "anchor": "neck",
+   "posts": 1070
+  },
+  "lace-trimmed garter belt": {
+   "anchor": "waist",
+   "posts": 549
+  },
+  "lace-trimmed hairband": {
+   "anchor": "head",
+   "posts": 1641
+  },
+  "lace-trimmed veil": {
+   "anchor": "head",
+   "posts": 457
+  },
+  "lace-trimmed wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 116
+  },
+  "lantern earrings": {
+   "anchor": "ears",
+   "posts": 151
+  },
+  "lariat (necklace)": {
+   "anchor": "neck",
+   "posts": 181
+  },
+  "laurel crown": {
+   "anchor": "head",
+   "posts": 9560
+  },
+  "leaf bracelet": {
+   "anchor": "wrists",
+   "posts": 120
+  },
+  "leaf earrings": {
+   "anchor": "ears",
+   "posts": 1189
+  },
+  "leaf hair ornament": {
+   "anchor": "head",
+   "posts": 20436
+  },
+  "leaf hat": {
+   "anchor": "head",
+   "posts": 116
+  },
+  "leaf hat ornament": {
+   "anchor": "head",
+   "posts": 1858
+  },
+  "leaf necklace": {
+   "anchor": "neck",
+   "posts": 64
+  },
+  "leash on penis": {
+   "anchor": "genitals",
+   "posts": 53
+  },
+  "leather belt": {
+   "anchor": "waist",
+   "posts": 3860
+  },
+  "leather choker": {
+   "anchor": "neck",
+   "posts": 214
+  },
+  "leg belt": {
+   "anchor": "waist",
+   "posts": 3935
+  },
+  "lemon earrings": {
+   "anchor": "ears",
+   "posts": 259
+  },
+  "lemon hair ornament": {
+   "anchor": "head",
+   "posts": 837
+  },
+  "lensless glasses": {
+   "anchor": "eyes",
+   "posts": 79
+  },
+  "letter hair ornament": {
+   "anchor": "head",
+   "posts": 3632
+  },
+  "lifebuoy hair ornament": {
+   "anchor": "head",
+   "posts": 2029
+  },
+  "lightning bolt earrings": {
+   "anchor": "ears",
+   "posts": 627
+  },
+  "lightning bolt hair ornament": {
+   "anchor": "head",
+   "posts": 1686
+  },
+  "lightning bolt necklace": {
+   "anchor": "neck",
+   "posts": 88
+  },
+  "lime hair ornament": {
+   "anchor": "head",
+   "posts": 142
+  },
+  "linked collar": {
+   "anchor": "neck",
+   "posts": 694
+  },
+  "linked gag": {
+   "anchor": "mouth",
+   "posts": 136
+  },
+  "lip piercing": {
+   "anchor": "lip",
+   "posts": 5057
+  },
+  "lock earrings": {
+   "anchor": "ears",
+   "posts": 82
+  },
+  "lock necklace": {
+   "anchor": "neck",
+   "posts": 178
+  },
+  "lolita hairband": {
+   "anchor": "head",
+   "posts": 17864
+  },
+  "lollipop hair ornament": {
+   "anchor": "head",
+   "posts": 202
+  },
+  "long belt": {
+   "anchor": "waist",
+   "posts": 187
+  },
+  "long veil": {
+   "anchor": "head",
+   "posts": 118
+  },
+  "looking for glasses": {
+   "anchor": "eyes",
+   "posts": 134
+  },
+  "loose belt": {
+   "anchor": "waist",
+   "posts": 5280
+  },
+  "loose bowtie": {
+   "anchor": "neck",
+   "posts": 4827
+  },
+  "loose necktie": {
+   "anchor": "neck",
+   "posts": 10366
+  },
+  "luchador mask": {
+   "anchor": "mouth",
+   "posts": 408
+  },
+  "m1 helmet": {
+   "anchor": "head",
+   "posts": 240
+  },
+  "macaron hair ornament": {
+   "anchor": "head",
+   "posts": 359
+  },
+  "magatama earrings": {
+   "anchor": "ears",
+   "posts": 2240
+  },
+  "magatama hair ornament": {
+   "anchor": "head",
+   "posts": 723
+  },
+  "magatama necklace": {
+   "anchor": "neck",
+   "posts": 4515
+  },
+  "magik's crown": {
+   "anchor": "head",
+   "posts": 874
+  },
+  "mandarin collar": {
+   "anchor": "neck",
+   "posts": 18759
+  },
+  "maple leaf hair ornament": {
+   "anchor": "head",
+   "posts": 197
+  },
+  "mario hat": {
+   "anchor": "head",
+   "posts": 83
+  },
+  "mars symbol hair ornament": {
+   "anchor": "head",
+   "posts": 51
+  },
+  "martial arts belt": {
+   "anchor": "waist",
+   "posts": 1891
+  },
+  "mask": {
+   "anchor": "mouth",
+   "posts": 201140
+  },
+  "mask around neck": {
+   "anchor": "neck",
+   "posts": 3061
+  },
+  "mask around one ear": {
+   "anchor": "ears",
+   "posts": 99
+  },
+  "mask bikini": {
+   "anchor": "mouth",
+   "posts": 131
+  },
+  "mask lift": {
+   "anchor": "mouth",
+   "posts": 1159
+  },
+  "mask of truth": {
+   "anchor": "mouth",
+   "posts": 65
+  },
+  "mask on belt": {
+   "anchor": "waist",
+   "posts": 116
+  },
+  "mask on head": {
+   "anchor": "head",
+   "posts": 28443
+  },
+  "mask over one eye": {
+   "anchor": "eyes",
+   "posts": 1413
+  },
+  "masquerade mask": {
+   "anchor": "mouth",
+   "posts": 1366
+  },
+  "master crown": {
+   "anchor": "head",
+   "posts": 252
+  },
+  "matching earrings": {
+   "anchor": "ears",
+   "posts": 76
+  },
+  "meat hair ornament": {
+   "anchor": "head",
+   "posts": 52
+  },
+  "medici collar": {
+   "anchor": "neck",
+   "posts": 147
+  },
+  "mega ring": {
+   "anchor": "fingers",
+   "posts": 1026
+  },
+  "melon hair ornament": {
+   "anchor": "head",
+   "posts": 118
+  },
+  "metal belt": {
+   "anchor": "waist",
+   "posts": 560
+  },
+  "metal collar": {
+   "anchor": "neck",
+   "posts": 10337
+  },
+  "metal hairband": {
+   "anchor": "head",
+   "posts": 4122
+  },
+  "metal mask": {
+   "anchor": "mouth",
+   "posts": 315
+  },
+  "metal wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 1198
+  },
+  "miao hat": {
+   "anchor": "head",
+   "posts": 85
+  },
+  "micro pasties": {
+   "anchor": "nipples",
+   "posts": 238
+  },
+  "middle ring": {
+   "anchor": "fingers",
+   "posts": 4240
+  },
+  "miku collar bikini": {
+   "anchor": "neck",
+   "posts": 604
+  },
+  "military hat": {
+   "anchor": "head",
+   "posts": 32315
+  },
+  "military helmet": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "millennium necklace": {
+   "anchor": "neck",
+   "posts": 128
+  },
+  "millennium ring": {
+   "anchor": "fingers",
+   "posts": 155
+  },
+  "mini chef hat": {
+   "anchor": "head",
+   "posts": 1139
+  },
+  "mini crown": {
+   "anchor": "head",
+   "posts": 26915
+  },
+  "mini hat": {
+   "anchor": "head",
+   "posts": 38859
+  },
+  "mini santa hat": {
+   "anchor": "head",
+   "posts": 423
+  },
+  "mini tiara": {
+   "anchor": "head",
+   "posts": 116
+  },
+  "mini top hat": {
+   "anchor": "head",
+   "posts": 14789
+  },
+  "mini witch hat": {
+   "anchor": "head",
+   "posts": 966
+  },
+  "mining helmet": {
+   "anchor": "head",
+   "posts": 426
+  },
+  "mismatched earrings": {
+   "anchor": "ears",
+   "posts": 2066
+  },
+  "mismatched nipple piercing": {
+   "anchor": "nipples",
+   "posts": 77
+  },
+  "mistletoe hair ornament": {
+   "anchor": "head",
+   "posts": 76
+  },
+  "monkey mask": {
+   "anchor": "mouth",
+   "posts": 244
+  },
+  "monocle chain": {
+   "anchor": "eyes",
+   "posts": 870
+  },
+  "moriya's iron rings": {
+   "anchor": "fingers",
+   "posts": 577
+  },
+  "moth hair ornament": {
+   "anchor": "head",
+   "posts": 118
+  },
+  "motorcycle helmet": {
+   "anchor": "head",
+   "posts": 2498
+  },
+  "mouse hair ornament": {
+   "anchor": "head",
+   "posts": 74
+  },
+  "mouse hood": {
+   "anchor": "head",
+   "posts": 92
+  },
+  "mouse mask": {
+   "anchor": "mouth",
+   "posts": 60
+  },
+  "mouth mask": {
+   "anchor": "mouth",
+   "posts": 46488
+  },
+  "mouth piercing": {
+   "anchor": "mouth",
+   "posts": 2167
+  },
+  "mouth veil": {
+   "anchor": "head",
+   "posts": 5573
+  },
+  "multicolored belt": {
+   "anchor": "waist",
+   "posts": 124
+  },
+  "multicolored bowtie": {
+   "anchor": "neck",
+   "posts": 1330
+  },
+  "multicolored choker": {
+   "anchor": "neck",
+   "posts": 144
+  },
+  "multicolored hairband": {
+   "anchor": "head",
+   "posts": 6303
+  },
+  "multicolored hat": {
+   "anchor": "head",
+   "posts": 2739
+  },
+  "multicolored headband": {
+   "anchor": "head",
+   "posts": 101
+  },
+  "multicolored helmet": {
+   "anchor": "head",
+   "posts": 103
+  },
+  "multicolored necktie": {
+   "anchor": "neck",
+   "posts": 1683
+  },
+  "multicolored tiara": {
+   "anchor": "head",
+   "posts": 94
+  },
+  "multicolored wristband": {
+   "anchor": "wrists",
+   "posts": 62
+  },
+  "multiple bracelets": {
+   "anchor": "wrists",
+   "posts": 5726
+  },
+  "multiple earrings": {
+   "anchor": "ears",
+   "posts": 9715
+  },
+  "multiple hat bows": {
+   "anchor": "head",
+   "posts": 683
+  },
+  "multiple rings": {
+   "anchor": "fingers",
+   "posts": 22114
+  },
+  "multiple thigh straps": {
+   "anchor": "thighs",
+   "posts": 1403
+  },
+  "mushroom hair ornament": {
+   "anchor": "head",
+   "posts": 202
+  },
+  "mushroom hat": {
+   "anchor": "head",
+   "posts": 571
+  },
+  "musical note earrings": {
+   "anchor": "ears",
+   "posts": 910
+  },
+  "musical note hair ornament": {
+   "anchor": "head",
+   "posts": 10084
+  },
+  "musical note hat ornament": {
+   "anchor": "head",
+   "posts": 103
+  },
+  "muzzle (mask)": {
+   "anchor": "mouth",
+   "posts": 1700
+  },
+  "mysterious mask (fate)": {
+   "anchor": "mouth",
+   "posts": 60
+  },
+  "mystical high collar": {
+   "anchor": "neck",
+   "posts": 1028
+  },
+  "nail clippers": {
+   "anchor": "fingers",
+   "posts": 260
+  },
+  "nail hair ornament": {
+   "anchor": "head",
+   "posts": 89
+  },
+  "nail ornament": {
+   "anchor": "fingers",
+   "posts": 236
+  },
+  "naked belt": {
+   "anchor": "waist",
+   "posts": 367
+  },
+  "naked bowtie": {
+   "anchor": "neck",
+   "posts": 326
+  },
+  "naked necktie": {
+   "anchor": "neck",
+   "posts": 636
+  },
+  "name tag hair ornament": {
+   "anchor": "head",
+   "posts": 392
+  },
+  "narutomaki hair ornament": {
+   "anchor": "head",
+   "posts": 188
+  },
+  "neck bell": {
+   "anchor": "neck",
+   "posts": 67386
+  },
+  "neck garter": {
+   "anchor": "neck",
+   "posts": 904
+  },
+  "neck ring": {
+   "anchor": "neck",
+   "posts": 16904
+  },
+  "necklace": {
+   "anchor": "neck",
+   "posts": 378349
+  },
+  "necktie": {
+   "anchor": "neck",
+   "posts": 665914
+  },
+  "necktie aside": {
+   "anchor": "neck",
+   "posts": 114
+  },
+  "necktie between breasts": {
+   "anchor": "neck",
+   "posts": 15515
+  },
+  "necktie between pectorals": {
+   "anchor": "neck",
+   "posts": 399
+  },
+  "necktie on head": {
+   "anchor": "head",
+   "posts": 167
+  },
+  "necktie overhang": {
+   "anchor": "neck",
+   "posts": 114
+  },
+  "new mask of hope": {
+   "anchor": "mouth",
+   "posts": 428
+  },
+  "ninja mask": {
+   "anchor": "mouth",
+   "posts": 2673
+  },
+  "nipple bells": {
+   "anchor": "nipples",
+   "posts": 479
+  },
+  "nipple chain": {
+   "anchor": "nipples",
+   "posts": 1446
+  },
+  "nipple clamps": {
+   "anchor": "nipples",
+   "posts": 1929
+  },
+  "nipple jewelry": {
+   "anchor": "nipples",
+   "posts": 1868
+  },
+  "nipple leash": {
+   "anchor": "nipples",
+   "posts": 76
+  },
+  "nipple piercing": {
+   "anchor": "nipples",
+   "posts": 24159
+  },
+  "nipple plug": {
+   "anchor": "nipples",
+   "posts": 0
+  },
+  "nipple rings": {
+   "anchor": "nipples",
+   "posts": 6275
+  },
+  "no blindfold": {
+   "anchor": "eyes",
+   "posts": 2304
+  },
+  "no choker": {
+   "anchor": "neck",
+   "posts": 292
+  },
+  "no earrings": {
+   "anchor": "ears",
+   "posts": 375
+  },
+  "no hair ornament": {
+   "anchor": "head",
+   "posts": 1091
+  },
+  "no hairband": {
+   "anchor": "head",
+   "posts": 501
+  },
+  "no hairclip": {
+   "anchor": "head",
+   "posts": 87
+  },
+  "no hat": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "no hood": {
+   "anchor": "head",
+   "posts": 103
+  },
+  "no mask": {
+   "anchor": "mouth",
+   "posts": 2542
+  },
+  "no necklace": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "no necktie": {
+   "anchor": "neck",
+   "posts": 70
+  },
+  "noh mask": {
+   "anchor": "mouth",
+   "posts": 2188
+  },
+  "nontraditional witch hat": {
+   "anchor": "head",
+   "posts": 845
+  },
+  "nose piercing": {
+   "anchor": "nose",
+   "posts": 5583
+  },
+  "nose ring": {
+   "anchor": "nose",
+   "posts": 2276
+  },
+  "novelty glasses": {
+   "anchor": "eyes",
+   "posts": 398
+  },
+  "number glasses": {
+   "anchor": "eyes",
+   "posts": 67
+  },
+  "number hair ornament": {
+   "anchor": "head",
+   "posts": 444
+  },
+  "o-ring": {
+   "anchor": "fingers",
+   "posts": 76512
+  },
+  "o-ring arm strap": {
+   "anchor": "fingers",
+   "posts": 233
+  },
+  "o-ring belly chain": {
+   "anchor": "fingers",
+   "posts": 205
+  },
+  "o-ring belt": {
+   "anchor": "fingers",
+   "posts": 3319
+  },
+  "o-ring bikini": {
+   "anchor": "fingers",
+   "posts": 17185
+  },
+  "o-ring bikini bottom": {
+   "anchor": "fingers",
+   "posts": 286
+  },
+  "o-ring bottom": {
+   "anchor": "fingers",
+   "posts": 5424
+  },
+  "o-ring bra": {
+   "anchor": "fingers",
+   "posts": 176
+  },
+  "o-ring choker": {
+   "anchor": "neck",
+   "posts": 11212
+  },
+  "o-ring collar": {
+   "anchor": "neck",
+   "posts": 1034
+  },
+  "o-ring dress": {
+   "anchor": "fingers",
+   "posts": 570
+  },
+  "o-ring garter belt": {
+   "anchor": "fingers",
+   "posts": 174
+  },
+  "o-ring garter straps": {
+   "anchor": "fingers",
+   "posts": 68
+  },
+  "o-ring harness": {
+   "anchor": "fingers",
+   "posts": 1450
+  },
+  "o-ring legwear": {
+   "anchor": "fingers",
+   "posts": 267
+  },
+  "o-ring legwear garter": {
+   "anchor": "fingers",
+   "posts": 96
+  },
+  "o-ring one-piece swimsuit": {
+   "anchor": "fingers",
+   "posts": 1254
+  },
+  "o-ring panties": {
+   "anchor": "fingers",
+   "posts": 851
+  },
+  "o-ring suspenders": {
+   "anchor": "fingers",
+   "posts": 143
+  },
+  "o-ring thigh strap": {
+   "anchor": "fingers",
+   "posts": 9811
+  },
+  "o-ring top": {
+   "anchor": "fingers",
+   "posts": 15029
+  },
+  "object belt": {
+   "anchor": "waist",
+   "posts": 150
+  },
+  "octopus earrings": {
+   "anchor": "ears",
+   "posts": 62
+  },
+  "octopus hair ornament": {
+   "anchor": "head",
+   "posts": 294
+  },
+  "ofuda earrings": {
+   "anchor": "ears",
+   "posts": 266
+  },
+  "okina mask": {
+   "anchor": "mouth",
+   "posts": 93
+  },
+  "oni mask": {
+   "anchor": "mouth",
+   "posts": 3848
+  },
+  "onigiri hair ornament": {
+   "anchor": "head",
+   "posts": 175
+  },
+  "opaque glasses": {
+   "anchor": "eyes",
+   "posts": 8166
+  },
+  "open belt": {
+   "anchor": "waist",
+   "posts": 3130
+  },
+  "open car hood": {
+   "anchor": "head",
+   "posts": 135
+  },
+  "open collar": {
+   "anchor": "neck",
+   "posts": 15143
+  },
+  "open cuffs": {
+   "anchor": "wrists",
+   "posts": 238
+  },
+  "open hat": {
+   "anchor": "head",
+   "posts": 55
+  },
+  "opera glasses": {
+   "anchor": "eyes",
+   "posts": 110
+  },
+  "orange armband": {
+   "anchor": "arms",
+   "posts": 652
+  },
+  "orange belt": {
+   "anchor": "waist",
+   "posts": 3139
+  },
+  "orange bowtie": {
+   "anchor": "neck",
+   "posts": 8396
+  },
+  "orange choker": {
+   "anchor": "neck",
+   "posts": 3502
+  },
+  "orange collar": {
+   "anchor": "neck",
+   "posts": 471
+  },
+  "orange goggles": {
+   "anchor": "eyes",
+   "posts": 929
+  },
+  "orange hair ornament": {
+   "anchor": "head",
+   "posts": 454
+  },
+  "orange hairband": {
+   "anchor": "head",
+   "posts": 6092
+  },
+  "orange hat": {
+   "anchor": "head",
+   "posts": 8109
+  },
+  "orange headband": {
+   "anchor": "head",
+   "posts": 2296
+  },
+  "orange helmet": {
+   "anchor": "head",
+   "posts": 293
+  },
+  "orange necktie": {
+   "anchor": "neck",
+   "posts": 8469
+  },
+  "orange sailor collar": {
+   "anchor": "neck",
+   "posts": 2590
+  },
+  "orange veil": {
+   "anchor": "head",
+   "posts": 69
+  },
+  "orange wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 159
+  },
+  "orange-shaped earrings": {
+   "anchor": "ears",
+   "posts": 139
+  },
+  "orca hair ornament": {
+   "anchor": "head",
+   "posts": 748
+  },
+  "orca hood": {
+   "anchor": "head",
+   "posts": 1016
+  },
+  "ornate ring": {
+   "anchor": "fingers",
+   "posts": 1624
+  },
+  "outie navel": {
+   "anchor": "navel",
+   "posts": 2440
+  },
+  "over the collar (idolmaster)": {
+   "anchor": "neck",
+   "posts": 64
+  },
+  "over the mouth gag": {
+   "anchor": "mouth",
+   "posts": 896
+  },
+  "over the nose gag": {
+   "anchor": "nose",
+   "posts": 688
+  },
+  "oversized hat": {
+   "anchor": "head",
+   "posts": 312
+  },
+  "oxygen mask": {
+   "anchor": "mouth",
+   "posts": 908
+  },
+  "padlocked choker": {
+   "anchor": "neck",
+   "posts": 102
+  },
+  "padlocked collar": {
+   "anchor": "neck",
+   "posts": 979
+  },
+  "paintbrush hair ornament": {
+   "anchor": "head",
+   "posts": 360
+  },
+  "palette hair ornament": {
+   "anchor": "head",
+   "posts": 380
+  },
+  "palette hat ornament": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "panda hair ornament": {
+   "anchor": "head",
+   "posts": 1185
+  },
+  "panda hood": {
+   "anchor": "head",
+   "posts": 1178
+  },
+  "panel gag": {
+   "anchor": "mouth",
+   "posts": 390
+  },
+  "panties around ankles": {
+   "anchor": "ankles",
+   "posts": 689
+  },
+  "panties around one ankle": {
+   "anchor": "ankles",
+   "posts": 973
+  },
+  "panties around thighs": {
+   "anchor": "thighs",
+   "posts": 724
+  },
+  "panties on head": {
+   "anchor": "head",
+   "posts": 1651
+  },
+  "panties on penis": {
+   "anchor": "genitals",
+   "posts": 656
+  },
+  "panties over garter belt": {
+   "anchor": "waist",
+   "posts": 925
+  },
+  "panty gag": {
+   "anchor": "mouth",
+   "posts": 200
+  },
+  "panty mask": {
+   "anchor": "mouth",
+   "posts": 292
+  },
+  "paper crown": {
+   "anchor": "head",
+   "posts": 114
+  },
+  "paper hat": {
+   "anchor": "head",
+   "posts": 431
+  },
+  "paperclip hair ornament": {
+   "anchor": "head",
+   "posts": 123
+  },
+  "partially opaque glasses": {
+   "anchor": "eyes",
+   "posts": 575
+  },
+  "party hat": {
+   "anchor": "head",
+   "posts": 5537
+  },
+  "pasties": {
+   "anchor": "nipples",
+   "posts": 35209
+  },
+  "paw earrings": {
+   "anchor": "ears",
+   "posts": 55
+  },
+  "paw hair ornament": {
+   "anchor": "head",
+   "posts": 1043
+  },
+  "peach hair ornament": {
+   "anchor": "head",
+   "posts": 585
+  },
+  "peach hat ornament": {
+   "anchor": "head",
+   "posts": 2146
+  },
+  "pearl bracelet": {
+   "anchor": "wrists",
+   "posts": 3315
+  },
+  "pearl choker": {
+   "anchor": "neck",
+   "posts": 605
+  },
+  "pearl earrings": {
+   "anchor": "ears",
+   "posts": 6574
+  },
+  "pearl hair ornament": {
+   "anchor": "head",
+   "posts": 2897
+  },
+  "pearl necklace": {
+   "anchor": "neck",
+   "posts": 16414
+  },
+  "pendant choker": {
+   "anchor": "neck",
+   "posts": 8382
+  },
+  "pendant collar": {
+   "anchor": "neck",
+   "posts": 1237
+  },
+  "pendant earrings": {
+   "anchor": "ears",
+   "posts": 697
+  },
+  "penguin hair ornament": {
+   "anchor": "head",
+   "posts": 437
+  },
+  "penguin hat": {
+   "anchor": "head",
+   "posts": 374
+  },
+  "penguin hood": {
+   "anchor": "head",
+   "posts": 1407
+  },
+  "penis earrings": {
+   "anchor": "ears",
+   "posts": 66
+  },
+  "penis in panties": {
+   "anchor": "genitals",
+   "posts": 1078
+  },
+  "penis measuring": {
+   "anchor": "genitals",
+   "posts": 1134
+  },
+  "penis ornament": {
+   "anchor": "genitals",
+   "posts": 85
+  },
+  "penis piercing": {
+   "anchor": "genitals",
+   "posts": 714
+  },
+  "penis under mask": {
+   "anchor": "mouth",
+   "posts": 260
+  },
+  "pentagram earrings": {
+   "anchor": "ears",
+   "posts": 94
+  },
+  "pentagram hair ornament": {
+   "anchor": "head",
+   "posts": 104
+  },
+  "pentagram necklace": {
+   "anchor": "neck",
+   "posts": 159
+  },
+  "peter pan collar": {
+   "anchor": "neck",
+   "posts": 410
+  },
+  "phoenix crown": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "phrygian helmet": {
+   "anchor": "head",
+   "posts": 271
+  },
+  "picture hat": {
+   "anchor": "head",
+   "posts": 408
+  },
+  "pierced hat": {
+   "anchor": "head",
+   "posts": 146
+  },
+  "pierced wings": {
+   "anchor": "back",
+   "posts": 0
+  },
+  "pig hair ornament": {
+   "anchor": "head",
+   "posts": 54
+  },
+  "pig mask": {
+   "anchor": "mouth",
+   "posts": 110
+  },
+  "pill earrings": {
+   "anchor": "ears",
+   "posts": 1490
+  },
+  "pill hair ornament": {
+   "anchor": "head",
+   "posts": 989
+  },
+  "pillbox hat": {
+   "anchor": "head",
+   "posts": 4984
+  },
+  "pilot helmet": {
+   "anchor": "head",
+   "posts": 818
+  },
+  "pinching sleeves": {
+   "anchor": "arms",
+   "posts": 2265
+  },
+  "pineapple hair ornament": {
+   "anchor": "head",
+   "posts": 84
+  },
+  "pink arm warmers": {
+   "anchor": "arms",
+   "posts": 2722
+  },
+  "pink armband": {
+   "anchor": "arms",
+   "posts": 679
+  },
+  "pink belt": {
+   "anchor": "waist",
+   "posts": 6344
+  },
+  "pink bowtie": {
+   "anchor": "neck",
+   "posts": 28234
+  },
+  "pink choker": {
+   "anchor": "neck",
+   "posts": 13913
+  },
+  "pink collar": {
+   "anchor": "neck",
+   "posts": 4512
+  },
+  "pink crown": {
+   "anchor": "head",
+   "posts": 1107
+  },
+  "pink eyes": {
+   "anchor": "eyes",
+   "posts": 432266
+  },
+  "pink garter belt": {
+   "anchor": "waist",
+   "posts": 199
+  },
+  "pink garter straps": {
+   "anchor": "thighs",
+   "posts": 322
+  },
+  "pink hairband": {
+   "anchor": "head",
+   "posts": 17424
+  },
+  "pink hat": {
+   "anchor": "head",
+   "posts": 30120
+  },
+  "pink headband": {
+   "anchor": "head",
+   "posts": 1993
+  },
+  "pink helmet": {
+   "anchor": "head",
+   "posts": 890
+  },
+  "pink hood": {
+   "anchor": "head",
+   "posts": 716
+  },
+  "pink lips": {
+   "anchor": "lip",
+   "posts": 48168
+  },
+  "pink mask": {
+   "anchor": "mouth",
+   "posts": 514
+  },
+  "pink necktie": {
+   "anchor": "neck",
+   "posts": 12730
+  },
+  "pink sailor collar": {
+   "anchor": "neck",
+   "posts": 4072
+  },
+  "pink sash": {
+   "anchor": "waist",
+   "posts": 2584
+  },
+  "pink scarf": {
+   "anchor": "neck",
+   "posts": 9968
+  },
+  "pink sleeves": {
+   "anchor": "arms",
+   "posts": 8708
+  },
+  "pink veil": {
+   "anchor": "head",
+   "posts": 437
+  },
+  "pink visor cap": {
+   "anchor": "head",
+   "posts": 410
+  },
+  "pink wings": {
+   "anchor": "back",
+   "posts": 4602
+  },
+  "pink wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 3064
+  },
+  "pink-framed eyewear": {
+   "anchor": "eyes",
+   "posts": 5207
+  },
+  "pink-tinted eyewear": {
+   "anchor": "eyes",
+   "posts": 5885
+  },
+  "pinky ring": {
+   "anchor": "fingers",
+   "posts": 778
+  },
+  "pinstripe hat": {
+   "anchor": "head",
+   "posts": 390
+  },
+  "pinstripe sleeves": {
+   "anchor": "arms",
+   "posts": 114
+  },
+  "pinwheel hair ornament": {
+   "anchor": "head",
+   "posts": 703
+  },
+  "pirate hat": {
+   "anchor": "head",
+   "posts": 8359
+  },
+  "pith helmet": {
+   "anchor": "head",
+   "posts": 3322
+  },
+  "plague doctor mask": {
+   "anchor": "mouth",
+   "posts": 944
+  },
+  "plaid armband": {
+   "anchor": "arms",
+   "posts": 151
+  },
+  "plaid belt": {
+   "anchor": "waist",
+   "posts": 106
+  },
+  "plaid bowtie": {
+   "anchor": "neck",
+   "posts": 7704
+  },
+  "plaid choker": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "plaid collar": {
+   "anchor": "neck",
+   "posts": 513
+  },
+  "plaid hairband": {
+   "anchor": "head",
+   "posts": 387
+  },
+  "plaid hat": {
+   "anchor": "head",
+   "posts": 4213
+  },
+  "plaid necktie": {
+   "anchor": "neck",
+   "posts": 6543
+  },
+  "plaid sailor collar": {
+   "anchor": "neck",
+   "posts": 701
+  },
+  "plaid wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 69
+  },
+  "planet earrings": {
+   "anchor": "ears",
+   "posts": 638
+  },
+  "planet hair ornament": {
+   "anchor": "head",
+   "posts": 1348
+  },
+  "planetary ring": {
+   "anchor": "fingers",
+   "posts": 893
+  },
+  "plug gag": {
+   "anchor": "mouth",
+   "posts": 389
+  },
+  "plugging ears": {
+   "anchor": "ears",
+   "posts": 75
+  },
+  "pointed crown": {
+   "anchor": "head",
+   "posts": 2798
+  },
+  "poke ball hair ornament": {
+   "anchor": "head",
+   "posts": 109
+  },
+  "police hat": {
+   "anchor": "head",
+   "posts": 6643
+  },
+  "polka dot bowtie": {
+   "anchor": "neck",
+   "posts": 1198
+  },
+  "polka dot hairband": {
+   "anchor": "head",
+   "posts": 860
+  },
+  "polka dot necktie": {
+   "anchor": "neck",
+   "posts": 562
+  },
+  "pom pom earrings": {
+   "anchor": "ears",
+   "posts": 1723
+  },
+  "pom pom hair ornament": {
+   "anchor": "head",
+   "posts": 12061
+  },
+  "pom pom hat ornament": {
+   "anchor": "head",
+   "posts": 730
+  },
+  "popped collar": {
+   "anchor": "neck",
+   "posts": 16059
+  },
+  "porkpie hat": {
+   "anchor": "head",
+   "posts": 4271
+  },
+  "posture collar": {
+   "anchor": "neck",
+   "posts": 67
+  },
+  "potara earrings": {
+   "anchor": "ears",
+   "posts": 2370
+  },
+  "print armband": {
+   "anchor": "arms",
+   "posts": 102
+  },
+  "print bowtie": {
+   "anchor": "neck",
+   "posts": 4182
+  },
+  "print choker": {
+   "anchor": "neck",
+   "posts": 100
+  },
+  "print collar": {
+   "anchor": "neck",
+   "posts": 183
+  },
+  "print hairband": {
+   "anchor": "head",
+   "posts": 812
+  },
+  "print hat": {
+   "anchor": "head",
+   "posts": 1028
+  },
+  "print headband": {
+   "anchor": "head",
+   "posts": 418
+  },
+  "print mask": {
+   "anchor": "mouth",
+   "posts": 281
+  },
+  "print necktie": {
+   "anchor": "neck",
+   "posts": 1961
+  },
+  "propeller hair ornament": {
+   "anchor": "head",
+   "posts": 903
+  },
+  "propeller hat": {
+   "anchor": "head",
+   "posts": 193
+  },
+  "pudding hair ornament": {
+   "anchor": "head",
+   "posts": 56
+  },
+  "pumpkin earrings": {
+   "anchor": "ears",
+   "posts": 82
+  },
+  "pumpkin hair ornament": {
+   "anchor": "head",
+   "posts": 1131
+  },
+  "pumpkin hat": {
+   "anchor": "head",
+   "posts": 1233
+  },
+  "pumpkin hat ornament": {
+   "anchor": "head",
+   "posts": 65
+  },
+  "pumpkin mask": {
+   "anchor": "mouth",
+   "posts": 181
+  },
+  "puppet rings": {
+   "anchor": "fingers",
+   "posts": 900
+  },
+  "puritan collar": {
+   "anchor": "neck",
+   "posts": 1163
+  },
+  "purple armband": {
+   "anchor": "arms",
+   "posts": 1286
+  },
+  "purple belt": {
+   "anchor": "waist",
+   "posts": 5426
+  },
+  "purple bowtie": {
+   "anchor": "neck",
+   "posts": 24117
+  },
+  "purple choker": {
+   "anchor": "neck",
+   "posts": 8604
+  },
+  "purple collar": {
+   "anchor": "neck",
+   "posts": 2379
+  },
+  "purple crown": {
+   "anchor": "head",
+   "posts": 125
+  },
+  "purple garter belt": {
+   "anchor": "waist",
+   "posts": 409
+  },
+  "purple garter straps": {
+   "anchor": "thighs",
+   "posts": 495
+  },
+  "purple hairband": {
+   "anchor": "head",
+   "posts": 11370
+  },
+  "purple hat": {
+   "anchor": "head",
+   "posts": 25339
+  },
+  "purple headband": {
+   "anchor": "head",
+   "posts": 1160
+  },
+  "purple helmet": {
+   "anchor": "head",
+   "posts": 622
+  },
+  "purple hood": {
+   "anchor": "head",
+   "posts": 1040
+  },
+  "purple necktie": {
+   "anchor": "neck",
+   "posts": 15620
+  },
+  "purple sailor collar": {
+   "anchor": "neck",
+   "posts": 7853
+  },
+  "purple veil": {
+   "anchor": "head",
+   "posts": 3425
+  },
+  "purple wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 976
+  },
+  "pussy jewelry": {
+   "anchor": "genitals",
+   "posts": 322
+  },
+  "pussy piercing": {
+   "anchor": "genitals",
+   "posts": 2869
+  },
+  "puzzle piece hair ornament": {
+   "anchor": "head",
+   "posts": 106
+  },
+  "quad hair rings": {
+   "anchor": "fingers",
+   "posts": 132
+  },
+  "rabbit choker": {
+   "anchor": "neck",
+   "posts": 274
+  },
+  "rabbit ear hairband": {
+   "anchor": "ears",
+   "posts": 33703
+  },
+  "rabbit earrings": {
+   "anchor": "ears",
+   "posts": 473
+  },
+  "rabbit hat": {
+   "anchor": "head",
+   "posts": 1630
+  },
+  "rabbit hat ornament": {
+   "anchor": "head",
+   "posts": 459
+  },
+  "rabbit hood": {
+   "anchor": "head",
+   "posts": 5563
+  },
+  "rabbit mask": {
+   "anchor": "mouth",
+   "posts": 557
+  },
+  "rabbit o-ring": {
+   "anchor": "fingers",
+   "posts": 75
+  },
+  "raccoon hair ornament": {
+   "anchor": "head",
+   "posts": 256
+  },
+  "radar hair ornament": {
+   "anchor": "head",
+   "posts": 1016
+  },
+  "rainbow choker": {
+   "anchor": "neck",
+   "posts": 93
+  },
+  "rainbow hair ornament": {
+   "anchor": "head",
+   "posts": 304
+  },
+  "rainbow hairband": {
+   "anchor": "head",
+   "posts": 324
+  },
+  "raspberry hair ornament": {
+   "anchor": "head",
+   "posts": 68
+  },
+  "razor blade earrings": {
+   "anchor": "ears",
+   "posts": 66
+  },
+  "razor blade hair ornament": {
+   "anchor": "head",
+   "posts": 1011
+  },
+  "rectangular earrings": {
+   "anchor": "ears",
+   "posts": 751
+  },
+  "red armband": {
+   "anchor": "arms",
+   "posts": 12641
+  },
+  "red belt": {
+   "anchor": "waist",
+   "posts": 11942
+  },
+  "red bowtie": {
+   "anchor": "neck",
+   "posts": 116013
+  },
+  "red choker": {
+   "anchor": "neck",
+   "posts": 25438
+  },
+  "red collar": {
+   "anchor": "neck",
+   "posts": 18003
+  },
+  "red crown": {
+   "anchor": "head",
+   "posts": 1493
+  },
+  "red garter belt": {
+   "anchor": "waist",
+   "posts": 356
+  },
+  "red garter straps": {
+   "anchor": "thighs",
+   "posts": 562
+  },
+  "red goggles": {
+   "anchor": "eyes",
+   "posts": 473
+  },
+  "red hairband": {
+   "anchor": "head",
+   "posts": 40898
+  },
+  "red hat": {
+   "anchor": "head",
+   "posts": 88873
+  },
+  "red headband": {
+   "anchor": "head",
+   "posts": 11783
+  },
+  "red helmet": {
+   "anchor": "head",
+   "posts": 4010
+  },
+  "red hood": {
+   "anchor": "head",
+   "posts": 4738
+  },
+  "red mask": {
+   "anchor": "mouth",
+   "posts": 3944
+  },
+  "red necktie": {
+   "anchor": "neck",
+   "posts": 122240
+  },
+  "red sailor collar": {
+   "anchor": "neck",
+   "posts": 9764
+  },
+  "red tiara": {
+   "anchor": "head",
+   "posts": 66
+  },
+  "red veil": {
+   "anchor": "head",
+   "posts": 1007
+  },
+  "red wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 2102
+  },
+  "reindeer hair ornament": {
+   "anchor": "head",
+   "posts": 52
+  },
+  "reindeer hood": {
+   "anchor": "head",
+   "posts": 243
+  },
+  "removing helmet": {
+   "anchor": "head",
+   "posts": 139
+  },
+  "ribbon choker": {
+   "anchor": "neck",
+   "posts": 16465
+  },
+  "ribbon earrings": {
+   "anchor": "ears",
+   "posts": 1171
+  },
+  "ribbon-trimmed choker": {
+   "anchor": "neck",
+   "posts": 100
+  },
+  "ribbon-trimmed collar": {
+   "anchor": "neck",
+   "posts": 4516
+  },
+  "ribbon-trimmed hairband": {
+   "anchor": "head",
+   "posts": 650
+  },
+  "ribbon-trimmed hood": {
+   "anchor": "head",
+   "posts": 233
+  },
+  "rice hat": {
+   "anchor": "head",
+   "posts": 1579
+  },
+  "rider belt": {
+   "anchor": "waist",
+   "posts": 3157
+  },
+  "ring": {
+   "anchor": "fingers",
+   "posts": 130410
+  },
+  "ring (identity) (project moon)": {
+   "anchor": "fingers",
+   "posts": 511
+  },
+  "ring (sonic)": {
+   "anchor": "fingers",
+   "posts": 290
+  },
+  "ring box": {
+   "anchor": "fingers",
+   "posts": 661
+  },
+  "ring gag": {
+   "anchor": "mouth",
+   "posts": 1832
+  },
+  "ring hair extensions": {
+   "anchor": "fingers",
+   "posts": 3412
+  },
+  "ring hair ornament": {
+   "anchor": "head",
+   "posts": 3204
+  },
+  "ring light": {
+   "anchor": "fingers",
+   "posts": 83
+  },
+  "ring necklace": {
+   "anchor": "neck",
+   "posts": 1375
+  },
+  "ring of fire": {
+   "anchor": "fingers",
+   "posts": 58
+  },
+  "ring of light (blue archive)": {
+   "anchor": "fingers",
+   "posts": 1184
+  },
+  "ring on every finger": {
+   "anchor": "fingers",
+   "posts": 523
+  },
+  "ring piercing": {
+   "anchor": "fingers",
+   "posts": 8516
+  },
+  "ring pop": {
+   "anchor": "fingers",
+   "posts": 97
+  },
+  "ring sidelocks": {
+   "anchor": "fingers",
+   "posts": 80
+  },
+  "ring toss": {
+   "anchor": "fingers",
+   "posts": 72
+  },
+  "ring-con": {
+   "anchor": "fingers",
+   "posts": 675
+  },
+  "ringed eyes": {
+   "anchor": "eyes",
+   "posts": 40382
+  },
+  "riot helmet": {
+   "anchor": "head",
+   "posts": 77
+  },
+  "rope around neck": {
+   "anchor": "neck",
+   "posts": 593
+  },
+  "rope belt": {
+   "anchor": "waist",
+   "posts": 3051
+  },
+  "rope gag": {
+   "anchor": "mouth",
+   "posts": 266
+  },
+  "round collar": {
+   "anchor": "neck",
+   "posts": 530
+  },
+  "rounded collar": {
+   "anchor": "neck",
+   "posts": 951
+  },
+  "rubber duck hair ornament": {
+   "anchor": "head",
+   "posts": 55
+  },
+  "safety belt": {
+   "anchor": "waist",
+   "posts": 0
+  },
+  "safety glasses": {
+   "anchor": "eyes",
+   "posts": 1212
+  },
+  "safety pin hair ornament": {
+   "anchor": "head",
+   "posts": 146
+  },
+  "sailor collar": {
+   "anchor": "neck",
+   "posts": 414206
+  },
+  "sailor hat": {
+   "anchor": "head",
+   "posts": 22637
+  },
+  "sam browne belt": {
+   "anchor": "waist",
+   "posts": 1402
+  },
+  "santa hat": {
+   "anchor": "head",
+   "posts": 48768
+  },
+  "scarf choker": {
+   "anchor": "neck",
+   "posts": 210
+  },
+  "school hat": {
+   "anchor": "head",
+   "posts": 4415
+  },
+  "scissors hair ornament": {
+   "anchor": "head",
+   "posts": 486
+  },
+  "screw hair ornament": {
+   "anchor": "head",
+   "posts": 1520
+  },
+  "sentient scarf": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "shampoo hat": {
+   "anchor": "head",
+   "posts": 244
+  },
+  "shared hat": {
+   "anchor": "head",
+   "posts": 82
+  },
+  "shared veil": {
+   "anchor": "head",
+   "posts": 134
+  },
+  "shark hair ornament": {
+   "anchor": "head",
+   "posts": 6267
+  },
+  "shark hood": {
+   "anchor": "head",
+   "posts": 3416
+  },
+  "sheep hair ornament": {
+   "anchor": "head",
+   "posts": 226
+  },
+  "sheep hood": {
+   "anchor": "head",
+   "posts": 163
+  },
+  "shell earrings": {
+   "anchor": "ears",
+   "posts": 873
+  },
+  "shell hair ornament": {
+   "anchor": "head",
+   "posts": 2400
+  },
+  "shell hat ornament": {
+   "anchor": "head",
+   "posts": 64
+  },
+  "shell necklace": {
+   "anchor": "neck",
+   "posts": 2243
+  },
+  "shield hair ornament": {
+   "anchor": "head",
+   "posts": 112
+  },
+  "shoe belt": {
+   "anchor": "waist",
+   "posts": 446
+  },
+  "shooting glasses": {
+   "anchor": "eyes",
+   "posts": 0
+  },
+  "shooting star hair ornament": {
+   "anchor": "head",
+   "posts": 284
+  },
+  "shooting star hat ornament": {
+   "anchor": "head",
+   "posts": 51
+  },
+  "short necktie": {
+   "anchor": "neck",
+   "posts": 14803
+  },
+  "shoulder belt": {
+   "anchor": "waist",
+   "posts": 3992
+  },
+  "shoulder necklace": {
+   "anchor": "neck",
+   "posts": 85
+  },
+  "shrimp hair ornament": {
+   "anchor": "head",
+   "posts": 382
+  },
+  "shuriken earrings": {
+   "anchor": "ears",
+   "posts": 67
+  },
+  "shuriken hair ornament": {
+   "anchor": "head",
+   "posts": 992
+  },
+  "side up ring": {
+   "anchor": "fingers",
+   "posts": 1286
+  },
+  "sidelocks tied back": {
+   "anchor": "back",
+   "posts": 1545
+  },
+  "sideways hat": {
+   "anchor": "head",
+   "posts": 1939
+  },
+  "silver belt": {
+   "anchor": "waist",
+   "posts": 305
+  },
+  "silver bracelet": {
+   "anchor": "wrists",
+   "posts": 805
+  },
+  "silver choker": {
+   "anchor": "neck",
+   "posts": 392
+  },
+  "silver collar": {
+   "anchor": "neck",
+   "posts": 68
+  },
+  "silver crown": {
+   "anchor": "head",
+   "posts": 465
+  },
+  "silver earrings": {
+   "anchor": "ears",
+   "posts": 986
+  },
+  "silver hairband": {
+   "anchor": "head",
+   "posts": 946
+  },
+  "silver necklace": {
+   "anchor": "neck",
+   "posts": 1050
+  },
+  "silver ring": {
+   "anchor": "fingers",
+   "posts": 503
+  },
+  "silver tiara": {
+   "anchor": "head",
+   "posts": 562
+  },
+  "single earring": {
+   "anchor": "ears",
+   "posts": 72212
+  },
+  "single garter strap": {
+   "anchor": "thighs",
+   "posts": 3373
+  },
+  "single hair ring": {
+   "anchor": "fingers",
+   "posts": 7359
+  },
+  "single wrist cuff": {
+   "anchor": "wrists",
+   "posts": 2885
+  },
+  "ski goggles": {
+   "anchor": "eyes",
+   "posts": 1492
+  },
+  "skull belt": {
+   "anchor": "waist",
+   "posts": 765
+  },
+  "skull choker": {
+   "anchor": "neck",
+   "posts": 533
+  },
+  "skull earrings": {
+   "anchor": "ears",
+   "posts": 3487
+  },
+  "skull hair ornament": {
+   "anchor": "head",
+   "posts": 12547
+  },
+  "skull hat ornament": {
+   "anchor": "head",
+   "posts": 1009
+  },
+  "skull mask": {
+   "anchor": "mouth",
+   "posts": 3244
+  },
+  "skull necklace": {
+   "anchor": "neck",
+   "posts": 1775
+  },
+  "skull-shaped hat": {
+   "anchor": "head",
+   "posts": 398
+  },
+  "sleep mask": {
+   "anchor": "mouth",
+   "posts": 5717
+  },
+  "sleeve belt": {
+   "anchor": "waist",
+   "posts": 503
+  },
+  "sleeve cuffs": {
+   "anchor": "wrists",
+   "posts": 28734
+  },
+  "sleeve garter": {
+   "anchor": "arms",
+   "posts": 5291
+  },
+  "sleeve tied shut": {
+   "anchor": "arms",
+   "posts": 282
+  },
+  "sleeves tied together": {
+   "anchor": "arms",
+   "posts": 140
+  },
+  "slouch hat": {
+   "anchor": "head",
+   "posts": 59
+  },
+  "smiley face hair ornament": {
+   "anchor": "head",
+   "posts": 109
+  },
+  "smiley face hat ornament": {
+   "anchor": "head",
+   "posts": 222
+  },
+  "smokestack hair ornament": {
+   "anchor": "head",
+   "posts": 1849
+  },
+  "snake earrings": {
+   "anchor": "ears",
+   "posts": 1884
+  },
+  "snake hair ornament": {
+   "anchor": "head",
+   "posts": 18539
+  },
+  "snake necklace": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "snorkel mask": {
+   "anchor": "mouth",
+   "posts": 167
+  },
+  "snowflake earrings": {
+   "anchor": "ears",
+   "posts": 526
+  },
+  "snowflake hair ornament": {
+   "anchor": "head",
+   "posts": 5336
+  },
+  "snowflake hat ornament": {
+   "anchor": "head",
+   "posts": 206
+  },
+  "snowman hair ornament": {
+   "anchor": "head",
+   "posts": 287
+  },
+  "sorceress (dragon's crown) (cosplay)": {
+   "anchor": "head",
+   "posts": 66
+  },
+  "spa headband": {
+   "anchor": "head",
+   "posts": 91
+  },
+  "space helmet": {
+   "anchor": "head",
+   "posts": 5063
+  },
+  "spade earrings": {
+   "anchor": "ears",
+   "posts": 459
+  },
+  "spade hair ornament": {
+   "anchor": "head",
+   "posts": 1250
+  },
+  "spade pasties": {
+   "anchor": "nipples",
+   "posts": 288
+  },
+  "sparkle hair ornament": {
+   "anchor": "head",
+   "posts": 1886
+  },
+  "sphere earrings": {
+   "anchor": "ears",
+   "posts": 9418
+  },
+  "sphere hair ornament": {
+   "anchor": "head",
+   "posts": 17402
+  },
+  "spider gag": {
+   "anchor": "mouth",
+   "posts": 134
+  },
+  "spider hair ornament": {
+   "anchor": "head",
+   "posts": 76
+  },
+  "spider web hair ornament": {
+   "anchor": "head",
+   "posts": 129
+  },
+  "spiked anklet": {
+   "anchor": "ankles",
+   "posts": 813
+  },
+  "spiked belt": {
+   "anchor": "waist",
+   "posts": 1208
+  },
+  "spiked bracelet": {
+   "anchor": "wrists",
+   "posts": 16094
+  },
+  "spiked choker": {
+   "anchor": "neck",
+   "posts": 4652
+  },
+  "spiked collar": {
+   "anchor": "neck",
+   "posts": 18757
+  },
+  "spiked ear piercing": {
+   "anchor": "ears",
+   "posts": 2572
+  },
+  "spiked hairband": {
+   "anchor": "head",
+   "posts": 2357
+  },
+  "spiked headband": {
+   "anchor": "head",
+   "posts": 1083
+  },
+  "spiked helmet": {
+   "anchor": "head",
+   "posts": 951
+  },
+  "spiked thigh strap": {
+   "anchor": "thighs",
+   "posts": 388
+  },
+  "spoon hair ornament": {
+   "anchor": "head",
+   "posts": 261
+  },
+  "spring onion hair ornament": {
+   "anchor": "head",
+   "posts": 134
+  },
+  "square-end necktie": {
+   "anchor": "neck",
+   "posts": 2886
+  },
+  "star bracelet": {
+   "anchor": "wrists",
+   "posts": 438
+  },
+  "star choker": {
+   "anchor": "neck",
+   "posts": 4629
+  },
+  "star earrings": {
+   "anchor": "ears",
+   "posts": 20885
+  },
+  "star hair ornament": {
+   "anchor": "head",
+   "posts": 55366
+  },
+  "star hat ornament": {
+   "anchor": "head",
+   "posts": 13910
+  },
+  "star necklace": {
+   "anchor": "neck",
+   "posts": 4712
+  },
+  "star o-ring": {
+   "anchor": "fingers",
+   "posts": 101
+  },
+  "star pasties": {
+   "anchor": "nipples",
+   "posts": 1876
+  },
+  "starfish hair ornament": {
+   "anchor": "head",
+   "posts": 1919
+  },
+  "station necklace": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "stone mask": {
+   "anchor": "mouth",
+   "posts": 55
+  },
+  "stone mask (jojo)": {
+   "anchor": "mouth",
+   "posts": 446
+  },
+  "straw hat": {
+   "anchor": "head",
+   "posts": 34233
+  },
+  "strawberry earrings": {
+   "anchor": "ears",
+   "posts": 428
+  },
+  "strawberry hair ornament": {
+   "anchor": "head",
+   "posts": 3008
+  },
+  "strawberry hat ornament": {
+   "anchor": "head",
+   "posts": 112
+  },
+  "strawberry necklace": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "string around finger": {
+   "anchor": "fingers",
+   "posts": 881
+  },
+  "string around wrist": {
+   "anchor": "wrists",
+   "posts": 70
+  },
+  "string choker": {
+   "anchor": "neck",
+   "posts": 198
+  },
+  "striped armband": {
+   "anchor": "arms",
+   "posts": 736
+  },
+  "striped belt": {
+   "anchor": "waist",
+   "posts": 891
+  },
+  "striped bowtie": {
+   "anchor": "neck",
+   "posts": 18755
+  },
+  "striped choker": {
+   "anchor": "neck",
+   "posts": 726
+  },
+  "striped collar": {
+   "anchor": "neck",
+   "posts": 237
+  },
+  "striped hairband": {
+   "anchor": "head",
+   "posts": 3371
+  },
+  "striped hat": {
+   "anchor": "head",
+   "posts": 1292
+  },
+  "striped headband": {
+   "anchor": "head",
+   "posts": 511
+  },
+  "striped hood": {
+   "anchor": "head",
+   "posts": 80
+  },
+  "striped necktie": {
+   "anchor": "neck",
+   "posts": 24891
+  },
+  "striped wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 302
+  },
+  "striped wristband": {
+   "anchor": "wrists",
+   "posts": 298
+  },
+  "stud earrings": {
+   "anchor": "ears",
+   "posts": 44133
+  },
+  "studded belt": {
+   "anchor": "waist",
+   "posts": 4800
+  },
+  "studded bracelet": {
+   "anchor": "wrists",
+   "posts": 2059
+  },
+  "studded choker": {
+   "anchor": "neck",
+   "posts": 2179
+  },
+  "studded collar": {
+   "anchor": "neck",
+   "posts": 1303
+  },
+  "studded garter belt": {
+   "anchor": "waist",
+   "posts": 333
+  },
+  "studded hairband": {
+   "anchor": "head",
+   "posts": 178
+  },
+  "studded thigh strap": {
+   "anchor": "thighs",
+   "posts": 133
+  },
+  "stuffed gag": {
+   "anchor": "mouth",
+   "posts": 453
+  },
+  "sun earrings": {
+   "anchor": "ears",
+   "posts": 1138
+  },
+  "sun hair ornament": {
+   "anchor": "head",
+   "posts": 373
+  },
+  "sun hat": {
+   "anchor": "head",
+   "posts": 42847
+  },
+  "sun hat ornament": {
+   "anchor": "head",
+   "posts": 110
+  },
+  "sun necklace": {
+   "anchor": "neck",
+   "posts": 280
+  },
+  "sunflower hair ornament": {
+   "anchor": "head",
+   "posts": 3499
+  },
+  "sunglasses around neck": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "sunglasses on head": {
+   "anchor": "head",
+   "posts": 0
+  },
+  "super crown": {
+   "anchor": "head",
+   "posts": 5976
+  },
+  "surgeon cuffs": {
+   "anchor": "wrists",
+   "posts": 75
+  },
+  "surgical mask": {
+   "anchor": "mouth",
+   "posts": 7364
+  },
+  "swim goggles": {
+   "anchor": "eyes",
+   "posts": 1279
+  },
+  "swim ring": {
+   "anchor": "fingers",
+   "posts": 50618
+  },
+  "sword earrings": {
+   "anchor": "ears",
+   "posts": 222
+  },
+  "syringe earrings": {
+   "anchor": "ears",
+   "posts": 127
+  },
+  "syringe hair ornament": {
+   "anchor": "head",
+   "posts": 168
+  },
+  "tail bell": {
+   "anchor": "tail",
+   "posts": 3531
+  },
+  "tail belt": {
+   "anchor": "waist",
+   "posts": 596
+  },
+  "tail keychain": {
+   "anchor": "tail",
+   "posts": 0
+  },
+  "tail ornament": {
+   "anchor": "tail",
+   "posts": 31780
+  },
+  "tail piercing": {
+   "anchor": "tail",
+   "posts": 2729
+  },
+  "tail ring": {
+   "anchor": "fingers",
+   "posts": 2726
+  },
+  "tall crown": {
+   "anchor": "head",
+   "posts": 128
+  },
+  "tall hat": {
+   "anchor": "head",
+   "posts": 262
+  },
+  "tank helmet": {
+   "anchor": "head",
+   "posts": 621
+  },
+  "tape blindfold": {
+   "anchor": "eyes",
+   "posts": 81
+  },
+  "tape gag": {
+   "anchor": "mouth",
+   "posts": 4675
+  },
+  "tape on nipples": {
+   "anchor": "nipples",
+   "posts": 1100
+  },
+  "tassel choker": {
+   "anchor": "neck",
+   "posts": 543
+  },
+  "tassel earrings": {
+   "anchor": "ears",
+   "posts": 16161
+  },
+  "tassel hair ornament": {
+   "anchor": "head",
+   "posts": 12358
+  },
+  "tassel necklace": {
+   "anchor": "neck",
+   "posts": 95
+  },
+  "tattoo choker": {
+   "anchor": "neck",
+   "posts": 53
+  },
+  "teardrop earrings": {
+   "anchor": "ears",
+   "posts": 5268
+  },
+  "teardrop-framed glasses": {
+   "anchor": "eyes",
+   "posts": 1247
+  },
+  "teddy bear hair ornament": {
+   "anchor": "head",
+   "posts": 231
+  },
+  "tengu mask": {
+   "anchor": "mouth",
+   "posts": 1103
+  },
+  "tentacle hair ornament": {
+   "anchor": "head",
+   "posts": 70
+  },
+  "thigh belt": {
+   "anchor": "waist",
+   "posts": 11718
+  },
+  "thigh cuffs": {
+   "anchor": "wrists",
+   "posts": 101
+  },
+  "thigh strap": {
+   "anchor": "thighs",
+   "posts": 251954
+  },
+  "thorn ring (deltarune)": {
+   "anchor": "fingers",
+   "posts": 352
+  },
+  "throwing hat": {
+   "anchor": "head",
+   "posts": 52
+  },
+  "thumb ring": {
+   "anchor": "fingers",
+   "posts": 4488
+  },
+  "tiara": {
+   "anchor": "head",
+   "posts": 88360
+  },
+  "tied ears": {
+   "anchor": "ears",
+   "posts": 974
+  },
+  "tied nipples": {
+   "anchor": "nipples",
+   "posts": 152
+  },
+  "tiger ear hairband": {
+   "anchor": "ears",
+   "posts": 190
+  },
+  "tiger hair ornament": {
+   "anchor": "head",
+   "posts": 95
+  },
+  "tiger hat": {
+   "anchor": "head",
+   "posts": 97
+  },
+  "tiger hood": {
+   "anchor": "head",
+   "posts": 335
+  },
+  "toe ring": {
+   "anchor": "fingers",
+   "posts": 2575
+  },
+  "tokin hat": {
+   "anchor": "head",
+   "posts": 47130
+  },
+  "tomato hair ornament": {
+   "anchor": "head",
+   "posts": 76
+  },
+  "tongue clamp": {
+   "anchor": "tongue",
+   "posts": 74
+  },
+  "tongue piercing": {
+   "anchor": "tongue",
+   "posts": 7299
+  },
+  "tool belt": {
+   "anchor": "waist",
+   "posts": 564
+  },
+  "tooth earrings": {
+   "anchor": "ears",
+   "posts": 1114
+  },
+  "tooth hair ornament": {
+   "anchor": "head",
+   "posts": 57
+  },
+  "tooth necklace": {
+   "anchor": "neck",
+   "posts": 4005
+  },
+  "top hat": {
+   "anchor": "head",
+   "posts": 47826
+  },
+  "torii earrings": {
+   "anchor": "ears",
+   "posts": 75
+  },
+  "torii hair ornament": {
+   "anchor": "head",
+   "posts": 71
+  },
+  "torn belt": {
+   "anchor": "waist",
+   "posts": 86
+  },
+  "torn blindfold": {
+   "anchor": "eyes",
+   "posts": 88
+  },
+  "torn bowtie": {
+   "anchor": "neck",
+   "posts": 103
+  },
+  "torn choker": {
+   "anchor": "neck",
+   "posts": 99
+  },
+  "torn hat": {
+   "anchor": "head",
+   "posts": 1064
+  },
+  "torn mask": {
+   "anchor": "mouth",
+   "posts": 182
+  },
+  "torn necktie": {
+   "anchor": "neck",
+   "posts": 337
+  },
+  "torn veil": {
+   "anchor": "head",
+   "posts": 140
+  },
+  "traditional bowtie": {
+   "anchor": "neck",
+   "posts": 14975
+  },
+  "trailblazer's hat (honkai: star rail)": {
+   "anchor": "head",
+   "posts": 178
+  },
+  "trapper hat": {
+   "anchor": "head",
+   "posts": 111
+  },
+  "tri hair rings": {
+   "anchor": "fingers",
+   "posts": 0
+  },
+  "triangle earrings": {
+   "anchor": "ears",
+   "posts": 6761
+  },
+  "triangle hair ornament": {
+   "anchor": "head",
+   "posts": 7834
+  },
+  "triangle necklace": {
+   "anchor": "neck",
+   "posts": 386
+  },
+  "tulip hat": {
+   "anchor": "head",
+   "posts": 1831
+  },
+  "two-sided hood": {
+   "anchor": "head",
+   "posts": 253
+  },
+  "two-sided veil": {
+   "anchor": "head",
+   "posts": 346
+  },
+  "two-tone armband": {
+   "anchor": "arms",
+   "posts": 88
+  },
+  "two-tone bowtie": {
+   "anchor": "neck",
+   "posts": 3359
+  },
+  "two-tone hairband": {
+   "anchor": "head",
+   "posts": 4116
+  },
+  "two-tone hat": {
+   "anchor": "head",
+   "posts": 2809
+  },
+  "two-tone headband": {
+   "anchor": "head",
+   "posts": 87
+  },
+  "two-tone helmet": {
+   "anchor": "head",
+   "posts": 128
+  },
+  "two-tone mask": {
+   "anchor": "mouth",
+   "posts": 1171
+  },
+  "two-tone necktie": {
+   "anchor": "neck",
+   "posts": 2201
+  },
+  "two-tone veil": {
+   "anchor": "head",
+   "posts": 1951
+  },
+  "ufo hair ornament": {
+   "anchor": "head",
+   "posts": 135
+  },
+  "umbrella hair ornament": {
+   "anchor": "head",
+   "posts": 154
+  },
+  "undone bowtie": {
+   "anchor": "neck",
+   "posts": 670
+  },
+  "undone necktie": {
+   "anchor": "neck",
+   "posts": 3565
+  },
+  "unworn armband": {
+   "anchor": "arms",
+   "posts": 189
+  },
+  "unworn belt": {
+   "anchor": "waist",
+   "posts": 555
+  },
+  "unworn blindfold": {
+   "anchor": "eyes",
+   "posts": 325
+  },
+  "unworn bowtie": {
+   "anchor": "neck",
+   "posts": 894
+  },
+  "unworn bracelet": {
+   "anchor": "wrists",
+   "posts": 151
+  },
+  "unworn butt plug": {
+   "anchor": "anus",
+   "posts": 228
+  },
+  "unworn choker": {
+   "anchor": "neck",
+   "posts": 0
+  },
+  "unworn collar": {
+   "anchor": "neck",
+   "posts": 308
+  },
+  "unworn crown": {
+   "anchor": "head",
+   "posts": 775
+  },
+  "unworn gag": {
+   "anchor": "mouth",
+   "posts": 1342
+  },
+  "unworn goggles": {
+   "anchor": "eyes",
+   "posts": 1044
+  },
+  "unworn hair ornament": {
+   "anchor": "head",
+   "posts": 1369
+  },
+  "unworn hairband": {
+   "anchor": "head",
+   "posts": 857
+  },
+  "unworn hairclip": {
+   "anchor": "head",
+   "posts": 312
+  },
+  "unworn hat": {
+   "anchor": "head",
+   "posts": 36319
+  },
+  "unworn helmet": {
+   "anchor": "head",
+   "posts": 8126
+  },
+  "unworn mask": {
+   "anchor": "mouth",
+   "posts": 8575
+  },
+  "unworn necklace": {
+   "anchor": "neck",
+   "posts": 965
+  },
+  "unworn necktie": {
+   "anchor": "neck",
+   "posts": 1503
+  },
+  "unzipping with mouth": {
+   "anchor": "mouth",
+   "posts": 0
+  },
+  "usekh collar": {
+   "anchor": "neck",
+   "posts": 3376
+  },
+  "utility belt": {
+   "anchor": "waist",
+   "posts": 4383
+  },
+  "veil": {
+   "anchor": "head",
+   "posts": 98879
+  },
+  "venus symbol earrings": {
+   "anchor": "ears",
+   "posts": 91
+  },
+  "venus symbol hair ornament": {
+   "anchor": "head",
+   "posts": 85
+  },
+  "vertical-striped necktie": {
+   "anchor": "neck",
+   "posts": 648
+  },
+  "vibrator in anus": {
+   "anchor": "anus",
+   "posts": 424
+  },
+  "vibrator in thigh strap": {
+   "anchor": "thighs",
+   "posts": 1493
+  },
+  "vibrator on clitoris": {
+   "anchor": "genitals",
+   "posts": 235
+  },
+  "vibrator on nipple": {
+   "anchor": "nipples",
+   "posts": 1858
+  },
+  "vibrator on penis": {
+   "anchor": "genitals",
+   "posts": 230
+  },
+  "waist measuring": {
+   "anchor": "waist",
+   "posts": 0
+  },
+  "water drop hair ornament": {
+   "anchor": "head",
+   "posts": 172
+  },
+  "watermelon hair ornament": {
+   "anchor": "head",
+   "posts": 490
+  },
+  "wax seal hair ornament": {
+   "anchor": "head",
+   "posts": 70
+  },
+  "wedding ring": {
+   "anchor": "fingers",
+   "posts": 21619
+  },
+  "welding goggles": {
+   "anchor": "eyes",
+   "posts": 86
+  },
+  "welding mask": {
+   "anchor": "mouth",
+   "posts": 478
+  },
+  "whale hair ornament": {
+   "anchor": "head",
+   "posts": 939
+  },
+  "whale hat": {
+   "anchor": "head",
+   "posts": 837
+  },
+  "whispering in ear": {
+   "anchor": "ears",
+   "posts": 1051
+  },
+  "white armband": {
+   "anchor": "arms",
+   "posts": 2335
+  },
+  "white belt": {
+   "anchor": "waist",
+   "posts": 26812
+  },
+  "white bowtie": {
+   "anchor": "neck",
+   "posts": 24928
+  },
+  "white choker": {
+   "anchor": "neck",
+   "posts": 28957
+  },
+  "white collar": {
+   "anchor": "neck",
+   "posts": 26361
+  },
+  "white crown": {
+   "anchor": "head",
+   "posts": 393
+  },
+  "white garter belt": {
+   "anchor": "waist",
+   "posts": 2248
+  },
+  "white garter straps": {
+   "anchor": "thighs",
+   "posts": 5002
+  },
+  "white hairband": {
+   "anchor": "head",
+   "posts": 62658
+  },
+  "white hat": {
+   "anchor": "head",
+   "posts": 175047
+  },
+  "white headband": {
+   "anchor": "head",
+   "posts": 10500
+  },
+  "white helmet": {
+   "anchor": "head",
+   "posts": 2590
+  },
+  "white hood": {
+   "anchor": "head",
+   "posts": 4353
+  },
+  "white mask": {
+   "anchor": "mouth",
+   "posts": 7473
+  },
+  "white necktie": {
+   "anchor": "neck",
+   "posts": 14250
+  },
+  "white sailor collar": {
+   "anchor": "neck",
+   "posts": 92196
+  },
+  "white tiara": {
+   "anchor": "head",
+   "posts": 440
+  },
+  "white veil": {
+   "anchor": "head",
+   "posts": 17735
+  },
+  "white wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 28248
+  },
+  "wiffle gag": {
+   "anchor": "mouth",
+   "posts": 6910
+  },
+  "wing collar": {
+   "anchor": "neck",
+   "posts": 85949
+  },
+  "wing earrings": {
+   "anchor": "ears",
+   "posts": 174
+  },
+  "wing hair ornament": {
+   "anchor": "head",
+   "posts": 15385
+  },
+  "wing hat ornament": {
+   "anchor": "head",
+   "posts": 240
+  },
+  "wing ornament": {
+   "anchor": "back",
+   "posts": 10121
+  },
+  "wing piercing": {
+   "anchor": "back",
+   "posts": 1042
+  },
+  "winged hair ornament": {
+   "anchor": "head",
+   "posts": 890
+  },
+  "winged hairband": {
+   "anchor": "head",
+   "posts": 242
+  },
+  "winged hat": {
+   "anchor": "head",
+   "posts": 4470
+  },
+  "winged helmet": {
+   "anchor": "head",
+   "posts": 4764
+  },
+  "wingtip collar": {
+   "anchor": "neck",
+   "posts": 359
+  },
+  "wiping mouth": {
+   "anchor": "mouth",
+   "posts": 1164
+  },
+  "witch hat": {
+   "anchor": "head",
+   "posts": 136533
+  },
+  "wizard hat": {
+   "anchor": "head",
+   "posts": 7490
+  },
+  "wolf hat": {
+   "anchor": "head",
+   "posts": 166
+  },
+  "wolf hood": {
+   "anchor": "head",
+   "posts": 559
+  },
+  "wolf mask": {
+   "anchor": "mouth",
+   "posts": 173
+  },
+  "wraparound tape gag": {
+   "anchor": "mouth",
+   "posts": 203
+  },
+  "wrestling mask": {
+   "anchor": "mouth",
+   "posts": 762
+  },
+  "wrestling ring": {
+   "anchor": "fingers",
+   "posts": 1938
+  },
+  "wrist belt": {
+   "anchor": "wrists",
+   "posts": 1605
+  },
+  "wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 214901
+  },
+  "wrist straps": {
+   "anchor": "wrists",
+   "posts": 860
+  },
+  "wristband": {
+   "anchor": "wrists",
+   "posts": 69708
+  },
+  "x hair ornament": {
+   "anchor": "head",
+   "posts": 119130
+  },
+  "x hat ornament": {
+   "anchor": "head",
+   "posts": 68
+  },
+  "x pasties": {
+   "anchor": "nipples",
+   "posts": 0
+  },
+  "x-ray glasses": {
+   "anchor": "eyes",
+   "posts": 402
+  },
+  "yellow armband": {
+   "anchor": "arms",
+   "posts": 3551
+  },
+  "yellow belt": {
+   "anchor": "waist",
+   "posts": 6859
+  },
+  "yellow bowtie": {
+   "anchor": "neck",
+   "posts": 18944
+  },
+  "yellow choker": {
+   "anchor": "neck",
+   "posts": 4284
+  },
+  "yellow collar": {
+   "anchor": "neck",
+   "posts": 816
+  },
+  "yellow crown": {
+   "anchor": "head",
+   "posts": 399
+  },
+  "yellow hairband": {
+   "anchor": "head",
+   "posts": 16743
+  },
+  "yellow hat": {
+   "anchor": "head",
+   "posts": 12812
+  },
+  "yellow headband": {
+   "anchor": "head",
+   "posts": 2252
+  },
+  "yellow helmet": {
+   "anchor": "head",
+   "posts": 785
+  },
+  "yellow hood": {
+   "anchor": "head",
+   "posts": 812
+  },
+  "yellow mask": {
+   "anchor": "mouth",
+   "posts": 1167
+  },
+  "yellow necktie": {
+   "anchor": "neck",
+   "posts": 23608
+  },
+  "yellow sailor collar": {
+   "anchor": "neck",
+   "posts": 1446
+  },
+  "yellow tiara": {
+   "anchor": "head",
+   "posts": 55
+  },
+  "yellow veil": {
+   "anchor": "head",
+   "posts": 161
+  },
+  "yellow wrist cuffs": {
+   "anchor": "wrists",
+   "posts": 325
+  },
+  "yin yang earrings": {
+   "anchor": "ears",
+   "posts": 195
+  },
+  "yin yang hair ornament": {
+   "anchor": "head",
+   "posts": 510
+  },
+  "z-ring": {
+   "anchor": "fingers",
+   "posts": 1078
+  },
+  "zhuang hat": {
+   "anchor": "head",
+   "posts": 206
+  },
+  "zun hat": {
+   "anchor": "head",
+   "posts": 58
+  }
+ }
+}
