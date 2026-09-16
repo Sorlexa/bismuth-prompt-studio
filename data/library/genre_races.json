@@ -1,0 +1,275 @@
+{
+ "_note": "GENRE -> RACE table (the author's 2026-09-04): genre only, never the place. `human` is the no-race share. FORMS: the word carries the gender (female / male tag); LOCKED: one gender only; no measured gate. NOUN_ONLY: prose says 'the mermaid', else 'the elf girl'. Written by tools/build/write_genre_races.py -- edit the script.",
+ "forms": {
+  "mermaid": {
+   "female": "mermaid",
+   "male": "merman"
+  },
+  "demon girl": {
+   "female": "demon girl",
+   "male": "demon boy"
+  },
+  "slime girl": {
+   "female": "slime girl",
+   "male": "slime boy"
+  }
+ },
+ "aliases": {
+  "succubus": "demon girl",
+  "incubus": "demon girl",
+  "merman": "mermaid",
+  "demon boy": "demon girl",
+  "slime boy": "slime girl"
+ },
+ "locked": {
+  "yuki onna": "female",
+  "valkyrie": "female"
+ },
+ "noun_only": [
+  "mermaid",
+  "harpy",
+  "lamia",
+  "centaur",
+  "minotaur",
+  "dullahan",
+  "lich",
+  "cyclops",
+  "yuki onna",
+  "jiangshi",
+  "valkyrie",
+  "demon girl",
+  "slime girl",
+  "shinigami",
+  "kappa",
+  "tengu",
+  "nekomata",
+  "kitsune",
+  "tanuki"
+ ],
+ "typed_only": [
+  "giant",
+  "giantess",
+  "monster girl",
+  "monster boy",
+  "demon",
+  "golem",
+  "troll",
+  "nymph",
+  "dryad",
+  "satyr",
+  "faun",
+  "undine",
+  "seraph",
+  "cherub",
+  "kyuubi",
+  "dhampir",
+  "gynoid",
+  "cat girl",
+  "fox girl",
+  "wolf girl",
+  "dog girl",
+  "rabbit girl",
+  "cow girl",
+  "sheep girl",
+  "horse girl",
+  "dragon girl",
+  "draph",
+  "erune",
+  "miqo'te",
+  "au ra",
+  "lalafell",
+  "harvin",
+  "viera",
+  "roegadyn",
+  "hrothgar",
+  "sheikah",
+  "zora",
+  "gerudo",
+  "rito",
+  "togruta",
+  "twi'lek",
+  "quarian",
+  "turian",
+  "zabrak"
+ ],
+ "buckets": {
+  "fantasy": {
+   "roll": [
+    "elf",
+    "dark elf",
+    "dwarf",
+    "halfling",
+    "gnome",
+    "fairy",
+    "angel",
+    "mermaid",
+    "centaur",
+    "harpy",
+    "lamia",
+    "orc",
+    "goblin",
+    "minotaur",
+    "ogre",
+    "genie",
+    "slime girl"
+   ],
+   "human": 0.6
+  },
+  "supernatural": {
+   "roll": [
+    "ghost",
+    "vampire",
+    "demon girl",
+    "zombie",
+    "jiangshi",
+    "werewolf",
+    "dullahan",
+    "oni",
+    "kitsune",
+    "nekomata",
+    "tanuki",
+    "tengu",
+    "kappa",
+    "yuki onna",
+    "shinigami",
+    "angel",
+    "fairy",
+    "slime girl"
+   ],
+   "human": 0.55
+  },
+  "science fiction": {
+   "roll": [
+    "android",
+    "robot",
+    "cyborg",
+    "alien"
+   ],
+   "human": 0.65
+  }
+ },
+ "leaves": {
+  "fantasy": {
+   "roll": [
+    "elf",
+    "dark elf",
+    "dwarf",
+    "halfling",
+    "gnome",
+    "fairy",
+    "angel",
+    "mermaid",
+    "centaur",
+    "harpy",
+    "lamia",
+    "orc",
+    "goblin",
+    "minotaur",
+    "ogre",
+    "genie",
+    "slime girl"
+   ],
+   "human": 0.6
+  },
+  "dark fantasy": {
+   "roll": [
+    "dark elf",
+    "elf",
+    "orc",
+    "goblin",
+    "demon girl",
+    "vampire",
+    "dullahan",
+    "lich",
+    "werewolf",
+    "zombie",
+    "ghost",
+    "skeleton",
+    "cyclops",
+    "minotaur",
+    "ogre",
+    "harpy",
+    "lamia",
+    "slime girl",
+    "fairy"
+   ],
+   "human": 0.5
+  },
+  "supernatural": {
+   "roll": [
+    "ghost",
+    "vampire",
+    "demon girl",
+    "zombie",
+    "jiangshi",
+    "werewolf",
+    "dullahan",
+    "oni",
+    "kitsune",
+    "nekomata",
+    "tanuki",
+    "tengu",
+    "kappa",
+    "yuki onna",
+    "shinigami",
+    "angel",
+    "fairy",
+    "slime girl"
+   ],
+   "human": 0.55
+  },
+  "horror": {
+   "roll": [
+    "ghost",
+    "zombie",
+    "jiangshi",
+    "dullahan",
+    "lich",
+    "cyclops",
+    "demon girl",
+    "yuki onna",
+    "mummy"
+   ],
+   "human": 0.7
+  },
+  "cyborg": {
+   "roll": [
+    "cyborg",
+    "android",
+    "robot"
+   ],
+   "human": 0.3
+  },
+  "space": {
+   "roll": [
+    "alien",
+    "android",
+    "robot",
+    "cyborg"
+   ],
+   "human": 0.55
+  },
+  "steampunk": {
+   "roll": [
+    "robot",
+    "android"
+   ],
+   "human": 0.8
+  },
+  "dieselpunk": {
+   "roll": [
+    "robot"
+   ],
+   "human": 0.9
+  },
+  "post-apocalypse": {
+   "roll": [
+    "cyborg",
+    "android",
+    "robot",
+    "zombie"
+   ],
+   "human": 0.7
+  }
+ }
+}

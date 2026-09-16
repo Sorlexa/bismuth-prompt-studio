@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+logs/*
+!logs/.keep
+LLM/**/*.gguf
+LLM/**/*.exe
+LLM/**/*.dll
+LLM/**/*.lib
+LLM/**/*.bin
+LLM/llama.cpp/vendor/*/
+data/library/concept_ledger.json*
+data/library/act_pair_counts.json.tmp
+data/embeddings/artist_embeddings.json
+.update_tmp/
+*.new

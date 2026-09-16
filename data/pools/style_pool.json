@@ -1,0 +1,1400 @@
+{
+ "1920s (style)": {
+  "artists": {
+   "1brad": 0.0312,
+   "ano (sbee)": 0.0312,
+   "ayuki (47881314)": 0.0312,
+   "kishi takuya": 0.0312,
+   "magister": 0.0312,
+   "nanika (nnkgh)": 0.0312,
+   "shimanoji": 0.0312,
+   "simi and chapchap": 0.0312
+  },
+  "kind": "art",
+  "mediums": {
+   "3d": 0.031
+  },
+  "palette": {
+   "greyscale": 0.562,
+   "limited palette": 0.031,
+   "monochrome": 0.656
+  },
+  "posts": 32,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "film grain": 0.125
+  }
+ },
+ "1930s (style)": {
+  "artists": {
+   "andro juniarto": 0.08,
+   "creammilk tea": 0.016,
+   "gashi-gashi": 0.016,
+   "kafun": 0.024,
+   "minuspal": 0.016,
+   "rariatto (ganguri)": 0.008,
+   "udon entertainment": 0.016,
+   "yatsunote": 0.088
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "greyscale": 0.16,
+   "monochrome": 0.232
+  },
+  "posts": 125,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "chromatic aberration": 0.04
+  }
+ },
+ "1940s (style)": {
+  "artists": {
+   "astor alexander": 0.5833,
+   "salvamakoto": 0.1667,
+   "stanley lau": 0.0833
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "greyscale": 0.083,
+   "monochrome": 0.083,
+   "spot color": 0.083
+  },
+  "posts": 12,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "1950s (style)": {
+  "artists": {
+   "astor alexander": 0.1207,
+   "bb (baalbuddy)": 0.0172,
+   "haruyama kazunori": 0.0517,
+   "misogram": 0.0345,
+   "mossacannibalis": 0.0345,
+   "onikobe rin": 0.0172,
+   "salvamakoto": 0.0345,
+   "takani yoshiyuki": 0.1207
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "greyscale": 0.071,
+   "monochrome": 0.107
+  },
+  "posts": 58,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "halftone": 0.036
+  }
+ },
+ "1960s (style)": {
+  "artists": {
+   "hai to hickory": 0.0105,
+   "haruyama kazunori": 0.0139,
+   "kamee (kamee f)": 0.0139,
+   "lafolie": 0.0139,
+   "roachgore": 0.2195,
+   "takani yoshiyuki": 0.0244,
+   "tsukiyo no ribbon": 0.0314,
+   "ueyama michirou": 0.0139
+  },
+  "kind": "art",
+  "mediums": {
+   "oekaki": 0.021,
+   "sketch": 0.024
+  },
+  "palette": {
+   "greyscale": 0.069,
+   "monochrome": 0.097
+  },
+  "posts": 285,
+  "pulls": {
+   "moon": 3.2,
+   "space": 29.5
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "1970s (style)": {
+  "artists": {
+   "haruyama kazunori": 0.0098,
+   "masaaki endo": 0.0205,
+   "nawo (peace)": 0.0098,
+   "ookawara kunio": 0.0811,
+   "toten (der fuhrer)": 0.0123,
+   "tsukiyo no ribbon": 0.0098,
+   "yasuhiko yoshikazu": 0.0598,
+   "zen and retro": 0.0205
+  },
+  "kind": "art",
+  "mediums": {
+   "sketch": 0.036
+  },
+  "palette": {
+   "greyscale": 0.028,
+   "monochrome": 0.054
+  },
+  "posts": 1933,
+  "pulls": {
+   "asteroid": 298.7,
+   "cockpit": 125.8,
+   "planet": 36.8,
+   "space": 63.4
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "1980s (style)": {
+  "artists": {
+   "bluethebone": 0.029,
+   "dokite tsukasa": 0.0138,
+   "kitazume hiroyuki": 0.0306,
+   "mikimoto haruhiko": 0.0324,
+   "ookawara kunio": 0.025,
+   "takada akemi": 0.0132,
+   "takani yoshiyuki": 0.0148,
+   "yasuhiko yoshikazu": 0.027
+  },
+  "kind": "art",
+  "mediums": {
+   "sketch": 0.024
+  },
+  "palette": {
+   "anime coloring": 0.021,
+   "greyscale": 0.031,
+   "monochrome": 0.049
+  },
+  "posts": 13019,
+  "pulls": {
+   "cockpit": 86.9,
+   "planet": 27.1,
+   "space": 43.2
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "1990s (style)": {
+  "artists": {
+   "brenni murasaki": 0.0148,
+   "clamp (circle)": 0.018,
+   "hanavbara": 0.011,
+   "kokura masashi": 0.013,
+   "tadano kazuko": 0.0118,
+   "tamaru makoto": 0.0172,
+   "yamada masaki": 0.0146,
+   "yamauchi noriyasu": 0.0112
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "anime coloring": 0.035,
+   "monochrome": 0.028
+  },
+  "posts": 73516,
+  "pulls": {
+   "space": 12.3
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "2000s (style)": {
+  "artists": {
+   "blade (galaxist)": 0.0206,
+   "carnelian": 0.0782,
+   "hogeroh": 0.022,
+   "komatsu eiji": 0.0396,
+   "m&m (mickey and mackey)": 0.0146,
+   "matsuo yukihiro": 0.0154,
+   "saitou natsuki": 0.0856,
+   "shinshin": 0.0136
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "anime coloring": 0.026,
+   "greyscale": 0.024,
+   "monochrome": 0.035
+  },
+  "posts": 20042,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "abstract": {
+  "artists": {
+   "eico": 0.0126,
+   "f7(eiki)": 0.0344,
+   "harano kaguyama": 0.0184,
+   "hito (nito563)": 0.0122,
+   "kazaana": 0.0174,
+   "machigami yoh": 0.0198,
+   "meola": 0.0138,
+   "tsukamoto anabone": 0.0176
+  },
+  "kind": "art",
+  "mediums": {
+   "faux traditional media": 0.019,
+   "sketch": 0.02
+  },
+  "palette": {
+   "blue theme": 0.03,
+   "colorful": 0.111,
+   "greyscale": 0.053,
+   "limited palette": 0.037,
+   "monochrome": 0.091,
+   "spot color": 0.025
+  },
+  "posts": 5254,
+  "pulls": {
+   "moon": 3.4
+  },
+  "source": "wiki",
+  "techniques": {
+   "distortion": 0.016,
+   "silhouette": 0.027
+  }
+ },
+ "acid graphics": {
+  "artists": {
+   "defaultz": 0.0131,
+   "gishiki (gshk)": 0.0087,
+   "inplick": 0.0131,
+   "lemontea": 0.0087,
+   "meisharan": 0.0131,
+   "signal 1120": 0.0655,
+   "snow234": 0.0218,
+   "zyllypepper": 0.0131
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {},
+  "posts": 229,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "distortion": 0.048
+  }
+ },
+ "afrofuturism": {
+  "artists": {
+   "2gou": 0.0476,
+   "dofresh": 0.0476,
+   "drenched-in-sunlight": 0.0476,
+   "geneva bowers": 0.0476,
+   "kichin yarou": 0.0476,
+   "nairobi song": 0.0476,
+   "shourou kanna": 0.0476,
+   "vinartwork": 0.2381
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "colorful": 0.19,
+   "greyscale": 0.048,
+   "monochrome": 0.048,
+   "saturated": 0.238
+  },
+  "posts": 21,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "animification": {
+  "artists": {
+   "brenni murasaki": 0.005,
+   "jcm2": 0.0112,
+   "luminous slime": 0.0062,
+   "meecosme": 0.0094,
+   "mizala": 0.0064,
+   "mozuwaka": 0.007,
+   "shirasu uni": 0.0052
+  },
+  "kind": "render",
+  "mediums": {
+   "sketch": 0.025
+  },
+  "palette": {
+   "greyscale": 0.04,
+   "monochrome": 0.053
+  },
+  "posts": 31069,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "art deco": {
+  "artists": {
+   "ask (askzy)": 0.0208,
+   "eriochromatic": 0.0417,
+   "fluorart": 0.0417,
+   "mashutarou (neko no oyashiro)": 0.0104,
+   "murata range": 0.2292,
+   "nikov": 0.0417,
+   "suda ayaka": 0.0208,
+   "tthal": 0.0208
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {},
+  "posts": 96,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "film grain": 0.031
+  }
+ },
+ "art nouveau": {
+  "artists": {
+   "edoya inuhachi": 0.0057,
+   "heru (goldprin)": 0.0114,
+   "kishi takuya": 0.0742,
+   "satsuki (miicat)": 0.0057,
+   "takumi (marlboro)": 0.0057,
+   "the insaneum": 0.0265,
+   "yuu (arcadia)": 0.0114,
+   "zhuyingmiao": 0.0177
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {},
+  "posts": 1924,
+  "pulls": {
+   "moon": 4.3
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "biopunk": {
+  "artists": {
+   "ario": 0.0093,
+   "azure meraki": 0.0186,
+   "dave rapoza": 0.0186,
+   "fixro2n": 0.014,
+   "gia": 0.014,
+   "oguchi": 0.014,
+   "takane (lovehatsune)": 0.014,
+   "zxpfer": 0.0186
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "flat color": 0.028,
+   "greyscale": 0.037,
+   "monochrome": 0.074,
+   "pink theme": 0.028,
+   "red theme": 0.028
+  },
+  "posts": 215,
+  "pulls": {
+   "space": 46.1
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "blingee": {
+  "artists": {
+   "kakaon": 0.1111,
+   "miku (mikururun)": 0.1111,
+   "moon ldl": 0.1111,
+   "pixie (milkywaypixies)": 0.1111
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "colorful": 0.111
+  },
+  "posts": 9,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "cartoonized": {
+  "artists": {
+   "alex ahad": 0.0112,
+   "chocofish": 0.0149,
+   "fis (t83192933)": 0.2627,
+   "gutalalaman": 0.0099,
+   "kevin arthur": 0.0112,
+   "linterteatime": 0.0074,
+   "miyan (oceanmaiden)": 0.0347,
+   "simi and chapchap": 0.0285
+  },
+  "kind": "render",
+  "mediums": {},
+  "palette": {
+   "greyscale": 0.04,
+   "monochrome": 0.064
+  },
+  "posts": 807,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "cubism": {
+  "artists": {
+   "bb (baalbuddy)": 0.0073,
+   "drawfag": 0.0073,
+   "harano kaguyama": 0.3577,
+   "ikitakawa": 0.0219,
+   "ixy": 0.0073,
+   "machigami yoh": 0.0438,
+   "nikov": 0.0365,
+   "usagimarumei": 0.1095
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "flat color": 0.022,
+   "limited palette": 0.036,
+   "monochrome": 0.022
+  },
+  "posts": 137,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "film grain": 0.029,
+   "halftone": 0.022
+  }
+ },
+ "cyber sigilism": {
+  "artists": {
+   "aransmind": 0.1204,
+   "chiromi": 0.0366,
+   "emily kim": 0.0105,
+   "keki chogyegi": 0.0105,
+   "mano aaa": 0.0942,
+   "nishikikope": 0.0105,
+   "project.c.k.": 0.0105,
+   "vinne": 0.0733
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {},
+  "posts": 191,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "cyberpunk": {
+  "artists": {
+   "atelier (arainydancer)": 0.0108,
+   "aurahack": 0.0092,
+   "gia": 0.0073,
+   "koutetu yarou": 0.0234,
+   "koyorin": 0.0099,
+   "mihato senba": 0.0133,
+   "shikano keru": 0.0085,
+   "shirow masamune": 0.0112
+  },
+  "kind": "aesthetic",
+  "mediums": {
+   "3d": 0.037
+  },
+  "palette": {
+   "greyscale": 0.029,
+   "monochrome": 0.04
+  },
+  "posts": 4361,
+  "pulls": {
+   "city": 34.1,
+   "cityscape": 42.6,
+   "skyscraper": 44.1
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "dieselpunk": {
+  "artists": {
+   "asterozoa": 0.0156,
+   "emerson tung": 0.1094,
+   "hozumi sousei": 0.0312,
+   "kuromori (1010845110)": 0.0469,
+   "morisshii (morishiey)": 0.0156,
+   "noba": 0.0156,
+   "xandier59": 0.0156,
+   "yabarn": 0.125
+  },
+  "kind": "aesthetic",
+  "mediums": {
+   "3d": 0.031,
+   "sketch": 0.031
+  },
+  "palette": {
+   "greyscale": 0.062,
+   "monochrome": 0.062,
+   "spot color": 0.031
+  },
+  "posts": 64,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "bokeh": 0.031
+  }
+ },
+ "dorfic": {
+  "artists": {
+   "bon bon eee": 0.0127,
+   "kamille (vcx68)": 0.0095,
+   "kkuem": 0.0111,
+   "linterteatime": 0.0064,
+   "mayo riyo": 0.0127,
+   "redjuice": 0.0079,
+   "totesfleisch8": 0.0159,
+   "urushihara satoshi": 0.0127
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "orange theme": 0.068
+  },
+  "posts": 629,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "dunhuang style": {
+  "artists": {
+   "ajiu nine ajiu": 0.0335,
+   "ibuki satsuki": 0.0615,
+   "koya": 0.0391,
+   "mian lang": 0.0168,
+   "sawayaka samehada": 0.0112,
+   "shachang": 0.0223,
+   "vilor": 0.0168,
+   "ye dian pikaqiu": 0.0335
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {},
+  "posts": 179,
+  "pulls": {
+   "moon": 7.1
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "emo art": {
+  "artists": {
+   "jejejunum": 0.05,
+   "miku (mikururun)": 0.05,
+   "skullsideart": 0.05
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "colorful": 0.1
+  },
+  "posts": 20,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "faux retro artstyle": {
+  "artists": {
+   "bk (barakoodra)": 0.0254,
+   "bluethebone": 0.0955,
+   "hynn0x x": 0.0183,
+   "jelly (bonnybel)": 0.0178,
+   "kigidere": 0.0276,
+   "menma (enaic31)": 0.033,
+   "nemu (zutto oyasu3)": 0.0205,
+   "ponymoe": 0.0388
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "anime coloring": 0.037
+  },
+  "posts": 4096,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "chromatic aberration": 0.027,
+   "film grain": 0.044
+  }
+ },
+ "frutiger aero": {
+  "artists": {
+   "bomal1215": 0.0178,
+   "fuzichoco": 0.0133,
+   "kutsunohito": 0.0059,
+   "makoron117117": 0.0074,
+   "nap on a cloud": 0.0059,
+   "wakaba sprout": 0.0237
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "blue theme": 0.065,
+   "cool colors": 0.089
+  },
+  "posts": 676,
+  "pulls": {
+   "aquarium": 149.6,
+   "city": 11.7,
+   "ocean": 6.1,
+   "planet": 22.1,
+   "underwater": 43.9,
+   "water": 9.0
+  },
+  "source": "wiki",
+  "techniques": {
+   "depth of field": 0.028
+  }
+ },
+ "frutiger metro": {
+  "artists": {
+   "buzz (moi)": 0.0086,
+   "kinoko (hkn)": 0.0103,
+   "kinoshita ichi": 0.0103,
+   "mocha (naturefour)": 0.0258,
+   "project.c.k.": 0.0482,
+   "sakisato kiriko": 0.0172,
+   "skcd loen": 0.0138,
+   "yoshito": 0.0086
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "colorful": 0.052
+  },
+  "posts": 581,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "halftone": 0.086
+  }
+ },
+ "glitch art": {
+  "artists": {
+   "itomugi-kun": 0.0071,
+   "kinutaku": 0.0071,
+   "kujikimi": 0.0141,
+   "kurehalxxx": 0.0071,
+   "nyeppu": 0.0071,
+   "otonoha aika": 0.0123,
+   "sleepwalk zzz": 0.0123,
+   "zer0h": 0.0071
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "colorful": 0.032,
+   "greyscale": 0.025,
+   "monochrome": 0.041
+  },
+  "posts": 567,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "chromatic aberration": 0.122,
+   "distortion": 0.19,
+   "film grain": 0.058,
+   "glitch": 0.79
+  }
+ },
+ "grind fiction": {
+  "artists": {
+   "goli matsumoto": 0.2255,
+   "haoro": 0.0098,
+   "hungry clicker": 0.0196,
+   "kokokashira (koko ni iru)": 0.0196,
+   "larugo0513": 0.0196,
+   "menma (enaic31)": 0.0294,
+   "monster gogo": 0.0196,
+   "oogure ito": 0.0686
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "monochrome": 0.02
+  },
+  "posts": 102,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "gurokawa": {
+  "artists": {
+   "ayagi daifuku": 0.0112,
+   "ezaki bisuko": 0.0112,
+   "houndeater": 0.0112,
+   "hungry clicker": 0.0112,
+   "lam (ramdayo)": 0.0225,
+   "mumukyabi": 0.0112,
+   "ohisashiburi": 0.0112,
+   "tira 27": 0.0169
+  },
+  "kind": "aesthetic",
+  "mediums": {
+   "pixel art": 0.045
+  },
+  "palette": {
+   "colorful": 0.096,
+   "pastel palette": 0.118,
+   "pink theme": 0.045
+  },
+  "posts": 178,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "heisei retro": {
+  "artists": {
+   "cloud (lufaeris)": 0.0103,
+   "doubutsunoujyou": 0.0144,
+   "hosizora mikoto": 0.0082,
+   "nanoningen (anapoko)": 0.0226,
+   "neogeopet": 0.0096,
+   "onlinepetclub": 0.0089,
+   "selenium": 0.0103,
+   "summernight 12": 0.0547
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "colorful": 0.062,
+   "pastel palette": 0.078
+  },
+  "posts": 1462,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "impressionism": {
+  "artists": {
+   "amibazh": 0.0082,
+   "echoo": 0.051,
+   "fjsmu": 0.2122,
+   "kibadori rue": 0.0102,
+   "kornod": 0.1082,
+   "nyte tyde": 0.0245,
+   "omaega chan": 0.0122,
+   "xilmo": 0.0571
+  },
+  "kind": "art",
+  "mediums": {
+   "faux traditional media": 0.106,
+   "sketch": 0.027
+  },
+  "palette": {
+   "colorful": 0.027,
+   "muted colors": 0.024
+  },
+  "posts": 490,
+  "pulls": {
+   "field": 27.7,
+   "forest": 21.6,
+   "house": 25.5,
+   "landscape": 38.7,
+   "river": 34.0,
+   "road": 28.7
+  },
+  "source": "wiki",
+  "techniques": {
+   "backlighting": 0.035
+  }
+ },
+ "ligne claire": {
+  "artists": {
+   "artdroiiid ii": 0.0531,
+   "cogecha": 0.0851,
+   "hato (n hat mu)": 0.054,
+   "milon cas": 0.0531,
+   "natsugu72": 0.0558,
+   "seraphitalg": 0.0274,
+   "shokikanes": 0.0512,
+   "zhizhizi": 0.0329
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "blue theme": 0.049,
+   "flat color": 0.148,
+   "ligne claire": 1.0,
+   "limited palette": 0.038
+  },
+  "posts": 1093,
+  "pulls": {
+   "city": 12.3,
+   "cityscape": 16.6,
+   "moon": 4.1,
+   "ocean": 5.4,
+   "road": 16.1,
+   "water": 3.8
+  },
+  "source": "wiki",
+  "techniques": {
+   "film grain": 0.051
+  }
+ },
+ "low poly": {
+  "artists": {
+   "atelier (arainydancer)": 0.0608,
+   "beefu! (spicybeefu)": 0.0195,
+   "colinarmis": 0.0089,
+   "ikitakawa": 0.0187,
+   "itsumo nokoru": 0.0178,
+   "kio (majin kz)": 0.0162,
+   "rakugaki shitagari-ya": 0.0097,
+   "usagimarumei": 0.0738
+  },
+  "kind": "art",
+  "mediums": {
+   "3d": 0.524,
+   "pixel art": 0.03
+  },
+  "palette": {},
+  "posts": 1233,
+  "pulls": {
+   "spacecraft interior": 669.3
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "nihonga": {
+  "artists": {
+   "cloritin": 0.0774,
+   "hiko (lg612)": 0.0138,
+   "hotathino": 0.0138,
+   "ono tako": 0.0252,
+   "otamashimai": 0.0138,
+   "shimanoko": 0.0562,
+   "shiro (reptil)": 0.0309,
+   "tanamachi yoshihiro": 0.0432
+  },
+  "kind": "art",
+  "mediums": {
+   "faux traditional media": 0.06
+  },
+  "palette": {
+   "monochrome": 0.025
+  },
+  "posts": 1665,
+  "pulls": {
+   "architecture": 12.8,
+   "bridge": 23.4,
+   "moon": 8.5,
+   "mountain": 28.1,
+   "nature": 5.0,
+   "railroad tracks": 85.2
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "pinup (style)": {
+  "artists": {
+   "acecore2k": 0.0396,
+   "arteslav": 0.0205,
+   "ayya sap": 0.0269,
+   "blackcapbandit": 0.0205,
+   "dandon fuga": 0.0179,
+   "fugtrup": 0.0243,
+   "lolliedrop": 0.0141,
+   "monori rogue": 0.0166
+  },
+  "kind": "render",
+  "mediums": {
+   "3d": 0.05
+  },
+  "palette": {},
+  "posts": 2247,
+  "pulls": {
+   "beach": 3.5
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "retrofuturism": {
+  "artists": {
+   "cheri zao": 0.0227,
+   "goli matsumoto": 0.0058,
+   "haruyama kazunori": 0.0095,
+   "murata range": 0.0124,
+   "negiwave2000": 0.0124,
+   "nyamofe": 0.0132,
+   "nyong nyong": 0.0066,
+   "totesfleisch8": 0.0074
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {},
+  "posts": 2418,
+  "pulls": {
+   "space": 14.3
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "rubber hose (style)": {
+  "artists": {
+   "magister": 0.0278,
+   "metalytar": 0.0278,
+   "morisshii (morishiey)": 0.0278,
+   "murasaki saki": 0.0278,
+   "uleez": 0.0278,
+   "vamos mk": 0.0278,
+   "yatsunote": 0.1111
+  },
+  "kind": "art",
+  "mediums": {
+   "sketch": 0.056
+  },
+  "palette": {
+   "greyscale": 0.306,
+   "monochrome": 0.417
+  },
+  "posts": 36,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "chromatic aberration": 0.083,
+   "film grain": 0.056
+  }
+ },
+ "shoe diva": {
+  "artists": {
+   "chocofish": 0.0638,
+   "gyosone": 0.0213,
+   "gyoubu ippei": 0.0851,
+   "matilda fiship": 0.0213,
+   "noeru (noellemonade)": 0.0213,
+   "putong xiao gou": 0.0213,
+   "rikuwo": 0.1489,
+   "yumenouchi chiharu": 0.0213
+  },
+  "kind": "aesthetic",
+  "mediums": {
+   "sketch": 0.064
+  },
+  "palette": {},
+  "posts": 47,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {
+   "halftone": 0.085
+  }
+ },
+ "silkpunk": {
+  "artists": {
+   "eliskalti": 0.08,
+   "garutaisa": 0.04,
+   "meirong": 0.08,
+   "neg (101neg)": 0.04,
+   "rain sama": 0.04,
+   "rekaerb maerd": 0.04,
+   "spade-m": 0.04,
+   "wagashi928": 0.04
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {},
+  "posts": 25,
+  "pulls": {
+   "architecture": 314.0
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "solarpunk": {
+  "artists": {
+   "bigrbear": 0.0108,
+   "fuzichoco": 0.0324,
+   "gaimoon": 0.0162,
+   "jun (navigavi)": 0.0162,
+   "katou itsuwa": 0.0108,
+   "ling dianxia": 0.0162,
+   "pinakes": 0.0108,
+   "suzuke": 0.0162
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "cool colors": 0.043
+  },
+  "posts": 185,
+  "pulls": {
+   "greenhouse": 1927.6,
+   "lake": 63.3,
+   "landscape": 64.1,
+   "railroad tracks": 164.1,
+   "tower": 103.4,
+   "waterfall": 84.6
+  },
+  "source": "wiki",
+  "techniques": {
+   "depth of field": 0.032
+  }
+ },
+ "steampunk": {
+  "artists": {
+   "aoi kujira": 0.0077,
+   "kcn": 0.0096,
+   "keiko (mitakarawa)": 0.0153,
+   "kuroimori": 0.0053,
+   "murata range": 0.0148,
+   "ryosios": 0.011,
+   "shikano keru": 0.0459
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "greyscale": 0.031,
+   "monochrome": 0.044
+  },
+  "posts": 2090,
+  "pulls": {
+   "city": 15.5,
+   "cityscape": 14.9,
+   "tower": 45.8
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "sumi-e": {
+  "artists": {
+   "17 asobo": 0.0536,
+   "chengongzi123": 0.0115,
+   "deadpool yuchan": 0.3027,
+   "hotathino": 0.0115,
+   "matsuena shun": 0.0115,
+   "pe51illust": 0.0115,
+   "umarutsufuri": 0.0153,
+   "yuzuha (yuzutime)": 0.2414
+  },
+  "kind": "art",
+  "mediums": {
+   "faux traditional media": 0.065,
+   "sketch": 0.031
+  },
+  "palette": {
+   "greyscale": 0.295,
+   "monochrome": 0.349,
+   "partially colored": 0.261,
+   "spot color": 0.038
+  },
+  "posts": 387,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "superflat": {
+  "artists": {
+   "hito (nito563)": 0.0716,
+   "kamin": 0.0473,
+   "kapura": 0.0316,
+   "kinutaku": 0.0206,
+   "project.c.k.": 0.1784,
+   "si-ku": 0.0607,
+   "sizucomaru": 0.0595,
+   "tsukamoto anabone": 0.0376
+  },
+  "kind": "aesthetic",
+  "mediums": {
+   "pixel art": 0.021
+  },
+  "palette": {
+   "colorful": 0.155,
+   "monochrome": 0.017
+  },
+  "posts": 824,
+  "pulls": {
+   "moon": 3.4
+  },
+  "source": "wiki",
+  "techniques": {
+   "distortion": 0.022
+  }
+ },
+ "surreal": {
+  "artists": {
+   "avogado6": 0.0242,
+   "guru": 0.0066,
+   "ichigoame": 0.0056,
+   "jessica hayworth": 0.0146,
+   "mihifu": 0.0072,
+   "tainosuke": 0.0052,
+   "tensen (dotted line)": 0.0058,
+   "usagimarumei": 0.0052
+  },
+  "kind": "art",
+  "mediums": {},
+  "palette": {
+   "blue theme": 0.039,
+   "colorful": 0.039,
+   "dark": 0.023,
+   "greyscale": 0.046,
+   "limited palette": 0.032,
+   "monochrome": 0.068
+  },
+  "posts": 6587,
+  "pulls": {
+   "city": 10.2,
+   "cityscape": 10.4,
+   "moon": 7.2,
+   "planet": 21.8,
+   "space": 11.4,
+   "underwater": 12.9
+  },
+  "source": "wiki",
+  "techniques": {
+   "silhouette": 0.021
+  }
+ },
+ "synthwave": {
+  "artists": {
+   "coffeekite": 0.0149,
+   "hrna": 0.0448,
+   "kevio nivek": 0.0299,
+   "madcore": 0.0149,
+   "merunyaa": 0.0149,
+   "monori rogue": 0.0149,
+   "ohisashiburi": 0.0299,
+   "ringeko-chan": 0.0149
+  },
+  "kind": "aesthetic",
+  "mediums": {
+   "pixel art": 0.09
+  },
+  "palette": {
+   "monochrome": 0.03,
+   "neon lighting": 0.149
+  },
+  "posts": 67,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "tenshi kaiwai": {
+  "artists": {
+   "am314": 0.0095,
+   "azumi kazuki": 0.0089,
+   "chon (chon33v)": 0.0124,
+   "chunjixiaolu": 0.0083,
+   "daizu (melon-lemon)": 0.0414,
+   "omochi noa": 0.0136,
+   "sskitaco": 0.0455,
+   "yosh1to": 0.013
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "blue theme": 0.121,
+   "pastel palette": 0.035
+  },
+  "posts": 1692,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "toon (style)": {
+  "artists": {
+   "agus999": 0.0148,
+   "barleyshake": 0.0136,
+   "bigdead": 0.068,
+   "discount-supervillain": 0.0396,
+   "fis (t83192933)": 0.0354,
+   "gyoubu ippei": 0.0094,
+   "joseartcentenoofficial": 0.0154,
+   "markydaysaid": 0.016
+  },
+  "kind": "render",
+  "mediums": {},
+  "palette": {
+   "greyscale": 0.029,
+   "monochrome": 0.041
+  },
+  "posts": 5880,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "ukiyo-e": {
+  "artists": {
+   "cloritin": 0.1328,
+   "hotathino": 0.0088,
+   "ogata kouji": 0.0073,
+   "ono tako": 0.0321,
+   "rella": 0.0088,
+   "shadeofshinon": 0.0058,
+   "takumi (marlboro)": 0.0204,
+   "yonaga nagaduki": 0.0131
+  },
+  "kind": "art",
+  "mediums": {
+   "faux traditional media": 0.048
+  },
+  "palette": {},
+  "posts": 951,
+  "pulls": {
+   "architecture": 17.2,
+   "bridge": 24.9,
+   "moon": 9.6,
+   "mountain": 35.1,
+   "nature": 5.3,
+   "ocean": 7.1
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "vaporwave": {
+  "artists": {
+   "brws": 0.0414,
+   "chibikki": 0.0385,
+   "iahfy": 0.0118,
+   "lokulo no mawashimono": 0.0237,
+   "maegjuw": 0.0148,
+   "pixie (milkywaypixies)": 0.0118,
+   "sleepymoon": 0.0148,
+   "system st91": 0.0207
+  },
+  "kind": "aesthetic",
+  "mediums": {
+   "pixel art": 0.098
+  },
+  "palette": {
+   "neon lighting": 0.148,
+   "pink theme": 0.044
+  },
+  "posts": 338,
+  "pulls": {
+   "cityscape": 29.8,
+   "ocean": 4.0,
+   "pool": 27.1,
+   "water": 3.1
+  },
+  "source": "wiki",
+  "techniques": {
+   "chromatic aberration": 0.092,
+   "glitch": 0.074
+  }
+ },
+ "weirdcore": {
+  "artists": {
+   "heripantomorrow": 0.0192,
+   "iewa": 0.0432,
+   "kinutaku": 0.012,
+   "kurehalxxx": 0.012,
+   "nill (nill)": 0.0168,
+   "nonsensemanna": 0.0168,
+   "signal 1120": 0.0264,
+   "sleepwalk zzz": 0.1247
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {},
+  "posts": 417,
+  "pulls": {
+   "hallway": 77.6,
+   "house": 26.4,
+   "playground": 546.5,
+   "pool": 18.7
+  },
+  "source": "wiki",
+  "techniques": {
+   "chromatic aberration": 0.036,
+   "distortion": 0.093,
+   "film grain": 0.055,
+   "glitch": 0.212
+  }
+ },
+ "western comics (style)": {
+  "artists": {
+   "alex ross": 0.0539,
+   "dan mora": 0.017,
+   "ivan talavera": 0.0239,
+   "matt wilson": 0.0196,
+   "russell dauterman": 0.0357,
+   "ryan ottley": 0.0113,
+   "sydney lee 00": 0.013,
+   "vinartwork": 0.027
+  },
+  "kind": "render",
+  "mediums": {},
+  "palette": {
+   "greyscale": 0.056,
+   "monochrome": 0.071,
+   "saturated": 0.024
+  },
+  "posts": 2298,
+  "pulls": {
+   "city": 15.9,
+   "cityscape": 14.0,
+   "space": 11.0
+  },
+  "source": "wiki",
+  "techniques": {}
+ },
+ "whimsy twee": {
+  "artists": {
+   "kamiya maneki": 0.0111,
+   "kigidere": 0.0222,
+   "meecosme": 0.0111,
+   "rinotuna": 0.0111,
+   "summernight 12": 0.0222,
+   "tyone": 0.0111,
+   "yikemaohetao": 0.0222,
+   "yoshimon": 0.0333
+  },
+  "kind": "aesthetic",
+  "mediums": {
+   "faux traditional media": 0.167
+  },
+  "palette": {
+   "pastel palette": 0.056
+  },
+  "posts": 90,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "yami kawaii": {
+  "artists": {
+   "chibana sora": 0.028,
+   "eita 789": 0.0334,
+   "ezaki bisuko": 0.0225,
+   "kaminoq": 0.0241,
+   "kuroume (aihikarikuroume24)": 0.0179,
+   "mazamuno": 0.0249,
+   "ohisashiburi": 0.0218,
+   "ompf": 0.0194
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "pastel palette": 0.06,
+   "pink theme": 0.083
+  },
+  "posts": 1286,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ },
+ "yume kawaii": {
+  "artists": {
+   "azumi kazuki": 0.0334,
+   "fruitsrabbit": 0.0192,
+   "himetsuki luna": 0.0138,
+   "neki (wakiko)": 0.017,
+   "nekomaru0817": 0.0346,
+   "serizawa serizane": 0.031,
+   "upache": 0.02,
+   "usashiro mani": 0.0616
+  },
+  "kind": "aesthetic",
+  "mediums": {},
+  "palette": {
+   "pastel palette": 0.238,
+   "pink theme": 0.059
+  },
+  "posts": 8196,
+  "pulls": {},
+  "source": "wiki",
+  "techniques": {}
+ }
+}

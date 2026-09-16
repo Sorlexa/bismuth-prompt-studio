@@ -1,0 +1,4631 @@
+{
+ "_note": "BODY / APPEARANCE table (the author's 2026-09-04): race parts fixed; build one-of by gender with occupation/race/activity leans; breasts the engine's roll with race leans; skin natural or race-pinned; marks with occupation leans; states only with a cause; NO AGE rolled; hair/eyes race leans. Written by tools/build/write_body.py -- edit the script.",
+ "race_parts": {
+  "elf": {
+   "parts": [
+    "pointy ears"
+   ]
+  },
+  "dark elf": {
+   "parts": [
+    "pointy ears"
+   ],
+   "skin": "dark skin"
+  },
+  "kitsune": {
+   "parts": [
+    "fox ears",
+    "fox tail"
+   ]
+  },
+  "nekomata": {
+   "parts": [
+    "cat ears",
+    "multiple tails"
+   ]
+  },
+  "tanuki": {
+   "parts": [
+    "animal ears",
+    "tail"
+   ]
+  },
+  "werewolf": {
+   "parts": [
+    "wolf ears",
+    "wolf tail",
+    "claws",
+    "fangs"
+   ]
+  },
+  "demon girl": {
+   "parts": [
+    "demon horns",
+    "demon tail"
+   ],
+   "maybe": [
+    "demon wings"
+   ]
+  },
+  "demon boy": {
+   "parts": [
+    "demon horns",
+    "demon tail"
+   ],
+   "maybe": [
+    "demon wings"
+   ]
+  },
+  "angel": {
+   "parts": [
+    "angel wings",
+    "halo"
+   ]
+  },
+  "fairy": {
+   "parts": [
+    "fairy wings"
+   ]
+  },
+  "harpy": {
+   "parts": [
+    "wings",
+    "claws"
+   ]
+  },
+  "lamia": {
+   "parts": [
+    "scales",
+    "snake tail"
+   ]
+  },
+  "mermaid": {
+   "parts": [
+    "fins",
+    "scales"
+   ]
+  },
+  "merman": {
+   "parts": [
+    "fins",
+    "scales"
+   ]
+  },
+  "oni": {
+   "parts": [
+    "oni horns",
+    "fangs"
+   ],
+   "skin_any": [
+    "red skin",
+    "blue skin"
+   ]
+  },
+  "vampire": {
+   "parts": [
+    "fangs"
+   ],
+   "skin": "pale skin"
+  },
+  "zombie": {
+   "skin_any": [
+    "pale skin",
+    "grey skin"
+   ]
+  },
+  "jiangshi": {
+   "skin": "pale skin"
+  },
+  "ghost": {
+   "skin": "pale skin"
+  },
+  "yuki onna": {
+   "skin": "pale skin"
+  },
+  "goblin": {
+   "parts": [
+    "pointy ears"
+   ],
+   "skin": "green skin"
+  },
+  "orc": {
+   "parts": [
+    "fangs"
+   ],
+   "skin": "green skin"
+  },
+  "kappa": {
+   "skin": "green skin"
+  },
+  "slime girl": {
+   "skin_any": [
+    "colored skin",
+    "blue skin",
+    "aqua skin"
+   ]
+  },
+  "slime boy": {
+   "skin_any": [
+    "colored skin",
+    "blue skin",
+    "aqua skin"
+   ]
+  },
+  "android": {
+   "parts_any": [
+    "robot joints",
+    "doll joints"
+   ]
+  },
+  "robot": {
+   "parts": [
+    "robot joints"
+   ]
+  },
+  "cyborg": {
+   "parts_any": [
+    "mechanical arms",
+    "mechanical legs"
+   ]
+  },
+  "alien": {
+   "skin_any": [
+    "colored skin",
+    "green skin",
+    "blue skin",
+    "grey skin"
+   ]
+  },
+  "minotaur": {
+   "parts": [
+    "horns",
+    "tail"
+   ]
+  },
+  "dullahan": {},
+  "lich": {
+   "skin": "pale skin"
+  },
+  "cyclops": {
+   "parts": [
+    "one-eyed"
+   ]
+  },
+  "genie": {
+   "skin_any": [
+    "blue skin",
+    "colored skin"
+   ]
+  },
+  "dwarf": {
+   "parts_male": [
+    "beard"
+   ]
+  },
+  "halfling": {},
+  "gnome": {},
+  "centaur": {},
+  "ogre": {
+   "parts": [
+    "fangs"
+   ]
+  },
+  "tengu": {
+   "parts": [
+    "wings"
+   ]
+  },
+  "shinigami": {},
+  "mummy": {
+   "parts": [
+    "bandages"
+   ]
+  },
+  "skeleton": {},
+  "succubus": {
+   "parts": [
+    "demon horns",
+    "demon tail"
+   ],
+   "maybe": [
+    "demon wings"
+   ]
+  },
+  "incubus": {
+   "parts": [
+    "demon horns",
+    "demon tail"
+   ]
+  },
+  "cat girl": {
+   "parts": [
+    "cat ears",
+    "cat tail"
+   ]
+  },
+  "fox girl": {
+   "parts": [
+    "fox ears",
+    "fox tail"
+   ]
+  },
+  "wolf girl": {
+   "parts": [
+    "wolf ears",
+    "wolf tail"
+   ]
+  },
+  "dog girl": {
+   "parts": [
+    "dog ears",
+    "dog tail"
+   ]
+  },
+  "rabbit girl": {
+   "parts": [
+    "rabbit ears"
+   ]
+  },
+  "cow girl": {
+   "parts": [
+    "cow ears",
+    "cow tail",
+    "horns"
+   ]
+  },
+  "horse girl": {
+   "parts": [
+    "horse ears",
+    "horse tail"
+   ]
+  },
+  "sheep girl": {
+   "parts": [
+    "sheep ears",
+    "sheep horns"
+   ]
+  },
+  "mouse girl": {
+   "parts": [
+    "mouse ears",
+    "mouse tail"
+   ]
+  },
+  "bear girl": {
+   "parts": [
+    "bear ears"
+   ]
+  },
+  "dragon girl": {
+   "parts": [
+    "dragon horns",
+    "dragon tail"
+   ],
+   "maybe": [
+    "dragon wings",
+    "scales"
+   ]
+  },
+  "cat boy": {
+   "parts": [
+    "cat ears",
+    "cat tail"
+   ]
+  },
+  "fox boy": {
+   "parts": [
+    "fox ears",
+    "fox tail"
+   ]
+  },
+  "wolf boy": {
+   "parts": [
+    "wolf ears",
+    "wolf tail"
+   ]
+  },
+  "dog boy": {
+   "parts": [
+    "dog ears",
+    "dog tail"
+   ]
+  },
+  "dragon boy": {
+   "parts": [
+    "dragon horns",
+    "dragon tail"
+   ]
+  }
+ },
+ "build": {
+  "share": {
+   "female": 0.05,
+   "male": 0.013
+  },
+  "female": [
+   "petite",
+   "curvy",
+   "toned",
+   "tall female",
+   "wide hips",
+   "thick thighs",
+   "narrow waist",
+   "long legs",
+   "muscular female"
+  ],
+  "male": [
+   "muscular male",
+   "abs",
+   "pectorals",
+   "bara",
+   "toned"
+  ],
+  "lean": {
+   "occupation": {
+    "warrior": {
+     "muscular female": 3,
+     "muscular male": 3,
+     "toned": 2,
+     "abs": 2
+    },
+    "knight": {
+     "muscular female": 2,
+     "muscular male": 3,
+     "toned": 2
+    },
+    "soldier": {
+     "toned": 3,
+     "abs": 2,
+     "muscular male": 2
+    },
+    "boxer": {
+     "muscular female": 3,
+     "muscular male": 3,
+     "abs": 3,
+     "toned": 2
+    },
+    "gladiator": {
+     "muscular female": 3,
+     "muscular male": 3,
+     "abs": 2
+    },
+    "firefighter": {
+     "muscular male": 2,
+     "toned": 2
+    },
+    "lifeguard": {
+     "toned": 3,
+     "abs": 2
+    },
+    "gym teacher": {
+     "toned": 3,
+     "muscular female": 2,
+     "muscular male": 2
+    },
+    "luchador": {
+     "muscular male": 3,
+     "bara": 2
+    },
+    "sumo": {},
+    "blacksmith": {
+     "muscular male": 3,
+     "thick arms": 2,
+     "muscular female": 2
+    },
+    "lumberjack": {
+     "muscular male": 3,
+     "bara": 2
+    },
+    "pirate": {
+     "toned": 2
+    },
+    "dancer": {
+     "long legs": 2,
+     "narrow waist": 2,
+     "toned": 2
+    },
+    "model": {
+     "long legs": 3,
+     "tall female": 2,
+     "narrow waist": 2
+    },
+    "idol": {
+     "petite": 2,
+     "narrow waist": 2
+    },
+    "ballerina": {
+     "long legs": 2
+    },
+    "office lady": {
+     "none": 2
+    },
+    "librarian": {
+     "none": 3
+    },
+    "teacher": {
+     "none": 2
+    },
+    "nurse": {
+     "none": 2
+    },
+    "scientist": {
+     "none": 2
+    },
+    "priest": {
+     "none": 2
+    },
+    "nun": {
+     "none": 2
+    },
+    "chef": {},
+    "baker": {}
+   },
+   "race": {
+    "orc": {
+     "muscular female": 4,
+     "muscular male": 4
+    },
+    "ogre": {
+     "muscular male": 3
+    },
+    "minotaur": {
+     "muscular male": 4,
+     "muscular female": 3
+    },
+    "elf": {
+     "narrow waist": 3,
+     "long legs": 3
+    },
+    "dark elf": {
+     "narrow waist": 3,
+     "long legs": 3
+    },
+    "dwarf": {
+     "muscular male": 2,
+     "bara": 2
+    },
+    "halfling": {
+     "petite": 4
+    },
+    "gnome": {
+     "petite": 4
+    },
+    "fairy": {
+     "petite": 4
+    },
+    "goblin": {
+     "petite": 3
+    },
+    "harpy": {},
+    "werewolf": {
+     "muscular male": 2,
+     "toned": 2
+    },
+    "succubus": {
+     "curvy": 3,
+     "wide hips": 2
+    },
+    "demon girl": {
+     "curvy": 3,
+     "wide hips": 2
+    }
+   },
+   "activity_clothes": {
+    "sportswear": {
+     "toned": 3,
+     "abs": 2
+    },
+    "leotard": {
+     "toned": 2
+    },
+    "swimsuit": {
+     "toned": 2
+    }
+   }
+  },
+  "share_stated": 0.5,
+  "weights": {
+   "petite": 0.00315,
+   "curvy": 0.0114,
+   "toned": 0.00391,
+   "tall female": 0.00041,
+   "wide hips": 0.00611,
+   "thick thighs": 0.017,
+   "narrow waist": 0.00167,
+   "long legs": 0.00256,
+   "muscular female": 0.00355,
+   "muscular male": 0.00205,
+   "abs": 0.00611,
+   "pectorals": 0.00099,
+   "bara": 0.00012
+  },
+  "share_src": "measured"
+ },
+ "breast_lean": {
+  "fairy": {
+   "flat chest": 3,
+   "small breasts": 3
+  },
+  "halfling": {
+   "small breasts": 2
+  },
+  "goblin": {
+   "small breasts": 2
+  },
+  "succubus": {
+   "large breasts": 3,
+   "huge breasts": 2
+  },
+  "demon girl": {
+   "large breasts": 3,
+   "huge breasts": 2
+  },
+  "orc": {
+   "large breasts": 2
+  },
+  "elf": {
+   "medium breasts": 2,
+   "small breasts": 2
+  }
+ },
+ "skin": {
+  "share": 0.25,
+  "natural": [
+   "pale skin",
+   "tan",
+   "dark skin",
+   "very dark skin",
+   "shiny skin"
+  ],
+  "lean": {
+   "summer_beach": {
+    "tan": 4,
+    "tanlines": 3
+   }
+  }
+ },
+ "marks": {
+  "share": 0.179,
+  "two_share": 0.25,
+  "items": [
+   "mole",
+   "mole under eye",
+   "mole under mouth",
+   "freckles",
+   "scar",
+   "scar on face",
+   "scar across eye",
+   "arm tattoo",
+   "back tattoo",
+   "chest tattoo",
+   "leg tattoo",
+   "ear piercing",
+   "navel piercing",
+   "nose piercing",
+   "bandaid",
+   "bandages",
+   "eyepatch",
+   "glasses",
+   "pubic tattoo"
+  ],
+  "lean": {
+   "occupation": {
+    "warrior": {
+     "scar": 4,
+     "scar on face": 3,
+     "scar across eye": 2
+    },
+    "knight": {
+     "scar": 3,
+     "scar on face": 2
+    },
+    "soldier": {
+     "scar": 3,
+     "bandages": 2
+    },
+    "pirate": {
+     "scar": 3,
+     "eyepatch": 3,
+     "arm tattoo": 2
+    },
+    "bandit": {
+     "scar": 3,
+     "scar on face": 2
+    },
+    "mercenary": {
+     "scar": 3
+    },
+    "boxer": {
+     "scar": 2,
+     "bandaid": 3,
+     "bandages": 2
+    },
+    "gangster": {
+     "arm tattoo": 3,
+     "chest tattoo": 2,
+     "back tattoo": 2
+    },
+    "yakuza": {
+     "back tattoo": 5,
+     "arm tattoo": 3,
+     "chest tattoo": 2
+    },
+    "sailor": {
+     "arm tattoo": 3
+    },
+    "prisoner": {
+     "arm tattoo": 2,
+     "scar": 2
+    },
+    "nurse": {
+     "glasses": 2
+    },
+    "librarian": {
+     "glasses": 4
+    },
+    "teacher": {
+     "glasses": 3
+    },
+    "scientist": {
+     "glasses": 4
+    },
+    "office lady": {
+     "glasses": 2
+    },
+    "mad scientist": {
+     "glasses": 3
+    },
+    "secretary": {
+     "glasses": 2
+    },
+    "idol": {
+     "mole under eye": 2
+    },
+    "model": {
+     "mole under mouth": 2
+    }
+   }
+  },
+  "weights": {
+   "mole": 0.0364,
+   "mole under eye": 0.024,
+   "mole under mouth": 0.0054,
+   "freckles": 0.0054,
+   "scar": 0.0054,
+   "scar on face": 0.0054,
+   "scar across eye": 0.0054,
+   "arm tattoo": 0.0054,
+   "back tattoo": 0.0054,
+   "chest tattoo": 0.0054,
+   "leg tattoo": 0.0054,
+   "ear piercing": 0.0054,
+   "navel piercing": 0.0054,
+   "nose piercing": 0.0054,
+   "bandaid": 0.0054,
+   "bandages": 0.0054,
+   "eyepatch": 0.0054,
+   "glasses": 0.0324,
+   "pubic tattoo": 0.0054
+  },
+  "share_src": "measured"
+ },
+ "states": {
+  "max": 2,
+  "items": {
+   "wet": {
+    "weather": [
+     "rain",
+     "storm"
+    ],
+    "place_class": [
+     "water",
+     "bath"
+    ],
+    "activity_state": [
+     "wet"
+    ]
+   },
+   "wet hair": {
+    "place_class": [
+     "water",
+     "bath"
+    ],
+    "activity_state": [
+     "wet"
+    ],
+    "weather": [
+     "rain"
+    ]
+   },
+   "wet clothes": {
+    "weather": [
+     "rain",
+     "storm"
+    ],
+    "place_class": [
+     "water"
+    ]
+   },
+   "steam": {
+    "place_class": [
+     "bath"
+    ],
+    "place": [
+     "onsen",
+     "sauna",
+     "bathtub"
+    ]
+   },
+   "steaming body": {
+    "place": [
+     "onsen",
+     "sauna"
+    ]
+   },
+   "sweat": {
+    "activity_state": [
+     "sweat"
+    ],
+    "place_class": [
+     "sport"
+    ],
+    "weather": [
+     "heat haze"
+    ],
+    "season_place": [
+     "summer:street",
+     "summer:green"
+    ],
+    "level": [
+     "explicit"
+    ]
+   },
+   "tan": {
+    "season_place": [
+     "summer:water"
+    ]
+   },
+   "tanlines": {
+    "season_place": [
+     "summer:water"
+    ]
+   },
+   "dirty": {
+    "place_class": [
+     "industry"
+    ],
+    "genre": [
+     "post-apocalypse"
+    ],
+    "activity": [
+     "fighting",
+     "wrestling"
+    ],
+    "place": [
+     "farm",
+     "barn",
+     "junkyard"
+    ]
+   },
+   "dirty face": {
+    "genre": [
+     "post-apocalypse"
+    ],
+    "place": [
+     "junkyard",
+     "mine",
+     "battlefield"
+    ]
+   },
+   "snow on body": {
+    "weather": [
+     "snow",
+     "blizzard"
+    ]
+   },
+   "drunk": {
+    "activity": [
+     "drinking"
+    ],
+    "place": [
+     "tavern",
+     "bar (place)",
+     "izakaya",
+     "nightclub"
+    ]
+   },
+   "sleepy": {
+    "activity": [
+     "sleeping"
+    ],
+    "place_class": [
+     "bed"
+    ]
+   },
+   "torn clothes": {
+    "activity": [
+     "fighting",
+     "battle",
+     "wrestling"
+    ],
+    "genre": [
+     "post-apocalypse",
+     "horror"
+    ]
+   },
+   "blood": {
+    "genre": [
+     "horror"
+    ],
+    "activity": [
+     "fighting",
+     "battle"
+    ]
+   },
+   "makeup": {
+    "occupation": [
+     "idol",
+     "hostess",
+     "office lady",
+     "model",
+     "stripper",
+     "geisha",
+     "actress",
+     "dancer"
+    ],
+    "event": [
+     "party",
+     "wedding",
+     "concert"
+    ]
+   },
+   "lipstick": {
+    "occupation": [
+     "idol",
+     "hostess",
+     "model",
+     "stripper",
+     "geisha",
+     "actress"
+    ],
+    "event": [
+     "party",
+     "wedding",
+     "concert"
+    ]
+   },
+   "nail polish": {
+    "occupation": [
+     "idol",
+     "hostess",
+     "model",
+     "stripper",
+     "office lady"
+    ],
+    "event": [
+     "party",
+     "wedding"
+    ]
+   },
+   "shiny skin": {
+    "activity_state": [
+     "wet",
+     "sweat"
+    ],
+    "place_class": [
+     "water",
+     "bath"
+    ]
+   }
+  }
+ },
+ "hair_eye_lean": {
+  "elf": {
+   "hair": {
+    "blonde hair": 3,
+    "silver hair": 2,
+    "white hair": 2
+   }
+  },
+  "dark elf": {
+   "hair": {
+    "white hair": 4,
+    "silver hair": 3
+   }
+  },
+  "kitsune": {
+   "hair": {
+    "blonde hair": 3,
+    "orange hair": 3
+   },
+   "eyes": {
+    "yellow eyes": 2
+   }
+  },
+  "vampire": {
+   "eyes": {
+    "red eyes": 5
+   },
+   "hair": {
+    "black hair": 2,
+    "white hair": 2
+   }
+  },
+  "demon girl": {
+   "eyes": {
+    "red eyes": 3,
+    "purple eyes": 2
+   },
+   "hair": {
+    "black hair": 2,
+    "purple hair": 2,
+    "red hair": 2
+   }
+  },
+  "yuki onna": {
+   "hair": {
+    "white hair": 5
+   },
+   "eyes": {
+    "blue eyes": 3
+   }
+  },
+  "ghost": {
+   "hair": {
+    "white hair": 3
+   }
+  },
+  "zombie": {
+   "hair": {
+    "grey hair": 2
+   }
+  },
+  "angel": {
+   "hair": {
+    "blonde hair": 3,
+    "white hair": 2
+   },
+   "eyes": {
+    "blue eyes": 2
+   }
+  },
+  "werewolf": {
+   "eyes": {
+    "yellow eyes": 3
+   }
+  },
+  "oni": {
+   "hair": {
+    "white hair": 2,
+    "black hair": 2
+   }
+  },
+  "goblin": {
+   "hair": {
+    "green hair": 2
+   }
+  },
+  "orc": {
+   "hair": {
+    "black hair": 2
+   }
+  },
+  "slime girl": {
+   "hair": {
+    "blue hair": 3,
+    "aqua hair": 3
+   },
+   "eyes": {
+    "blue eyes": 2
+   }
+  },
+  "android": {
+   "eyes": {
+    "red eyes": 2,
+    "blue eyes": 2
+   }
+  }
+ },
+ "families": {
+  "parts": {
+   "share": 0.5,
+   "items": {
+    "thick arms": {
+     "posts": 2178,
+     "share": 0.0002
+    },
+    "biceps": {
+     "posts": 17145,
+     "share": 0.00069
+    },
+    "feet": {
+     "posts": 274284,
+     "share": 0.0262
+    },
+    "doll joints": {
+     "posts": 14379,
+     "share": 0.00118
+    },
+    "knees": {
+     "posts": 15068,
+     "share": 0.00132
+    },
+    "kneepits": {
+     "posts": 29248,
+     "share": 0.00288
+    },
+    "legs": {
+     "posts": 183899,
+     "share": 0.0182
+    },
+    "digitigrade": {
+     "posts": 4086,
+     "share": 0.00027
+    },
+    "slim legs": {
+     "posts": 1276,
+     "share": 0.00012
+    },
+    "thighs": {
+     "posts": 837011,
+     "share": 0.0898
+    },
+    "groin tendon": {
+     "posts": 4037,
+     "share": 0.00042
+    },
+    "thick thighs": {
+     "posts": 161317,
+     "share": 0.017
+    },
+    "eyebrows": {
+     "posts": 38649,
+     "share": 0.00364
+    },
+    "eyelashes": {
+     "posts": 266697,
+     "share": 0.0254
+    },
+    "forehead": {
+     "posts": 63063,
+     "share": 0.00565
+    },
+    "forehead mark": {
+     "posts": 38947,
+     "share": 0.00278
+    },
+    "beard": {
+     "posts": 67777,
+     "share": 0.00143
+    },
+    "mustache": {
+     "posts": 40556,
+     "share": 0.00119
+    },
+    "nose": {
+     "posts": 34055,
+     "share": 0.00301
+    },
+    "lips": {
+     "posts": 179481,
+     "share": 0.015
+    },
+    "nape": {
+     "posts": 4502,
+     "share": 0.0004
+    },
+    "tongue": {
+     "posts": 558299,
+     "share": 0.046
+    },
+    "areolae": {
+     "posts": 17671,
+     "share": 0.0018
+    },
+    "large areolae": {
+     "posts": 48781,
+     "share": 0.00501
+    },
+    "armpits": {
+     "posts": 333217,
+     "share": 0.034
+    },
+    "median furrow": {
+     "posts": 15618,
+     "share": 0.00158
+    },
+    "breasts": {
+     "posts": 4984860,
+     "share": 0.5134
+    },
+    "collarbone": {
+     "posts": 1111171,
+     "share": 0.1088
+    },
+    "neck": {
+     "posts": 3267,
+     "share": 0.00026
+    },
+    "long neck": {
+     "posts": 1972,
+     "share": 0.00013
+    },
+    "nipples": {
+     "posts": 1142904,
+     "share": 0.118
+    },
+    "inverted nipples": {
+     "posts": 22451,
+     "share": 0.00222
+    },
+    "no nipples": {
+     "posts": 8447,
+     "share": 0.0006
+    },
+    "puffy nipples": {
+     "posts": 48754,
+     "share": 0.00497
+    },
+    "pectorals": {
+     "posts": 130369,
+     "share": 0.00099
+    },
+    "ribs": {
+     "posts": 16662,
+     "share": 0.00149
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.03
+  },
+  "parts_lower": {
+   "share": 0.5,
+   "items": {
+    "anus": {
+     "posts": 168986,
+     "share": 0.0164
+    },
+    "ass": {
+     "posts": 794588,
+     "share": 0.0758
+    },
+    "dimples of venus": {
+     "posts": 8598,
+     "share": 0.00079
+    },
+    "groin": {
+     "posts": 189298,
+     "share": 0.0174
+    },
+    "wide hips": {
+     "posts": 58686,
+     "share": 0.00611
+    },
+    "intestines": {
+     "posts": 2014,
+     "share": 0.00012
+    },
+    "linea alba": {
+     "posts": 13446,
+     "share": 0.00137
+    },
+    "narrow waist": {
+     "posts": 16282,
+     "share": 0.00167
+    },
+    "pubic hair": {
+     "posts": 189560,
+     "share": 0.0192
+    },
+    "pussy": {
+     "posts": 517775,
+     "share": 0.0568
+    },
+    "cleft of venus": {
+     "posts": 48669,
+     "share": 0.0049
+    },
+    "clitoris": {
+     "posts": 31514,
+     "share": 0.00319
+    },
+    "fat mons": {
+     "posts": 7742,
+     "share": 0.00083
+    },
+    "penis": {
+     "posts": 598118,
+     "share": 0.06
+    },
+    "animal penis": {
+     "posts": 9006,
+     "share": 0.00077
+    },
+    "dog penis": {
+     "posts": 1873,
+     "share": 0.00018
+    },
+    "horse penis": {
+     "posts": 4506,
+     "share": 0.0004
+    },
+    "knotted penis": {
+     "posts": 2445,
+     "share": 0.00022
+    },
+    "bulge": {
+     "posts": 47496,
+     "share": 0.00142
+    },
+    "covered penis": {
+     "posts": 2957,
+     "share": 0.00011
+    },
+    "erection under clothes": {
+     "posts": 15444,
+     "share": 0.00088
+    },
+    "erection": {
+     "posts": 152214,
+     "share": 0.011
+    },
+    "foreskin": {
+     "posts": 13671,
+     "share": 0.0008
+    },
+    "phimosis": {
+     "posts": 4375,
+     "share": 0.00028
+    },
+    "flaccid": {
+     "posts": 7895,
+     "share": 0.00037
+    },
+    "gigantic penis": {
+     "posts": 2151,
+     "share": 0.00017
+    },
+    "huge penis": {
+     "posts": 17080,
+     "share": 0.00133
+    },
+    "large penis": {
+     "posts": 46531,
+     "share": 0.00389
+    },
+    "small penis": {
+     "posts": 7021,
+     "share": 0.00032
+    },
+    "veiny penis": {
+     "posts": 41650,
+     "share": 0.0036
+    },
+    "perineum": {
+     "posts": 10969,
+     "share": 0.00068
+    },
+    "stomach": {
+     "posts": 420182,
+     "share": 0.0376
+    },
+    "abs": {
+     "posts": 135414,
+     "share": 0.00611
+    },
+    "belly": {
+     "posts": 23518,
+     "share": 0.00187
+    },
+    "navel": {
+     "posts": 1609424,
+     "share": 0.1602
+    },
+    "obliques": {
+     "posts": 4351,
+     "share": 0.00036
+    },
+    "testicles": {
+     "posts": 141191,
+     "share": 0.011
+    },
+    "covered testicles": {
+     "posts": 2073,
+     "share": 6e-05
+    },
+    "no testicles": {
+     "posts": 3146,
+     "share": 0.00017
+    },
+    "uterus": {
+     "posts": 11904,
+     "share": 0.00127
+    },
+    "cervix": {
+     "posts": 4689,
+     "share": 0.00048
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "attire": {
+   "share": 0.259,
+   "items": {
+    "bandeau": {
+     "posts": 28711,
+     "share": 0.00273
+    },
+    "bikini": {
+     "posts": 703435,
+     "share": 0.0694
+    },
+    "bikini bottom only": {
+     "posts": 11872,
+     "share": 0.00121
+    },
+    "cupless bikini": {
+     "posts": 1136,
+     "share": 0.00011
+    },
+    "bra": {
+     "posts": 277829,
+     "share": 0.026
+    },
+    "cupless bra": {
+     "posts": 3694,
+     "share": 0.00034
+    },
+    "no bra": {
+     "posts": 124653,
+     "share": 0.015
+    },
+    "belt bra": {
+     "posts": 2783,
+     "share": 0.00027
+    },
+    "single breast curtain": {
+     "posts": 3136,
+     "share": 0.00032
+    },
+    "bustier": {
+     "posts": 7332,
+     "share": 0.00072
+    },
+    "center opening": {
+     "posts": 27727,
+     "share": 0.00281
+    },
+    "cleavage cutout": {
+     "posts": 122575,
+     "share": 0.01179
+    },
+    "corset": {
+     "posts": 67279,
+     "share": 0.006
+    },
+    "framed breasts": {
+     "posts": 7372,
+     "share": 0.00072
+    },
+    "nipple cutout": {
+     "posts": 1666,
+     "share": 0.00016
+    },
+    "plunging neckline": {
+     "posts": 7948,
+     "share": 0.00077
+    },
+    "rei no himo": {
+     "posts": 3789,
+     "share": 0.00042
+    },
+    "sarashi": {
+     "posts": 34426,
+     "share": 0.00282
+    },
+    "taut shirt": {
+     "posts": 8675,
+     "share": 0.00085
+    },
+    "underbust": {
+     "posts": 27149,
+     "share": 0.00266
+    },
+    "makeup": {
+     "posts": 189699,
+     "share": 0.0146
+    },
+    "covering own eyes": {
+     "posts": 5360,
+     "share": 0.00036
+    },
+    "hair over eyes": {
+     "posts": 31689,
+     "share": 0.0022
+    },
+    "hair over one eye": {
+     "posts": 372383,
+     "share": 0.0302
+    },
+    "bandage over one eye": {
+     "posts": 8937,
+     "share": 0.00056
+    },
+    "blindfold": {
+     "posts": 30371,
+     "share": 0.00238
+    },
+    "hat over eyes": {
+     "posts": 1271,
+     "share": 6e-05
+    },
+    "eyepatch": {
+     "posts": 104508,
+     "share": 0.00685
+    },
+    "colored eyelashes": {
+     "posts": 58656,
+     "share": 0.0048
+    },
+    "eyes visible through hair": {
+     "posts": 104782,
+     "share": 0.00966
+    },
+    "glasses": {
+     "posts": 505085,
+     "share": 0.0324
+    },
+    "eyeliner": {
+     "posts": 45913,
+     "share": 0.00337
+    },
+    "eyeshadow": {
+     "posts": 73678,
+     "share": 0.00581
+    },
+    "mascara": {
+     "posts": 5732,
+     "share": 0.00056
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "spice": {
+   "share": 0.5,
+   "items": {
+    "breastless clothes": {
+     "posts": 4850,
+     "share": 0.00046
+    },
+    "areola slip": {
+     "posts": 76079,
+     "share": 0.00806
+    },
+    "dark areolae": {
+     "posts": 1027,
+     "share": 0.0001
+    },
+    "light areolae": {
+     "posts": 2002,
+     "share": 0.00019
+    },
+    "speckled areolae": {
+     "posts": 1899,
+     "share": 0.0002
+    },
+    "backboob": {
+     "posts": 11414,
+     "share": 0.00119
+    },
+    "bursting breasts": {
+     "posts": 8473,
+     "share": 0.00087
+    },
+    "cleavage": {
+     "posts": 1423971,
+     "share": 0.1426
+    },
+    "dark nipples": {
+     "posts": 9967,
+     "share": 0.00092
+    },
+    "huge nipples": {
+     "posts": 8342,
+     "share": 0.00085
+    },
+    "nipple indents": {
+     "posts": 2656,
+     "share": 0.00027
+    },
+    "nipple slip": {
+     "posts": 22336,
+     "share": 0.00222
+    },
+    "colored nipples": {
+     "posts": 2876,
+     "share": 0.00026
+    },
+    "sideboob": {
+     "posts": 158211,
+     "share": 0.014
+    },
+    "underboob": {
+     "posts": 128369,
+     "share": 0.0172
+    },
+    "breast slip": {
+     "posts": 3900,
+     "share": 0.00041
+    },
+    "breasts out": {
+     "posts": 88645,
+     "share": 0.00929
+    },
+    "impossible shirt": {
+     "posts": 6936,
+     "share": 0.0007
+    },
+    "one breast out": {
+     "posts": 19211,
+     "share": 0.00204
+    },
+    "anal hair": {
+     "posts": 2561,
+     "share": 0.00023
+    },
+    "puckered anus": {
+     "posts": 3603,
+     "share": 0.00038
+    },
+    "spread anus": {
+     "posts": 8506,
+     "share": 0.00079
+    },
+    "anal": {
+     "posts": 74877,
+     "share": 0.00557
+    },
+    "ass cutout": {
+     "posts": 2531,
+     "share": 0.00023
+    },
+    "ass focus": {
+     "posts": 46324,
+     "share": 0.00469
+    },
+    "ass ripple": {
+     "posts": 4900,
+     "share": 0.00047
+    },
+    "ass shake": {
+     "posts": 2403,
+     "share": 0.00023
+    },
+    "ass visible through thighs": {
+     "posts": 118343,
+     "share": 0.015
+    },
+    "bouncing ass": {
+     "posts": 3036,
+     "share": 0.00029
+    },
+    "erect clitoris": {
+     "posts": 1944,
+     "share": 0.0002
+    },
+    "dark labia": {
+     "posts": 1346,
+     "share": 0.00013
+    },
+    "long labia": {
+     "posts": 2389,
+     "share": 0.00024
+    },
+    "covering crotch": {
+     "posts": 16009,
+     "share": 0.00155
+    },
+    "spread pussy": {
+     "posts": 41327,
+     "share": 0.00432
+    },
+    "spreading own pussy": {
+     "posts": 21682,
+     "share": 0.00243
+    },
+    "spreading another's pussy": {
+     "posts": 4768,
+     "share": 0.00043
+    },
+    "clitoral piercing": {
+     "posts": 2351,
+     "share": 0.00024
+    },
+    "cum in pussy": {
+     "posts": 144788,
+     "share": 0.0168
+    },
+    "cum on pussy": {
+     "posts": 1737,
+     "share": 0.00018
+    },
+    "pussy juice": {
+     "posts": 154368,
+     "share": 0.0192
+    },
+    "pussy juice puddle": {
+     "posts": 3384,
+     "share": 0.00033
+    },
+    "pussy juice trail": {
+     "posts": 7211,
+     "share": 0.00066
+    },
+    "bandaid on pussy": {
+     "posts": 4470,
+     "share": 0.00048
+    },
+    "maebari": {
+     "posts": 11871,
+     "share": 0.00123
+    },
+    "panties": {
+     "posts": 821865,
+     "share": 0.0884
+    },
+    "strapless bottom": {
+     "posts": 1131,
+     "share": 0.00012
+    },
+    "swimsuit": {
+     "posts": 922468,
+     "share": 0.0954
+    },
+    "cameltoe": {
+     "posts": 126956,
+     "share": 0.0144
+    },
+    "spread pussy under clothes": {
+     "posts": 3003,
+     "share": 0.00032
+    },
+    "sex": {
+     "posts": 395775,
+     "share": 0.0496
+    },
+    "onahole": {
+     "posts": 3950,
+     "share": 0.00033
+    },
+    "vaginal": {
+     "posts": 289510,
+     "share": 0.0364
+    },
+    "partially visible vulva": {
+     "posts": 27674,
+     "share": 0.00297
+    },
+    "pussy peek": {
+     "posts": 8851,
+     "share": 0.00094
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "breast_desc": {
+   "share": 0.033,
+   "items": {
+    "breasts apart": {
+     "posts": 62434,
+     "share": 0.0066
+    },
+    "hanging breasts": {
+     "posts": 28196,
+     "share": 0.00291
+    },
+    "perky breasts": {
+     "posts": 5453,
+     "share": 0.00056
+    },
+    "sagging breasts": {
+     "posts": 10172,
+     "share": 0.00106
+    },
+    "unaligned breasts": {
+     "posts": 6906,
+     "share": 0.00068
+    },
+    "veiny breasts": {
+     "posts": 4914,
+     "share": 0.00053
+    },
+    "pointy breasts": {
+     "posts": 2294,
+     "share": 0.00025
+    },
+    "breasts on head": {
+     "posts": 3019,
+     "share": 0.00012
+    },
+    "head between breasts": {
+     "posts": 4523,
+     "share": 0.00025
+    },
+    "alternate breast size": {
+     "posts": 2557,
+     "share": 0.00026
+    },
+    "between breasts": {
+     "posts": 65106,
+     "share": 0.00637
+    },
+    "breast rest": {
+     "posts": 12716,
+     "share": 0.00105
+    },
+    "breasts on table": {
+     "posts": 2147,
+     "share": 0.00022
+    },
+    "covering breasts": {
+     "posts": 28455,
+     "share": 0.00281
+    },
+    "lactation": {
+     "posts": 28109,
+     "share": 0.00275
+    },
+    "lactation through clothes": {
+     "posts": 2084,
+     "share": 0.00022
+    },
+    "male with breasts": {
+     "posts": 1129,
+     "share": 1e-05
+    },
+    "mole on breast": {
+     "posts": 59017,
+     "share": 0.00611
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "breast_size": {
+   "share": 0.483,
+   "items": {
+    "flat chest": {
+     "posts": 237754,
+     "share": 0.0236
+    },
+    "small breasts": {
+     "posts": 719476,
+     "share": 0.0776
+    },
+    "medium breasts": {
+     "posts": 1217996,
+     "share": 0.1172
+    },
+    "large breasts": {
+     "posts": 2264067,
+     "share": 0.2254
+    },
+    "huge breasts": {
+     "posts": 328600,
+     "share": 0.0378
+    },
+    "gigantic breasts": {
+     "posts": 16433,
+     "share": 0.00167
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "ass_desc": {
+   "share": 0.008,
+   "items": {
+    "flat ass": {
+     "posts": 3857,
+     "share": 0.00039
+    },
+    "huge ass": {
+     "posts": 37013,
+     "share": 0.00351
+    },
+    "spread ass": {
+     "posts": 7393,
+     "share": 0.00072
+    },
+    "butt crack": {
+     "posts": 28697,
+     "share": 0.0027
+    },
+    "underbutt": {
+     "posts": 3082,
+     "share": 0.00032
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.08
+  },
+  "face_desc": {
+   "share": 0.035,
+   "items": {
+    "eyebrows hidden by hair": {
+     "posts": 35220,
+     "share": 0.00345
+    },
+    "constricted pupils": {
+     "posts": 20412,
+     "share": 0.00129
+    },
+    "cross-eyed": {
+     "posts": 1642,
+     "share": 0.00013
+    },
+    "wide-eyed": {
+     "posts": 53492,
+     "share": 0.00338
+    },
+    "dot nose": {
+     "posts": 99510,
+     "share": 0.00899
+    },
+    "no nose": {
+     "posts": 30570,
+     "share": 0.00223
+    },
+    "chestnut mouth": {
+     "posts": 18604,
+     "share": 0.0016
+    },
+    "dot mouth": {
+     "posts": 10939,
+     "share": 0.00092
+    },
+    "no mouth": {
+     "posts": 21980,
+     "share": 0.00109
+    },
+    "peanut mouth": {
+     "posts": 2472,
+     "share": 0.00018
+    },
+    "rectangular mouth": {
+     "posts": 3363,
+     "share": 0.00014
+    },
+    "sideways mouth": {
+     "posts": 11028,
+     "share": 0.0006
+    },
+    "split mouth": {
+     "posts": 40342,
+     "share": 0.00344
+    },
+    "stitched mouth": {
+     "posts": 1915,
+     "share": 0.00013
+    },
+    "triangle mouth": {
+     "posts": 22723,
+     "share": 0.00124
+    },
+    "faceless": {
+     "posts": 69978,
+     "share": 0.00538
+    },
+    "mob face": {
+     "posts": 1808,
+     "share": 0.00016
+    },
+    "penis awe": {
+     "posts": 8334,
+     "share": 0.00079
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.15
+  },
+  "spice_expression": {
+   "share": 0.014,
+   "items": {
+    "afterglow": {
+     "posts": 1223,
+     "share": 9e-05
+    },
+    "ahegao": {
+     "posts": 28647,
+     "share": 0.00257
+    },
+    "fucked silly": {
+     "posts": 10628,
+     "share": 0.00103
+    },
+    "aroused": {
+     "posts": 7768,
+     "share": 0.00069
+    },
+    "naughty face": {
+     "posts": 36081,
+     "share": 0.00345
+    },
+    "torogao": {
+     "posts": 12443,
+     "share": 0.00114
+    },
+    "condom in mouth": {
+     "posts": 7248,
+     "share": 0.00073
+    },
+    "cum in mouth": {
+     "posts": 41054,
+     "share": 0.00403
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "race_parts": {
+   "share": 0.424,
+   "items": {
+    "animal ears": {
+     "posts": 1763909,
+     "share": 0.1556
+    },
+    "bat ears": {
+     "posts": 4764,
+     "share": 0.0004
+    },
+    "bear ears": {
+     "posts": 16064,
+     "share": 0.0011
+    },
+    "rabbit ears": {
+     "posts": 326933,
+     "share": 0.0326
+    },
+    "cat ears": {
+     "posts": 409652,
+     "share": 0.0366
+    },
+    "cow ears": {
+     "posts": 27639,
+     "share": 0.00247
+    },
+    "deer ears": {
+     "posts": 7925,
+     "share": 0.00057
+    },
+    "dog ears": {
+     "posts": 91213,
+     "share": 0.00588
+    },
+    "fox ears": {
+     "posts": 218781,
+     "share": 0.018
+    },
+    "goat ears": {
+     "posts": 6224,
+     "share": 0.00045
+    },
+    "horse ears": {
+     "posts": 236551,
+     "share": 0.0218
+    },
+    "kemonomimi mode": {
+     "posts": 53674,
+     "share": 0.00342
+    },
+    "lion ears": {
+     "posts": 15032,
+     "share": 0.00099
+    },
+    "monkey ears": {
+     "posts": 2210,
+     "share": 0.00016
+    },
+    "mouse ears": {
+     "posts": 35964,
+     "share": 0.00271
+    },
+    "panda ears": {
+     "posts": 3225,
+     "share": 0.00021
+    },
+    "pig ears": {
+     "posts": 1448,
+     "share": 0.00011
+    },
+    "raccoon ears": {
+     "posts": 20551,
+     "share": 0.00143
+    },
+    "sheep ears": {
+     "posts": 7306,
+     "share": 0.00062
+    },
+    "squirrel ears": {
+     "posts": 6382,
+     "share": 0.00053
+    },
+    "tiger ears": {
+     "posts": 25412,
+     "share": 0.00177
+    },
+    "wolf ears": {
+     "posts": 116184,
+     "share": 0.00935
+    },
+    "fake animal ears": {
+     "posts": 237538,
+     "share": 0.0254
+    },
+    "animal ear headphones": {
+     "posts": 15940,
+     "share": 0.00117
+    },
+    "cat ear headphones": {
+     "posts": 12188,
+     "share": 0.00091
+    },
+    "floppy ears": {
+     "posts": 18032,
+     "share": 0.00131
+    },
+    "hair ears": {
+     "posts": 5310,
+     "share": 0.00036
+    },
+    "extra ears": {
+     "posts": 91021,
+     "share": 0.00827
+    },
+    "pointy ears": {
+     "posts": 603480,
+     "share": 0.0466
+    },
+    "long pointy ears": {
+     "posts": 40538,
+     "share": 0.00379
+    },
+    "robot ears": {
+     "posts": 9724,
+     "share": 0.00081
+    },
+    "metal skin": {
+     "posts": 3166,
+     "share": 0.00019
+    },
+    "insect wings": {
+     "posts": 14781,
+     "share": 0.00099
+    },
+    "butterfly wings": {
+     "posts": 8323,
+     "share": 0.00064
+    },
+    "moth wings": {
+     "posts": 1025,
+     "share": 8e-05
+    },
+    "detached wings": {
+     "posts": 16698,
+     "share": 0.00139
+    },
+    "hair wings": {
+     "posts": 1273,
+     "share": 0.0001
+    },
+    "wing ears": {
+     "posts": 1136,
+     "share": 9e-05
+    },
+    "low wings": {
+     "posts": 45981,
+     "share": 0.00453
+    },
+    "winged arms": {
+     "posts": 7671,
+     "share": 0.00065
+    },
+    "harpy": {
+     "posts": 6701,
+     "share": 0.00064
+    },
+    "feathered wings": {
+     "posts": 109089,
+     "share": 0.00907
+    },
+    "angel wings": {
+     "posts": 58320,
+     "share": 0.00447
+    },
+    "bird wings": {
+     "posts": 22808,
+     "share": 0.00173
+    },
+    "demon wings": {
+     "posts": 68144,
+     "share": 0.00612
+    },
+    "dragon wings": {
+     "posts": 12748,
+     "share": 0.00095
+    },
+    "fairy wings": {
+     "posts": 25934,
+     "share": 0.00181
+    },
+    "bat wings": {
+     "posts": 75607,
+     "share": 0.00543
+    },
+    "drawn wings": {
+     "posts": 1013,
+     "share": 8e-05
+    },
+    "skeletal wings": {
+     "posts": 1280,
+     "share": 9e-05
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "eye_desc": {
+   "share": 0.083,
+   "items": {
+    "bags under eyes": {
+     "posts": 43670,
+     "share": 0.00309
+    },
+    "aegyo sal": {
+     "posts": 10239,
+     "share": 0.00079
+    },
+    "bruised eye": {
+     "posts": 1075,
+     "share": 5e-05
+    },
+    "glowing eyes": {
+     "posts": 62606,
+     "share": 0.00366
+    },
+    "o o": {
+     "posts": 29043,
+     "share": 0.00099
+    },
+    "0 0": {
+     "posts": 11926,
+     "share": 0.00034
+    },
+    "@ @": {
+     "posts": 56608,
+     "share": 0.00427
+    },
+    "cephalopod eyes": {
+     "posts": 2594,
+     "share": 0.00019
+    },
+    "horizontal pupils": {
+     "posts": 7254,
+     "share": 0.00052
+    },
+    "dashed eyes": {
+     "posts": 2542,
+     "share": 0.00026
+    },
+    "ringed eyes": {
+     "posts": 40383,
+     "share": 0.00358
+    },
+    "missing eye": {
+     "posts": 1022,
+     "share": 5e-05
+    },
+    "aqua pupils": {
+     "posts": 1117,
+     "share": 9e-05
+    },
+    "blue pupils": {
+     "posts": 9153,
+     "share": 0.00077
+    },
+    "green pupils": {
+     "posts": 3348,
+     "share": 0.00029
+    },
+    "orange pupils": {
+     "posts": 2330,
+     "share": 0.00021
+    },
+    "pink pupils": {
+     "posts": 13233,
+     "share": 0.00124
+    },
+    "purple pupils": {
+     "posts": 3208,
+     "share": 0.00026
+    },
+    "white pupils": {
+     "posts": 124066,
+     "share": 0.0108
+    },
+    "yellow pupils": {
+     "posts": 10079,
+     "share": 0.00081
+    },
+    "dilated pupils": {
+     "posts": 1072,
+     "share": 7e-05
+    },
+    "no pupils": {
+     "posts": 22886,
+     "share": 0.00148
+    },
+    "heart-shaped pupils": {
+     "posts": 120841,
+     "share": 0.01174
+    },
+    "slit pupils": {
+     "posts": 92781,
+     "share": 0.00775
+    },
+    "solid circle pupils": {
+     "posts": 1754,
+     "share": 9e-05
+    },
+    "star-shaped pupils": {
+     "posts": 33886,
+     "share": 0.00287
+    },
+    "triangle-shaped pupils": {
+     "posts": 1188,
+     "share": 0.0001
+    },
+    "blue sclera": {
+     "posts": 4146,
+     "share": 0.00021
+    },
+    "black sclera": {
+     "posts": 37609,
+     "share": 0.00234
+    },
+    "blank eyes": {
+     "posts": 18921,
+     "share": 0.00077
+    },
+    "bloodshot eyes": {
+     "posts": 1979,
+     "share": 9e-05
+    },
+    "green sclera": {
+     "posts": 2529,
+     "share": 0.00013
+    },
+    "mismatched sclera": {
+     "posts": 2409,
+     "share": 0.00013
+    },
+    "orange sclera": {
+     "posts": 1123,
+     "share": 6e-05
+    },
+    "pink sclera": {
+     "posts": 1367,
+     "share": 7e-05
+    },
+    "purple sclera": {
+     "posts": 1200,
+     "share": 6e-05
+    },
+    "red sclera": {
+     "posts": 10247,
+     "share": 0.00058
+    },
+    "solid eyes": {
+     "posts": 3962,
+     "share": 0.00022
+    },
+    "yellow sclera": {
+     "posts": 18394,
+     "share": 0.0009
+    },
+    "bulging eyes": {
+     "posts": 1313,
+     "share": 6e-05
+    },
+    "crazy eyes": {
+     "posts": 8748,
+     "share": 0.00062
+    },
+    "empty eyes": {
+     "posts": 50511,
+     "share": 0.0036
+    },
+    "jitome": {
+     "posts": 50017,
+     "share": 0.0029
+    },
+    "sanpaku": {
+     "posts": 16909,
+     "share": 0.00091
+    },
+    "solid circle eyes": {
+     "posts": 12815,
+     "share": 0.00052
+    },
+    "sparkling eyes": {
+     "posts": 18908,
+     "share": 0.00137
+    },
+    "tareme": {
+     "posts": 58453,
+     "share": 0.00534
+    },
+    "tsurime": {
+     "posts": 65500,
+     "share": 0.00564
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.06
+  },
+  "eye_color": {
+   "share": 0.5,
+   "items": {
+    "black eyes": {
+     "posts": 341511,
+     "share": 0.0198
+    },
+    "blue eyes": {
+     "posts": 2474863,
+     "share": 0.1926
+    },
+    "brown eyes": {
+     "posts": 1092845,
+     "share": 0.087
+    },
+    "green eyes": {
+     "posts": 1197579,
+     "share": 0.0938
+    },
+    "grey eyes": {
+     "posts": 290504,
+     "share": 0.0256
+    },
+    "orange eyes": {
+     "posts": 256771,
+     "share": 0.0214
+    },
+    "purple eyes": {
+     "posts": 1203176,
+     "share": 0.1
+    },
+    "pink eyes": {
+     "posts": 432272,
+     "share": 0.0398
+    },
+    "red eyes": {
+     "posts": 1782050,
+     "share": 0.1388
+    },
+    "white eyes": {
+     "posts": 28062,
+     "share": 0.00169
+    },
+    "yellow eyes": {
+     "posts": 1025228,
+     "share": 0.0802
+    },
+    "heterochromia": {
+     "posts": 174005,
+     "share": 0.0138
+    },
+    "multicolored eyes": {
+     "posts": 67460,
+     "share": 0.00562
+    },
+    "gradient eyes": {
+     "posts": 13507,
+     "share": 0.00128
+    },
+    "two-tone eyes": {
+     "posts": 19901,
+     "share": 0.00167
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "hair_misc": {
+   "share": 0.043,
+   "items": {
+    "grabbing another's hair": {
+     "posts": 12479,
+     "share": 0.00097
+    },
+    "braiding hair": {
+     "posts": 1544,
+     "share": 7e-05
+    },
+    "cutting hair": {
+     "posts": 2317,
+     "share": 0.00015
+    },
+    "brushing another's hair": {
+     "posts": 2361,
+     "share": 6e-05
+    },
+    "tying hair": {
+     "posts": 13043,
+     "share": 0.00131
+    },
+    "hand in own hair": {
+     "posts": 47437,
+     "share": 0.00461
+    },
+    "adjusting hair": {
+     "posts": 27595,
+     "share": 0.00272
+    },
+    "bunching hair": {
+     "posts": 1659,
+     "share": 0.00017
+    },
+    "hair flip": {
+     "posts": 1596,
+     "share": 0.00014
+    },
+    "ruffling hair": {
+     "posts": 1678,
+     "share": 0.00014
+    },
+    "playing with another's hair": {
+     "posts": 1084,
+     "share": 4e-05
+    },
+    "playing with own hair": {
+     "posts": 4941,
+     "share": 0.00051
+    },
+    "hairjob": {
+     "posts": 1751,
+     "share": 0.00019
+    },
+    "facial hair": {
+     "posts": 169306,
+     "share": 0.00378
+    },
+    "goatee": {
+     "posts": 30884,
+     "share": 0.00054
+    },
+    "stubble": {
+     "posts": 43379,
+     "share": 0.00076
+    },
+    "crystal hair": {
+     "posts": 2165,
+     "share": 3e-05
+    },
+    "fiery hair": {
+     "posts": 4538,
+     "share": 0.00025
+    },
+    "glowing hair": {
+     "posts": 2425,
+     "share": 0.00018
+    },
+    "liquid hair": {
+     "posts": 2326,
+     "share": 0.00024
+    },
+    "plant hair": {
+     "posts": 1261,
+     "share": 0.0001
+    },
+    "prehensile hair": {
+     "posts": 3299,
+     "share": 0.00027
+    },
+    "tentacle hair": {
+     "posts": 41994,
+     "share": 0.00349
+    },
+    "starry hair": {
+     "posts": 1667,
+     "share": 0.00016
+    },
+    "naturally detached hair": {
+     "posts": 1650,
+     "share": 0.00013
+    },
+    "severed hair": {
+     "posts": 1076,
+     "share": 8e-05
+    },
+    "expressive hair": {
+     "posts": 3158,
+     "share": 0.00015
+    },
+    "floating hair": {
+     "posts": 194640,
+     "share": 0.0134
+    },
+    "hair in own mouth": {
+     "posts": 2902,
+     "share": 0.00029
+    },
+    "hair spread out": {
+     "posts": 47571,
+     "share": 0.00484
+    },
+    "heart-shaped hair": {
+     "posts": 1249,
+     "share": 0.0001
+    },
+    "lone nape hair": {
+     "posts": 2712,
+     "share": 0.00018
+    },
+    "loose hair strand": {
+     "posts": 10696,
+     "share": 0.00088
+    },
+    "wet hair": {
+     "posts": 20529,
+     "share": 0.00174
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "hair_color": {
+   "share": 0.5,
+   "items": {
+    "alternate hair color": {
+     "posts": 17654,
+     "share": 0.00145
+    },
+    "multicolored hair": {
+     "posts": 1192199,
+     "share": 0.0998
+    },
+    "colored inner hair": {
+     "posts": 160902,
+     "share": 0.0136
+    },
+    "gradient hair": {
+     "posts": 226445,
+     "share": 0.019
+    },
+    "patterned hair": {
+     "posts": 3421,
+     "share": 0.00027
+    },
+    "rainbow hair": {
+     "posts": 2444,
+     "share": 0.00016
+    },
+    "split-color hair": {
+     "posts": 31359,
+     "share": 0.00242
+    },
+    "streaked hair": {
+     "posts": 438412,
+     "share": 0.0374
+    },
+    "striped hair": {
+     "posts": 1888,
+     "share": 0.00014
+    },
+    "two-tone hair": {
+     "posts": 403288,
+     "share": 0.0356
+    },
+    "aqua hair": {
+     "posts": 179081,
+     "share": 0.0152
+    },
+    "black hair": {
+     "posts": 2206095,
+     "share": 0.1544
+    },
+    "blonde hair": {
+     "posts": 2175394,
+     "share": 0.1586
+    },
+    "blue hair": {
+     "posts": 1204008,
+     "share": 0.0886
+    },
+    "brown hair": {
+     "posts": 2091955,
+     "share": 0.1524
+    },
+    "green hair": {
+     "posts": 593821,
+     "share": 0.044
+    },
+    "grey hair": {
+     "posts": 1030024,
+     "share": 0.078
+    },
+    "orange hair": {
+     "posts": 352049,
+     "share": 0.0238
+    },
+    "pink hair": {
+     "posts": 1064697,
+     "share": 0.086
+    },
+    "purple hair": {
+     "posts": 917286,
+     "share": 0.0774
+    },
+    "red hair": {
+     "posts": 737486,
+     "share": 0.048
+    },
+    "white hair": {
+     "posts": 1046398,
+     "share": 0.0818
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "hair_style": {
+   "share": 0.376,
+   "items": {
+    "afro": {
+     "posts": 4655,
+     "share": 0.00018
+    },
+    "pompadour": {
+     "posts": 6079,
+     "share": 0.00016
+    },
+    "braided bangs": {
+     "posts": 18036,
+     "share": 0.00161
+    },
+    "side braid": {
+     "posts": 86443,
+     "share": 0.00628
+    },
+    "crown braid": {
+     "posts": 36981,
+     "share": 3e-05
+    },
+    "half crown braid": {
+     "posts": 2030,
+     "share": 0.0002
+    },
+    "single braid": {
+     "posts": 184364,
+     "share": 0.0148
+    },
+    "multiple braids": {
+     "posts": 6699,
+     "share": 0.00054
+    },
+    "twin braids": {
+     "posts": 249552,
+     "share": 0.0208
+    },
+    "low twin braids": {
+     "posts": 24498,
+     "share": 0.00209
+    },
+    "tri braids": {
+     "posts": 1289,
+     "share": 0.00012
+    },
+    "quad braids": {
+     "posts": 1152,
+     "share": 0.0001
+    },
+    "dreadlocks": {
+     "posts": 5660,
+     "share": 0.00027
+    },
+    "low-braided long hair": {
+     "posts": 11016,
+     "share": 0.00095
+    },
+    "half up braid": {
+     "posts": 37431,
+     "share": 0.00297
+    },
+    "half up half down braid": {
+     "posts": 3381,
+     "share": 0.00025
+    },
+    "braided ponytail": {
+     "posts": 50893,
+     "share": 0.0041
+    },
+    "hime cut": {
+     "posts": 31810,
+     "share": 0.00259
+    },
+    "braided bun": {
+     "posts": 16620,
+     "share": 0.00156
+    },
+    "bun with braided base": {
+     "posts": 10466,
+     "share": 0.00088
+    },
+    "single hair bun": {
+     "posts": 93118,
+     "share": 0.00727
+    },
+    "double bun": {
+     "posts": 179156,
+     "share": 0.0152
+    },
+    "cone hair bun": {
+     "posts": 21369,
+     "share": 0.00175
+    },
+    "donut hair bun": {
+     "posts": 3790,
+     "share": 0.00036
+    },
+    "nihongami": {
+     "posts": 1447,
+     "share": 0.00014
+    },
+    "mullet": {
+     "posts": 2186,
+     "share": 6e-05
+    },
+    "wolf cut": {
+     "posts": 7780,
+     "share": 0.00052
+    },
+    "half updo": {
+     "posts": 59805,
+     "share": 0.00422
+    },
+    "one side up": {
+     "posts": 151635,
+     "share": 0.0138
+    },
+    "two side up": {
+     "posts": 249561,
+     "share": 0.0202
+    },
+    "low-tied long hair": {
+     "posts": 59092,
+     "share": 0.00514
+    },
+    "multi-tied hair": {
+     "posts": 11490,
+     "share": 0.00078
+    },
+    "folded ponytail": {
+     "posts": 26050,
+     "share": 0.00172
+    },
+    "front ponytail": {
+     "posts": 9316,
+     "share": 0.00084
+    },
+    "high ponytail": {
+     "posts": 127955,
+     "share": 0.0098
+    },
+    "low ponytail": {
+     "posts": 82875,
+     "share": 0.00518
+    },
+    "short ponytail": {
+     "posts": 48628,
+     "share": 0.00326
+    },
+    "side ponytail": {
+     "posts": 236207,
+     "share": 0.0166
+    },
+    "high side ponytail": {
+     "posts": 5550,
+     "share": 0.00041
+    },
+    "low side ponytail": {
+     "posts": 3300,
+     "share": 0.00024
+    },
+    "short side ponytail": {
+     "posts": 2537,
+     "share": 0.00016
+    },
+    "split ponytail": {
+     "posts": 3295,
+     "share": 0.00027
+    },
+    "twintails": {
+     "posts": 1238971,
+     "share": 0.1044
+    },
+    "low twintails": {
+     "posts": 164813,
+     "share": 0.0152
+    },
+    "short twintails": {
+     "posts": 87090,
+     "share": 0.0058
+    },
+    "uneven twintails": {
+     "posts": 1921,
+     "share": 0.00019
+    },
+    "quad tails": {
+     "posts": 7902,
+     "share": 0.00067
+    },
+    "bob cut": {
+     "posts": 139480,
+     "share": 0.01123
+    },
+    "inverted bob": {
+     "posts": 7935,
+     "share": 0.00048
+    },
+    "undercut": {
+     "posts": 22790,
+     "share": 0.00071
+    },
+    "short hair with long locks": {
+     "posts": 69104,
+     "share": 0.00539
+    },
+    "curly hair": {
+     "posts": 47567,
+     "share": 0.00355
+    },
+    "flipped hair": {
+     "posts": 42600,
+     "share": 0.0035
+    },
+    "drill hair": {
+     "posts": 131866,
+     "share": 0.0136
+    },
+    "twin drills": {
+     "posts": 72068,
+     "share": 0.00556
+    },
+    "single drill": {
+     "posts": 1057,
+     "share": 8e-05
+    },
+    "hair flaps": {
+     "posts": 56770,
+     "share": 0.00481
+    },
+    "messy hair": {
+     "posts": 92184,
+     "share": 0.00674
+    },
+    "pointy hair": {
+     "posts": 8805,
+     "share": 0.0005
+    },
+    "spiked hair": {
+     "posts": 107823,
+     "share": 0.0039
+    },
+    "straight hair": {
+     "posts": 102212,
+     "share": 0.00889
+    },
+    "wavy hair": {
+     "posts": 149870,
+     "share": 0.0112
+    },
+    "fluffy hair": {
+     "posts": 5764,
+     "share": 0.00053
+    },
+    "kinky hair": {
+     "posts": 3176,
+     "share": 0.00021
+    },
+    "kishimen hair": {
+     "posts": 2006,
+     "share": 0.00011
+    },
+    "shuangyaji": {
+     "posts": 1264,
+     "share": 0.00012
+    },
+    "buzz cut": {
+     "posts": 4519,
+     "share": 9e-05
+    },
+    "pixie cut": {
+     "posts": 1809,
+     "share": 0.00015
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.4
+  },
+  "hair_front": {
+   "share": 0.36,
+   "items": {
+    "arched bangs": {
+     "posts": 5741,
+     "share": 0.00056
+    },
+    "asymmetrical bangs": {
+     "posts": 48116,
+     "share": 0.00408
+    },
+    "bangs pinned back": {
+     "posts": 7782,
+     "share": 0.0005
+    },
+    "blunt bangs": {
+     "posts": 430330,
+     "share": 0.0308
+    },
+    "center-flap bangs": {
+     "posts": 12281,
+     "share": 0.00094
+    },
+    "crossed bangs": {
+     "posts": 108814,
+     "share": 0.00876
+    },
+    "wispy bangs": {
+     "posts": 10042,
+     "share": 0.00073
+    },
+    "choppy bangs": {
+     "posts": 10299,
+     "share": 0.00071
+    },
+    "diagonal bangs": {
+     "posts": 9574,
+     "share": 0.00068
+    },
+    "fanged bangs": {
+     "posts": 2423,
+     "share": 0.00021
+    },
+    "short bangs": {
+     "posts": 7482,
+     "share": 0.00047
+    },
+    "long bangs": {
+     "posts": 47767,
+     "share": 0.00402
+    },
+    "hair between eyes": {
+     "posts": 1790975,
+     "share": 0.1478
+    },
+    "parted bangs": {
+     "posts": 313515,
+     "share": 0.0238
+    },
+    "middle part": {
+     "posts": 1566,
+     "share": 0.00012
+    },
+    "double-parted bangs": {
+     "posts": 108280,
+     "share": 0.00907
+    },
+    "curtained hair": {
+     "posts": 50461,
+     "share": 0.00277
+    },
+    "swept bangs": {
+     "posts": 162953,
+     "share": 0.0128
+    },
+    "hair intakes": {
+     "posts": 266208,
+     "share": 0.0258
+    },
+    "single hair intake": {
+     "posts": 14621,
+     "share": 0.00134
+    },
+    "sidelocks": {
+     "posts": 941689,
+     "share": 0.0802
+    },
+    "asymmetrical sidelocks": {
+     "posts": 4705,
+     "share": 0.00039
+    },
+    "drill sidelocks": {
+     "posts": 9904,
+     "share": 0.0008
+    },
+    "low-tied sidelocks": {
+     "posts": 7822,
+     "share": 0.00058
+    },
+    "sidelocks tied back": {
+     "posts": 1545,
+     "share": 7e-05
+    },
+    "single sidelock": {
+     "posts": 18442,
+     "share": 0.00158
+    },
+    "widow's peak": {
+     "posts": 1268,
+     "share": 3e-05
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.35
+  },
+  "hair_state": {
+   "share": 0.009,
+   "items": {
+    "convenient hair": {
+     "posts": 12148,
+     "share": 0.00117
+    },
+    "hair over breasts": {
+     "posts": 11507,
+     "share": 0.00114
+    },
+    "hair over one breast": {
+     "posts": 1035,
+     "share": 9e-05
+    },
+    "hair over shoulder": {
+     "posts": 79481,
+     "share": 0.00657
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.05
+  },
+  "hair_length": {
+   "share": 0.5,
+   "items": {
+    "very short hair": {
+     "posts": 38346,
+     "share": 0.00171
+    },
+    "short hair": {
+     "posts": 3136769,
+     "share": 0.2164
+    },
+    "medium hair": {
+     "posts": 643423,
+     "share": 0.0472
+    },
+    "long hair": {
+     "posts": 6218858,
+     "share": 0.55
+    },
+    "very long hair": {
+     "posts": 1417510,
+     "share": 0.1266
+    },
+    "absurdly long hair": {
+     "posts": 30023,
+     "share": 0.00286
+    },
+    "big hair": {
+     "posts": 13751,
+     "share": 0.00131
+    },
+    "bald": {
+     "posts": 23594,
+     "share": 0.00147
+    },
+    "balding": {
+     "posts": 1885,
+     "share": 0.0001
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "hair_top": {
+   "share": 0.097,
+   "items": {
+    "ahoge": {
+     "posts": 975206,
+     "share": 0.0818
+    },
+    "heart ahoge": {
+     "posts": 18506,
+     "share": 0.00169
+    },
+    "huge ahoge": {
+     "posts": 23441,
+     "share": 0.00203
+    },
+    "antenna hair": {
+     "posts": 128601,
+     "share": 0.00879
+    },
+    "hair pulled back": {
+     "posts": 11732,
+     "share": 0.00086
+    },
+    "hair slicked back": {
+     "posts": 23104,
+     "share": 0.00082
+    },
+    "parted hair": {
+     "posts": 11396,
+     "share": 0.00066
+    },
+    "mohawk": {
+     "posts": 5818,
+     "share": 0.00021
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "skin": {
+   "share": 0.048,
+   "items": {
+    "albino": {
+     "posts": 8388,
+     "share": 0.00068
+    },
+    "pale skin": {
+     "posts": 73896,
+     "share": 0.00573
+    },
+    "tan": {
+     "posts": 78899,
+     "share": 0.00699
+    },
+    "dark skin": {
+     "posts": 408710,
+     "share": 0.033
+    },
+    "very dark skin": {
+     "posts": 18100,
+     "share": 0.00151
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "skin_desc": {
+   "share": 0.027,
+   "items": {
+    "multicolored skin": {
+     "posts": 24406,
+     "share": 0.00162
+    },
+    "two-tone skin": {
+     "posts": 18739,
+     "share": 0.00125
+    },
+    "patchwork skin": {
+     "posts": 4068,
+     "share": 0.00029
+    },
+    "shiny skin": {
+     "posts": 157884,
+     "share": 0.018
+    },
+    "body blush": {
+     "posts": 8066,
+     "share": 0.0007
+    },
+    "body fur": {
+     "posts": 35817,
+     "share": 0.00256
+    },
+    "scales": {
+     "posts": 29131,
+     "share": 0.00228
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.05
+  },
+  "skin_unnatural": {
+   "share": 0.016,
+   "items": {
+    "aqua skin": {
+     "posts": 2043,
+     "share": 0.00014
+    },
+    "black skin": {
+     "posts": 14831,
+     "share": 0.00096
+    },
+    "blue skin": {
+     "posts": 40754,
+     "share": 0.00276
+    },
+    "green skin": {
+     "posts": 31503,
+     "share": 0.00205
+    },
+    "grey skin": {
+     "posts": 23723,
+     "share": 0.00174
+    },
+    "orange skin": {
+     "posts": 3857,
+     "share": 0.00021
+    },
+    "pink skin": {
+     "posts": 13978,
+     "share": 0.00097
+    },
+    "purple skin": {
+     "posts": 18397,
+     "share": 0.00123
+    },
+    "red skin": {
+     "posts": 19838,
+     "share": 0.00124
+    },
+    "silver skin": {
+     "posts": 1401,
+     "share": 2e-05
+    },
+    "white skin": {
+     "posts": 63877,
+     "share": 0.00415
+    },
+    "yellow skin": {
+     "posts": 8152,
+     "share": 0.00047
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  },
+  "wing_desc": {
+   "share": 0.001,
+   "items": {
+    "brown wings": {
+     "posts": 3608,
+     "share": 0.00028
+    },
+    "grey wings": {
+     "posts": 2987,
+     "share": 0.00025
+    },
+    "multiple wings": {
+     "posts": 12664,
+     "share": 0.00089
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.3
+  },
+  "makeup": {
+   "share": 0.014,
+   "items": {
+    "red lips": {
+     "posts": 40285,
+     "share": 0.00377
+    },
+    "blue lips": {
+     "posts": 7979,
+     "share": 0.00064
+    },
+    "pink lips": {
+     "posts": 48168,
+     "share": 0.00479
+    },
+    "long fingernails": {
+     "posts": 55631,
+     "share": 0.00523
+    }
+   },
+   "share_src": "measured",
+   "share_stated": 0.1
+  }
+ },
+ "race_parts_measured": {
+  "monster girl": {
+   "digitigrade": 0.2398,
+   "no nipples": 0.1302,
+   "aqua skin": 0.1185,
+   "black skin": 0.0858,
+   "blue skin": 0.1224,
+   "green skin": 0.1042,
+   "grey skin": 0.1,
+   "orange skin": 0.0902,
+   "pink skin": 0.0908,
+   "purple skin": 0.1372,
+   "yellow skin": 0.0968,
+   "brown wings": 0.2231,
+   "insect wings": 0.0846,
+   "moth wings": 0.4059,
+   "winged arms": 0.7942,
+   "harpy": 1.0,
+   "dragon wings": 0.1006
+  },
+  "horse girl": {
+   "animal ears": 0.123,
+   "horse ears": 0.9592
+  },
+  "cat girl": {
+   "animal ears": 0.1006,
+   "cat ears": 0.4084,
+   "kemonomimi mode": 0.1902,
+   "extra ears": 0.1682
+  },
+  "fox girl": {
+   "animal ears": 0.0866,
+   "fox ears": 0.659,
+   "floppy ears": 0.1054,
+   "extra ears": 0.1492
+  },
+  "rabbit girl": {
+   "rabbit ears": 0.1736,
+   "floppy ears": 0.1902
+  },
+  "cow girl": {
+   "cow ears": 0.45
+  },
+  "dog girl": {
+   "dog ears": 0.5264,
+   "floppy ears": 0.0918
+  },
+  "erune": {
+   "monkey ears": 0.343
+  },
+  "sheep girl": {
+   "sheep ears": 0.7146
+  },
+  "wolf girl": {
+   "wolf ears": 0.504
+  },
+  "elf": {
+   "pointy ears": 0.189,
+   "long pointy ears": 0.7118
+  },
+  "dark elf": {
+   "long pointy ears": 0.0888
+  },
+  "android": {
+   "robot ears": 0.3918,
+   "metal skin": 0.3392
+  },
+  "robot": {
+   "robot ears": 0.1334,
+   "metal skin": 0.4337
+  },
+  "zombie": {
+   "grey skin": 0.0834
+  },
+  "alien": {
+   "orange skin": 0.1138,
+   "red skin": 0.0814,
+   "silver skin": 0.8494
+  },
+  "togruta": {
+   "orange skin": 0.0931
+  },
+  "demon girl": {
+   "purple skin": 0.0804,
+   "red skin": 0.2456,
+   "low wings": 0.2132,
+   "multiple wings": 0.1026,
+   "demon wings": 0.5916,
+   "bat wings": 0.115
+  },
+  "oni": {
+   "red skin": 0.1284
+  },
+  "giant": {
+   "silver skin": 0.4661
+  },
+  "harpy": {
+   "brown wings": 0.1935,
+   "winged arms": 0.7582
+  },
+  "fairy": {
+   "insect wings": 0.1662,
+   "butterfly wings": 0.2694,
+   "fairy wings": 0.4878
+  },
+  "angel": {
+   "wing ears": 0.4173,
+   "multiple wings": 0.1166,
+   "feathered wings": 0.122,
+   "angel wings": 0.3674
+  },
+  "dragon girl": {
+   "dragon wings": 0.5526
+  }
+ },
+ "occupation_lean_measured": {
+  "twin braids": {
+   "maid": 0.0894
+  },
+  "fanged bangs": {
+   "maid": 0.0656
+  },
+  "nihongami": {
+   "oiran": 0.2294,
+   "geisha": 0.0898
+  }
+ },
+ "typed_only": [
+  "+ +",
+  "+_+",
+  "+_-",
+  ". .",
+  "._.",
+  "0_0",
+  "0w0",
+  "3 3",
+  "3:",
+  "6 9",
+  ":",
+  ":/",
+  ":3",
+  ":<",
+  ":>",
+  ":>=",
+  ":c",
+  ":d",
+  ":i",
+  ":o",
+  ":p",
+  ":q",
+  ":t",
+  ";)",
+  ";3",
+  ";<",
+  ";>",
+  ";d",
+  ";o",
+  ";p",
+  ";q",
+  "<",
+  "<o> <o>",
+  "<o>_<o>",
+  "= =",
+  "=_=",
+  "> <",
+  ">3<",
+  ">:)",
+  ">_<",
+  ">_@",
+  ">o<",
+  "@_@",
+  "^ ^",
+  "^^^",
+  "^_^",
+  "^q^",
+  "^v^",
+  "a flat chest is a status symbol",
+  "abyaa face",
+  "alternate hairstyle",
+  "alternate wing color",
+  "alternate wings",
+  "anal hook",
+  "anger vein",
+  "angry",
+  "animal on shoulder",
+  "animal pussy",
+  "ankle wings",
+  "annoyed",
+  "applying manicure",
+  "applying pedicure",
+  "aqua eyes",
+  "aqua eyeshadow",
+  "aqua lips",
+  "areola piercing",
+  "arm around neck",
+  "arm on another's shoulder",
+  "arrow through hair",
+  "ass ache",
+  "ass expansion",
+  "ass on glass",
+  "ass smack",
+  "ass-to-mouth",
+  "asymmetrical breasts",
+  "asymmetrical eyes",
+  "asymmetrical hair",
+  "asymmetrical wings",
+  "autopaizuri",
+  "averting eyes",
+  "awesome face",
+  "axolotl ears",
+  "back",
+  "bad ass",
+  "bald",
+  "bald female",
+  "bald girl",
+  "balding",
+  "bantu knots",
+  "bare shoulders",
+  "bear ear headphones",
+  "bearded girl",
+  "beehive hairdo",
+  "big eyes",
+  "bird on shoulder",
+  "biting hair",
+  "biting nipple",
+  "black eyeshadow",
+  "black lips",
+  "black wings",
+  "blind",
+  "blood in hair",
+  "bloody wings",
+  "blue eyeshadow",
+  "blue wings",
+  "blunt ends",
+  "blush",
+  "blush stickers",
+  "bone-shaped pupils",
+  "bored",
+  "bow on wing",
+  "bow-shaped hair",
+  "bow_shimada",
+  "bowed wings",
+  "bowl cut",
+  "box braids",
+  "braided dreadlocks",
+  "braided hair rings",
+  "breast awe",
+  "breast bondage",
+  "breast conscious",
+  "breast contest",
+  "breast crush",
+  "breast envy",
+  "breast expansion",
+  "breast implants",
+  "breast milk in container",
+  "breast mousepad",
+  "breast pillow",
+  "breast press",
+  "breast pull",
+  "breast pump",
+  "breast punch",
+  "breast reduction",
+  "breast size switch",
+  "breast smother",
+  "breast-to-pectoral docking",
+  "breasts on glass",
+  "broad shoulders",
+  "bronzer",
+  "brown pupils",
+  "brushing own hair",
+  "bubble tea challenge",
+  "bun cover",
+  "burnt hair",
+  "bust chart",
+  "bust cup",
+  "butterfly-shaped pupils",
+  "button eyes",
+  "byakugan",
+  "c:",
+  "card between breasts",
+  "cat on shoulder",
+  "cat-shaped pupils",
+  "chasenmage",
+  "chest binder",
+  "chocolate hair",
+  "chocolate on breasts",
+  "chonmage",
+  "cinderella bust",
+  "clenched teeth",
+  "clipping toenails",
+  "clitoris clamp",
+  "clitoris leash",
+  "clitoris pull",
+  "clitoris ring",
+  "clitoris slip",
+  "clitoris torture",
+  "clitoris tweak",
+  "cloaca",
+  "clock eyes",
+  "closed eyes",
+  "cloud hair",
+  "clover-shaped pupils",
+  "code geass",
+  "coin bangs",
+  "color drain",
+  "colored bangs",
+  "colored extremities",
+  "colored pussy",
+  "colored skin",
+  "colored tips",
+  "comb",
+  "comb over",
+  "compound eyes",
+  "compressed breasts",
+  "confident",
+  "confused",
+  "convenient breasts",
+  "cooperative naizuri",
+  "cooperative paizuri",
+  "cornrows",
+  "cosmetics",
+  "covered navel",
+  "covered nipples",
+  "covering anus",
+  "covering ass",
+  "covering own ears",
+  "crazy",
+  "crazy smile",
+  "creature on shoulder",
+  "crescent-shaped pupils",
+  "crested hair",
+  "crew cut",
+  "cross-shaped pupils",
+  "crosshair pupils",
+  "crown-shaped pupils",
+  "crystal wings",
+  "cum in ass",
+  "cum on ass",
+  "cum on breasts",
+  "cum on hair",
+  "cunt busting",
+  "curling iron",
+  "cutting another's hair",
+  "cutting own hair",
+  "cyberlox",
+  "d:",
+  "danyaji",
+  "dark-skinned female",
+  "dark-skinned male",
+  "depressed",
+  "despair",
+  "determined",
+  "diamond mouth",
+  "diamond-shaped pupils",
+  "disappointed",
+  "disdain",
+  "disembodied penis",
+  "disgust",
+  "distress",
+  "doe-foot applicator",
+  "dog on shoulder",
+  "dog pussy",
+  "dolphin penis",
+  "double luo ji",
+  "double luo ji corners toward head",
+  "dovefucking",
+  "doyagao",
+  "dragonfly wings",
+  "drawn eyes",
+  "dressing room",
+  "drunk",
+  "dx",
+  "ear focus",
+  "ear piercing",
+  "ear protection",
+  "ear wiggle",
+  "earrings",
+  "ears down",
+  "ears through headwear",
+  "ears under headwear",
+  "eating hair",
+  "ecstasy",
+  "electric eyes",
+  "embarrassed",
+  "energy hair",
+  "energy wings",
+  "envy",
+  "epaulettes",
+  "essex face",
+  "evil grin",
+  "evil smile",
+  "excalibur face",
+  "excited",
+  "exhausted",
+  "exploded cosmetics",
+  "expression 35",
+  "expression chart",
+  "expressionless",
+  "expressive wings",
+  "extra breasts",
+  "extra eyes",
+  "extra penises",
+  "extra pupils",
+  "eye beam",
+  "eye focus",
+  "eye poke",
+  "eye pop",
+  "eye reflection",
+  "eye trail",
+  "eyeball",
+  "eyelash curler",
+  "eyes on wings",
+  "face between breasts",
+  "face jewel",
+  "face to breasts",
+  "face to pecs",
+  "facial expression training",
+  "fake eyelashes",
+  "fake mustache",
+  "fake wings",
+  "fat",
+  "feather hair",
+  "female pov",
+  "ferret ears",
+  "fiery wings",
+  "fingersmile",
+  "fish-shaped pupils",
+  "flaming eyes",
+  "flashing eyes",
+  "flat envy",
+  "flattop",
+  "floating breasts",
+  "flower-shaped hair",
+  "flower-shaped pupils",
+  "flustered",
+  "flying button",
+  "food awe",
+  "food on breasts",
+  "food-themed hair",
+  "foodgasm",
+  "foot on another's breast",
+  "forced lactation",
+  "forced smile",
+  "four leaf clover hairstyle",
+  "frilled hair tubes",
+  "front braid",
+  "frown",
+  "frustrated",
+  "fukumage",
+  "full-face blush",
+  "furrowed brow",
+  "gaping nipples",
+  "gear eyes",
+  "gear-shaped pupils",
+  "geass",
+  "ghost hands",
+  "gigantic ass",
+  "gigantic testicles",
+  "glands of montgomery",
+  "glasgow smile",
+  "glass eye",
+  "glowing eye",
+  "glowing mouth",
+  "glowing wings",
+  "googly eyes",
+  "grabbing another's ass",
+  "grabbing another's ear",
+  "grabbing another's wing",
+  "grabbing own ass",
+  "grabbing own wing",
+  "gradient eyeshadow",
+  "gradient wings",
+  "green eyeshadow",
+  "green lips",
+  "green wings",
+  "grey eyeshadow",
+  "grey lips",
+  "grey pupils",
+  "grimace",
+  "grin",
+  "guilt",
+  "gun in pussy",
+  "gyate gyate",
+  "hair around arms",
+  "hair around ear",
+  "hair around horn",
+  "hair around neck",
+  "hair around own leg",
+  "hair bell",
+  "hair bikini",
+  "hair bobbles",
+  "hair bow",
+  "hair brush",
+  "hair down",
+  "hair dryer",
+  "hair extensions",
+  "hair flower",
+  "hair hanging down",
+  "hair horns",
+  "hair ornament",
+  "hair over crotch",
+  "hair ribbon",
+  "hair rings",
+  "hair rollers",
+  "hair scarf",
+  "hair stick",
+  "hair straightener",
+  "hair tie",
+  "hair tubes",
+  "hair up",
+  "hair weapon",
+  "hairband",
+  "hairclip",
+  "hairpods",
+  "halation pupils",
+  "half-closed eyes",
+  "hand mirror",
+  "hand on another's wing",
+  "hands on another's ass",
+  "hands on own ass",
+  "handsfree paizuri",
+  "happy",
+  "head on ass",
+  "head wings",
+  "headband",
+  "headphones",
+  "headphones on breasts",
+  "heart antenna hair",
+  "heart hair bun",
+  "heart in mouth",
+  "heart wings",
+  "heart-shaped eyes",
+  "heart-shaped mouth",
+  "heartbreak haircut",
+  "helicopter hair",
+  "henohenomoheji",
+  "hikimayu",
+  "hip dips",
+  "holding ears",
+  "holding makeup brush",
+  "holding makeup palette",
+  "hole in face",
+  "hollow mouth",
+  "horrified",
+  "horse pussy",
+  "huge afro",
+  "huge clitoris",
+  "huge testicles",
+  "hurt expressions of your wife practice",
+  "ice wings",
+  "inconvenient breasts",
+  "intestine hair",
+  "jacket on shoulders",
+  "jellyfish cut",
+  "kanzashi",
+  "karawamage",
+  "katsuyamamage",
+  "kissing hair",
+  "knife in hair",
+  "kubrick stare",
+  "labia",
+  "lactating into container",
+  "ladybug wings",
+  "lamp",
+  "large clitoris",
+  "large head wings",
+  "large testicles",
+  "lazy eye",
+  "leg wings",
+  "lens eye",
+  "liangbatou",
+  "licking another's hair",
+  "light hawk wings",
+  "light smile",
+  "lightning bolt-shaped pupils",
+  "lip balm",
+  "lipgloss",
+  "lipstick",
+  "lipstick tube",
+  "liquid wings",
+  "liver",
+  "living hair",
+  "lonely",
+  "long legs",
+  "long nipples",
+  "long tongue",
+  "looking around",
+  "looking at another",
+  "looking at breasts",
+  "looking at creature",
+  "looking at crotch",
+  "looking at hand",
+  "looking at hands",
+  "looking at mirror",
+  "looking at object",
+  "looking at penis",
+  "looking at phone",
+  "looking at pussy",
+  "looking at self",
+  "looking outside",
+  "looking over eyewear",
+  "looking through own legs",
+  "lungs",
+  "makeup brush",
+  "makeup palette",
+  "makeup sponge",
+  "mangekyou sharingan",
+  "marquee lights",
+  "marumage",
+  "mascara wand",
+  "mechanical eyes",
+  "mechanical hair",
+  "mechanical wings",
+  "milking machine",
+  "mini wings",
+  "mirror",
+  "mismatched eyebrows",
+  "mismatched eyelashes",
+  "mismatched eyeshadow",
+  "mismatched irises",
+  "mismatched pupils",
+  "missing wings",
+  "mizura",
+  "money-shaped pupils",
+  "mons pubis",
+  "moon-shaped pupils",
+  "mouth drool",
+  "multicolored eyeshadow",
+  "multicolored lips",
+  "multicolored wings",
+  "multiple expressions",
+  "muscle awe",
+  "musical note-shaped pupils",
+  "mutual breast sucking",
+  "nail polish",
+  "nail polish bottle",
+  "nail polish brush",
+  "naizuri",
+  "narrowed eyes",
+  "necktie between breasts",
+  "nervous",
+  "ninja toes",
+  "nipple bar",
+  "nipple bells",
+  "nipple chain",
+  "nipple clamps",
+  "nipple flick",
+  "nipple hair",
+  "nipple injection",
+  "nipple leash",
+  "nipple lock",
+  "nipple penetration",
+  "nipple piercing",
+  "nipple plug",
+  "nipple press",
+  "nipple pull",
+  "nipple push",
+  "nipple ribbon",
+  "nipple rings",
+  "nipple rub",
+  "nipple sleeves",
+  "nipple stretcher",
+  "nipple tag",
+  "nipple torture",
+  "no anus",
+  "no eyes",
+  "no pussy",
+  "no sclera",
+  "nonowa",
+  "nose blush",
+  "nosebleed",
+  "notched ear",
+  "nursing bra",
+  "nursing handjob",
+  "o3o",
+  "o_o",
+  "object behind ear",
+  "object on breast",
+  "object on pectorals",
+  "off shoulder",
+  "off-shoulder bikini",
+  "off-shoulder coat",
+  "off-shoulder dress",
+  "off-shoulder jacket",
+  "off-shoulder leotard",
+  "off-shoulder one-piece swimsuit",
+  "off-shoulder shirt",
+  "off-shoulder sweater",
+  "ohhoai",
+  "ohogao",
+  "one ear down",
+  "one eye closed",
+  "one-eyed",
+  "open mouth",
+  "oppai challenge",
+  "orange eyeshadow",
+  "orange lips",
+  "oseledets",
+  "over shoulder",
+  "oversized breast cup",
+  "oversized wings",
+  "pac-man eyes",
+  "pain",
+  "paizuri",
+  "paizuri on lap",
+  "paizuri over clothes",
+  "paizuri under clothes",
+  "panties on breasts",
+  "parted lips",
+  "partially blind",
+  "pauldrons",
+  "paw-shaped pupils",
+  "penis to breast",
+  "penis under breasts",
+  "pensive",
+  "perpendicular paizuri",
+  "person between breasts",
+  "persona eyes",
+  "phone in pussy",
+  "pierced wings",
+  "pig penis",
+  "pikachu ears",
+  "pink eyeshadow",
+  "pink wings",
+  "pixel eyes",
+  "plant wings",
+  "plastic skin",
+  "pleading eyes",
+  "plugging ears",
+  "plump",
+  "pokemon on shoulder",
+  "portrait",
+  "powder puff",
+  "power symbol-shaped pupils",
+  "powerful breasts",
+  "profile",
+  "projectile lactation",
+  "prostate",
+  "pseudopenis",
+  "puffy cheeks",
+  "puffy sleeves",
+  "purple eyeshadow",
+  "purple lips",
+  "pussy juice in mouth",
+  "quad drills",
+  "quad hair rings",
+  "quiff",
+  "quin tails",
+  "rabbit ear headphones",
+  "rabbit hairstyle",
+  "rabbit on shoulder",
+  "rabbit-shaped pupils",
+  "radiation symbol-shaped pupils",
+  "rainbow eyes",
+  "rainbow wings",
+  "raised eyebrow",
+  "raised eyebrows",
+  "raised inner eyebrows",
+  "rape face",
+  "rectangular pupils",
+  "red eyeshadow",
+  "red pupils",
+  "red wings",
+  "reverse paizuri",
+  "reverse-jointed_legs",
+  "ribbon hair",
+  "ringlets",
+  "rinnegan",
+  "rito",
+  "robot joints",
+  "rolling eyes",
+  "rope braid",
+  "sad",
+  "sad smile",
+  "sangtu",
+  "scared",
+  "scowl",
+  "scrunchie",
+  "seductive smile",
+  "see-through hair",
+  "serious",
+  "shaded face",
+  "shadow hands",
+  "shampoo",
+  "sharingan",
+  "shelf bra",
+  "shirt on shoulders",
+  "shoulder bag",
+  "shoulder blades",
+  "shoulder massage",
+  "shoulder pads",
+  "shoulder phone",
+  "shouten pegasus mix mori",
+  "shy",
+  "sidecut",
+  "sideways glance",
+  "sigh",
+  "single earring",
+  "single hair ring",
+  "single hair tube",
+  "single head wing",
+  "single mechanical eye",
+  "single wing",
+  "single-shoulder dress",
+  "single-shoulder shirt",
+  "single-shoulder sweater",
+  "skeptical",
+  "skinny",
+  "skull-shaped pupils",
+  "slapping breasts",
+  "slapping with breasts",
+  "sleepy",
+  "sleeveless coat",
+  "sleeveless dress",
+  "sleeveless jacket",
+  "sleeveless shirt",
+  "sleeveless sweater",
+  "slightly naughty expressions practice",
+  "slime hair",
+  "small nipples",
+  "small testicles",
+  "smelling ass",
+  "smelling hair",
+  "smile",
+  "smiley face",
+  "smirk",
+  "smug",
+  "snake hair",
+  "snake mouth",
+  "snake penis",
+  "snowflake pupils",
+  "solid oval eyes",
+  "spiked penis",
+  "spiral-only eyes",
+  "spotted hair",
+  "sprout-shaped pupils",
+  "squiggle eyes",
+  "star-shaped hair",
+  "sticker on face",
+  "stifled laugh",
+  "straddling paizuri",
+  "strangling with hair",
+  "strap slip",
+  "strapless bikini",
+  "strapless bra",
+  "strapless dress",
+  "strapless leotard",
+  "strapless one-piece swimsuit",
+  "strapless shirt",
+  "surprised",
+  "sword over shoulder",
+  "symbol-shaped hair",
+  "symbol-shaped pupils",
+  "t_t",
+  "table",
+  "tail",
+  "tawawa challenge",
+  "tears",
+  "tentacles",
+  "text in eyes",
+  "text in mouth",
+  "third eye",
+  "tied breast",
+  "tied nipples",
+  "tiny anus",
+  "topknot",
+  "torn wings",
+  "towel around neck",
+  "transparent wings",
+  "traumatized",
+  "tri drills",
+  "tri hair rings",
+  "tri tails",
+  "triangle hair bun with corners toward head",
+  "triple bun",
+  "troll face",
+  "tube top",
+  "turn pale",
+  "two-tone eyeshadow",
+  "two-tone lips",
+  "unamused",
+  "undersized breast cup",
+  "uneven eyes",
+  "unusually open eyes",
+  "upturned eyes",
+  "uso da",
+  "uwu",
+  "v-shaped eyebrows",
+  "vanity table",
+  "very low bun",
+  "vibrator on nipple",
+  "vitiligo",
+  "void face",
+  "wall-eyed",
+  "wavy mouth",
+  "weapon over shoulder",
+  "wedgie",
+  "weighing breasts",
+  "whipping hair",
+  "white eyeshadow",
+  "white lips",
+  "white wings",
+  "wig",
+  "wince",
+  "wind glider",
+  "wing biting",
+  "wing censor",
+  "wing collar",
+  "wing hold",
+  "wing piercing",
+  "wing ribbon",
+  "wing tattoo",
+  "wing umbrella",
+  "wing-shaped bow",
+  "winged bag",
+  "winged footwear",
+  "winged hairband",
+  "winged hat",
+  "winged helmet",
+  "winged shoes",
+  "winged umbrella",
+  "wingjob",
+  "wings",
+  "wings through clothes",
+  "worried",
+  "wrist wings",
+  "x anus",
+  "x mouth",
+  "x x",
+  "x-shaped pupils",
+  "x3",
+  "x<",
+  "xd",
+  "yellow eyeshadow",
+  "yellow lips",
+  "yellow wings",
+  "yuanbao",
+  "yuiwata",
+  "yurie mouth"
+ ],
+ "states_by_part": {
+  "_always": {
+   "skindentation": {
+    "share": 0.0171,
+    "lift": 1.0,
+    "posts": 162684
+   },
+   "veins": {
+    "share": 0.0049,
+    "lift": 1.0,
+    "posts": 64497
+   },
+   "furrowed brow": {
+    "share": 0.0057,
+    "lift": 1.0,
+    "posts": 70467
+   },
+   "saliva": {
+    "share": 0.0124,
+    "lift": 1.0,
+    "posts": 152609
+   },
+   "facial mark": {
+    "share": 0.0115,
+    "lift": 1.0,
+    "posts": 152688
+   },
+   "armpit crease": {
+    "share": 0.0042,
+    "lift": 1.0,
+    "posts": 40803
+   },
+   "clitoral hood": {
+    "share": 0.0032,
+    "lift": 1.0,
+    "posts": 31895
+   },
+   "drooling": {
+    "share": 0.0058,
+    "lift": 1.0,
+    "posts": 80609
+   }
+  },
+  "biceps": {
+   "bandaged arm": {
+    "share": 0.0126,
+    "lift": 3.66,
+    "posts": 46358
+   }
+  },
+  "feet": {
+   "toes": {
+    "share": 0.6348,
+    "lift": 26.62,
+    "posts": 239912
+   },
+   "soles": {
+    "share": 0.4342,
+    "lift": 29.02,
+    "posts": 149549
+   }
+  },
+  "doll joints": {
+   "joints": {
+    "share": 1.0,
+    "lift": 409.23,
+    "posts": 29327
+   }
+  },
+  "thighs": {
+   "thigh gap": {
+    "share": 0.0296,
+    "lift": 2.91,
+    "posts": 97793
+   }
+  },
+  "thick thighs": {
+   "thigh gap": {
+    "share": 0.0204,
+    "lift": 2.01,
+    "posts": 97793
+   }
+  },
+  "forehead": {
+   "furrowed brow": {
+    "share": 0.0168,
+    "lift": 2.95,
+    "posts": 70467
+   }
+  },
+  "forehead mark": {
+   "facial mark": {
+    "share": 1.0,
+    "lift": 87.14,
+    "posts": 152688
+   }
+  },
+  "median furrow": {
+   "furrowed brow": {
+    "share": 0.0144,
+    "lift": 2.53,
+    "posts": 70467
+   }
+  },
+  "breasts": {
+   "cum on breasts": {
+    "share": 0.0128,
+    "lift": 2.22,
+    "posts": 54487
+   }
+  },
+  "nipples": {
+   "nipple piercing": {
+    "share": 0.0202,
+    "lift": 9.9,
+    "posts": 24118
+   }
+  },
+  "puffy nipples": {
+   "nipple piercing": {
+    "share": 0.0188,
+    "lift": 9.21,
+    "posts": 24118
+   }
+  },
+  "pectorals": {
+   "large pectorals": {
+    "share": 0.4488,
+    "lift": 2581.43,
+    "posts": 57192
+   },
+   "pectoral cleavage": {
+    "share": 0.1514,
+    "lift": 990.59,
+    "posts": 20034
+   }
+  },
+  "pubic hair": {
+   "female pubic hair": {
+    "share": 0.6696,
+    "lift": 52.0,
+    "posts": 127466
+   },
+   "male pubic hair": {
+    "share": 0.367,
+    "lift": 63.56,
+    "posts": 69328
+   },
+   "cum on hair": {
+    "share": 0.0168,
+    "lift": 5.56,
+    "posts": 29851
+   }
+  },
+  "clitoris": {
+   "clitoral hood": {
+    "share": 0.5852,
+    "lift": 183.46,
+    "posts": 31895
+   }
+  },
+  "fat mons": {
+   "clitoral hood": {
+    "share": 0.0472,
+    "lift": 14.8,
+    "posts": 31895
+   }
+  },
+  "penis": {
+   "cum overflow": {
+    "share": 0.054,
+    "lift": 13.05,
+    "posts": 41013
+   },
+   "precum": {
+    "share": 0.034,
+    "lift": 19.57,
+    "posts": 24151
+   }
+  },
+  "animal penis": {
+   "precum": {
+    "share": 0.1152,
+    "lift": 66.32,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.0818,
+    "lift": 19.76,
+    "posts": 41013
+   }
+  },
+  "dog penis": {
+   "precum": {
+    "share": 0.1002,
+    "lift": 57.68,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.0665,
+    "lift": 16.07,
+    "posts": 41013
+   }
+  },
+  "horse penis": {
+   "precum": {
+    "share": 0.1227,
+    "lift": 70.63,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.0943,
+    "lift": 22.78,
+    "posts": 41013
+   }
+  },
+  "knotted penis": {
+   "precum": {
+    "share": 0.1066,
+    "lift": 61.36,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.089,
+    "lift": 21.5,
+    "posts": 41013
+   }
+  },
+  "covered penis": {
+   "precum": {
+    "share": 0.0684,
+    "lift": 39.37,
+    "posts": 24151
+   }
+  },
+  "foreskin": {
+   "clitoral hood": {
+    "share": 0.0156,
+    "lift": 4.89,
+    "posts": 31895
+   }
+  },
+  "gigantic penis": {
+   "precum": {
+    "share": 0.1608,
+    "lift": 92.57,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.0625,
+    "lift": 15.1,
+    "posts": 41013
+   }
+  },
+  "huge penis": {
+   "precum": {
+    "share": 0.129,
+    "lift": 74.26,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.0544,
+    "lift": 13.14,
+    "posts": 41013
+   }
+  },
+  "large penis": {
+   "precum": {
+    "share": 0.0994,
+    "lift": 57.22,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.0506,
+    "lift": 12.23,
+    "posts": 41013
+   }
+  },
+  "small penis": {
+   "precum": {
+    "share": 0.074,
+    "lift": 42.6,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.0244,
+    "lift": 5.9,
+    "posts": 41013
+   }
+  },
+  "veiny penis": {
+   "precum": {
+    "share": 0.1176,
+    "lift": 67.7,
+    "posts": 24151
+   },
+   "cum overflow": {
+    "share": 0.0588,
+    "lift": 14.21,
+    "posts": 41013
+   }
+  },
+  "teeth": {
+   "sharp teeth": {
+    "share": 0.1682,
+    "lift": 20.51,
+    "posts": 124321
+   },
+   "round teeth": {
+    "share": 0.0252,
+    "lift": 14.75,
+    "posts": 20050
+   }
+  },
+  "animal ears": {
+   "animal ear fluff": {
+    "share": 0.2148,
+    "lift": 6.36,
+    "posts": 366900
+   },
+   "animal ear piercing": {
+    "share": 0.012,
+    "lift": 5.92,
+    "posts": 23519
+   }
+  },
+  "tail": {
+   "dragon tail": {
+    "share": 0.0352,
+    "lift": 8.85,
+    "posts": 48397
+   },
+   "fish tail": {
+    "share": 0.0236,
+    "lift": 8.91,
+    "posts": 28697
+   }
+  }
+ },
+ "ruled_typed_only": [
+  "bald",
+  "bald female",
+  "bald girl",
+  "balding",
+  "fat",
+  "plump",
+  "skinny"
+ ]
+}

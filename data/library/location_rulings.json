@@ -1,0 +1,100 @@
+{
+ "_note": "the author's rulings on the location pool (2026-09-15), applied by tools/build/build_location_pool.py after the wiki harvest and by the resolver's alias map: `discard` leaves the pool; `alias` maps a typed word to the pool place that stands for it (a discarded name may keep an alias); `rename` moves a wiki name to the booru's tag; `parent` gives a small measured place the tables (garments, related, lifts) of the place it specialises; `add` puts a booru tag the wiki page never listed into the pool with its kind. `typed_only` on an added place: measured and typed, never rolled (hair salon, 2026-09-15: 'salon' is the hair salon, not the saloon). `genres`: a place rolled only inside those genre leaves (slums: dark fantasy, horror -- 2026-09-15). `floor`: a pool place under this many posts is typed-only unless it carries `genres` (the small-tag places ruling). `generic`: a place word with no pool place of its own ('room', 'house', 'street') is the typed place with the stated kind -- the roll never overrides it with a city (2026-09-15).",
+ "discard": [
+  "amphitheater",
+  "drydock",
+  "gym",
+  "marina",
+  "minaret",
+  "mosque",
+  "motel",
+  "nuclear powerplant",
+  "power plant",
+  "refinery",
+  "salt flats",
+  "school entrance",
+  "staff room",
+  "subway entrance",
+  "synagogue",
+  "tomb",
+  "watchtower"
+ ],
+ "alias": {
+  "school entrance": "school",
+  "tomb": "graveyard",
+  "cemetery": "graveyard",
+  "drydock": "dock",
+  "marina": "harbor",
+  "minaret": "church",
+  "mosque": "church",
+  "motel": "love hotel",
+  "staff room": "office",
+  "subway entrance": "subway",
+  "synagogue": "church",
+  "salt flats": "desert",
+  "gym": "fitness gym",
+  "salon": "hair salon",
+  "beauty salon": "hair salon",
+  "watchtower": "tower"
+ },
+ "rename": {},
+ "add": {
+  "saloon": {
+   "kind": "indoor",
+   "parent": "tavern",
+   "note": "added on a misreading of 'salon' (2026-09-15); kept as a measured place, parent tavern"
+  },
+  "morgue": {
+   "kind": "indoor",
+   "parent": "hospital"
+  },
+  "oil rig": {
+   "kind": "outdoor-manmade",
+   "parent": "industrial"
+  },
+  "pharmacy": {
+   "kind": "indoor",
+   "parent": "shop"
+  },
+  "sex shop": {
+   "kind": "indoor",
+   "parent": "shop"
+  },
+  "weapon shop": {
+   "kind": "indoor",
+   "parent": "shop"
+  },
+  "hair salon": {
+   "kind": "indoor",
+   "typed_only": true
+  }
+ },
+ "parent": {
+  "saloon": "tavern",
+  "morgue": "hospital",
+  "oil rig": "industrial",
+  "pharmacy": "shop",
+  "sex shop": "shop",
+  "weapon shop": "shop"
+ },
+ "genres": {
+  "slums": [
+   "dark fantasy",
+   "horror"
+  ]
+ },
+ "floor": 100,
+ "generic": {
+  "room": "indoor",
+  "house": "building",
+  "home": "indoor",
+  "building": "building",
+  "street": "outdoor-manmade",
+  "outside": "outdoor-natural",
+  "inside": "indoor",
+  "town": "outdoor-manmade",
+  "village": "outdoor-manmade",
+  "city": "outdoor-manmade",
+  "water": "outdoor-natural"
+ }
+}

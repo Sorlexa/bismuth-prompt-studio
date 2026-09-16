@@ -1,0 +1,333 @@
+{
+ "_note": "the medium axis, measured from danbooru's *_(medium) family (category 5 -- meta, which the tag harvest used to exclude entirely). Rebuilt by tools/build/build_medium_pool.py.",
+ "roll": {
+  "traditional media": {
+   "posts": 126117,
+   "kind": "traditional",
+   "nl": "traditional media on paper, visible tooth and hand texture"
+  },
+  "pixel art": {
+   "posts": 31620,
+   "kind": "digital",
+   "nl": "grid-locked pixel art, low-resolution retro clarity"
+  },
+  "painting (medium)": {
+   "posts": 31055,
+   "kind": "traditional",
+   "nl": "painting"
+  },
+  "3d": {
+   "posts": 29377,
+   "kind": "digital",
+   "nl": "3D render, clean CGI surfaces and global illumination"
+  },
+  "photo (medium)": {
+   "posts": 26665,
+   "kind": "photo",
+   "nl": "a photograph, real lens optics, depth of field and grain"
+  },
+  "watercolor (medium)": {
+   "posts": 22451,
+   "kind": "traditional",
+   "nl": "translucent watercolor washes, paper bleeding, soft wet edges"
+  },
+  "marker (medium)": {
+   "posts": 18296,
+   "kind": "traditional",
+   "nl": "bold marker strokes, flat alcohol-marker blending"
+  },
+  "graphite (medium)": {
+   "posts": 13540,
+   "kind": "traditional",
+   "nl": "graphite pencil, soft grey gradients and smudged shading"
+  },
+  "colored pencil (medium)": {
+   "posts": 7509,
+   "kind": "traditional",
+   "nl": "colored pencil, layered waxy strokes with paper grain"
+  },
+  "pen (medium)": {
+   "posts": 6522,
+   "kind": "traditional",
+   "nl": "pen"
+  },
+  "stained glass": {
+   "posts": 6075,
+   "kind": "craft",
+   "nl": "stained glass, colored panels separated by heavy lead lines"
+  },
+  "acrylic paint (medium)": {
+   "posts": 2904,
+   "kind": "traditional",
+   "nl": "acrylic paint, opaque confident brushwork"
+  },
+  "millipen (medium)": {
+   "posts": 2481,
+   "kind": "traditional",
+   "nl": "millipen"
+  },
+  "oil painting (medium)": {
+   "posts": 1744,
+   "kind": "traditional",
+   "nl": "oil paint, heavy impasto texture and rich layered blending"
+  },
+  "nib pen (medium)": {
+   "posts": 1557,
+   "kind": "traditional",
+   "nl": "nib pen"
+  },
+  "ballpoint pen (medium)": {
+   "posts": 1071,
+   "kind": "traditional",
+   "nl": "ballpoint pen"
+  },
+  "ink (medium)": {
+   "posts": 974,
+   "kind": "traditional",
+   "nl": "ink, high-contrast brushwork and controlled bleed"
+  },
+  "calligraphy brush (medium)": {
+   "posts": 836,
+   "kind": "traditional",
+   "nl": "calligraphy brush"
+  },
+  "watercolor pencil (medium)": {
+   "posts": 835,
+   "kind": "traditional",
+   "nl": "watercolor pencil"
+  },
+  "pastel (medium)": {
+   "posts": 747,
+   "kind": "traditional",
+   "nl": "soft pastel, powdery blended color"
+  },
+  "papercraft (medium)": {
+   "posts": 594,
+   "kind": "traditional",
+   "nl": "papercraft"
+  },
+  "masking tape (medium)": {
+   "posts": 342,
+   "kind": "traditional",
+   "nl": "masking tape"
+  },
+  "color ink (medium)": {
+   "posts": 311,
+   "kind": "traditional",
+   "nl": "color ink"
+  },
+  "gouache (medium)": {
+   "posts": 269,
+   "kind": "traditional",
+   "nl": "gouache"
+  },
+  "collage (medium)": {
+   "posts": 254,
+   "kind": "traditional",
+   "nl": "collage"
+  },
+  "blueprint (medium)": {
+   "posts": 214,
+   "kind": "traditional",
+   "nl": "blueprint"
+  },
+  "paper cutout (medium)": {
+   "posts": 162,
+   "kind": "traditional",
+   "nl": "paper cutout"
+  },
+  "mosaic art": {
+   "posts": 126,
+   "kind": "traditional",
+   "nl": "mosaic art"
+  },
+  "crayon (medium)": {
+   "posts": 121,
+   "kind": "traditional",
+   "nl": "crayon"
+  },
+  "airbrush (medium)": {
+   "posts": 80,
+   "kind": "traditional",
+   "nl": "airbrush"
+  },
+  "charcoal (medium)": {
+   "posts": 78,
+   "kind": "traditional",
+   "nl": "charcoal"
+  },
+  "acrylic gouache (medium)": {
+   "posts": 70,
+   "kind": "traditional",
+   "nl": "acrylic gouache"
+  },
+  "coupy pencil (medium)": {
+   "posts": 64,
+   "kind": "traditional",
+   "nl": "coupy pencil"
+  },
+  "_rule": "the dice pool: share-weighted. Only true make-methods a user would recognize as a finished render. lineart/sketch are states of completion, oekaki is app-culture meta -- mappable, never rolled."
+ },
+ "map_only": {
+  "photoshop (medium)": 709684,
+  "sketch": 194276,
+  "card (medium)": 35495,
+  "dakimakura (medium)": 28001,
+  "oekaki": 27708,
+  "lineart": 16507,
+  "painttool sai (medium)": 14440,
+  "clip studio paint (medium)": 13029,
+  "procreate (medium)": 7908,
+  "screentones": 5701,
+  "faux traditional media": 5084,
+  "blender (medium)": 4259,
+  "sticker (medium)": 3360,
+  "paint.net (medium)": 3337,
+  "calendar (medium)": 3229,
+  "tarot (medium)": 2830,
+  "poster (medium)": 2317,
+  "gimp (medium)": 2215,
+  "unconventional media": 2197,
+  "ibispaint (medium)": 2066,
+  "vector trace": 2037,
+  "figure (medium)": 2036,
+  "photorealistic": 1751,
+  "nib pen (medium)": 1555,
+  "movie poster (medium)": 1453,
+  "koikatsu (medium)": 1273,
+  "paint chat (medium)": 1219,
+  "microsoft paint (medium)": 1185,
+  "mikumikudance (medium)": 1149,
+  "ballpoint pen (medium)": 1071,
+  "watercolor pencil (medium)": 835,
+  "krita (medium)": 742,
+  "spine (medium)": 712,
+  "source filmmaker (medium)": 703,
+  "mousepad (medium)": 606,
+  "playing card (medium)": 537,
+  "zbrush (medium)": 355,
+  "maya (medium)": 338,
+  "medibang paint (medium)": 280,
+  "flipnote studio (medium)": 257,
+  "aseprite (medium)": 228,
+  "double dakimakura (medium)": 214,
+  "autodesk 3ds max (medium)": 195,
+  "acrylic stand (medium)": 182,
+  "magma (medium)": 177,
+  "lego (medium)": 164,
+  "food art (medium)": 162,
+  "phonecard (medium)": 161,
+  "drawpile (medium)": 160,
+  "adobe animate (medium)": 127,
+  "clear file (medium)": 121,
+  "map (medium)": 119,
+  "postage stamp (medium)": 119,
+  "model kit (medium)": 112,
+  "adobe firefly (medium)": 110,
+  "cinema 4d (medium)": 110,
+  "brush (medium)": 109,
+  "cursor (medium)": 104,
+  "emotelab (medium)": 98,
+  "opencanvas (medium)": 95,
+  "huashijie (medium)": 95,
+  "easytoon (medium)": 94,
+  "adobe illustrator (medium)": 93,
+  "vrchat (medium)": 92,
+  "picrew (medium)": 91,
+  "alight motion (medium)": 85,
+  "print (medium)": 81,
+  "halftone dot (medium)": 80,
+  "magicaldraw (medium)": 78,
+  "doll (medium)": 78,
+  "daz studio (medium)": 75,
+  "shitajiki (medium)": 73,
+  "rebelle (medium)": 72,
+  "tapestry (medium)": 68,
+  "after effects (medium)": 67,
+  "clay (medium)": 67,
+  "uchiwa (medium)": 66,
+  "latte art (medium)": 65,
+  "garry's mod (medium)": 65,
+  "corel painter (medium)": 65,
+  "unreal engine (medium)": 63,
+  "sticker sheet (medium)": 60,
+  "xnalara (medium)": 60,
+  "autodesk sketchbook (medium)": 60,
+  "_rule": "reachable by typing or by bridge-2 mapping, never by dice: completion states, print artifacts, imitations, niche pens."
+ },
+ "typed_surfaces": {
+  "_rule": "how humans type a medium -> the canonical tag. FIXED MAP, whole-word match on the raw prompt (the map_age precedent -- no fuzzy retrieval for a closed family).",
+  "watercolor": "watercolor (medium)",
+  "watercolour": "watercolor (medium)",
+  "oil painting": "oil painting (medium)",
+  "oil paint": "oil painting (medium)",
+  "oils": "oil painting (medium)",
+  "marker": "marker (medium)",
+  "copic": "marker (medium)",
+  "graphite": "graphite (medium)",
+  "pencil drawing": "graphite (medium)",
+  "colored pencil": "colored pencil (medium)",
+  "colored pencils": "colored pencil (medium)",
+  "acrylic": "acrylic paint (medium)",
+  "acrylics": "acrylic paint (medium)",
+  "ink drawing": "ink (medium)",
+  "inked": "ink (medium)",
+  "pastels": "pastel (medium)",
+  "soft pastel": "pastel (medium)",
+  "pixel art": "pixel art",
+  "pixelart": "pixel art",
+  "8-bit": "pixel art",
+  "16-bit": "pixel art",
+  "3d render": "3d",
+  "3d": "3d",
+  "cgi": "3d",
+  "render": "3d",
+  "photograph": "photo (medium)",
+  "photo": "photo (medium)",
+  "photography": "photo (medium)",
+  "analog photo": "photo (medium)",
+  "film photo": "photo (medium)",
+  "stained glass": "stained glass",
+  "traditional media": "traditional media",
+  "traditional art": "traditional media",
+  "sketch": "sketch",
+  "lineart": "lineart",
+  "line art": "lineart",
+  "screentone": "screentones",
+  "screentones": "screentones",
+  "photorealistic": "photorealistic",
+  "photoreal": "photorealistic",
+  "vector": "vector trace",
+  "hand-drawn": "traditional media",
+  "hand drawn": "traditional media",
+  "handdrawn": "traditional media"
+ },
+ "rider": {
+  "_rule": "danbooru convention: a traditional child tag rides with 'traditional media'.",
+  "implies_traditional": [
+   "watercolor (medium)",
+   "marker (medium)",
+   "graphite (medium)",
+   "colored pencil (medium)",
+   "oil painting (medium)",
+   "acrylic paint (medium)",
+   "ink (medium)",
+   "pastel (medium)",
+   "nib pen (medium)",
+   "ballpoint pen (medium)",
+   "watercolor pencil (medium)"
+  ]
+ },
+ "rejected_dead": {
+  "woodblock print": 0,
+  "charcoal (medium)": 78,
+  "papercraft": 40,
+  "gouache (medium)": 269,
+  "crayon (medium)": 121,
+  "airbrush (medium)": 80,
+  "mosaic art": 124,
+  "tempera (medium)": 3,
+  "spray paint (medium)": 0,
+  "claymation": "absent"
+ }
+}

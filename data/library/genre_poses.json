@@ -1,0 +1,9799 @@
+{
+ "_note": "POSE table (the author's 2026-09-04): one BASE stance always for a main character, rolled by place class inside the genre leaf (default by place kind); optional slots (legs, arms, hands, torso) stack under their constraints; pairs for two main characters. Floors gate by spice. Written by tools/build/write_genre_poses.py -- edit the script.",
+ "bases": [
+  "standing",
+  "sitting",
+  "lying",
+  "kneeling",
+  "squatting",
+  "wariza",
+  "straddling",
+  "all fours",
+  "floating",
+  "walking",
+  "seiza",
+  "running",
+  "flying",
+  "fighting stance",
+  "jumping",
+  "top-down bottom-up",
+  "yokozuwari",
+  "stretching",
+  "indian style",
+  "falling",
+  "midair",
+  "reclining"
+ ],
+ "lying_detail": [
+  "on back",
+  "on side",
+  "on stomach"
+ ],
+ "slots": {
+  "legs": {
+   "share": 0.25,
+   "items": {
+    "on one knee": {
+     "posts": 18897,
+     "requires": [
+      "standing",
+      "kneeling",
+      "sitting"
+     ]
+    },
+    "crossed legs": {
+     "posts": 106945,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "legs apart": {
+     "posts": 47025,
+     "requires": [
+      "standing"
+     ]
+    },
+    "standing on one leg": {
+     "posts": 127616,
+     "requires": [
+      "standing"
+     ]
+    },
+    "knees apart feet together": {
+     "posts": 4225,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "knees together feet apart": {
+     "posts": 42138,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "knee up": {
+     "posts": 58981,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "knees up": {
+     "posts": 82266,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "crossed ankles": {
+     "posts": 8297,
+     "requires": [
+      "sitting",
+      "lying"
+     ]
+    },
+    "folded": {
+     "posts": 18142,
+     "requires": [
+      "lying",
+      "on back"
+     ]
+    },
+    "leg up": {
+     "posts": 112431,
+     "requires": [
+      "standing"
+     ]
+    },
+    "legs up": {
+     "posts": 47648,
+     "requires": [
+      "lying",
+      "on back"
+     ]
+    },
+    "knees to chest": {
+     "posts": 7456,
+     "requires": [
+      "sitting",
+      "lying",
+      "on back"
+     ]
+    },
+    "legs over head": {
+     "posts": 1970,
+     "requires": [
+      "lying",
+      "on back"
+     ]
+    },
+    "leg lift": {
+     "posts": 21495,
+     "requires": [
+      "standing",
+      "lying"
+     ]
+    },
+    "outstretched leg": {
+     "posts": 2326,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "split": {
+     "posts": 16381,
+     "requires": [
+      "standing"
+     ]
+    },
+    "standing split": {
+     "posts": 13551,
+     "requires": [
+      "standing"
+     ]
+    },
+    "spread legs": {
+     "posts": 352162,
+     "requires": [
+      "lying",
+      "on back",
+      "sitting"
+     ]
+    },
+    "watson cross": {
+     "posts": 5197,
+     "requires": [
+      "standing"
+     ]
+    },
+    "bowlegged pose": {
+     "posts": 2505,
+     "requires": [
+      "standing",
+      "lying",
+      "on back",
+      "sitting",
+      "squatting"
+     ]
+    }
+   }
+  },
+  "arms": {
+   "share": 0.3,
+   "items": {
+    "hugging own legs": {
+     "posts": 19714,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "arm behind back": {
+     "posts": 54843,
+     "requires": [
+      "standing"
+     ]
+    },
+    "arms behind back": {
+     "posts": 125392,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "arm up": {
+     "posts": 306697,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "arm behind head": {
+     "posts": 52027,
+     "requires": [
+      "standing",
+      "sitting",
+      "lying",
+      "on back"
+     ]
+    },
+    "akanbe": {
+     "posts": 2539,
+     "requires": [
+      "standing",
+      "sitting",
+      "leaning forward"
+     ]
+    },
+    "salute": {
+     "posts": 20865,
+     "requires": [
+      "standing"
+     ]
+    },
+    "shushing": {
+     "posts": 11977,
+     "requires": [
+      "sitting",
+      "standing",
+      "lying"
+     ]
+    },
+    "v over eye": {
+     "posts": 10271,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "waving": {
+     "posts": 40786,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "arms up": {
+     "posts": 264158,
+     "requires": [
+      "standing",
+      "lying",
+      "on back",
+      "sitting"
+     ]
+    },
+    "\\o/": {
+     "posts": 2084,
+     "requires": [
+      "standing",
+      "jumping",
+      "sitting"
+     ]
+    },
+    "arms behind head": {
+     "posts": 72969,
+     "requires": [
+      "standing",
+      "lying",
+      "on back",
+      "sitting"
+     ]
+    },
+    "heart hands": {
+     "posts": 41258,
+     "requires": [
+      "standing"
+     ]
+    },
+    "finger frame": {
+     "posts": 2349,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "outstretched arm": {
+     "posts": 94688,
+     "requires": [
+      "standing"
+     ]
+    },
+    "outstretched arms": {
+     "posts": 93488,
+     "requires": [
+      "standing"
+     ]
+    },
+    "spread arms": {
+     "posts": 28612,
+     "requires": [
+      "standing"
+     ]
+    },
+    "arm at side": {
+     "posts": 66045,
+     "requires": [
+      "standing"
+     ]
+    },
+    "arms at sides": {
+     "posts": 39271,
+     "requires": [
+      "standing"
+     ]
+    },
+    "hugging object": {
+     "posts": 33049,
+     "requires": [
+      "lying",
+      "sitting",
+      "on stomach",
+      "on side"
+     ]
+    },
+    "hugging tail": {
+     "posts": 1643,
+     "requires": [
+      "lying",
+      "sitting",
+      "on side"
+     ]
+    },
+    "arm support": {
+     "posts": 119476,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "head rest": {
+     "posts": 45306,
+     "requires": [
+      "sitting",
+      "lying"
+     ]
+    },
+    "crossed arms": {
+     "posts": 123010,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "flexing": {
+     "posts": 5078,
+     "requires": [
+      "standing"
+     ]
+    },
+    "reaching": {
+     "posts": 49956,
+     "requires": [
+      "standing",
+      "sitting",
+      "lying"
+     ]
+    },
+    "shrugging": {
+     "posts": 1431,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "a-pose": {
+     "posts": 1218,
+     "requires": [
+      "standing"
+     ]
+    },
+    "v arms": {
+     "posts": 33210,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "w arms": {
+     "posts": 7644,
+     "requires": [
+      "standing"
+     ]
+    }
+   }
+  },
+  "hands": {
+   "share": 0.2,
+   "items": {
+    "stroking own chin": {
+     "posts": 3128,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "outstretched hand": {
+     "posts": 32702,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own ear": {
+     "posts": 1822,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "hand on own ass": {
+     "posts": 10685,
+     "requires": [
+      "lying",
+      "standing",
+      "on side",
+      "bent over",
+      "leaning forward",
+      "sitting"
+     ]
+    },
+    "hand in pocket": {
+     "posts": 53192,
+     "requires": [
+      "standing"
+     ]
+    },
+    "v": {
+     "posts": 238565,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "interlocked fingers": {
+     "posts": 68805,
+     "requires": [
+      "lying",
+      "sitting",
+      "standing",
+      "on back",
+      "straddling"
+     ]
+    },
+    "own hands clasped": {
+     "posts": 22534,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "own hands together": {
+     "posts": 116838,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "beckoning": {
+     "posts": 3603,
+     "requires": [
+      "standing",
+      "sitting",
+      "lying"
+     ]
+    },
+    "twirling hair": {
+     "posts": 5685,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "index finger raised": {
+     "posts": 75300,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "middle finger": {
+     "posts": 8420,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "pinky out": {
+     "posts": 9652,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "thumbs down": {
+     "posts": 1230,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "thumbs up": {
+     "posts": 20312,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "clenched hands": {
+     "posts": 61857,
+     "requires": [
+      "standing"
+     ]
+    },
+    "cupping hands": {
+     "posts": 2854,
+     "requires": [
+      "sitting",
+      "standing",
+      "kneeling"
+     ]
+    },
+    "double v": {
+     "posts": 43352,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "double \\m/": {
+     "posts": 1476,
+     "requires": [
+      "standing"
+     ]
+    },
+    "fidgeting": {
+     "posts": 1526,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "finger counting": {
+     "posts": 1569,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "fist bump": {
+     "posts": 1413,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "heart arms": {
+     "posts": 1046,
+     "requires": [
+      "standing"
+     ]
+    },
+    "high five": {
+     "posts": 1157,
+     "requires": [
+      "standing"
+     ]
+    },
+    "index fingers together": {
+     "posts": 4184,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "open hands": {
+     "posts": 11837,
+     "requires": [
+      "standing"
+     ]
+    },
+    "steepled fingers": {
+     "posts": 11117,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "x fingers": {
+     "posts": 1055,
+     "requires": [
+      "standing",
+      "sitting",
+      "lying",
+      "on back"
+     ]
+    },
+    "heart hands duo": {
+     "posts": 5791,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "bowing": {
+     "posts": 3011,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "curtsey": {
+     "posts": 2702,
+     "requires": [
+      "standing"
+     ]
+    },
+    "heart tail": {
+     "posts": 3278,
+     "requires": [
+      "sitting",
+      "standing",
+      "lying"
+     ]
+    },
+    "kuji-in": {
+     "posts": 2215,
+     "requires": [
+      "standing"
+     ]
+    },
+    "pointing": {
+     "posts": 94229,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "pointing at another": {
+     "posts": 4721,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "pointing at self": {
+     "posts": 10451,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "pointing at viewer": {
+     "posts": 17833,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "pointing forward": {
+     "posts": 1943,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "pointing up": {
+     "posts": 9062,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "\\m/": {
+     "posts": 9862,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "ok sign": {
+     "posts": 6124,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "w": {
+     "posts": 29812,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "\\n/": {
+     "posts": 2099,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "finger gun": {
+     "posts": 7918,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "finger heart": {
+     "posts": 3965,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "fox shadow puppet": {
+     "posts": 12279,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "two-finger salute": {
+     "posts": 1855,
+     "requires": [
+      "standing"
+     ]
+    },
+    "l hand": {
+     "posts": 1555,
+     "requires": [
+      "standing"
+     ]
+    },
+    "gyaru v": {
+     "posts": 2678,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "inward v": {
+     "posts": 1065,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "v over mouth": {
+     "posts": 2867,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "fellatio gesture": {
+     "posts": 6258,
+     "requires": [
+      "squatting",
+      "sitting",
+      "standing"
+     ]
+    },
+    "handjob gesture": {
+     "posts": 1277,
+     "requires": [
+      "sitting",
+      "standing",
+      "squatting"
+     ]
+    },
+    "hat tip": {
+     "posts": 2240,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "oral invitation": {
+     "posts": 2679,
+     "requires": [
+      "sitting",
+      "squatting",
+      "kneeling"
+     ]
+    },
+    "clenched hand": {
+     "posts": 87959,
+     "requires": [
+      "standing"
+     ]
+    },
+    "curled fingers": {
+     "posts": 5259,
+     "requires": [
+      "standing",
+      "lying",
+      "sitting",
+      "on back"
+     ]
+    },
+    "fist pump": {
+     "posts": 1130,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "raised fist": {
+     "posts": 2833,
+     "requires": [
+      "standing"
+     ]
+    },
+    "facepalm": {
+     "posts": 1823,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "open hand": {
+     "posts": 25589,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "spread fingers": {
+     "posts": 5626,
+     "requires": [
+      "standing"
+     ]
+    }
+   }
+  },
+  "torso": {
+   "share": 0.15,
+   "items": {
+    "fetal position": {
+     "posts": 4878,
+     "requires": [
+      "lying",
+      "on side"
+     ]
+    },
+    "butterfly sitting": {
+     "posts": 1578,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "figure four sitting": {
+     "posts": 1226,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "sitting on person": {
+     "posts": 34490,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "sitting on lap": {
+     "posts": 18395,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "upright straddle": {
+     "posts": 7897,
+     "requires": [
+      "straddling"
+     ]
+    },
+    "balancing": {
+     "posts": 2160,
+     "requires": [
+      "standing"
+     ]
+    },
+    "sway back": {
+     "posts": 1066,
+     "requires": [
+      "standing"
+     ]
+    },
+    "crawling": {
+     "posts": 1528,
+     "requires": [
+      "all fours",
+      "sitting",
+      "lying"
+     ]
+    },
+    "arched back": {
+     "posts": 24881,
+     "requires": [
+      "standing",
+      "leaning forward",
+      "lying",
+      "sitting"
+     ]
+    },
+    "bent over": {
+     "posts": 84769,
+     "requires": [
+      "standing",
+      "leaning forward"
+     ]
+    },
+    "leaning back": {
+     "posts": 26249,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "leaning forward": {
+     "posts": 163615,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "slouching": {
+     "posts": 1056,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "twisted torso": {
+     "posts": 10137,
+     "requires": [
+      "standing",
+      "lying"
+     ]
+    },
+    "prostration": {
+     "posts": 1127,
+     "requires": [
+      "all fours",
+      "sitting",
+      "standing",
+      "kneeling"
+     ]
+    },
+    "upside-down": {
+     "posts": 34872,
+     "requires": [
+      "lying",
+      "on back"
+     ]
+    },
+    "handstand": {
+     "posts": 1876,
+     "requires": [
+      "standing",
+      "sitting",
+      "lying"
+     ]
+    }
+   }
+  },
+  "hands_self": {
+   "share": 0.2,
+   "items": {
+    "grabbing own breast": {
+     "posts": 25453,
+     "requires": [
+      "sitting",
+      "lying",
+      "on back",
+      "standing"
+     ]
+    },
+    "guided breast grab": {
+     "posts": 2489,
+     "requires": [
+      "straddling",
+      "sitting",
+      "lying",
+      "standing",
+      "on back"
+     ]
+    },
+    "breast lift": {
+     "posts": 9148,
+     "requires": [
+      "standing",
+      "sitting",
+      "lying"
+     ]
+    },
+    "breasts squeezed together": {
+     "posts": 37902,
+     "requires": [
+      "lying",
+      "on back",
+      "sitting",
+      "standing"
+     ]
+    },
+    "breast suppress": {
+     "posts": 8392,
+     "requires": [
+      "standing",
+      "lying",
+      "sitting",
+      "on back"
+     ]
+    },
+    "groping": {
+     "posts": 133503,
+     "requires": [
+      "lying",
+      "on back",
+      "standing",
+      "sitting",
+      "straddling"
+     ]
+    },
+    "arm between breasts": {
+     "posts": 2598,
+     "requires": [
+      "sitting",
+      "lying",
+      "standing",
+      "on back"
+     ]
+    },
+    "nipple tweak": {
+     "posts": 24123,
+     "requires": [
+      "lying",
+      "sitting",
+      "on back",
+      "standing",
+      "straddling"
+     ]
+    },
+    "hand on own crotch": {
+     "posts": 1507,
+     "requires": [
+      "sitting",
+      "lying",
+      "on back"
+     ]
+    },
+    "hand on own hip": {
+     "posts": 230284,
+     "requires": [
+      "standing"
+     ]
+    },
+    "hands on own hips": {
+     "posts": 44768,
+     "requires": [
+      "standing"
+     ]
+    },
+    "hand on own leg": {
+     "posts": 6996,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "hands on own legs": {
+     "posts": 1640,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "hand on own thigh": {
+     "posts": 20852,
+     "requires": [
+      "sitting",
+      "standing",
+      "leaning forward",
+      "lying"
+     ]
+    },
+    "hands on own thighs": {
+     "posts": 5081,
+     "requires": [
+      "sitting",
+      "leaning forward",
+      "standing"
+     ]
+    },
+    "hand on own knee": {
+     "posts": 18299,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "hands on own knees": {
+     "posts": 10124,
+     "requires": [
+      "sitting",
+      "leaning forward",
+      "standing",
+      "squatting"
+     ]
+    },
+    "hand between own legs": {
+     "posts": 36677,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "adjusting eyewear": {
+     "posts": 31796,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own head": {
+     "posts": 24489,
+     "requires": [
+      "sitting",
+      "standing",
+      "lying",
+      "on back"
+     ]
+    },
+    "hands on own head": {
+     "posts": 5956,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own face": {
+     "posts": 73563,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "hands on own face": {
+     "posts": 26218,
+     "requires": [
+      "sitting",
+      "standing",
+      "lying"
+     ]
+    },
+    "hand on own forehead": {
+     "posts": 2878,
+     "requires": [
+      "lying",
+      "on back",
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own cheek": {
+     "posts": 37736,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "hands on own cheeks": {
+     "posts": 14141,
+     "requires": [
+      "sitting",
+      "standing",
+      "lying",
+      "squatting"
+     ]
+    },
+    "hand on own chin": {
+     "posts": 29680,
+     "requires": [
+      "sitting",
+      "standing"
+     ]
+    },
+    "hands on own chin": {
+     "posts": 1313,
+     "requires": [
+      "sitting",
+      "lying",
+      "squatting",
+      "standing"
+     ]
+    },
+    "head on hand": {
+     "posts": 3745,
+     "requires": [
+      "sitting",
+      "lying"
+     ]
+    },
+    "hand on headwear": {
+     "posts": 25353,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own neck": {
+     "posts": 3509,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own chest": {
+     "posts": 89941,
+     "requires": [
+      "standing",
+      "sitting",
+      "lying"
+     ]
+    },
+    "hands on own chest": {
+     "posts": 21036,
+     "requires": [
+      "standing",
+      "lying",
+      "on back",
+      "sitting"
+     ]
+    },
+    "hand on own shoulder": {
+     "posts": 3559,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own stomach": {
+     "posts": 12903,
+     "requires": [
+      "lying",
+      "on back"
+     ]
+    },
+    "hands on own stomach": {
+     "posts": 2796,
+     "requires": [
+      "lying",
+      "on back",
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own arm": {
+     "posts": 21614,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "hand on own elbow": {
+     "posts": 2424,
+     "requires": [
+      "standing"
+     ]
+    },
+    "hands in pockets": {
+     "posts": 34670,
+     "requires": [
+      "standing"
+     ]
+    }
+   }
+  },
+  "feet": {
+   "share": 0.1,
+   "items": {
+    "dorsiflexion": {
+     "posts": 2005,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "pigeon-toed": {
+     "posts": 14960,
+     "requires": [
+      "standing"
+     ]
+    },
+    "plantar flexion": {
+     "posts": 5008,
+     "requires": [
+      "sitting",
+      "lying",
+      "standing"
+     ]
+    },
+    "toe scrunch": {
+     "posts": 7016,
+     "requires": [
+      "sitting",
+      "lying",
+      "on back"
+     ]
+    },
+    "tiptoes": {
+     "posts": 18519,
+     "requires": [
+      "squatting",
+      "standing"
+     ]
+    },
+    "en pointe": {
+     "posts": 1008,
+     "requires": [
+      "standing"
+     ]
+    },
+    "foot dangle": {
+     "posts": 1152,
+     "requires": [
+      "sitting"
+     ]
+    },
+    "the pose": {
+     "posts": 12820,
+     "requires": [
+      "lying",
+      "on stomach"
+     ]
+    }
+   }
+  },
+  "named": {
+   "share": 0.08,
+   "items": {
+    "contrapposto": {
+     "posts": 37736,
+     "requires": [
+      "standing"
+     ]
+    },
+    "rabbit pose": {
+     "posts": 8084,
+     "requires": [
+      "standing",
+      "squatting",
+      "sitting"
+     ]
+    },
+    "paw pose": {
+     "posts": 36369,
+     "requires": [
+      "standing",
+      "sitting",
+      "lying",
+      "on back",
+      "kneeling"
+     ]
+    },
+    "claw pose": {
+     "posts": 28457,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "ghost pose": {
+     "posts": 1926,
+     "requires": [
+      "standing",
+      "floating"
+     ]
+    },
+    "ojou-sama pose": {
+     "posts": 2180,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    },
+    "zombie pose": {
+     "posts": 4178,
+     "requires": [
+      "standing",
+      "sitting"
+     ]
+    }
+   }
+  }
+ },
+ "pairs": {
+  "share": 0.35,
+  "items": {
+   "shoulder carry": {
+    "posts": 4376,
+    "requires": [
+     "standing",
+     "sitting"
+    ]
+   },
+   "carrying": {
+    "posts": 65646,
+    "requires": [
+     "standing",
+     "sitting"
+    ]
+   },
+   "carrying over shoulder": {
+    "posts": 4416,
+    "requires": [
+     "standing"
+    ]
+   },
+   "carrying under arm": {
+    "posts": 2912,
+    "requires": [
+     "standing"
+    ]
+   },
+   "child carry": {
+    "posts": 2508,
+    "requires": [
+     "standing",
+     "sitting"
+    ]
+   },
+   "piggyback": {
+    "posts": 7079,
+    "requires": [
+     "standing",
+     "walking",
+     "sitting",
+     "running"
+    ]
+   },
+   "princess carry": {
+    "posts": 19582,
+    "requires": [
+     "standing",
+     "sitting"
+    ]
+   },
+   "sitting on shoulder": {
+    "posts": 1374,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "hug": {
+    "posts": 174901,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "arm hug": {
+    "posts": 7912,
+    "requires": [
+     "standing",
+     "sitting"
+    ]
+   },
+   "hug from behind": {
+    "posts": 38944,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "circle formation": {
+    "posts": 1361,
+    "requires": [
+     "lying",
+     "on back"
+    ]
+   },
+   "group hug": {
+    "posts": 1763,
+    "requires": [
+     "standing",
+     "sitting"
+    ]
+   },
+   "ass-to-ass": {
+    "posts": 1456,
+    "requires": [
+     "standing",
+     "sitting",
+     "lying",
+     "all fours",
+     "bent over",
+     "leaning forward"
+    ]
+   },
+   "back-to-back": {
+    "posts": 22890,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "cheek-to-cheek": {
+    "posts": 7466,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "eye contact": {
+    "posts": 69489,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying",
+     "on back"
+    ]
+   },
+   "face-to-face": {
+    "posts": 21356,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying",
+     "on back"
+    ]
+   },
+   "forehead-to-forehead": {
+    "posts": 2814,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "head on chest": {
+    "posts": 2139,
+    "requires": [
+     "sitting",
+     "lying",
+     "on back",
+     "standing"
+    ]
+   },
+   "heads together": {
+    "posts": 15793,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "holding hands": {
+    "posts": 146536,
+    "requires": [
+     "standing",
+     "lying",
+     "sitting",
+     "on back"
+    ]
+   },
+   "leg lock": {
+    "posts": 6341,
+    "requires": [
+     "lying",
+     "on back",
+     "sitting",
+     "straddling"
+    ]
+   },
+   "locked arms": {
+    "posts": 8288,
+    "requires": [
+     "standing",
+     "sitting"
+    ]
+   },
+   "over the knee": {
+    "posts": 1001,
+    "requires": [
+     "sitting",
+     "bent over",
+     "lying"
+    ]
+   },
+   "nipple-to-nipple": {
+    "posts": 1041,
+    "requires": [
+     "standing",
+     "lying",
+     "on back",
+     "sitting"
+    ]
+   },
+   "noses touching": {
+    "posts": 1561,
+    "requires": [
+     "sitting",
+     "lying",
+     "standing",
+     "on back"
+    ]
+   },
+   "arm around shoulder": {
+    "posts": 10469,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "hand on another's arm": {
+    "posts": 10110,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying",
+     "on back"
+    ]
+   },
+   "hand on another's back": {
+    "posts": 10748,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "hand on another's chest": {
+    "posts": 9032,
+    "requires": [
+     "lying",
+     "sitting",
+     "on back",
+     "standing",
+     "straddling"
+    ]
+   },
+   "hands on another's chest": {
+    "posts": 1641,
+    "requires": [
+     "straddling",
+     "lying",
+     "sitting"
+    ]
+   },
+   "hand on another's shoulder": {
+    "posts": 43708,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "hands on another's shoulders": {
+    "posts": 8919,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "hand on another's stomach": {
+    "posts": 4937,
+    "requires": [
+     "lying",
+     "on back",
+     "sitting",
+     "standing",
+     "straddling"
+    ]
+   },
+   "hands on another's stomach": {
+    "posts": 1011,
+    "requires": [
+     "straddling",
+     "lying",
+     "on back",
+     "sitting",
+     "squatting"
+    ]
+   },
+   "hand on another's ear": {
+    "posts": 1828,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "hand on another's head": {
+    "posts": 53252,
+    "requires": [
+     "sitting",
+     "lying",
+     "standing",
+     "on back"
+    ]
+   },
+   "hands on another's head": {
+    "posts": 5310,
+    "requires": [
+     "sitting",
+     "standing",
+     "kneeling",
+     "lying"
+    ]
+   },
+   "headpat": {
+    "posts": 24508,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "hand on another's face": {
+    "posts": 32290,
+    "requires": [
+     "sitting",
+     "lying",
+     "on back",
+     "standing"
+    ]
+   },
+   "hands on another's face": {
+    "posts": 8892,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "hand on another's cheek": {
+    "posts": 13455,
+    "requires": [
+     "sitting",
+     "lying",
+     "standing",
+     "on back"
+    ]
+   },
+   "hands on another's cheeks": {
+    "posts": 4131,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "cheek pinching": {
+    "posts": 4247,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "cheek poking": {
+    "posts": 4302,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "cheek squash": {
+    "posts": 2782,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "hand on another's chin": {
+    "posts": 12293,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   },
+   "hand on another's neck": {
+    "posts": 6520,
+    "requires": [
+     "sitting",
+     "lying",
+     "on back",
+     "standing"
+    ]
+   },
+   "strangling": {
+    "posts": 6599,
+    "requires": [
+     "lying",
+     "on back",
+     "standing"
+    ]
+   },
+   "grabbing another's breast": {
+    "posts": 95671,
+    "requires": [
+     "lying",
+     "on back",
+     "standing",
+     "sitting",
+     "straddling"
+    ]
+   },
+   "poking another's breast": {
+    "posts": 1056,
+    "requires": [
+     "standing",
+     "sitting",
+     "lying",
+     "on back"
+    ]
+   },
+   "hand on another's waist": {
+    "posts": 9643,
+    "requires": [
+     "sitting",
+     "standing",
+     "lying"
+    ]
+   },
+   "hands on another's waist": {
+    "posts": 1657,
+    "requires": [
+     "lying",
+     "standing",
+     "sitting",
+     "on back",
+     "straddling"
+    ]
+   },
+   "hand on another's ass": {
+    "posts": 5900,
+    "requires": [
+     "lying",
+     "sitting",
+     "standing",
+     "straddling",
+     "all fours",
+     "on back",
+     "bent over"
+    ]
+   },
+   "hand on another's hip": {
+    "posts": 6778,
+    "requires": [
+     "standing",
+     "sitting",
+     "lying"
+    ]
+   },
+   "hands on another's hips": {
+    "posts": 2295,
+    "requires": [
+     "standing",
+     "lying",
+     "straddling",
+     "on back",
+     "sitting",
+     "bent over",
+     "all fours"
+    ]
+   },
+   "hand on another's leg": {
+    "posts": 3627,
+    "requires": [
+     "sitting",
+     "lying",
+     "on back",
+     "standing"
+    ]
+   },
+   "hand on another's thigh": {
+    "posts": 9086,
+    "requires": [
+     "sitting",
+     "lying",
+     "on back"
+    ]
+   },
+   "hands on another's thighs": {
+    "posts": 2624,
+    "requires": [
+     "lying",
+     "on back",
+     "straddling",
+     "sitting"
+    ]
+   },
+   "hand on another's knee": {
+    "posts": 1145,
+    "requires": [
+     "sitting",
+     "lying",
+     "on back"
+    ]
+   },
+   "hands on feet": {
+    "posts": 1973,
+    "requires": [
+     "sitting"
+    ]
+   },
+   "hand on another's hand": {
+    "posts": 2983,
+    "requires": [
+     "sitting",
+     "standing"
+    ]
+   }
+  }
+ },
+ "typed_only": [
+  "lotus position",
+  "sitting on head",
+  "human chair",
+  "thigh straddling",
+  "victory pose",
+  "carry me",
+  "horns pose",
+  "baby carry",
+  "carried breast rest",
+  "fireman's carry",
+  "standing on shoulder",
+  "tiptoe kiss",
+  "star hands",
+  "looking at viewer",
+  "looking to the side",
+  "looking afar",
+  "head down",
+  "head tilt",
+  "head back",
+  "wing hug",
+  "waist hug",
+  "pin legs",
+  "pigeon pose",
+  "uneven footing",
+  "idle animation",
+  "hopping",
+  "pouncing",
+  "walk cycle",
+  "walking on wall",
+  "archer pose",
+  "bras d'honneur",
+  "body bridge",
+  "dojikko pose",
+  "head and hip pose",
+  "inugami-ke no ichizoku pose",
+  "letter pose",
+  "saboten pose",
+  "symmetrical hand pose",
+  "villain pose",
+  "charizard pose",
+  "gendou pose",
+  "henshin pose",
+  "jojo pose",
+  "dio brando's pose",
+  "giorno giovanna's pose",
+  "superman exposure",
+  "jonathan joestar's pose",
+  "kujo jotaro's pose",
+  "kongou pose",
+  "kujou karen pose",
+  "z-move trainer pose",
+  "airplane arms",
+  "praise the sun",
+  "t-pose",
+  "bent back",
+  "belly-to-belly",
+  "cheek-to-breast",
+  "shoulder-to-shoulder",
+  "tail lock",
+  "bear position",
+  "chest stand",
+  "chest stand handstand",
+  "triplefold",
+  "ruppelbend",
+  "quadfold",
+  "cowering",
+  "crucifixion",
+  "faceplant",
+  "full scorpion",
+  "battoujutsu stance",
+  "spread eagle position",
+  "superhero landing",
+  "headstand",
+  "yoga",
+  "scorpion pose",
+  "revolved head-to-knee pose",
+  "slit throat (gesture)",
+  "air quotes",
+  "circle hands",
+  "double finger gun",
+  "double l",
+  "double thumbs down",
+  "double thumbs up",
+  "double \\n/",
+  "fist in hand",
+  "groping motion",
+  "hand glasses",
+  "hand gesture duo",
+  "kitsune no mado",
+  "noogie",
+  "palm-fist greeting",
+  "palm-fist tap",
+  "penetration gesture",
+  "pinky swear",
+  "shadow puppet",
+  "triangle hands",
+  "tsuki ni kawatte oshioki yo",
+  "x arms",
+  "tribadism gesture",
+  "heart hands trio",
+  "heart hands quartet",
+  "air guitar",
+  "distress hand signal",
+  "heart tail duo",
+  "holding with gesture",
+  "no (gesture)",
+  "orchid fingers",
+  "pointing down",
+  "kamina pose",
+  "saturday night fever",
+  "hand of benediction",
+  "middle w",
+  "money gesture",
+  "pinching gesture",
+  "crossed fingers",
+  "shaka sign",
+  "cunnilingus gesture",
+  "shocker (gesture)",
+  "fig sign",
+  "power fist",
+  "\\",
+  "ohikaenasutte",
+  "stop (gesture)",
+  "straight-arm salute",
+  "vulcan salute",
+  "patting back",
+  "hands on another's shoulder",
+  "adjusting another's hair",
+  "hands on another's neck",
+  "flat chest grab",
+  "hand in bra",
+  "poking own breast",
+  "hand on another's crotch",
+  "hands on own crotch",
+  "hands on another's crotch",
+  "hands on another's leg",
+  "hands on another's knees",
+  "hand on own foot",
+  "hand on another's foot",
+  "hands on own feet",
+  "hands on own neck",
+  "hands on own shoulders",
+  "hands on own arms",
+  "palms",
+  "extra hands",
+  "hand eye",
+  "hand mouth",
+  "dirty feet",
+  "soaking feet",
+  "holding with feet",
+  "foot worship",
+  "kissing foot",
+  "licking foot",
+  "smelling feet",
+  "toe sucking",
+  "tickling feet",
+  "trampling",
+  "surrounded by feet",
+  "footjob",
+  "double footjob",
+  "cooperative footjob",
+  "implied footjob",
+  "foot pussy",
+  "anklet",
+  "toe ring",
+  "toe seam",
+  "socks",
+  "toe socks",
+  "toeless legwear",
+  "stirrup legwear",
+  "bridal legwear",
+  "thighhighs",
+  "pantyhose",
+  "sandals",
+  "strappy heels",
+  "bad feet",
+  "wrong foot",
+  "perspective",
+  "foot focus",
+  "feet only",
+  "soles",
+  "arched soles",
+  "light-skinned soles",
+  "barefoot",
+  "no shoes",
+  "toes",
+  "greek toe",
+  "spread toes",
+  "toe grab",
+  "between toes",
+  "toe cleavage",
+  "toenails",
+  "long toenails",
+  "sharp toenails",
+  "toenail polish",
+  "painting toenails"
+ ],
+ "default": {
+  "indoor": [
+   [
+    "sitting",
+    45
+   ],
+   [
+    "standing",
+    35
+   ],
+   [
+    "lying",
+    10
+   ],
+   [
+    "kneeling",
+    10
+   ]
+  ],
+  "building": [
+   [
+    "standing",
+    55
+   ],
+   [
+    "sitting",
+    35
+   ],
+   [
+    "kneeling",
+    10
+   ]
+  ],
+  "outdoor-manmade": [
+   [
+    "standing",
+    60
+   ],
+   [
+    "walking",
+    25
+   ],
+   [
+    "sitting",
+    15
+   ]
+  ],
+  "outdoor-natural": [
+   [
+    "standing",
+    40
+   ],
+   [
+    "sitting",
+    30
+   ],
+   [
+    "walking",
+    15
+   ],
+   [
+    "lying",
+    15
+   ]
+  ],
+  "artificial": [
+   [
+    "standing",
+    60
+   ],
+   [
+    "sitting",
+    30
+   ],
+   [
+    "kneeling",
+    10
+   ]
+  ]
+ },
+ "gesture_nudge": {
+  "street": {
+   "v": 2.0,
+   "double v": 1.5,
+   "waving": 1.5,
+   "hand in pocket": 2.0
+  },
+  "green": {
+   "v": 2.0,
+   "heart hands": 1.5,
+   "waving": 1.5
+  },
+  "water": {
+   "v": 2.0,
+   "double v": 1.5,
+   "waving": 1.5
+  },
+  "tatami": {
+   "own hands together": 3.0,
+   "interlocked fingers": 1.5,
+   "own hands clasped": 2.0
+  },
+  "seated": {
+   "steepled fingers": 1.5,
+   "stroking own chin": 1.5
+  },
+  "sport": {
+   "clenched hand": 2.0,
+   "thumbs up": 1.5
+  },
+  "stage": {
+   "index finger raised": 1.5,
+   "pointing at viewer": 1.5,
+   "heart hands": 1.5
+  },
+  "temple": {
+   "own hands together": 4.0,
+   "own hands clasped": 2.0,
+   "interlocked fingers": 1.5
+  },
+  "court": {
+   "own hands clasped": 1.5,
+   "hand on own hip": 1.5
+  },
+  "battle": {
+   "clenched hand": 3.0,
+   "pointing": 1.5
+  },
+  "base": {
+   "clenched hand": 2.0,
+   "salute": 3.0
+  },
+  "nightlife": {
+   "v": 2.0,
+   "finger gun": 2.0,
+   "double v": 1.5
+  },
+  "lab": {
+   "steepled fingers": 2.0,
+   "stroking own chin": 2.0
+  },
+  "shrine": {
+   "own hands together": 4.0,
+   "own hands clasped": 2.0
+  },
+  "parlour": {
+   "own hands clasped": 2.0,
+   "hand on own hip": 1.5
+  },
+  "agora": {
+   "spread arms": 1.5,
+   "outstretched arm": 2.0
+  },
+  "trench": {
+   "clenched hand": 2.0,
+   "salute": 2.0
+  },
+  "wild": {
+   "claw pose": 1.5
+  }
+ },
+ "leaves": {
+  "everyday": {
+   "classes": {
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "tatami": [
+     [
+      "seiza",
+      30
+     ],
+     [
+      "wariza",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "kneeling",
+      15
+     ],
+     [
+      "standing",
+      15
+     ]
+    ],
+    "seated": [
+     [
+      "sitting",
+      70
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "counter": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      5
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "green": [
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "water": [
+     [
+      "lying",
+      30
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "wading",
+      15
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "sport": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "running",
+      20
+     ],
+     [
+      "jumping",
+      10
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "stretching",
+      10
+     ],
+     [
+      "fighting stance",
+      10
+     ]
+    ],
+    "stage": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "jumping",
+      10
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "vehicle": [
+     [
+      "sitting",
+      100
+     ]
+    ]
+   },
+   "place_class": {
+    "bedroom": "bed",
+    "hotel room": "bed",
+    "motel": "bed",
+    "love hotel": "bed",
+    "living room": "lounge",
+    "otaku room": "lounge",
+    "messy room": "lounge",
+    "apartment": "lounge",
+    "house": "lounge",
+    "genkan": "tatami",
+    "onsen": "tatami",
+    "shrine": "tatami",
+    "temple": "tatami",
+    "ashiyu": "tatami",
+    "cafe": "seated",
+    "cat cafe": "seated",
+    "maid cafe": "seated",
+    "restaurant": "seated",
+    "izakaya": "seated",
+    "bar (place)": "seated",
+    "office": "seated",
+    "cubicle": "seated",
+    "staff room": "seated",
+    "classroom": "seated",
+    "clubroom": "seated",
+    "library": "seated",
+    "cafeteria": "seated",
+    "train interior": "seated",
+    "bus interior": "seated",
+    "airplane interior": "seated",
+    "movie theater": "seated",
+    "theater": "seated",
+    "courtroom": "seated",
+    "bookstore": "seated",
+    "arcade": "seated",
+    "casino": "seated",
+    "karaoke": "seated",
+    "kitchen": "counter",
+    "shop": "counter",
+    "convenience store": "counter",
+    "supermarket": "counter",
+    "grocery store": "counter",
+    "bakery": "counter",
+    "candy store": "counter",
+    "flower shop": "counter",
+    "clothes shop": "counter",
+    "market": "counter",
+    "market stall": "counter",
+    "factory": "counter",
+    "workshop": "counter",
+    "garage": "counter",
+    "warehouse": "counter",
+    "laboratory": "counter",
+    "hospital": "counter",
+    "infirmary": "counter",
+    "pharmacy": "counter",
+    "gas station": "counter",
+    "salon": "counter",
+    "record store": "counter",
+    "mall": "counter",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "shower (place)": "bath",
+    "sauna": "bath",
+    "changing room": "bath",
+    "locker room": "bath",
+    "public restroom": "bath",
+    "toilet stall": "bath",
+    "street": "street",
+    "sidewalk": "street",
+    "crosswalk": "street",
+    "alley": "street",
+    "bridge": "street",
+    "city": "street",
+    "cityscape": "street",
+    "town": "street",
+    "town square": "street",
+    "suburb": "street",
+    "road": "street",
+    "highway": "street",
+    "tunnel": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "phone booth": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "airport": "street",
+    "harbor": "street",
+    "dock": "street",
+    "pier": "street",
+    "jetty": "street",
+    "wharf": "street",
+    "marina": "street",
+    "canal": "street",
+    "railroad crossing": "street",
+    "railroad tracks": "street",
+    "construction site": "street",
+    "shipyard": "street",
+    "drydock": "street",
+    "park": "green",
+    "garden": "green",
+    "meadow": "green",
+    "playground": "green",
+    "flower field": "green",
+    "field": "green",
+    "wheat field": "green",
+    "rice paddy": "green",
+    "farm": "green",
+    "barn": "green",
+    "hill": "green",
+    "grasslands": "green",
+    "plain": "green",
+    "forest": "green",
+    "bamboo forest": "green",
+    "lake": "green",
+    "river": "green",
+    "pond": "green",
+    "stream": "green",
+    "waterfall": "green",
+    "wetland": "green",
+    "rural": "green",
+    "village": "green",
+    "gazebo": "green",
+    "greenhouse": "green",
+    "conservatory": "green",
+    "zoo": "green",
+    "amusement park": "green",
+    "ferris wheel": "green",
+    "carousel": "green",
+    "roller coaster": "green",
+    "picnic": "green",
+    "pool": "water",
+    "poolside": "water",
+    "waterpark": "water",
+    "beach": "water",
+    "shore": "water",
+    "ocean": "water",
+    "island": "water",
+    "water": "water",
+    "underwater": "water",
+    "seafloor": "water",
+    "stilt house": "water",
+    "gym": "sport",
+    "fitness gym": "sport",
+    "school gym": "sport",
+    "stadium": "sport",
+    "arena": "sport",
+    "running track": "sport",
+    "boxing ring": "sport",
+    "wrestling ring": "sport",
+    "soccer field": "sport",
+    "baseball stadium": "sport",
+    "tennis court": "sport",
+    "basketball court": "sport",
+    "skating rink": "sport",
+    "archery dojo": "sport",
+    "shooting range": "sport",
+    "racetrack": "sport",
+    "horse racing track": "sport",
+    "stage": "stage",
+    "backstage": "stage",
+    "nightclub": "stage",
+    "strip club": "stage",
+    "dance studio": "stage",
+    "concert": "stage",
+    "festival": "stage",
+    "car interior": "vehicle",
+    "cockpit": "vehicle",
+    "vehicle interior": "vehicle",
+    "tank interior": "vehicle"
+   }
+  },
+  "fantasy": {
+   "classes": {
+    "court": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "walking",
+      5
+     ]
+    ],
+    "tavern": [
+     [
+      "sitting",
+      60
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "reclining",
+      5
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "dungeon": [
+     [
+      "sitting",
+      30
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "all fours",
+      10
+     ]
+    ],
+    "study": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "forge": [
+     [
+      "standing",
+      85
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "market": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "running",
+      5
+     ]
+    ],
+    "battle": [
+     [
+      "fighting stance",
+      40
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "jumping",
+      5
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "hut": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ]
+   },
+   "place_class": {
+    "castle": "court",
+    "floating castle": "court",
+    "ballroom": "court",
+    "hallway": "court",
+    "throne room": "court",
+    "tavern": "tavern",
+    "church": "temple",
+    "cathedral": "temple",
+    "temple": "temple",
+    "shrine": "temple",
+    "bell tower": "temple",
+    "graveyard": "temple",
+    "tomb": "temple",
+    "dungeon": "dungeon",
+    "prison cell": "dungeon",
+    "sewer": "dungeon",
+    "cave": "dungeon",
+    "prison": "dungeon",
+    "library": "study",
+    "tower": "study",
+    "observatory": "study",
+    "workshop": "forge",
+    "weapon shop": "forge",
+    "armory": "forge",
+    "market": "market",
+    "market stall": "market",
+    "village": "market",
+    "town": "market",
+    "town square": "market",
+    "well": "market",
+    "stable": "market",
+    "farm": "market",
+    "barn": "market",
+    "windmill": "market",
+    "bakery": "market",
+    "street": "market",
+    "alley": "market",
+    "bridge": "market",
+    "city": "market",
+    "forest": "wild",
+    "bamboo forest": "wild",
+    "mountain": "wild",
+    "hill": "wild",
+    "cliff": "wild",
+    "meadow": "wild",
+    "plain": "wild",
+    "grasslands": "wild",
+    "wetland": "wild",
+    "jungle": "wild",
+    "canyon": "wild",
+    "ruins": "wild",
+    "waterfall": "wild",
+    "path": "wild",
+    "dirt road": "wild",
+    "wooden bridge": "wild",
+    "rope bridge": "wild",
+    "desert": "wild",
+    "oasis": "wild",
+    "wasteland": "wild",
+    "glacier": "wild",
+    "tundra": "wild",
+    "volcano": "wild",
+    "flower field": "wild",
+    "garden": "wild",
+    "battlefield": "battle",
+    "watchtower": "battle",
+    "arena": "battle",
+    "trench": "battle",
+    "amphitheater": "battle",
+    "harbor": "water",
+    "dock": "water",
+    "pier": "water",
+    "beach": "water",
+    "shore": "water",
+    "ocean": "water",
+    "lake": "water",
+    "river": "water",
+    "pond": "water",
+    "stream": "water",
+    "island": "water",
+    "stilt house": "water",
+    "jetty": "water",
+    "wharf": "water",
+    "lighthouse": "water",
+    "bedroom": "bed",
+    "kitchen": "kitchen",
+    "dining room": "kitchen",
+    "bathtub": "bath",
+    "bathroom": "bath",
+    "hut": "hut",
+    "shack": "hut",
+    "shed": "hut",
+    "treehouse": "hut",
+    "living room": "hut"
+   }
+  },
+  "dark fantasy": {
+   "classes": {
+    "court": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "walking",
+      5
+     ]
+    ],
+    "tavern": [
+     [
+      "sitting",
+      60
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "reclining",
+      5
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "dungeon": [
+     [
+      "sitting",
+      30
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "all fours",
+      10
+     ]
+    ],
+    "study": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "forge": [
+     [
+      "standing",
+      85
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "market": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "running",
+      5
+     ]
+    ],
+    "battle": [
+     [
+      "fighting stance",
+      40
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "jumping",
+      5
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "hut": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ]
+   },
+   "place_class": {
+    "castle": "court",
+    "floating castle": "court",
+    "ballroom": "court",
+    "hallway": "court",
+    "throne room": "court",
+    "tavern": "tavern",
+    "church": "temple",
+    "cathedral": "temple",
+    "temple": "temple",
+    "shrine": "temple",
+    "bell tower": "temple",
+    "graveyard": "temple",
+    "tomb": "temple",
+    "dungeon": "dungeon",
+    "prison cell": "dungeon",
+    "sewer": "dungeon",
+    "cave": "dungeon",
+    "prison": "dungeon",
+    "library": "study",
+    "tower": "study",
+    "observatory": "study",
+    "workshop": "forge",
+    "weapon shop": "forge",
+    "armory": "forge",
+    "market": "market",
+    "market stall": "market",
+    "village": "market",
+    "town": "market",
+    "town square": "market",
+    "well": "market",
+    "stable": "market",
+    "farm": "market",
+    "barn": "market",
+    "windmill": "market",
+    "bakery": "market",
+    "street": "market",
+    "alley": "market",
+    "bridge": "market",
+    "city": "market",
+    "forest": "wild",
+    "bamboo forest": "wild",
+    "mountain": "wild",
+    "hill": "wild",
+    "cliff": "wild",
+    "meadow": "wild",
+    "plain": "wild",
+    "grasslands": "wild",
+    "wetland": "wild",
+    "jungle": "wild",
+    "canyon": "wild",
+    "ruins": "wild",
+    "waterfall": "wild",
+    "path": "wild",
+    "dirt road": "wild",
+    "wooden bridge": "wild",
+    "rope bridge": "wild",
+    "desert": "wild",
+    "oasis": "wild",
+    "wasteland": "wild",
+    "glacier": "wild",
+    "tundra": "wild",
+    "volcano": "wild",
+    "flower field": "wild",
+    "garden": "wild",
+    "battlefield": "battle",
+    "watchtower": "battle",
+    "arena": "battle",
+    "trench": "battle",
+    "amphitheater": "battle",
+    "harbor": "water",
+    "dock": "water",
+    "pier": "water",
+    "beach": "water",
+    "shore": "water",
+    "ocean": "water",
+    "lake": "water",
+    "river": "water",
+    "pond": "water",
+    "stream": "water",
+    "island": "water",
+    "stilt house": "water",
+    "jetty": "water",
+    "wharf": "water",
+    "lighthouse": "water",
+    "bedroom": "bed",
+    "kitchen": "kitchen",
+    "dining room": "kitchen",
+    "bathtub": "bath",
+    "bathroom": "bath",
+    "hut": "hut",
+    "shack": "hut",
+    "shed": "hut",
+    "treehouse": "hut",
+    "living room": "hut"
+   }
+  },
+  "science fiction": {
+   "classes": {
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "lab": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "office": [
+     [
+      "sitting",
+      65
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "slum": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "space": [
+     [
+      "floating",
+      45
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "floating",
+      30
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "cockpit": "cockpit",
+    "car interior": "cockpit",
+    "vehicle interior": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "spacecraft interior": "ship",
+    "space station": "ship",
+    "hallway": "ship",
+    "control tower": "ship",
+    "airport": "ship",
+    "train interior": "ship",
+    "bus interior": "ship",
+    "laboratory": "lab",
+    "observatory": "lab",
+    "planetarium": "lab",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "morgue": "ward",
+    "military base": "base",
+    "bunker": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "trench": "base",
+    "battlefield": "base",
+    "factory": "plant",
+    "industrial": "plant",
+    "warehouse": "plant",
+    "workshop": "plant",
+    "shipyard": "plant",
+    "drydock": "plant",
+    "power plant": "plant",
+    "nuclear powerplant": "plant",
+    "refinery": "plant",
+    "cooling tower": "plant",
+    "oil rig": "plant",
+    "dam": "plant",
+    "construction site": "plant",
+    "garage": "plant",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "floating city": "street",
+    "megastructure": "street",
+    "space elevator": "street",
+    "phone booth": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "railroad tracks": "street",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "hotel room": "nightlife",
+    "love hotel": "nightlife",
+    "strip club": "nightlife",
+    "sex shop": "nightlife",
+    "cafe": "nightlife",
+    "restaurant": "nightlife",
+    "office": "office",
+    "cubicle": "office",
+    "prison": "office",
+    "prison cell": "office",
+    "slums": "slum",
+    "junkyard": "slum",
+    "sewer": "slum",
+    "wasteland": "slum",
+    "desert": "slum",
+    "canyon": "slum",
+    "mesa": "slum",
+    "salt flats": "slum",
+    "tundra": "slum",
+    "glacier": "slum",
+    "volcano": "slum",
+    "cave": "slum",
+    "ruins": "slum",
+    "forest": "slum",
+    "wetland": "slum",
+    "shack": "slum",
+    "shed": "slum",
+    "hut": "slum",
+    "space": "space",
+    "in orbit": "space",
+    "planet": "space",
+    "moon": "space",
+    "asteroid": "space",
+    "ocean": "water",
+    "seafloor": "water",
+    "underwater": "water",
+    "underwater city": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "bedroom": "bed",
+    "apartment": "bed",
+    "house": "bed",
+    "motel": "bed",
+    "living room": "lounge",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "kitchen": "kitchen",
+    "dining room": "kitchen"
+   }
+  },
+  "mecha": {
+   "classes": {
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "lab": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "office": [
+     [
+      "sitting",
+      65
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "slum": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "space": [
+     [
+      "floating",
+      45
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "floating",
+      30
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "cockpit": "cockpit",
+    "car interior": "cockpit",
+    "vehicle interior": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "spacecraft interior": "ship",
+    "space station": "ship",
+    "hallway": "ship",
+    "control tower": "ship",
+    "airport": "ship",
+    "train interior": "ship",
+    "bus interior": "ship",
+    "laboratory": "lab",
+    "observatory": "lab",
+    "planetarium": "lab",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "morgue": "ward",
+    "military base": "base",
+    "bunker": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "trench": "base",
+    "battlefield": "base",
+    "factory": "plant",
+    "industrial": "plant",
+    "warehouse": "plant",
+    "workshop": "plant",
+    "shipyard": "plant",
+    "drydock": "plant",
+    "power plant": "plant",
+    "nuclear powerplant": "plant",
+    "refinery": "plant",
+    "cooling tower": "plant",
+    "oil rig": "plant",
+    "dam": "plant",
+    "construction site": "plant",
+    "garage": "plant",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "floating city": "street",
+    "megastructure": "street",
+    "space elevator": "street",
+    "phone booth": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "railroad tracks": "street",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "hotel room": "nightlife",
+    "love hotel": "nightlife",
+    "strip club": "nightlife",
+    "sex shop": "nightlife",
+    "cafe": "nightlife",
+    "restaurant": "nightlife",
+    "office": "office",
+    "cubicle": "office",
+    "prison": "office",
+    "prison cell": "office",
+    "slums": "slum",
+    "junkyard": "slum",
+    "sewer": "slum",
+    "wasteland": "slum",
+    "desert": "slum",
+    "canyon": "slum",
+    "mesa": "slum",
+    "salt flats": "slum",
+    "tundra": "slum",
+    "glacier": "slum",
+    "volcano": "slum",
+    "cave": "slum",
+    "ruins": "slum",
+    "forest": "slum",
+    "wetland": "slum",
+    "shack": "slum",
+    "shed": "slum",
+    "hut": "slum",
+    "space": "space",
+    "in orbit": "space",
+    "planet": "space",
+    "moon": "space",
+    "asteroid": "space",
+    "ocean": "water",
+    "seafloor": "water",
+    "underwater": "water",
+    "underwater city": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "bedroom": "bed",
+    "apartment": "bed",
+    "house": "bed",
+    "motel": "bed",
+    "living room": "lounge",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "kitchen": "kitchen",
+    "dining room": "kitchen"
+   }
+  },
+  "space": {
+   "classes": {
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "lab": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "office": [
+     [
+      "sitting",
+      65
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "slum": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "space": [
+     [
+      "floating",
+      45
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "floating",
+      30
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "cockpit": "cockpit",
+    "car interior": "cockpit",
+    "vehicle interior": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "spacecraft interior": "ship",
+    "space station": "ship",
+    "hallway": "ship",
+    "control tower": "ship",
+    "airport": "ship",
+    "train interior": "ship",
+    "bus interior": "ship",
+    "laboratory": "lab",
+    "observatory": "lab",
+    "planetarium": "lab",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "morgue": "ward",
+    "military base": "base",
+    "bunker": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "trench": "base",
+    "battlefield": "base",
+    "factory": "plant",
+    "industrial": "plant",
+    "warehouse": "plant",
+    "workshop": "plant",
+    "shipyard": "plant",
+    "drydock": "plant",
+    "power plant": "plant",
+    "nuclear powerplant": "plant",
+    "refinery": "plant",
+    "cooling tower": "plant",
+    "oil rig": "plant",
+    "dam": "plant",
+    "construction site": "plant",
+    "garage": "plant",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "floating city": "street",
+    "megastructure": "street",
+    "space elevator": "street",
+    "phone booth": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "railroad tracks": "street",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "hotel room": "nightlife",
+    "love hotel": "nightlife",
+    "strip club": "nightlife",
+    "sex shop": "nightlife",
+    "cafe": "nightlife",
+    "restaurant": "nightlife",
+    "office": "office",
+    "cubicle": "office",
+    "prison": "office",
+    "prison cell": "office",
+    "slums": "slum",
+    "junkyard": "slum",
+    "sewer": "slum",
+    "wasteland": "slum",
+    "desert": "slum",
+    "canyon": "slum",
+    "mesa": "slum",
+    "salt flats": "slum",
+    "tundra": "slum",
+    "glacier": "slum",
+    "volcano": "slum",
+    "cave": "slum",
+    "ruins": "slum",
+    "forest": "slum",
+    "wetland": "slum",
+    "shack": "slum",
+    "shed": "slum",
+    "hut": "slum",
+    "space": "space",
+    "in orbit": "space",
+    "planet": "space",
+    "moon": "space",
+    "asteroid": "space",
+    "ocean": "water",
+    "seafloor": "water",
+    "underwater": "water",
+    "underwater city": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "bedroom": "bed",
+    "apartment": "bed",
+    "house": "bed",
+    "motel": "bed",
+    "living room": "lounge",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "kitchen": "kitchen",
+    "dining room": "kitchen"
+   }
+  },
+  "cyborg": {
+   "classes": {
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "lab": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "office": [
+     [
+      "sitting",
+      65
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "slum": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "space": [
+     [
+      "floating",
+      45
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "floating",
+      30
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "cockpit": "cockpit",
+    "car interior": "cockpit",
+    "vehicle interior": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "spacecraft interior": "ship",
+    "space station": "ship",
+    "hallway": "ship",
+    "control tower": "ship",
+    "airport": "ship",
+    "train interior": "ship",
+    "bus interior": "ship",
+    "laboratory": "lab",
+    "observatory": "lab",
+    "planetarium": "lab",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "morgue": "ward",
+    "military base": "base",
+    "bunker": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "trench": "base",
+    "battlefield": "base",
+    "factory": "plant",
+    "industrial": "plant",
+    "warehouse": "plant",
+    "workshop": "plant",
+    "shipyard": "plant",
+    "drydock": "plant",
+    "power plant": "plant",
+    "nuclear powerplant": "plant",
+    "refinery": "plant",
+    "cooling tower": "plant",
+    "oil rig": "plant",
+    "dam": "plant",
+    "construction site": "plant",
+    "garage": "plant",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "floating city": "street",
+    "megastructure": "street",
+    "space elevator": "street",
+    "phone booth": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "railroad tracks": "street",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "hotel room": "nightlife",
+    "love hotel": "nightlife",
+    "strip club": "nightlife",
+    "sex shop": "nightlife",
+    "cafe": "nightlife",
+    "restaurant": "nightlife",
+    "office": "office",
+    "cubicle": "office",
+    "prison": "office",
+    "prison cell": "office",
+    "slums": "slum",
+    "junkyard": "slum",
+    "sewer": "slum",
+    "wasteland": "slum",
+    "desert": "slum",
+    "canyon": "slum",
+    "mesa": "slum",
+    "salt flats": "slum",
+    "tundra": "slum",
+    "glacier": "slum",
+    "volcano": "slum",
+    "cave": "slum",
+    "ruins": "slum",
+    "forest": "slum",
+    "wetland": "slum",
+    "shack": "slum",
+    "shed": "slum",
+    "hut": "slum",
+    "space": "space",
+    "in orbit": "space",
+    "planet": "space",
+    "moon": "space",
+    "asteroid": "space",
+    "ocean": "water",
+    "seafloor": "water",
+    "underwater": "water",
+    "underwater city": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "bedroom": "bed",
+    "apartment": "bed",
+    "house": "bed",
+    "motel": "bed",
+    "living room": "lounge",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "kitchen": "kitchen",
+    "dining room": "kitchen"
+   }
+  },
+  "cyberpunk": {
+   "classes": {
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "lab": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "office": [
+     [
+      "sitting",
+      65
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "slum": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "space": [
+     [
+      "floating",
+      45
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "floating",
+      30
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "cockpit": "cockpit",
+    "car interior": "cockpit",
+    "vehicle interior": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "spacecraft interior": "ship",
+    "space station": "ship",
+    "hallway": "ship",
+    "control tower": "ship",
+    "airport": "ship",
+    "train interior": "ship",
+    "bus interior": "ship",
+    "laboratory": "lab",
+    "observatory": "lab",
+    "planetarium": "lab",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "morgue": "ward",
+    "military base": "base",
+    "bunker": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "trench": "base",
+    "battlefield": "base",
+    "factory": "plant",
+    "industrial": "plant",
+    "warehouse": "plant",
+    "workshop": "plant",
+    "shipyard": "plant",
+    "drydock": "plant",
+    "power plant": "plant",
+    "nuclear powerplant": "plant",
+    "refinery": "plant",
+    "cooling tower": "plant",
+    "oil rig": "plant",
+    "dam": "plant",
+    "construction site": "plant",
+    "garage": "plant",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "floating city": "street",
+    "megastructure": "street",
+    "space elevator": "street",
+    "phone booth": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "railroad tracks": "street",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "hotel room": "nightlife",
+    "love hotel": "nightlife",
+    "strip club": "nightlife",
+    "sex shop": "nightlife",
+    "cafe": "nightlife",
+    "restaurant": "nightlife",
+    "office": "office",
+    "cubicle": "office",
+    "prison": "office",
+    "prison cell": "office",
+    "slums": "slum",
+    "junkyard": "slum",
+    "sewer": "slum",
+    "wasteland": "slum",
+    "desert": "slum",
+    "canyon": "slum",
+    "mesa": "slum",
+    "salt flats": "slum",
+    "tundra": "slum",
+    "glacier": "slum",
+    "volcano": "slum",
+    "cave": "slum",
+    "ruins": "slum",
+    "forest": "slum",
+    "wetland": "slum",
+    "shack": "slum",
+    "shed": "slum",
+    "hut": "slum",
+    "space": "space",
+    "in orbit": "space",
+    "planet": "space",
+    "moon": "space",
+    "asteroid": "space",
+    "ocean": "water",
+    "seafloor": "water",
+    "underwater": "water",
+    "underwater city": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "bedroom": "bed",
+    "apartment": "bed",
+    "house": "bed",
+    "motel": "bed",
+    "living room": "lounge",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "kitchen": "kitchen",
+    "dining room": "kitchen"
+   }
+  },
+  "post-apocalypse": {
+   "classes": {
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "lab": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "office": [
+     [
+      "sitting",
+      65
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "slum": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "space": [
+     [
+      "floating",
+      45
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "floating",
+      30
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "cockpit": "cockpit",
+    "car interior": "cockpit",
+    "vehicle interior": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "spacecraft interior": "ship",
+    "space station": "ship",
+    "hallway": "ship",
+    "control tower": "ship",
+    "airport": "ship",
+    "train interior": "ship",
+    "bus interior": "ship",
+    "laboratory": "lab",
+    "observatory": "lab",
+    "planetarium": "lab",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "morgue": "ward",
+    "military base": "base",
+    "bunker": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "trench": "base",
+    "battlefield": "base",
+    "factory": "plant",
+    "industrial": "plant",
+    "warehouse": "plant",
+    "workshop": "plant",
+    "shipyard": "plant",
+    "drydock": "plant",
+    "power plant": "plant",
+    "nuclear powerplant": "plant",
+    "refinery": "plant",
+    "cooling tower": "plant",
+    "oil rig": "plant",
+    "dam": "plant",
+    "construction site": "plant",
+    "garage": "plant",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "floating city": "street",
+    "megastructure": "street",
+    "space elevator": "street",
+    "phone booth": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "railroad tracks": "street",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "hotel room": "nightlife",
+    "love hotel": "nightlife",
+    "strip club": "nightlife",
+    "sex shop": "nightlife",
+    "cafe": "nightlife",
+    "restaurant": "nightlife",
+    "office": "office",
+    "cubicle": "office",
+    "prison": "office",
+    "prison cell": "office",
+    "slums": "slum",
+    "junkyard": "slum",
+    "sewer": "slum",
+    "wasteland": "slum",
+    "desert": "slum",
+    "canyon": "slum",
+    "mesa": "slum",
+    "salt flats": "slum",
+    "tundra": "slum",
+    "glacier": "slum",
+    "volcano": "slum",
+    "cave": "slum",
+    "ruins": "slum",
+    "forest": "slum",
+    "wetland": "slum",
+    "shack": "slum",
+    "shed": "slum",
+    "hut": "slum",
+    "space": "space",
+    "in orbit": "space",
+    "planet": "space",
+    "moon": "space",
+    "asteroid": "space",
+    "ocean": "water",
+    "seafloor": "water",
+    "underwater": "water",
+    "underwater city": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "bedroom": "bed",
+    "apartment": "bed",
+    "house": "bed",
+    "motel": "bed",
+    "living room": "lounge",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "kitchen": "kitchen",
+    "dining room": "kitchen"
+   }
+  },
+  "steampunk": {
+   "classes": {
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "lab": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "office": [
+     [
+      "sitting",
+      65
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "slum": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "space": [
+     [
+      "floating",
+      45
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "floating",
+      30
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "tavern": [
+     [
+      "sitting",
+      60
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "reclining",
+      5
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "study": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "court": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "walking",
+      5
+     ]
+    ]
+   },
+   "place_class": {
+    "cockpit": "cockpit",
+    "car interior": "cockpit",
+    "vehicle interior": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "spacecraft interior": "ship",
+    "space station": "ship",
+    "hallway": "ship",
+    "control tower": "ship",
+    "airport": "ship",
+    "train interior": "ship",
+    "bus interior": "ship",
+    "laboratory": "lab",
+    "observatory": "lab",
+    "planetarium": "lab",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "morgue": "ward",
+    "military base": "base",
+    "bunker": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "trench": "base",
+    "battlefield": "base",
+    "factory": "plant",
+    "industrial": "plant",
+    "warehouse": "plant",
+    "workshop": "plant",
+    "shipyard": "plant",
+    "drydock": "plant",
+    "power plant": "plant",
+    "nuclear powerplant": "plant",
+    "refinery": "plant",
+    "cooling tower": "plant",
+    "oil rig": "plant",
+    "dam": "plant",
+    "construction site": "plant",
+    "garage": "plant",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "floating city": "street",
+    "megastructure": "street",
+    "space elevator": "street",
+    "phone booth": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "railroad tracks": "street",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "hotel room": "nightlife",
+    "love hotel": "nightlife",
+    "strip club": "nightlife",
+    "sex shop": "nightlife",
+    "cafe": "nightlife",
+    "restaurant": "nightlife",
+    "office": "office",
+    "cubicle": "office",
+    "prison": "office",
+    "prison cell": "office",
+    "slums": "slum",
+    "junkyard": "slum",
+    "sewer": "slum",
+    "wasteland": "slum",
+    "desert": "slum",
+    "canyon": "slum",
+    "mesa": "slum",
+    "salt flats": "slum",
+    "tundra": "slum",
+    "glacier": "slum",
+    "volcano": "slum",
+    "cave": "slum",
+    "ruins": "slum",
+    "forest": "slum",
+    "wetland": "slum",
+    "shack": "slum",
+    "shed": "slum",
+    "hut": "slum",
+    "space": "space",
+    "in orbit": "space",
+    "planet": "space",
+    "moon": "space",
+    "asteroid": "space",
+    "ocean": "water",
+    "seafloor": "water",
+    "underwater": "water",
+    "underwater city": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "bedroom": "bed",
+    "apartment": "bed",
+    "house": "bed",
+    "motel": "bed",
+    "living room": "lounge",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "kitchen": "kitchen",
+    "dining room": "kitchen",
+    "tavern": "tavern",
+    "library": "study",
+    "tower": "study",
+    "ballroom": "court",
+    "castle": "court",
+    "hotel": "court"
+   }
+  },
+  "dieselpunk": {
+   "classes": {
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "lab": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "office": [
+     [
+      "sitting",
+      65
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "slum": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "space": [
+     [
+      "floating",
+      45
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "floating",
+      30
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "tavern": [
+     [
+      "sitting",
+      60
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "reclining",
+      5
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "study": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "court": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "walking",
+      5
+     ]
+    ]
+   },
+   "place_class": {
+    "cockpit": "cockpit",
+    "car interior": "cockpit",
+    "vehicle interior": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "spacecraft interior": "ship",
+    "space station": "ship",
+    "hallway": "ship",
+    "control tower": "ship",
+    "airport": "ship",
+    "train interior": "ship",
+    "bus interior": "ship",
+    "laboratory": "lab",
+    "observatory": "lab",
+    "planetarium": "lab",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "morgue": "ward",
+    "military base": "base",
+    "bunker": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "trench": "base",
+    "battlefield": "base",
+    "factory": "plant",
+    "industrial": "plant",
+    "warehouse": "plant",
+    "workshop": "plant",
+    "shipyard": "plant",
+    "drydock": "plant",
+    "power plant": "plant",
+    "nuclear powerplant": "plant",
+    "refinery": "plant",
+    "cooling tower": "plant",
+    "oil rig": "plant",
+    "dam": "plant",
+    "construction site": "plant",
+    "garage": "plant",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "skyscraper": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "subway": "street",
+    "subway station": "street",
+    "subway entrance": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "bus stop": "street",
+    "floating city": "street",
+    "megastructure": "street",
+    "space elevator": "street",
+    "phone booth": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "railroad tracks": "street",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "hotel room": "nightlife",
+    "love hotel": "nightlife",
+    "strip club": "nightlife",
+    "sex shop": "nightlife",
+    "cafe": "nightlife",
+    "restaurant": "nightlife",
+    "office": "office",
+    "cubicle": "office",
+    "prison": "office",
+    "prison cell": "office",
+    "slums": "slum",
+    "junkyard": "slum",
+    "sewer": "slum",
+    "wasteland": "slum",
+    "desert": "slum",
+    "canyon": "slum",
+    "mesa": "slum",
+    "salt flats": "slum",
+    "tundra": "slum",
+    "glacier": "slum",
+    "volcano": "slum",
+    "cave": "slum",
+    "ruins": "slum",
+    "forest": "slum",
+    "wetland": "slum",
+    "shack": "slum",
+    "shed": "slum",
+    "hut": "slum",
+    "space": "space",
+    "in orbit": "space",
+    "planet": "space",
+    "moon": "space",
+    "asteroid": "space",
+    "ocean": "water",
+    "seafloor": "water",
+    "underwater": "water",
+    "underwater city": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "bedroom": "bed",
+    "apartment": "bed",
+    "house": "bed",
+    "motel": "bed",
+    "living room": "lounge",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "kitchen": "kitchen",
+    "dining room": "kitchen",
+    "tavern": "tavern",
+    "library": "study",
+    "tower": "study",
+    "ballroom": "court",
+    "castle": "court",
+    "hotel": "court"
+   }
+  },
+  "supernatural": {
+   "classes": {
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ],
+     [
+      "floating",
+      10
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ],
+     [
+      "floating",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "school": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "floating",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "court": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "walking",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ],
+     [
+      "floating",
+      5
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "running",
+      5
+     ],
+     [
+      "all fours",
+      5
+     ],
+     [
+      "floating",
+      5
+     ]
+    ],
+    "dungeon": [
+     [
+      "sitting",
+      30
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "all fours",
+      10
+     ]
+    ],
+    "village": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "air": [
+     [
+      "floating",
+      70
+     ],
+     [
+      "standing",
+      30
+     ]
+    ]
+   },
+   "place_class": {
+    "bedroom": "bed",
+    "hotel room": "village",
+    "motel": "bed",
+    "closet": "bed",
+    "storage room": "bed",
+    "attic": "bed",
+    "living room": "lounge",
+    "dining room": "lounge",
+    "hallway": "lounge",
+    "genkan": "lounge",
+    "house": "lounge",
+    "apartment": "lounge",
+    "hotel": "lounge",
+    "kitchen": "kitchen",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "onsen": "bath",
+    "school": "school",
+    "classroom": "school",
+    "clubroom": "school",
+    "library": "school",
+    "museum": "school",
+    "theater": "school",
+    "hospital": "ward",
+    "morgue": "ward",
+    "infirmary": "ward",
+    "church": "temple",
+    "cathedral": "temple",
+    "shrine": "temple",
+    "temple": "temple",
+    "graveyard": "temple",
+    "tomb": "temple",
+    "bell tower": "temple",
+    "clock tower": "temple",
+    "pagoda": "temple",
+    "castle": "court",
+    "ballroom": "court",
+    "tower": "court",
+    "conservatory": "court",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "bridge": "street",
+    "tunnel": "street",
+    "subway station": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "sewer": "street",
+    "parking garage": "street",
+    "slums": "street",
+    "junkyard": "street",
+    "highway": "street",
+    "road": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "phone booth": "street",
+    "bus stop": "street",
+    "subway": "street",
+    "amusement park": "street",
+    "carousel": "street",
+    "ferris wheel": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "mall": "street",
+    "supermarket": "street",
+    "stadium": "street",
+    "forest": "wild",
+    "bamboo forest": "wild",
+    "mountain": "wild",
+    "cave": "wild",
+    "cliff": "wild",
+    "hill": "wild",
+    "meadow": "wild",
+    "wetland": "wild",
+    "lake": "wild",
+    "river": "wild",
+    "waterfall": "wild",
+    "pond": "wild",
+    "well": "wild",
+    "ruins": "wild",
+    "lighthouse": "wild",
+    "wasteland": "wild",
+    "tundra": "wild",
+    "glacier": "wild",
+    "desert": "wild",
+    "canyon": "wild",
+    "salt flats": "wild",
+    "volcano": "wild",
+    "flower field": "wild",
+    "garden": "wild",
+    "path": "wild",
+    "dirt road": "wild",
+    "wooden bridge": "wild",
+    "stone walkway": "wild",
+    "beach": "wild",
+    "shore": "wild",
+    "ocean": "wild",
+    "island": "wild",
+    "jungle": "wild",
+    "field": "wild",
+    "wheat field": "wild",
+    "grasslands": "wild",
+    "plain": "wild",
+    "stilt house": "wild",
+    "rice paddy": "wild",
+    "dungeon": "dungeon",
+    "prison cell": "dungeon",
+    "prison": "dungeon",
+    "warehouse": "dungeon",
+    "factory": "dungeon",
+    "industrial": "dungeon",
+    "bunker": "dungeon",
+    "military base": "dungeon",
+    "laboratory": "dungeon",
+    "office": "dungeon",
+    "village": "village",
+    "town": "village",
+    "market": "village",
+    "market stall": "village",
+    "tavern": "village",
+    "farm": "village",
+    "barn": "village",
+    "hut": "village",
+    "shack": "village",
+    "treehouse": "village",
+    "park": "village",
+    "town square": "village",
+    "stable": "village",
+    "windmill": "village",
+    "workshop": "village",
+    "weapon shop": "village",
+    "armory": "village",
+    "watchtower": "village",
+    "battlefield": "village",
+    "trench": "village",
+    "floating island": "air",
+    "floating castle": "air"
+   }
+  },
+  "horror": {
+   "classes": {
+    "bed": [
+     [
+      "lying",
+      35
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "standing",
+      20
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "all fours",
+      5
+     ]
+    ],
+    "lounge": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ],
+     [
+      "floating",
+      10
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "school": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "floating",
+      5
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      55
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "standing",
+      15
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "court": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "walking",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "running",
+      20
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      35
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "running",
+      20
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "all fours",
+      10
+     ]
+    ],
+    "dungeon": [
+     [
+      "sitting",
+      30
+     ],
+     [
+      "kneeling",
+      25
+     ],
+     [
+      "lying",
+      25
+     ],
+     [
+      "all fours",
+      20
+     ]
+    ],
+    "village": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "air": [
+     [
+      "floating",
+      70
+     ],
+     [
+      "standing",
+      30
+     ]
+    ]
+   },
+   "place_class": {
+    "bedroom": "bed",
+    "hotel room": "village",
+    "motel": "bed",
+    "closet": "bed",
+    "storage room": "bed",
+    "attic": "bed",
+    "living room": "lounge",
+    "dining room": "lounge",
+    "hallway": "lounge",
+    "genkan": "lounge",
+    "house": "lounge",
+    "apartment": "lounge",
+    "hotel": "lounge",
+    "kitchen": "kitchen",
+    "bathroom": "bath",
+    "bathtub": "bath",
+    "onsen": "bath",
+    "school": "school",
+    "classroom": "school",
+    "clubroom": "school",
+    "library": "school",
+    "museum": "school",
+    "theater": "school",
+    "hospital": "ward",
+    "morgue": "ward",
+    "infirmary": "ward",
+    "church": "temple",
+    "cathedral": "temple",
+    "shrine": "temple",
+    "temple": "temple",
+    "graveyard": "temple",
+    "tomb": "temple",
+    "bell tower": "temple",
+    "clock tower": "temple",
+    "pagoda": "temple",
+    "castle": "court",
+    "ballroom": "court",
+    "tower": "court",
+    "conservatory": "court",
+    "nightclub": "nightlife",
+    "bar (place)": "nightlife",
+    "casino": "nightlife",
+    "arcade": "nightlife",
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "rooftop": "street",
+    "on roof": "street",
+    "bridge": "street",
+    "tunnel": "street",
+    "subway station": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "sewer": "street",
+    "parking garage": "street",
+    "slums": "street",
+    "junkyard": "street",
+    "highway": "street",
+    "road": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "phone booth": "street",
+    "bus stop": "street",
+    "subway": "street",
+    "amusement park": "street",
+    "carousel": "street",
+    "ferris wheel": "street",
+    "convenience store": "street",
+    "gas station": "street",
+    "mall": "street",
+    "supermarket": "street",
+    "stadium": "street",
+    "forest": "wild",
+    "bamboo forest": "wild",
+    "mountain": "wild",
+    "cave": "wild",
+    "cliff": "wild",
+    "hill": "wild",
+    "meadow": "wild",
+    "wetland": "wild",
+    "lake": "wild",
+    "river": "wild",
+    "waterfall": "wild",
+    "pond": "wild",
+    "well": "wild",
+    "ruins": "wild",
+    "lighthouse": "wild",
+    "wasteland": "wild",
+    "tundra": "wild",
+    "glacier": "wild",
+    "desert": "wild",
+    "canyon": "wild",
+    "salt flats": "wild",
+    "volcano": "wild",
+    "flower field": "wild",
+    "garden": "wild",
+    "path": "wild",
+    "dirt road": "wild",
+    "wooden bridge": "wild",
+    "stone walkway": "wild",
+    "beach": "wild",
+    "shore": "wild",
+    "ocean": "wild",
+    "island": "wild",
+    "jungle": "wild",
+    "field": "wild",
+    "wheat field": "wild",
+    "grasslands": "wild",
+    "plain": "wild",
+    "stilt house": "wild",
+    "rice paddy": "wild",
+    "dungeon": "dungeon",
+    "prison cell": "dungeon",
+    "prison": "dungeon",
+    "warehouse": "dungeon",
+    "factory": "dungeon",
+    "industrial": "dungeon",
+    "bunker": "dungeon",
+    "military base": "dungeon",
+    "laboratory": "dungeon",
+    "office": "dungeon",
+    "village": "village",
+    "town": "village",
+    "market": "village",
+    "market stall": "village",
+    "tavern": "village",
+    "farm": "village",
+    "barn": "village",
+    "hut": "village",
+    "shack": "village",
+    "treehouse": "village",
+    "park": "village",
+    "town square": "village",
+    "stable": "village",
+    "windmill": "village",
+    "workshop": "village",
+    "weapon shop": "village",
+    "armory": "village",
+    "watchtower": "village",
+    "battlefield": "village",
+    "trench": "village",
+    "floating island": "air",
+    "floating castle": "air"
+   }
+  },
+  "superhero": {
+   "classes": {
+    "street": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "fighting stance",
+      10
+     ],
+     [
+      "jumping",
+      5
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "sky": [
+     [
+      "standing",
+      35
+     ],
+     [
+      "flying",
+      25
+     ],
+     [
+      "jumping",
+      15
+     ],
+     [
+      "fighting stance",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "midair",
+      5
+     ]
+    ],
+    "lair": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "fighting stance",
+      10
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "cell": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      15
+     ],
+     [
+      "lying",
+      15
+     ]
+    ],
+    "vehicle": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "indoor": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "walking",
+      10
+     ]
+    ],
+    "arena": [
+     [
+      "standing",
+      35
+     ],
+     [
+      "fighting stance",
+      25
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "jumping",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      20
+     ],
+     [
+      "wading",
+      15
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "open": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "running",
+      20
+     ],
+     [
+      "fighting stance",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "city": "street",
+    "cityscape": "street",
+    "street": "street",
+    "alley": "street",
+    "crosswalk": "street",
+    "sidewalk": "street",
+    "bridge": "street",
+    "highway": "street",
+    "road": "street",
+    "tunnel": "street",
+    "parking lot": "street",
+    "parking garage": "street",
+    "town square": "street",
+    "phone booth": "street",
+    "bus stop": "street",
+    "construction site": "street",
+    "junkyard": "street",
+    "sewer": "street",
+    "rooftop": "sky",
+    "on roof": "sky",
+    "skyscraper": "sky",
+    "dam": "sky",
+    "volcano": "sky",
+    "laboratory": "lair",
+    "warehouse": "lair",
+    "factory": "lair",
+    "industrial": "lair",
+    "military base": "lair",
+    "bunker": "lair",
+    "nuclear powerplant": "lair",
+    "power plant": "lair",
+    "airport": "lair",
+    "airfield": "lair",
+    "cave": "lair",
+    "prison": "cell",
+    "prison cell": "cell",
+    "subway": "vehicle",
+    "subway station": "vehicle",
+    "subway entrance": "vehicle",
+    "train station": "vehicle",
+    "train station platform": "vehicle",
+    "train interior": "vehicle",
+    "bus interior": "vehicle",
+    "car interior": "vehicle",
+    "office": "indoor",
+    "museum": "indoor",
+    "hospital": "indoor",
+    "school": "indoor",
+    "apartment": "indoor",
+    "bedroom": "indoor",
+    "stadium": "arena",
+    "arena": "arena",
+    "amusement park": "arena",
+    "park": "arena",
+    "harbor": "water",
+    "dock": "water",
+    "ocean": "water",
+    "beach": "water",
+    "island": "water",
+    "stilt house": "water",
+    "desert": "open"
+   }
+  },
+  "medieval": {
+   "classes": {
+    "court": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "walking",
+      5
+     ]
+    ],
+    "tavern": [
+     [
+      "sitting",
+      60
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "reclining",
+      5
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "dungeon": [
+     [
+      "sitting",
+      30
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "all fours",
+      10
+     ]
+    ],
+    "study": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "forge": [
+     [
+      "standing",
+      85
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "market": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "running",
+      5
+     ]
+    ],
+    "battle": [
+     [
+      "fighting stance",
+      40
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "jumping",
+      5
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "hut": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "standing",
+      10
+     ],
+     [
+      "indian style",
+      5
+     ]
+    ]
+   },
+   "place_class": {
+    "castle": "court",
+    "floating castle": "court",
+    "ballroom": "court",
+    "hallway": "court",
+    "throne room": "court",
+    "tavern": "tavern",
+    "church": "temple",
+    "cathedral": "temple",
+    "temple": "temple",
+    "shrine": "temple",
+    "bell tower": "temple",
+    "graveyard": "temple",
+    "tomb": "temple",
+    "dungeon": "dungeon",
+    "prison cell": "dungeon",
+    "sewer": "dungeon",
+    "cave": "dungeon",
+    "prison": "dungeon",
+    "library": "study",
+    "tower": "study",
+    "observatory": "study",
+    "workshop": "forge",
+    "weapon shop": "forge",
+    "armory": "forge",
+    "market": "market",
+    "market stall": "market",
+    "village": "market",
+    "town": "market",
+    "town square": "market",
+    "well": "market",
+    "stable": "market",
+    "farm": "market",
+    "barn": "market",
+    "windmill": "market",
+    "bakery": "market",
+    "street": "market",
+    "alley": "market",
+    "bridge": "market",
+    "city": "market",
+    "forest": "wild",
+    "bamboo forest": "wild",
+    "mountain": "wild",
+    "hill": "wild",
+    "cliff": "wild",
+    "meadow": "wild",
+    "plain": "wild",
+    "grasslands": "wild",
+    "wetland": "wild",
+    "jungle": "wild",
+    "canyon": "wild",
+    "ruins": "wild",
+    "waterfall": "wild",
+    "path": "wild",
+    "dirt road": "wild",
+    "wooden bridge": "wild",
+    "rope bridge": "wild",
+    "desert": "wild",
+    "oasis": "wild",
+    "wasteland": "wild",
+    "glacier": "wild",
+    "tundra": "wild",
+    "volcano": "wild",
+    "flower field": "wild",
+    "garden": "wild",
+    "battlefield": "battle",
+    "watchtower": "battle",
+    "arena": "battle",
+    "trench": "battle",
+    "amphitheater": "battle",
+    "harbor": "water",
+    "dock": "water",
+    "pier": "water",
+    "beach": "water",
+    "shore": "water",
+    "ocean": "water",
+    "lake": "water",
+    "river": "water",
+    "pond": "water",
+    "stream": "water",
+    "island": "water",
+    "stilt house": "water",
+    "jetty": "water",
+    "wharf": "water",
+    "lighthouse": "water",
+    "bedroom": "bed",
+    "kitchen": "kitchen",
+    "dining room": "kitchen",
+    "bathtub": "bath",
+    "bathroom": "bath",
+    "hut": "hut",
+    "shack": "hut",
+    "shed": "hut",
+    "treehouse": "hut",
+    "living room": "hut"
+   }
+  },
+  "pirate": {
+   "classes": {
+    "deck": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "shore": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "wading",
+      5
+     ]
+    ],
+    "tavern": [
+     [
+      "sitting",
+      60
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "reclining",
+      5
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "market": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "dungeon": [
+     [
+      "sitting",
+      30
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "all fours",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "harbor": "deck",
+    "dock": "deck",
+    "pier": "deck",
+    "jetty": "deck",
+    "wharf": "deck",
+    "marina": "deck",
+    "shipyard": "deck",
+    "lighthouse": "deck",
+    "maritime port": "deck",
+    "beach": "shore",
+    "shore": "shore",
+    "island": "shore",
+    "cave": "shore",
+    "jungle": "shore",
+    "oasis": "shore",
+    "ruins": "shore",
+    "tomb": "shore",
+    "desert": "shore",
+    "savannah": "shore",
+    "volcano": "shore",
+    "wetland": "shore",
+    "rope bridge": "shore",
+    "watchtower": "shore",
+    "stilt house": "shore",
+    "tavern": "tavern",
+    "market": "market",
+    "market stall": "market",
+    "town": "market",
+    "village": "market",
+    "fountain": "market",
+    "prison cell": "dungeon",
+    "dungeon": "dungeon",
+    "ocean": "water",
+    "bedroom": "bed",
+    "dining room": "kitchen",
+    "bathtub": "bath"
+   }
+  },
+  "world war": {
+   "classes": {
+    "trench": [
+     [
+      "kneeling",
+      30
+     ],
+     [
+      "lying",
+      25
+     ],
+     [
+      "standing",
+      20
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "fighting stance",
+      10
+     ]
+    ],
+    "base": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "fighting stance",
+      15
+     ],
+     [
+      "walking",
+      10
+     ],
+     [
+      "running",
+      10
+     ]
+    ],
+    "cockpit": [
+     [
+      "sitting",
+      100
+     ]
+    ],
+    "ward": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "ship": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "nightlife": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "market": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "kitchen": [
+     [
+      "standing",
+      80
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "stilt": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "battlefield": "trench",
+    "trench": "trench",
+    "bunker": "trench",
+    "ruins": "trench",
+    "military base": "base",
+    "armory": "base",
+    "hangar": "base",
+    "airfield": "base",
+    "runway": "base",
+    "cockpit": "cockpit",
+    "tank interior": "cockpit",
+    "airplane interior": "cockpit",
+    "hospital": "ward",
+    "infirmary": "ward",
+    "city": "street",
+    "street": "street",
+    "alley": "street",
+    "bridge": "street",
+    "town": "street",
+    "village": "street",
+    "railroad tracks": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "river": "street",
+    "train interior": "ship",
+    "harbor": "water",
+    "dock": "water",
+    "shipyard": "water",
+    "beach": "water",
+    "shore": "water",
+    "ocean": "water",
+    "island": "water",
+    "factory": "plant",
+    "warehouse": "plant",
+    "industrial": "plant",
+    "church": "temple",
+    "cathedral": "temple",
+    "ballroom": "nightlife",
+    "hotel": "nightlife",
+    "hotel room": "nightlife",
+    "bar (place)": "nightlife",
+    "cafe": "nightlife",
+    "field": "market",
+    "wheat field": "market",
+    "farm": "market",
+    "barn": "market",
+    "forest": "market",
+    "desert": "market",
+    "tundra": "market",
+    "bedroom": "bed",
+    "dining room": "kitchen",
+    "stilt house": "stilt"
+   }
+  },
+  "victorian": {
+   "classes": {
+    "parlour": [
+     [
+      "sitting",
+      60
+     ],
+     [
+      "standing",
+      35
+     ],
+     [
+      "reclining",
+      5
+     ]
+    ],
+    "ballroom": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "sitting",
+      25
+     ],
+     [
+      "walking",
+      15
+     ]
+    ],
+    "garden": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "standing",
+      35
+     ],
+     [
+      "walking",
+      25
+     ]
+    ],
+    "street": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "walking",
+      45
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ],
+    "theater": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      50
+     ]
+    ],
+    "plant": [
+     [
+      "standing",
+      60
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "walking",
+      15
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "bed": [
+     [
+      "lying",
+      45
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "reclining",
+      10
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "standing",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "living room": "parlour",
+    "dining room": "parlour",
+    "hotel room": "parlour",
+    "hotel": "parlour",
+    "library": "parlour",
+    "conservatory": "parlour",
+    "greenhouse": "parlour",
+    "bookstore": "parlour",
+    "house": "parlour",
+    "apartment": "parlour",
+    "salon": "parlour",
+    "dressing room": "parlour",
+    "ballroom": "ballroom",
+    "park": "garden",
+    "garden": "garden",
+    "gazebo": "garden",
+    "fountain": "garden",
+    "flower field": "garden",
+    "lake": "garden",
+    "rural": "garden",
+    "field": "garden",
+    "village": "garden",
+    "forest": "garden",
+    "cliff": "garden",
+    "city": "street",
+    "street": "street",
+    "alley": "street",
+    "bridge": "street",
+    "town square": "street",
+    "market": "street",
+    "market stall": "street",
+    "train station": "street",
+    "train station platform": "street",
+    "train interior": "street",
+    "bakery": "street",
+    "clothes shop": "street",
+    "candy store": "street",
+    "flower shop": "street",
+    "clock tower": "street",
+    "bell tower": "street",
+    "canal": "street",
+    "aqueduct": "street",
+    "amphitheater": "street",
+    "church": "temple",
+    "cathedral": "temple",
+    "graveyard": "temple",
+    "theater": "theater",
+    "museum": "theater",
+    "art gallery": "theater",
+    "observatory": "theater",
+    "factory": "plant",
+    "industrial": "plant",
+    "harbor": "water",
+    "dock": "water",
+    "lighthouse": "water",
+    "bedroom": "bed",
+    "bathtub": "bath"
+   }
+  },
+  "norse": {
+   "classes": {
+    "hall": [
+     [
+      "sitting",
+      55
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "reclining",
+      5
+     ]
+    ],
+    "longship": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "wading",
+      15
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "running",
+      5
+     ]
+    ],
+    "battle": [
+     [
+      "fighting stance",
+      40
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "jumping",
+      5
+     ]
+    ],
+    "forge": [
+     [
+      "standing",
+      85
+     ],
+     [
+      "squatting",
+      10
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "market": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "lying",
+      5
+     ]
+    ]
+   },
+   "place_class": {
+    "dining room": "hall",
+    "tavern": "hall",
+    "hut": "hall",
+    "shack": "hall",
+    "bedroom": "hall",
+    "harbor": "longship",
+    "dock": "longship",
+    "ocean": "longship",
+    "shore": "longship",
+    "beach": "longship",
+    "island": "longship",
+    "stilt house": "longship",
+    "forest": "wild",
+    "bamboo forest": "wild",
+    "mountain": "wild",
+    "hill": "wild",
+    "cliff": "wild",
+    "meadow": "wild",
+    "plain": "wild",
+    "grasslands": "wild",
+    "wetland": "wild",
+    "jungle": "wild",
+    "canyon": "wild",
+    "ruins": "wild",
+    "waterfall": "wild",
+    "path": "wild",
+    "dirt road": "wild",
+    "wooden bridge": "market",
+    "rope bridge": "wild",
+    "desert": "wild",
+    "oasis": "wild",
+    "wasteland": "wild",
+    "glacier": "wild",
+    "tundra": "wild",
+    "volcano": "wild",
+    "flower field": "wild",
+    "garden": "wild",
+    "river": "wild",
+    "lake": "wild",
+    "stream": "wild",
+    "cave": "wild",
+    "battlefield": "battle",
+    "watchtower": "battle",
+    "armory": "battle",
+    "weapon shop": "battle",
+    "workshop": "forge",
+    "village": "market",
+    "farm": "market",
+    "barn": "market",
+    "field": "market",
+    "stable": "market",
+    "well": "market",
+    "graveyard": "temple",
+    "tomb": "temple"
+   }
+  },
+  "greco-roman": {
+   "classes": {
+    "agora": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      15
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      35
+     ],
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      20
+     ]
+    ],
+    "symposium": [
+     [
+      "reclining",
+      40
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "standing",
+      25
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      30
+     ],
+     [
+      "standing",
+      20
+     ]
+    ],
+    "battle": [
+     [
+      "fighting stance",
+      40
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "jumping",
+      5
+     ]
+    ],
+    "study": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "standing",
+      45
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "running",
+      5
+     ]
+    ]
+   },
+   "place_class": {
+    "town square": "agora",
+    "market": "agora",
+    "market stall": "agora",
+    "city": "agora",
+    "street": "agora",
+    "stone walkway": "agora",
+    "architecture": "agora",
+    "aqueduct": "agora",
+    "fountain": "agora",
+    "bridge": "agora",
+    "village": "agora",
+    "well": "agora",
+    "temple": "temple",
+    "tomb": "temple",
+    "ruins": "temple",
+    "dining room": "symposium",
+    "ballroom": "symposium",
+    "bedroom": "symposium",
+    "hallway": "symposium",
+    "garden": "symposium",
+    "bathtub": "bath",
+    "arena": "battle",
+    "amphitheater": "battle",
+    "battlefield": "battle",
+    "armory": "battle",
+    "weapon shop": "battle",
+    "watchtower": "battle",
+    "tower": "battle",
+    "library": "study",
+    "harbor": "water",
+    "dock": "water",
+    "ocean": "water",
+    "beach": "water",
+    "shore": "water",
+    "island": "water",
+    "stilt house": "water",
+    "cliff": "wild",
+    "hill": "wild",
+    "meadow": "wild",
+    "field": "wild",
+    "mountain": "wild",
+    "cave": "wild",
+    "volcano": "wild",
+    "oasis": "wild",
+    "farm": "wild",
+    "wheat field": "wild",
+    "stable": "wild"
+   }
+  },
+  "ancient egypt": {
+   "classes": {
+    "palace": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      35
+     ],
+     [
+      "kneeling",
+      15
+     ],
+     [
+      "reclining",
+      5
+     ]
+    ],
+    "temple": [
+     [
+      "kneeling",
+      40
+     ],
+     [
+      "standing",
+      45
+     ],
+     [
+      "sitting",
+      15
+     ]
+    ],
+    "desert": [
+     [
+      "standing",
+      45
+     ],
+     [
+      "walking",
+      35
+     ],
+     [
+      "sitting",
+      15
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "market": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "battle": [
+     [
+      "fighting stance",
+      40
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "running",
+      15
+     ],
+     [
+      "kneeling",
+      10
+     ],
+     [
+      "jumping",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      50
+     ],
+     [
+      "reclining",
+      30
+     ],
+     [
+      "standing",
+      20
+     ]
+    ]
+   },
+   "place_class": {
+    "ballroom": "palace",
+    "dining room": "palace",
+    "bedroom": "palace",
+    "hallway": "palace",
+    "library": "palace",
+    "garden": "palace",
+    "fountain": "palace",
+    "temple": "temple",
+    "tomb": "temple",
+    "ruins": "temple",
+    "architecture": "temple",
+    "desert": "desert",
+    "oasis": "desert",
+    "canyon": "desert",
+    "mesa": "desert",
+    "salt flats": "desert",
+    "cave": "desert",
+    "river": "water",
+    "shore": "water",
+    "island": "water",
+    "harbor": "water",
+    "dock": "water",
+    "market": "market",
+    "market stall": "market",
+    "town": "market",
+    "village": "market",
+    "town square": "market",
+    "stone walkway": "market",
+    "farm": "market",
+    "field": "market",
+    "wheat field": "market",
+    "stable": "market",
+    "well": "market",
+    "battlefield": "battle",
+    "watchtower": "battle",
+    "tower": "battle",
+    "bathtub": "bath"
+   }
+  },
+  "ancient japan": {
+   "classes": {
+    "tatami": [
+     [
+      "seiza",
+      40
+     ],
+     [
+      "wariza",
+      20
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "standing",
+      15
+     ],
+     [
+      "kneeling",
+      5
+     ]
+    ],
+    "shrine": [
+     [
+      "kneeling",
+      35
+     ],
+     [
+      "standing",
+      40
+     ],
+     [
+      "seiza",
+      20
+     ],
+     [
+      "sitting",
+      5
+     ]
+    ],
+    "dojo": [
+     [
+      "fighting stance",
+      35
+     ],
+     [
+      "standing",
+      30
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "seiza",
+      10
+     ],
+     [
+      "running",
+      5
+     ]
+    ],
+    "bath": [
+     [
+      "sitting",
+      40
+     ],
+     [
+      "reclining",
+      25
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      10
+     ]
+    ],
+    "market": [
+     [
+      "standing",
+      55
+     ],
+     [
+      "walking",
+      30
+     ],
+     [
+      "sitting",
+      10
+     ],
+     [
+      "squatting",
+      5
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "sitting",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "running",
+      5
+     ]
+    ],
+    "water": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "sitting",
+      30
+     ],
+     [
+      "wading",
+      20
+     ],
+     [
+      "lying",
+      10
+     ]
+    ],
+    "paddy": [
+     [
+      "standing",
+      50
+     ],
+     [
+      "squatting",
+      30
+     ],
+     [
+      "walking",
+      20
+     ]
+    ],
+    "dungeon": [
+     [
+      "sitting",
+      30
+     ],
+     [
+      "standing",
+      25
+     ],
+     [
+      "kneeling",
+      20
+     ],
+     [
+      "lying",
+      15
+     ],
+     [
+      "all fours",
+      10
+     ]
+    ]
+   },
+   "place_class": {
+    "bedroom": "tatami",
+    "dining room": "tatami",
+    "hallway": "tatami",
+    "genkan": "tatami",
+    "hut": "tatami",
+    "tavern": "tatami",
+    "castle": "tatami",
+    "living room": "tatami",
+    "kitchen": "tatami",
+    "house": "tatami",
+    "apartment": "tatami",
+    "shrine": "shrine",
+    "temple": "shrine",
+    "pagoda": "shrine",
+    "graveyard": "shrine",
+    "tomb": "shrine",
+    "archery dojo": "dojo",
+    "armory": "dojo",
+    "weapon shop": "dojo",
+    "battlefield": "dojo",
+    "watchtower": "dojo",
+    "onsen": "bath",
+    "bathtub": "bath",
+    "bathroom": "bath",
+    "village": "market",
+    "town": "market",
+    "market": "market",
+    "market stall": "market",
+    "street": "market",
+    "bridge": "market",
+    "path": "market",
+    "wooden bridge": "market",
+    "stone walkway": "market",
+    "dirt road": "market",
+    "well": "market",
+    "stable": "market",
+    "farm": "market",
+    "barn": "market",
+    "alley": "market",
+    "bamboo forest": "wild",
+    "forest": "wild",
+    "mountain": "wild",
+    "waterfall": "wild",
+    "cave": "wild",
+    "cliff": "wild",
+    "hill": "wild",
+    "meadow": "wild",
+    "garden": "wild",
+    "ruins": "wild",
+    "river": "water",
+    "lake": "water",
+    "pond": "water",
+    "beach": "water",
+    "shore": "water",
+    "ocean": "water",
+    "island": "water",
+    "stilt house": "water",
+    "rice paddy": "paddy",
+    "field": "paddy",
+    "prison cell": "dungeon",
+    "dungeon": "dungeon"
+   }
+  },
+  "prehistoric": {
+   "classes": {
+    "cave": [
+     [
+      "sitting",
+      35
+     ],
+     [
+      "squatting",
+      30
+     ],
+     [
+      "standing",
+      20
+     ],
+     [
+      "lying",
+      10
+     ],
+     [
+      "all fours",
+      5
+     ]
+    ],
+    "wild": [
+     [
+      "standing",
+      40
+     ],
+     [
+      "walking",
+      25
+     ],
+     [
+      "squatting",
+      15
+     ],
+     [
+      "running",
+      10
+     ],
+     [
+      "sitting",
+      10
+     ]
+    ],
+    "water": [
+     [
+      "wading",
+      40
+     ],
+     [
+      "standing",
+      35
+     ],
+     [
+      "sitting",
+      25
+     ]
+    ]
+   },
+   "place_class": {
+    "cave": "cave",
+    "hut": "cave",
+    "forest": "wild",
+    "bamboo forest": "wild",
+    "mountain": "wild",
+    "hill": "wild",
+    "cliff": "wild",
+    "canyon": "wild",
+    "mesa": "wild",
+    "plain": "wild",
+    "grasslands": "wild",
+    "savannah": "wild",
+    "jungle": "wild",
+    "meadow": "wild",
+    "field": "wild",
+    "wetland": "wild",
+    "desert": "wild",
+    "oasis": "wild",
+    "tundra": "wild",
+    "glacier": "wild",
+    "volcano": "wild",
+    "wasteland": "wild",
+    "nature": "wild",
+    "landscape": "wild",
+    "geyser": "wild",
+    "salt flats": "wild",
+    "river": "water",
+    "stream": "water",
+    "lake": "water",
+    "pond": "water",
+    "waterfall": "water",
+    "shore": "water",
+    "beach": "water",
+    "ocean": "water",
+    "island": "water",
+    "stilt house": "water"
+   }
+  }
+ }
+}

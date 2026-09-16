@@ -1,0 +1,1333 @@
+{
+ "airfield": {
+  "kind": "outdoor-manmade",
+  "posts": 57,
+  "source": "wiki"
+ },
+ "airplane interior": {
+  "kind": "indoor",
+  "posts": 688,
+  "source": "wiki"
+ },
+ "airport": {
+  "kind": "building",
+  "posts": 534,
+  "source": "wiki"
+ },
+ "aisle": {
+  "kind": "indoor",
+  "posts": 67,
+  "source": "wiki"
+ },
+ "alley": {
+  "kind": "outdoor-manmade",
+  "posts": 5640,
+  "source": "wiki"
+ },
+ "amusement park": {
+  "kind": "outdoor-manmade",
+  "posts": 1394,
+  "source": "wiki"
+ },
+ "apartment": {
+  "kind": "building",
+  "posts": 2097,
+  "source": "wiki"
+ },
+ "aquarium": {
+  "kind": "building",
+  "posts": 2417,
+  "source": "wiki"
+ },
+ "aqueduct": {
+  "kind": "outdoor-manmade",
+  "posts": 89,
+  "source": "wiki"
+ },
+ "arcade": {
+  "kind": "building",
+  "posts": 1184,
+  "source": "wiki"
+ },
+ "archery dojo": {
+  "kind": "building",
+  "posts": 109,
+  "source": "wiki"
+ },
+ "architecture": {
+  "kind": "outdoor-manmade",
+  "posts": 21434,
+  "source": "wiki"
+ },
+ "arena": {
+  "kind": "building",
+  "posts": 803,
+  "source": "wiki"
+ },
+ "armory": {
+  "kind": "indoor",
+  "posts": 55,
+  "source": "wiki"
+ },
+ "art gallery": {
+  "kind": "building",
+  "posts": 164,
+  "source": "wiki"
+ },
+ "ashiyu": {
+  "kind": "building",
+  "posts": 302,
+  "source": "wiki"
+ },
+ "asteroid": {
+  "kind": "outdoor-natural",
+  "posts": 856,
+  "source": "wiki"
+ },
+ "backstage": {
+  "kind": "indoor",
+  "posts": 265,
+  "source": "wiki"
+ },
+ "bakery": {
+  "kind": "building",
+  "posts": 810,
+  "source": "wiki"
+ },
+ "ballroom": {
+  "kind": "indoor",
+  "posts": 265,
+  "source": "wiki"
+ },
+ "bamboo forest": {
+  "kind": "outdoor-natural",
+  "posts": 4732,
+  "source": "wiki"
+ },
+ "bar (place)": {
+  "kind": "building",
+  "posts": 6759,
+  "source": "wiki"
+ },
+ "barn": {
+  "kind": "building",
+  "posts": 769,
+  "source": "wiki"
+ },
+ "baseball stadium": {
+  "kind": "building",
+  "posts": 790,
+  "source": "wiki"
+ },
+ "bathroom": {
+  "kind": "indoor",
+  "posts": 30271,
+  "source": "wiki"
+ },
+ "bathtub": {
+  "kind": "indoor",
+  "posts": 16172,
+  "source": "wiki"
+ },
+ "battlefield": {
+  "kind": "outdoor-manmade",
+  "posts": 894,
+  "source": "wiki"
+ },
+ "beach": {
+  "kind": "outdoor-natural",
+  "posts": 158528,
+  "source": "wiki"
+ },
+ "bedroom": {
+  "kind": "indoor",
+  "posts": 32826,
+  "source": "wiki"
+ },
+ "bell tower": {
+  "kind": "building",
+  "posts": 204,
+  "source": "wiki"
+ },
+ "bookstore": {
+  "kind": "building",
+  "posts": 317,
+  "source": "wiki"
+ },
+ "bowling alley": {
+  "kind": "building",
+  "posts": 144,
+  "source": "wiki"
+ },
+ "boxing ring": {
+  "kind": "indoor",
+  "posts": 1930,
+  "source": "wiki"
+ },
+ "bridge": {
+  "kind": "outdoor-manmade",
+  "posts": 13413,
+  "source": "wiki"
+ },
+ "bunker": {
+  "kind": "building",
+  "posts": 70,
+  "source": "wiki"
+ },
+ "bus interior": {
+  "kind": "indoor",
+  "posts": 1085,
+  "source": "wiki"
+ },
+ "bus stop": {
+  "kind": "building",
+  "posts": 2041,
+  "source": "wiki"
+ },
+ "cafe": {
+  "kind": "building",
+  "posts": 4572,
+  "source": "wiki"
+ },
+ "cafeteria": {
+  "kind": "indoor",
+  "posts": 254,
+  "source": "wiki"
+ },
+ "canal": {
+  "kind": "outdoor-manmade",
+  "posts": 765,
+  "source": "wiki"
+ },
+ "candy store": {
+  "kind": "building",
+  "posts": 128,
+  "source": "wiki"
+ },
+ "canyon": {
+  "kind": "outdoor-natural",
+  "posts": 638,
+  "source": "wiki"
+ },
+ "car interior": {
+  "kind": "indoor",
+  "posts": 6100,
+  "source": "wiki"
+ },
+ "carousel": {
+  "kind": "outdoor-manmade",
+  "posts": 1587,
+  "source": "wiki"
+ },
+ "casino": {
+  "kind": "building",
+  "posts": 1677,
+  "source": "wiki"
+ },
+ "castle": {
+  "kind": "building",
+  "posts": 10697,
+  "source": "wiki"
+ },
+ "cat cafe": {
+  "kind": "building",
+  "posts": 50,
+  "source": "wiki"
+ },
+ "cathedral": {
+  "kind": "building",
+  "posts": 715,
+  "source": "wiki"
+ },
+ "cave": {
+  "kind": "outdoor-natural",
+  "posts": 4688,
+  "source": "wiki"
+ },
+ "changing room": {
+  "kind": "indoor",
+  "posts": 1106,
+  "source": "wiki"
+ },
+ "church": {
+  "kind": "building",
+  "posts": 5357,
+  "source": "wiki"
+ },
+ "city": {
+  "kind": "outdoor-manmade",
+  "posts": 38120,
+  "source": "wiki"
+ },
+ "cityscape": {
+  "kind": "outdoor-manmade",
+  "posts": 23890,
+  "source": "wiki"
+ },
+ "classroom": {
+  "kind": "indoor",
+  "posts": 35452,
+  "source": "wiki"
+ },
+ "cliff": {
+  "kind": "outdoor-natural",
+  "posts": 4921,
+  "source": "wiki"
+ },
+ "clock tower": {
+  "kind": "building",
+  "posts": 2129,
+  "source": "wiki"
+ },
+ "closet": {
+  "kind": "indoor",
+  "posts": 1249,
+  "source": "wiki"
+ },
+ "clothes shop": {
+  "kind": "building",
+  "posts": 405,
+  "source": "wiki"
+ },
+ "clubroom": {
+  "kind": "indoor",
+  "posts": 405,
+  "source": "wiki"
+ },
+ "cockpit": {
+  "kind": "indoor",
+  "posts": 2828,
+  "source": "wiki"
+ },
+ "conservatory": {
+  "kind": "indoor",
+  "posts": 166,
+  "source": "wiki"
+ },
+ "construction site": {
+  "kind": "building",
+  "posts": 401,
+  "source": "wiki"
+ },
+ "control tower": {
+  "kind": "building",
+  "posts": 55,
+  "source": "wiki"
+ },
+ "convenience store": {
+  "kind": "building",
+  "posts": 2078,
+  "source": "wiki"
+ },
+ "convention": {
+  "kind": "building",
+  "posts": 425,
+  "source": "wiki"
+ },
+ "cooling tower": {
+  "kind": "building",
+  "posts": 52,
+  "source": "wiki"
+ },
+ "courtroom": {
+  "kind": "indoor",
+  "posts": 330,
+  "source": "wiki"
+ },
+ "crosswalk": {
+  "kind": "outdoor-manmade",
+  "posts": 3607,
+  "source": "wiki"
+ },
+ "cubicle": {
+  "kind": "indoor",
+  "posts": 282,
+  "source": "wiki"
+ },
+ "dam": {
+  "kind": "outdoor-manmade",
+  "posts": 96,
+  "source": "wiki"
+ },
+ "dance studio": {
+  "kind": "building",
+  "posts": 335,
+  "source": "wiki"
+ },
+ "desert": {
+  "kind": "outdoor-natural",
+  "posts": 5662,
+  "source": "wiki"
+ },
+ "dining room": {
+  "kind": "indoor",
+  "posts": 305,
+  "source": "wiki"
+ },
+ "dirt road": {
+  "kind": "outdoor-manmade",
+  "posts": 1045,
+  "source": "wiki"
+ },
+ "dock": {
+  "kind": "outdoor-manmade",
+  "posts": 1377,
+  "source": "wiki"
+ },
+ "dressing room": {
+  "kind": "indoor",
+  "posts": 674,
+  "source": "wiki"
+ },
+ "dungeon": {
+  "kind": "indoor",
+  "posts": 3155,
+  "source": "wiki"
+ },
+ "factory": {
+  "kind": "building",
+  "posts": 659,
+  "source": "wiki"
+ },
+ "farm": {
+  "kind": "outdoor-manmade",
+  "posts": 791,
+  "source": "wiki"
+ },
+ "ferris wheel": {
+  "kind": "outdoor-manmade",
+  "posts": 2995,
+  "source": "wiki"
+ },
+ "field": {
+  "kind": "outdoor-manmade",
+  "posts": 21268,
+  "source": "wiki"
+ },
+ "fitness gym": {
+  "kind": "indoor",
+  "posts": 1954,
+  "source": "wiki"
+ },
+ "fitting room": {
+  "kind": "indoor",
+  "posts": 1492,
+  "source": "wiki"
+ },
+ "floating castle": {
+  "kind": "building",
+  "posts": 192,
+  "source": "wiki"
+ },
+ "floating city": {
+  "kind": "outdoor-manmade",
+  "posts": 207,
+  "source": "wiki"
+ },
+ "floating island": {
+  "kind": "outdoor-natural",
+  "posts": 1748,
+  "source": "wiki"
+ },
+ "flower field": {
+  "kind": "outdoor-manmade",
+  "posts": 13442,
+  "source": "wiki"
+ },
+ "flower shop": {
+  "kind": "building",
+  "posts": 380,
+  "source": "wiki"
+ },
+ "forest": {
+  "kind": "outdoor-natural",
+  "posts": 53347,
+  "source": "wiki"
+ },
+ "fountain": {
+  "kind": "outdoor-manmade",
+  "posts": 2664,
+  "source": "wiki"
+ },
+ "garage": {
+  "kind": "building",
+  "posts": 429,
+  "source": "wiki"
+ },
+ "garden": {
+  "kind": "outdoor-manmade",
+  "posts": 3176,
+  "source": "wiki"
+ },
+ "gas station": {
+  "kind": "building",
+  "posts": 287,
+  "source": "wiki"
+ },
+ "gazebo": {
+  "kind": "building",
+  "posts": 523,
+  "source": "wiki"
+ },
+ "genkan": {
+  "kind": "indoor",
+  "posts": 345,
+  "source": "wiki"
+ },
+ "geyser": {
+  "kind": "outdoor-natural",
+  "posts": 54,
+  "source": "wiki"
+ },
+ "glacier": {
+  "kind": "outdoor-natural",
+  "posts": 248,
+  "source": "wiki"
+ },
+ "grasslands": {
+  "kind": "outdoor-natural",
+  "posts": 708,
+  "source": "wiki"
+ },
+ "graveyard": {
+  "kind": "outdoor-manmade",
+  "posts": 2914,
+  "source": "wiki"
+ },
+ "greenhouse": {
+  "kind": "building",
+  "posts": 876,
+  "source": "wiki"
+ },
+ "grocery store": {
+  "kind": "building",
+  "posts": 193,
+  "source": "wiki"
+ },
+ "gym storeroom": {
+  "kind": "indoor",
+  "posts": 3588,
+  "source": "wiki"
+ },
+ "hair salon": {
+  "kind": "indoor",
+  "posts": 79,
+  "source": "ruling",
+  "typed_only": true
+ },
+ "hallway": {
+  "kind": "indoor",
+  "posts": 6311,
+  "source": "wiki"
+ },
+ "hangar": {
+  "kind": "building",
+  "posts": 933,
+  "source": "wiki"
+ },
+ "harbor": {
+  "kind": "outdoor-manmade",
+  "posts": 611,
+  "source": "wiki"
+ },
+ "highway": {
+  "kind": "outdoor-manmade",
+  "posts": 618,
+  "source": "wiki"
+ },
+ "hill": {
+  "kind": "outdoor-natural",
+  "posts": 5746,
+  "source": "wiki"
+ },
+ "horse racing track": {
+  "kind": "outdoor-manmade",
+  "posts": 892,
+  "source": "wiki"
+ },
+ "hospital": {
+  "kind": "building",
+  "posts": 2022,
+  "source": "wiki"
+ },
+ "hotel": {
+  "kind": "building",
+  "posts": 354,
+  "source": "wiki"
+ },
+ "hotel room": {
+  "kind": "indoor",
+  "posts": 947,
+  "source": "wiki"
+ },
+ "house": {
+  "kind": "building",
+  "posts": 16366,
+  "source": "wiki"
+ },
+ "hut": {
+  "kind": "building",
+  "posts": 478,
+  "source": "wiki"
+ },
+ "in orbit": {
+  "kind": "outdoor-natural",
+  "posts": 812,
+  "source": "wiki"
+ },
+ "industrial": {
+  "kind": "building",
+  "posts": 656,
+  "source": "wiki"
+ },
+ "infirmary": {
+  "kind": "indoor",
+  "posts": 1808,
+  "source": "wiki"
+ },
+ "island": {
+  "kind": "outdoor-natural",
+  "posts": 2519,
+  "source": "wiki"
+ },
+ "izakaya": {
+  "kind": "building",
+  "posts": 429,
+  "source": "wiki"
+ },
+ "jetty": {
+  "kind": "outdoor-manmade",
+  "posts": 75,
+  "source": "wiki"
+ },
+ "jungle": {
+  "kind": "outdoor-natural",
+  "posts": 2052,
+  "source": "wiki"
+ },
+ "junkyard": {
+  "kind": "outdoor-manmade",
+  "posts": 214,
+  "source": "wiki"
+ },
+ "kitchen": {
+  "kind": "indoor",
+  "posts": 10802,
+  "source": "wiki"
+ },
+ "laboratory": {
+  "kind": "indoor",
+  "posts": 1140,
+  "source": "wiki"
+ },
+ "lake": {
+  "kind": "outdoor-natural",
+  "posts": 8212,
+  "source": "wiki"
+ },
+ "landscape": {
+  "kind": "outdoor-natural",
+  "posts": 10496,
+  "source": "wiki"
+ },
+ "library": {
+  "kind": "building",
+  "posts": 7087,
+  "source": "wiki"
+ },
+ "lighthouse": {
+  "kind": "building",
+  "posts": 2027,
+  "source": "wiki"
+ },
+ "living room": {
+  "kind": "indoor",
+  "posts": 1575,
+  "source": "wiki"
+ },
+ "locker room": {
+  "kind": "indoor",
+  "posts": 7317,
+  "source": "wiki"
+ },
+ "love hotel": {
+  "kind": "building",
+  "posts": 775,
+  "source": "wiki"
+ },
+ "maid cafe": {
+  "kind": "building",
+  "posts": 514,
+  "source": "wiki"
+ },
+ "mall": {
+  "kind": "building",
+  "posts": 404,
+  "source": "wiki"
+ },
+ "maritime port": {
+  "kind": "outdoor-manmade",
+  "posts": 118,
+  "source": "wiki"
+ },
+ "market": {
+  "kind": "outdoor-manmade",
+  "posts": 687,
+  "source": "wiki"
+ },
+ "market stall": {
+  "kind": "outdoor-manmade",
+  "posts": 1223,
+  "source": "wiki"
+ },
+ "meadow": {
+  "kind": "outdoor-natural",
+  "posts": 1493,
+  "source": "wiki"
+ },
+ "megastructure": {
+  "kind": "building",
+  "posts": 261,
+  "source": "wiki"
+ },
+ "mesa": {
+  "kind": "outdoor-natural",
+  "posts": 90,
+  "source": "wiki"
+ },
+ "messy room": {
+  "kind": "indoor",
+  "posts": 1855,
+  "source": "wiki"
+ },
+ "military base": {
+  "kind": "building",
+  "posts": 105,
+  "source": "wiki"
+ },
+ "moon": {
+  "kind": "outdoor-natural",
+  "posts": 110330,
+  "source": "wiki"
+ },
+ "morgue": {
+  "kind": "indoor",
+  "parent": "hospital",
+  "posts": 32,
+  "source": "ruling"
+ },
+ "mountain": {
+  "kind": "outdoor-natural",
+  "posts": 32777,
+  "source": "wiki"
+ },
+ "movie theater": {
+  "kind": "building",
+  "posts": 1307,
+  "source": "wiki"
+ },
+ "museum": {
+  "kind": "building",
+  "posts": 394,
+  "source": "wiki"
+ },
+ "nature": {
+  "kind": "outdoor-natural",
+  "posts": 81913,
+  "source": "wiki"
+ },
+ "nightclub": {
+  "kind": "building",
+  "posts": 423,
+  "source": "wiki"
+ },
+ "oasis": {
+  "kind": "outdoor-natural",
+  "posts": 157,
+  "source": "wiki"
+ },
+ "observatory": {
+  "kind": "building",
+  "posts": 127,
+  "source": "wiki"
+ },
+ "ocean": {
+  "kind": "outdoor-natural",
+  "posts": 153670,
+  "source": "wiki"
+ },
+ "office": {
+  "kind": "building",
+  "posts": 4806,
+  "source": "wiki"
+ },
+ "oil rig": {
+  "kind": "outdoor-manmade",
+  "parent": "industrial",
+  "posts": 33,
+  "source": "ruling"
+ },
+ "on roof": {
+  "kind": "building",
+  "posts": 1784,
+  "source": "wiki"
+ },
+ "onsen": {
+  "kind": "building",
+  "posts": 29806,
+  "source": "wiki"
+ },
+ "otaku room": {
+  "kind": "indoor",
+  "posts": 542,
+  "source": "wiki"
+ },
+ "pagoda": {
+  "kind": "building",
+  "posts": 1308,
+  "source": "wiki"
+ },
+ "park": {
+  "kind": "outdoor-manmade",
+  "posts": 3928,
+  "source": "wiki"
+ },
+ "parking garage": {
+  "kind": "outdoor-manmade",
+  "posts": 120,
+  "source": "wiki"
+ },
+ "parking lot": {
+  "kind": "outdoor-manmade",
+  "posts": 692,
+  "source": "wiki"
+ },
+ "path": {
+  "kind": "outdoor-manmade",
+  "posts": 5623,
+  "source": "wiki"
+ },
+ "pharmacy": {
+  "kind": "indoor",
+  "parent": "shop",
+  "posts": 44,
+  "source": "ruling"
+ },
+ "phone booth": {
+  "kind": "outdoor-manmade",
+  "posts": 919,
+  "source": "wiki"
+ },
+ "pier": {
+  "kind": "outdoor-manmade",
+  "posts": 1609,
+  "source": "wiki"
+ },
+ "plain": {
+  "kind": "outdoor-natural",
+  "posts": 314,
+  "source": "wiki"
+ },
+ "planet": {
+  "kind": "outdoor-natural",
+  "posts": 14455,
+  "source": "wiki"
+ },
+ "planetarium": {
+  "kind": "building",
+  "posts": 131,
+  "source": "wiki"
+ },
+ "playground": {
+  "kind": "outdoor-manmade",
+  "posts": 1830,
+  "source": "wiki"
+ },
+ "pond": {
+  "kind": "outdoor-natural",
+  "posts": 3907,
+  "source": "wiki"
+ },
+ "pool": {
+  "kind": "outdoor-manmade",
+  "posts": 33203,
+  "source": "wiki"
+ },
+ "poolside": {
+  "kind": "outdoor-manmade",
+  "posts": 12511,
+  "source": "wiki"
+ },
+ "prison": {
+  "kind": "building",
+  "posts": 2378,
+  "source": "wiki"
+ },
+ "prison cell": {
+  "kind": "indoor",
+  "posts": 1377,
+  "source": "wiki"
+ },
+ "public restroom": {
+  "kind": "indoor",
+  "posts": 2674,
+  "source": "wiki"
+ },
+ "racetrack": {
+  "kind": "outdoor-manmade",
+  "posts": 803,
+  "source": "wiki"
+ },
+ "railroad crossing": {
+  "kind": "outdoor-manmade",
+  "posts": 1131,
+  "source": "wiki"
+ },
+ "railroad tracks": {
+  "kind": "outdoor-manmade",
+  "posts": 3565,
+  "source": "wiki"
+ },
+ "record store": {
+  "kind": "building",
+  "posts": 74,
+  "source": "wiki"
+ },
+ "restaurant": {
+  "kind": "building",
+  "posts": 5334,
+  "source": "wiki"
+ },
+ "rice paddy": {
+  "kind": "outdoor-manmade",
+  "posts": 1178,
+  "source": "wiki"
+ },
+ "river": {
+  "kind": "outdoor-natural",
+  "posts": 11026,
+  "source": "wiki"
+ },
+ "road": {
+  "kind": "outdoor-manmade",
+  "posts": 27089,
+  "source": "wiki"
+ },
+ "roller coaster": {
+  "kind": "outdoor-manmade",
+  "posts": 746,
+  "source": "wiki"
+ },
+ "rooftop": {
+  "kind": "building",
+  "posts": 6311,
+  "source": "wiki"
+ },
+ "rope bridge": {
+  "kind": "outdoor-manmade",
+  "posts": 86,
+  "source": "wiki"
+ },
+ "ruins": {
+  "kind": "building",
+  "posts": 14912,
+  "source": "wiki"
+ },
+ "running track": {
+  "kind": "outdoor-manmade",
+  "posts": 1621,
+  "source": "wiki"
+ },
+ "runway": {
+  "kind": "building",
+  "posts": 286,
+  "source": "wiki"
+ },
+ "rural": {
+  "kind": "outdoor-manmade",
+  "posts": 1297,
+  "source": "wiki"
+ },
+ "saloon": {
+  "kind": "indoor",
+  "parent": "tavern",
+  "posts": 59,
+  "source": "ruling"
+ },
+ "sauna": {
+  "kind": "indoor",
+  "posts": 2074,
+  "source": "wiki"
+ },
+ "savannah": {
+  "kind": "outdoor-natural",
+  "posts": 381,
+  "source": "wiki"
+ },
+ "school": {
+  "kind": "building",
+  "posts": 23538,
+  "source": "wiki"
+ },
+ "school gateway": {
+  "kind": "building",
+  "posts": 358,
+  "source": "wiki"
+ },
+ "school gym": {
+  "kind": "building",
+  "posts": 1080,
+  "source": "wiki"
+ },
+ "seafloor": {
+  "kind": "outdoor-natural",
+  "posts": 486,
+  "source": "wiki"
+ },
+ "sewer": {
+  "kind": "building",
+  "posts": 253,
+  "source": "wiki"
+ },
+ "sex shop": {
+  "kind": "indoor",
+  "parent": "shop",
+  "posts": 37,
+  "source": "ruling"
+ },
+ "shack": {
+  "kind": "building",
+  "posts": 191,
+  "source": "wiki"
+ },
+ "shed": {
+  "kind": "building",
+  "posts": 235,
+  "source": "wiki"
+ },
+ "shipyard": {
+  "kind": "outdoor-manmade",
+  "posts": 95,
+  "source": "wiki"
+ },
+ "shooting range": {
+  "kind": "outdoor-manmade",
+  "posts": 151,
+  "source": "wiki"
+ },
+ "shop": {
+  "kind": "building",
+  "posts": 8287,
+  "source": "wiki"
+ },
+ "shore": {
+  "kind": "outdoor-natural",
+  "posts": 8766,
+  "source": "wiki"
+ },
+ "shower (place)": {
+  "kind": "indoor",
+  "posts": 4606,
+  "source": "wiki"
+ },
+ "shrine": {
+  "kind": "building",
+  "posts": 6264,
+  "source": "wiki"
+ },
+ "sidewalk": {
+  "kind": "outdoor-manmade",
+  "posts": 2791,
+  "source": "wiki"
+ },
+ "skating rink": {
+  "kind": "building",
+  "posts": 299,
+  "source": "wiki"
+ },
+ "skyscraper": {
+  "kind": "building",
+  "posts": 11502,
+  "source": "wiki"
+ },
+ "slums": {
+  "genres": [
+   "dark fantasy",
+   "horror"
+  ],
+  "kind": "outdoor-manmade",
+  "posts": 77,
+  "source": "wiki"
+ },
+ "soapland": {
+  "kind": "building",
+  "posts": 418,
+  "source": "wiki"
+ },
+ "soccer field": {
+  "kind": "outdoor-manmade",
+  "posts": 301,
+  "source": "wiki"
+ },
+ "space": {
+  "kind": "outdoor-natural",
+  "posts": 25124,
+  "source": "wiki"
+ },
+ "space elevator": {
+  "kind": "building",
+  "posts": 120,
+  "source": "wiki"
+ },
+ "space station": {
+  "kind": "outdoor-manmade",
+  "posts": 582,
+  "source": "wiki"
+ },
+ "spacecraft interior": {
+  "kind": "indoor",
+  "posts": 1063,
+  "source": "wiki"
+ },
+ "stable": {
+  "kind": "building",
+  "posts": 468,
+  "source": "wiki"
+ },
+ "stadium": {
+  "kind": "building",
+  "posts": 3036,
+  "source": "wiki"
+ },
+ "stage": {
+  "kind": "indoor",
+  "posts": 9861,
+  "source": "wiki"
+ },
+ "stilt house": {
+  "kind": "building",
+  "posts": 55,
+  "source": "wiki"
+ },
+ "stone walkway": {
+  "kind": "outdoor-manmade",
+  "posts": 959,
+  "source": "wiki"
+ },
+ "storage room": {
+  "kind": "indoor",
+  "posts": 197,
+  "source": "wiki"
+ },
+ "stream": {
+  "kind": "outdoor-natural",
+  "posts": 2560,
+  "source": "wiki"
+ },
+ "street": {
+  "kind": "outdoor-manmade",
+  "posts": 11942,
+  "source": "wiki"
+ },
+ "strip club": {
+  "kind": "building",
+  "posts": 90,
+  "source": "wiki"
+ },
+ "suburb": {
+  "kind": "outdoor-manmade",
+  "posts": 105,
+  "source": "wiki"
+ },
+ "subway": {
+  "kind": "building",
+  "posts": 964,
+  "source": "wiki"
+ },
+ "subway station": {
+  "kind": "building",
+  "posts": 389,
+  "source": "wiki"
+ },
+ "supermarket": {
+  "kind": "building",
+  "posts": 712,
+  "source": "wiki"
+ },
+ "tank interior": {
+  "kind": "indoor",
+  "posts": 223,
+  "source": "wiki"
+ },
+ "tavern": {
+  "kind": "building",
+  "posts": 809,
+  "source": "wiki"
+ },
+ "temple": {
+  "kind": "building",
+  "posts": 1692,
+  "source": "wiki"
+ },
+ "theater": {
+  "kind": "building",
+  "posts": 487,
+  "source": "wiki"
+ },
+ "toilet stall": {
+  "kind": "indoor",
+  "posts": 2321,
+  "source": "wiki"
+ },
+ "tower": {
+  "kind": "building",
+  "posts": 8167,
+  "source": "wiki"
+ },
+ "town": {
+  "kind": "outdoor-manmade",
+  "posts": 4725,
+  "source": "wiki"
+ },
+ "town square": {
+  "kind": "outdoor-manmade",
+  "posts": 132,
+  "source": "wiki"
+ },
+ "train interior": {
+  "kind": "indoor",
+  "posts": 11949,
+  "source": "wiki"
+ },
+ "train station": {
+  "kind": "building",
+  "posts": 3226,
+  "source": "wiki"
+ },
+ "train station platform": {
+  "kind": "building",
+  "posts": 1001,
+  "source": "wiki"
+ },
+ "treehouse": {
+  "kind": "building",
+  "posts": 346,
+  "source": "wiki"
+ },
+ "trench": {
+  "kind": "outdoor-manmade",
+  "posts": 245,
+  "source": "wiki"
+ },
+ "tundra": {
+  "kind": "outdoor-natural",
+  "posts": 59,
+  "source": "wiki"
+ },
+ "tunnel": {
+  "kind": "outdoor-manmade",
+  "posts": 852,
+  "source": "wiki"
+ },
+ "underwater": {
+  "kind": "outdoor-natural",
+  "posts": 35841,
+  "source": "wiki"
+ },
+ "underwater city": {
+  "kind": "outdoor-manmade",
+  "posts": 140,
+  "source": "wiki"
+ },
+ "vehicle interior": {
+  "kind": "indoor",
+  "posts": 1211,
+  "source": "wiki"
+ },
+ "village": {
+  "kind": "outdoor-manmade",
+  "posts": 1220,
+  "source": "wiki"
+ },
+ "volcano": {
+  "kind": "outdoor-natural",
+  "posts": 1494,
+  "source": "wiki"
+ },
+ "warehouse": {
+  "kind": "building",
+  "posts": 374,
+  "source": "wiki"
+ },
+ "wasteland": {
+  "kind": "outdoor-natural",
+  "posts": 225,
+  "source": "wiki"
+ },
+ "water": {
+  "kind": "outdoor-natural",
+  "posts": 315433,
+  "source": "wiki"
+ },
+ "waterfall": {
+  "kind": "outdoor-natural",
+  "posts": 7996,
+  "source": "wiki"
+ },
+ "waterpark": {
+  "kind": "outdoor-manmade",
+  "posts": 327,
+  "source": "wiki"
+ },
+ "weapon shop": {
+  "kind": "indoor",
+  "parent": "shop",
+  "posts": 48,
+  "source": "ruling"
+ },
+ "well": {
+  "kind": "outdoor-manmade",
+  "posts": 584,
+  "source": "wiki"
+ },
+ "wetland": {
+  "kind": "outdoor-natural",
+  "posts": 723,
+  "source": "wiki"
+ },
+ "wharf": {
+  "kind": "outdoor-manmade",
+  "posts": 87,
+  "source": "wiki"
+ },
+ "wheat field": {
+  "kind": "outdoor-manmade",
+  "posts": 1908,
+  "source": "wiki"
+ },
+ "windmill": {
+  "kind": "building",
+  "posts": 2694,
+  "source": "wiki"
+ },
+ "wooden bridge": {
+  "kind": "outdoor-manmade",
+  "posts": 630,
+  "source": "wiki"
+ },
+ "workshop": {
+  "kind": "indoor",
+  "posts": 184,
+  "source": "wiki"
+ },
+ "wrestling ring": {
+  "kind": "indoor",
+  "posts": 4692,
+  "source": "wiki"
+ },
+ "zoo": {
+  "kind": "outdoor-manmade",
+  "posts": 330,
+  "source": "wiki"
+ }
+}

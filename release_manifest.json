@@ -1,0 +1,415 @@
+{
+ "_note": "Bismuth Prompt Studio -- the files this build owns, fingerprinted. tools/update.py compares them with the latest build and downloads only what changed. Do not edit.",
+ "name": "Bismuth Prompt Studio",
+ "version": "0.1.0-beta",
+ "build": "2026-09-18 11:07 UTC",
+ "repo": "Sorlexa/bismuth-prompt-studio",
+ "branch": "main",
+ "policies": {
+  "data/library/llm_config.json": "keep",
+  "data/library/act_pair_counts.json": "merge",
+  "data/pools/slot_hints.json": "merge"
+ },
+ "files": {
+  ".gitignore": {
+   "sha256": "ef3fe08d7c920bf2eb80680c090a8fb380c019f10f6673f35cbc9af0b0dee36f",
+   "size": 258
+  },
+  "README.md": {
+   "sha256": "a730b7ab83b9a4ab8a032491f11cde2056442b1a71f4640b98949124b9041ca9",
+   "size": 32522
+  },
+  "run_studio.cmd": {
+   "sha256": "1345d8ea71e684c04fb7832ca96e979b55bf89ce996bc00f152721a3a69626c7",
+   "size": 253
+  },
+  "run_studio.sh": {
+   "sha256": "4343ee088f60cb7c61b39f11599141e968998e131d01ae49852352e114231c77",
+   "size": 140
+  },
+  "setup.cmd": {
+   "sha256": "2b764d59492dff798dc6af2433dd71de75855cf8319a46ef98e0fa60d4dcbc66",
+   "size": 261
+  },
+  "update.cmd": {
+   "sha256": "8e7c1fbcdda06c34b5c108fc22c85952c2ebb889a92ec4806d58db081d96c4f3",
+   "size": 256
+  },
+  "LLM/README.txt": {
+   "sha256": "585ee2664ea656e72ffe8908423290ba60540d99fe8d235cfbe4448630b4ef04",
+   "size": 190
+  },
+  "LLM/llama.cpp/README.txt": {
+   "sha256": "0b493d89a17417fb3510896487ccd2bc09ccd919f9563bcda1a0e37ff538dfe4",
+   "size": 152
+  },
+  "LLM/llama.cpp/backend/README.txt": {
+   "sha256": "693a59a920773404898a9baa49c6fe52ad648637b5533e4ec58379c2826ed7c5",
+   "size": 70
+  },
+  "LLM/llama.cpp/vendor/README.txt": {
+   "sha256": "0b1165651a40b798fc6ffeef70ce6965d4fac71ddc37c3ef8ed01f2b80c79760",
+   "size": 123
+  },
+  "data/embeddings/artist_fingerprints.json": {
+   "sha256": "3eaec8dbf3361063e82e1506ae0a40c919a5e959dd74a9b5516db99e359b9822",
+   "size": 7167707
+  },
+  "data/embeddings/style_embeddings.json": {
+   "sha256": "188e128b6f2855cddedd16c1750c9e4f47b19cee12d6104a1c573d5d31143728",
+   "size": 1325650
+  },
+  "data/library/act_pair_counts.json": {
+   "sha256": "b54459ddcbf2fc77ad5adc6f105cb7710ff4832f24bfb0aea0f3f35059380f01",
+   "size": 135064
+  },
+  "data/library/act_posture.json": {
+   "sha256": "c232726b7aa3bdeea3f6d2ab955e86e4dcfe671ab57400d04c55f29e8b9741ad",
+   "size": 1428093
+  },
+  "data/library/alias_map_local.json": {
+   "sha256": "acde98ccfb0c7bf2fa284d565a73d8c5a5c9ff05c159a3122bbf24b9e7830cc4",
+   "size": 5511
+  },
+  "data/library/artist_denylist.json": {
+   "sha256": "eaed1fe2ed8ce0221e271157260af9598403b543a59eea9b0fa36903a63cc916",
+   "size": 7114
+  },
+  "data/library/artist_safety.json": {
+   "sha256": "9dc7f832edecff8a5fd2ee5be72ee440f646856570d93569929ddc7bd50e9a89",
+   "size": 2104442
+  },
+  "data/library/artist_signatures_vision.json": {
+   "sha256": "9f2739c681aaff176cc95d452756c98dbafd26a99b187ad097c5c7e8a2c94bed",
+   "size": 2083956
+  },
+  "data/library/artist_styles_vision.json": {
+   "sha256": "370f3e02d37dd2f13a7c7d680a5000f9b95dfc8b6d4384a45db5be5cb034689a",
+   "size": 27918980
+  },
+  "data/library/body.json": {
+   "sha256": "df1f1d8519a9f921f8cfc324c1ae06a9f71c02bb5f76eb6ae8f308fff301d927",
+   "size": 78086
+  },
+  "data/library/clothes.json": {
+   "sha256": "cfc925b7b82f49bc801be8d8904d3987c293e43be8852947335076e433b1717e",
+   "size": 653582
+  },
+  "data/library/concept_decomp.json": {
+   "sha256": "a3840aab57d4c850ca8938ffe69c0259af7239947fc3ceb44387d2bdd0538fc3",
+   "size": 1331
+  },
+  "data/library/concept_nl_only.json": {
+   "sha256": "a76d52462697375cdbbb21e5b7dd67b147a2a037cd92802ad1b86d6d7789e651",
+   "size": 29893
+  },
+  "data/library/english_lexicon.json": {
+   "sha256": "0d311056cfeb24b6d664a45ec66f95f49b5f70de8bc33c5ce605f133d04a254c",
+   "size": 7101444
+  },
+  "data/library/events.json": {
+   "sha256": "eea864b0540ca673647ad8994cabdeec171a10e4607faa82b428613883d4857a",
+   "size": 13412
+  },
+  "data/library/external_concepts.json": {
+   "sha256": "0dff24da48227481600b71370d0fae2266f15ab0eaf8650fbf3c93aa72a243bc",
+   "size": 2002095
+  },
+  "data/library/genre_activities.json": {
+   "sha256": "d48453f3c8409a6ee2febaa28e60625f533c325b24e1dcfabec10221773310eb",
+   "size": 210855
+  },
+  "data/library/genre_locations.json": {
+   "sha256": "80191ac75a9b2072d4075f54bc2d4782ccb6d983ccf1278083e39d36df023278",
+   "size": 137438
+  },
+  "data/library/genre_occupations.json": {
+   "sha256": "b1ebcb853dd4978ea6c32810905954999e036efc240fe5e1818be20c62d37b8e",
+   "size": 234269
+  },
+  "data/library/genre_poses.json": {
+   "sha256": "9f68f4ccdada37c2ea269637bf4c1d068e4f88a448e83cdd7f06dcfc4d59f514",
+   "size": 147584
+  },
+  "data/library/genre_races.json": {
+   "sha256": "e1066afdc084094773742e93ad025750229d2ec89a0112db59477b43fb87dd8e",
+   "size": 4017
+  },
+  "data/library/gloss_pending.json": {
+   "sha256": "c13c94577b24ae0a971887c0d065972ba497914daed31eebeaeefe1367e285f4",
+   "size": 117
+  },
+  "data/library/llm_config.json": {
+   "sha256": "f1579b4cdff6ec2460c9e93be47e1734abc935aa5311001170b819ec15920655",
+   "size": 479
+  },
+  "data/library/location_rulings.json": {
+   "sha256": "fe40c8b93ddd8ba2eced4c0af8c8ada91a373867f4eb0e6323a6f097f36731e4",
+   "size": 2895
+  },
+  "data/library/look_glossary.json": {
+   "sha256": "d83bb04cd886bfd6247e07fdb3aa361f9935946edf9f640c0030ef2e20b3793c",
+   "size": 2428971
+  },
+  "data/library/occupation_gender.json": {
+   "sha256": "554ac026f34df10a817f360302e948f0cbdb08e8f02ddf011eb5769bb4261151",
+   "size": 21549
+  },
+  "data/library/occupation_pool.json": {
+   "sha256": "9f231f8c0850abccc9975e269583447d5cd4b6de1ed48e49c2a40ba438748e53",
+   "size": 8490
+  },
+  "data/library/place_related.json": {
+   "sha256": "b0793d1d4c44f094b041c7031c75c4dac0afa9396ccf195834ebbdee21bd39c6",
+   "size": 17866289
+  },
+  "data/library/pool_affinity.json": {
+   "sha256": "8a62d5d372dbec8c7c7830797c94f36c7f5f495ba2ff54ea6b97b693a3ec690e",
+   "size": 507398
+  },
+  "data/library/race_gender.json": {
+   "sha256": "12600e2c46ea0f08cd09f57d36715bfed1da5af1d626f08947541b2255ef6441",
+   "size": 6439
+  },
+  "data/library/setup_manifest.json": {
+   "sha256": "92493e2eca333a8310e7f8a6a2f22ecf2c2522a1bfaae649162fa7d22233692b",
+   "size": 3156
+  },
+  "data/library/spice.json": {
+   "sha256": "3d782e6f2a077dd3c37257e0592960ea8185d265e6a047f1a55916240a77ba38",
+   "size": 96791
+  },
+  "data/library/tag_gender.json": {
+   "sha256": "72b7d4e8ede19ca847f28c488f8f04c8c7671aa1a97d10817686a4b53231a3e8",
+   "size": 305964
+  },
+  "data/library/tree_vocab.json": {
+   "sha256": "f1c048fd61f7e046a0131389f958076342ac1fc5647285db8990827c0454ce46",
+   "size": 5002069
+  },
+  "data/library/weather_lighting.json": {
+   "sha256": "7ea2276f62ce13d05a5de063899cbcb8ecd8deff9b7ef499eebacd6be1685cf3",
+   "size": 18629
+  },
+  "data/pools/artist_pool.json": {
+   "sha256": "eb52ec18a734e4e3e94a97f1d7ed105b8a568bfe823ceafb1b3652086824d1ff",
+   "size": 10616421
+  },
+  "data/pools/cast_weights.json": {
+   "sha256": "f52a5c5dc1aa7cb2c74725d84a12be7da0d39b3ef113e9d7017ff11f9c8bc8ab",
+   "size": 4045
+  },
+  "data/pools/category_banks.json": {
+   "sha256": "3f5afb16e7d8037fd4ff579dde31c56c86b12cb4ec819c3d243efb98090b33e8",
+   "size": 166958
+  },
+  "data/pools/character_profiles.json": {
+   "sha256": "690d5f7eee4546bdda27357ff5826fb42c371f00c01b7e2c9d99c07d261a4a2a",
+   "size": 1204230
+  },
+  "data/pools/character_traits.json": {
+   "sha256": "cf8add5d401fcd6f28134ed371d24b4c6e27ffef684cf19a8b3e45c9766b43d7",
+   "size": 11660609
+  },
+  "data/pools/cultural_styles.json": {
+   "sha256": "3868ea804315763d1b1bff3dbd7163f9625c7b6677efad8886d255a56b2cfe11",
+   "size": 10652
+  },
+  "data/pools/genre_pool.json": {
+   "sha256": "a164d48c8048915d3e9cf4f67dedacdc01747222bbd940309c47aa31f174dba6",
+   "size": 12469
+  },
+  "data/pools/lighting_pool.json": {
+   "sha256": "3ae37d71ca70ef0a24252289d31c0baf377b08cbf91c10618fed44b14eb3f1fc",
+   "size": 7774
+  },
+  "data/pools/location_pool.json": {
+   "sha256": "ccc5a97c0fd58a991b14e1111ee095b56a9edebbc4740682039b25797132aaf3",
+   "size": 21274
+  },
+  "data/pools/medium_pool.json": {
+   "sha256": "34b5f1a2ab6c2a5292a3cf511e161a19b15e94403310d3f695ef2bf43be466cd",
+   "size": 9031
+  },
+  "data/pools/quality_pool.json": {
+   "sha256": "477221b979c3e2035e6f97ef5913c1b0163c54c5c7dec0a0952813206c76aa7a",
+   "size": 7128
+  },
+  "data/pools/slot_hints.json": {
+   "sha256": "b4a593f4cd47abe084bb7d2764db374a0d3eb2d55262c6050d23955472684a63",
+   "size": 602
+  },
+  "data/pools/style_pool.json": {
+   "sha256": "6236654fbfca6d6879fc439f3ee69835951a0971333b454d519440561a47ca70",
+   "size": 26247
+  },
+  "data/pools/subject_pulls.json": {
+   "sha256": "536aacf302d9f254be5f39d99a7763663bd66b7b93b4825948ca5738a1f2f746",
+   "size": 55316
+  },
+  "data/tags/alias_map.json": {
+   "sha256": "aed34c88faf23369cdebab67014b4bd663c0581e39b00d252e33b43a1ab97f6b",
+   "size": 1677481
+  },
+  "data/tags/arity.json": {
+   "sha256": "93b7393e4ef85cc813d489258f8cb202054ad6ee925b886b7a8db35f87662322",
+   "size": 31236
+  },
+  "data/tags/contradictions.json": {
+   "sha256": "5e3c9fbdb09108d86f32aca019e52c86cac023381f6618091f9e540cdeb85f88",
+   "size": 8822
+  },
+  "data/tags/danbooru_tags.json": {
+   "sha256": "112747f3ead3cdf6c0f33bc384fd0df83b5cff974764a8be044a10c7fd7e76e5",
+   "size": 715235
+  },
+  "data/tags/danbooru_wiki.json": {
+   "sha256": "d8496eb5a11873d118b566cfbc7e80cac52e6410e2580b7ed0ab7126b23e076a",
+   "size": 416639
+  },
+  "data/tags/extra_tags.json": {
+   "sha256": "8a52895c9d4642253abb41b01e517710df0fbb58725d82c15e99722e7682f7f1",
+   "size": 4811
+  },
+  "data/tags/gelbooru_tags.json": {
+   "sha256": "693d04a636c6929681bdb46f45fadeeb8c1b8750ec3529c82aa35b4254faf7e8",
+   "size": 768986
+  },
+  "data/tags/safety_floor.json": {
+   "sha256": "c7c0450ce549279bb0c312723935aed1681df9edff3f05ee4172b31fdba48a77",
+   "size": 1075062
+  },
+  "data/tags/tag_bridge.json": {
+   "sha256": "996bf9318189baaf6f0fe5393538f6b1daa1716844ecd724e8288425ed8d4d8c",
+   "size": 1011
+  },
+  "data/tags/tag_categories.json": {
+   "sha256": "8b0f7bffc6e5790e99a59d078561e7a8c3e5ed25a06df636bfe84e34d67a0f7d",
+   "size": 1693424
+  },
+  "data/tags/tag_glosses.json": {
+   "sha256": "e52bd3061b47ac654d48787d19130c3c47899589bbfa72d951ea266d6295bb47",
+   "size": 4026579
+  },
+  "data/tags/tag_graph.json": {
+   "sha256": "d7ae282145af8ad17e96e3040c00d0e361d0f5b750ee7932f93fc1893ba16f5c",
+   "size": 20776680
+  },
+  "data/tags/tag_implications.json": {
+   "sha256": "47ee3d453c5f0f83ea1c5604b3db102bbf627f5cc25cb2449e898b415b9110c9",
+   "size": 2161413
+  },
+  "promptstudio/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/paths.py": {
+   "sha256": "e63d8738b0c34f7b7a2d35649b4506d059cd2b9bd2132120d88db97fe4a1abf3",
+   "size": 2590
+  },
+  "promptstudio/engine/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/engine/affinity.py": {
+   "sha256": "671ba0bde4cc672b1b56e02dc5bf035a3732b930253b13b03097f8a5c631ecd4",
+   "size": 6975
+  },
+  "promptstudio/engine/aliases.py": {
+   "sha256": "5c71572baa9b823125f9a6294608018f592c26626b52c7fbfac6321dcaaaaa3d",
+   "size": 1414
+  },
+  "promptstudio/engine/bridge.py": {
+   "sha256": "93446780c579261391e1da4ed837b53a52b50ae02682032051c072c099e2e1cb",
+   "size": 606983
+  },
+  "promptstudio/engine/enhancer.py": {
+   "sha256": "ff6a977e9ce90511ed7c71fde5d776a66862c1379092dd47f706c7cb9e7b444d",
+   "size": 124170
+  },
+  "promptstudio/engine/fastplan.py": {
+   "sha256": "046f938c29990eb17c76e5227a310627d65a76e30bd4048294e353e1c5ac4f71",
+   "size": 109088
+  },
+  "promptstudio/engine/lexicon.py": {
+   "sha256": "b2520d24d0a46a6ebca8f7ec016cf46790fd88ee9eff76f84e092b61ebdfc974",
+   "size": 11525
+  },
+  "promptstudio/engine/scene.py": {
+   "sha256": "5668f4ee7b0c62e347248b3e667deee5f0eb240f549f2569f8deeaf9a3319b6f",
+   "size": 20232
+  },
+  "promptstudio/engine/slot_hints.json": {
+   "sha256": "907b52793a32fe005a1589933a082e110ecc3d2e6cf58397e6a024cbdcd775db",
+   "size": 255
+  },
+  "promptstudio/engine/slots.py": {
+   "sha256": "3d0c5cb41ae72a146a9da1d99269837e57cb5ac456de4240c7126c8363121300",
+   "size": 37930
+  },
+  "promptstudio/engine/tagnet.py": {
+   "sha256": "5f082b8ef61cdab79ab8e2b62f24a877880b51ec522a7b01881ae9a0dd9be1ec",
+   "size": 20967
+  },
+  "promptstudio/engine/vocab.py": {
+   "sha256": "d85ea58497361ea00b13f5e0c35df13ab21d7b2b6766ea5c0ff0b6e3a29c5699",
+   "size": 23049
+  },
+  "promptstudio/library/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/library/artist_fit.py": {
+   "sha256": "771b4fe6ae407ab7d72c5980c0a9da066d04095d600b7fe587d5365eee96bc5b",
+   "size": 7760
+  },
+  "promptstudio/library/concepts.py": {
+   "sha256": "f9aa2ea217f5c8a889e24e0cae85a105037a0f038e5d5ef8403c3755e3315de9",
+   "size": 27444
+  },
+  "promptstudio/library/external.py": {
+   "sha256": "8afb6b2753c3fadc7e86674cd61bd9fbf8a07fb3c2d9b4d627e8765529a28f62",
+   "size": 9599
+  },
+  "promptstudio/library/looks.py": {
+   "sha256": "df9493512d612277b20a09348c00d64b285697776fc13ac63ac87423530b68f3",
+   "size": 53311
+  },
+  "promptstudio/library/matching.py": {
+   "sha256": "f8b87ef3e026eb46207fbcdb02de15a2bf096e330fc1c312385f2a4cb6d0ac9a",
+   "size": 3600
+  },
+  "promptstudio/llm/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/llm/config.py": {
+   "sha256": "178baa2cafb66e99f699321492b19aa99b12f0ecc4e3fbb2194844088780ee1b",
+   "size": 2975
+  },
+  "promptstudio/llm/server.py": {
+   "sha256": "e3d9ac6195596195d133b24e70caeaaec417c99f99b440aaa449a2582341b5d8",
+   "size": 10122
+  },
+  "promptstudio/ui/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/ui/studio.py": {
+   "sha256": "67962329dca82b19e70c660b24e663abb8d7fc73f4da521ad088bada4de8d29e",
+   "size": 61343
+  },
+  "tools/selfcheck.py": {
+   "sha256": "776a721d066f60651b2569b4c8cf49c562f9ced3bbcdf4fd818662c6f11c2404",
+   "size": 1361
+  },
+  "tools/setup_models.py": {
+   "sha256": "45a42e3eab1d68ae6ce254bbc37cbba38614929187311afc5794a27c74b34fba",
+   "size": 14134
+  },
+  "tools/update.py": {
+   "sha256": "49a642ad0c3628f0ee6ccec580405fae294343319f66d2bd17184199f37570d5",
+   "size": 14553
+  }
+ }
+}

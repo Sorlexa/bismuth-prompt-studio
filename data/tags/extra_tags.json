@@ -1,0 +1,32 @@
+{
+  "_readme": "Vocabulary that finetunes respond to but danbooru does not have. Danbooru is the BASE tag set (danbooru_tags.json); scraped prompts teach how tags are USED; this file covers the third layer — quality/aesthetic tokens, rendering and photography language, and composition terms baked into Illustrious/NoobAI/Anima/Pony finetunes. Weights are relative usefulness, not frequency.",
+
+  "quality_illustrious": {
+    "_note": "Illustrious / NoobAI quality + recency conditioning. 'very awa' comes from the aesthetic scorer; year tags shift era of style.",
+    "tags": [["masterpiece", 5], ["best quality", 5], ["amazing quality", 4], ["great quality", 3], ["good quality", 2], ["very aesthetic", 5], ["aesthetic", 3], ["very awa", 3], ["absurdres", 4], ["highres", 3], ["newest", 4], ["recent", 2], ["mid", 1], ["early", 1], ["year 2024", 2], ["year 2023", 1], ["general", 1], ["sensitive", 1], ["nsfw", 2], ["explicit", 2]]
+  },
+  "quality_pony": {
+    "_note": "Pony Diffusion score conditioning. Irrelevant to Illustrious/Anima but common in scraped prompts, so kept for recognition.",
+    "tags": [["score_9", 3], ["score_8_up", 3], ["score_7_up", 2], ["score_6_up", 1], ["source_anime", 2], ["source_cartoon", 1], ["rating_explicit", 1], ["rating_safe", 1]]
+  },
+  "rendering": {
+    "_note": "3D/engine vocabulary finetunes learned from scraped captions.",
+    "tags": [["ultra-detailed", 4], ["highly detailed", 4], ["intricate details", 3], ["insane details", 2], ["sharp focus", 4], ["8k", 3], ["4k", 2], ["hdr", 2], ["ray tracing", 2], ["subsurface scattering", 2], ["octane render", 2], ["unreal engine", 2], ["global illumination", 2], ["ambient occlusion", 1], ["physically based rendering", 1], ["volumetric fog", 2], ["depth of field", 5], ["bokeh", 4], ["motion blur", 2], ["chromatic aberration", 2], ["film grain", 3], ["lens flare", 2], ["anti-aliasing", 1], ["high resolution", 2], ["ultra hd", 2], ["photorealistic", 3], ["hyperrealistic", 3], ["semi-realistic", 3], ["2.5d", 2], ["stylized", 2]]
+  },
+  "photography": {
+    "_note": "Camera language; finetunes map these to framing and optics.",
+    "tags": [["35mm", 2], ["50mm", 2], ["85mm", 2], ["shallow depth of field", 3], ["wide angle", 3], ["telephoto", 1], ["macro", 1], ["fisheye", 1], ["long exposure", 1], ["shot on film", 2], ["kodak portra", 1], ["analog photo", 2], ["polaroid", 1], ["studio photo", 2], ["candid", 2], ["editorial photography", 2], ["fashion photography", 2], ["golden ratio", 1], ["rule of thirds", 2], ["centered composition", 2], ["leading lines", 1], ["negative space", 2], ["symmetrical composition", 1], ["dynamic composition", 3], ["cinematic composition", 3], ["establishing shot", 1], ["medium shot", 2], ["extreme close-up", 2]]
+  },
+  "lighting_craft": {
+    "_note": "Lighting words from photography/CG that are not danbooru tags.",
+    "tags": [["cinematic lighting", 5], ["volumetric lighting", 4], ["dramatic lighting", 5], ["rim lighting", 3], ["key light", 2], ["fill light", 1], ["split lighting", 2], ["rembrandt lighting", 1], ["butterfly lighting", 1], ["soft box lighting", 2], ["natural lighting", 4], ["ambient light", 3], ["practical lighting", 1], ["colored lighting", 3], ["neon lighting", 3], ["moody lighting", 4], ["low key lighting", 2], ["high key lighting", 2], ["god rays", 3], ["light leaks", 1], ["caustics", 2], ["bioluminescence", 2], ["subsurface glow", 1], ["atmospheric haze", 2], ["dust particles", 2], ["light particles", 3]]
+  },
+  "style_craft": {
+    "_note": "Style/medium descriptors used in prompts that danbooru does not tag this way.",
+    "tags": [["concept art", 3], ["matte painting", 2], ["key visual", 3], ["official art", 3], ["anime screencap", 3], ["light novel illustration", 2], ["visual novel cg", 2], ["game cg", 2], ["splash art", 2], ["character sheet", 1], ["digital painting", 3], ["oil painting style", 2], ["watercolor style", 2], ["gouache", 1], ["airbrush", 2], ["cel shaded", 3], ["flat shading", 2], ["painterly", 3], ["impasto", 1], ["line art", 2], ["clean lineart", 3], ["no lineart", 2], ["thick lineart", 2], ["sketchy", 2], ["retro anime style", 2], ["90s anime style", 2], ["modern anime style", 2], ["semi-realistic anime", 3], ["hyperreal render", 2], ["glossy shading", 2], ["soft shading", 3], ["detailed skin texture", 3], ["skin pores", 1], ["wet skin shading", 2]]
+  },
+  "anima_natural": {
+    "_note": "Anima reads prose (Qwen3 text encoder), so short descriptive clauses work as vocabulary too.",
+    "tags": [["highly detailed illustration", 3], ["expressive facial features", 3], ["strong sense of depth", 2], ["atmospheric mood", 3], ["carefully drawn anatomy", 3], ["confident posing", 2], ["intimate framing", 2], ["cinematic framing", 3], ["rich color grading", 2], ["soft skin rendering", 2]]
+  }
+}

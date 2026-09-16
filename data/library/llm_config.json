@@ -1,0 +1,8 @@
+{
+  "_note": "Bismuth Prompt Studio -- language model config. Paths are relative to the LLM/ folder or absolute. Environment variables PROMPTSTUDIO_LLM_MAIN / _CTX / _MODEL_ID win over this file. 'embed' is optional: the embedding model for the semantic style matcher (README, 'Semantic style matching'). See README.md, 'Setting up the language model'.",
+  "main": "your-model.Q4_K_M.gguf",
+  "ctx": 8192,
+  "model_id": "your-model",
+  "thinking": false,
+  "embed": null
+}

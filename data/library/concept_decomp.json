@@ -1,0 +1,77 @@
+{
+ "_note": "concept -> visible parts, integrated from the concept ledger; bridge 2 maps the concept to these tags directly",
+ "concepts": {
+  "warm tones": {
+   "tags": [
+    "warm colors"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "muted greens": {
+   "tags": [
+    "muted colors"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "warm golden tones": {
+   "tags": [
+    "warm colors"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "pastel pinks": {
+   "tags": [
+    "pastel colors"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "white colors": {
+   "tags": [
+    "white theme"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "pastel pink": {
+   "tags": [
+    "pink theme",
+    "pastel colors"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "muted tones": {
+   "tags": [
+    "muted colors"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "muted green": {
+   "tags": [
+    "green theme",
+    "muted colors"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "muted browns": {
+   "tags": [
+    "muted colors"
+   ],
+   "why": null,
+   "when": "2026-09-11T02:13"
+  },
+  "night photography": {
+   "tags": [
+    "photo (medium)",
+    "night"
+   ],
+   "why": "the author's 2026-09-15 (style batch, filtered by the rulings): decomposed"
+  }
+ }
+}
