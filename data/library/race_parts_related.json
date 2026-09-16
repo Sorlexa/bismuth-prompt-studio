@@ -1,0 +1,1188 @@
+{
+ "_note": "P(part | race): the share of a race's own posts that carry each body part (danbooru related_tag of the race tag). Written by tools/build/harvest_race_parts.py.",
+ "min_share": 0.1,
+ "races": {
+  "alien": {
+   "colored skin": 0.418,
+   "pointy ears": 0.133,
+   "blue skin": 0.1324,
+   "red skin": 0.1136,
+   "glowing eyes": 0.1088
+  },
+  "alpaca girl": {
+   "animal ears": 0.9803,
+   "alpaca ears": 0.968,
+   "tail": 0.6182,
+   "extra ears": 0.298,
+   "wings": 0.2094,
+   "horizontal pupils": 0.1626,
+   "bird wings": 0.1355,
+   "horns": 0.1281,
+   "cat ears": 0.1084,
+   "fox ears": 0.1084
+  },
+  "android": {
+   "joints": 0.2448,
+   "robot joints": 0.225,
+   "robot ears": 0.1148
+  },
+  "angel": {
+   "wings": 0.8934,
+   "angel wings": 0.7058,
+   "halo": 0.6124,
+   "feathered wings": 0.4274,
+   "horns": 0.116
+  },
+  "arthropod boy": {
+   "wings": 0.503,
+   "insect wings": 0.4477,
+   "colored skin": 0.199,
+   "butterfly wings": 0.1422,
+   "horns": 0.1216
+  },
+  "arthropod girl": {
+   "monster girl": 0.4874,
+   "colored skin": 0.2844,
+   "wings": 0.2604,
+   "insect wings": 0.1852,
+   "extra eyes": 0.1686,
+   "colored sclera": 0.1398,
+   "taur": 0.131,
+   "horns": 0.127,
+   "black skin": 0.106,
+   "black sclera": 0.1006
+  },
+  "au ra": {
+   "horns": 0.8912,
+   "scales": 0.7494,
+   "dragon horns": 0.7038,
+   "tail": 0.5818,
+   "dragon tail": 0.4602,
+   "animal ears": 0.1538
+  },
+  "bat girl": {
+   "animal ears": 0.9037,
+   "bat ears": 0.8613,
+   "wings": 0.8485,
+   "bat wings": 0.821,
+   "extra ears": 0.3033,
+   "tail": 0.255,
+   "fang": 0.1278
+  },
+  "bear boy": {
+   "animal ears": 0.8382,
+   "bear ears": 0.796,
+   "claws": 0.186,
+   "tail": 0.1733,
+   "fangs": 0.1405
+  },
+  "bear girl": {
+   "animal ears": 0.9618,
+   "bear ears": 0.9342,
+   "tail": 0.2904,
+   "bear tail": 0.195,
+   "extra ears": 0.1353
+  },
+  "bird boy": {
+   "wings": 0.4045,
+   "beak": 0.3379,
+   "tail": 0.215,
+   "animal ears": 0.2027,
+   "bird wings": 0.1987,
+   "feathers": 0.1937,
+   "feathered wings": 0.1834,
+   "claws": 0.1172,
+   "horns": 0.1112,
+   "colored skin": 0.1102
+  },
+  "bird girl": {
+   "wings": 0.6356,
+   "tail": 0.4482,
+   "animal ears": 0.3816,
+   "bird wings": 0.339,
+   "feathered wings": 0.1608,
+   "feathers": 0.1126
+  },
+  "boar boy": {
+   "animal ears": 0.5172,
+   "body fur": 0.4249,
+   "beard": 0.309,
+   "fang": 0.2725,
+   "colored skin": 0.1309,
+   "red skin": 0.1094,
+   "horns": 0.1009
+  },
+  "cat boy": {
+   "animal ears": 0.901,
+   "cat ears": 0.87,
+   "tail": 0.6426,
+   "cat tail": 0.5558,
+   "kemonomimi mode": 0.1802,
+   "fang": 0.1006
+  },
+  "cat girl": {
+   "animal ears": 0.9722,
+   "cat ears": 0.955,
+   "tail": 0.6702,
+   "cat tail": 0.6302,
+   "fang": 0.147,
+   "halo": 0.1064
+  },
+  "centaur": {
+   "taur": 1.0,
+   "monster girl": 0.6355,
+   "animal ears": 0.54,
+   "tail": 0.465,
+   "horse ears": 0.4574,
+   "horse tail": 0.3387,
+   "multiple legs": 0.2293,
+   "hooves": 0.229,
+   "pointy ears": 0.2085,
+   "horns": 0.1553
+  },
+  "chipmunk girl": {
+   "animal ears": 0.8493,
+   "tail": 0.726,
+   "extra ears": 0.7186,
+   "bat ears": 0.132,
+   "wings": 0.1295,
+   "cat ears": 0.1258,
+   "bat wings": 0.1108
+  },
+  "cow boy": {
+   "horns": 0.9242,
+   "animal ears": 0.877,
+   "cow ears": 0.845,
+   "cow horns": 0.8214,
+   "tail": 0.2824,
+   "fiery horns": 0.2633,
+   "glowing horns": 0.2445,
+   "cow tail": 0.2143,
+   "beard": 0.1112
+  },
+  "cow girl": {
+   "animal ears": 0.8756,
+   "horns": 0.8684,
+   "cow ears": 0.8386,
+   "cow horns": 0.7636,
+   "tail": 0.4988,
+   "cow tail": 0.4308
+  },
+  "cyborg": {
+   "mechanical arms": 0.2382,
+   "colored sclera": 0.107
+  },
+  "cyclops": {
+   "one-eyed": 1.0,
+   "monster girl": 0.303,
+   "colored skin": 0.2439,
+   "horns": 0.1585,
+   "tail": 0.1558,
+   "colored sclera": 0.155,
+   "sharp teeth": 0.1369,
+   "pointy ears": 0.1302,
+   "extra eyes": 0.1129,
+   "animal ears": 0.1
+  },
+  "dark elf": {
+   "pointy ears": 1.0,
+   "long pointy ears": 0.3638
+  },
+  "deer boy": {
+   "horns": 0.765,
+   "animal ears": 0.7007,
+   "antlers": 0.6973,
+   "deer ears": 0.6375,
+   "tail": 0.2705,
+   "sharp teeth": 0.1863,
+   "deer tail": 0.1596,
+   "colored sclera": 0.1419,
+   "colored skin": 0.1131,
+   "red sclera": 0.1053
+  },
+  "deer girl": {
+   "horns": 0.8154,
+   "antlers": 0.771,
+   "animal ears": 0.7158,
+   "deer ears": 0.6788,
+   "tail": 0.2526,
+   "deer tail": 0.1904,
+   "colored skin": 0.1152,
+   "hooves": 0.106
+  },
+  "demon": {
+   "horns": 0.5496,
+   "demon horns": 0.3562,
+   "wings": 0.3012,
+   "tail": 0.2614,
+   "pointy ears": 0.1892,
+   "demon tail": 0.1824,
+   "demon wings": 0.1726,
+   "colored skin": 0.1616,
+   "sharp teeth": 0.1006
+  },
+  "demon boy": {
+   "horns": 0.653,
+   "demon horns": 0.4832,
+   "pointy ears": 0.3182,
+   "wings": 0.294,
+   "tail": 0.291,
+   "colored skin": 0.2342,
+   "demon tail": 0.22,
+   "demon wings": 0.1892,
+   "sharp teeth": 0.112
+  },
+  "demon girl": {
+   "horns": 0.7542,
+   "demon horns": 0.6346,
+   "tail": 0.4624,
+   "wings": 0.4174,
+   "demon tail": 0.3978,
+   "pointy ears": 0.3746,
+   "demon wings": 0.2982,
+   "halo": 0.158,
+   "fang": 0.1044
+  },
+  "dinosaur boy": {
+   "tail": 0.7068,
+   "dinosaur tail": 0.6438,
+   "sharp teeth": 0.2438,
+   "claws": 0.1973,
+   "horns": 0.1151,
+   "colored skin": 0.1123,
+   "fangs": 0.1041
+  },
+  "dinosaur girl": {
+   "tail": 0.7542,
+   "dinosaur tail": 0.6158,
+   "monster girl": 0.3955,
+   "claws": 0.3785,
+   "sharp teeth": 0.3277,
+   "horns": 0.2938,
+   "scales": 0.2034,
+   "pointy ears": 0.1497,
+   "fang": 0.1469,
+   "slit pupils": 0.1412,
+   "colored skin": 0.1384,
+   "wings": 0.1102,
+   "talons": 0.1073
+  },
+  "dog boy": {
+   "animal ears": 0.8776,
+   "dog ears": 0.8374,
+   "tail": 0.5616,
+   "dog tail": 0.4712,
+   "fangs": 0.1076
+  },
+  "dog girl": {
+   "animal ears": 0.9654,
+   "dog ears": 0.9484,
+   "tail": 0.6428,
+   "dog tail": 0.5832,
+   "halo": 0.1396,
+   "fang": 0.133,
+   "extra ears": 0.105
+  },
+  "dragon boy": {
+   "horns": 0.8702,
+   "dragon horns": 0.7754,
+   "tail": 0.4844,
+   "dragon tail": 0.4166,
+   "pointy ears": 0.409,
+   "wings": 0.1752,
+   "dragon wings": 0.143,
+   "eastern dragon horns": 0.1354,
+   "scales": 0.1158,
+   "claws": 0.1132
+  },
+  "dragon girl": {
+   "horns": 0.911,
+   "dragon horns": 0.7974,
+   "tail": 0.6506,
+   "dragon tail": 0.534,
+   "pointy ears": 0.3738,
+   "wings": 0.164,
+   "scales": 0.1268,
+   "dragon wings": 0.111
+  },
+  "draph": {
+   "horns": 0.9424,
+   "pointy ears": 0.629,
+   "animal ears": 0.1244
+  },
+  "dullahan": {
+   "monster girl": 0.2352,
+   "colored skin": 0.1308,
+   "colored sclera": 0.1287,
+   "black sclera": 0.1234,
+   "animal ears": 0.1086
+  },
+  "dwarf": {
+   "beard": 0.7394,
+   "horns": 0.5222,
+   "pointy ears": 0.4034,
+   "animal ears": 0.1221
+  },
+  "elf": {
+   "pointy ears": 1.0,
+   "long pointy ears": 0.2504
+  },
+  "erune": {
+   "animal ears": 0.9038,
+   "tail": 0.218,
+   "fox ears": 0.101
+  },
+  "fairy": {
+   "wings": 0.774,
+   "fairy wings": 0.5454,
+   "pointy ears": 0.3066,
+   "insect wings": 0.1036
+  },
+  "ferret girl": {
+   "animal ears": 0.9821,
+   "tail": 0.5107
+  },
+  "fish boy": {
+   "fins": 0.4465,
+   "colored skin": 0.4157,
+   "beard": 0.2457,
+   "sharp teeth": 0.2361,
+   "pointy ears": 0.2149,
+   "blue skin": 0.2069,
+   "head fins": 0.1705,
+   "red skin": 0.1327,
+   "horns": 0.1065
+  },
+  "fish girl": {
+   "fins": 0.8404,
+   "tail": 0.4586,
+   "head fins": 0.373,
+   "animal ears": 0.366,
+   "cat ears": 0.2974,
+   "colored skin": 0.2568,
+   "monster girl": 0.231,
+   "pointy ears": 0.1568,
+   "blue skin": 0.1172,
+   "fang": 0.1156
+  },
+  "fox boy": {
+   "animal ears": 0.9288,
+   "fox ears": 0.8888,
+   "tail": 0.6422,
+   "fox tail": 0.575,
+   "multiple tails": 0.12,
+   "kemonomimi mode": 0.1022
+  },
+  "fox girl": {
+   "animal ears": 0.9798,
+   "fox ears": 0.9652,
+   "tail": 0.681,
+   "fox tail": 0.6488,
+   "multiple tails": 0.1228,
+   "halo": 0.1136
+  },
+  "genie": {
+   "pointy ears": 0.5648,
+   "colored skin": 0.3264,
+   "blue skin": 0.2295,
+   "long pointy ears": 0.1639,
+   "ghost tail": 0.1073
+  },
+  "gerudo": {
+   "pointy ears": 0.7479,
+   "colored skin": 0.1537,
+   "beard": 0.1451
+  },
+  "ghost": {
+   "animal ears": 0.118
+  },
+  "ghost girl": {
+   "colored skin": 0.2035,
+   "animal ears": 0.1537,
+   "ghost tail": 0.1418,
+   "tail": 0.1242,
+   "pointy ears": 0.1144,
+   "cat ears": 0.1088
+  },
+  "giant": {
+   "horns": 0.161,
+   "colored skin": 0.1188,
+   "tail": 0.1124
+  },
+  "giantess": {
+   "horns": 0.149,
+   "animal ears": 0.1166,
+   "tail": 0.107
+  },
+  "goat boy": {
+   "horns": 0.7824,
+   "animal ears": 0.6344,
+   "goat ears": 0.5861,
+   "goat horns": 0.5753,
+   "colored skin": 0.2339,
+   "tail": 0.1807,
+   "blue skin": 0.1469,
+   "fangs": 0.1097,
+   "body fur": 0.1
+  },
+  "goat girl": {
+   "horns": 0.9049,
+   "animal ears": 0.7723,
+   "goat horns": 0.7676,
+   "goat ears": 0.723,
+   "tail": 0.2836,
+   "goat tail": 0.1954,
+   "pointy ears": 0.1476,
+   "horizontal pupils": 0.1285
+  },
+  "goblin": {
+   "pointy ears": 0.5828,
+   "colored skin": 0.5605,
+   "green skin": 0.5188,
+   "horns": 0.1228,
+   "long pointy ears": 0.1183
+  },
+  "golem": {
+   "horns": 0.1736,
+   "pointy ears": 0.1391,
+   "monster girl": 0.1034,
+   "colored skin": 0.1023
+  },
+  "halfling": {
+   "pointy ears": 0.5869,
+   "beard": 0.3778,
+   "horns": 0.296,
+   "animal ears": 0.198,
+   "cat ears": 0.1778,
+   "tail": 0.1283,
+   "large ears": 0.1182,
+   "cat tail": 0.1
+  },
+  "hamster girl": {
+   "animal ears": 0.8427,
+   "tail": 0.1728
+  },
+  "harpy": {
+   "monster girl": 1.0,
+   "wings": 0.9738,
+   "winged arms": 0.8738,
+   "feathers": 0.7662,
+   "feathered wings": 0.6702,
+   "talons": 0.3926,
+   "tail": 0.2948,
+   "animal ears": 0.228,
+   "claws": 0.195,
+   "pointy ears": 0.1882,
+   "brown wings": 0.1072
+  },
+  "harvin": {
+   "pointy ears": 0.7245,
+   "animal ears": 0.2119,
+   "horns": 0.1036
+  },
+  "hippopotamus girl": {
+   "animal ears": 0.9727,
+   "tail": 0.7096,
+   "extra ears": 0.4172,
+   "cat ears": 0.2788,
+   "wings": 0.2359,
+   "raccoon ears": 0.1793,
+   "cat tail": 0.1676,
+   "fox ears": 0.1657,
+   "jaguar ears": 0.1598,
+   "bird wings": 0.1579,
+   "horns": 0.154,
+   "otter ears": 0.154,
+   "alpaca ears": 0.1462,
+   "lion ears": 0.1248,
+   "fox tail": 0.1209,
+   "raccoon tail": 0.1111,
+   "antlers": 0.1072,
+   "wolf ears": 0.1033
+  },
+  "horse boy": {
+   "animal ears": 0.8187,
+   "horse ears": 0.7685,
+   "tail": 0.4904,
+   "horse tail": 0.4251,
+   "horns": 0.1085
+  },
+  "horse girl": {
+   "animal ears": 0.9826,
+   "horse ears": 0.9746,
+   "tail": 0.5928,
+   "horse tail": 0.5838
+  },
+  "hrothgar": {
+   "animal ears": 0.646,
+   "tail": 0.4579,
+   "fangs": 0.3441,
+   "cat ears": 0.3193,
+   "lion ears": 0.2797,
+   "beard": 0.2104,
+   "lion tail": 0.2079,
+   "cat tail": 0.1807,
+   "horns": 0.1634,
+   "rabbit ears": 0.1312,
+   "pointy ears": 0.1139
+  },
+  "hyena boy": {
+   "hyena ears": 0.9239,
+   "animal ears": 0.38,
+   "hyena tail": 0.3422,
+   "tail": 0.3368,
+   "claws": 0.2291,
+   "lion ears": 0.155,
+   "fangs": 0.1461,
+   "wolf ears": 0.1091
+  },
+  "hyena girl": {
+   "hyena ears": 0.8599,
+   "animal ears": 0.5889,
+   "hyena tail": 0.5502,
+   "tail": 0.4866,
+   "extra ears": 0.106
+  },
+  "jackal boy": {
+   "animal ears": 0.9264,
+   "jackal ears": 0.9103,
+   "tail": 0.3103,
+   "horns": 0.2391,
+   "single horn": 0.2034,
+   "fangs": 0.1966,
+   "claws": 0.1253,
+   "fang": 0.1218,
+   "sharp teeth": 0.1126
+  },
+  "jackal girl": {
+   "animal ears": 0.9669,
+   "jackal ears": 0.9398,
+   "extra ears": 0.253,
+   "tail": 0.241,
+   "fang": 0.1265
+  },
+  "jaguar boy": {
+   "animal ears": 0.875,
+   "jaguar ears": 0.8288,
+   "tail": 0.5625,
+   "jaguar tail": 0.4674,
+   "wings": 0.2201,
+   "feathered wings": 0.1929,
+   "kemonomimi mode": 0.1603,
+   "beard": 0.1413,
+   "tiger ears": 0.1223
+  },
+  "jaguar girl": {
+   "animal ears": 0.97,
+   "jaguar ears": 0.9643,
+   "tail": 0.816,
+   "jaguar tail": 0.7737,
+   "extra ears": 0.1399
+  },
+  "jiangshi": {
+   "colored skin": 0.1466,
+   "animal ears": 0.1144
+  },
+  "kappa": {
+   "animal ears": 0.15,
+   "colored skin": 0.1236,
+   "tail": 0.1155,
+   "green skin": 0.11,
+   "monster girl": 0.1
+  },
+  "kitsune": {
+   "tail": 0.8934,
+   "animal ears": 0.8728,
+   "fox ears": 0.8228,
+   "fox tail": 0.787,
+   "multiple tails": 0.7126
+  },
+  "kyuubi": {
+   "tail": 1.0,
+   "multiple tails": 1.0,
+   "animal ears": 0.8862,
+   "fox tail": 0.8614,
+   "fox ears": 0.8418
+  },
+  "lalafell": {
+   "pointy ears": 0.8041,
+   "animal ears": 0.2298,
+   "cat ears": 0.129,
+   "tail": 0.1057
+  },
+  "lamia": {
+   "monster girl": 1.0,
+   "pointy ears": 0.455,
+   "scales": 0.392,
+   "tail": 0.2716,
+   "slit pupils": 0.2418,
+   "colored skin": 0.1824,
+   "horns": 0.1674,
+   "fangs": 0.1242,
+   "fang": 0.1194
+  },
+  "leopard boy": {
+   "animal ears": 0.8056,
+   "leopard ears": 0.721,
+   "tail": 0.6583,
+   "leopard tail": 0.5172,
+   "claws": 0.2351,
+   "fangs": 0.1317,
+   "sharp teeth": 0.1066
+  },
+  "leopard girl": {
+   "animal ears": 0.9146,
+   "leopard ears": 0.8571,
+   "tail": 0.8502,
+   "leopard tail": 0.7456,
+   "fang": 0.1237
+  },
+  "lion boy": {
+   "animal ears": 0.8535,
+   "lion ears": 0.8188,
+   "tail": 0.4735,
+   "lion tail": 0.4176,
+   "lion mane": 0.2801,
+   "beard": 0.211,
+   "fangs": 0.1606,
+   "claws": 0.1548
+  },
+  "lion girl": {
+   "animal ears": 0.9836,
+   "lion ears": 0.9652,
+   "tail": 0.5722,
+   "lion tail": 0.52,
+   "fang": 0.1614,
+   "pointy ears": 0.1016
+  },
+  "mermaid": {
+   "monster girl": 1.0,
+   "fins": 0.495,
+   "head fins": 0.4072,
+   "scales": 0.14,
+   "animal ears": 0.1398,
+   "tail": 0.1344
+  },
+  "minotaur": {
+   "horns": 0.7458,
+   "animal ears": 0.5882,
+   "cow horns": 0.55,
+   "cow ears": 0.5458,
+   "tail": 0.1729,
+   "beard": 0.1285
+  },
+  "miqo'te": {
+   "animal ears": 0.9378,
+   "cat ears": 0.8304,
+   "tail": 0.6644,
+   "cat tail": 0.5774,
+   "slit pupils": 0.176
+  },
+  "monkey boy": {
+   "tail": 0.8057,
+   "monkey tail": 0.7657,
+   "body fur": 0.5549
+  },
+  "monkey girl": {
+   "tail": 0.8503,
+   "monkey tail": 0.8064,
+   "animal ears": 0.6685,
+   "monkey ears": 0.6149
+  },
+  "monster boy": {
+   "colored skin": 0.267,
+   "tail": 0.2458,
+   "horns": 0.2342,
+   "pointy ears": 0.1942,
+   "wings": 0.166,
+   "claws": 0.1464,
+   "animal ears": 0.1346,
+   "fins": 0.1228,
+   "sharp teeth": 0.1154
+  },
+  "monster girl": {
+   "tail": 0.2646,
+   "colored skin": 0.2402,
+   "wings": 0.1956,
+   "horns": 0.174,
+   "pointy ears": 0.1702,
+   "animal ears": 0.164,
+   "fins": 0.1312,
+   "head fins": 0.1
+  },
+  "mouse boy": {
+   "animal ears": 0.7851,
+   "mouse ears": 0.7269,
+   "tail": 0.6536,
+   "mouse tail": 0.5592,
+   "cat ears": 0.1506,
+   "cat tail": 0.1155,
+   "kemonomimi mode": 0.1114
+  },
+  "mouse girl": {
+   "animal ears": 0.9502,
+   "mouse ears": 0.9364,
+   "tail": 0.7406,
+   "mouse tail": 0.6596
+  },
+  "mummy": {
+   "bandages": 0.6104,
+   "animal ears": 0.2112,
+   "tail": 0.1406,
+   "wings": 0.1379,
+   "colored skin": 0.1145,
+   "horns": 0.1049
+  },
+  "nekomata": {
+   "tail": 0.9584,
+   "animal ears": 0.928,
+   "cat ears": 0.9088,
+   "multiple tails": 0.9034,
+   "cat tail": 0.8604,
+   "two tails": 0.7096,
+   "fang": 0.2448,
+   "extra ears": 0.1978,
+   "pointy ears": 0.109,
+   "fox tail": 0.1082
+  },
+  "ogre": {
+   "horns": 0.6506,
+   "pointy ears": 0.4961,
+   "colored skin": 0.3919,
+   "single horn": 0.3224,
+   "green skin": 0.1718,
+   "red skin": 0.1699,
+   "monster girl": 0.1622
+  },
+  "oni": {
+   "horns": 0.9246,
+   "skin-covered horns": 0.3188,
+   "pointy ears": 0.235,
+   "fang": 0.1542,
+   "single horn": 0.1102,
+   "colored skin": 0.1088
+  },
+  "orc": {
+   "pointy ears": 0.5272,
+   "colored skin": 0.498,
+   "green skin": 0.4442,
+   "beard": 0.1498,
+   "fangs": 0.1182,
+   "horns": 0.115
+  },
+  "otter girl": {
+   "animal ears": 0.9389,
+   "otter ears": 0.9027,
+   "tail": 0.7602,
+   "extra ears": 0.2647,
+   "jaguar ears": 0.1312
+  },
+  "owl girl": {
+   "owl ears": 0.5394,
+   "wings": 0.4118,
+   "tail": 0.251,
+   "feathers": 0.2403,
+   "monster girl": 0.2104,
+   "harpy": 0.1939,
+   "feathered wings": 0.193,
+   "winged arms": 0.1906,
+   "animal ears": 0.164,
+   "bird wings": 0.1284,
+   "horns": 0.1036
+  },
+  "panda boy": {
+   "animal ears": 0.9135,
+   "panda ears": 0.8315,
+   "claws": 0.3382,
+   "tail": 0.1876,
+   "fangs": 0.1685,
+   "tiger ears": 0.1393,
+   "bear ears": 0.1124,
+   "tiger tail": 0.1011
+  },
+  "panda girl": {
+   "animal ears": 0.9368,
+   "panda ears": 0.8986,
+   "tail": 0.2095,
+   "fang": 0.1792,
+   "skin fang": 0.1067
+  },
+  "panther boy": {
+   "animal ears": 0.873,
+   "panther ears": 0.798,
+   "tail": 0.5635,
+   "panther tail": 0.443,
+   "fangs": 0.2345,
+   "whiskers": 0.2215,
+   "claws": 0.2052,
+   "colored sclera": 0.1498,
+   "wolf ears": 0.1303
+  },
+  "panther girl": {
+   "animal ears": 0.9722,
+   "panther ears": 0.9656,
+   "tail": 0.7336,
+   "panther tail": 0.692,
+   "fang": 0.1732,
+   "fangs": 0.1198,
+   "extra ears": 0.1024
+  },
+  "penguin girl": {
+   "tail": 0.4811,
+   "animal ears": 0.2584,
+   "extra ears": 0.1837,
+   "fox ears": 0.1292,
+   "cat ears": 0.1047
+  },
+  "pig boy": {
+   "animal ears": 0.4224,
+   "pig ears": 0.306,
+   "tail": 0.1466,
+   "colored skin": 0.1185,
+   "pointy ears": 0.1034,
+   "fangs": 0.1034,
+   "horns": 0.1013
+  },
+  "pig girl": {
+   "animal ears": 0.9041,
+   "pig ears": 0.8735,
+   "tail": 0.4942,
+   "colored skin": 0.3183,
+   "pink skin": 0.2994
+  },
+  "rabbit boy": {
+   "animal ears": 0.8598,
+   "rabbit ears": 0.8418,
+   "tail": 0.3774,
+   "rabbit tail": 0.2774,
+   "kemonomimi mode": 0.1326,
+   "floppy ears": 0.1102
+  },
+  "rabbit girl": {
+   "animal ears": 0.9738,
+   "rabbit ears": 0.9608,
+   "tail": 0.337,
+   "rabbit tail": 0.2892
+  },
+  "raccoon boy": {
+   "animal ears": 0.8774,
+   "raccoon ears": 0.8487,
+   "tail": 0.7029,
+   "raccoon tail": 0.6563,
+   "claws": 0.2436,
+   "fangs": 0.2327,
+   "whiskers": 0.1544
+  },
+  "raccoon girl": {
+   "animal ears": 0.9794,
+   "raccoon ears": 0.9664,
+   "tail": 0.7328,
+   "raccoon tail": 0.7,
+   "fang": 0.1168,
+   "fox ears": 0.1098,
+   "halo": 0.1084
+  },
+  "red panda girl": {
+   "animal ears": 0.72,
+   "red panda tail": 0.6299,
+   "tail": 0.506,
+   "extra ears": 0.218,
+   "fang": 0.2076
+  },
+  "rito": {
+   "beak": 0.6628,
+   "pointy ears": 0.5051,
+   "wings": 0.2978,
+   "body fur": 0.2467,
+   "feathers": 0.2,
+   "winged arms": 0.1927,
+   "monster girl": 0.1781,
+   "colored skin": 0.1416,
+   "tail": 0.1226,
+   "red skin": 0.1066
+  },
+  "robot": {},
+  "robot boy": {
+   "horns": 0.2158,
+   "tail": 0.1919,
+   "animal ears": 0.1549,
+   "claws": 0.1178
+  },
+  "robot girl": {
+   "joints": 0.4188,
+   "robot joints": 0.3998,
+   "metal skin": 0.1438,
+   "colored skin": 0.1368,
+   "mechanical arms": 0.1188
+  },
+  "roegadyn": {
+   "beard": 0.4157,
+   "colored skin": 0.2416,
+   "animal ears": 0.2135,
+   "pointy ears": 0.1948,
+   "cat ears": 0.1573,
+   "tail": 0.133,
+   "horns": 0.1217,
+   "grey skin": 0.1086
+  },
+  "satyr": {
+   "horns": 0.8698,
+   "tail": 0.4861,
+   "hooves": 0.4774,
+   "animal ears": 0.4062,
+   "pointy ears": 0.3733,
+   "monster girl": 0.342,
+   "goat horns": 0.3368,
+   "goat ears": 0.2049,
+   "body fur": 0.1719,
+   "goat tail": 0.1615,
+   "horizontal pupils": 0.1597,
+   "curled horns": 0.1458,
+   "wings": 0.125,
+   "colored skin": 0.1111,
+   "beard": 0.1007
+  },
+  "sea slug girl": {
+   "animal ears": 0.5314,
+   "monster girl": 0.2841,
+   "tail": 0.2159,
+   "colored skin": 0.19,
+   "tentacle hair": 0.1089,
+   "horns": 0.1015
+  },
+  "seraph": {
+   "wings": 1.0,
+   "multiple wings": 1.0,
+   "angel wings": 0.6058,
+   "feathered wings": 0.5387,
+   "halo": 0.2621,
+   "feathers": 0.1176
+  },
+  "shark boy": {
+   "sharp teeth": 0.4659,
+   "fins": 0.4229,
+   "shark fin": 0.3465,
+   "tail": 0.3441,
+   "shark tail": 0.3082,
+   "colored skin": 0.2569,
+   "pointy ears": 0.1553,
+   "gills": 0.1553,
+   "colored sclera": 0.1446,
+   "white skin": 0.1135,
+   "black sclera": 0.1111,
+   "fangs": 0.1027
+  },
+  "shark girl": {
+   "fins": 0.9,
+   "tail": 0.8998,
+   "shark tail": 0.8846,
+   "sharp teeth": 0.393,
+   "animal ears": 0.1382
+  },
+  "sheep boy": {
+   "horns": 0.8368,
+   "sheep horns": 0.7274,
+   "animal ears": 0.6892,
+   "sheep ears": 0.5833,
+   "tail": 0.3368,
+   "sheep tail": 0.2135,
+   "curled horns": 0.1302,
+   "horizontal pupils": 0.125
+  },
+  "sheep girl": {
+   "horns": 0.8918,
+   "sheep horns": 0.8392,
+   "animal ears": 0.7904,
+   "sheep ears": 0.7064,
+   "curled horns": 0.288,
+   "tail": 0.2194
+  },
+  "sheikah": {
+   "pointy ears": 0.4398
+  },
+  "shinigami": {},
+  "skeleton": {
+   "horns": 0.1318
+  },
+  "skunk girl": {
+   "animal ears": 0.717,
+   "tail": 0.6238,
+   "extra ears": 0.164
+  },
+  "slime girl": {
+   "monster girl": 1.0,
+   "colored skin": 0.608,
+   "blue skin": 0.2974,
+   "slime (substance)": 0.2682,
+   "animal ears": 0.1382,
+   "pointy ears": 0.1306,
+   "colored sclera": 0.127,
+   "tail": 0.103
+  },
+  "snake boy": {
+   "tail": 0.5996,
+   "snake tail": 0.4805,
+   "pointy ears": 0.4221,
+   "animal ears": 0.1818,
+   "slit pupils": 0.1775,
+   "fangs": 0.171,
+   "scales": 0.1515,
+   "colored skin": 0.1407,
+   "forked tongue": 0.132,
+   "colored sclera": 0.1017
+  },
+  "snake girl": {
+   "tail": 0.8078,
+   "snake tail": 0.7463,
+   "fangs": 0.1643,
+   "scales": 0.1588,
+   "slit pupils": 0.1423,
+   "pointy ears": 0.1313,
+   "wings": 0.1157,
+   "animal ears": 0.104
+  },
+  "snow leopard boy": {
+   "animal ears": 0.9734,
+   "snow leopard ears": 0.9553,
+   "tail": 0.6803,
+   "snow leopard tail": 0.6061,
+   "horns": 0.1427
+  },
+  "snow leopard girl": {
+   "animal ears": 0.9931,
+   "snow leopard ears": 0.9843,
+   "tail": 0.8371,
+   "snow leopard tail": 0.8057
+  },
+  "squirrel girl": {
+   "animal ears": 0.9422,
+   "squirrel ears": 0.9206,
+   "tail": 0.8712,
+   "squirrel tail": 0.8434
+  },
+  "tanuki": {
+   "animal ears": 0.4631,
+   "tail": 0.3696,
+   "raccoon ears": 0.3333,
+   "raccoon tail": 0.2743
+  },
+  "tapir girl": {
+   "animal ears": 0.9642,
+   "tapir ears": 0.9564,
+   "tail": 0.1307
+  },
+  "tengu": {
+   "wings": 0.6161,
+   "feathered wings": 0.2721,
+   "pointy ears": 0.2539,
+   "bird wings": 0.2013,
+   "animal ears": 0.1841,
+   "tail": 0.1344,
+   "wolf ears": 0.1093,
+   "feathers": 0.1014
+  },
+  "tentacle girl": {
+   "tentacles": 0.9588,
+   "animal ears": 0.1257,
+   "monster girl": 0.1213,
+   "horns": 0.1048
+  },
+  "tiger boy": {
+   "animal ears": 0.9014,
+   "tiger ears": 0.8654,
+   "tail": 0.5442,
+   "tiger tail": 0.4288,
+   "claws": 0.1732,
+   "fangs": 0.1534
+  },
+  "tiger girl": {
+   "animal ears": 0.9642,
+   "tiger ears": 0.9382,
+   "tail": 0.687,
+   "tiger tail": 0.6432,
+   "halo": 0.1744,
+   "fang": 0.1662
+  },
+  "togruta": {
+   "colored skin": 0.6988,
+   "orange skin": 0.4806,
+   "tentacle hair": 0.2142,
+   "blue skin": 0.1312,
+   "red skin": 0.1071
+  },
+  "twi'lek": {
+   "colored skin": 0.8967,
+   "green skin": 0.3538,
+   "blue skin": 0.3516,
+   "red skin": 0.2
+  },
+  "vampire": {
+   "pointy ears": 0.3384,
+   "fangs": 0.2956,
+   "wings": 0.2634,
+   "fang": 0.1852,
+   "bat wings": 0.1564
+  },
+  "viera": {
+   "animal ears": 0.9225,
+   "rabbit ears": 0.8672,
+   "tail": 0.1267
+  },
+  "weasel girl": {
+   "animal ears": 0.9893,
+   "weasel ears": 0.9816,
+   "tail": 0.7713,
+   "weasel tail": 0.7216,
+   "halo": 0.4799,
+   "extra ears": 0.1197
+  },
+  "werewolf": {
+   "animal ears": 0.4901,
+   "tail": 0.38,
+   "wolf ears": 0.3524,
+   "wolf tail": 0.2336,
+   "fangs": 0.2034,
+   "claws": 0.1896,
+   "sharp teeth": 0.1265,
+   "pointy ears": 0.1219
+  },
+  "wolf boy": {
+   "animal ears": 0.7812,
+   "wolf ears": 0.73,
+   "tail": 0.5492,
+   "wolf tail": 0.4236,
+   "claws": 0.1986,
+   "body fur": 0.179,
+   "fangs": 0.1476
+  },
+  "wolf girl": {
+   "animal ears": 0.984,
+   "wolf ears": 0.9756,
+   "tail": 0.6554,
+   "wolf tail": 0.6178,
+   "fang": 0.1612
+  },
+  "yuki onna": {
+   "colored skin": 0.1942,
+   "blue skin": 0.1019
+  },
+  "zombie": {
+   "colored skin": 0.4674,
+   "stitches": 0.375,
+   "patchwork skin": 0.2542,
+   "grey skin": 0.2088,
+   "bandages": 0.1598,
+   "blue skin": 0.1522
+  },
+  "zora": {
+   "colored skin": 0.643,
+   "pointy ears": 0.5603,
+   "red skin": 0.4665,
+   "monster girl": 0.4421,
+   "fins": 0.4257,
+   "head fins": 0.1625,
+   "sharp teeth": 0.1526,
+   "blue skin": 0.1305
+  }
+ }
+}

@@ -1,0 +1,3855 @@
+{
+ "_note": "WHAT THE ACT IS ABOUT (write_act_anchors.py, 2026-09-21): the part the act is done to, the booru's focus word for it, and the framings that word's own pictures use. The camera looks at the act's anchor instead of drawing a framing blind; the anchored part is described and the parts out of the frame are not.",
+ "acts": {
+  "adelaide football club": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 0
+  },
+  "adjusting another's hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 743
+  },
+  "after anal": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 7803
+  },
+  "after buttjob": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 0
+  },
+  "after cunnilingus": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 583
+  },
+  "after fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 8431
+  },
+  "after fingering": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 735
+  },
+  "after footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 367
+  },
+  "after frottage": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "after handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 371
+  },
+  "after kiss": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 7089
+  },
+  "after masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1361
+  },
+  "after paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 3464
+  },
+  "after vaginal": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 26014
+  },
+  "american football (object)": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 296
+  },
+  "american football (sport)": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 269
+  },
+  "anal": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 74875
+  },
+  "anal ball wear": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 248
+  },
+  "anal beads": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 9715
+  },
+  "anal fingering": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 4403
+  },
+  "anal fisting": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 347
+  },
+  "anal hair": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 2561
+  },
+  "anal hook": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 366
+  },
+  "anal object insertion": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 20176
+  },
+  "anal tail": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 8239
+  },
+  "animal on hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1209
+  },
+  "anus cutout": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 372
+  },
+  "anus peek": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 8229
+  },
+  "arched back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 24881
+  },
+  "arched soles": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 419
+  },
+  "arm behind back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 54843
+  },
+  "arm between breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 2598
+  },
+  "armpit cutout": {
+   "anchor": "armpits",
+   "focus": "armpit focus",
+   "source": "word",
+   "posts": 2739
+  },
+  "armpit hair peek": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1231
+  },
+  "armpit sex": {
+   "anchor": "armpits",
+   "focus": "armpit focus",
+   "source": "word",
+   "posts": 1268
+  },
+  "arms around another's back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 1184
+  },
+  "arms behind back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 125390
+  },
+  "ass cutout": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 2531
+  },
+  "ass onahole": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 0
+  },
+  "ass peek": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 2316
+  },
+  "ass press": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 1134
+  },
+  "ass smack": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 712
+  },
+  "ass worship": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 333
+  },
+  "ass-to-ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 1456
+  },
+  "ass-to-ass penetration": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 295
+  },
+  "australian football league": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 0
+  },
+  "australian rules football": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 0
+  },
+  "back cutout": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 9796
+  },
+  "back-to-back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 22889
+  },
+  "bad feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 3901
+  },
+  "bare back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 22749
+  },
+  "belly dancing": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 441
+  },
+  "belly-to-belly": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 595
+  },
+  "bent back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 658
+  },
+  "between buttocks": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 448
+  },
+  "between fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 12671
+  },
+  "between toes": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1775
+  },
+  "big belly": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 8375
+  },
+  "big feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 0
+  },
+  "bikini top aside": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "ruling",
+   "posts": 1135
+  },
+  "biting another's finger": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 626
+  },
+  "biting another's hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 302
+  },
+  "biting ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 97
+  },
+  "biting breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 234
+  },
+  "biting cheek": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 719
+  },
+  "biting own finger": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1376
+  },
+  "biting own lip": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 7354
+  },
+  "biting penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 238
+  },
+  "blood in hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 4202
+  },
+  "blue tongue": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 4428
+  },
+  "bouncing breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 39268
+  },
+  "bound breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 301
+  },
+  "bound feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 276
+  },
+  "bound fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 122
+  },
+  "bound penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 109
+  },
+  "bound thighs": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 1328
+  },
+  "bound toes": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 617
+  },
+  "braiding another's hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1143
+  },
+  "breast awe": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 789
+  },
+  "breast clinging": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 0
+  },
+  "breast conscious": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 2332
+  },
+  "breast cutouts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 800
+  },
+  "breast lift": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 9148
+  },
+  "breast milk in container": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1229
+  },
+  "breast on breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 271
+  },
+  "breast padding": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1686
+  },
+  "breast slip": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 3900
+  },
+  "breast sucking": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 17791
+  },
+  "breast sucking through clothes": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 196
+  },
+  "breast suppress": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 8392
+  },
+  "breast torture": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 0
+  },
+  "breastfeeding": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "ruling",
+   "posts": 2123
+  },
+  "breasts on another's back": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 673
+  },
+  "breasts on tray": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 645
+  },
+  "breasts out": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 88640
+  },
+  "breasts squeezed together": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 37899
+  },
+  "brushing another's hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 2361
+  },
+  "brushing hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 3998
+  },
+  "bust chart": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 551
+  },
+  "bust measuring": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 485
+  },
+  "butt plug": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 7474
+  },
+  "buttjob": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 3248
+  },
+  "buttjob over clothes": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 685
+  },
+  "buttjob under clothes": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 171
+  },
+  "canadian football league": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 0
+  },
+  "caressing testicles": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 3192
+  },
+  "carried breast rest": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 951
+  },
+  "cheek pinching": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 4247
+  },
+  "cheek poking": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 4302
+  },
+  "cheek squash": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 2782
+  },
+  "cheek-to-breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 219
+  },
+  "cheek-to-cheek": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 7466
+  },
+  "chest eye": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 1399
+  },
+  "chestnut mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 18604
+  },
+  "chocolate on breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 2555
+  },
+  "circle hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 63
+  },
+  "cleanup fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 934
+  },
+  "cleavage": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1423944
+  },
+  "cleavage cutout": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 122575
+  },
+  "clenched hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 87957
+  },
+  "clenched hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 61857
+  },
+  "clitoral suction vibrator": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 84
+  },
+  "clitoris pump": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "cloth glansjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 62
+  },
+  "cock ring": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1271
+  },
+  "condom thigh strap": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 570
+  },
+  "cooperative breast smother": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 51
+  },
+  "cooperative breast sucking": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 395
+  },
+  "cooperative buttjob": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 264
+  },
+  "cooperative fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 6501
+  },
+  "cooperative footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 392
+  },
+  "cooperative handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1064
+  },
+  "cooperative paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 3053
+  },
+  "covered clitoris": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1236
+  },
+  "covered face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 7227
+  },
+  "covered fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 283
+  },
+  "covered pussy": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1613
+  },
+  "covering another's eyes": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 1868
+  },
+  "covering ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 1504
+  },
+  "covering breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 28455
+  },
+  "covering face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 10402
+  },
+  "covering nipples": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 3975
+  },
+  "covering one breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1499
+  },
+  "covering one eye": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 2150
+  },
+  "covering own eyes": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 5360
+  },
+  "covering own mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 33060
+  },
+  "cropped feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 0
+  },
+  "crossed fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 368
+  },
+  "cuddling handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 745
+  },
+  "cum in ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 21459
+  },
+  "cum in mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 41053
+  },
+  "cum in navel": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 333
+  },
+  "cum in pussy": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 144786
+  },
+  "cum on armpits": {
+   "anchor": "armpits",
+   "focus": "armpit focus",
+   "source": "word",
+   "posts": 766
+  },
+  "cum on ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 11074
+  },
+  "cum on back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 1049
+  },
+  "cum on breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 54527
+  },
+  "cum on feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 3743
+  },
+  "cum on fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1294
+  },
+  "cum on stomach": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 6629
+  },
+  "cum on tongue": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 10304
+  },
+  "cunnilingus": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 16451
+  },
+  "cunnilingus gesture": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 410
+  },
+  "cunnilingus through clothes": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 661
+  },
+  "cupping hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 2854
+  },
+  "curled fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 5259
+  },
+  "cutting another's hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 719
+  },
+  "deepthroat": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 8071
+  },
+  "diamond mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 803
+  },
+  "dirty feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1615
+  },
+  "disembodied penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 9436
+  },
+  "distress hand signal": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 0
+  },
+  "dot mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 10939
+  },
+  "double anal": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 706
+  },
+  "double finger gun": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 617
+  },
+  "double footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 157
+  },
+  "double handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 9025
+  },
+  "double vaginal": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 386
+  },
+  "drawing on another's face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1066
+  },
+  "drying own hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1602
+  },
+  "excessive pussy juice": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1081
+  },
+  "extra hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 560
+  },
+  "eye contact": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 69488
+  },
+  "eye sex": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 0
+  },
+  "eyes in shadow": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 1324
+  },
+  "eyes out of frame": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 14410
+  },
+  "face down": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1413
+  },
+  "face punch": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 881
+  },
+  "face stretching": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 65
+  },
+  "face-to-face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 21356
+  },
+  "facejob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "ruling",
+   "posts": 142
+  },
+  "fanning face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 915
+  },
+  "feet on table": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1028
+  },
+  "feet only": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1118
+  },
+  "fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 98714
+  },
+  "fellatio gesture": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 6257
+  },
+  "fellatio under mask": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 597
+  },
+  "female footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 309
+  },
+  "female masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 36602
+  },
+  "finger counting": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1569
+  },
+  "finger frame": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 2349
+  },
+  "finger gun": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 7916
+  },
+  "finger heart": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 3965
+  },
+  "finger sucking": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1052
+  },
+  "finger to another's mouth": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1760
+  },
+  "fingering": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 47032
+  },
+  "fingering from behind": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 881
+  },
+  "fingering through clothes": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 3120
+  },
+  "fingering through panties": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1368
+  },
+  "fingers to cheeks": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1314
+  },
+  "fist in hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 638
+  },
+  "flaming eyes": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 907
+  },
+  "flower in mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1863
+  },
+  "flower over mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1147
+  },
+  "flower to mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1091
+  },
+  "food on breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1849
+  },
+  "foot dangle": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1152
+  },
+  "foot focus": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 37790
+  },
+  "foot out of frame": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 42329
+  },
+  "foot pussy": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 770
+  },
+  "foot worship": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1227
+  },
+  "footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 11529
+  },
+  "footjob from behind": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 299
+  },
+  "footjob over clothes": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 530
+  },
+  "footjob under table": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 168
+  },
+  "footjob with boots": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 344
+  },
+  "footjob with footwear": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 843
+  },
+  "footjob with legwear": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 4328
+  },
+  "footjob with sandals": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 92
+  },
+  "footjob with shoes": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 409
+  },
+  "footwear focus": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1109
+  },
+  "foreskin pull": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "ruling",
+   "posts": 604
+  },
+  "forked tongue": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 4589
+  },
+  "frottage": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 2490
+  },
+  "full cleavage": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 15800
+  },
+  "futa without pussy": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 2944
+  },
+  "futanari masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 3729
+  },
+  "glansjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1989
+  },
+  "glowing hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1307
+  },
+  "glowing mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 915
+  },
+  "goat's tongue": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 0
+  },
+  "grabbing another's ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 30960
+  },
+  "grabbing another's breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 95669
+  },
+  "grabbing another's hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 12477
+  },
+  "grabbing another's tongue": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 753
+  },
+  "grabbing own breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 25452
+  },
+  "grabbing own thigh": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 1025
+  },
+  "greek toe": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1981
+  },
+  "guided breast grab": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 2489
+  },
+  "hairjob": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1751
+  },
+  "half-heart hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1788
+  },
+  "hand between own legs": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 36677
+  },
+  "hand eye": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 223
+  },
+  "hand gesture duo": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 0
+  },
+  "hand glasses": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 76
+  },
+  "hand in bra": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 106
+  },
+  "hand in pocket": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 53192
+  },
+  "hand milking": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1101
+  },
+  "hand mouth": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 339
+  },
+  "hand of benediction": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 0
+  },
+  "hand on another's arm": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 10110
+  },
+  "hand on another's ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 5900
+  },
+  "hand on another's back": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 10748
+  },
+  "hand on another's cheek": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 13455
+  },
+  "hand on another's chest": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 9032
+  },
+  "hand on another's chin": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 12293
+  },
+  "hand on another's crotch": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 865
+  },
+  "hand on another's ear": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1828
+  },
+  "hand on another's face": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 32290
+  },
+  "hand on another's foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 241
+  },
+  "hand on another's hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 2983
+  },
+  "hand on another's head": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 53249
+  },
+  "hand on another's hip": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 6778
+  },
+  "hand on another's knee": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1145
+  },
+  "hand on another's leg": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 3627
+  },
+  "hand on another's neck": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 6520
+  },
+  "hand on another's shoulder": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 43707
+  },
+  "hand on another's stomach": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 4937
+  },
+  "hand on another's thigh": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 9086
+  },
+  "hand on another's waist": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 9642
+  },
+  "hand on another's wrist": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1054
+  },
+  "hand on floor": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1928
+  },
+  "hand on headphones": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1727
+  },
+  "hand on headwear": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 25353
+  },
+  "hand on own arm": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 21614
+  },
+  "hand on own ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 10684
+  },
+  "hand on own cheek": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 37736
+  },
+  "hand on own chest": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 89940
+  },
+  "hand on own chin": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 29680
+  },
+  "hand on own crotch": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1507
+  },
+  "hand on own ear": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1822
+  },
+  "hand on own elbow": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 2424
+  },
+  "hand on own face": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 73562
+  },
+  "hand on own foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 841
+  },
+  "hand on own forehead": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 2878
+  },
+  "hand on own hat": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1363
+  },
+  "hand on own head": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 24489
+  },
+  "hand on own hip": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 230281
+  },
+  "hand on own knee": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 18299
+  },
+  "hand on own leg": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 6996
+  },
+  "hand on own neck": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 3508
+  },
+  "hand on own shoulder": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 3559
+  },
+  "hand on own stomach": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 12903
+  },
+  "hand on own thigh": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 20850
+  },
+  "hand on railing": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1634
+  },
+  "hand over another's mouth": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1245
+  },
+  "hand to head": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1516
+  },
+  "handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 52751
+  },
+  "handjob gesture": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1277
+  },
+  "handjob over clothes": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 495
+  },
+  "hands in pocket": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1382
+  },
+  "hands in pockets": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 34669
+  },
+  "hands on another's back": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1295
+  },
+  "hands on another's cheeks": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 4131
+  },
+  "hands on another's chest": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1641
+  },
+  "hands on another's crotch": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 61
+  },
+  "hands on another's face": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 8892
+  },
+  "hands on another's head": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 5310
+  },
+  "hands on another's hips": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 2295
+  },
+  "hands on another's knees": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 386
+  },
+  "hands on another's leg": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 368
+  },
+  "hands on another's neck": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 985
+  },
+  "hands on another's shoulder": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 696
+  },
+  "hands on another's shoulders": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 8918
+  },
+  "hands on another's stomach": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1011
+  },
+  "hands on another's thighs": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 2624
+  },
+  "hands on another's waist": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1657
+  },
+  "hands on feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1973
+  },
+  "hands on floor": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1005
+  },
+  "hands on hilt": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1421
+  },
+  "hands on own arms": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 212
+  },
+  "hands on own cheeks": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 14140
+  },
+  "hands on own chest": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 21036
+  },
+  "hands on own chin": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1313
+  },
+  "hands on own crotch": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 238
+  },
+  "hands on own face": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 26217
+  },
+  "hands on own feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 288
+  },
+  "hands on own head": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 5956
+  },
+  "hands on own hips": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 44768
+  },
+  "hands on own knees": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 10124
+  },
+  "hands on own legs": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1640
+  },
+  "hands on own neck": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 353
+  },
+  "hands on own shoulders": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 338
+  },
+  "hands on own stomach": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 2796
+  },
+  "hands on own thighs": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 5080
+  },
+  "hands up": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 279681
+  },
+  "handsfree breast squeeze": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1522
+  },
+  "handsfree paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 2032
+  },
+  "head back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 6853
+  },
+  "head on hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 3745
+  },
+  "heart butt plug": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 103
+  },
+  "heart hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 41256
+  },
+  "heart hands duo": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 5791
+  },
+  "heart hands quartet": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 0
+  },
+  "heart hands trio": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 140
+  },
+  "heart-shaped boob challenge": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1159
+  },
+  "heart-shaped mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 361
+  },
+  "helmet over eyes": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 1640
+  },
+  "holding another's finger": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 201
+  },
+  "holding another's foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1295
+  },
+  "holding another's hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 16888
+  },
+  "holding behind back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 7417
+  },
+  "holding hair brush": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1203
+  },
+  "holding hair dryer": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1143
+  },
+  "holding hair ornament": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 345
+  },
+  "holding hair tie": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 428
+  },
+  "holding hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 146536
+  },
+  "holding knife behind back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 190
+  },
+  "holding own foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1065
+  },
+  "holding own hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 20037
+  },
+  "holding own legs back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 1742
+  },
+  "holding penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "holding sword behind back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 1836
+  },
+  "holding with feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1519
+  },
+  "imminent anal": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 2433
+  },
+  "imminent vaginal": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 8318
+  },
+  "implied after fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 323
+  },
+  "implied after masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 176
+  },
+  "implied cunnilingus": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1146
+  },
+  "implied fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1969
+  },
+  "implied fingering": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1885
+  },
+  "implied footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 148
+  },
+  "implied handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 556
+  },
+  "implied kiss": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1902
+  },
+  "implied masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1394
+  },
+  "implied paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 854
+  },
+  "inconvenient breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1066
+  },
+  "index finger raised": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 75300
+  },
+  "index fingers raised": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1989
+  },
+  "index fingers together": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 4184
+  },
+  "interlocked fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 68805
+  },
+  "irrumatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 8115
+  },
+  "jewel butt plug": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 754
+  },
+  "kiss": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 96660
+  },
+  "kissing another during penetration": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1170
+  },
+  "kissing foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 201
+  },
+  "kissing hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 540
+  },
+  "kissing neck": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 2038
+  },
+  "kissing viewer": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1044
+  },
+  "knees apart feet together": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 4225
+  },
+  "knees together feet apart": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 42137
+  },
+  "l hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1555
+  },
+  "lactation": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "ruling",
+   "posts": 28108
+  },
+  "lactation through clothes": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "ruling",
+   "posts": 2084
+  },
+  "leaning back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 26249
+  },
+  "leash on penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 53
+  },
+  "licking another's cheek": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 908
+  },
+  "licking another's face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 3325
+  },
+  "licking armpit": {
+   "anchor": "armpits",
+   "focus": "armpit focus",
+   "source": "word",
+   "posts": 1926
+  },
+  "licking breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1097
+  },
+  "licking eye": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 62
+  },
+  "licking finger": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 4978
+  },
+  "licking foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1844
+  },
+  "licking navel": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 283
+  },
+  "licking nipple": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 4609
+  },
+  "licking own nipple": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 167
+  },
+  "licking testicle": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1146
+  },
+  "licking thigh": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 163
+  },
+  "light-skinned soles": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 345
+  },
+  "looking back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 365761
+  },
+  "male masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 8943
+  },
+  "masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 51104
+  },
+  "masturbation through clothes": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 3358
+  },
+  "masturbation under clothes": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1631
+  },
+  "middle finger": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 8420
+  },
+  "mouth insertion": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1905
+  },
+  "multiple anal": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 867
+  },
+  "multiple penis fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 167
+  },
+  "multiple vaginal": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 526
+  },
+  "mutual masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1163
+  },
+  "national football league": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 0
+  },
+  "navel cutout": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 20990
+  },
+  "navel sex": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 0
+  },
+  "nipple cutout": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1666
+  },
+  "nipple penetration": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 740
+  },
+  "nipple slip": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 22334
+  },
+  "nipple stimulation through clothes": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 129
+  },
+  "nipple tweak": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 24123
+  },
+  "nipple tweak through clothes": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 609
+  },
+  "nipple-to-nipple": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1041
+  },
+  "nursing handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 2383
+  },
+  "object floating above hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1785
+  },
+  "object on breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1197
+  },
+  "ofuda between fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1508
+  },
+  "on back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 358943
+  },
+  "on stomach": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 92414
+  },
+  "onahole handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 852
+  },
+  "one breast out": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 19210
+  },
+  "open hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 25589
+  },
+  "open hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 11836
+  },
+  "orchid fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 0
+  },
+  "outie navel": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 2440
+  },
+  "outstretched hand": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 32702
+  },
+  "oversized breast cup": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1777
+  },
+  "own hands clasped": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 22534
+  },
+  "own hands together": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 116837
+  },
+  "paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 59601
+  },
+  "paizuri invitation": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1030
+  },
+  "paizuri on lap": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 596
+  },
+  "paizuri over clothes": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 408
+  },
+  "paizuri under clothes": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 7621
+  },
+  "palm-fist greeting": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 312
+  },
+  "palm-fist tap": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 106
+  },
+  "panties around thighs": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 724
+  },
+  "panties on penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 656
+  },
+  "partially shaded face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 5981
+  },
+  "patting back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 201
+  },
+  "peanut mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 2472
+  },
+  "penis awe": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 8333
+  },
+  "penis in panties": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1078
+  },
+  "penis measuring": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1134
+  },
+  "penis milking": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 443
+  },
+  "penis on ass": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 1840
+  },
+  "penis on head": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 884
+  },
+  "penis on pussy": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1397
+  },
+  "penis on stomach": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1010
+  },
+  "penis out": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 4312
+  },
+  "penis over eyes": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1964
+  },
+  "penis peek": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 2352
+  },
+  "penis pump": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "penis shadow": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1288
+  },
+  "penis sheath": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 280
+  },
+  "penis tentacle": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1098
+  },
+  "penis under another's clothes": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1235
+  },
+  "perpendicular paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 2450
+  },
+  "person between breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 558
+  },
+  "pinching another's belly": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 1316
+  },
+  "playing with another's hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1084
+  },
+  "poking another's breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1056
+  },
+  "poking own breast": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 173
+  },
+  "powerful breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 313
+  },
+  "presenting foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1582
+  },
+  "presenting own anus": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 718
+  },
+  "protruding navel": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 0
+  },
+  "public masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 617
+  },
+  "pussy cutout": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1042
+  },
+  "pussy juice drip": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 164
+  },
+  "pussy juice drip through clothes": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 2135
+  },
+  "pussy juice on fingers": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1224
+  },
+  "pussy peek": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 8851
+  },
+  "pussy tentacle": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 81
+  },
+  "rape face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 786
+  },
+  "rectangular mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 3363
+  },
+  "reverse fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1689
+  },
+  "reverse footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 640
+  },
+  "reverse nursing handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 866
+  },
+  "reverse paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 432
+  },
+  "saliva on breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 326
+  },
+  "saliva on penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 2131
+  },
+  "scratching cheek": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1392
+  },
+  "see-through cleavage": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 13758
+  },
+  "shading eyes": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 4417
+  },
+  "shirt overhang": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "ruling",
+   "posts": 1839
+  },
+  "sideboob paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 220
+  },
+  "sideways mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 11028
+  },
+  "sideways perpendicular paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 243
+  },
+  "simulated armpit sex": {
+   "anchor": "armpits",
+   "focus": "armpit focus",
+   "source": "word",
+   "posts": 0
+  },
+  "simulated cunnilingus": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "simulated fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1615
+  },
+  "simulated fingering": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "simulated footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 456
+  },
+  "simulated handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 118
+  },
+  "simulated masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "simulated paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 489
+  },
+  "simulated testicle stimulation": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "simulated thigh sex": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 0
+  },
+  "single bare foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 2902
+  },
+  "sitting on face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 5305
+  },
+  "smelling feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 207
+  },
+  "smelling hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 457
+  },
+  "smelling penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1064
+  },
+  "smiley face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 4130
+  },
+  "soaking feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 12648
+  },
+  "soles": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 149677
+  },
+  "spiked penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 779
+  },
+  "sports bra lift": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "ruling",
+   "posts": 1440
+  },
+  "spread armpit": {
+   "anchor": "armpits",
+   "focus": "armpit focus",
+   "source": "word",
+   "posts": 1108
+  },
+  "spread fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 5626
+  },
+  "spread toes": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 7286
+  },
+  "spreading another's anus": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 1310
+  },
+  "spreading another's pussy": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 4768
+  },
+  "spreading own anus": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 1767
+  },
+  "spreading own pussy": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 21682
+  },
+  "standing cunnilingus": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 821
+  },
+  "standing fellatio": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 102
+  },
+  "standing footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 99
+  },
+  "star hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 70
+  },
+  "stealth masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 578
+  },
+  "stealth paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 0
+  },
+  "steepled fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 11117
+  },
+  "stomach bulge": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 16969
+  },
+  "stomach cutout": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 8286
+  },
+  "stomach punch": {
+   "anchor": "stomach",
+   "focus": null,
+   "source": "word",
+   "posts": 573
+  },
+  "straddling paizuri": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 6279
+  },
+  "strap gap": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "ruling",
+   "posts": 16410
+  },
+  "sucking both nipples": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 131
+  },
+  "sucking on multiple breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 126
+  },
+  "sucking own breasts": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 603
+  },
+  "surrounded by feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 133
+  },
+  "sway back": {
+   "anchor": "back",
+   "focus": "back focus",
+   "source": "word",
+   "posts": 1066
+  },
+  "sweater pull": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "ruling",
+   "posts": 1011
+  },
+  "symmetrical hand pose": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 531
+  },
+  "tail masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 296
+  },
+  "tape on nipples": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1100
+  },
+  "tentacle on penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 673
+  },
+  "testicle clamps": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "testicle crusher": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "testicle grab": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1486
+  },
+  "testicle peek": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1021
+  },
+  "testicle sucking": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1900
+  },
+  "testicle weights": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 0
+  },
+  "testicles touching": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 158
+  },
+  "thick arm hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1071
+  },
+  "thigh cutout": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 4428
+  },
+  "thigh sex": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 5545
+  },
+  "thigh straddling": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 764
+  },
+  "tickling armpits": {
+   "anchor": "armpits",
+   "focus": "armpit focus",
+   "source": "word",
+   "posts": 1114
+  },
+  "tickling feet": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1532
+  },
+  "tiptoe kiss": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 324
+  },
+  "toe cleavage": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1356
+  },
+  "toe grab": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 59
+  },
+  "toe ring": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 2575
+  },
+  "toe scrunch": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 7015
+  },
+  "toe seam": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1226
+  },
+  "toe socks": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 127
+  },
+  "toe sucking": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 288
+  },
+  "toes": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 240119
+  },
+  "tongue clamp": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 74
+  },
+  "triangle hands": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 212
+  },
+  "triangle mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 22723
+  },
+  "triple anal": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 98
+  },
+  "triple vaginal": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 84
+  },
+  "troll face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1123
+  },
+  "tucking hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 6141
+  },
+  "tweaking own nipple": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1755
+  },
+  "twirling hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 5685
+  },
+  "two-finger salute": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1855
+  },
+  "two-footed footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 7308
+  },
+  "two-handed handjob": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1921
+  },
+  "two-handed masturbation": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 287
+  },
+  "tying footwear": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 539
+  },
+  "under-stirrup footjob": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 101
+  },
+  "undersized breast cup": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 2069
+  },
+  "uneven footing": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 519
+  },
+  "unworn butt plug": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 228
+  },
+  "unzipping with mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 0
+  },
+  "used condom on penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 1540
+  },
+  "v over eye": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 10271
+  },
+  "v over mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 2867
+  },
+  "vaginal": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 289504
+  },
+  "vaginal object insertion": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 17372
+  },
+  "vibrator in anus": {
+   "anchor": "ass",
+   "focus": "ass focus",
+   "source": "word",
+   "posts": 424
+  },
+  "vibrator in thigh strap": {
+   "anchor": "thighs",
+   "focus": "thigh focus",
+   "source": "word",
+   "posts": 1493
+  },
+  "vibrator on clitoris": {
+   "anchor": "pussy",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 235
+  },
+  "vibrator on nipple": {
+   "anchor": "breasts",
+   "focus": "breast focus",
+   "source": "word",
+   "posts": 1858
+  },
+  "vibrator on penis": {
+   "anchor": "penis",
+   "focus": "crotch focus",
+   "source": "word",
+   "posts": 230
+  },
+  "void face": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 2135
+  },
+  "w over eye": {
+   "anchor": "eyes",
+   "focus": "eye focus",
+   "source": "word",
+   "posts": 1075
+  },
+  "washing hair": {
+   "anchor": "hair",
+   "focus": "hair focus",
+   "source": "word",
+   "posts": 1016
+  },
+  "wiping mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 1164
+  },
+  "wrong foot": {
+   "anchor": "feet",
+   "focus": "foot focus",
+   "source": "word",
+   "posts": 1070
+  },
+  "x fingers": {
+   "anchor": "hands",
+   "focus": "hand focus",
+   "source": "word",
+   "posts": 1055
+  },
+  "yurie mouth": {
+   "anchor": "face",
+   "focus": "portrait",
+   "source": "word",
+   "posts": 907
+  }
+ },
+ "frames": {
+  "breast focus": {
+   "framings": {
+    "upper body": 0.3072,
+    "close-up": 0.3512
+   },
+   "views": {
+    "pov": 0.0606
+   }
+  },
+  "ass focus": {
+   "framings": {
+    "cowboy shot": 0.069,
+    "close-up": 0.073
+   },
+   "views": {
+    "from behind": 0.5626,
+    "from below": 0.0632
+   }
+  },
+  "crotch focus": {
+   "framings": {
+    "close-up": 0.2694
+   },
+   "views": {
+    "from below": 0.1357
+   }
+  },
+  "foot focus": {
+   "framings": {
+    "full body": 0.223
+   },
+   "views": {}
+  },
+  "hand focus": {
+   "framings": {
+    "upper body": 0.0612,
+    "close-up": 0.1486
+   },
+   "views": {
+    "pov": 0.0718
+   }
+  },
+  "hair focus": {
+   "framings": {
+    "full body": 0.0774,
+    "upper body": 0.2332
+   },
+   "views": {
+    "from behind": 0.2175
+   }
+  },
+  "portrait": {
+   "framings": {
+    "upper body": 0.067,
+    "portrait": 1.0,
+    "close-up": 0.0582
+   },
+   "views": {
+    "from side": 0.0586
+   }
+  },
+  "eye focus": {
+   "framings": {
+    "upper body": 0.0745,
+    "portrait": 0.1012,
+    "close-up": 0.4682
+   },
+   "views": {}
+  },
+  "armpit focus": {
+   "framings": {
+    "upper body": 0.298,
+    "cowboy shot": 0.1052
+   },
+   "views": {}
+  },
+  "back focus": {
+   "framings": {
+    "upper body": 0.2271,
+    "cowboy shot": 0.1442
+   },
+   "views": {
+    "from behind": 0.7669
+   }
+  },
+  "thigh focus": {
+   "framings": {
+    "full body": 0.0641,
+    "close-up": 0.1532
+   },
+   "views": {
+    "from behind": 0.0711,
+    "from below": 0.097
+   }
+  }
+ },
+ "focus_of": {
+  "breasts": "breast focus",
+  "ass": "ass focus",
+  "pussy": "crotch focus",
+  "penis": "crotch focus",
+  "feet": "foot focus",
+  "hands": "hand focus",
+  "hair": "hair focus",
+  "face": "portrait",
+  "eyes": "eye focus",
+  "armpits": "armpit focus",
+  "back": "back focus",
+  "thighs": "thigh focus",
+  "stomach": null
+ }
+}

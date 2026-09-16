@@ -1,0 +1,3268 @@
+{
+ "_note": "P(companion | tag, level): danbooru related_tag of '<tag> rating:<g|s|q|e>'. An empty row = too few posts at that rating. Measured on SOLO posts (pair postures excepted). Written by tools/build/harvest_levels.py --table place_emotions.",
+ "levels": {
+  "safe": {
+   "alley": {
+    "expressionless": 0.0787,
+    "heart": 0.0187
+   },
+   "amusement park": {
+    "sparkle": 0.1287,
+    "heart": 0.0919,
+    "happy": 0.0478,
+    "expressionless": 0.0184
+   },
+   "apartment": {
+    "expressionless": 0.0631,
+    "heart": 0.036,
+    "happy": 0.018,
+    "sweatdrop": 0.0158
+   },
+   "aquarium": {
+    "heart": 0.0258,
+    "expressionless": 0.0258,
+    "sparkle": 0.0207
+   },
+   "arcade": {
+    "heart": 0.0795,
+    "sparkle": 0.0464,
+    "sweatdrop": 0.0265,
+    "expressionless": 0.0265
+   },
+   "architecture": {
+    "expressionless": 0.0472,
+    "sparkle": 0.0306,
+    "happy": 0.0157
+   },
+   "bamboo forest": {
+    "expressionless": 0.0332,
+    "sparkle": 0.0174,
+    "happy": 0.0116,
+    "serious": 0.01
+   },
+   "bar (place)": {
+    "expressionless": 0.0437,
+    "heart": 0.042,
+    "drunk": 0.037,
+    "sparkle": 0.0286,
+    "happy": 0.0185
+   },
+   "bathroom": {
+    "expressionless": 0.0864,
+    "sleepy": 0.0316,
+    "heart": 0.0266,
+    "sweatdrop": 0.0249
+   },
+   "bathtub": {
+    "expressionless": 0.0763,
+    "heart": 0.0339,
+    "sparkle": 0.0233
+   },
+   "beach": {},
+   "bedroom": {
+    "heart": 0.064,
+    "expressionless": 0.0503,
+    "sparkle": 0.0236,
+    "happy": 0.0168,
+    "sleepy": 0.0152
+   },
+   "bridge": {
+    "expressionless": 0.0557,
+    "sparkle": 0.0254,
+    "heart": 0.0138,
+    "happy": 0.0138
+   },
+   "bus interior": {
+    "expressionless": 0.0978,
+    "sweatdrop": 0.0109,
+    "surprised": 0.0109
+   },
+   "bus stop": {
+    "expressionless": 0.0379
+   },
+   "cafe": {
+    "sparkle": 0.0589,
+    "heart": 0.0511,
+    "happy": 0.0403,
+    "expressionless": 0.0275,
+    "sweatdrop": 0.0206
+   },
+   "car interior": {
+    "expressionless": 0.051,
+    "happy": 0.0179,
+    "heart": 0.0153,
+    "serious": 0.0128
+   },
+   "carousel": {
+    "heart": 0.0917,
+    "sparkle": 0.0583,
+    "expressionless": 0.0483,
+    "happy": 0.04,
+    "musical note": 0.02
+   },
+   "casino": {
+    "heart": 0.1143,
+    "sparkle": 0.1143,
+    "happy": 0.0429,
+    "musical note": 0.0429,
+    "sweatdrop": 0.0286,
+    "expressionless": 0.0286
+   },
+   "castle": {
+    "sparkle": 0.0723,
+    "expressionless": 0.0462,
+    "heart": 0.0432,
+    "happy": 0.0417,
+    "serious": 0.0151
+   },
+   "cave": {
+    "expressionless": 0.0239,
+    "happy": 0.0239,
+    "sparkle": 0.0139
+   },
+   "changing room": {
+    "sweatdrop": 0.125,
+    "sparkle": 0.125,
+    "flying sweatdrops": 0.125,
+    "...": 0.125,
+    "thinking": 0.125
+   },
+   "church": {
+    "expressionless": 0.0596,
+    "sparkle": 0.0417,
+    "heart": 0.0278,
+    "happy": 0.0229
+   },
+   "city": {
+    "expressionless": 0.0596,
+    "heart": 0.0212,
+    "sparkle": 0.021,
+    "happy": 0.0116
+   },
+   "cityscape": {
+    "expressionless": 0.047,
+    "heart": 0.0224,
+    "sparkle": 0.0208
+   },
+   "classroom": {
+    "heart": 0.0585,
+    "expressionless": 0.0348,
+    "sparkle": 0.0243,
+    "happy": 0.0212,
+    "sweatdrop": 0.0199
+   },
+   "cliff": {
+    "expressionless": 0.0348,
+    "sparkle": 0.0211,
+    "happy": 0.0148
+   },
+   "clock tower": {
+    "expressionless": 0.0367,
+    "heart": 0.0298,
+    "sparkle": 0.0298,
+    "happy": 0.0161
+   },
+   "closet": {
+    "heart": 0.0641,
+    "serious": 0.0449,
+    "sweatdrop": 0.0321,
+    "sparkle": 0.0256,
+    "expressionless": 0.0256,
+    "happy": 0.0192
+   },
+   "cockpit": {
+    "serious": 0.0239,
+    "sweatdrop": 0.0186,
+    "expressionless": 0.016,
+    "angry": 0.016
+   },
+   "convenience store": {
+    "expressionless": 0.0535,
+    "sweatdrop": 0.031,
+    "heart": 0.0282,
+    "sparkle": 0.0141
+   },
+   "crosswalk": {
+    "expressionless": 0.0742,
+    "heart": 0.018,
+    "sparkle": 0.0138
+   },
+   "desert": {
+    "expressionless": 0.0347,
+    "serious": 0.0141
+   },
+   "dirt road": {
+    "expressionless": 0.0474,
+    "heart": 0.0237,
+    "happy": 0.019
+   },
+   "dock": {
+    "expressionless": 0.0487,
+    "sparkle": 0.0337,
+    "happy": 0.03,
+    "musical note": 0.0187,
+    "heart": 0.015
+   },
+   "dungeon": {
+    "sad": 0.0658,
+    "expressionless": 0.0526,
+    "sweatdrop": 0.0263,
+    "aura": 0.0263,
+    "dark aura": 0.0263,
+    "heart": 0.0132
+   },
+   "ferris wheel": {
+    "heart": 0.0746,
+    "sparkle": 0.0704,
+    "expressionless": 0.0338,
+    "happy": 0.0282,
+    "musical note": 0.0183
+   },
+   "field": {
+    "expressionless": 0.0426,
+    "happy": 0.0386,
+    "sparkle": 0.0246,
+    "heart": 0.0198
+   },
+   "fitness gym": {
+    "expressionless": 0.2,
+    "sparkle": 0.08,
+    "smug": 0.04,
+    "shy": 0.04
+   },
+   "fitting room": {
+    "flying sweatdrops": 0.0962,
+    "sparkle": 0.0769,
+    "sweatdrop": 0.0577,
+    "heart": 0.0385,
+    "embarrassed": 0.0385,
+    "musical note": 0.0192
+   },
+   "floating island": {
+    "expressionless": 0.0425,
+    "sparkle": 0.0198
+   },
+   "flower field": {
+    "happy": 0.0438,
+    "expressionless": 0.0352,
+    "sparkle": 0.0312,
+    "heart": 0.0206
+   },
+   "forest": {
+    "expressionless": 0.0476,
+    "happy": 0.0206,
+    "sparkle": 0.0164
+   },
+   "fountain": {
+    "sparkle": 0.0655,
+    "happy": 0.0486,
+    "heart": 0.0402,
+    "expressionless": 0.0233
+   },
+   "garden": {
+    "happy": 0.0717,
+    "expressionless": 0.0646,
+    "heart": 0.0611,
+    "sparkle": 0.0541
+   },
+   "graveyard": {
+    "expressionless": 0.063,
+    "heart": 0.0194,
+    "sparkle": 0.0145
+   },
+   "gym storeroom": {
+    "heart": 0.0741,
+    "sweatdrop": 0.0741,
+    "sparkle": 0.0741,
+    "embarrassed": 0.037,
+    "happy": 0.037,
+    "musical note": 0.037
+   },
+   "hallway": {
+    "expressionless": 0.0649,
+    "heart": 0.0556,
+    "sparkle": 0.0445,
+    "happy": 0.0222,
+    "sweatdrop": 0.0204
+   },
+   "hill": {
+    "expressionless": 0.0408,
+    "happy": 0.035,
+    "sparkle": 0.0204
+   },
+   "hospital": {
+    "heart": 0.0619,
+    "expressionless": 0.0515,
+    "happy": 0.0309,
+    "sparkle": 0.0206,
+    "sad": 0.0206,
+    "sweatdrop": 0.0155
+   },
+   "house": {
+    "expressionless": 0.0471,
+    "sparkle": 0.0249,
+    "happy": 0.0228,
+    "heart": 0.0202
+   },
+   "infirmary": {
+    "sweatdrop": 0.0392,
+    "heart": 0.0196,
+    "sparkle": 0.0196,
+    "expressionless": 0.0196,
+    "anger vein": 0.0196,
+    "...": 0.0196,
+    "!?": 0.0196
+   },
+   "island": {
+    "expressionless": 0.041,
+    "sparkle": 0.0315,
+    "happy": 0.0189,
+    "heart": 0.0158
+   },
+   "jungle": {
+    "sparkle": 0.0213,
+    "happy": 0.016
+   },
+   "kitchen": {
+    "heart": 0.0652,
+    "sparkle": 0.045,
+    "expressionless": 0.0323,
+    "happy": 0.0214,
+    "sweatdrop": 0.0208
+   },
+   "lake": {
+    "expressionless": 0.0425,
+    "happy": 0.0303,
+    "sparkle": 0.0298,
+    "heart": 0.0147
+   },
+   "landscape": {
+    "expressionless": 0.0252,
+    "sparkle": 0.0139
+   },
+   "library": {
+    "expressionless": 0.0493,
+    "sweatdrop": 0.0282,
+    "sparkle": 0.0197
+   },
+   "lighthouse": {
+    "expressionless": 0.0432,
+    "happy": 0.0247,
+    "sparkle": 0.0226,
+    "heart": 0.0123
+   },
+   "living room": {
+    "expressionless": 0.1083,
+    "happy": 0.0828,
+    "sparkle": 0.0318,
+    "heart": 0.0255
+   },
+   "locker room": {
+    "sweatdrop": 0.0488,
+    "sparkle": 0.0366,
+    "expressionless": 0.0244,
+    "heart": 0.0122
+   },
+   "market stall": {
+    "sparkle": 0.0637,
+    "expressionless": 0.0191,
+    "happy": 0.0191,
+    "sweatdrop": 0.0127
+   },
+   "meadow": {
+    "expressionless": 0.0379,
+    "happy": 0.0357,
+    "sparkle": 0.0246,
+    "heart": 0.0179
+   },
+   "messy room": {
+    "expressionless": 0.0557,
+    "heart": 0.046,
+    "depressed": 0.0291
+   },
+   "moon": {
+    "sparkle": 0.0406,
+    "expressionless": 0.0368,
+    "heart": 0.0236,
+    "happy": 0.0158
+   },
+   "mountain": {
+    "expressionless": 0.0318,
+    "sparkle": 0.0184,
+    "happy": 0.0138
+   },
+   "movie theater": {
+    "expressionless": 0.0938,
+    "sparkle": 0.0312,
+    "bored": 0.0234,
+    "sweatdrop": 0.0156,
+    "embarrassed": 0.0156,
+    "?": 0.0156,
+    "anger vein": 0.0156,
+    "surprised": 0.0156
+   },
+   "nature": {
+    "expressionless": 0.0446,
+    "happy": 0.0208,
+    "sparkle": 0.0152
+   },
+   "ocean": {},
+   "office": {
+    "expressionless": 0.0293,
+    "happy": 0.0188,
+    "heart": 0.0167,
+    "sweatdrop": 0.0167,
+    "exhausted": 0.0146
+   },
+   "on roof": {
+    "expressionless": 0.0485,
+    "sparkle": 0.0187,
+    "heart": 0.0149
+   },
+   "onsen": {
+    "happy": 0.0847,
+    "sad": 0.0339,
+    "nervous": 0.0297,
+    "heart": 0.0254,
+    "sparkle": 0.0212,
+    "musical note": 0.0212,
+    "angry": 0.0212,
+    "annoyed": 0.0127
+   },
+   "pagoda": {
+    "heart": 0.0462,
+    "expressionless": 0.0338,
+    "happy": 0.0308,
+    "sparkle": 0.0246
+   },
+   "park": {
+    "sparkle": 0.0472,
+    "happy": 0.0455,
+    "expressionless": 0.0341,
+    "heart": 0.0309
+   },
+   "path": {
+    "expressionless": 0.0642,
+    "happy": 0.0503,
+    "sparkle": 0.0255,
+    "heart": 0.0193
+   },
+   "pier": {
+    "heart": 0.0246,
+    "expressionless": 0.0246,
+    "sparkle": 0.0141
+   },
+   "planet": {
+    "sparkle": 0.0609,
+    "expressionless": 0.0376,
+    "heart": 0.027,
+    "musical note": 0.0174,
+    "happy": 0.0123
+   },
+   "playground": {
+    "expressionless": 0.0538,
+    "sparkle": 0.0346,
+    "heart": 0.0269,
+    "happy": 0.0115
+   },
+   "pond": {
+    "expressionless": 0.0449,
+    "sparkle": 0.0295,
+    "happy": 0.0236
+   },
+   "pool": {
+    "expressionless": 0.0522,
+    "heart": 0.0321,
+    "happy": 0.0301,
+    "sparkle": 0.0281
+   },
+   "poolside": {
+    "sparkle": 0.0396,
+    "expressionless": 0.0297,
+    "happy": 0.0198
+   },
+   "prison": {
+    "sad": 0.0833,
+    "expressionless": 0.0648,
+    "heart": 0.0278,
+    "sparkle": 0.0185
+   },
+   "prison cell": {
+    "expressionless": 0.0833,
+    "heart": 0.0486
+   },
+   "public restroom": {
+    "expressionless": 0.0976,
+    "heart": 0.0244,
+    "...": 0.0244
+   },
+   "railroad crossing": {
+    "expressionless": 0.0395
+   },
+   "railroad tracks": {
+    "expressionless": 0.03,
+    "heart": 0.0155,
+    "sparkle": 0.0116
+   },
+   "restaurant": {
+    "sparkle": 0.0664,
+    "heart": 0.0541,
+    "happy": 0.0357,
+    "sweatdrop": 0.0197,
+    "expressionless": 0.0172
+   },
+   "rice paddy": {
+    "expressionless": 0.0361,
+    "heart": 0.0197
+   },
+   "river": {
+    "expressionless": 0.0418,
+    "sparkle": 0.0273,
+    "happy": 0.0233
+   },
+   "road": {
+    "expressionless": 0.0504,
+    "heart": 0.0202,
+    "happy": 0.0138,
+    "sparkle": 0.0132
+   },
+   "rooftop": {
+    "expressionless": 0.0543,
+    "sparkle": 0.0213,
+    "heart": 0.0184,
+    "happy": 0.0132
+   },
+   "ruins": {
+    "expressionless": 0.0606,
+    "sparkle": 0.015,
+    "serious": 0.0145
+   },
+   "running track": {
+    "expressionless": 0.0549,
+    "sweatdrop": 0.044,
+    "sparkle": 0.044,
+    "heart": 0.033,
+    "embarrassed": 0.033,
+    "happy": 0.033,
+    "determined": 0.033
+   },
+   "rural": {
+    "expressionless": 0.0404,
+    "heart": 0.0101
+   },
+   "sauna": {},
+   "school": {
+    "sparkle": 0.0536,
+    "heart": 0.0458,
+    "expressionless": 0.0449,
+    "happy": 0.0294,
+    "sweatdrop": 0.0225,
+    "embarrassed": 0.0207,
+    "flying sweatdrops": 0.0147
+   },
+   "school gym": {
+    "expressionless": 0.0714,
+    "flying sweatdrops": 0.0286,
+    "serious": 0.0286,
+    "sparkle": 0.0143,
+    "happy": 0.0143
+   },
+   "shop": {
+    "heart": 0.0456,
+    "expressionless": 0.0396,
+    "sparkle": 0.0286,
+    "happy": 0.0225,
+    "sweatdrop": 0.0189
+   },
+   "shore": {
+    "expressionless": 0.0499,
+    "sparkle": 0.0376,
+    "happy": 0.0339,
+    "heart": 0.0141
+   },
+   "shower (place)": {
+    "heart": 0.1111,
+    "expressionless": 0.0556
+   },
+   "shrine": {
+    "sparkle": 0.0397,
+    "expressionless": 0.0298,
+    "happy": 0.0165,
+    "heart": 0.0139
+   },
+   "sidewalk": {
+    "expressionless": 0.0479,
+    "sparkle": 0.0263,
+    "heart": 0.0216,
+    "happy": 0.017
+   },
+   "skyscraper": {
+    "expressionless": 0.059,
+    "sparkle": 0.0243,
+    "heart": 0.0219
+   },
+   "space": {
+    "sparkle": 0.0494,
+    "expressionless": 0.0342,
+    "heart": 0.0212,
+    "happy": 0.0176
+   },
+   "spacecraft interior": {
+    "expressionless": 0.0511,
+    "heart": 0.017
+   },
+   "stadium": {
+    "sweatdrop": 0.0225,
+    "sparkle": 0.0225,
+    "heart": 0.0187,
+    "expressionless": 0.015
+   },
+   "stage": {
+    "sparkle": 0.2121,
+    "heart": 0.1219,
+    "happy": 0.0556,
+    "musical note": 0.0288
+   },
+   "stream": {
+    "expressionless": 0.0577,
+    "heart": 0.018,
+    "sparkle": 0.018,
+    "happy": 0.018
+   },
+   "street": {
+    "expressionless": 0.0485,
+    "heart": 0.0221,
+    "sparkle": 0.0151,
+    "happy": 0.0125
+   },
+   "temple": {
+    "expressionless": 0.0138
+   },
+   "toilet stall": {
+    "lonely": 0.1111,
+    "heart": 0.0833,
+    "sweatdrop": 0.0278,
+    "expressionless": 0.0278,
+    "embarrassed": 0.0278,
+    "spoken heart": 0.0278,
+    "musical note": 0.0278,
+    "surprised": 0.0278,
+    "naughty face": 0.0278,
+    "aura": 0.0278
+   },
+   "tower": {
+    "expressionless": 0.0443,
+    "heart": 0.0261,
+    "sparkle": 0.0243
+   },
+   "town": {
+    "expressionless": 0.0475,
+    "happy": 0.0365,
+    "sparkle": 0.0228
+   },
+   "train interior": {
+    "expressionless": 0.0842,
+    "heart": 0.0232,
+    "sparkle": 0.0126
+   },
+   "train station": {
+    "expressionless": 0.0283
+   },
+   "train station platform": {
+    "expressionless": 0.0366
+   },
+   "underwater": {
+    "expressionless": 0.0352,
+    "heart": 0.0198,
+    "sparkle": 0.019,
+    "happy": 0.0154
+   },
+   "vehicle interior": {
+    "expressionless": 0.0486
+   },
+   "village": {
+    "expressionless": 0.0457,
+    "sparkle": 0.0183
+   },
+   "volcano": {
+    "aura": 0.0446,
+    "dark aura": 0.0396,
+    "sparkle": 0.0198,
+    "heart": 0.0149,
+    "expressionless": 0.0149,
+    "anger vein": 0.0149,
+    "serious": 0.0149
+   },
+   "water": {},
+   "waterfall": {
+    "expressionless": 0.0321,
+    "sparkle": 0.0247,
+    "happy": 0.014,
+    "heart": 0.0124
+   },
+   "wheat field": {
+    "expressionless": 0.0552,
+    "happy": 0.0197
+   },
+   "windmill": {
+    "happy": 0.0457,
+    "sparkle": 0.0312,
+    "expressionless": 0.0192,
+    "heart": 0.0144
+   },
+   "wrestling ring": {
+    "sparkle": 0.0833,
+    "serious": 0.0833
+   },
+   "rain": {
+    "expressionless": 0.0558,
+    "sad": 0.0202,
+    "heart": 0.0134
+   },
+   "snow": {
+    "expressionless": 0.0298,
+    "heart": 0.019,
+    "sparkle": 0.0174,
+    "happy": 0.0172
+   },
+   "storm": {
+    "expressionless": 0.073,
+    "sad": 0.017,
+    "angry": 0.0146,
+    "serious": 0.0146
+   },
+   "fog": {
+    "expressionless": 0.0721,
+    "serious": 0.0159,
+    "sparkle": 0.0145
+   },
+   "night": {},
+   "sunset": {
+    "expressionless": 0.0378,
+    "happy": 0.024,
+    "heart": 0.021,
+    "sparkle": 0.018
+   },
+   "sunrise": {
+    "expressionless": 0.0422,
+    "happy": 0.0275,
+    "sparkle": 0.0167
+   },
+   "cloudy sky": {
+    "expressionless": 0.037,
+    "sparkle": 0.0224,
+    "heart": 0.0192,
+    "happy": 0.019
+   },
+   "wind": {
+    "expressionless": 0.0746,
+    "happy": 0.0346,
+    "sparkle": 0.025,
+    "heart": 0.018,
+    "serious": 0.0144
+   },
+   "autumn": {
+    "expressionless": 0.0284,
+    "happy": 0.026,
+    "heart": 0.0178,
+    "sparkle": 0.0151
+   },
+   "winter": {
+    "expressionless": 0.0362,
+    "happy": 0.0282,
+    "heart": 0.0216,
+    "sparkle": 0.019
+   },
+   "spring (season)": {
+    "happy": 0.1296,
+    "expressionless": 0.0519,
+    "heart": 0.0284,
+    "sparkle": 0.0198
+   },
+   "summer": {
+    "happy": 0.0359,
+    "sparkle": 0.0319,
+    "heart": 0.0228,
+    "sweatdrop": 0.0167,
+    "expressionless": 0.0162
+   },
+   "cherry blossoms": {
+    "expressionless": 0.0322,
+    "happy": 0.0264,
+    "heart": 0.0254,
+    "sparkle": 0.016
+   },
+   "moonlight": {
+    "expressionless": 0.0607,
+    "sparkle": 0.0318,
+    "happy": 0.0241,
+    "serious": 0.0193
+   }
+  },
+  "sensitive": {
+   "alley": {
+    "expressionless": 0.0381,
+    "heart": 0.0249
+   },
+   "amusement park": {
+    "heart": 0.1742,
+    "sparkle": 0.073,
+    "happy": 0.0506,
+    "sweatdrop": 0.0169
+   },
+   "apartment": {
+    "heart": 0.0385,
+    "embarrassed": 0.0385,
+    "sweatdrop": 0.0321,
+    "expressionless": 0.0256,
+    "surprised": 0.0192
+   },
+   "aquarium": {
+    "heart": 0.0532
+   },
+   "arcade": {
+    "heart": 0.1271,
+    "happy": 0.0254,
+    "smug": 0.0254,
+    "sweatdrop": 0.0169,
+    "expressionless": 0.0169
+   },
+   "architecture": {
+    "sparkle": 0.0443,
+    "expressionless": 0.022
+   },
+   "bamboo forest": {
+    "expressionless": 0.0232,
+    "serious": 0.0132,
+    "heart": 0.0108,
+    "sparkle": 0.0108
+   },
+   "bar (place)": {
+    "heart": 0.0562,
+    "sparkle": 0.0324,
+    "drunk": 0.0314,
+    "embarrassed": 0.0143
+   },
+   "bathroom": {
+    "heart": 0.0473,
+    "expressionless": 0.0302,
+    "embarrassed": 0.0284,
+    "sweatdrop": 0.0254,
+    "sparkle": 0.0201,
+    "sleepy": 0.0127
+   },
+   "bathtub": {
+    "heart": 0.0384,
+    "expressionless": 0.0343,
+    "sparkle": 0.0215
+   },
+   "beach": {
+    "heart": 0.0498,
+    "sparkle": 0.0264,
+    "sweatdrop": 0.0134
+   },
+   "bedroom": {
+    "heart": 0.0711,
+    "sweatdrop": 0.0294,
+    "embarrassed": 0.0228,
+    "sparkle": 0.0194
+   },
+   "bridge": {
+    "sparkle": 0.0311,
+    "expressionless": 0.0222,
+    "heart": 0.0203
+   },
+   "bus interior": {
+    "sweatdrop": 0.0316,
+    "expressionless": 0.0316,
+    "heart": 0.0211,
+    "embarrassed": 0.0211
+   },
+   "bus stop": {
+    "heart": 0.0222,
+    "expressionless": 0.0197,
+    "embarrassed": 0.0197
+   },
+   "cafe": {
+    "heart": 0.1025,
+    "sparkle": 0.0295,
+    "embarrassed": 0.0233
+   },
+   "car interior": {
+    "heart": 0.0428,
+    "embarrassed": 0.0245,
+    "expressionless": 0.0183
+   },
+   "carousel": {
+    "heart": 0.1229,
+    "sparkle": 0.1017,
+    "happy": 0.0254,
+    "expressionless": 0.0169
+   },
+   "casino": {
+    "heart": 0.1316,
+    "sparkle": 0.0947,
+    "embarrassed": 0.0225,
+    "smug": 0.0161
+   },
+   "castle": {
+    "sparkle": 0.0533,
+    "heart": 0.0421,
+    "expressionless": 0.0181
+   },
+   "cave": {
+    "sparkle": 0.0291,
+    "serious": 0.0194,
+    "heart": 0.0175,
+    "expressionless": 0.0136
+   },
+   "changing room": {
+    "sweatdrop": 0.0887,
+    "embarrassed": 0.0887,
+    "surprised": 0.069,
+    "...": 0.0345,
+    "flying sweatdrops": 0.0246,
+    "?": 0.0246,
+    "!": 0.0246,
+    "anger vein": 0.0197,
+    "naughty face": 0.0197,
+    "!?": 0.0148
+   },
+   "church": {
+    "sparkle": 0.0513,
+    "heart": 0.0434,
+    "expressionless": 0.0205,
+    "happy": 0.0158
+   },
+   "city": {
+    "expressionless": 0.0282,
+    "heart": 0.0278,
+    "sparkle": 0.0274
+   },
+   "cityscape": {
+    "sparkle": 0.0322,
+    "heart": 0.0314,
+    "expressionless": 0.0292
+   },
+   "classroom": {
+    "heart": 0.0568,
+    "embarrassed": 0.0252,
+    "sweatdrop": 0.0232
+   },
+   "cliff": {
+    "sparkle": 0.0484,
+    "expressionless": 0.0299,
+    "happy": 0.0157,
+    "sweatdrop": 0.0142
+   },
+   "clock tower": {
+    "heart": 0.0479,
+    "sparkle": 0.0479
+   },
+   "closet": {
+    "heart": 0.1121,
+    "sweatdrop": 0.0628,
+    "expressionless": 0.0493,
+    "embarrassed": 0.0448,
+    "sparkle": 0.0359,
+    "surprised": 0.0224
+   },
+   "cockpit": {
+    "expressionless": 0.0345,
+    "angry": 0.0273,
+    "serious": 0.0187
+   },
+   "convenience store": {
+    "embarrassed": 0.083,
+    "sweatdrop": 0.0491,
+    "heart": 0.0302,
+    "?": 0.0264,
+    "flying sweatdrops": 0.0189
+   },
+   "crosswalk": {
+    "heart": 0.044,
+    "expressionless": 0.0302,
+    "sparkle": 0.0165,
+    "sweatdrop": 0.0137
+   },
+   "desert": {
+    "sparkle": 0.0238,
+    "expressionless": 0.0227,
+    "heart": 0.0162
+   },
+   "dirt road": {
+    "sparkle": 0.0263,
+    "expressionless": 0.0263
+   },
+   "dock": {
+    "embarrassed": 0.0388,
+    "sparkle": 0.031,
+    "expressionless": 0.0194
+   },
+   "dungeon": {
+    "embarrassed": 0.0483,
+    "surprised": 0.0276,
+    "sweatdrop": 0.0138
+   },
+   "ferris wheel": {
+    "heart": 0.1193,
+    "sparkle": 0.0557,
+    "expressionless": 0.0139
+   },
+   "field": {
+    "sparkle": 0.0282,
+    "heart": 0.0277,
+    "happy": 0.0188,
+    "expressionless": 0.0174
+   },
+   "fitness gym": {
+    "sweatdrop": 0.0524,
+    "heart": 0.028,
+    "expressionless": 0.0122
+   },
+   "fitting room": {
+    "embarrassed": 0.1161,
+    "heart": 0.0522,
+    "sweatdrop": 0.0503,
+    "flying sweatdrops": 0.0251,
+    "sparkle": 0.0135,
+    "spoken heart": 0.0116
+   },
+   "floating island": {
+    "sparkle": 0.0324,
+    "expressionless": 0.0259
+   },
+   "flower field": {
+    "sparkle": 0.0316,
+    "heart": 0.0313,
+    "happy": 0.0184,
+    "expressionless": 0.0148
+   },
+   "forest": {
+    "expressionless": 0.021,
+    "sparkle": 0.0184,
+    "heart": 0.0136
+   },
+   "fountain": {
+    "sparkle": 0.0756,
+    "heart": 0.045,
+    "happy": 0.0161
+   },
+   "garden": {
+    "sparkle": 0.0417,
+    "expressionless": 0.0345,
+    "heart": 0.02
+   },
+   "graveyard": {
+    "heart": 0.0299,
+    "sparkle": 0.0228,
+    "expressionless": 0.0228
+   },
+   "gym storeroom": {
+    "sweatdrop": 0.0569,
+    "heart": 0.0415,
+    "embarrassed": 0.0385,
+    "naughty face": 0.0123
+   },
+   "hallway": {
+    "heart": 0.0322,
+    "expressionless": 0.0311,
+    "embarrassed": 0.0184,
+    "serious": 0.015,
+    "sparkle": 0.0127
+   },
+   "hill": {
+    "expressionless": 0.0386,
+    "sparkle": 0.0351,
+    "heart": 0.0281,
+    "happy": 0.0228
+   },
+   "hospital": {
+    "heart": 0.1429,
+    "expressionless": 0.0381,
+    "sparkle": 0.019,
+    "sweatdrop": 0.0143,
+    "happy": 0.0143
+   },
+   "house": {
+    "heart": 0.0327,
+    "sparkle": 0.0303,
+    "expressionless": 0.028
+   },
+   "infirmary": {
+    "heart": 0.1425,
+    "sparkle": 0.0304,
+    "sweatdrop": 0.0187
+   },
+   "island": {
+    "sparkle": 0.0701,
+    "heart": 0.0475,
+    "embarrassed": 0.0136
+   },
+   "jungle": {
+    "sparkle": 0.0338,
+    "serious": 0.0203,
+    "expressionless": 0.0135
+   },
+   "kitchen": {
+    "heart": 0.0814,
+    "sparkle": 0.0304,
+    "sweatdrop": 0.0239,
+    "musical note": 0.013
+   },
+   "lake": {
+    "sparkle": 0.0479,
+    "expressionless": 0.0246
+   },
+   "landscape": {
+    "sparkle": 0.0147,
+    "expressionless": 0.0147
+   },
+   "library": {
+    "expressionless": 0.0218,
+    "heart": 0.0196,
+    "sweatdrop": 0.016,
+    "sparkle": 0.0123
+   },
+   "lighthouse": {
+    "sparkle": 0.0444,
+    "heart": 0.0356,
+    "expressionless": 0.0222
+   },
+   "living room": {
+    "heart": 0.0479,
+    "expressionless": 0.0479,
+    "sweatdrop": 0.0213,
+    "embarrassed": 0.016
+   },
+   "locker room": {
+    "embarrassed": 0.0631,
+    "sweatdrop": 0.0511,
+    "heart": 0.0195,
+    "surprised": 0.018
+   },
+   "market stall": {
+    "sparkle": 0.0933,
+    "sweatdrop": 0.0533,
+    "expressionless": 0.0533,
+    "heart": 0.0267,
+    "embarrassed": 0.0267
+   },
+   "meadow": {
+    "heart": 0.0372,
+    "expressionless": 0.0289,
+    "sparkle": 0.0207,
+    "happy": 0.0165
+   },
+   "messy room": {
+    "heart": 0.0635,
+    "sweatdrop": 0.0279,
+    "expressionless": 0.0203
+   },
+   "moon": {
+    "sparkle": 0.0308,
+    "heart": 0.026,
+    "expressionless": 0.0174
+   },
+   "mountain": {
+    "sparkle": 0.0314,
+    "expressionless": 0.0254,
+    "heart": 0.0188
+   },
+   "movie theater": {
+    "embarrassed": 0.0299,
+    "heart": 0.0149,
+    "sweatdrop": 0.0149,
+    "sparkle": 0.0149,
+    "expressionless": 0.0149
+   },
+   "nature": {
+    "sparkle": 0.0222,
+    "expressionless": 0.0182,
+    "heart": 0.0126
+   },
+   "ocean": {
+    "heart": 0.0516,
+    "sparkle": 0.036,
+    "sweatdrop": 0.0112
+   },
+   "office": {
+    "heart": 0.0389,
+    "sweatdrop": 0.0326,
+    "sparkle": 0.0154,
+    "angry": 0.0145
+   },
+   "on roof": {
+    "sparkle": 0.0254,
+    "aura": 0.0254,
+    "serious": 0.0217,
+    "expressionless": 0.0181
+   },
+   "onsen": {
+    "sparkle": 0.0235,
+    "heart": 0.0177,
+    "embarrassed": 0.0169
+   },
+   "pagoda": {
+    "sparkle": 0.0473,
+    "expressionless": 0.0364,
+    "heart": 0.0218
+   },
+   "park": {
+    "heart": 0.0569,
+    "sparkle": 0.0392,
+    "sweatdrop": 0.0373,
+    "happy": 0.0196
+   },
+   "path": {
+    "sparkle": 0.0439,
+    "heart": 0.0359,
+    "expressionless": 0.0359,
+    "happy": 0.0319,
+    "sweatdrop": 0.016
+   },
+   "pier": {
+    "sparkle": 0.0921,
+    "expressionless": 0.0349,
+    "heart": 0.0222,
+    "sweatdrop": 0.019
+   },
+   "planet": {
+    "sparkle": 0.039,
+    "heart": 0.0376,
+    "expressionless": 0.0228
+   },
+   "playground": {
+    "heart": 0.0424,
+    "sweatdrop": 0.0364,
+    "surprised": 0.0242,
+    "sparkle": 0.0182,
+    "embarrassed": 0.0182,
+    "happy": 0.0182,
+    "expressionless": 0.0121
+   },
+   "pond": {
+    "heart": 0.0318,
+    "sparkle": 0.0306,
+    "expressionless": 0.0269
+   },
+   "pool": {
+    "heart": 0.0414,
+    "sparkle": 0.0346,
+    "embarrassed": 0.0126,
+    "happy": 0.0106
+   },
+   "poolside": {
+    "sparkle": 0.0328,
+    "heart": 0.0308,
+    "embarrassed": 0.0154
+   },
+   "prison": {
+    "angry": 0.0628,
+    "heart": 0.0538,
+    "naughty face": 0.0224,
+    "seductive smile": 0.0224
+   },
+   "prison cell": {
+    "heart": 0.0631,
+    "angry": 0.0495,
+    "sweatdrop": 0.027,
+    "embarrassed": 0.0225
+   },
+   "public restroom": {
+    "embarrassed": 0.0556,
+    "expressionless": 0.0333,
+    "heart": 0.0222,
+    "sweatdrop": 0.0222,
+    "horrified": 0.0222
+   },
+   "railroad crossing": {
+    "expressionless": 0.0146,
+    "sad": 0.0146
+   },
+   "railroad tracks": {
+    "expressionless": 0.037,
+    "heart": 0.0238,
+    "happy": 0.0132
+   },
+   "restaurant": {
+    "heart": 0.0685,
+    "sparkle": 0.0561,
+    "sweatdrop": 0.0343,
+    "happy": 0.0218,
+    "embarrassed": 0.0187,
+    "drunk": 0.0187
+   },
+   "rice paddy": {
+    "sparkle": 0.0506,
+    "sweatdrop": 0.0112,
+    "happy": 0.0112
+   },
+   "river": {
+    "sparkle": 0.0384,
+    "expressionless": 0.0273,
+    "heart": 0.0167
+   },
+   "road": {
+    "heart": 0.027,
+    "expressionless": 0.0267,
+    "sparkle": 0.0214
+   },
+   "rooftop": {
+    "expressionless": 0.0232,
+    "sparkle": 0.0218,
+    "heart": 0.0174
+   },
+   "ruins": {
+    "expressionless": 0.0427,
+    "sparkle": 0.0256,
+    "heart": 0.0195,
+    "serious": 0.0154
+   },
+   "running track": {
+    "sweatdrop": 0.0591,
+    "heart": 0.0197,
+    "sparkle": 0.0183,
+    "flying sweatdrops": 0.0155,
+    "exhausted": 0.0155
+   },
+   "rural": {
+    "expressionless": 0.0654,
+    "sparkle": 0.0374
+   },
+   "sauna": {
+    "sweatdrop": 0.0263,
+    "sparkle": 0.0263,
+    "heart": 0.0188,
+    "seductive smile": 0.015,
+    "embarrassed": 0.0113
+   },
+   "school": {
+    "heart": 0.0363,
+    "embarrassed": 0.0276,
+    "sweatdrop": 0.0268,
+    "sparkle": 0.019,
+    "expressionless": 0.0147
+   },
+   "school gym": {
+    "sweatdrop": 0.0446,
+    "sparkle": 0.0306,
+    "embarrassed": 0.0195,
+    "?": 0.0167
+   },
+   "shop": {
+    "heart": 0.0603,
+    "embarrassed": 0.0429,
+    "sparkle": 0.0348,
+    "sweatdrop": 0.0313,
+    "expressionless": 0.0139
+   },
+   "shore": {
+    "heart": 0.0484,
+    "sparkle": 0.0371
+   },
+   "shower (place)": {
+    "heart": 0.0781,
+    "sparkle": 0.0152,
+    "embarrassed": 0.0114
+   },
+   "shrine": {
+    "sparkle": 0.0236
+   },
+   "sidewalk": {
+    "heart": 0.0543,
+    "sparkle": 0.0504,
+    "expressionless": 0.0349
+   },
+   "skyscraper": {
+    "sparkle": 0.0318,
+    "heart": 0.028,
+    "expressionless": 0.0261
+   },
+   "space": {
+    "sparkle": 0.041,
+    "heart": 0.0341,
+    "expressionless": 0.0218
+   },
+   "spacecraft interior": {
+    "expressionless": 0.02,
+    "happy": 0.02
+   },
+   "stadium": {
+    "sparkle": 0.0463,
+    "sweatdrop": 0.0414,
+    "heart": 0.0353,
+    "embarrassed": 0.0231
+   },
+   "stage": {
+    "sparkle": 0.1488,
+    "heart": 0.1155,
+    "musical note": 0.0175,
+    "happy": 0.0144
+   },
+   "stream": {
+    "expressionless": 0.0362,
+    "sparkle": 0.0317,
+    "happy": 0.0249,
+    "sweatdrop": 0.0136,
+    "heart": 0.0113
+   },
+   "street": {
+    "heart": 0.0259,
+    "sparkle": 0.0245,
+    "expressionless": 0.0245
+   },
+   "temple": {
+    "sparkle": 0.0386,
+    "expressionless": 0.0386,
+    "serious": 0.0242
+   },
+   "toilet stall": {
+    "embarrassed": 0.0319,
+    "flying sweatdrops": 0.0319,
+    "nervous": 0.0213
+   },
+   "tower": {
+    "sparkle": 0.0485,
+    "heart": 0.0388,
+    "expressionless": 0.0172
+   },
+   "town": {
+    "sparkle": 0.0442,
+    "heart": 0.0244,
+    "expressionless": 0.0213
+   },
+   "train interior": {
+    "sweatdrop": 0.0373,
+    "expressionless": 0.0323,
+    "heart": 0.0265,
+    "embarrassed": 0.0199
+   },
+   "train station": {
+    "expressionless": 0.0226,
+    "heart": 0.0201,
+    "sparkle": 0.0101
+   },
+   "train station platform": {
+    "expressionless": 0.0463,
+    "sweatdrop": 0.0278,
+    "sparkle": 0.0185
+   },
+   "underwater": {
+    "heart": 0.0238,
+    "sparkle": 0.0164,
+    "expressionless": 0.0136
+   },
+   "vehicle interior": {
+    "sweatdrop": 0.0422,
+    "heart": 0.0361,
+    "sparkle": 0.0181,
+    "embarrassed": 0.0181
+   },
+   "village": {
+    "sparkle": 0.0541,
+    "expressionless": 0.018
+   },
+   "volcano": {
+    "expressionless": 0.039,
+    "serious": 0.0195,
+    "sparkle": 0.013
+   },
+   "water": {
+    "heart": 0.04,
+    "sparkle": 0.0326
+   },
+   "waterfall": {
+    "sparkle": 0.0335,
+    "expressionless": 0.0208,
+    "heart": 0.0191
+   },
+   "wheat field": {
+    "heart": 0.0308,
+    "expressionless": 0.024,
+    "sad": 0.0137
+   },
+   "windmill": {
+    "sparkle": 0.0295,
+    "heart": 0.0221,
+    "expressionless": 0.0148
+   },
+   "wrestling ring": {
+    "heart": 0.0498,
+    "sweatdrop": 0.0345,
+    "sparkle": 0.0345,
+    "exhausted": 0.023,
+    "flying sweatdrops": 0.0153
+   },
+   "rain": {
+    "expressionless": 0.0272,
+    "heart": 0.0142
+   },
+   "snow": {
+    "heart": 0.028,
+    "sparkle": 0.0132,
+    "expressionless": 0.0112
+   },
+   "storm": {
+    "expressionless": 0.0379,
+    "serious": 0.0227,
+    "sad": 0.0227,
+    "heart": 0.0114
+   },
+   "fog": {
+    "expressionless": 0.0564,
+    "heart": 0.0229,
+    "sparkle": 0.0221,
+    "serious": 0.0221
+   },
+   "night": {
+    "sparkle": 0.0346,
+    "heart": 0.0338,
+    "expressionless": 0.02
+   },
+   "sunset": {
+    "heart": 0.0268,
+    "sparkle": 0.024,
+    "expressionless": 0.022,
+    "happy": 0.0124
+   },
+   "sunrise": {
+    "expressionless": 0.0315,
+    "sparkle": 0.02,
+    "heart": 0.0168
+   },
+   "cloudy sky": {
+    "heart": 0.039,
+    "sparkle": 0.0286,
+    "expressionless": 0.016,
+    "sweatdrop": 0.0154
+   },
+   "wind": {
+    "expressionless": 0.034,
+    "heart": 0.0252,
+    "sparkle": 0.022,
+    "embarrassed": 0.0158,
+    "serious": 0.0138
+   },
+   "autumn": {
+    "heart": 0.0155,
+    "sparkle": 0.0136,
+    "expressionless": 0.0136
+   },
+   "winter": {
+    "heart": 0.0365,
+    "sparkle": 0.0149,
+    "expressionless": 0.0141
+   },
+   "spring (season)": {
+    "happy": 0.049,
+    "sparkle": 0.0343,
+    "heart": 0.0261,
+    "expressionless": 0.0212
+   },
+   "summer": {
+    "heart": 0.057,
+    "sparkle": 0.0448,
+    "happy": 0.0188,
+    "sweatdrop": 0.0144
+   },
+   "cherry blossoms": {
+    "heart": 0.0294,
+    "sparkle": 0.0176,
+    "expressionless": 0.011
+   },
+   "moonlight": {
+    "sparkle": 0.0355,
+    "expressionless": 0.0289,
+    "heart": 0.0204
+   }
+  },
+  "nsfw": {
+   "alley": {
+    "embarrassed": 0.236,
+    "heart": 0.1742,
+    "spoken heart": 0.0393,
+    "naughty face": 0.0393,
+    "flying sweatdrops": 0.0281,
+    "sweatdrop": 0.0169,
+    "expressionless": 0.0169,
+    "surprised": 0.0169
+   },
+   "amusement park": {
+    "embarrassed": 0.4286,
+    "sweatdrop": 0.2857
+   },
+   "apartment": {
+    "naughty face": 0.0968,
+    "heart": 0.0645,
+    "embarrassed": 0.0645
+   },
+   "aquarium": {
+    "heart": 0.05
+   },
+   "arcade": {
+    "heart": 0.2609,
+    "happy": 0.0435
+   },
+   "architecture": {
+    "embarrassed": 0.0287,
+    "heart": 0.0267,
+    "naughty face": 0.0267,
+    "expressionless": 0.0246,
+    "seductive smile": 0.0246,
+    "sweatdrop": 0.0185,
+    "sparkle": 0.0164
+   },
+   "bamboo forest": {
+    "shy": 0.0714,
+    "heart": 0.0275,
+    "embarrassed": 0.022,
+    "naughty face": 0.0165,
+    "drunk": 0.0165,
+    "sweatdrop": 0.011
+   },
+   "bar (place)": {
+    "heart": 0.0979,
+    "drunk": 0.0358,
+    "embarrassed": 0.0263,
+    "sweatdrop": 0.0191,
+    "naughty face": 0.0191,
+    "sparkle": 0.0167
+   },
+   "bathroom": {
+    "embarrassed": 0.0606,
+    "heart": 0.0513,
+    "sweatdrop": 0.0192,
+    "surprised": 0.0146,
+    "happy": 0.0128
+   },
+   "bathtub": {
+    "heart": 0.0397,
+    "embarrassed": 0.0223,
+    "happy": 0.0122,
+    "sweatdrop": 0.0116,
+    "sparkle": 0.0104
+   },
+   "beach": {
+    "heart": 0.0628,
+    "embarrassed": 0.0354,
+    "sweatdrop": 0.0172,
+    "sparkle": 0.0172,
+    "naughty face": 0.0104
+   },
+   "bedroom": {
+    "heart": 0.0801,
+    "embarrassed": 0.0356,
+    "sweatdrop": 0.0252,
+    "naughty face": 0.0196,
+    "seductive smile": 0.014
+   },
+   "bridge": {
+    "seductive smile": 0.0376,
+    "heart": 0.0301,
+    "embarrassed": 0.0301,
+    "sweatdrop": 0.015
+   },
+   "bus interior": {
+    "heart": 0.0312,
+    "sweatdrop": 0.0312,
+    "embarrassed": 0.0312,
+    "shy": 0.0312
+   },
+   "bus stop": {
+    "embarrassed": 0.0375,
+    "heart": 0.025,
+    "sweatdrop": 0.0125,
+    "expressionless": 0.0125
+   },
+   "cafe": {
+    "embarrassed": 0.0865,
+    "heart": 0.0673,
+    "sweatdrop": 0.0481,
+    "?": 0.0288,
+    "surprised": 0.0288,
+    "naughty face": 0.0288,
+    "seductive smile": 0.0288
+   },
+   "car interior": {
+    "heart": 0.0623,
+    "naughty face": 0.044,
+    "embarrassed": 0.0366
+   },
+   "carousel": {
+    "heart": 0.2,
+    "embarrassed": 0.1
+   },
+   "casino": {
+    "heart": 0.1085,
+    "sparkle": 0.0233,
+    "embarrassed": 0.0233
+   },
+   "castle": {
+    "heart": 0.0452,
+    "embarrassed": 0.0323,
+    "sparkle": 0.0194,
+    "happy": 0.0194,
+    "naughty face": 0.0194
+   },
+   "cave": {
+    "heart": 0.0588,
+    "sweatdrop": 0.0294,
+    "surprised": 0.0221,
+    "expressionless": 0.0147,
+    "embarrassed": 0.0147
+   },
+   "changing room": {
+    "embarrassed": 0.0806,
+    "surprised": 0.0323,
+    "heart": 0.0242,
+    "flying sweatdrops": 0.0242,
+    "expressionless": 0.0161,
+    "?": 0.0161,
+    "!": 0.0161,
+    "seductive smile": 0.0161
+   },
+   "church": {
+    "heart": 0.0577,
+    "sparkle": 0.0144,
+    "naughty face": 0.0144
+   },
+   "city": {
+    "heart": 0.0649,
+    "embarrassed": 0.0247,
+    "naughty face": 0.0185,
+    "sweatdrop": 0.017,
+    "expressionless": 0.0139
+   },
+   "cityscape": {
+    "heart": 0.0606,
+    "embarrassed": 0.0284,
+    "naughty face": 0.0189
+   },
+   "classroom": {
+    "heart": 0.0584,
+    "embarrassed": 0.0459,
+    "naughty face": 0.0305,
+    "sweatdrop": 0.0283,
+    "seductive smile": 0.0133
+   },
+   "cliff": {
+    "heart": 0.0543,
+    "embarrassed": 0.0435
+   },
+   "clock tower": {
+    "embarrassed": 0.0952,
+    "sweatdrop": 0.0476,
+    "naughty face": 0.0476,
+    "scared": 0.0476,
+    "nervous": 0.0476
+   },
+   "closet": {
+    "embarrassed": 0.0706,
+    "heart": 0.0471,
+    "sweatdrop": 0.0353,
+    "scared": 0.0353,
+    "?": 0.0235
+   },
+   "cockpit": {
+    "embarrassed": 0.0654,
+    "surprised": 0.0261,
+    "angry": 0.0261,
+    "naughty face": 0.0196,
+    "sweatdrop": 0.0131,
+    "expressionless": 0.0131,
+    "happy": 0.0131
+   },
+   "convenience store": {
+    "heart": 0.1064,
+    "embarrassed": 0.1064,
+    "surprised": 0.0851,
+    "!?": 0.0638,
+    "sweatdrop": 0.0426,
+    "flying sweatdrops": 0.0213
+   },
+   "crosswalk": {
+    "embarrassed": 0.1379,
+    "?": 0.0345
+   },
+   "desert": {
+    "heart": 0.04,
+    "sweatdrop": 0.0267,
+    "seductive smile": 0.0267,
+    "embarrassed": 0.02,
+    "flying sweatdrops": 0.02
+   },
+   "dirt road": {
+    "expressionless": 0.1,
+    "!?": 0.1
+   },
+   "dock": {
+    "heart": 0.1071,
+    "spoken heart": 0.0714,
+    "embarrassed": 0.0357
+   },
+   "dungeon": {
+    "heart": 0.0692,
+    "angry": 0.0462,
+    "naughty face": 0.0308,
+    "sad": 0.0231,
+    "embarrassed": 0.0154
+   },
+   "ferris wheel": {
+    "sweatdrop": 0.119,
+    "heart": 0.0714,
+    "sparkle": 0.0714,
+    "expressionless": 0.0238
+   },
+   "field": {
+    "embarrassed": 0.0358,
+    "heart": 0.0293,
+    "sweatdrop": 0.0228,
+    "surprised": 0.0195,
+    "sparkle": 0.0163
+   },
+   "fitness gym": {
+    "sweatdrop": 0.0492,
+    "heart": 0.0273,
+    "naughty face": 0.0273,
+    "angry": 0.0164
+   },
+   "fitting room": {
+    "embarrassed": 0.1217,
+    "sweatdrop": 0.0688,
+    "heart": 0.0529,
+    "surprised": 0.0317,
+    "...": 0.0265,
+    "spoken heart": 0.0212,
+    "flying sweatdrops": 0.0159,
+    "?": 0.0159,
+    "naughty face": 0.0159
+   },
+   "floating island": {
+    "heart": 0.0526,
+    "sparkle": 0.0526,
+    "embarrassed": 0.0526,
+    "surprised": 0.0526
+   },
+   "flower field": {
+    "heart": 0.0446,
+    "embarrassed": 0.0318,
+    "sweatdrop": 0.0127,
+    "sparkle": 0.0127
+   },
+   "forest": {
+    "heart": 0.0339,
+    "embarrassed": 0.0294,
+    "sweatdrop": 0.0132,
+    "expressionless": 0.0132,
+    "naughty face": 0.0127
+   },
+   "fountain": {
+    "heart": 0.0648,
+    "surprised": 0.0463,
+    "aroused": 0.037,
+    "embarrassed": 0.0278,
+    "sweatdrop": 0.0185,
+    "sparkle": 0.0185,
+    "naughty face": 0.0185
+   },
+   "garden": {
+    "embarrassed": 0.0746,
+    "naughty face": 0.0448,
+    "sparkle": 0.0299,
+    "surprised": 0.0299,
+    "heart": 0.0149,
+    "expressionless": 0.0149
+   },
+   "graveyard": {
+    "sweatdrop": 0.0463,
+    "heart": 0.037,
+    "expressionless": 0.0278,
+    "embarrassed": 0.0278,
+    "?": 0.0185
+   },
+   "gym storeroom": {
+    "embarrassed": 0.09,
+    "heart": 0.0533,
+    "sweatdrop": 0.04,
+    "naughty face": 0.0317
+   },
+   "hallway": {
+    "heart": 0.0818,
+    "embarrassed": 0.0636,
+    "sweatdrop": 0.0273,
+    "angry": 0.0227
+   },
+   "hill": {
+    "expressionless": 0.1017,
+    "sweatdrop": 0.0339,
+    "embarrassed": 0.0339,
+    "heart": 0.0169
+   },
+   "hospital": {
+    "heart": 0.2143,
+    "sweatdrop": 0.0286,
+    "embarrassed": 0.0286,
+    "spoken heart": 0.0286,
+    "naughty face": 0.0286,
+    "expressionless": 0.0143
+   },
+   "house": {
+    "heart": 0.0864,
+    "embarrassed": 0.0591,
+    "sweatdrop": 0.0227,
+    "expressionless": 0.0227,
+    "naughty face": 0.0227,
+    "sparkle": 0.0182
+   },
+   "infirmary": {
+    "heart": 0.1676,
+    "embarrassed": 0.0636,
+    "naughty face": 0.0289,
+    "sweatdrop": 0.0231,
+    "sparkle": 0.0173,
+    "expressionless": 0.0173
+   },
+   "island": {
+    "sparkle": 0.0556,
+    "heart": 0.037,
+    "sweatdrop": 0.0185,
+    "expressionless": 0.0185
+   },
+   "jungle": {
+    "serious": 0.0325,
+    "heart": 0.0244,
+    "embarrassed": 0.0163,
+    "surprised": 0.0163
+   },
+   "kitchen": {
+    "heart": 0.0781,
+    "embarrassed": 0.0321,
+    "sweatdrop": 0.0267,
+    "naughty face": 0.0171,
+    "flying sweatdrops": 0.015,
+    "sparkle": 0.0118,
+    "spoken heart": 0.0118
+   },
+   "lake": {
+    "heart": 0.034,
+    "sparkle": 0.034,
+    "naughty face": 0.0264,
+    "embarrassed": 0.0189,
+    "happy": 0.0151,
+    "expressionless": 0.0113
+   },
+   "landscape": {
+    "sleepy": 0.0364,
+    "heart": 0.0182,
+    "sweatdrop": 0.0182,
+    "expressionless": 0.0182,
+    "happy": 0.0182
+   },
+   "library": {
+    "heart": 0.075,
+    "embarrassed": 0.0429,
+    "sweatdrop": 0.0214,
+    "expressionless": 0.0179,
+    "naughty face": 0.0143,
+    "seductive smile": 0.0143
+   },
+   "lighthouse": {
+    "heart": 0.0556,
+    "sparkle": 0.0556,
+    "expressionless": 0.0278
+   },
+   "living room": {
+    "heart": 0.0943,
+    "seductive smile": 0.0943,
+    "sweatdrop": 0.0566,
+    "embarrassed": 0.0377,
+    "naughty face": 0.0377,
+    "sparkle": 0.0189,
+    "?": 0.0189
+   },
+   "locker room": {
+    "embarrassed": 0.0524,
+    "sweatdrop": 0.0362,
+    "heart": 0.0299,
+    "surprised": 0.0162,
+    "expressionless": 0.0112
+   },
+   "market stall": {
+    "embarrassed": 0.1111,
+    "drunk": 0.1111,
+    "seductive smile": 0.1111
+   },
+   "meadow": {
+    "heart": 0.0909
+   },
+   "messy room": {
+    "heart": 0.0795,
+    "embarrassed": 0.0682,
+    "sweatdrop": 0.0455,
+    "angry": 0.0455,
+    "drunk": 0.0341,
+    "flying sweatdrops": 0.0227
+   },
+   "moon": {
+    "heart": 0.0507,
+    "sparkle": 0.0188,
+    "embarrassed": 0.0155,
+    "naughty face": 0.0148
+   },
+   "mountain": {
+    "embarrassed": 0.036,
+    "heart": 0.027,
+    "expressionless": 0.0195,
+    "sparkle": 0.018
+   },
+   "movie theater": {},
+   "nature": {
+    "embarrassed": 0.0295,
+    "heart": 0.0291,
+    "sparkle": 0.0132,
+    "expressionless": 0.0128,
+    "sweatdrop": 0.0118
+   },
+   "ocean": {
+    "heart": 0.0574,
+    "embarrassed": 0.0408,
+    "sparkle": 0.0266,
+    "sweatdrop": 0.017,
+    "naughty face": 0.012,
+    "happy": 0.011
+   },
+   "office": {
+    "heart": 0.0879,
+    "embarrassed": 0.0495,
+    "naughty face": 0.044,
+    "sweatdrop": 0.022
+   },
+   "on roof": {
+    "heart": 0.0526,
+    "sweatdrop": 0.0526,
+    "seductive smile": 0.0526,
+    "shy": 0.0526
+   },
+   "onsen": {
+    "heart": 0.03,
+    "embarrassed": 0.0258,
+    "sparkle": 0.0142
+   },
+   "pagoda": {
+    "expressionless": 0.25
+   },
+   "park": {
+    "embarrassed": 0.1356,
+    "angry": 0.0508,
+    "expressionless": 0.0339,
+    "annoyed": 0.0339,
+    "heart": 0.0169,
+    "sweatdrop": 0.0169
+   },
+   "path": {
+    "expressionless": 0.1042,
+    "embarrassed": 0.1042,
+    "sweatdrop": 0.0625,
+    "sparkle": 0.0417,
+    "happy": 0.0208
+   },
+   "pier": {
+    "heart": 0.0182,
+    "sparkle": 0.0182,
+    "happy": 0.0182,
+    "flying sweatdrops": 0.0182
+   },
+   "planet": {
+    "heart": 0.0352,
+    "sparkle": 0.0352,
+    "expressionless": 0.0282
+   },
+   "playground": {
+    "embarrassed": 0.125,
+    "heart": 0.025,
+    "naughty face": 0.025
+   },
+   "pond": {
+    "heart": 0.0377,
+    "embarrassed": 0.0377,
+    "expressionless": 0.0142
+   },
+   "pool": {
+    "heart": 0.0432,
+    "embarrassed": 0.0338,
+    "sparkle": 0.0261,
+    "naughty face": 0.0171,
+    "?": 0.0104
+   },
+   "poolside": {
+    "heart": 0.0411,
+    "embarrassed": 0.0404,
+    "naughty face": 0.0256,
+    "sparkle": 0.0236
+   },
+   "prison": {
+    "angry": 0.1048,
+    "heart": 0.0242,
+    "sweatdrop": 0.0242,
+    "embarrassed": 0.0161,
+    "surprised": 0.0161
+   },
+   "prison cell": {
+    "angry": 0.12,
+    "expressionless": 0.04,
+    "heart": 0.03,
+    "embarrassed": 0.02,
+    "seductive smile": 0.02
+   },
+   "public restroom": {
+    "heart": 0.0839,
+    "embarrassed": 0.0839,
+    "sweatdrop": 0.042,
+    "surprised": 0.021
+   },
+   "railroad crossing": {
+    "seductive smile": 0.2222
+   },
+   "railroad tracks": {
+    "embarrassed": 0.1379,
+    "expressionless": 0.1034,
+    "sweatdrop": 0.0345,
+    "struggling": 0.0345
+   },
+   "restaurant": {
+    "embarrassed": 0.1071,
+    "sweatdrop": 0.0833,
+    "heart": 0.0714,
+    "sparkle": 0.0238,
+    "surprised": 0.0238
+   },
+   "rice paddy": {
+    "surprised": 0.1111
+   },
+   "river": {
+    "expressionless": 0.0318,
+    "heart": 0.0287,
+    "sparkle": 0.0255,
+    "embarrassed": 0.0223,
+    "sweatdrop": 0.0191,
+    "happy": 0.0191
+   },
+   "road": {
+    "heart": 0.0659,
+    "embarrassed": 0.0586,
+    "sweatdrop": 0.0256,
+    "naughty face": 0.022,
+    "happy": 0.0183
+   },
+   "rooftop": {
+    "embarrassed": 0.0537,
+    "sweatdrop": 0.0201,
+    "happy": 0.0201,
+    "angry": 0.0201,
+    "naughty face": 0.0201
+   },
+   "ruins": {
+    "heart": 0.0203,
+    "expressionless": 0.0203,
+    "?": 0.0163
+   },
+   "running track": {
+    "sweatdrop": 0.0515,
+    "heart": 0.0309,
+    "embarrassed": 0.0309,
+    "flying sweatdrops": 0.0206,
+    "?": 0.0206
+   },
+   "rural": {
+    "sweatdrop": 0.1538
+   },
+   "sauna": {
+    "heart": 0.0321,
+    "sweatdrop": 0.0288,
+    "embarrassed": 0.0192,
+    "annoyed": 0.016,
+    "seductive smile": 0.016,
+    "surprised": 0.0128
+   },
+   "school": {
+    "embarrassed": 0.0882,
+    "sweatdrop": 0.0655,
+    "heart": 0.0327,
+    "naughty face": 0.0327
+   },
+   "school gym": {
+    "sweatdrop": 0.0405,
+    "embarrassed": 0.027,
+    "expressionless": 0.0135,
+    "?": 0.0135
+   },
+   "shop": {
+    "embarrassed": 0.1136,
+    "heart": 0.0758,
+    "surprised": 0.0303,
+    "sweatdrop": 0.0227,
+    "!?": 0.0227,
+    "seductive smile": 0.0227,
+    "sparkle": 0.0152
+   },
+   "shore": {
+    "heart": 0.0429,
+    "sparkle": 0.0279,
+    "sweatdrop": 0.0236,
+    "embarrassed": 0.0215
+   },
+   "shower (place)": {
+    "heart": 0.0856,
+    "embarrassed": 0.0344,
+    "naughty face": 0.0168,
+    "surprised": 0.0124
+   },
+   "shrine": {
+    "embarrassed": 0.039,
+    "naughty face": 0.039,
+    "heart": 0.026,
+    "sweatdrop": 0.013,
+    "expressionless": 0.013
+   },
+   "sidewalk": {
+    "heart": 0.0714,
+    "naughty face": 0.0714,
+    "sparkle": 0.0357,
+    "expressionless": 0.0357,
+    "...": 0.0357,
+    "surprised": 0.0357,
+    "scared": 0.0357
+   },
+   "skyscraper": {
+    "heart": 0.068,
+    "embarrassed": 0.036
+   },
+   "space": {
+    "heart": 0.0369,
+    "sparkle": 0.0266,
+    "expressionless": 0.0184,
+    "embarrassed": 0.0184
+   },
+   "spacecraft interior": {
+    "heart": 0.1364,
+    "sweatdrop": 0.0455,
+    "anger vein": 0.0455,
+    "drunk": 0.0455,
+    "seductive smile": 0.0455
+   },
+   "stadium": {
+    "embarrassed": 0.065,
+    "heart": 0.0569,
+    "sweatdrop": 0.0325,
+    "sparkle": 0.0163,
+    "flying sweatdrops": 0.0163
+   },
+   "stage": {
+    "heart": 0.0885,
+    "sparkle": 0.0417,
+    "embarrassed": 0.0417,
+    "sweatdrop": 0.0208
+   },
+   "stream": {
+    "sweatdrop": 0.0337,
+    "expressionless": 0.0337,
+    "embarrassed": 0.0337,
+    "sparkle": 0.0225,
+    "?": 0.0225,
+    "surprised": 0.0225
+   },
+   "street": {
+    "heart": 0.0979,
+    "embarrassed": 0.0559,
+    "naughty face": 0.035,
+    "sweatdrop": 0.021,
+    "shy": 0.021
+   },
+   "temple": {
+    "heart": 0.0435,
+    "sweatdrop": 0.0435,
+    "embarrassed": 0.0435,
+    "smug": 0.0435
+   },
+   "toilet stall": {
+    "embarrassed": 0.1902,
+    "heart": 0.0798,
+    "sweatdrop": 0.0675,
+    "spoken heart": 0.0245,
+    "surprised": 0.0245,
+    "expressionless": 0.0184,
+    "flying sweatdrops": 0.0184
+   },
+   "tower": {
+    "heart": 0.045,
+    "sweatdrop": 0.045,
+    "embarrassed": 0.027,
+    "seductive smile": 0.027,
+    "happy": 0.018
+   },
+   "town": {
+    "embarrassed": 0.1702,
+    "heart": 0.0213,
+    "?": 0.0213
+   },
+   "train interior": {
+    "embarrassed": 0.0826,
+    "sweatdrop": 0.0501,
+    "heart": 0.0472,
+    "sparkle": 0.0147,
+    "naughty face": 0.0147
+   },
+   "train station": {
+    "sweatdrop": 0.1351,
+    "heart": 0.027,
+    "embarrassed": 0.027,
+    "seductive smile": 0.027
+   },
+   "train station platform": {
+    "heart": 0.0769,
+    "naughty face": 0.0769
+   },
+   "underwater": {
+    "heart": 0.0185,
+    "struggling": 0.0158,
+    "sparkle": 0.0114
+   },
+   "vehicle interior": {
+    "heart": 0.0732,
+    "expressionless": 0.0488,
+    "embarrassed": 0.0488,
+    "?": 0.0244,
+    "naughty face": 0.0244
+   },
+   "village": {
+    "heart": 0.0769,
+    "expressionless": 0.0769,
+    "seductive smile": 0.0769
+   },
+   "volcano": {
+    "heart": 0.0526,
+    "nervous": 0.0526,
+    "crazy": 0.0526
+   },
+   "water": {
+    "heart": 0.0442,
+    "embarrassed": 0.0304,
+    "sparkle": 0.0272
+   },
+   "waterfall": {
+    "heart": 0.0219,
+    "embarrassed": 0.0204,
+    "sparkle": 0.019,
+    "expressionless": 0.0175
+   },
+   "wheat field": {
+    "embarrassed": 0.0517,
+    "happy": 0.0345,
+    "heart": 0.0172,
+    "anger vein": 0.0172
+   },
+   "windmill": {
+    "sweatdrop": 0.2667
+   },
+   "wrestling ring": {
+    "heart": 0.0588,
+    "embarrassed": 0.0353,
+    "sweatdrop": 0.0235
+   },
+   "rain": {
+    "heart": 0.0323,
+    "embarrassed": 0.0308,
+    "sweatdrop": 0.0108,
+    "expressionless": 0.0108
+   },
+   "snow": {
+    "heart": 0.0493,
+    "embarrassed": 0.0173
+   },
+   "storm": {
+    "naughty face": 0.0588
+   },
+   "fog": {
+    "heart": 0.067,
+    "expressionless": 0.0447,
+    "sweatdrop": 0.0223,
+    "happy": 0.0168,
+    "seductive smile": 0.0168
+   },
+   "night": {
+    "heart": 0.0598,
+    "embarrassed": 0.0264,
+    "naughty face": 0.0214,
+    "sparkle": 0.0166,
+    "sweatdrop": 0.0144
+   },
+   "sunset": {
+    "heart": 0.0539,
+    "embarrassed": 0.0364,
+    "sweatdrop": 0.0205,
+    "sparkle": 0.0175
+   },
+   "sunrise": {
+    "heart": 0.0385,
+    "expressionless": 0.0385,
+    "sweatdrop": 0.0256,
+    "sparkle": 0.0256,
+    "embarrassed": 0.0256,
+    "flying sweatdrops": 0.0256,
+    "serious": 0.0256
+   },
+   "cloudy sky": {
+    "heart": 0.0601,
+    "embarrassed": 0.0329,
+    "sweatdrop": 0.0299,
+    "sparkle": 0.0272
+   },
+   "wind": {
+    "embarrassed": 0.0563,
+    "heart": 0.0467,
+    "surprised": 0.0342,
+    "sweatdrop": 0.0247,
+    "sparkle": 0.0113,
+    "expressionless": 0.0107
+   },
+   "autumn": {
+    "heart": 0.0226,
+    "embarrassed": 0.0226,
+    "sparkle": 0.0189,
+    "sweatdrop": 0.0113
+   },
+   "winter": {
+    "heart": 0.0428,
+    "embarrassed": 0.0261,
+    "sweatdrop": 0.0143
+   },
+   "spring (season)": {
+    "naughty face": 0.04,
+    "sparkle": 0.02,
+    "?": 0.02
+   },
+   "summer": {
+    "heart": 0.0481,
+    "embarrassed": 0.0324,
+    "sweatdrop": 0.0302,
+    "sparkle": 0.0302,
+    "naughty face": 0.0145
+   },
+   "cherry blossoms": {
+    "heart": 0.0491,
+    "embarrassed": 0.0162,
+    "sparkle": 0.0116
+   },
+   "moonlight": {
+    "heart": 0.0694,
+    "naughty face": 0.0382,
+    "seductive smile": 0.0208,
+    "expressionless": 0.0174,
+    "happy": 0.0174
+   }
+  },
+  "explicit": {
+   "alley": {
+    "heart": 0.165,
+    "embarrassed": 0.12
+   },
+   "amusement park": {},
+   "apartment": {
+    "naughty face": 0.6667
+   },
+   "aquarium": {},
+   "arcade": {
+    "heart": 0.125,
+    "ahegao": 0.0625,
+    "fucked silly": 0.0625
+   },
+   "architecture": {
+    "heart": 0.0805,
+    "expressionless": 0.023,
+    "embarrassed": 0.023,
+    "naughty face": 0.023
+   },
+   "bamboo forest": {
+    "heart": 0.125,
+    "naughty face": 0.0357,
+    "sweatdrop": 0.0179,
+    "embarrassed": 0.0179,
+    "happy": 0.0179
+   },
+   "bar (place)": {
+    "heart": 0.1565,
+    "drunk": 0.0544,
+    "sweatdrop": 0.034,
+    "ahegao": 0.034,
+    "surprised": 0.0204
+   },
+   "bathroom": {
+    "heart": 0.1064,
+    "embarrassed": 0.0362,
+    "sweatdrop": 0.0226,
+    "spoken heart": 0.0166,
+    "naughty face": 0.0128
+   },
+   "bathtub": {
+    "heart": 0.0606,
+    "happy": 0.0225,
+    "embarrassed": 0.0208,
+    "naughty face": 0.0121
+   },
+   "beach": {
+    "heart": 0.1206,
+    "embarrassed": 0.0303,
+    "naughty face": 0.0164,
+    "sweatdrop": 0.0129,
+    "happy": 0.0126
+   },
+   "bedroom": {
+    "heart": 0.0955,
+    "sweatdrop": 0.0341,
+    "naughty face": 0.0307,
+    "embarrassed": 0.0273
+   },
+   "bridge": {
+    "heart": 0.15,
+    "sweatdrop": 0.05,
+    "happy": 0.05,
+    "surprised": 0.05
+   },
+   "bus interior": {
+    "shy": 0.0682,
+    "nervous": 0.0455,
+    "heart": 0.0227,
+    "embarrassed": 0.0227,
+    "naughty face": 0.0227
+   },
+   "bus stop": {},
+   "cafe": {
+    "embarrassed": 0.2059,
+    "seductive smile": 0.1176,
+    "naughty face": 0.0882,
+    "heart": 0.0294,
+    "happy": 0.0294,
+    "smug": 0.0294
+   },
+   "car interior": {
+    "heart": 0.1216,
+    "naughty face": 0.0405,
+    "sweatdrop": 0.0338,
+    "embarrassed": 0.0203
+   },
+   "carousel": {},
+   "casino": {
+    "heart": 0.3488,
+    "happy": 0.1628,
+    "ahegao": 0.093,
+    "sweatdrop": 0.0465,
+    "embarrassed": 0.0465
+   },
+   "castle": {
+    "heart": 0.1071,
+    "embarrassed": 0.0714,
+    "!": 0.0714,
+    "flying sweatdrops": 0.0357,
+    "surprised": 0.0357,
+    "naughty face": 0.0357,
+    "worried": 0.0357
+   },
+   "cave": {
+    "heart": 0.168,
+    "ahegao": 0.032,
+    "embarrassed": 0.016,
+    "happy": 0.016
+   },
+   "changing room": {
+    "surprised": 0.0811,
+    "naughty face": 0.0541,
+    "heart": 0.027,
+    "sweatdrop": 0.027,
+    "flying sweatdrops": 0.027,
+    "spoken heart": 0.027,
+    "...": 0.027,
+    "!?": 0.027
+   },
+   "church": {
+    "heart": 0.0625,
+    "naughty face": 0.0536,
+    "smug": 0.0446,
+    "aroused": 0.0268
+   },
+   "city": {
+    "heart": 0.0758,
+    "embarrassed": 0.0542,
+    "happy": 0.0361,
+    "surprised": 0.0253,
+    "naughty face": 0.0181
+   },
+   "cityscape": {
+    "heart": 0.0939,
+    "embarrassed": 0.0442,
+    "sweatdrop": 0.0331,
+    "naughty face": 0.0276,
+    "seductive smile": 0.0276
+   },
+   "classroom": {
+    "heart": 0.1207,
+    "embarrassed": 0.0435,
+    "sweatdrop": 0.0309,
+    "naughty face": 0.0143
+   },
+   "cliff": {
+    "sparkle": 0.0952,
+    "embarrassed": 0.0952,
+    "heart": 0.0476,
+    "sweatdrop": 0.0476,
+    "!?": 0.0476,
+    "smug": 0.0476,
+    "seductive smile": 0.0476
+   },
+   "clock tower": {},
+   "closet": {
+    "heart": 0.1818,
+    "sweatdrop": 0.0682,
+    "surprised": 0.0455
+   },
+   "cockpit": {
+    "ahegao": 0.069,
+    "heart": 0.0345,
+    "sweatdrop": 0.0345,
+    "embarrassed": 0.0345,
+    "seductive smile": 0.0345,
+    "surprised": 0.023,
+    "angry": 0.023,
+    "naughty face": 0.023
+   },
+   "convenience store": {
+    "heart": 0.1379,
+    "musical note": 0.1379,
+    "spoken heart": 0.069,
+    "ahegao": 0.069,
+    "embarrassed": 0.0345,
+    "...": 0.0345,
+    "naughty face": 0.0345,
+    "nervous": 0.0345,
+    "seductive smile": 0.0345,
+    "fucked silly": 0.0345
+   },
+   "crosswalk": {
+    "embarrassed": 0.1053,
+    "heart": 0.0526,
+    "spoken heart": 0.0526,
+    "ahegao": 0.0526
+   },
+   "desert": {
+    "heart": 0.075,
+    "sweatdrop": 0.05,
+    "embarrassed": 0.05,
+    "expressionless": 0.025
+   },
+   "dirt road": {
+    "heart": 0.3333,
+    "flying sweatdrops": 0.3333,
+    "angry": 0.3333
+   },
+   "dock": {
+    "...": 0.3333
+   },
+   "dungeon": {
+    "heart": 0.0571,
+    "embarrassed": 0.04,
+    "angry": 0.04,
+    "ahegao": 0.0229,
+    "pain": 0.0229,
+    "sweatdrop": 0.0171,
+    "happy": 0.0171
+   },
+   "ferris wheel": {
+    "embarrassed": 0.1429,
+    "sweatdrop": 0.0714,
+    "ahegao": 0.0714,
+    "worried": 0.0714
+   },
+   "field": {
+    "heart": 0.0727,
+    "sweatdrop": 0.0455,
+    "embarrassed": 0.0455,
+    "naughty face": 0.0455,
+    "sparkle": 0.0182,
+    "expressionless": 0.0182
+   },
+   "fitness gym": {
+    "sweatdrop": 0.0682,
+    "heart": 0.0455,
+    "naughty face": 0.0341,
+    "embarrassed": 0.0227
+   },
+   "fitting room": {
+    "heart": 0.1951,
+    "sweatdrop": 0.0488,
+    "embarrassed": 0.0488,
+    "surprised": 0.0488,
+    "happy": 0.0244,
+    "flying sweatdrops": 0.0244,
+    "spoken heart": 0.0244,
+    "angry": 0.0244,
+    "annoyed": 0.0244
+   },
+   "floating island": {},
+   "flower field": {
+    "heart": 0.0851,
+    "expressionless": 0.0426,
+    "sweatdrop": 0.0213,
+    "embarrassed": 0.0213,
+    "surprised": 0.0213
+   },
+   "forest": {
+    "heart": 0.0899,
+    "embarrassed": 0.0397,
+    "naughty face": 0.0242,
+    "happy": 0.0232,
+    "sweatdrop": 0.0222,
+    "ahegao": 0.0164
+   },
+   "fountain": {
+    "heart": 0.075,
+    "surprised": 0.05,
+    "ahegao": 0.05,
+    "scared": 0.05,
+    "embarrassed": 0.025,
+    "aroused": 0.025
+   },
+   "garden": {
+    "sparkle": 0.0455
+   },
+   "graveyard": {
+    "?": 0.0625,
+    "heart": 0.0312,
+    "ahegao": 0.0312
+   },
+   "gym storeroom": {
+    "heart": 0.1168,
+    "embarrassed": 0.0794,
+    "sweatdrop": 0.0257,
+    "naughty face": 0.0164
+   },
+   "hallway": {
+    "embarrassed": 0.1633,
+    "heart": 0.1224,
+    "sweatdrop": 0.0408,
+    "spoken heart": 0.0306,
+    "surprised": 0.0306
+   },
+   "hill": {
+    "sweatdrop": 0.2727,
+    "nervous": 0.1818,
+    "naughty face": 0.0909
+   },
+   "hospital": {
+    "heart": 0.0741,
+    "embarrassed": 0.037,
+    "spoken heart": 0.037,
+    "angry": 0.037,
+    "naughty face": 0.037
+   },
+   "house": {
+    "heart": 0.141,
+    "embarrassed": 0.1026,
+    "sweatdrop": 0.0385,
+    "surprised": 0.0385
+   },
+   "infirmary": {
+    "sweatdrop": 0.0824,
+    "heart": 0.0588,
+    "embarrassed": 0.0471,
+    "naughty face": 0.0235,
+    "aroused": 0.0235
+   },
+   "island": {
+    "heart": 0.1053,
+    "sparkle": 0.1053,
+    "embarrassed": 0.0526,
+    "spoken heart": 0.0526
+   },
+   "jungle": {
+    "sweatdrop": 0.1351,
+    "embarrassed": 0.0541,
+    "heart": 0.027,
+    "sparkle": 0.027,
+    "surprised": 0.027,
+    "nervous": 0.027,
+    "shy": 0.027
+   },
+   "kitchen": {
+    "heart": 0.0591,
+    "embarrassed": 0.0455,
+    "sweatdrop": 0.0409,
+    "naughty face": 0.0409,
+    "sparkle": 0.0227
+   },
+   "lake": {
+    "happy": 0.0779,
+    "heart": 0.039,
+    "seductive smile": 0.039,
+    "sparkle": 0.026,
+    "embarrassed": 0.026,
+    "ahegao": 0.026
+   },
+   "landscape": {},
+   "library": {
+    "heart": 0.1088,
+    "sweatdrop": 0.0544,
+    "embarrassed": 0.0408,
+    "spoken heart": 0.034,
+    "ahegao": 0.0204,
+    "aroused": 0.0204
+   },
+   "lighthouse": {
+    "expressionless": 0.0833,
+    "happy": 0.0833,
+    "shy": 0.0833
+   },
+   "living room": {
+    "aroused": 0.1304,
+    "sweatdrop": 0.087,
+    "naughty face": 0.087,
+    "embarrassed": 0.0435
+   },
+   "locker room": {
+    "heart": 0.0351,
+    "sweatdrop": 0.0281,
+    "embarrassed": 0.0175
+   },
+   "market stall": {},
+   "meadow": {},
+   "messy room": {
+    "embarrassed": 0.1081,
+    "flying sweatdrops": 0.0541,
+    "heart": 0.027,
+    "musical note": 0.027,
+    "aroused": 0.027
+   },
+   "moon": {
+    "heart": 0.1045,
+    "naughty face": 0.0336,
+    "happy": 0.0168
+   },
+   "mountain": {
+    "happy": 0.0506,
+    "heart": 0.038,
+    "embarrassed": 0.038,
+    "sweatdrop": 0.0316,
+    "sparkle": 0.0253,
+    "expressionless": 0.019
+   },
+   "movie theater": {},
+   "nature": {
+    "heart": 0.0814,
+    "embarrassed": 0.0473,
+    "naughty face": 0.0271,
+    "sweatdrop": 0.0233,
+    "happy": 0.0194,
+    "ahegao": 0.0155
+   },
+   "ocean": {
+    "heart": 0.1151,
+    "embarrassed": 0.039,
+    "naughty face": 0.0216,
+    "sparkle": 0.0146,
+    "happy": 0.0146
+   },
+   "office": {
+    "heart": 0.1176,
+    "embarrassed": 0.0588,
+    "naughty face": 0.0336,
+    "seductive smile": 0.0252,
+    "shy": 0.0252
+   },
+   "on roof": {
+    "embarrassed": 0.2
+   },
+   "onsen": {
+    "heart": 0.0732,
+    "sweatdrop": 0.0172,
+    "seductive smile": 0.0172,
+    "embarrassed": 0.0149,
+    "spoken heart": 0.0126
+   },
+   "pagoda": {
+    "naughty face": 0.5
+   },
+   "park": {
+    "heart": 0.1978,
+    "embarrassed": 0.0549,
+    "sparkle": 0.022
+   },
+   "path": {
+    "naughty face": 0.125,
+    "sweatdrop": 0.0625,
+    "embarrassed": 0.0625,
+    "happy": 0.0625,
+    "ahegao": 0.0625,
+    "fucked silly": 0.0625
+   },
+   "pier": {
+    "heart": 0.1429,
+    "spoken heart": 0.0952,
+    "drunk": 0.0476
+   },
+   "planet": {
+    "heart": 0.0455,
+    "sparkle": 0.0303,
+    "naughty face": 0.0303
+   },
+   "playground": {
+    "heart": 0.1,
+    "embarrassed": 0.06,
+    "naughty face": 0.02
+   },
+   "pond": {
+    "heart": 0.0408,
+    "embarrassed": 0.0408,
+    "happy": 0.0408,
+    "surprised": 0.0408,
+    "naughty face": 0.0408,
+    "!": 0.0204
+   },
+   "pool": {
+    "heart": 0.0701,
+    "sparkle": 0.0504,
+    "embarrassed": 0.0288,
+    "naughty face": 0.0144,
+    "sweatdrop": 0.0126
+   },
+   "poolside": {
+    "heart": 0.0717,
+    "embarrassed": 0.0518,
+    "sweatdrop": 0.0199,
+    "expressionless": 0.0199
+   },
+   "prison": {
+    "heart": 0.058,
+    "embarrassed": 0.058,
+    "sweatdrop": 0.0435,
+    "naughty face": 0.029
+   },
+   "prison cell": {
+    "embarrassed": 0.0652,
+    "heart": 0.0326,
+    "pain": 0.0326,
+    "sweatdrop": 0.0217,
+    "naughty face": 0.0217
+   },
+   "public restroom": {
+    "heart": 0.12,
+    "embarrassed": 0.0543,
+    "sweatdrop": 0.0257,
+    "ahegao": 0.0257,
+    "scared": 0.02
+   },
+   "railroad crossing": {},
+   "railroad tracks": {
+    "expressionless": 0.4444,
+    "embarrassed": 0.4444
+   },
+   "restaurant": {
+    "sweatdrop": 0.129,
+    "naughty face": 0.0645,
+    "shy": 0.0645,
+    "heart": 0.0323,
+    "embarrassed": 0.0323,
+    "spoken heart": 0.0323
+   },
+   "rice paddy": {},
+   "river": {
+    "sparkle": 0.0492,
+    "embarrassed": 0.0328,
+    "angry": 0.0328,
+    "heart": 0.0164,
+    "sweatdrop": 0.0164,
+    "happy": 0.0164
+   },
+   "road": {
+    "heart": 0.1486,
+    "embarrassed": 0.1314,
+    "sweatdrop": 0.0457,
+    "happy": 0.04,
+    "naughty face": 0.0229
+   },
+   "rooftop": {
+    "embarrassed": 0.1111,
+    "heart": 0.0556,
+    "sweatdrop": 0.0185,
+    "flying sweatdrops": 0.0185,
+    "surprised": 0.0185
+   },
+   "ruins": {
+    "heart": 0.1053,
+    "surprised": 0.0789,
+    "sweatdrop": 0.0132,
+    "sparkle": 0.0132,
+    "embarrassed": 0.0132
+   },
+   "running track": {
+    "heart": 0.1333,
+    "sweatdrop": 0.0667,
+    "embarrassed": 0.0667,
+    "ahegao": 0.0667
+   },
+   "rural": {},
+   "sauna": {
+    "seductive smile": 0.0519,
+    "heart": 0.0472,
+    "sweatdrop": 0.0425
+   },
+   "school": {
+    "embarrassed": 0.0878,
+    "heart": 0.085,
+    "sweatdrop": 0.0255,
+    "surprised": 0.0227,
+    "flying sweatdrops": 0.0198,
+    "spoken heart": 0.017
+   },
+   "school gym": {
+    "heart": 0.0357,
+    "embarrassed": 0.0357,
+    "?": 0.0357,
+    "ahegao": 0.0357
+   },
+   "shop": {
+    "heart": 0.1882,
+    "embarrassed": 0.1176,
+    "sweatdrop": 0.0588,
+    "spoken heart": 0.0588,
+    "musical note": 0.0471
+   },
+   "shore": {
+    "heart": 0.055,
+    "happy": 0.0459,
+    "naughty face": 0.0275,
+    "sparkle": 0.0183,
+    "flying sweatdrops": 0.0183
+   },
+   "shower (place)": {
+    "heart": 0.0857,
+    "naughty face": 0.0242,
+    "embarrassed": 0.0154,
+    "seductive smile": 0.0132,
+    "spoken heart": 0.011,
+    "musical note": 0.011,
+    "surprised": 0.011
+   },
+   "shrine": {
+    "embarrassed": 0.0638,
+    "heart": 0.0213,
+    "sparkle": 0.0213,
+    "expressionless": 0.0213,
+    "happy": 0.0213
+   },
+   "sidewalk": {
+    "embarrassed": 0.2105,
+    "heart": 0.1053,
+    "spoken heart": 0.1053,
+    "sweatdrop": 0.0526,
+    "flying sweatdrops": 0.0526,
+    "worried": 0.0526
+   },
+   "skyscraper": {
+    "heart": 0.1194,
+    "embarrassed": 0.0746,
+    "happy": 0.0597,
+    "spoken heart": 0.0448,
+    "sweatdrop": 0.0299,
+    "naughty face": 0.0299
+   },
+   "space": {
+    "heart": 0.1085,
+    "naughty face": 0.0465,
+    "sparkle": 0.0233,
+    "embarrassed": 0.0233,
+    "happy": 0.0155
+   },
+   "spacecraft interior": {},
+   "stadium": {
+    "heart": 0.119,
+    "embarrassed": 0.0952,
+    "sweatdrop": 0.0238,
+    "spoken heart": 0.0238,
+    "surprised": 0.0238
+   },
+   "stage": {
+    "heart": 0.2171,
+    "sparkle": 0.155,
+    "happy": 0.124,
+    "embarrassed": 0.0698,
+    "naughty face": 0.0465,
+    "ahegao": 0.0465,
+    "angry": 0.0233
+   },
+   "stream": {
+    "happy": 0.3214,
+    "embarrassed": 0.1429,
+    "heart": 0.1071
+   },
+   "street": {
+    "embarrassed": 0.1484,
+    "heart": 0.1328,
+    "sweatdrop": 0.0469,
+    "spoken heart": 0.0234,
+    "surprised": 0.0234,
+    "scared": 0.0234
+   },
+   "temple": {
+    "sweatdrop": 0.1667,
+    "embarrassed": 0.1667
+   },
+   "toilet stall": {
+    "heart": 0.1171,
+    "embarrassed": 0.0829,
+    "sweatdrop": 0.0293,
+    "spoken heart": 0.0195,
+    "...": 0.0195
+   },
+   "tower": {
+    "heart": 0.0526
+   },
+   "town": {
+    "heart": 0.0714,
+    "embarrassed": 0.0357,
+    "!?": 0.0357
+   },
+   "train interior": {
+    "heart": 0.0812,
+    "embarrassed": 0.0726,
+    "sweatdrop": 0.0342,
+    "?": 0.0299,
+    "!?": 0.0171,
+    "naughty face": 0.0171,
+    "torogao": 0.0171
+   },
+   "train station": {
+    "embarrassed": 0.2,
+    "fucked silly": 0.1
+   },
+   "train station platform": {},
+   "underwater": {
+    "heart": 0.0421,
+    "struggling": 0.0227,
+    "ahegao": 0.0194
+   },
+   "vehicle interior": {
+    "expressionless": 0.087,
+    "embarrassed": 0.0435,
+    "naughty face": 0.0435,
+    "ahegao": 0.0435,
+    "shy": 0.0435,
+    "torogao": 0.0435
+   },
+   "village": {},
+   "volcano": {},
+   "water": {
+    "heart": 0.0806,
+    "embarrassed": 0.025,
+    "happy": 0.0172,
+    "sparkle": 0.0162,
+    "naughty face": 0.0128
+   },
+   "waterfall": {
+    "heart": 0.0424,
+    "happy": 0.0254,
+    "sparkle": 0.0169
+   },
+   "wheat field": {},
+   "windmill": {
+    "heart": 0.1667
+   },
+   "wrestling ring": {
+    "sweatdrop": 0.0857,
+    "naughty face": 0.0571,
+    "torogao": 0.0571,
+    "fucked silly": 0.0571,
+    "ahegao": 0.0286
+   },
+   "rain": {
+    "heart": 0.0803,
+    "embarrassed": 0.0435
+   },
+   "snow": {
+    "heart": 0.0661,
+    "embarrassed": 0.0172,
+    "naughty face": 0.0172,
+    "happy": 0.0144,
+    "surprised": 0.0144
+   },
+   "storm": {},
+   "fog": {
+    "heart": 0.1311,
+    "spoken heart": 0.0492,
+    "sweatdrop": 0.0328,
+    "nervous": 0.0328
+   },
+   "night": {
+    "heart": 0.1014,
+    "embarrassed": 0.0403,
+    "naughty face": 0.0256,
+    "sweatdrop": 0.0191
+   },
+   "sunset": {
+    "heart": 0.0691,
+    "embarrassed": 0.0639,
+    "happy": 0.0537,
+    "sweatdrop": 0.0256
+   },
+   "sunrise": {
+    "happy": 0.1071,
+    "heart": 0.0357,
+    "naughty face": 0.0357,
+    "seductive smile": 0.0357
+   },
+   "cloudy sky": {
+    "heart": 0.0715,
+    "sparkle": 0.0406,
+    "embarrassed": 0.0374,
+    "sweatdrop": 0.0203
+   },
+   "wind": {
+    "embarrassed": 0.089,
+    "heart": 0.0525,
+    "surprised": 0.0388,
+    "sweatdrop": 0.0183,
+    "naughty face": 0.016
+   },
+   "autumn": {
+    "heart": 0.0645,
+    "naughty face": 0.0645,
+    "flustered": 0.0323
+   },
+   "winter": {
+    "heart": 0.0674,
+    "embarrassed": 0.0337,
+    "flying sweatdrops": 0.0225,
+    "naughty face": 0.0225
+   },
+   "spring (season)": {
+    "embarrassed": 0.1429
+   },
+   "summer": {
+    "heart": 0.093,
+    "embarrassed": 0.0523,
+    "sparkle": 0.0233,
+    "naughty face": 0.0233
+   },
+   "cherry blossoms": {
+    "heart": 0.0897,
+    "embarrassed": 0.0197,
+    "naughty face": 0.0175
+   },
+   "moonlight": {
+    "heart": 0.0674,
+    "seductive smile": 0.0562,
+    "sweatdrop": 0.0225,
+    "sparkle": 0.0225,
+    "happy": 0.0225
+   }
+  }
+ }
+}

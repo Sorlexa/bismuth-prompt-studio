@@ -1,0 +1,73 @@
+{
+ "_note": "Bismuth Prompt Studio -- what tools/setup_models.py can fetch. Every entry names its ORIGINAL host: llama.cpp from its own GitHub releases (MIT), the embedding model and the language models from their Hugging Face repositories. Nothing is mirrored, so nothing goes stale or out of licence. To offer your own build or fine-tune, add an entry under 'models' (or replace 'embed') with a direct download URL -- a Hugging Face 'resolve' link is the reliable kind -- or point the script at your own copy of this file with --manifest <url>.",
+ "_manifest_url": "",
+ "llama_cpp": {
+  "_note": "Windows x64 builds. 'pinned' is the build the studio was tested against; --latest asks GitHub for the newest. A CUDA build also needs its runtime zip.",
+  "github_repo": "ggml-org/llama.cpp",
+  "pinned": "b11002",
+  "builds": {
+   "cuda": {
+    "label": "NVIDIA (CUDA 12.4)",
+    "asset": "llama-{build}-bin-win-cuda-12.4-x64.zip",
+    "runtime": "cudart-llama-bin-win-cuda-12.4-x64.zip"
+   },
+   "vulkan": {
+    "label": "AMD / Intel / any Vulkan GPU",
+    "asset": "llama-{build}-bin-win-vulkan-x64.zip"
+   },
+   "cpu": {
+    "label": "no GPU (slow, but it runs)",
+    "asset": "llama-{build}-bin-win-cpu-x64.zip"
+   }
+  }
+ },
+ "embed": {
+  "label": "nomic-embed-text-v1.5 (Q4_K_M) -- semantic style matching",
+  "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.Q4_K_M.gguf",
+  "file": "nomic-embed-text-v1.5.Q4_K_M.gguf",
+  "size_mb": 84,
+  "license": "Apache-2.0"
+ },
+ "models": [
+  {
+   "id": "qwen3.5-4b-uncensored",
+   "label": "Qwen3.5 4B NSFW (Literotica, i1 Q4_K_M) -- 2.7 GB, the studio's own default: uncensored, best prose of the models tested",
+   "url": "https://huggingface.co/Sinbad-The-Sailor/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica-i1-GGUF/resolve/main/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica.i1.Q4_K_M.gguf",
+   "file": "Qwen3.5-4B-NSFW-ARA-Heretic-Literotica.i1.Q4_K_M.gguf",
+   "size_mb": 2709,
+   "ctx": 8192,
+   "model_id": "qwen3.5-4b-literotica",
+   "thinking": false,
+   "note": "the model this studio was tuned against"
+  },
+  {
+   "id": "qwen3-4b",
+   "label": "Qwen3 4B Instruct (Q4_K_M) -- 2.5 GB, official and censored",
+   "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q4_K_M.gguf",
+   "file": "Qwen3-4B-Q4_K_M.gguf",
+   "size_mb": 2497,
+   "ctx": 8192,
+   "model_id": "qwen3-4b",
+   "thinking": true,
+   "license": "Apache-2.0"
+  },
+  {
+   "id": "qwen3-8b",
+   "label": "Qwen3 8B Instruct (Q4_K_M) -- 5.0 GB, official and censored, better prose",
+   "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf",
+   "file": "Qwen3-8B-Q4_K_M.gguf",
+   "size_mb": 5028,
+   "ctx": 8192,
+   "model_id": "qwen3-8b",
+   "thinking": true,
+   "license": "Apache-2.0"
+  }
+ ],
+ "embeddings_pack": {
+  "label": "artist embeddings pack (179 MB zipped, 424 MB unpacked) -- semantic style matching",
+  "url": "https://github.com/Sorlexa/bismuth-prompt-studio/releases/download/v0.1.0-beta/PromptStudio-embeddings.zip",
+  "file": "PromptStudio-embeddings.zip",
+  "size_mb": 179,
+  "installs": "data/embeddings/artist_embeddings.json"
+ }
+}

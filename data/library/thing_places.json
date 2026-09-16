@@ -1,0 +1,233 @@
+{
+ "_note": "P(place | thing): the share of a thing's own posts at each place of the location pool (danbooru related_tag). Written by tools/build/harvest_thing_places.py. The engine reads it when the user names a thing and no place.",
+ "min_share": 0.04,
+ "things": {
+  "bathtub": {
+   "posts": 13056,
+   "places": {
+    "bathtub": 1.0,
+    "water": 0.4104,
+    "bathroom": 0.293
+   }
+  },
+  "bed": {
+   "posts": 137849,
+   "places": {
+    "bedroom": 0.087
+   }
+  },
+  "bench": {
+   "posts": 21937,
+   "places": {
+    "park": 0.052
+   }
+  },
+  "bicycle": {
+   "posts": 9049,
+   "places": {
+    "road": 0.122,
+    "street": 0.0602
+   }
+  },
+  "boat": {
+   "posts": 9251,
+   "places": {
+    "water": 0.4664,
+    "ocean": 0.2746,
+    "beach": 0.0736,
+    "river": 0.0618,
+    "mountain": 0.0578,
+    "bridge": 0.0534
+   }
+  },
+  "branch": {
+   "posts": 33089,
+   "places": {
+    "water": 0.0724,
+    "nature": 0.063,
+    "moon": 0.0548
+   }
+  },
+  "car": {
+   "posts": 29784,
+   "places": {
+    "road": 0.119,
+    "city": 0.0836,
+    "street": 0.0566
+   }
+  },
+  "chair": {
+   "posts": 148140,
+   "places": {
+    "classroom": 0.0646
+   }
+  },
+  "desk": {
+   "posts": 57191,
+   "places": {
+    "classroom": 0.2788,
+    "school": 0.0508
+   }
+  },
+  "fence": {
+   "posts": 32228,
+   "places": {
+    "water": 0.1144,
+    "pool": 0.0554,
+    "road": 0.0512
+   }
+  },
+  "glass": {
+   "posts": 25800,
+   "places": {
+    "water": 0.0534
+   }
+  },
+  "innertube": {
+   "posts": 41161,
+   "places": {
+    "water": 0.347,
+    "ocean": 0.2314,
+    "beach": 0.2072,
+    "pool": 0.0504
+   }
+  },
+  "motorcycle": {
+   "posts": 12797,
+   "places": {
+    "road": 0.05
+   }
+  },
+  "railing": {
+   "posts": 34314,
+   "places": {
+    "water": 0.0964,
+    "city": 0.079,
+    "ocean": 0.0628,
+    "cityscape": 0.0622,
+    "road": 0.056,
+    "bridge": 0.0556
+   }
+  },
+  "rock": {
+   "posts": 37498,
+   "places": {
+    "water": 0.3216,
+    "nature": 0.1132,
+    "onsen": 0.1096,
+    "ocean": 0.0922,
+    "forest": 0.0734,
+    "mountain": 0.0554,
+    "beach": 0.054
+   }
+  },
+  "rooftop": {
+   "posts": 6362,
+   "places": {
+    "rooftop": 1.0,
+    "cityscape": 0.164,
+    "city": 0.154,
+    "moon": 0.0866,
+    "house": 0.0752,
+    "on roof": 0.072,
+    "architecture": 0.0706,
+    "skyscraper": 0.0598
+   }
+  },
+  "scooter": {
+   "posts": 2522,
+   "places": {
+    "road": 0.0902
+   }
+  },
+  "stairs": {
+   "posts": 36820,
+   "places": {
+    "water": 0.0582
+   }
+  },
+  "stool": {
+   "posts": 16737,
+   "places": {
+    "bar (place)": 0.1052
+   }
+  },
+  "swing": {
+   "posts": 4747,
+   "places": {
+    "playground": 0.0566,
+    "water": 0.0537
+   }
+  },
+  "toilet": {
+   "posts": 8052,
+   "places": {
+    "bathroom": 0.189,
+    "toilet stall": 0.1304,
+    "public restroom": 0.0872
+   }
+  },
+  "tree": {
+   "posts": 233850,
+   "places": {
+    "nature": 0.1374,
+    "water": 0.1318,
+    "forest": 0.106,
+    "beach": 0.0722,
+    "ocean": 0.0596
+   }
+  },
+  "on bed": {
+   "posts": 174725,
+   "places": {
+    "bedroom": 0.0568
+   }
+  },
+  "box": {
+   "posts": 78959,
+   "places": {}
+  },
+  "couch": {
+   "posts": 77218,
+   "places": {}
+  },
+  "door": {
+   "posts": 31217,
+   "places": {}
+  },
+  "kotatsu": {
+   "posts": 8933,
+   "places": {}
+  },
+  "piano": {
+   "posts": 6298,
+   "places": {}
+  },
+  "table": {
+   "posts": 120092,
+   "places": {}
+  },
+  "throne": {
+   "posts": 9228,
+   "places": {}
+  },
+  "window": {
+   "posts": 180860,
+   "places": {
+    "classroom": 0.0418
+   }
+  },
+  "under covers": {
+   "posts": 23512,
+   "places": {
+    "bedroom": 0.0426
+   }
+  },
+  "blanket": {
+   "posts": 27969,
+   "places": {
+    "bedroom": 0.0428
+   }
+  }
+ }
+}

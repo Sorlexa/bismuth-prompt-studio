@@ -1,0 +1,77 @@
+{
+ "_note": "Random cast distribution for when the initial prompt names no count. MEASURED, not invented, and PER MODE because the two boorus genuinely differ: 1,200 random posts sampled from each (2026-08-28), classified by their own count tags. Gelbooru is the authority for anima (its relation vocabulary is native: 1futa, futa_with_female, ...), danbooru for illustrious. the author's rules: no cap on cast size, randomness follows the real rarity of the content; 'no humans' is never rolled randomly (reachable only when the prompt asks or the user forces it); a count stated in the prompt is never overridden. Weights renormalised after excluding 'no humans' and posts with no count tags.",
+
+ "illustrious": {
+  "_sample": {"source": "danbooru", "posts": 1200,
+              "excluded": {"no humans": 19, "uncounted": 22}},
+  "weights": {
+   "1girl solo":        0.541,
+   "2girls":            0.106,
+   "1girl + viewer":    0.073,
+   "1girl + 1boy":      0.08,
+   "1boy solo":         0.046,
+   "2boys":             0.027,
+   "3girls":            0.022,
+   "others/mixed":      0.017,
+   "1boy + offscreen":  0.017,
+   "2girls + 1boy":     0.009,
+   "6+girls":           0.009,
+   "4girls":            0.009,
+   "1girl + 2boys":     0.007,
+   "5girls":            0.005,
+   "3girls + 1boy":     0.005,
+   "1girl + 3boys":     0.004,
+   "2girls + 2boys":    0.003,
+   "large mixed group": 0.02
+  },
+  "futa": {
+   "_note": "danbooru has no futa count axis (futanari is a general tag, 0.43% of the corpus): futa stays an OVERLAY here -- with this probability one rolled female becomes futa, counted among the girls, plus the futanari tag.",
+   "overlay_probability": 0.0043
+  }
+ },
+
+ "anima": {
+  "_sample": {"source": "gelbooru", "posts": 1200,
+              "excluded": {"no humans": 16, "uncounted": 77}},
+  "weights": {
+   "1girl solo":        0.467,
+   "1girl + 1boy":      0.119,
+   "1girl + viewer":    0.117,
+   "2girls":            0.093,
+   "1boy solo":         0.055,
+   "3girls":            0.022,
+   "1boy + offscreen":  0.018,
+   "2boys":             0.016,
+   "1girl + 2boys":     0.012,
+   "2girls + 1boy":     0.012,
+   "futa":              0.011,
+   "others/mixed":      0.008,
+   "6+girls":           0.008,
+   "5girls":            0.006,
+   "4girls":            0.005,
+   "2girls + 2boys":    0.004,
+   "large mixed group": 0.027
+  },
+  "futa_detail": {
+   "_note": "The futa class is spice-conditioned and split by relation, all from gelbooru's own EXACT counts (not the sample) -- 99,351 futanari posts against 14,126,840 total. Futa content is 3.63% of explicit posts and 0.17% of questionable, so the class weight above (the sample's 1.1%) is replaced at roll time by the value matching the resolved spice level. Relation shares overlap on real posts (a futa_with_female post can also be multiple_futa); they are normalised as draw weights.",
+   "share_by_spice": {"explicit": 0.036, "nsfw": 0.0017,
+                      "sensitive": 0.0, "safe": 0.0},
+   "relations": {
+    "futa solo":       {"posts": 27135, "weight": 0.30},
+    "futa + female":   {"posts": 41385, "weight": 0.45},
+    "futa + male":     {"posts": 9745,  "weight": 0.11},
+    "multiple futa":   {"posts": 13552, "weight": 0.14}
+   },
+   "counts": {"futanari": 99351, "1futa": 80509, "multiple_futa": 13552,
+              "futa_with_female": 41385, "futa_with_male": 9745,
+              "futa_solo_true": 27135, "gelbooru_total": 14126840}
+  }
+ },
+
+ "_class_notes": {
+  "1girl + viewer": "one girl tagged, no second count tag, not solo: someone off-screen. Maps to a typed-pov or solo-focus cast. 10.8% on gelbooru vs 7.1% on danbooru -- the pov-heavy booru is the explicit one.",
+  "1boy + offscreen": "same shape for a male subject.",
+  "others/mixed": "casts containing 1other / multiple others.",
+  "large mixed group": "the measured micro-tail merged: every 3+N combination that appeared once or twice. Drawn as a class, then a concrete combination is rolled inside it, so the tail stays reachable without pretending 1-post precision."
+ }
+}

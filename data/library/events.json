@@ -1,0 +1,941 @@
+{
+ "_note": "EVENTS table (the author's 2026-09-04): an occasion over a genre, never a genre; rolled rarely (SHARE by bucket) from the events the genre allows; pins the season, steers the location (PLACE_OVERRIDE), brings props as tags, suggests activities, names a clothes class. Typed always wins. Written by tools/build/write_events.py -- edit the script.",
+ "events": {
+  "christmas": {
+   "season": [
+    "winter"
+   ],
+   "genres": [
+    "everyday",
+    "superhero",
+    "cyberpunk",
+    "cyborg"
+   ],
+   "places": [
+    "living room",
+    "bedroom",
+    "street",
+    "city",
+    "church",
+    "cafe",
+    "restaurant"
+   ],
+   "props": [
+    "christmas tree",
+    "christmas lights",
+    "gift",
+    "mistletoe"
+   ],
+   "activities": [
+    "eating",
+    "drinking",
+    "playing games",
+    "cuddling"
+   ],
+   "clothes": "santa",
+   "weight": 3.0,
+   "aliases": [
+    "xmas",
+    "christmas eve",
+    "santa"
+   ]
+  },
+  "halloween": {
+   "season": [
+    "autumn"
+   ],
+   "genres": [
+    "everyday",
+    "superhero",
+    "cyberpunk",
+    "cyborg",
+    "supernatural",
+    "horror"
+   ],
+   "places": [
+    "street",
+    "park",
+    "living room",
+    "graveyard",
+    "nightclub",
+    "school"
+   ],
+   "props": [
+    "jack-o'-lantern",
+    "candy",
+    "trick or treat"
+   ],
+   "activities": [
+    "dancing",
+    "eating",
+    "walking"
+   ],
+   "clothes": "costume",
+   "weight": 2.5,
+   "aliases": [
+    "trick or treat"
+   ]
+  },
+  "new year": {
+   "season": [
+    "winter"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan",
+    "supernatural"
+   ],
+   "places": [
+    "shrine",
+    "temple",
+    "city",
+    "living room"
+   ],
+   "props": [
+    "kadomatsu",
+    "kagami mochi",
+    "fireworks",
+    "nengajou"
+   ],
+   "activities": [
+    "praying",
+    "drinking",
+    "eating",
+    "clapping"
+   ],
+   "clothes": "kimono",
+   "weight": 2.0,
+   "aliases": [
+    "new year's",
+    "new years",
+    "hatsumoude",
+    "new year's eve"
+   ]
+  },
+  "valentine": {
+   "season": [
+    "winter"
+   ],
+   "genres": [
+    "everyday",
+    "superhero",
+    "cyberpunk",
+    "cyborg"
+   ],
+   "places": [
+    "school",
+    "cafe",
+    "bedroom",
+    "kitchen",
+    "park"
+   ],
+   "props": [
+    "heart-shaped box",
+    "heart-shaped chocolate",
+    "box of chocolates"
+   ],
+   "activities": [
+    "chocolate making",
+    "feeding",
+    "talking"
+   ],
+   "clothes": null,
+   "weight": 2.0,
+   "aliases": [
+    "valentine's day",
+    "valentines"
+   ]
+  },
+  "white day": {
+   "season": [
+    "spring"
+   ],
+   "genres": [
+    "everyday"
+   ],
+   "places": [
+    "school",
+    "cafe",
+    "park"
+   ],
+   "props": [
+    "gift",
+    "candy"
+   ],
+   "activities": [
+    "talking",
+    "feeding"
+   ],
+   "clothes": null,
+   "weight": 0.4,
+   "aliases": []
+  },
+  "birthday": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "genres": [
+    "*"
+   ],
+   "places": [
+    "living room",
+    "kitchen",
+    "restaurant",
+    "cafe",
+    "tavern",
+    "castle"
+   ],
+   "props": [
+    "birthday cake",
+    "candle",
+    "gift",
+    "party hat",
+    "balloon"
+   ],
+   "activities": [
+    "eating",
+    "feeding",
+    "clapping",
+    "cheering",
+    "singing"
+   ],
+   "clothes": null,
+   "weight": 1.5,
+   "aliases": [
+    "birthday party",
+    "birthday cake"
+   ]
+  },
+  "party": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "genres": [
+    "*"
+   ],
+   "places": [
+    "living room",
+    "nightclub",
+    "ballroom",
+    "tavern",
+    "rooftop",
+    "beach"
+   ],
+   "props": [
+    "balloon",
+    "confetti"
+   ],
+   "activities": [
+    "dancing",
+    "drinking",
+    "talking",
+    "cheering"
+   ],
+   "clothes": null,
+   "weight": 0.8,
+   "aliases": []
+  },
+  "wedding": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "genres": [
+    "*"
+   ],
+   "places": [
+    "church",
+    "cathedral",
+    "shrine",
+    "garden",
+    "ballroom",
+    "beach",
+    "castle"
+   ],
+   "props": [
+    "bouquet",
+    "veil"
+   ],
+   "activities": [
+    "eating",
+    "dancing"
+   ],
+   "clothes": "wedding",
+   "weight": 1.0,
+   "aliases": [
+    "bride",
+    "groom",
+    "marriage",
+    "honeymoon"
+   ]
+  },
+  "graduation": {
+   "season": [
+    "spring"
+   ],
+   "genres": [
+    "everyday"
+   ],
+   "places": [
+    "school",
+    "classroom",
+    "school entrance",
+    "park"
+   ],
+   "props": [
+    "diploma",
+    "cherry blossoms"
+   ],
+   "activities": [
+    "clapping",
+    "cheering",
+    "waving"
+   ],
+   "clothes": "school uniform",
+   "weight": 0.5,
+   "aliases": []
+  },
+  "summer festival": {
+   "season": [
+    "summer"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan",
+    "supernatural",
+    "fantasy",
+    "medieval"
+   ],
+   "places": [
+    "town square",
+    "street",
+    "shrine",
+    "market",
+    "park",
+    "river"
+   ],
+   "props": [
+    "aerial fireworks",
+    "paper lantern",
+    "food stand",
+    "bagged fish"
+   ],
+   "activities": [
+    "walking",
+    "eating",
+    "dancing"
+   ],
+   "clothes": "yukata",
+   "weight": 1.5,
+   "aliases": [
+    "festival",
+    "matsuri",
+    "night festival"
+   ]
+  },
+  "fireworks": {
+   "season": [
+    "summer"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan",
+    "supernatural",
+    "fantasy"
+   ],
+   "places": [
+    "rooftop",
+    "river",
+    "beach",
+    "park",
+    "bridge",
+    "shrine"
+   ],
+   "props": [
+    "aerial fireworks"
+   ],
+   "activities": [
+    "sitting"
+   ],
+   "clothes": "yukata",
+   "weight": 1.2,
+   "aliases": [
+    "hanabi"
+   ]
+  },
+  "hanami": {
+   "season": [
+    "spring"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan"
+   ],
+   "places": [
+    "park",
+    "garden",
+    "river",
+    "shrine"
+   ],
+   "props": [
+    "cherry blossoms",
+    "picnic blanket",
+    "bento"
+   ],
+   "activities": [
+    "eating",
+    "drinking",
+    "sleeping",
+    "reading"
+   ],
+   "clothes": "kimono",
+   "weight": 0.8,
+   "aliases": [
+    "cherry blossom viewing"
+   ]
+  },
+  "tanabata": {
+   "season": [
+    "summer"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan"
+   ],
+   "places": [
+    "shrine",
+    "street",
+    "school"
+   ],
+   "props": [
+    "tanzaku",
+    "bamboo"
+   ],
+   "activities": [
+    "writing",
+    "walking"
+   ],
+   "clothes": "yukata",
+   "weight": 0.5,
+   "aliases": []
+  },
+  "setsubun": {
+   "season": [
+    "winter"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan"
+   ],
+   "places": [
+    "living room",
+    "shrine",
+    "school"
+   ],
+   "props": [
+    "makizushi",
+    "masu",
+    "oni mask"
+   ],
+   "activities": [
+    "eating"
+   ],
+   "clothes": null,
+   "weight": 0.4,
+   "aliases": []
+  },
+  "hinamatsuri": {
+   "season": [
+    "spring"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan"
+   ],
+   "places": [
+    "living room",
+    "genkan"
+   ],
+   "props": [
+    "hina ningyou",
+    "hishimochi"
+   ],
+   "activities": [
+    "sitting",
+    "eating"
+   ],
+   "clothes": "kimono",
+   "weight": 0.3,
+   "aliases": []
+  },
+  "tsukimi": {
+   "season": [
+    "autumn"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan",
+    "supernatural"
+   ],
+   "places": [
+    "garden",
+    "rooftop",
+    "shrine"
+   ],
+   "props": [
+    "full moon",
+    "tsukimi dango",
+    "susuki grass"
+   ],
+   "activities": [
+    "sitting",
+    "eating",
+    "drinking"
+   ],
+   "clothes": "kimono",
+   "weight": 0.4,
+   "aliases": [
+    "moon viewing",
+    "mid-autumn festival",
+    "moon festival"
+   ]
+  },
+  "obon": {
+   "season": [
+    "summer"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan",
+    "supernatural"
+   ],
+   "places": [
+    "shrine",
+    "river",
+    "street",
+    "graveyard"
+   ],
+   "props": [
+    "paper lantern",
+    "lantern on liquid"
+   ],
+   "activities": [
+    "praying",
+    "walking",
+    "dancing"
+   ],
+   "clothes": "yukata",
+   "weight": 0.4,
+   "aliases": []
+  },
+  "chinese new year": {
+   "season": [
+    "winter"
+   ],
+   "genres": [
+    "everyday",
+    "cyberpunk"
+   ],
+   "places": [
+    "street",
+    "market",
+    "temple"
+   ],
+   "props": [
+    "fireworks",
+    "hongbao",
+    "lion dance",
+    "paper lantern"
+   ],
+   "activities": [
+    "eating",
+    "dancing",
+    "clapping"
+   ],
+   "clothes": "qipao",
+   "weight": 0.5,
+   "aliases": [
+    "lunar new year",
+    "spring festival"
+   ]
+  },
+  "easter": {
+   "season": [
+    "spring"
+   ],
+   "genres": [
+    "everyday"
+   ],
+   "places": [
+    "garden",
+    "park",
+    "kitchen",
+    "church"
+   ],
+   "props": [
+    "easter egg",
+    "basket"
+   ],
+   "activities": [
+    "eating",
+    "playing games"
+   ],
+   "clothes": "rabbit",
+   "weight": 0.5,
+   "aliases": [
+    "easter bunny",
+    "easter egg"
+   ]
+  },
+  "oktoberfest": {
+   "season": [
+    "autumn"
+   ],
+   "genres": [
+    "everyday",
+    "steampunk",
+    "victorian"
+   ],
+   "places": [
+    "tavern",
+    "bar (place)",
+    "town square"
+   ],
+   "props": [
+    "beer",
+    "pretzel"
+   ],
+   "activities": [
+    "drinking",
+    "eating",
+    "singing"
+   ],
+   "clothes": "dirndl",
+   "weight": 0.4,
+   "aliases": []
+  },
+  "thanksgiving": {
+   "season": [
+    "autumn"
+   ],
+   "genres": [
+    "everyday"
+   ],
+   "places": [
+    "dining room",
+    "kitchen"
+   ],
+   "props": [
+    "turkey (food)",
+    "pie"
+   ],
+   "activities": [
+    "eating",
+    "cooking"
+   ],
+   "clothes": null,
+   "weight": 0.3,
+   "aliases": []
+  },
+  "mother's day": {
+   "season": [
+    "spring"
+   ],
+   "genres": [
+    "everyday"
+   ],
+   "places": [
+    "living room",
+    "garden",
+    "park"
+   ],
+   "props": [
+    "flower"
+   ],
+   "activities": [
+    "feeding",
+    "talking"
+   ],
+   "clothes": null,
+   "weight": 0.3,
+   "aliases": []
+  },
+  "children's day": {
+   "season": [
+    "spring"
+   ],
+   "genres": [
+    "everyday",
+    "ancient japan"
+   ],
+   "places": [
+    "living room",
+    "garden",
+    "park"
+   ],
+   "props": [
+    "koinobori"
+   ],
+   "activities": [
+    "waving",
+    "talking"
+   ],
+   "clothes": null,
+   "weight": 0.2,
+   "aliases": [
+    "kodomo no hi"
+   ]
+  },
+  "picnic": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "genres": [
+    "everyday",
+    "fantasy",
+    "medieval",
+    "victorian"
+   ],
+   "places": [
+    "park",
+    "meadow",
+    "hill",
+    "garden",
+    "beach",
+    "river"
+   ],
+   "props": [
+    "picnic blanket",
+    "bento",
+    "basket"
+   ],
+   "activities": [
+    "eating",
+    "drinking",
+    "reading",
+    "sleeping"
+   ],
+   "clothes": "casual",
+   "weight": 1.0,
+   "aliases": []
+  },
+  "camping": {
+   "season": [
+    "summer",
+    "autumn"
+   ],
+   "genres": [
+    "everyday",
+    "fantasy",
+    "post-apocalypse"
+   ],
+   "places": [
+    "forest",
+    "lake",
+    "mountain",
+    "beach",
+    "meadow"
+   ],
+   "props": [
+    "tent",
+    "campfire",
+    "sleeping bag"
+   ],
+   "activities": [
+    "cooking",
+    "eating",
+    "sleeping",
+    "fishing"
+   ],
+   "clothes": "outdoor",
+   "weight": 0.6,
+   "aliases": []
+  },
+  "concert": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "genres": [
+    "everyday",
+    "superhero",
+    "cyberpunk",
+    "cyborg"
+   ],
+   "places": [
+    "stage",
+    "stadium",
+    "arcade"
+   ],
+   "props": [
+    "microphone",
+    "glowstick",
+    "spotlight"
+   ],
+   "activities": [
+    "singing",
+    "dancing",
+    "cheering",
+    "playing instrument"
+   ],
+   "clothes": "stage",
+   "weight": 0.8,
+   "aliases": [
+    "live concert",
+    "gig"
+   ]
+  },
+  "sports festival": {
+   "season": [
+    "autumn"
+   ],
+   "genres": [
+    "everyday"
+   ],
+   "places": [
+    "school gym",
+    "school",
+    "running track",
+    "field"
+   ],
+   "props": [
+    "banner"
+   ],
+   "activities": [
+    "running",
+    "cheering",
+    "playing sports"
+   ],
+   "clothes": "gym uniform",
+   "weight": 0.5,
+   "aliases": [
+    "school festival",
+    "cultural festival"
+   ]
+  },
+  "tea party": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "genres": [
+    "everyday",
+    "victorian",
+    "fantasy"
+   ],
+   "places": [
+    "garden",
+    "gazebo",
+    "dining room",
+    "ballroom"
+   ],
+   "props": [
+    "teacup",
+    "teapot",
+    "cake"
+   ],
+   "activities": [
+    "drinking",
+    "eating",
+    "talking"
+   ],
+   "clothes": "dress",
+   "weight": 0.4,
+   "aliases": []
+  },
+  "sleepover": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "genres": [
+    "everyday"
+   ],
+   "places": [
+    "bedroom",
+    "living room"
+   ],
+   "props": [
+    "pillow",
+    "blanket"
+   ],
+   "activities": [
+    "playing games",
+    "talking",
+    "sleeping"
+   ],
+   "clothes": "pajamas",
+   "weight": 0.4,
+   "aliases": []
+  },
+  "funeral": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "genres": [
+    "*"
+   ],
+   "places": [
+    "church",
+    "graveyard",
+    "cathedral",
+    "temple"
+   ],
+   "props": [
+    "flower",
+    "coffin"
+   ],
+   "activities": [
+    "praying"
+   ],
+   "clothes": "mourning",
+   "weight": 0.2,
+   "aliases": []
+  }
+ },
+ "share": {
+  "everyday": 0.08,
+  "default": 0.04
+ },
+ "place_override": 0.7,
+ "typed_only": [
+  "pocky day",
+  "cat day",
+  "miku day",
+  "maid day",
+  "bunny day",
+  "breasts day",
+  "twintails day",
+  "bikini day",
+  "cirno day",
+  "kiss day",
+  "good meat day",
+  "anniversary",
+  "thank you",
+  "milestone celebration",
+  "songkran",
+  "chuseok",
+  "hanukkah",
+  "victory day",
+  "shichi-go-san",
+  "april fools"
+ ]
+}

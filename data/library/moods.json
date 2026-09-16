@@ -1,0 +1,1006 @@
+{
+ "_note": "the mood table (the author's ruling, 2026-09-20): action (+ genre) -> mood -> emotion -> expressions / auras; place / weather stand in without an action; lighting follows the mood. Written by tools/build/write_moods.py from the reviewed draft.",
+ "levels": [
+  "safe",
+  "sensitive",
+  "nsfw",
+  "explicit"
+ ],
+ "moods": {
+  "adventurous": {
+   "emotions": [
+    "excited",
+    "determined",
+    "confident",
+    "happy",
+    "surprised",
+    "neutral",
+    "pensive",
+    "relaxing",
+    "lonely",
+    "serious"
+   ],
+   "auras": [],
+   "lighting": [
+    "sunlight",
+    "dynamic lighting",
+    "golden hour lighting",
+    "atmospheric lighting",
+    "volumetric lighting",
+    "moody lighting",
+    "dust particles"
+   ]
+  },
+  "alluring": {
+   "emotions": [
+    "confident",
+    "smug",
+    "shy",
+    "aroused",
+    "relaxing",
+    "neutral",
+    "seductive smile",
+    "naughty face",
+    "envy",
+    "flustered",
+    "jealous"
+   ],
+   "auras": [
+    "heart"
+   ],
+   "lighting": [
+    "soft lighting",
+    "moody lighting",
+    "warm lighting",
+    "candlelight"
+   ],
+   "min_level": "sensitive"
+  },
+  "bright": {
+   "emotions": [
+    "happy",
+    "excited",
+    "confident",
+    "surprised",
+    "smug",
+    "neutral",
+    "laughing"
+   ],
+   "auras": [
+    "sparkling aura",
+    "happy aura",
+    "musical note",
+    "sparkle",
+    "heart"
+   ],
+   "lighting": [
+    "sunlight",
+    "day",
+    "bloom",
+    "overexposure",
+    "light particles",
+    "soft shadows"
+   ]
+  },
+  "comedic": {
+   "emotions": [
+    "surprised",
+    "annoyed",
+    "embarrassed",
+    "smug",
+    "confused",
+    "flustered",
+    "unamused",
+    "sulking",
+    "skeptical",
+    "jealous",
+    "envy",
+    "frustrated",
+    "neutral",
+    "laughing"
+   ],
+   "auras": [
+    "anger vein",
+    "flying sweatdrops",
+    "sweatdrop",
+    "heart"
+   ],
+   "lighting": [
+    "day",
+    "soft lighting"
+   ]
+  },
+  "cool": {
+   "emotions": [
+    "serious",
+    "confident",
+    "neutral",
+    "unamused",
+    "bored",
+    "skeptical",
+    "expressionless",
+    "staring"
+   ],
+   "auras": [],
+   "lighting": [
+    "neon lighting",
+    "blue theme"
+   ]
+  },
+  "cozy": {
+   "emotions": [
+    "relaxing",
+    "sleepy",
+    "happy",
+    "shy",
+    "neutral",
+    "smug",
+    "surprised",
+    "embarrassed",
+    "laughing"
+   ],
+   "auras": [
+    "loving aura",
+    "happy aura",
+    "heart"
+   ],
+   "lighting": [
+    "warm lighting",
+    "candlelight",
+    "desk lamp",
+    "soft shadows",
+    "fire",
+    "golden hour lighting",
+    "sunlight",
+    "lantern",
+    "soft lighting",
+    "day"
+   ]
+  },
+  "dark": {
+   "emotions": [
+    "serious",
+    "angry",
+    "scared",
+    "sad",
+    "lonely",
+    "neutral",
+    "crazy",
+    "expressionless",
+    "disgust",
+    "staring"
+   ],
+   "auras": [
+    "dark aura"
+   ],
+   "lighting": [
+    "dark theme",
+    "dim lighting",
+    "deep shadows",
+    "face in shadow",
+    "chiaroscuro"
+   ]
+  },
+  "dramatic": {
+   "emotions": [
+    "determined",
+    "serious",
+    "angry",
+    "sad",
+    "scared",
+    "struggling",
+    "jealous",
+    "frustrated",
+    "neutral",
+    "worried"
+   ],
+   "auras": [
+    "dark aura"
+   ],
+   "lighting": [
+    "dramatic lighting",
+    "dramatic shadows",
+    "chiaroscuro",
+    "high contrast",
+    "cinematic lighting"
+   ]
+  },
+  "dreamy": {
+   "emotions": [
+    "relaxing",
+    "sleepy",
+    "pensive",
+    "happy",
+    "neutral",
+    "lonely",
+    "sad",
+    "disappointed",
+    "exhausted",
+    "sulking"
+   ],
+   "auras": [
+    "sparkling aura",
+    "musical note",
+    "sparkle",
+    "heart"
+   ],
+   "lighting": [
+    "bloom",
+    "soft lighting",
+    "light particles",
+    "bokeh",
+    "glowing particles",
+    "moonlight",
+    "golden hour lighting",
+    "sunset",
+    "warm lighting",
+    "dust particles",
+    "evening"
+   ]
+  },
+  "energetic": {
+   "emotions": [
+    "excited",
+    "happy",
+    "determined",
+    "confident",
+    "neutral",
+    "drunk",
+    "laughing"
+   ],
+   "auras": [
+    "musical note",
+    "sparkling aura",
+    "happy aura",
+    "sparkle",
+    "heart"
+   ],
+   "lighting": [
+    "dynamic lighting",
+    "sunlight",
+    "stage lights",
+    "flare",
+    "light particles",
+    "christmas lights",
+    "lantern",
+    "bokeh"
+   ]
+  },
+  "erotic": {
+   "emotions": [
+    "aroused",
+    "embarrassed",
+    "ecstasy",
+    "shy",
+    "smug",
+    "flustered",
+    "relaxing",
+    "happy",
+    "confident",
+    "neutral",
+    "naughty face",
+    "seductive smile",
+    "ahegao",
+    "torogao",
+    "fucked silly"
+   ],
+   "auras": [
+    "loving aura",
+    "heart"
+   ],
+   "lighting": [
+    "dim lighting",
+    "moody lighting",
+    "warm lighting",
+    "candlelight",
+    "soft shadows"
+   ],
+   "min_level": "nsfw"
+  },
+  "gentle": {
+   "emotions": [
+    "relaxing",
+    "happy",
+    "shy",
+    "neutral",
+    "sleepy"
+   ],
+   "auras": [
+    "loving aura",
+    "heart"
+   ],
+   "lighting": [
+    "soft lighting",
+    "gentle shadows",
+    "morning"
+   ]
+  },
+  "heroic": {
+   "emotions": [
+    "determined",
+    "confident",
+    "serious",
+    "angry",
+    "struggling",
+    "neutral"
+   ],
+   "auras": [],
+   "lighting": [
+    "dramatic lighting",
+    "sunrise"
+   ]
+  },
+  "innocent": {
+   "emotions": [
+    "happy",
+    "shy",
+    "surprised",
+    "confused",
+    "sleepy",
+    "neutral",
+    "embarrassed",
+    "nervous",
+    "flustered"
+   ],
+   "auras": [
+    "happy aura",
+    "sparkle",
+    "heart"
+   ],
+   "lighting": [
+    "soft lighting",
+    "sunlight",
+    "gentle shadows",
+    "bloom"
+   ]
+  },
+  "intense": {
+   "emotions": [
+    "angry",
+    "determined",
+    "serious",
+    "crazy",
+    "struggling",
+    "scared",
+    "frustrated",
+    "neutral",
+    "surprised",
+    "excited",
+    "confused",
+    "smug",
+    "annoyed",
+    "bored",
+    "confident",
+    "unamused"
+   ],
+   "auras": [
+    "dark aura",
+    "anger vein"
+   ],
+   "lighting": [
+    "high contrast",
+    "dramatic lighting",
+    "hard shadows",
+    "red theme",
+    "embers",
+    "fire",
+    "dynamic lighting",
+    "flare",
+    "neon lighting",
+    "underlighting"
+   ]
+  },
+  "melancholic": {
+   "emotions": [
+    "sad",
+    "lonely",
+    "pensive",
+    "disappointed",
+    "neutral",
+    "bored",
+    "exhausted",
+    "sulking",
+    "thinking",
+    "expressionless",
+    "staring"
+   ],
+   "auras": [],
+   "lighting": [
+    "dim lighting",
+    "twilight",
+    "dusk",
+    "blue theme",
+    "window fog",
+    "moody lighting",
+    "silhouette"
+   ]
+  },
+  "mysterious": {
+   "emotions": [
+    "neutral",
+    "serious",
+    "smug",
+    "pensive",
+    "skeptical"
+   ],
+   "auras": [
+    "dark aura"
+   ],
+   "lighting": [
+    "moonlight",
+    "silhouette",
+    "face in shadow",
+    "volumetric lighting",
+    "dim lighting",
+    "candlelight"
+   ]
+  },
+  "ominous": {
+   "emotions": [
+    "scared",
+    "nervous",
+    "worried",
+    "serious",
+    "crazy",
+    "neutral",
+    "disgust",
+    "expressionless",
+    "confused",
+    "surprised",
+    "pensive",
+    "staring"
+   ],
+   "auras": [
+    "dark aura"
+   ],
+   "lighting": [
+    "dark theme",
+    "deep shadows",
+    "red theme",
+    "silhouette",
+    "face in shadow",
+    "dim lighting",
+    "green theme",
+    "flashlight",
+    "dispersion (optics)",
+    "refraction",
+    "glowing",
+    "colored shadow",
+    "ultraviolet light",
+    "aurora"
+   ]
+  },
+  "playful": {
+   "emotions": [
+    "happy",
+    "smug",
+    "excited",
+    "embarrassed",
+    "surprised",
+    "annoyed",
+    "neutral",
+    "confident",
+    "aroused",
+    "drunk",
+    "envy",
+    "seductive smile",
+    "laughing"
+   ],
+   "auras": [
+    "happy aura",
+    "musical note",
+    "heart"
+   ],
+   "lighting": [
+    "day",
+    "sunlight",
+    "bloom"
+   ]
+  },
+  "romantic": {
+   "emotions": [
+    "shy",
+    "happy",
+    "embarrassed",
+    "flustered",
+    "relaxing",
+    "nervous",
+    "neutral",
+    "jealous",
+    "seductive smile"
+   ],
+   "auras": [
+    "loving aura",
+    "sparkling aura",
+    "happy aura",
+    "sparkle",
+    "heart"
+   ],
+   "lighting": [
+    "sunset",
+    "golden hour lighting",
+    "candlelight",
+    "bokeh",
+    "soft lighting",
+    "light particles",
+    "bloom",
+    "warm lighting"
+   ]
+  },
+  "serene": {
+   "emotions": [
+    "relaxing",
+    "neutral",
+    "sleepy",
+    "pensive",
+    "happy",
+    "bored"
+   ],
+   "auras": [],
+   "lighting": [
+    "soft lighting",
+    "morning",
+    "gentle shadows"
+   ]
+  },
+  "serious": {
+   "emotions": [
+    "serious",
+    "determined",
+    "thinking",
+    "worried",
+    "neutral",
+    "skeptical",
+    "frustrated",
+    "unamused",
+    "confident",
+    "smug"
+   ],
+   "auras": [],
+   "lighting": [
+    "contrast",
+    "hard shadows",
+    "ceiling light",
+    "dramatic lighting"
+   ]
+  },
+  "whimsical": {
+   "emotions": [
+    "happy",
+    "surprised",
+    "excited",
+    "confused",
+    "sleepy",
+    "neutral",
+    "drunk",
+    "envy",
+    "laughing"
+   ],
+   "auras": [
+    "sparkling aura",
+    "musical note",
+    "sparkle",
+    "heart"
+   ],
+   "lighting": [
+    "light particles",
+    "glowing particles",
+    "rainbow",
+    "bloom",
+    "lantern"
+   ]
+  }
+ },
+ "genres": {
+  "everyday": {
+   "lean": [
+    "bright",
+    "cozy",
+    "playful",
+    "gentle",
+    "serene",
+    "comedic",
+    "romantic",
+    "innocent",
+    "dreamy",
+    "melancholic",
+    "energetic",
+    "cool",
+    "serious",
+    "erotic",
+    "alluring"
+   ],
+   "weight": 2.0
+  },
+  "fantasy": {
+   "lean": [
+    "adventurous",
+    "heroic",
+    "whimsical",
+    "mysterious",
+    "dreamy",
+    "serene",
+    "dramatic",
+    "bright",
+    "cozy",
+    "playful",
+    "romantic",
+    "serious",
+    "erotic"
+   ],
+   "weight": 2.0
+  },
+  "dark fantasy": {
+   "lean": [
+    "dark",
+    "ominous",
+    "dramatic",
+    "mysterious",
+    "intense",
+    "melancholic",
+    "adventurous",
+    "serious",
+    "alluring",
+    "erotic"
+   ],
+   "weight": 2.0,
+   "polarity": "negative",
+   "polarity_weight": 3.0
+  },
+  "science fiction": {
+   "lean": [
+    "cool",
+    "adventurous",
+    "serious",
+    "mysterious",
+    "dramatic",
+    "melancholic",
+    "intense",
+    "erotic"
+   ],
+   "weight": 2.0
+  },
+  "mecha": {
+   "lean": [
+    "heroic",
+    "intense",
+    "dramatic",
+    "serious",
+    "cool",
+    "energetic",
+    "adventurous"
+   ],
+   "weight": 2.0
+  },
+  "space": {
+   "lean": [
+    "adventurous",
+    "serene",
+    "mysterious",
+    "melancholic",
+    "dreamy",
+    "cool"
+   ],
+   "weight": 2.0
+  },
+  "cyborg": {
+   "lean": [
+    "cool",
+    "serious",
+    "intense",
+    "melancholic",
+    "mysterious",
+    "alluring",
+    "erotic"
+   ],
+   "weight": 2.0
+  },
+  "cyberpunk": {
+   "lean": [
+    "intense",
+    "cool",
+    "dark",
+    "adventurous",
+    "mysterious",
+    "melancholic",
+    "serious",
+    "alluring",
+    "erotic"
+   ],
+   "weight": 2.0
+  },
+  "post-apocalypse": {
+   "lean": [
+    "melancholic",
+    "dark",
+    "serious",
+    "dramatic",
+    "adventurous",
+    "intense",
+    "ominous",
+    "heroic"
+   ],
+   "weight": 2.0,
+   "polarity": "negative",
+   "polarity_weight": 3.0
+  },
+  "steampunk": {
+   "lean": [
+    "adventurous",
+    "whimsical",
+    "serious",
+    "dreamy",
+    "mysterious"
+   ],
+   "weight": 2.0
+  },
+  "dieselpunk": {
+   "lean": [
+    "serious",
+    "dramatic",
+    "cool",
+    "adventurous",
+    "heroic",
+    "intense",
+    "dreamy"
+   ],
+   "weight": 2.0
+  },
+  "supernatural": {
+   "lean": [
+    "mysterious",
+    "adventurous",
+    "dreamy",
+    "ominous",
+    "dark",
+    "whimsical",
+    "melancholic",
+    "serene",
+    "playful",
+    "alluring",
+    "erotic"
+   ],
+   "weight": 2.0
+  },
+  "horror": {
+   "lean": [
+    "ominous",
+    "dark",
+    "intense",
+    "dramatic"
+   ],
+   "weight": 2.0,
+   "only_except": [
+    "cool",
+    "melancholic",
+    "mysterious",
+    "serious"
+   ],
+   "only": "negative"
+  },
+  "superhero": {
+   "lean": [
+    "heroic",
+    "serious",
+    "dramatic",
+    "energetic",
+    "intense",
+    "cool",
+    "adventurous"
+   ],
+   "weight": 2.0
+  },
+  "medieval": {
+   "lean": [
+    "serious",
+    "heroic",
+    "dramatic",
+    "adventurous",
+    "cozy",
+    "romantic",
+    "melancholic",
+    "energetic"
+   ],
+   "weight": 2.0
+  },
+  "pirate": {
+   "lean": [
+    "adventurous",
+    "energetic",
+    "serious",
+    "playful",
+    "dramatic"
+   ],
+   "weight": 2.0
+  },
+  "world war": {
+   "lean": [
+    "serious",
+    "dramatic",
+    "melancholic",
+    "intense",
+    "heroic",
+    "dreamy"
+   ],
+   "weight": 2.0
+  },
+  "victorian": {
+   "lean": [
+    "dreamy",
+    "mysterious",
+    "romantic",
+    "serious",
+    "adventurous",
+    "gentle",
+    "melancholic",
+    "alluring"
+   ],
+   "weight": 2.0
+  },
+  "norse": {
+   "lean": [
+    "heroic",
+    "intense",
+    "dramatic",
+    "serious",
+    "adventurous",
+    "energetic"
+   ],
+   "weight": 2.0
+  },
+  "greco-roman": {
+   "lean": [
+    "serene",
+    "heroic",
+    "dramatic",
+    "serious",
+    "energetic",
+    "cozy",
+    "erotic"
+   ],
+   "weight": 2.0
+  },
+  "ancient egypt": {
+   "lean": [
+    "mysterious",
+    "serene",
+    "serious",
+    "cozy",
+    "dramatic",
+    "alluring",
+    "erotic"
+   ],
+   "weight": 2.0
+  },
+  "ancient japan": {
+   "lean": [
+    "serene",
+    "dreamy",
+    "melancholic",
+    "serious",
+    "gentle",
+    "adventurous",
+    "dramatic",
+    "romantic"
+   ],
+   "weight": 2.0
+  },
+  "prehistoric": {
+   "lean": [
+    "adventurous",
+    "intense",
+    "serious",
+    "cozy",
+    "energetic",
+    "dramatic"
+   ],
+   "weight": 2.0
+  }
+ },
+ "spice_lean": {
+  "safe": [
+   "bright",
+   "cozy",
+   "innocent",
+   "playful",
+   "serene",
+   "gentle",
+   "comedic",
+   "whimsical",
+   "energetic",
+   "adventurous",
+   "heroic",
+   "dreamy"
+  ],
+  "sensitive": [
+   "alluring",
+   "romantic",
+   "playful",
+   "serious",
+   "cool",
+   "dreamy",
+   "bright",
+   "cozy"
+  ],
+  "nsfw": [
+   "erotic",
+   "alluring",
+   "romantic",
+   "serious"
+  ],
+  "explicit": [
+   "erotic",
+   "alluring"
+  ],
+  "weight": 3.0
+ },
+ "emotion_families": {
+  "_note": "the author, 2026-09-20: 'envy has subcategories that can help its measurements'. The bare word is rare (262 posts); its members are what the booru actually tags, and each needs what it envies in the picture.",
+  "envy": {
+   "breast envy": {
+    "posts": 8086,
+    "needs": "two:breasts"
+   },
+   "muscle envy": {
+    "posts": 159,
+    "needs": "two"
+   }
+  }
+ },
+ "emotion_parts": {
+  "_note": "an emotion whose own posts are too few to measure a face: the author states its parts (2026-09-20, skeptical).",
+  "skeptical": [
+   "narrowed eyes",
+   "raised eyebrow",
+   "hand on own chin",
+   "head tilt",
+   "thinking",
+   "closed mouth"
+  ]
+ },
+ "emotion_like": {
+  "_note": "an emotion that wears another's face, by band (the author, 2026-09-20: ecstasy is 'a mix of happy at safe / sensitive to ahegao at nsfw / explicit').",
+  "ecstasy": {
+   "safe": "happy",
+   "sensitive": "happy",
+   "nsfw": "ahegao",
+   "explicit": "ahegao"
+  }
+ },
+ "polarity": {
+  "_note": "the author, 2026-09-20: horror carries only negative moods; dark fantasy and post-apocalypse lean on them 3x. Claude's list of what counts as negative -- the author rules. | 2026-09-20: 'adventurous' is NOT negative -- it only appeared there because 'atmospheric' merged into it.",
+  "negative": [
+   "dark",
+   "ominous",
+   "intense",
+   "dramatic",
+   "melancholic",
+   "mysterious",
+   "serious",
+   "cool"
+  ]
+ },
+ "merged": {
+  "cheerful": "bright",
+  "intimate": "erotic",
+  "sensual": "erotic",
+  "shy": "innocent",
+  "warm": "cozy",
+  "wholesome": "cozy",
+  "lighthearted": "cozy",
+  "sweet": "romantic",
+  "unsettling": "ominous",
+  "mischievous": "playful",
+  "edgy": "intense",
+  "confident": "serious",
+  "focused": "serious",
+  "nostalgic": "dreamy",
+  "atmospheric": "adventurous",
+  "celebratory": "energetic",
+  "introspective": "melancholic",
+  "festive": "energetic",
+  "surreal": "ominous",
+  "chaotic": "intense"
+ },
+ "dropped": {}
+}

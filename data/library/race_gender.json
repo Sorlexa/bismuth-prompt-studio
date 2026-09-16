@@ -1,0 +1,408 @@
+{
+ "_note": "measured gender of a race word standing alone: shares of solo posts tagged 1girl / 1boy / 1other (gelbooru). Built by tools/build/build_race_gender.py from the concept library's `race` flag; unmeasured races are 1other in resolve_cast.",
+ "min_posts": 30,
+ "races": {
+  "alien": {
+   "female": 0.609,
+   "male": 0.373,
+   "other": 0.019,
+   "posts": 4535
+  },
+  "android": {
+   "female": 0.858,
+   "male": 0.139,
+   "other": 0.003,
+   "posts": 17747
+  },
+  "angel": {
+   "female": 0.809,
+   "male": 0.179,
+   "other": 0.011,
+   "posts": 13635
+  },
+  "au ra": {
+   "female": 0.932,
+   "male": 0.065,
+   "other": 0.003,
+   "posts": 3697
+  },
+  "centaur": {
+   "female": 0.841,
+   "male": 0.156,
+   "other": 0.003,
+   "posts": 1698
+  },
+  "cyborg": {
+   "female": 0.776,
+   "male": 0.218,
+   "other": 0.006,
+   "posts": 6940
+  },
+  "dark elf": {
+   "female": 0.956,
+   "male": 0.044,
+   "other": 0.0,
+   "posts": 4725
+  },
+  "demon": {
+   "female": 0.677,
+   "male": 0.308,
+   "other": 0.015,
+   "posts": 4583
+  },
+  "dhampir": {
+   "female": 0.313,
+   "male": 0.687,
+   "other": 0.0,
+   "posts": 99
+  },
+  "draph": {
+   "female": 0.946,
+   "male": 0.053,
+   "other": 0.001,
+   "posts": 6157
+  },
+  "dryad": {
+   "female": 0.98,
+   "male": 0.02,
+   "other": 0.0,
+   "posts": 197
+  },
+  "dwarf": {
+   "female": 0.152,
+   "male": 0.846,
+   "other": 0.002,
+   "posts": 989
+  },
+  "elf": {
+   "female": 0.948,
+   "male": 0.052,
+   "other": 0.001,
+   "posts": 49972
+  },
+  "erune": {
+   "female": 0.949,
+   "male": 0.051,
+   "other": 0.001,
+   "posts": 4689
+  },
+  "fairy": {
+   "female": 0.952,
+   "male": 0.042,
+   "other": 0.006,
+   "posts": 10160
+  },
+  "fallen angel": {
+   "female": 0.912,
+   "male": 0.087,
+   "other": 0.001,
+   "posts": 940
+  },
+  "genie": {
+   "female": 0.89,
+   "male": 0.107,
+   "other": 0.003,
+   "posts": 319
+  },
+  "gerudo": {
+   "female": 0.877,
+   "male": 0.12,
+   "other": 0.002,
+   "posts": 407
+  },
+  "ghost": {
+   "female": 0.947,
+   "male": 0.047,
+   "other": 0.007,
+   "posts": 15621
+  },
+  "gnome": {
+   "female": 0.765,
+   "male": 0.206,
+   "other": 0.029,
+   "posts": 34
+  },
+  "goblin": {
+   "female": 0.933,
+   "male": 0.062,
+   "other": 0.005,
+   "posts": 969
+  },
+  "golem": {
+   "female": 0.714,
+   "male": 0.203,
+   "other": 0.083,
+   "posts": 192
+  },
+  "gynoid": {
+   "female": 1.0,
+   "male": 0.0,
+   "other": 0.0,
+   "posts": 102
+  },
+  "halfling": {
+   "female": 0.386,
+   "male": 0.614,
+   "other": 0.0,
+   "posts": 140
+  },
+  "harpy": {
+   "female": 0.995,
+   "male": 0.005,
+   "other": 0.001,
+   "posts": 4413
+  },
+  "harvin": {
+   "female": 0.967,
+   "male": 0.033,
+   "other": 0.0,
+   "posts": 1403
+  },
+  "hrothgar": {
+   "female": 0.526,
+   "male": 0.474,
+   "other": 0.0,
+   "posts": 95
+  },
+  "imp": {
+   "female": 0.905,
+   "male": 0.095,
+   "other": 0.0,
+   "posts": 105
+  },
+  "kappa": {
+   "female": 0.931,
+   "male": 0.066,
+   "other": 0.003,
+   "posts": 334
+  },
+  "kitsune": {
+   "female": 0.965,
+   "male": 0.033,
+   "other": 0.002,
+   "posts": 9184
+  },
+  "kobold": {
+   "female": 0.972,
+   "male": 0.028,
+   "other": 0.0,
+   "posts": 71
+  },
+  "lalafell": {
+   "female": 0.916,
+   "male": 0.073,
+   "other": 0.011,
+   "posts": 1158
+  },
+  "lamia": {
+   "female": 0.991,
+   "male": 0.009,
+   "other": 0.001,
+   "posts": 3853
+  },
+  "lizardman": {
+   "female": 0.07,
+   "male": 0.93,
+   "other": 0.0,
+   "posts": 114
+  },
+  "mermaid": {
+   "female": 0.928,
+   "male": 0.07,
+   "other": 0.002,
+   "posts": 9684
+  },
+  "merman": {
+   "female": 0.011,
+   "male": 0.985,
+   "other": 0.004,
+   "posts": 735
+  },
+  "minotaur": {
+   "female": 0.311,
+   "male": 0.685,
+   "other": 0.003,
+   "posts": 639
+  },
+  "miqo'te": {
+   "female": 0.875,
+   "male": 0.125,
+   "other": 0.0,
+   "posts": 6066
+  },
+  "monster boy": {
+   "female": 0.016,
+   "male": 0.977,
+   "other": 0.007,
+   "posts": 5663
+  },
+  "monster girl": {
+   "female": 0.983,
+   "male": 0.015,
+   "other": 0.001,
+   "posts": 55654
+  },
+  "nekomata": {
+   "female": 0.992,
+   "male": 0.008,
+   "other": 0.0,
+   "posts": 5980
+  },
+  "nymph": {
+   "female": 0.968,
+   "male": 0.032,
+   "other": 0.0,
+   "posts": 62
+  },
+  "ogre": {
+   "female": 0.866,
+   "male": 0.13,
+   "other": 0.004,
+   "posts": 261
+  },
+  "oni": {
+   "female": 0.952,
+   "male": 0.046,
+   "other": 0.001,
+   "posts": 16778
+  },
+  "orc": {
+   "female": 0.444,
+   "male": 0.553,
+   "other": 0.002,
+   "posts": 907
+  },
+  "quarian": {
+   "female": 1.0,
+   "male": 0.0,
+   "other": 0.0,
+   "posts": 67
+  },
+  "rito": {
+   "female": 0.489,
+   "male": 0.511,
+   "other": 0.0,
+   "posts": 186
+  },
+  "robot": {
+   "female": 0.764,
+   "male": 0.216,
+   "other": 0.02,
+   "posts": 19736
+  },
+  "roegadyn": {
+   "female": 0.438,
+   "male": 0.557,
+   "other": 0.005,
+   "posts": 194
+  },
+  "sheikah": {
+   "female": 0.975,
+   "male": 0.025,
+   "other": 0.0,
+   "posts": 555
+  },
+  "shinigami": {
+   "female": 0.764,
+   "male": 0.234,
+   "other": 0.002,
+   "posts": 444
+  },
+  "skeleton": {
+   "female": 0.617,
+   "male": 0.358,
+   "other": 0.026,
+   "posts": 5277
+  },
+  "slime girl": {
+   "female": 0.997,
+   "male": 0.002,
+   "other": 0.001,
+   "posts": 3723
+  },
+  "succubus": {
+   "female": 0.996,
+   "male": 0.003,
+   "other": 0.001,
+   "posts": 75770
+  },
+  "tanuki": {
+   "female": 0.946,
+   "male": 0.05,
+   "other": 0.004,
+   "posts": 1317
+  },
+  "tengu": {
+   "female": 0.906,
+   "male": 0.092,
+   "other": 0.002,
+   "posts": 912
+  },
+  "togruta": {
+   "female": 1.0,
+   "male": 0.0,
+   "other": 0.0,
+   "posts": 217
+  },
+  "turian": {
+   "female": 0.051,
+   "male": 0.923,
+   "other": 0.026,
+   "posts": 39
+  },
+  "twi'lek": {
+   "female": 0.989,
+   "male": 0.011,
+   "other": 0.0,
+   "posts": 183
+  },
+  "valkyrie": {
+   "female": 0.997,
+   "male": 0.003,
+   "other": 0.0,
+   "posts": 751
+  },
+  "vampire": {
+   "female": 0.837,
+   "male": 0.16,
+   "other": 0.002,
+   "posts": 11040
+  },
+  "viera": {
+   "female": 0.844,
+   "male": 0.154,
+   "other": 0.003,
+   "posts": 1496
+  },
+  "werewolf": {
+   "female": 0.66,
+   "male": 0.332,
+   "other": 0.008,
+   "posts": 644
+  },
+  "youkai": {
+   "female": 0.746,
+   "male": 0.246,
+   "other": 0.008,
+   "posts": 869
+  },
+  "zabrak": {
+   "female": 0.25,
+   "male": 0.719,
+   "other": 0.031,
+   "posts": 32
+  },
+  "zombie": {
+   "female": 0.943,
+   "male": 0.055,
+   "other": 0.002,
+   "posts": 4434
+  },
+  "zora": {
+   "female": 0.873,
+   "male": 0.127,
+   "other": 0.0,
+   "posts": 424
+  }
+ }
+}

@@ -1,0 +1,1617 @@
+{
+ "_note": "SEASON / WEATHER / TIME / LIGHTING lookups (the author's 2026-09-04). The season is rolled by climate (place, genre override), steered by the prompt's words and NEVER voiced; weather by season within the climate; time by place class; lighting by time x weather x place class x genre. Written by tools/build/write_weather.py -- edit the script.",
+ "climate_by_place": {
+  "desert": "arid",
+  "oasis": "arid",
+  "salt flats": "arid",
+  "canyon": "arid",
+  "mesa": "arid",
+  "wasteland": "arid",
+  "geyser": "arid",
+  "glacier": "polar",
+  "tundra": "polar",
+  "mountain": "alpine",
+  "cliff": "alpine",
+  "volcano": "alpine",
+  "waterfall": "alpine",
+  "hill": "alpine",
+  "jungle": "tropical",
+  "savannah": "tropical",
+  "stilt house": "tropical",
+  "island": "tropical",
+  "ocean": "marine",
+  "beach": "marine",
+  "shore": "marine",
+  "harbor": "marine",
+  "dock": "marine",
+  "pier": "marine",
+  "jetty": "marine",
+  "wharf": "marine",
+  "marina": "marine",
+  "maritime port": "marine",
+  "lighthouse": "marine",
+  "shipyard": "marine",
+  "drydock": "marine",
+  "oil rig": "marine",
+  "seafloor": "marine",
+  "underwater": "marine",
+  "water": "marine",
+  "cave": "nosky",
+  "dungeon": "nosky",
+  "sewer": "nosky",
+  "bunker": "nosky",
+  "tunnel": "nosky",
+  "subway": "nosky",
+  "subway station": "nosky",
+  "prison cell": "nosky",
+  "tomb": "nosky",
+  "morgue": "nosky",
+  "underwater city": "nosky",
+  "spacecraft interior": "nosky",
+  "space station": "nosky",
+  "space": "nosky",
+  "in orbit": "nosky",
+  "moon": "nosky",
+  "asteroid": "nosky",
+  "planet": "nosky",
+  "cockpit": "nosky",
+  "tank interior": "nosky",
+  "elevator": "nosky",
+  "basement": "nosky",
+  "attic": "nosky"
+ },
+ "genre_climate": {
+  "ancient egypt": "arid",
+  "norse": "polar",
+  "prehistoric": "temperate",
+  "pirate": "tropical",
+  "space": "nosky",
+  "greco-roman": "mediterranean"
+ },
+ "seasons": {
+  "temperate": {
+   "spring": 25,
+   "summer": 30,
+   "autumn": 25,
+   "winter": 20
+  },
+  "mediterranean": {
+   "spring": 30,
+   "summer": 45,
+   "autumn": 20,
+   "winter": 5
+  },
+  "tropical": {
+   "spring": 15,
+   "summer": 70,
+   "autumn": 15,
+   "winter": 0
+  },
+  "arid": {
+   "spring": 20,
+   "summer": 60,
+   "autumn": 20,
+   "winter": 0
+  },
+  "alpine": {
+   "spring": 20,
+   "summer": 20,
+   "autumn": 25,
+   "winter": 35
+  },
+  "polar": {
+   "spring": 5,
+   "summer": 25,
+   "autumn": 10,
+   "winter": 60
+  },
+  "marine": {
+   "spring": 25,
+   "summer": 35,
+   "autumn": 25,
+   "winter": 15
+  },
+  "nosky": {
+   "spring": 25,
+   "summer": 25,
+   "autumn": 25,
+   "winter": 25
+  }
+ },
+ "weather": {
+  "temperate": {
+   "spring": [
+    [
+     "clear",
+     45
+    ],
+    [
+     "rain",
+     20
+    ],
+    [
+     "cloudy sky",
+     15
+    ],
+    [
+     "overcast",
+     10
+    ],
+    [
+     "wind",
+     5
+    ],
+    [
+     "fog",
+     5
+    ]
+   ],
+   "summer": [
+    [
+     "clear",
+     55
+    ],
+    [
+     "cloudy sky",
+     15
+    ],
+    [
+     "rain",
+     10
+    ],
+    [
+     "storm",
+     8
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "heat haze",
+     2
+    ],
+    [
+     "wind",
+     5
+    ]
+   ],
+   "autumn": [
+    [
+     "clear",
+     35
+    ],
+    [
+     "overcast",
+     20
+    ],
+    [
+     "rain",
+     20
+    ],
+    [
+     "fog",
+     10
+    ],
+    [
+     "wind",
+     10
+    ],
+    [
+     "cloudy sky",
+     5
+    ]
+   ],
+   "winter": [
+    [
+     "snow",
+     35
+    ],
+    [
+     "clear",
+     25
+    ],
+    [
+     "overcast",
+     20
+    ],
+    [
+     "fog",
+     10
+    ],
+    [
+     "blizzard",
+     5
+    ],
+    [
+     "cloudy sky",
+     5
+    ]
+   ]
+  },
+  "mediterranean": {
+   "spring": [
+    [
+     "clear",
+     60
+    ],
+    [
+     "cloudy sky",
+     15
+    ],
+    [
+     "rain",
+     10
+    ],
+    [
+     "wind",
+     10
+    ],
+    [
+     "overcast",
+     5
+    ]
+   ],
+   "summer": [
+    [
+     "clear",
+     75
+    ],
+    [
+     "heat haze",
+     8
+    ],
+    [
+     "wind",
+     10
+    ],
+    [
+     "cloudy sky",
+     7
+    ]
+   ],
+   "autumn": [
+    [
+     "clear",
+     50
+    ],
+    [
+     "rain",
+     20
+    ],
+    [
+     "storm",
+     10
+    ],
+    [
+     "cloudy sky",
+     10
+    ],
+    [
+     "wind",
+     10
+    ]
+   ],
+   "winter": [
+    [
+     "clear",
+     40
+    ],
+    [
+     "rain",
+     30
+    ],
+    [
+     "overcast",
+     20
+    ],
+    [
+     "wind",
+     10
+    ]
+   ]
+  },
+  "tropical": {
+   "spring": [
+    [
+     "clear",
+     45
+    ],
+    [
+     "rain",
+     30
+    ],
+    [
+     "storm",
+     10
+    ],
+    [
+     "cloudy sky",
+     15
+    ]
+   ],
+   "summer": [
+    [
+     "clear",
+     40
+    ],
+    [
+     "rain",
+     30
+    ],
+    [
+     "storm",
+     15
+    ],
+    [
+     "heat haze",
+     5
+    ],
+    [
+     "cloudy sky",
+     10
+    ]
+   ],
+   "autumn": [
+    [
+     "clear",
+     40
+    ],
+    [
+     "rain",
+     35
+    ],
+    [
+     "storm",
+     15
+    ],
+    [
+     "cloudy sky",
+     10
+    ]
+   ],
+   "winter": [
+    [
+     "clear",
+     50
+    ],
+    [
+     "rain",
+     30
+    ],
+    [
+     "cloudy sky",
+     20
+    ]
+   ]
+  },
+  "arid": {
+   "spring": [
+    [
+     "clear",
+     70
+    ],
+    [
+     "wind",
+     15
+    ],
+    [
+     "sandstorm",
+     8
+    ],
+    [
+     "cloudy sky",
+     7
+    ]
+   ],
+   "summer": [
+    [
+     "clear",
+     70
+    ],
+    [
+     "heat haze",
+     12
+    ],
+    [
+     "sandstorm",
+     10
+    ],
+    [
+     "wind",
+     8
+    ]
+   ],
+   "autumn": [
+    [
+     "clear",
+     70
+    ],
+    [
+     "wind",
+     15
+    ],
+    [
+     "sandstorm",
+     8
+    ],
+    [
+     "cloudy sky",
+     7
+    ]
+   ],
+   "winter": [
+    [
+     "clear",
+     60
+    ],
+    [
+     "wind",
+     15
+    ],
+    [
+     "overcast",
+     15
+    ],
+    [
+     "rain",
+     10
+    ]
+   ]
+  },
+  "alpine": {
+   "spring": [
+    [
+     "clear",
+     40
+    ],
+    [
+     "fog",
+     20
+    ],
+    [
+     "rain",
+     15
+    ],
+    [
+     "cloudy sky",
+     15
+    ],
+    [
+     "snow",
+     10
+    ]
+   ],
+   "summer": [
+    [
+     "clear",
+     50
+    ],
+    [
+     "cloudy sky",
+     20
+    ],
+    [
+     "fog",
+     10
+    ],
+    [
+     "storm",
+     10
+    ],
+    [
+     "rain",
+     10
+    ]
+   ],
+   "autumn": [
+    [
+     "clear",
+     35
+    ],
+    [
+     "fog",
+     25
+    ],
+    [
+     "overcast",
+     15
+    ],
+    [
+     "rain",
+     10
+    ],
+    [
+     "snow",
+     10
+    ],
+    [
+     "wind",
+     5
+    ]
+   ],
+   "winter": [
+    [
+     "snow",
+     45
+    ],
+    [
+     "clear",
+     20
+    ],
+    [
+     "blizzard",
+     15
+    ],
+    [
+     "fog",
+     10
+    ],
+    [
+     "overcast",
+     10
+    ]
+   ]
+  },
+  "polar": {
+   "spring": [
+    [
+     "snow",
+     30
+    ],
+    [
+     "clear",
+     30
+    ],
+    [
+     "fog",
+     20
+    ],
+    [
+     "wind",
+     20
+    ]
+   ],
+   "summer": [
+    [
+     "clear",
+     45
+    ],
+    [
+     "fog",
+     20
+    ],
+    [
+     "overcast",
+     20
+    ],
+    [
+     "wind",
+     15
+    ]
+   ],
+   "autumn": [
+    [
+     "snow",
+     30
+    ],
+    [
+     "overcast",
+     25
+    ],
+    [
+     "fog",
+     20
+    ],
+    [
+     "wind",
+     15
+    ],
+    [
+     "clear",
+     10
+    ]
+   ],
+   "winter": [
+    [
+     "snow",
+     40
+    ],
+    [
+     "blizzard",
+     25
+    ],
+    [
+     "clear",
+     15
+    ],
+    [
+     "fog",
+     10
+    ],
+    [
+     "aurora",
+     10
+    ]
+   ]
+  },
+  "marine": {
+   "spring": [
+    [
+     "clear",
+     40
+    ],
+    [
+     "wind",
+     20
+    ],
+    [
+     "fog",
+     15
+    ],
+    [
+     "rain",
+     15
+    ],
+    [
+     "cloudy sky",
+     10
+    ]
+   ],
+   "summer": [
+    [
+     "clear",
+     55
+    ],
+    [
+     "wind",
+     15
+    ],
+    [
+     "cloudy sky",
+     15
+    ],
+    [
+     "storm",
+     10
+    ],
+    [
+     "rain",
+     5
+    ]
+   ],
+   "autumn": [
+    [
+     "clear",
+     30
+    ],
+    [
+     "wind",
+     20
+    ],
+    [
+     "storm",
+     15
+    ],
+    [
+     "rain",
+     15
+    ],
+    [
+     "fog",
+     10
+    ],
+    [
+     "overcast",
+     10
+    ]
+   ],
+   "winter": [
+    [
+     "overcast",
+     25
+    ],
+    [
+     "wind",
+     20
+    ],
+    [
+     "rain",
+     20
+    ],
+    [
+     "clear",
+     20
+    ],
+    [
+     "snow",
+     10
+    ],
+    [
+     "fog",
+     5
+    ]
+   ]
+  },
+  "nosky": {
+   "spring": [
+    [
+     "clear",
+     100
+    ]
+   ],
+   "summer": [
+    [
+     "clear",
+     100
+    ]
+   ],
+   "autumn": [
+    [
+     "clear",
+     100
+    ]
+   ],
+   "winter": [
+    [
+     "clear",
+     100
+    ]
+   ]
+  }
+ },
+ "weather_tag": {
+  "rain": "rain",
+  "snow": "snow",
+  "fog": "fog",
+  "overcast": "overcast",
+  "cloudy sky": "cloudy sky",
+  "wind": "wind",
+  "storm": "storm",
+  "blizzard": "blizzard",
+  "sandstorm": "sandstorm",
+  "heat haze": "heat haze",
+  "aurora": "aurora"
+ },
+ "time_default": [
+  [
+   "day",
+   40
+  ],
+  [
+   "night",
+   25
+  ],
+  [
+   "sunset",
+   12
+  ],
+  [
+   "evening",
+   8
+  ],
+  [
+   "morning",
+   8
+  ],
+  [
+   "dawn",
+   4
+  ],
+  [
+   "dusk",
+   3
+  ]
+ ],
+ "place_class": {
+  "nightclub": "nightlife",
+  "bar (place)": "nightlife",
+  "izakaya": "nightlife",
+  "casino": "nightlife",
+  "karaoke": "nightlife",
+  "strip club": "nightlife",
+  "love hotel": "nightlife",
+  "hotel room": "nightlife",
+  "motel": "nightlife",
+  "soapland": "nightlife",
+  "sex shop": "nightlife",
+  "tavern": "nightlife",
+  "office": "workday",
+  "cubicle": "workday",
+  "staff room": "workday",
+  "meeting room": "workday",
+  "school": "workday",
+  "classroom": "workday",
+  "clubroom": "workday",
+  "school gym": "workday",
+  "school entrance": "workday",
+  "school gateway": "workday",
+  "cafeteria": "workday",
+  "laboratory": "workday",
+  "hospital": "workday",
+  "clinic": "workday",
+  "courtroom": "workday",
+  "factory": "workday",
+  "warehouse": "workday",
+  "construction site": "workday",
+  "supermarket": "workday",
+  "grocery store": "workday",
+  "convenience store": "workday",
+  "mall": "workday",
+  "shop": "workday",
+  "clothes shop": "workday",
+  "bookstore": "workday",
+  "bakery": "workday",
+  "candy store": "workday",
+  "flower shop": "workday",
+  "pharmacy": "workday",
+  "record store": "workday",
+  "bank": "workday",
+  "post office": "workday",
+  "library": "workday",
+  "museum": "workday",
+  "art gallery": "workday",
+  "farm": "workday",
+  "field": "workday",
+  "wheat field": "workday",
+  "rice paddy": "workday",
+  "playground": "workday",
+  "zoo": "workday",
+  "aquarium": "workday",
+  "amusement park": "workday",
+  "theater": "evening",
+  "movie theater": "evening",
+  "restaurant": "evening",
+  "cafe": "evening",
+  "stage": "evening",
+  "backstage": "evening",
+  "concert": "evening",
+  "festival": "evening",
+  "arcade": "evening",
+  "bowling alley": "evening",
+  "ballroom": "evening",
+  "onsen": "evening",
+  "bathtub": "evening"
+ },
+ "time_by_class": {
+  "nightlife": [
+   [
+    "night",
+    60
+   ],
+   [
+    "evening",
+    30
+   ],
+   [
+    "dusk",
+    5
+   ],
+   [
+    "day",
+    5
+   ]
+  ],
+  "workday": [
+   [
+    "day",
+    60
+   ],
+   [
+    "morning",
+    20
+   ],
+   [
+    "noon",
+    8
+   ],
+   [
+    "evening",
+    7
+   ],
+   [
+    "night",
+    5
+   ]
+  ],
+  "evening": [
+   [
+    "evening",
+    35
+   ],
+   [
+    "night",
+    30
+   ],
+   [
+    "day",
+    20
+   ],
+   [
+    "sunset",
+    10
+   ],
+   [
+    "dusk",
+    5
+   ]
+  ]
+ },
+ "genre_nudge": {
+  "horror": {
+   "time": {
+    "night": 3.0,
+    "evening": 1.5,
+    "dusk": 2.0,
+    "day": 0.4
+   },
+   "weather": {
+    "fog": 3.0,
+    "overcast": 2.0,
+    "rain": 1.5,
+    "storm": 2.0
+   },
+   "season": {
+    "autumn": 1.6,
+    "winter": 1.3,
+    "summer": 0.6
+   }
+  },
+  "supernatural": {
+   "time": {
+    "night": 2.0,
+    "dusk": 1.5
+   },
+   "weather": {
+    "fog": 1.8
+   },
+   "season": {
+    "autumn": 1.3
+   }
+  },
+  "dark fantasy": {
+   "time": {
+    "night": 1.8,
+    "dusk": 1.5,
+    "day": 0.7
+   },
+   "weather": {
+    "overcast": 1.8,
+    "fog": 1.6,
+    "storm": 1.5
+   },
+   "season": {
+    "autumn": 1.4,
+    "winter": 1.3
+   }
+  },
+  "cyberpunk": {
+   "time": {
+    "night": 3.0,
+    "evening": 1.5,
+    "day": 0.4
+   },
+   "weather": {
+    "rain": 2.5,
+    "fog": 1.5
+   }
+  },
+  "post-apocalypse": {
+   "weather": {
+    "overcast": 2.5,
+    "wind": 1.8,
+    "sandstorm": 2.0,
+    "storm": 1.3
+   },
+   "time": {
+    "day": 1.2,
+    "dusk": 1.5
+   }
+  },
+  "steampunk": {
+   "weather": {
+    "fog": 2.0,
+    "overcast": 1.6
+   }
+  },
+  "victorian": {
+   "weather": {
+    "fog": 2.0,
+    "overcast": 1.5,
+    "rain": 1.3
+   }
+  },
+  "pirate": {
+   "time": {
+    "day": 1.5,
+    "sunset": 1.5
+   },
+   "weather": {
+    "storm": 1.5,
+    "wind": 1.5
+   }
+  },
+  "prehistoric": {
+   "time": {
+    "day": 1.5
+   }
+  },
+  "world war": {
+   "weather": {
+    "overcast": 1.8,
+    "rain": 1.4
+   }
+  },
+  "superhero": {
+   "time": {
+    "night": 1.6
+   }
+  }
+ },
+ "lighting": [
+  {
+   "time": [
+    "day",
+    "noon",
+    "morning"
+   ],
+   "weather": [
+    "clear",
+    null
+   ],
+   "place": [
+    "outdoor-natural"
+   ],
+   "tags": [
+    [
+     "sunlight",
+     5
+    ],
+    [
+     "dappled sunlight",
+     3
+    ],
+    [
+     "backlighting",
+     2
+    ],
+    [
+     "light rays",
+     1
+    ]
+   ]
+  },
+  {
+   "time": [
+    "day",
+    "noon",
+    "morning"
+   ],
+   "weather": [
+    "clear",
+    null
+   ],
+   "place": [
+    "outdoor-manmade",
+    "building"
+   ],
+   "tags": [
+    [
+     "sunlight",
+     5
+    ],
+    [
+     "backlighting",
+     2
+    ],
+    [
+     "shade",
+     1
+    ]
+   ]
+  },
+  {
+   "time": [
+    "sunset",
+    "dusk",
+    "dawn"
+   ],
+   "place": [
+    "outdoor-natural",
+    "outdoor-manmade",
+    "building",
+    "windowed"
+   ],
+   "tags": [
+    [
+     "golden hour",
+     4
+    ],
+    [
+     "backlighting",
+     3
+    ],
+    [
+     "silhouette",
+     1
+    ],
+    [
+     "warm light",
+     2
+    ]
+   ]
+  },
+  {
+   "weather": [
+    "overcast",
+    "cloudy sky",
+    "rain"
+   ],
+   "place": [
+    "outdoor-natural",
+    "outdoor-manmade",
+    "building"
+   ],
+   "tags": [
+    [
+     "soft light",
+     4
+    ],
+    [
+     "soft lighting",
+     2
+    ],
+    [
+     "diffused light",
+     1
+    ]
+   ]
+  },
+  {
+   "weather": [
+    "fog"
+   ],
+   "tags": [
+    [
+     "volumetric light",
+     3
+    ],
+    [
+     "soft light",
+     2
+    ],
+    [
+     "dim lighting",
+     1
+    ]
+   ]
+  },
+  {
+   "weather": [
+    "storm",
+    "blizzard"
+   ],
+   "tags": [
+    [
+     "dramatic lighting",
+     3
+    ],
+    [
+     "dark",
+     1
+    ]
+   ]
+  },
+  {
+   "time": [
+    "night"
+   ],
+   "place": [
+    "outdoor-manmade",
+    "building"
+   ],
+   "tags": [
+    [
+     "city lights",
+     4
+    ],
+    [
+     "street lamp",
+     2
+    ],
+    [
+     "neon lights",
+     1
+    ],
+    [
+     "moonlight",
+     2
+    ]
+   ]
+  },
+  {
+   "time": [
+    "night"
+   ],
+   "place": [
+    "outdoor-natural"
+   ],
+   "tags": [
+    [
+     "moonlight",
+     5
+    ],
+    [
+     "starry sky",
+     3
+    ],
+    [
+     "dark",
+     1
+    ]
+   ]
+  },
+  {
+   "time": [
+    "night",
+    "evening"
+   ],
+   "place": [
+    "windowed",
+    "unwindowed"
+   ],
+   "bucket": [
+    "fantasy",
+    "historical"
+   ],
+   "tags": [
+    [
+     "candlelight",
+     5
+    ],
+    [
+     "lantern",
+     2
+    ],
+    [
+     "dim lighting",
+     2
+    ],
+    [
+     "fire",
+     1
+    ]
+   ]
+  },
+  {
+   "time": [
+    "night",
+    "evening"
+   ],
+   "place": [
+    "windowed",
+    "unwindowed"
+   ],
+   "tags": [
+    [
+     "dim lighting",
+     3
+    ],
+    [
+     "warm light",
+     3
+    ],
+    [
+     "lamp",
+     1
+    ],
+    [
+     "screen light",
+     1
+    ]
+   ]
+  },
+  {
+   "time": [
+    "day",
+    "morning",
+    "noon"
+   ],
+   "place": [
+    "windowed"
+   ],
+   "tags": [
+    [
+     "window light",
+     4
+    ],
+    [
+     "soft light",
+     2
+    ],
+    [
+     "sunlight",
+     2
+    ]
+   ]
+  },
+  {
+   "place": [
+    "nosky"
+   ],
+   "bucket": [
+    "fantasy",
+    "historical",
+    "supernatural"
+   ],
+   "tags": [
+    [
+     "torch",
+     3
+    ],
+    [
+     "candlelight",
+     2
+    ],
+    [
+     "dim lighting",
+     3
+    ],
+    [
+     "darkness",
+     1
+    ]
+   ]
+  },
+  {
+   "place": [
+    "nosky"
+   ],
+   "tags": [
+    [
+     "dim lighting",
+     3
+    ],
+    [
+     "dark",
+     2
+    ],
+    [
+     "flashlight",
+     1
+    ],
+    [
+     "ambient light",
+     1
+    ]
+   ]
+  },
+  {
+   "bucket": [
+    "science fiction"
+   ],
+   "tags": [
+    [
+     "blue light",
+     2
+    ],
+    [
+     "neon lights",
+     2
+    ],
+    [
+     "lens flare",
+     1
+    ]
+   ]
+  },
+  {
+   "genre": [
+    "cyberpunk"
+   ],
+   "tags": [
+    [
+     "neon lights",
+     6
+    ],
+    [
+     "city lights",
+     2
+    ],
+    [
+     "colored lighting",
+     1
+    ]
+   ]
+  },
+  {
+   "genre": [
+    "horror"
+   ],
+   "tags": [
+    [
+     "dim lighting",
+     3
+    ],
+    [
+     "chiaroscuro",
+     2
+    ],
+    [
+     "flashlight",
+     2
+    ],
+    [
+     "dark shadows",
+     2
+    ]
+   ]
+  },
+  {
+   "genre": [
+    "space"
+   ],
+   "place": [
+    "nosky"
+   ],
+   "tags": [
+    [
+     "lens flare",
+     2
+    ],
+    [
+     "dark",
+     2
+    ],
+    [
+     "blue light",
+     2
+    ]
+   ]
+  },
+  {
+   "place": [
+    "evening-class"
+   ],
+   "tags": [
+    [
+     "spotlight",
+     2
+    ],
+    [
+     "stage lights",
+     2
+    ]
+   ]
+  },
+  {
+   "place": [
+    "nightlife-class"
+   ],
+   "tags": [
+    [
+     "neon lights",
+     4
+    ],
+    [
+     "spotlight",
+     2
+    ],
+    [
+     "stage lights",
+     2
+    ],
+    [
+     "colored lighting",
+     2
+    ],
+    [
+     "dim lighting",
+     2
+    ]
+   ]
+  },
+  {
+   "place": [
+    "unwindowed"
+   ],
+   "tags": [
+    [
+     "ceiling light",
+     2
+    ],
+    [
+     "warm light",
+     3
+    ],
+    [
+     "soft light",
+     2
+    ],
+    [
+     "dim lighting",
+     2
+    ]
+   ]
+  }
+ ],
+ "windowed": [
+  "bedroom",
+  "living room",
+  "dining room",
+  "kitchen",
+  "office",
+  "cubicle",
+  "classroom",
+  "clubroom",
+  "staff room",
+  "cafe",
+  "restaurant",
+  "cafeteria",
+  "library",
+  "hotel room",
+  "hospital",
+  "infirmary",
+  "train interior",
+  "bus interior",
+  "car interior",
+  "airplane interior",
+  "vehicle interior",
+  "hallway",
+  "genkan",
+  "otaku room",
+  "messy room",
+  "conservatory",
+  "greenhouse",
+  "study",
+  "apartment",
+  "house"
+ ],
+ "season_words": {
+  "spring": [
+   "spring",
+   "cherry blossoms",
+   "sakura",
+   "hanami",
+   "petals",
+   "tulip",
+   "easter"
+  ],
+  "summer": [
+   "summer",
+   "heat haze",
+   "beach",
+   "swimsuit",
+   "bikini",
+   "sunflower",
+   "fireworks",
+   "festival",
+   "tanabata",
+   "watermelon",
+   "cicada"
+  ],
+  "autumn": [
+   "autumn",
+   "fall",
+   "autumn leaves",
+   "maple",
+   "halloween",
+   "harvest",
+   "ginkgo",
+   "pumpkin"
+  ],
+  "winter": [
+   "winter",
+   "snow",
+   "snowing",
+   "snowflakes",
+   "christmas",
+   "new year",
+   "blizzard",
+   "scarf",
+   "mittens",
+   "kotatsu",
+   "hot cocoa"
+  ]
+ }
+}

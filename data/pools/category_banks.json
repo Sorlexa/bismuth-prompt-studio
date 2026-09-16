@@ -1,0 +1,13458 @@
+{
+ "flavors": {
+  "top": {
+   "core": [
+    [
+     "",
+     1
+    ]
+   ],
+   "monochrome": [
+    [
+     "monochrome",
+     6
+    ],
+    [
+     "greyscale",
+     5
+    ],
+    [
+     "comic",
+     4
+    ],
+    [
+     "lineart",
+     3
+    ]
+   ],
+   "realistic": [
+    [
+     "realistic",
+     6
+    ],
+    [
+     "photorealistic",
+     5
+    ]
+   ],
+   "motion_lines": [
+    [
+     "motion lines",
+     6
+    ],
+    [
+     "speed lines",
+     5
+    ],
+    [
+     "comic",
+     4
+    ],
+    [
+     "monochrome",
+     3
+    ],
+    [
+     "greyscale",
+     2
+    ]
+   ],
+   "sketch": [
+    [
+     "sketch",
+     3
+    ],
+    [
+     "monochrome",
+     2
+    ],
+    [
+     "graphite",
+     1
+    ],
+    [
+     "lineart",
+     2
+    ],
+    [
+     "unfinished",
+     1
+    ],
+    [
+     "hatching",
+     1
+    ]
+   ],
+   "greyscale": [
+    [
+     "greyscale",
+     3
+    ],
+    [
+     "monochrome",
+     2
+    ],
+    [
+     "muted colors",
+     2
+    ],
+    [
+     "film grain",
+     2
+    ],
+    [
+     "sketch",
+     2
+    ]
+   ],
+   "chibi": [
+    [
+     "chibi",
+     3
+    ],
+    [
+     "film grain",
+     2
+    ]
+   ],
+   "anime_coloring": [
+    [
+     "anime coloring",
+     6
+    ]
+   ],
+   "comic": [
+    [
+     "comic",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "left-to-right manga",
+     3
+    ],
+    [
+     "vertical scroll comic",
+     2
+    ],
+    [
+     "right-to-left comic",
+     1
+    ]
+   ],
+   "film_photo": [
+    [
+     "film grain",
+     3
+    ],
+    [
+     "photorealistic",
+     2
+    ],
+    [
+     "kodak portra",
+     1
+    ],
+    [
+     "depth of field",
+     2
+    ],
+    [
+     "candid",
+     1
+    ],
+    [
+     "35mm",
+     1
+    ]
+   ],
+   "floral_print": [
+    [
+     "floral print",
+     6
+    ],
+    [
+     "cherry blossom print",
+     5
+    ]
+   ],
+   "flat": [
+    [
+     "flat color",
+     3
+    ],
+    [
+     "anime screencap",
+     2
+    ],
+    [
+     "no lineart",
+     1
+    ],
+    [
+     "limited palette",
+     1
+    ],
+    [
+     "clean lineart",
+     1
+    ]
+   ],
+   "spot_color": [
+    [
+     "spot color",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "painterly": [
+    [
+     "painterly",
+     3
+    ],
+    [
+     "textured brushwork",
+     2
+    ],
+    [
+     "oil painting (medium)",
+     1
+    ],
+    [
+     "impasto",
+     1
+    ],
+    [
+     "watercolor",
+     1
+    ]
+   ],
+   "limited_palette": [
+    [
+     "limited palette",
+     6
+    ],
+    [
+     "minimalism",
+     5
+    ],
+    [
+     "very aesthetic",
+     4
+    ]
+   ],
+   "retro_artstyle": [
+    [
+     "retro artstyle",
+     6
+    ],
+    [
+     "faux retro artstyle",
+     5
+    ]
+   ],
+   "outline": [
+    [
+     "outline",
+     6
+    ],
+    [
+     "yellow outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "black outline",
+     3
+    ],
+    [
+     "blue outline",
+     2
+    ],
+    [
+     "red outline",
+     1
+    ],
+    [
+     "white outline",
+     1
+    ]
+   ],
+   "animal_print": [
+    [
+     "animal print",
+     6
+    ],
+    [
+     "cow print",
+     5
+    ],
+    [
+     "bird print",
+     4
+    ],
+    [
+     "tiger print",
+     3
+    ]
+   ],
+   "surreal": [
+    [
+     "surreal",
+     3
+    ],
+    [
+     "dreamlike",
+     2
+    ],
+    [
+     "floating",
+     1
+    ],
+    [
+     "impossible geometry",
+     1
+    ]
+   ],
+   "no_lineart": [
+    [
+     "no lineart",
+     6
+    ],
+    [
+     "no outline",
+     5
+    ],
+    [
+     "minimalism",
+     4
+    ],
+    [
+     "rough painting",
+     3
+    ]
+   ],
+   "photorealistic": [
+    [
+     "photorealistic",
+     6
+    ],
+    [
+     "realistic",
+     5
+    ],
+    [
+     "2000s vintage raw photo",
+     4
+    ],
+    [
+     "high-resolution cinematic photo",
+     3
+    ],
+    [
+     "subtle leading lines",
+     2
+    ]
+   ],
+   "lineart": [
+    [
+     "lineart",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "sketch",
+     3
+    ]
+   ],
+   "abstract": [
+    [
+     "abstract",
+     3
+    ],
+    [
+     "painterly",
+     2
+    ],
+    [
+     "realistic",
+     2
+    ],
+    [
+     "lineart",
+     2
+    ],
+    [
+     "surreal",
+     2
+    ]
+   ],
+   "pixel_art": [
+    [
+     "pixel art",
+     3
+    ],
+    [
+     "no lineart",
+     2
+    ]
+   ],
+   "pastel_soft": [
+    [
+     "pastel colors",
+     3
+    ],
+    [
+     "soft focus",
+     2
+    ],
+    [
+     "dreamy",
+     2
+    ],
+    [
+     "light blush",
+     1
+    ],
+    [
+     "airbrush style",
+     1
+    ]
+   ],
+   "cow_print": [
+    [
+     "cow print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "halftone": [
+    [
+     "halftone",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ]
+   ],
+   "muted_colors": [
+    [
+     "muted colors",
+     6
+    ]
+   ],
+   "power_lines": [
+    [
+     "power lines",
+     6
+    ]
+   ],
+   "sepia": [
+    [
+     "sepia",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "comic",
+     4
+    ]
+   ]
+  },
+  "tail": {
+   "warm_colors": [
+    [
+     "warm colors",
+     6
+    ],
+    [
+     "analogous colors",
+     5
+    ],
+    [
+     "cool colors",
+     4
+    ]
+   ],
+   "ink": [
+    [
+     "ink",
+     6
+    ],
+    [
+     "calligraphy brush",
+     5
+    ],
+    [
+     "holding calligraphy brush",
+     4
+    ]
+   ],
+   "impressionism": [
+    [
+     "impressionism",
+     3
+    ],
+    [
+     "photorealistic",
+     2
+    ],
+    [
+     "realistic",
+     2
+    ],
+    [
+     "film grain",
+     2
+    ],
+    [
+     "flat color",
+     2
+    ]
+   ],
+   "white_outline": [
+    [
+     "white outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ]
+   ],
+   "card_(medium)": [
+    [
+     "card (medium)",
+     6
+    ]
+   ],
+   "notice_lines": [
+    [
+     "notice lines",
+     6
+    ],
+    [
+     "comic",
+     5
+    ]
+   ],
+   "1990s_(style)": [
+    [
+     "1990s (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "faux retro artstyle",
+     4
+    ],
+    [
+     "faux traditional media",
+     3
+    ]
+   ],
+   "emphasis_lines": [
+    [
+     "emphasis lines",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ]
+   ],
+   "alternate_color": [
+    [
+     "alternate color",
+     6
+    ]
+   ],
+   "black_outline": [
+    [
+     "black outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "chibi",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ],
+    [
+     "white outline",
+     1
+    ]
+   ],
+   "pen": [
+    [
+     "pen",
+     6
+    ],
+    [
+     "holding pen",
+     5
+    ]
+   ],
+   "dakimakura_(medium)": [
+    [
+     "dakimakura (medium)",
+     6
+    ]
+   ],
+   "star_print": [
+    [
+     "star print",
+     6
+    ],
+    [
+     "american flag print",
+     5
+    ],
+    [
+     "flag print",
+     4
+    ]
+   ],
+   "paw_print": [
+    [
+     "paw print",
+     6
+    ]
+   ],
+   "indian_style": [
+    [
+     "indian style",
+     6
+    ]
+   ],
+   "very_aesthetic": [
+    [
+     "very aesthetic",
+     6
+    ],
+    [
+     "no outline",
+     5
+    ],
+    [
+     "good shading",
+     4
+    ],
+    [
+     "detailed illustration",
+     3
+    ]
+   ],
+   "silent_comic": [
+    [
+     "silent comic",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ]
+   ],
+   "minimalism": [
+    [
+     "minimalism",
+     6
+    ],
+    [
+     "flat color",
+     5
+    ],
+    [
+     "no lineart",
+     4
+    ],
+    [
+     "limited palette",
+     3
+    ],
+    [
+     "monochrome",
+     2
+    ]
+   ],
+   "pencil": [
+    [
+     "pencil",
+     6
+    ],
+    [
+     "mechanical pencil",
+     5
+    ],
+    [
+     "holding pencil",
+     4
+    ]
+   ],
+   "alphes_(style)": [
+    [
+     "alphes (style)",
+     6
+    ]
+   ],
+   "tiger_print": [
+    [
+     "tiger print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "2000s_(style)": [
+    [
+     "2000s (style)",
+     6
+    ],
+    [
+     "faux retro artstyle",
+     5
+    ]
+   ],
+   "holding_pen": [
+    [
+     "holding pen",
+     6
+    ],
+    [
+     "pen",
+     5
+    ]
+   ],
+   "speed_lines": [
+    [
+     "speed lines",
+     6
+    ],
+    [
+     "motion lines",
+     5
+    ],
+    [
+     "comic",
+     4
+    ],
+    [
+     "monochrome",
+     3
+    ],
+    [
+     "greyscale",
+     2
+    ]
+   ],
+   "heart_print": [
+    [
+     "heart print",
+     6
+    ]
+   ],
+   "official_style": [
+    [
+     "official style",
+     6
+    ]
+   ],
+   "flag_print": [
+    [
+     "flag print",
+     6
+    ],
+    [
+     "american flag print",
+     5
+    ]
+   ],
+   "impasto": [
+    [
+     "impasto",
+     6
+    ],
+    [
+     "faux traditional media",
+     5
+    ]
+   ],
+   "leopard_print": [
+    [
+     "leopard print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "1980s_(style)": [
+    [
+     "1980s (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "faux retro artstyle",
+     4
+    ],
+    [
+     "realistic",
+     3
+    ],
+    [
+     "faux traditional media",
+     2
+    ]
+   ],
+   "jaggy_lines": [
+    [
+     "jaggy lines",
+     6
+    ]
+   ],
+   "american_flag_print": [
+    [
+     "american flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ],
+    [
+     "star print",
+     4
+    ]
+   ],
+   "rose_print": [
+    [
+     "rose print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "leaf_print": [
+    [
+     "leaf print",
+     6
+    ],
+    [
+     "maple leaf print",
+     5
+    ]
+   ],
+   "dragon_print": [
+    [
+     "dragon print",
+     6
+    ]
+   ],
+   "fruit_print": [
+    [
+     "fruit print",
+     6
+    ],
+    [
+     "strawberry print",
+     5
+    ]
+   ],
+   "bat_print": [
+    [
+     "bat print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "spider_web_print": [
+    [
+     "spider web print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "calligraphy_brush": [
+    [
+     "calligraphy brush",
+     6
+    ],
+    [
+     "holding calligraphy brush",
+     5
+    ],
+    [
+     "ink",
+     4
+    ]
+   ],
+   "collage": [
+    [
+     "collage",
+     6
+    ]
+   ],
+   "cat_print": [
+    [
+     "cat print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "snowflake_print": [
+    [
+     "snowflake print",
+     6
+    ]
+   ],
+   "character_print": [
+    [
+     "character print",
+     6
+    ]
+   ],
+   "skull_print": [
+    [
+     "skull print",
+     6
+    ]
+   ],
+   "holding_pencil": [
+    [
+     "holding pencil",
+     6
+    ],
+    [
+     "pencil",
+     5
+    ],
+    [
+     "mechanical pencil",
+     4
+    ]
+   ],
+   "rabbit_print": [
+    [
+     "rabbit print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "screentones": [
+    [
+     "screentones",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "toon_(style)": [
+    [
+     "toon (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "faux_traditional_media": [
+    [
+     "faux traditional media",
+     6
+    ],
+    [
+     "faux retro artstyle",
+     5
+    ]
+   ],
+   "butterfly_print": [
+    [
+     "butterfly print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "poke_ball_print": [
+    [
+     "poke ball print",
+     6
+    ]
+   ],
+   "cross_print": [
+    [
+     "cross print",
+     6
+    ]
+   ],
+   "flame_print": [
+    [
+     "flame print",
+     6
+    ]
+   ],
+   "holding_brush": [
+    [
+     "holding brush",
+     6
+    ],
+    [
+     "makeup brush",
+     5
+    ],
+    [
+     "calligraphy brush",
+     4
+    ]
+   ],
+   "pale_colors": [
+    [
+     "pale colors",
+     6
+    ]
+   ],
+   "strawberry_print": [
+    [
+     "strawberry print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ]
+   ],
+   "constellation_print": [
+    [
+     "constellation print",
+     6
+    ]
+   ],
+   "cherry_blossom_print": [
+    [
+     "cherry blossom print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "cellphone_photo": [
+    [
+     "cellphone photo",
+     6
+    ]
+   ],
+   "cloud_print": [
+    [
+     "cloud print",
+     6
+    ]
+   ],
+   "paint_palette": [
+    [
+     "paint palette",
+     6
+    ],
+    [
+     "art brush",
+     5
+    ],
+    [
+     "holding calligraphy brush",
+     4
+    ]
+   ],
+   "crescent_print": [
+    [
+     "crescent print",
+     6
+    ]
+   ],
+   "segmented_comic": [
+    [
+     "segmented comic",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ],
+    [
+     "right-to-left comic",
+     2
+    ],
+    [
+     "vertical scroll comic",
+     1
+    ]
+   ],
+   "official_alternate_color": [
+    [
+     "official alternate color",
+     6
+    ]
+   ],
+   "sticker_(medium)": [
+    [
+     "sticker (medium)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "sexualized chibi",
+     4
+    ]
+   ],
+   "nail_art": [
+    [
+     "nail art",
+     6
+    ]
+   ],
+   "glitch_art": [
+    [
+     "glitch art",
+     6
+    ]
+   ],
+   "mechanical_pencil": [
+    [
+     "mechanical pencil",
+     6
+    ],
+    [
+     "pencil",
+     5
+    ],
+    [
+     "holding pencil",
+     4
+    ]
+   ],
+   "poster_(medium)": [
+    [
+     "poster (medium)",
+     6
+    ]
+   ],
+   "bear_print": [
+    [
+     "bear print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "faux_retro_artstyle": [
+    [
+     "faux retro artstyle",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "faux traditional media",
+     4
+    ]
+   ],
+   "rainbow_gradient": [
+    [
+     "rainbow gradient",
+     6
+    ]
+   ],
+   "clover_print": [
+    [
+     "clover print",
+     6
+    ]
+   ],
+   "frog_print": [
+    [
+     "frog print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "tarot_(medium)": [
+    [
+     "tarot (medium)",
+     6
+    ],
+    [
+     "surreal",
+     5
+    ]
+   ],
+   "fish_print": [
+    [
+     "fish print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "sparkle_print": [
+    [
+     "sparkle print",
+     6
+    ]
+   ],
+   "dithering": [
+    [
+     "dithering",
+     6
+    ],
+    [
+     "pixel art",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ]
+   ],
+   "blue_outline": [
+    [
+     "blue outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "white outline",
+     1
+    ]
+   ],
+   "red_outline": [
+    [
+     "red outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "yellow outline",
+     4
+    ],
+    [
+     "pink outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ]
+   ],
+   "through_medium": [
+    [
+     "through medium",
+     6
+    ]
+   ],
+   "triangle_print": [
+    [
+     "triangle print",
+     6
+    ]
+   ],
+   "yellow_outline": [
+    [
+     "yellow outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "black outline",
+     3
+    ],
+    [
+     "blue outline",
+     2
+    ],
+    [
+     "white outline",
+     1
+    ]
+   ],
+   "musical_note_print": [
+    [
+     "musical note print",
+     6
+    ]
+   ],
+   "anchor_print": [
+    [
+     "anchor print",
+     6
+    ]
+   ],
+   "calendar_(medium)": [
+    [
+     "calendar (medium)",
+     6
+    ]
+   ],
+   "left-to-right_manga": [
+    [
+     "left-to-right manga",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ],
+    [
+     "vertical scroll comic",
+     2
+    ],
+    [
+     "right-to-left comic",
+     1
+    ]
+   ],
+   "crayon": [
+    [
+     "crayon",
+     6
+    ],
+    [
+     "child's drawing",
+     5
+    ]
+   ],
+   "pink_outline": [
+    [
+     "pink outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "yellow outline",
+     4
+    ],
+    [
+     "black outline",
+     3
+    ],
+    [
+     "blue outline",
+     2
+    ]
+   ],
+   "multiple_monochrome": [
+    [
+     "multiple monochrome",
+     6
+    ]
+   ],
+   "western_comics_(style)": [
+    [
+     "western comics (style)",
+     6
+    ]
+   ],
+   "maple_leaf_print": [
+    [
+     "maple leaf print",
+     6
+    ],
+    [
+     "leaf print",
+     5
+    ]
+   ],
+   "bird_print": [
+    [
+     "bird print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "zun_(style)": [
+    [
+     "zun (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "lightning_bolt_print": [
+    [
+     "lightning bolt print",
+     6
+    ]
+   ],
+   "holding_photo": [
+    [
+     "holding photo",
+     6
+    ],
+    [
+     "comic",
+     5
+    ]
+   ],
+   "art_nouveau": [
+    [
+     "art nouveau",
+     3
+    ],
+    [
+     "ornate",
+     2
+    ],
+    [
+     "floral pattern",
+     2
+    ],
+    [
+     "gold trim",
+     1
+    ],
+    [
+     "decorative border",
+     1
+    ]
+   ],
+   "skeleton_print": [
+    [
+     "skeleton print",
+     6
+    ]
+   ],
+   "polaroid_photo": [
+    [
+     "polaroid photo",
+     6
+    ],
+    [
+     "holding photo",
+     5
+    ]
+   ],
+   "hexagon_print": [
+    [
+     "hexagon print",
+     6
+    ]
+   ],
+   "art_brush": [
+    [
+     "art brush",
+     6
+    ],
+    [
+     "paint palette",
+     5
+    ],
+    [
+     "holding calligraphy brush",
+     4
+    ],
+    [
+     "calligraphy brush",
+     3
+    ]
+   ],
+   "number_print": [
+    [
+     "number print",
+     6
+    ]
+   ],
+   "makeup_brush": [
+    [
+     "makeup brush",
+     6
+    ],
+    [
+     "holding brush",
+     5
+    ]
+   ],
+   "1970s_(style)": [
+    [
+     "1970s (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "faux retro artstyle",
+     4
+    ]
+   ],
+   "pinup_(style)": [
+    [
+     "pinup (style)",
+     6
+    ]
+   ],
+   "araki_hirohiko_(style)": [
+    [
+     "araki hirohiko (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "comic",
+     3
+    ],
+    [
+     "greyscale",
+     2
+    ]
+   ],
+   "holding_calligraphy_brush": [
+    [
+     "holding calligraphy brush",
+     6
+    ],
+    [
+     "calligraphy brush",
+     5
+    ],
+    [
+     "art brush",
+     4
+    ]
+   ],
+   "thick_lineart": [
+    [
+     "thick lineart",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ]
+   ],
+   "brazilian_flag_print": [
+    [
+     "brazilian flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ]
+   ],
+   "movie_poster_(medium)": [
+    [
+     "movie poster (medium)",
+     6
+    ]
+   ],
+   "spider_print": [
+    [
+     "spider print",
+     6
+    ],
+    [
+     "spider web print",
+     5
+    ],
+    [
+     "animal print",
+     4
+    ]
+   ],
+   "green_outline": [
+    [
+     "green outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ],
+    [
+     "white outline",
+     1
+    ]
+   ],
+   "toriyama_akira_(style)": [
+    [
+     "toriyama akira (style)",
+     6
+    ]
+   ],
+   "puchimasu!_(style)": [
+    [
+     "puchimasu! (style)",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "chibi",
+     4
+    ]
+   ],
+   "box_art": [
+    [
+     "box art",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "realistic",
+     4
+    ]
+   ],
+   "yin_yang_print": [
+    [
+     "yin yang print",
+     6
+    ]
+   ],
+   "complementary_colors": [
+    [
+     "complementary colors",
+     6
+    ]
+   ],
+   "snake_print": [
+    [
+     "snake print",
+     6
+    ]
+   ],
+   "cherry_print": [
+    [
+     "cherry print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ],
+    [
+     "strawberry print",
+     4
+    ]
+   ],
+   "child's_drawing": [
+    [
+     "child's drawing",
+     6
+    ],
+    [
+     "crayon",
+     5
+    ],
+    [
+     "comic",
+     4
+    ]
+   ],
+   "space_print": [
+    [
+     "space print",
+     6
+    ]
+   ],
+   "grey_outline": [
+    [
+     "grey outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ],
+    [
+     "white outline",
+     1
+    ]
+   ],
+   "holding_paint_palette": [
+    [
+     "holding paint palette",
+     6
+    ],
+    [
+     "paint palette",
+     5
+    ],
+    [
+     "art brush",
+     4
+    ],
+    [
+     "holding calligraphy brush",
+     3
+    ]
+   ],
+   "analogous_colors": [
+    [
+     "analogous colors",
+     6
+    ],
+    [
+     "warm colors",
+     5
+    ],
+    [
+     "cool colors",
+     4
+    ]
+   ],
+   "vertical_scroll_comic": [
+    [
+     "vertical scroll comic",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ],
+    [
+     "right-to-left comic",
+     2
+    ],
+    [
+     "left-to-right manga",
+     1
+    ]
+   ],
+   "purple_outline": [
+    [
+     "purple outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ]
+   ],
+   "traditional_media": [
+    [
+     "traditional media",
+     3
+    ],
+    [
+     "watercolor (medium)",
+     2
+    ],
+    [
+     "oil painting (medium)",
+     2
+    ],
+    [
+     "graphite (medium)",
+     1
+    ],
+    [
+     "colored pencil (medium)",
+     1
+    ],
+    [
+     "marker (medium)",
+     1
+    ],
+    [
+     "ballpoint pen (medium)",
+     1
+    ],
+    [
+     "millipen (medium)",
+     1
+    ]
+   ],
+   "sun_print": [
+    [
+     "sun print",
+     6
+    ],
+    [
+     "constellation print",
+     5
+    ]
+   ],
+   "zebra_print": [
+    [
+     "zebra print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "cool_colors": [
+    [
+     "cool colors",
+     6
+    ],
+    [
+     "analogous colors",
+     5
+    ],
+    [
+     "warm colors",
+     4
+    ]
+   ],
+   "riyo_(lyomsnpmp)_(style)": [
+    [
+     "riyo (lyomsnpmp) (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "comic",
+     4
+    ]
+   ],
+   "sexualized_chibi": [
+    [
+     "sexualized chibi",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ]
+   ],
+   "piano_print": [
+    [
+     "piano print",
+     6
+    ]
+   ],
+   "colored_lineart": [
+    [
+     "colored lineart",
+     6
+    ]
+   ],
+   "shark_print": [
+    [
+     "shark print",
+     6
+    ]
+   ],
+   "neon_palette": [
+    [
+     "neon palette",
+     6
+    ]
+   ],
+   "shout_lines": [
+    [
+     "shout lines",
+     6
+    ]
+   ],
+   "arrow_print": [
+    [
+     "arrow print",
+     6
+    ]
+   ],
+   "ukiyo_e": [
+    [
+     "ukiyo-e",
+     3
+    ],
+    [
+     "traditional media",
+     2
+    ],
+    [
+     "woodblock print",
+     2
+    ],
+    [
+     "flat perspective",
+     1
+    ]
+   ],
+   "orange_outline": [
+    [
+     "orange outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ],
+    [
+     "white outline",
+     1
+    ]
+   ],
+   "right-to-left_comic": [
+    [
+     "right-to-left comic",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "segmented comic",
+     3
+    ],
+    [
+     "greyscale",
+     2
+    ],
+    [
+     "vertical scroll comic",
+     1
+    ]
+   ],
+   "lemon_print": [
+    [
+     "lemon print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ],
+    [
+     "strawberry print",
+     4
+    ]
+   ],
+   "carrot_print": [
+    [
+     "carrot print",
+     6
+    ]
+   ],
+   "bone_print": [
+    [
+     "bone print",
+     6
+    ]
+   ],
+   "jikkyou_powerful_pro_yakyuu_(style)": [
+    [
+     "jikkyou powerful pro yakyuu (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ]
+   ],
+   "ink_wash": [
+    [
+     "ink wash painting",
+     3
+    ],
+    [
+     "sumi-e",
+     2
+    ],
+    [
+     "monochrome",
+     1
+    ],
+    [
+     "splatter",
+     1
+    ],
+    [
+     "negative space",
+     1
+    ]
+   ],
+   "onigiri_print": [
+    [
+     "onigiri print",
+     6
+    ]
+   ],
+   "pc-98_(style)": [
+    [
+     "pc-98 (style)",
+     6
+    ],
+    [
+     "pixel art",
+     5
+    ],
+    [
+     "dithering",
+     4
+    ],
+    [
+     "retro artstyle",
+     3
+    ]
+   ],
+   "sugimori_ken_(style)": [
+    [
+     "sugimori ken (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "ghost_print": [
+    [
+     "ghost print",
+     6
+    ]
+   ],
+   "bkub_(style)": [
+    [
+     "bkub (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "comic",
+     4
+    ]
+   ],
+   "glowing_lines": [
+    [
+     "glowing lines",
+     6
+    ]
+   ],
+   "wave_print": [
+    [
+     "wave print",
+     6
+    ]
+   ],
+   "fake_photograph": [
+    [
+     "fake photograph",
+     6
+    ],
+    [
+     "polaroid photo",
+     5
+    ]
+   ],
+   "holding_chibi": [
+    [
+     "holding chibi",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "sexualized chibi",
+     4
+    ]
+   ],
+   "watermelon_print": [
+    [
+     "watermelon print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ],
+    [
+     "strawberry print",
+     4
+    ]
+   ],
+   "holding_drawing": [
+    [
+     "holding drawing",
+     6
+    ],
+    [
+     "child's drawing",
+     5
+    ],
+    [
+     "comic",
+     4
+    ]
+   ],
+   "vine_print": [
+    [
+     "vine print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ]
+   ],
+   "colored_pencil": [
+    [
+     "colored pencil",
+     6
+    ],
+    [
+     "pencil",
+     5
+    ],
+    [
+     "mechanical pencil",
+     4
+    ],
+    [
+     "holding pencil",
+     3
+    ]
+   ],
+   "kubo_tite_(style)": [
+    [
+     "kubo tite (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ]
+   ],
+   "musical_staff_print": [
+    [
+     "musical staff print",
+     6
+    ]
+   ],
+   "hibiscus_print": [
+    [
+     "hibiscus print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "latte_art": [
+    [
+     "latte art",
+     6
+    ]
+   ],
+   "bamboo_print": [
+    [
+     "bamboo print",
+     6
+    ]
+   ],
+   "giant_brush": [
+    [
+     "giant brush",
+     6
+    ],
+    [
+     "calligraphy brush",
+     5
+    ],
+    [
+     "holding calligraphy brush",
+     4
+    ],
+    [
+     "art brush",
+     3
+    ]
+   ],
+   "sunflower_print": [
+    [
+     "sunflower print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ],
+    [
+     "cherry blossom print",
+     4
+    ]
+   ],
+   "phoenix_print": [
+    [
+     "phoenix print",
+     6
+    ],
+    [
+     "crescent print",
+     5
+    ]
+   ],
+   "moon_print": [
+    [
+     "moon print",
+     6
+    ],
+    [
+     "star print",
+     5
+    ]
+   ],
+   "rainbow_print": [
+    [
+     "rainbow print",
+     6
+    ]
+   ],
+   "chrysanthemum_print": [
+    [
+     "chrysanthemum print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "diamond_print": [
+    [
+     "diamond print",
+     6
+    ]
+   ],
+   "wing_print": [
+    [
+     "wing print",
+     6
+    ]
+   ],
+   "scale_print": [
+    [
+     "scale print",
+     6
+    ]
+   ],
+   "vanripper_(style)": [
+    [
+     "vanripper (style)",
+     6
+    ]
+   ],
+   "grid_print": [
+    [
+     "grid print",
+     6
+    ]
+   ],
+   "holding_crayon": [
+    [
+     "holding crayon",
+     6
+    ],
+    [
+     "crayon",
+     5
+    ],
+    [
+     "child's drawing",
+     4
+    ]
+   ],
+   "peony_print": [
+    [
+     "peony print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "playing_card_(medium)": [
+    [
+     "playing card (medium)",
+     6
+    ]
+   ],
+   "dark_neon": [
+    [
+     "dark theme",
+     3
+    ],
+    [
+     "neon",
+     2
+    ],
+    [
+     "glowing",
+     2
+    ],
+    [
+     "backlighting",
+     2
+    ],
+    [
+     "silhouette",
+     1
+    ],
+    [
+     "limited palette",
+     1
+    ]
+   ],
+   "takeuchi_takashi_(style)": [
+    [
+     "takeuchi takashi (style)",
+     6
+    ]
+   ],
+   "panda_print": [
+    [
+     "panda print",
+     6
+    ],
+    [
+     "bear print",
+     5
+    ],
+    [
+     "animal print",
+     4
+    ]
+   ],
+   "fujiko_f_fujio_(style)": [
+    [
+     "fujiko f fujio (style)",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ]
+   ],
+   "crown_print": [
+    [
+     "crown print",
+     6
+    ]
+   ],
+   "spider_lily_print": [
+    [
+     "spider lily print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ],
+    [
+     "cherry blossom print",
+     4
+    ]
+   ],
+   "triforce_print": [
+    [
+     "triforce print",
+     6
+    ]
+   ],
+   "cleaning_brush": [
+    [
+     "cleaning brush",
+     6
+    ]
+   ],
+   "concept_art": [
+    [
+     "concept art",
+     3
+    ],
+    [
+     "realistic",
+     2
+    ],
+    [
+     "photorealistic",
+     2
+    ],
+    [
+     "vivid colors",
+     2
+    ]
+   ],
+   "sprite_art": [
+    [
+     "sprite art",
+     6
+    ],
+    [
+     "pixel art",
+     5
+    ],
+    [
+     "chibi",
+     4
+    ]
+   ],
+   "dog_print": [
+    [
+     "dog print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ],
+    [
+     "bird print",
+     4
+    ]
+   ],
+   "whale_print": [
+    [
+     "whale print",
+     6
+    ],
+    [
+     "fish print",
+     5
+    ],
+    [
+     "animal print",
+     4
+    ]
+   ],
+   "through_painting": [
+    [
+     "through painting",
+     6
+    ],
+    [
+     "through medium",
+     5
+    ]
+   ],
+   "inverted_colors": [
+    [
+     "inverted colors",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ]
+   ],
+   "aesthetic": [
+    [
+     "aesthetic",
+     6
+    ],
+    [
+     "maximalist style",
+     5
+    ]
+   ],
+   "orange_print": [
+    [
+     "orange print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ],
+    [
+     "strawberry print",
+     4
+    ]
+   ],
+   "giraffe_print": [
+    [
+     "giraffe print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ],
+    [
+     "bird print",
+     4
+    ]
+   ],
+   "holding_makeup_brush": [
+    [
+     "holding makeup brush",
+     6
+    ],
+    [
+     "holding brush",
+     5
+    ],
+    [
+     "makeup brush",
+     4
+    ]
+   ],
+   "petal_print": [
+    [
+     "petal print",
+     6
+    ]
+   ],
+   "morning_glory_print": [
+    [
+     "morning glory print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "soft_shading": [
+    [
+     "soft shading",
+     6
+    ],
+    [
+     "very aesthetic",
+     5
+    ],
+    [
+     "studio ghibli style",
+     4
+    ],
+    [
+     "soft pastel colors",
+     3
+    ],
+    [
+     "realistic anime art style",
+     2
+    ]
+   ],
+   "brown_outline": [
+    [
+     "brown outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ],
+    [
+     "chibi",
+     1
+    ]
+   ],
+   "apple_print": [
+    [
+     "apple print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ],
+    [
+     "strawberry print",
+     4
+    ]
+   ],
+   "game_controller_print": [
+    [
+     "game controller print",
+     6
+    ]
+   ],
+   "grape_print": [
+    [
+     "grape print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ]
+   ],
+   "sword_print": [
+    [
+     "sword print",
+     6
+    ]
+   ],
+   "holding_manga": [
+    [
+     "holding manga",
+     6
+    ]
+   ],
+   "cutie_mark_print": [
+    [
+     "cutie mark print",
+     6
+    ]
+   ],
+   "makeup_palette": [
+    [
+     "makeup palette",
+     6
+    ],
+    [
+     "makeup brush",
+     5
+    ]
+   ],
+   "shield_print": [
+    [
+     "shield print",
+     6
+    ]
+   ],
+   "logo_print": [
+    [
+     "logo print",
+     6
+    ]
+   ],
+   "pop_art": [
+    [
+     "pop art",
+     6
+    ]
+   ],
+   "cel_rendering": [
+    [
+     "cel rendering",
+     6
+    ]
+   ],
+   "mismatched_animal_ear_colors": [
+    [
+     "mismatched animal ear colors",
+     6
+    ]
+   ],
+   "minecraft_(style)": [
+    [
+     "minecraft (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ],
+    [
+     "chibi",
+     4
+    ]
+   ],
+   "fake_box_art": [
+    [
+     "fake box art",
+     6
+    ]
+   ],
+   "imageboard_colors": [
+    [
+     "imageboard colors",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ]
+   ],
+   "crayon_drawing": [
+    [
+     "crayon drawing",
+     6
+    ],
+    [
+     "crayon",
+     5
+    ],
+    [
+     "child's drawing",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "stylized": [
+    [
+     "stylized",
+     6
+    ],
+    [
+     "maximalist style",
+     5
+    ],
+    [
+     "splash art",
+     4
+    ],
+    [
+     "db4rz style painting",
+     3
+    ]
+   ],
+   "anime_screencap": [
+    [
+     "anime screencap",
+     6
+    ]
+   ],
+   "komatsuzaki_rui_(style)": [
+    [
+     "komatsuzaki rui (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "source_anime": [
+    [
+     "source_anime",
+     6
+    ],
+    [
+     "flat colors",
+     5
+    ],
+    [
+     "very aesthetic",
+     4
+    ]
+   ],
+   "takenami_hideyuki_(style)": [
+    [
+     "takenami hideyuki (style)",
+     6
+    ]
+   ],
+   "ishikei_(style)": [
+    [
+     "ishikei (style)",
+     6
+    ]
+   ],
+   "multiple_theme_colors": [
+    [
+     "multiple theme colors",
+     6
+    ]
+   ],
+   "camellia_print": [
+    [
+     "camellia print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "lolita_print": [
+    [
+     "lolita print",
+     6
+    ]
+   ],
+   "plum_blossom_print": [
+    [
+     "plum blossom print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "official_art": [
+    [
+     "official art",
+     6
+    ],
+    [
+     "high quality digital art",
+     5
+    ],
+    [
+     "advertising style",
+     4
+    ],
+    [
+     "very aesthetic",
+     3
+    ],
+    [
+     "vivid colors",
+     2
+    ]
+   ],
+   "fukumoto_nobuyuki_(style)": [
+    [
+     "fukumoto nobuyuki (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ],
+    [
+     "official style",
+     2
+    ]
+   ],
+   "watanabe_akio_(style)": [
+    [
+     "watanabe akio (style)",
+     6
+    ],
+    [
+     "faux retro artstyle",
+     5
+    ]
+   ],
+   "itou_ikuko_(style)": [
+    [
+     "itou ikuko (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "official style",
+     4
+    ]
+   ],
+   "jack-o'-lantern_print": [
+    [
+     "jack-o'-lantern print",
+     6
+    ]
+   ],
+   "no_print": [
+    [
+     "no print",
+     6
+    ]
+   ],
+   "ohisashiburi_(style)": [
+    [
+     "ohisashiburi (style)",
+     6
+    ]
+   ],
+   "masanori_sato_(style)": [
+    [
+     "masanori sato (style)",
+     6
+    ]
+   ],
+   "omocat_(style)": [
+    [
+     "omocat (style)",
+     6
+    ]
+   ],
+   "white_tiger_print": [
+    [
+     "white tiger print",
+     6
+    ],
+    [
+     "tiger print",
+     5
+    ],
+    [
+     "animal print",
+     4
+    ]
+   ],
+   "chalk_drawing": [
+    [
+     "chalk drawing",
+     6
+    ]
+   ],
+   "nose_art": [
+    [
+     "nose art",
+     6
+    ]
+   ],
+   "aqua_outline": [
+    [
+     "aqua outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "pink outline",
+     4
+    ],
+    [
+     "yellow outline",
+     3
+    ],
+    [
+     "black outline",
+     2
+    ],
+    [
+     "blue outline",
+     1
+    ],
+    [
+     "white outline",
+     1
+    ]
+   ],
+   "lily_print": [
+    [
+     "lily print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ],
+    [
+     "cherry blossom print",
+     4
+    ]
+   ],
+   "gyari_(imagesdawn)_(style)": [
+    [
+     "gyari (imagesdawn) (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "emphasis lines",
+     4
+    ]
+   ],
+   "trim_brush": [
+    [
+     "trim brush",
+     6
+    ],
+    [
+     "art brush",
+     5
+    ],
+    [
+     "paint palette",
+     4
+    ],
+    [
+     "holding calligraphy brush",
+     3
+    ]
+   ],
+   "horse_print": [
+    [
+     "horse print",
+     6
+    ],
+    [
+     "star print",
+     5
+    ],
+    [
+     "chibi",
+     4
+    ]
+   ],
+   "ascii_art": [
+    [
+     "ascii art",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ]
+   ],
+   "self_character_print": [
+    [
+     "self character print",
+     6
+    ],
+    [
+     "character print",
+     5
+    ]
+   ],
+   "id_photo": [
+    [
+     "id photo",
+     6
+    ]
+   ],
+   "charles_schulz_(style)": [
+    [
+     "charles schulz (style)",
+     6
+    ],
+    [
+     "comic",
+     5
+    ]
+   ],
+   "egyptian_art": [
+    [
+     "egyptian art",
+     6
+    ]
+   ],
+   "mushroom_print": [
+    [
+     "mushroom print",
+     6
+    ]
+   ],
+   "1960s_(style)": [
+    [
+     "1960s (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "faux retro artstyle",
+     4
+    ]
+   ],
+   "halftone_outline": [
+    [
+     "halftone outline",
+     6
+    ],
+    [
+     "halftone",
+     5
+    ],
+    [
+     "outline",
+     4
+    ],
+    [
+     "pink outline",
+     3
+    ],
+    [
+     "yellow outline",
+     2
+    ],
+    [
+     "black outline",
+     1
+    ],
+    [
+     "blue outline",
+     1
+    ]
+   ],
+   "lotus_print": [
+    [
+     "lotus print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "aoki_ume_(style)": [
+    [
+     "aoki ume (style)",
+     6
+    ]
+   ],
+   "wooden_pencil": [
+    [
+     "wooden pencil",
+     6
+    ],
+    [
+     "pencil",
+     5
+    ],
+    [
+     "holding pencil",
+     4
+    ],
+    [
+     "mechanical pencil",
+     3
+    ]
+   ],
+   "horseshoe_print": [
+    [
+     "horseshoe print",
+     6
+    ]
+   ],
+   "splash_art": [
+    [
+     "splash art",
+     6
+    ],
+    [
+     "maximalist style",
+     5
+    ],
+    [
+     "anime",
+     4
+    ],
+    [
+     "stylized",
+     3
+    ],
+    [
+     "db4rz style painting",
+     2
+    ]
+   ],
+   "line_art": [
+    [
+     "line art",
+     6
+    ],
+    [
+     "sketch art",
+     5
+    ],
+    [
+     "very aesthetic",
+     4
+    ],
+    [
+     "no outline",
+     3
+    ]
+   ],
+   "nail_polish_brush": [
+    [
+     "nail polish brush",
+     6
+    ]
+   ],
+   "gear_print": [
+    [
+     "gear print",
+     6
+    ]
+   ],
+   "harukawa_moe_(style)": [
+    [
+     "harukawa moe (style)",
+     6
+    ]
+   ],
+   "elevation_contour_lines": [
+    [
+     "elevation contour lines",
+     6
+    ]
+   ],
+   "broken_heart_print": [
+    [
+     "broken heart print",
+     6
+    ]
+   ],
+   "goldfish_print": [
+    [
+     "goldfish print",
+     6
+    ],
+    [
+     "fish print",
+     5
+    ],
+    [
+     "animal print",
+     4
+    ],
+    [
+     "floral print",
+     3
+    ]
+   ],
+   "delta_rune_print": [
+    [
+     "delta rune print",
+     6
+    ]
+   ],
+   "bikkuriman_(style)": [
+    [
+     "bikkuriman (style)",
+     6
+    ],
+    [
+     "white outline",
+     5
+    ],
+    [
+     "outline",
+     4
+    ],
+    [
+     "chibi",
+     3
+    ]
+   ],
+   "italian_flag_print": [
+    [
+     "italian flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ]
+   ],
+   "union_jack_print": [
+    [
+     "union jack print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ]
+   ],
+   "fox_print": [
+    [
+     "fox print",
+     6
+    ]
+   ],
+   "tree_print": [
+    [
+     "tree print",
+     6
+    ]
+   ],
+   "fujimoto_tatsuki_(style)": [
+    [
+     "fujimoto tatsuki (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "pineapple_print": [
+    [
+     "pineapple print",
+     6
+    ]
+   ],
+   "pokemon_rgby_(style)": [
+    [
+     "pokemon rgby (style)",
+     6
+    ],
+    [
+     "pixel art",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "multiple monochrome",
+     3
+    ]
+   ],
+   "walfie_(style)": [
+    [
+     "walfie (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ]
+   ],
+   "channel_(caststation)_(style)": [
+    [
+     "channel (caststation) (style)",
+     6
+    ]
+   ],
+   "kantoku_(style)": [
+    [
+     "kantoku (style)",
+     6
+    ]
+   ],
+   "circuit_board_print": [
+    [
+     "circuit board print",
+     6
+    ]
+   ],
+   "teeth_print": [
+    [
+     "teeth print",
+     6
+    ]
+   ],
+   "glass_pen": [
+    [
+     "glass pen",
+     6
+    ],
+    [
+     "holding pen",
+     5
+    ],
+    [
+     "pen",
+     4
+    ]
+   ],
+   "interactive_media": [
+    [
+     "interactive media",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "chibi",
+     4
+    ]
+   ],
+   "double_dakimakura_(medium)": [
+    [
+     "double dakimakura (medium)",
+     6
+    ]
+   ],
+   "takemoto_izumi_(style)": [
+    [
+     "takemoto izumi (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "monochrome",
+     3
+    ],
+    [
+     "comic",
+     2
+    ]
+   ],
+   "splatter_print": [
+    [
+     "splatter print",
+     6
+    ]
+   ],
+   "racing_colors": [
+    [
+     "racing colors",
+     6
+    ]
+   ],
+   "hara_tetsuo_(style)": [
+    [
+     "hara tetsuo (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "nakayama_tooru_(style)": [
+    [
+     "nakayama tooru (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "oda_eiichirou_(style)": [
+    [
+     "oda eiichirou (style)",
+     6
+    ]
+   ],
+   "honeycomb_print": [
+    [
+     "honeycomb print",
+     6
+    ],
+    [
+     "hexagon print",
+     5
+    ]
+   ],
+   "genius_invokation_tcg_(style)": [
+    [
+     "genius invokation tcg (style)",
+     6
+    ]
+   ],
+   "clamp_(circle)_(style)": [
+    [
+     "clamp (circle) (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "gothic": [
+    [
+     "gothic",
+     3
+    ],
+    [
+     "dark fantasy",
+     2
+    ],
+    [
+     "ornate",
+     1
+    ],
+    [
+     "lace trim",
+     1
+    ],
+    [
+     "dark theme",
+     2
+    ],
+    [
+     "candlelight",
+     1
+    ]
+   ],
+   "arawi_keiichi_(style)": [
+    [
+     "arawi keiichi (style)",
+     6
+    ]
+   ],
+   "mustache_print": [
+    [
+     "mustache print",
+     6
+    ]
+   ],
+   "hanamiya_nina_(style)": [
+    [
+     "hanamiya nina (style)",
+     6
+    ],
+    [
+     "child's drawing",
+     5
+    ]
+   ],
+   "dunhuang_style": [
+    [
+     "dunhuang style",
+     6
+    ]
+   ],
+   "chocolate_print": [
+    [
+     "chocolate print",
+     6
+    ]
+   ],
+   "ueda_masashi_(style)": [
+    [
+     "ueda masashi (style)",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "vertical scroll comic",
+     4
+    ]
+   ],
+   "keikenchi_(style)": [
+    [
+     "keikenchi (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ]
+   ],
+   "rebecca_sugar_(style)": [
+    [
+     "rebecca sugar (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ],
+    [
+     "comic",
+     4
+    ]
+   ],
+   "fireworks_print": [
+    [
+     "fireworks print",
+     6
+    ]
+   ],
+   "soejima_shigenori_(style)": [
+    [
+     "soejima shigenori (style)",
+     6
+    ]
+   ],
+   "pumpkin_print": [
+    [
+     "pumpkin print",
+     6
+    ]
+   ],
+   "duck_print": [
+    [
+     "duck print",
+     6
+    ]
+   ],
+   "wada_arco_(style)": [
+    [
+     "wada arco (style)",
+     6
+    ]
+   ],
+   "thorn_print": [
+    [
+     "thorn print",
+     6
+    ]
+   ],
+   "pendleton_ward_(style)": [
+    [
+     "pendleton ward (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "candy_print": [
+    [
+     "candy print",
+     6
+    ]
+   ],
+   "saru_(style)": [
+    [
+     "saru (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "silent comic",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "phonecard_(medium)": [
+    [
+     "phonecard (medium)",
+     6
+    ]
+   ],
+   "spiral_print": [
+    [
+     "spiral print",
+     6
+    ]
+   ],
+   "feather_print": [
+    [
+     "feather print",
+     6
+    ]
+   ],
+   "nomura_tetsuya_(style)": [
+    [
+     "nomura tetsuya (style)",
+     6
+    ]
+   ],
+   "neapolitan_palette": [
+    [
+     "neapolitan palette",
+     6
+    ]
+   ],
+   "fish_skeleton_print": [
+    [
+     "fish skeleton print",
+     6
+    ]
+   ],
+   "mifune_takashi_(style)": [
+    [
+     "mifune takashi (style)",
+     6
+    ],
+    [
+     "comic",
+     5
+    ]
+   ],
+   "wisteria_print": [
+    [
+     "wisteria print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "shoe_print": [
+    [
+     "shoe print",
+     6
+    ]
+   ],
+   "wheat_print": [
+    [
+     "wheat print",
+     6
+    ]
+   ],
+   "crane_print": [
+    [
+     "crane print",
+     6
+    ],
+    [
+     "bird print",
+     5
+    ],
+    [
+     "animal print",
+     4
+    ],
+    [
+     "floral print",
+     3
+    ]
+   ],
+   "pastels": [
+    [
+     "pastels",
+     6
+    ]
+   ],
+   "argentinian_flag_print": [
+    [
+     "argentinian flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ]
+   ],
+   "himura_kiseki_(style)": [
+    [
+     "himura kiseki (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "official style",
+     4
+    ]
+   ],
+   "kurokw_(style)": [
+    [
+     "kurokw (style)",
+     6
+    ]
+   ],
+   "peach_print": [
+    [
+     "peach print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ],
+    [
+     "strawberry print",
+     4
+    ]
+   ],
+   "octane_render": [
+    [
+     "octane render",
+     6
+    ]
+   ],
+   "digital_painting": [
+    [
+     "digital painting",
+     6
+    ],
+    [
+     "very aesthetic",
+     5
+    ]
+   ],
+   "plant_print": [
+    [
+     "plant print",
+     6
+    ]
+   ],
+   "mamimi_(mamamimi)_(style)": [
+    [
+     "mamimi (mamamimi) (style)",
+     6
+    ]
+   ],
+   "shibafu_(glock23)_(style)": [
+    [
+     "shibafu (glock23) (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "donut_print": [
+    [
+     "donut print",
+     6
+    ]
+   ],
+   "ke-ta_(style)": [
+    [
+     "ke-ta (style)",
+     6
+    ]
+   ],
+   "usui_yoshito_(style)": [
+    [
+     "usui yoshito (style)",
+     6
+    ],
+    [
+     "comic",
+     5
+    ]
+   ],
+   "asanagi_(style)": [
+    [
+     "asanagi (style)",
+     6
+    ]
+   ],
+   "takahashi_rumiko_(style)": [
+    [
+     "takahashi rumiko (style)",
+     6
+    ],
+    [
+     "tiger print",
+     5
+    ],
+    [
+     "animal print",
+     4
+    ]
+   ],
+   "shuriken_print": [
+    [
+     "shuriken print",
+     6
+    ]
+   ],
+   "granblue_fantasy_(style)": [
+    [
+     "granblue fantasy (style)",
+     6
+    ]
+   ],
+   "horikoshi_kouhei_(style)": [
+    [
+     "horikoshi kouhei (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ]
+   ],
+   "bubble_print": [
+    [
+     "bubble print",
+     6
+    ]
+   ],
+   "namori_(style)": [
+    [
+     "namori (style)",
+     6
+    ]
+   ],
+   "amano_yoshitaka_(style)": [
+    [
+     "amano yoshitaka (style)",
+     6
+    ]
+   ],
+   "panther_print": [
+    [
+     "panther print",
+     6
+    ]
+   ],
+   "gradient_outline": [
+    [
+     "gradient outline",
+     6
+    ],
+    [
+     "outline",
+     5
+    ],
+    [
+     "blue outline",
+     4
+    ],
+    [
+     "pink outline",
+     3
+    ],
+    [
+     "yellow outline",
+     2
+    ],
+    [
+     "black outline",
+     1
+    ]
+   ],
+   "snowman_print": [
+    [
+     "snowman print",
+     6
+    ]
+   ],
+   "ilya_kuvshinov_(style)": [
+    [
+     "ilya kuvshinov (style)",
+     6
+    ],
+    [
+     "realistic",
+     5
+    ]
+   ],
+   "clock_print": [
+    [
+     "clock print",
+     6
+    ]
+   ],
+   "disappearance_outline": [
+    [
+     "disappearance outline",
+     6
+    ],
+    [
+     "comic",
+     5
+    ]
+   ],
+   "spoken_paw_print": [
+    [
+     "spoken paw print",
+     6
+    ],
+    [
+     "paw print",
+     5
+    ]
+   ],
+   "terada_tera_(style)": [
+    [
+     "terada tera (style)",
+     6
+    ]
+   ],
+   "semi_realistic": [
+    [
+     "semi-realistic",
+     3
+    ],
+    [
+     "impressionism",
+     2
+    ]
+   ],
+   "cel_shading": [
+    [
+     "cel shading",
+     3
+    ],
+    [
+     "clean lineart",
+     2
+    ],
+    [
+     "flat color",
+     2
+    ],
+    [
+     "anime coloring",
+     1
+    ]
+   ],
+   "cutesexyrobutts_(style)": [
+    [
+     "cutesexyrobutts (style)",
+     6
+    ]
+   ],
+   "chalk_outline": [
+    [
+     "chalk outline",
+     6
+    ]
+   ],
+   "alternate_wing_color": [
+    [
+     "alternate wing color",
+     6
+    ]
+   ],
+   "greek_painting_style": [
+    [
+     "greek painting style",
+     6
+    ]
+   ],
+   "japanese_flag_print": [
+    [
+     "japanese flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ],
+    [
+     "american flag print",
+     4
+    ]
+   ],
+   "1930s_(style)": [
+    [
+     "1930s (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ]
+   ],
+   "checkered_print": [
+    [
+     "checkered print",
+     6
+    ]
+   ],
+   "mosaic_art": [
+    [
+     "mosaic art",
+     6
+    ]
+   ],
+   "tsunako_(style)": [
+    [
+     "tsunako (style)",
+     6
+    ]
+   ],
+   "crab_print": [
+    [
+     "crab print",
+     6
+    ]
+   ],
+   "chick_print": [
+    [
+     "chick print",
+     6
+    ]
+   ],
+   "balance_scale_print": [
+    [
+     "balance scale print",
+     6
+    ]
+   ],
+   "clear_file_(medium)": [
+    [
+     "clear file (medium)",
+     6
+    ]
+   ],
+   "map_(medium)": [
+    [
+     "map (medium)",
+     6
+    ]
+   ],
+   "takahashi_kazuki_(style)": [
+    [
+     "takahashi kazuki (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ]
+   ],
+   "nemlei_(style)": [
+    [
+     "nemlei (style)",
+     6
+    ]
+   ],
+   "banana_print": [
+    [
+     "banana print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ],
+    [
+     "strawberry print",
+     4
+    ]
+   ],
+   "diyap_(style)": [
+    [
+     "diyap (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "sexualized chibi",
+     4
+    ]
+   ],
+   "christmas_tree_print": [
+    [
+     "christmas tree print",
+     6
+    ]
+   ],
+   "tatsuki_(irodori)_(style)": [
+    [
+     "tatsuki (irodori) (style)",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ],
+    [
+     "official style",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "cake_print": [
+    [
+     "cake print",
+     6
+    ],
+    [
+     "fruit print",
+     5
+    ]
+   ],
+   "koge_donbo_(style)": [
+    [
+     "koge donbo (style)",
+     6
+    ]
+   ],
+   "hello_kitty_print": [
+    [
+     "hello kitty print",
+     6
+    ],
+    [
+     "character print",
+     5
+    ]
+   ],
+   "umakoshi_yoshihiko_(style)": [
+    [
+     "umakoshi yoshihiko (style)",
+     6
+    ]
+   ],
+   "letter_print": [
+    [
+     "letter print",
+     6
+    ]
+   ],
+   "german_flag_print": [
+    [
+     "german flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ]
+   ],
+   "urushihara_satoshi_(style)": [
+    [
+     "urushihara satoshi (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ]
+   ],
+   "spoken_notice_lines": [
+    [
+     "spoken notice lines",
+     6
+    ],
+    [
+     "notice lines",
+     5
+    ]
+   ],
+   "gustav_klimt_(style)": [
+    [
+     "gustav klimt (style)",
+     6
+    ]
+   ],
+   "hydrangea_print": [
+    [
+     "hydrangea print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "xiangyun_print": [
+    [
+     "xiangyun print",
+     6
+    ],
+    [
+     "cloud print",
+     5
+    ]
+   ],
+   "star_color_pen": [
+    [
+     "star color pen",
+     6
+    ],
+    [
+     "pen",
+     5
+    ]
+   ],
+   "palm_tree_print": [
+    [
+     "palm tree print",
+     6
+    ]
+   ],
+   "kei_(keigarou)_(style)": [
+    [
+     "kei (keigarou) (style)",
+     6
+    ]
+   ],
+   "temari_print": [
+    [
+     "temari print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "tezuka_osamu_(style)": [
+    [
+     "tezuka osamu (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ],
+    [
+     "comic",
+     2
+    ],
+    [
+     "faux retro artstyle",
+     1
+    ]
+   ],
+   "iris_print": [
+    [
+     "iris print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ],
+    [
+     "cherry blossom print",
+     4
+    ]
+   ],
+   "powerpuff_girls_(style)": [
+    [
+     "powerpuff girls (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ]
+   ],
+   "chain_print": [
+    [
+     "chain print",
+     6
+    ]
+   ],
+   "cardiogram_print": [
+    [
+     "cardiogram print",
+     6
+    ]
+   ],
+   "ishikawa_ken_(style)": [
+    [
+     "ishikawa ken (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "official style",
+     4
+    ],
+    [
+     "monochrome",
+     3
+    ],
+    [
+     "greyscale",
+     2
+    ]
+   ],
+   "vincent_van_gogh_(style)": [
+    [
+     "vincent van gogh (style)",
+     6
+    ]
+   ],
+   "spring_onion_print": [
+    [
+     "spring onion print",
+     6
+    ]
+   ],
+   "imaishi_hiroyuki_(style)": [
+    [
+     "imaishi hiroyuki (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "holding_makeup_palette": [
+    [
+     "holding makeup palette",
+     6
+    ],
+    [
+     "makeup brush",
+     5
+    ],
+    [
+     "holding brush",
+     4
+    ]
+   ],
+   "fan_print": [
+    [
+     "fan print",
+     6
+    ],
+    [
+     "floral print",
+     5
+    ]
+   ],
+   "alternate_art_style": [
+    [
+     "alternate art style",
+     6
+    ]
+   ],
+   "french_flag_print": [
+    [
+     "french flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ]
+   ],
+   "dolphin_print": [
+    [
+     "dolphin print",
+     6
+    ]
+   ],
+   "nyantcha_(style)": [
+    [
+     "nyantcha (style)",
+     6
+    ]
+   ],
+   "art_deco": [
+    [
+     "art deco",
+     3
+    ],
+    [
+     "geometric",
+     2
+    ],
+    [
+     "symmetry",
+     2
+    ],
+    [
+     "gold accents",
+     1
+    ],
+    [
+     "stylised",
+     1
+    ]
+   ],
+   "studio_ghibli_(style)": [
+    [
+     "studio ghibli (style)",
+     6
+    ]
+   ],
+   "lion_print": [
+    [
+     "lion print",
+     6
+    ]
+   ],
+   "four-leaf_clover_print": [
+    [
+     "four-leaf clover print",
+     6
+    ],
+    [
+     "clover print",
+     5
+    ]
+   ],
+   "shark_nose_art": [
+    [
+     "shark nose art",
+     6
+    ]
+   ],
+   "scotch_(cookie)_(style)": [
+    [
+     "scotch (cookie) (style)",
+     6
+    ]
+   ],
+   "nakaue_shigehisa_(style)": [
+    [
+     "nakaue shigehisa (style)",
+     6
+    ]
+   ],
+   "yasuhiko_yoshikazu_(style)": [
+    [
+     "yasuhiko yoshikazu (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ]
+   ],
+   "minimalist": [
+    [
+     "minimalist",
+     3
+    ],
+    [
+     "simple background",
+     2
+    ],
+    [
+     "negative space",
+     2
+    ],
+    [
+     "limited palette",
+     2
+    ]
+   ],
+   "ryukishi07_(style)": [
+    [
+     "ryukishi07 (style)",
+     6
+    ]
+   ],
+   "animal_crossing_(style)": [
+    [
+     "animal crossing (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "sexualized chibi",
+     4
+    ]
+   ],
+   "onono_imoko_(style)": [
+    [
+     "onono imoko (style)",
+     6
+    ]
+   ],
+   "smile_lines": [
+    [
+     "smile lines",
+     6
+    ]
+   ],
+   "mirage_pen": [
+    [
+     "mirage pen",
+     6
+    ]
+   ],
+   "ice_cream_print": [
+    [
+     "ice cream print",
+     6
+    ]
+   ],
+   "yoshida_akihiko_(style)": [
+    [
+     "yoshida akihiko (style)",
+     6
+    ]
+   ],
+   "knot_print": [
+    [
+     "knot print",
+     6
+    ]
+   ],
+   "transgender_flag_print": [
+    [
+     "transgender flag print",
+     6
+    ]
+   ],
+   "holding_painting": [
+    [
+     "holding painting",
+     6
+    ]
+   ],
+   "sadamoto_yoshiyuki_(style)": [
+    [
+     "sadamoto yoshiyuki (style)",
+     6
+    ]
+   ],
+   "shinkawa_youji_(style)": [
+    [
+     "shinkawa youji (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ]
+   ],
+   "aoyama_goushou_(style)": [
+    [
+     "aoyama goushou (style)",
+     6
+    ]
+   ],
+   "octopus_print": [
+    [
+     "octopus print",
+     6
+    ]
+   ],
+   "dinosaur_print": [
+    [
+     "dinosaur print",
+     6
+    ]
+   ],
+   "magatama_print": [
+    [
+     "magatama print",
+     6
+    ]
+   ],
+   "ultraman_suit_(hero's_comics)": [
+    [
+     "ultraman suit (hero's comics)",
+     6
+    ]
+   ],
+   "kurumada_masami_(style)": [
+    [
+     "kurumada masami (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ]
+   ],
+   "penguin_print": [
+    [
+     "penguin print",
+     6
+    ]
+   ],
+   "shell_print": [
+    [
+     "shell print",
+     6
+    ]
+   ],
+   "ankh_print": [
+    [
+     "ankh print",
+     6
+    ]
+   ],
+   "playing_card_print": [
+    [
+     "playing card print",
+     6
+    ]
+   ],
+   "kozaki_yuusuke_(style)": [
+    [
+     "kozaki yuusuke (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "norwegian_flag_print": [
+    [
+     "norwegian flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ]
+   ],
+   "matsumoto_leiji_(style)": [
+    [
+     "matsumoto leiji (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "official style",
+     4
+    ]
+   ],
+   "mouse_print": [
+    [
+     "mouse print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "alternate_eyebrow_color": [
+    [
+     "alternate eyebrow color",
+     6
+    ]
+   ],
+   "halftone_dot_(medium)": [
+    [
+     "halftone dot (medium)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "mochizuki_kei_(style)": [
+    [
+     "mochizuki kei (style)",
+     6
+    ]
+   ],
+   "pill_print": [
+    [
+     "pill print",
+     6
+    ]
+   ],
+   "yamashita_ikuto_(style)": [
+    [
+     "yamashita ikuto (style)",
+     6
+    ]
+   ],
+   "sheep_print": [
+    [
+     "sheep print",
+     6
+    ]
+   ],
+   "bee_print": [
+    [
+     "bee print",
+     6
+    ]
+   ],
+   "matte_painting": [
+    [
+     "matte painting",
+     3
+    ],
+    [
+     "concept art",
+     2
+    ],
+    [
+     "epic scale",
+     2
+    ],
+    [
+     "atmospheric perspective",
+     1
+    ]
+   ],
+   "watercolor_style": [
+    [
+     "watercolor style",
+     6
+    ],
+    [
+     "no outline",
+     5
+    ]
+   ],
+   "tokiame_(style)": [
+    [
+     "tokiame (style)",
+     6
+    ]
+   ],
+   "horizontal_comic": [
+    [
+     "horizontal comic",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "right-to-left comic",
+     4
+    ]
+   ],
+   "inverted_cross_print": [
+    [
+     "inverted cross print",
+     6
+    ],
+    [
+     "cross print",
+     5
+    ]
+   ],
+   "kishimoto_masashi_(style)": [
+    [
+     "kishimoto masashi (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "himukai_yuuji_(style)": [
+    [
+     "himukai yuuji (style)",
+     6
+    ]
+   ],
+   "peacock_print": [
+    [
+     "peacock print",
+     6
+    ]
+   ],
+   "fine_art": [
+    [
+     "fine art",
+     6
+    ],
+    [
+     "realistic",
+     5
+    ],
+    [
+     "photorealistic",
+     4
+    ]
+   ],
+   "mikimoto_haruhiko_(style)": [
+    [
+     "mikimoto haruhiko (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "official style",
+     4
+    ]
+   ],
+   "yoshizaki_mine_(style)": [
+    [
+     "yoshizaki mine (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ],
+    [
+     "chibi",
+     4
+    ]
+   ],
+   "funamusea_(style)": [
+    [
+     "funamusea (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "shitajiki_(medium)": [
+    [
+     "shitajiki (medium)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ]
+   ],
+   "uekawa_yuji_(style)": [
+    [
+     "uekawa yuji (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "koi_(koisan)_(style)": [
+    [
+     "koi (koisan) (style)",
+     6
+    ],
+    [
+     "anime coloring",
+     5
+    ]
+   ],
+   "dragonfly_print": [
+    [
+     "dragonfly print",
+     6
+    ]
+   ],
+   "smiley_print": [
+    [
+     "smiley print",
+     6
+    ]
+   ],
+   "frown_lines": [
+    [
+     "frown lines",
+     6
+    ]
+   ],
+   "synthwave": [
+    [
+     "synthwave",
+     3
+    ],
+    [
+     "vaporwave",
+     2
+    ],
+    [
+     "neon palette",
+     2
+    ],
+    [
+     "retrofuturism",
+     1
+    ],
+    [
+     "chromatic aberration",
+     1
+    ],
+    [
+     "scanlines",
+     1
+    ]
+   ],
+   "tapestry_(medium)": [
+    [
+     "tapestry (medium)",
+     6
+    ],
+    [
+     "anime coloring",
+     5
+    ]
+   ],
+   "mika_pikazo_(style)": [
+    [
+     "mika pikazo (style)",
+     6
+    ]
+   ],
+   "uchiwa_(medium)": [
+    [
+     "uchiwa (medium)",
+     6
+    ]
+   ],
+   "alien_print": [
+    [
+     "alien print",
+     6
+    ]
+   ],
+   "puzzle_piece_print": [
+    [
+     "puzzle piece print",
+     6
+    ]
+   ],
+   "bryan_lee_o'malley_(style)": [
+    [
+     "bryan lee o'malley (style)",
+     6
+    ]
+   ],
+   "pig_print": [
+    [
+     "pig print",
+     6
+    ]
+   ],
+   "triptych_(art)": [
+    [
+     "triptych (art)",
+     6
+    ]
+   ],
+   "charcoal": [
+    [
+     "charcoal",
+     6
+    ]
+   ],
+   "sensei_haruki_suetsugu_(style)": [
+    [
+     "sensei haruki suetsugu (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ]
+   ],
+   "hourglass_print": [
+    [
+     "hourglass print",
+     6
+    ]
+   ],
+   "obata_takeshi_(style)": [
+    [
+     "obata takeshi (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ]
+   ],
+   "jungle_style": [
+    [
+     "jungle style",
+     6
+    ]
+   ],
+   "urasawa_naoki_(style)": [
+    [
+     "urasawa naoki (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "araizumi_rui_(style)": [
+    [
+     "araizumi rui (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ]
+   ],
+   "sechi_(sechihyeo)_(style)": [
+    [
+     "sechi (sechihyeo) (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "sexualized chibi",
+     4
+    ]
+   ],
+   "shirow_masamune_(style)": [
+    [
+     "shirow masamune (style)",
+     6
+    ]
+   ],
+   "squid_print": [
+    [
+     "squid print",
+     6
+    ]
+   ],
+   "canadian_flag_print": [
+    [
+     "canadian flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ],
+    [
+     "american flag print",
+     4
+    ]
+   ],
+   "wolf_print": [
+    [
+     "wolf print",
+     6
+    ]
+   ],
+   "retro": [
+    [
+     "retro art",
+     2
+    ],
+    [
+     "retro anime",
+     2
+    ],
+    [
+     "vivid colors",
+     1
+    ],
+    [
+     "smooth edges",
+     1
+    ]
+   ],
+   "clean_lineart": [
+    [
+     "clean lineart",
+     6
+    ]
+   ],
+   "sticker_sheet_(medium)": [
+    [
+     "sticker sheet (medium)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ]
+   ],
+   "zankuro_(style)": [
+    [
+     "zankuro (style)",
+     6
+    ]
+   ],
+   "bath_brush": [
+    [
+     "bath brush",
+     6
+    ]
+   ],
+   "burning_photo": [
+    [
+     "burning photo",
+     6
+    ],
+    [
+     "holding photo",
+     5
+    ]
+   ],
+   "komino_masahiko_(style)": [
+    [
+     "komino masahiko (style)",
+     6
+    ],
+    [
+     "official style",
+     5
+    ],
+    [
+     "anime coloring",
+     4
+    ]
+   ],
+   "tapir_print": [
+    [
+     "tapir print",
+     6
+    ]
+   ],
+   "sakimichan_(style)": [
+    [
+     "sakimichan (style)",
+     6
+    ]
+   ],
+   "torn_photo": [
+    [
+     "torn photo",
+     6
+    ],
+    [
+     "holding photo",
+     5
+    ]
+   ],
+   "1950s_(style)": [
+    [
+     "1950s (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "realistic",
+     4
+    ],
+    [
+     "faux retro artstyle",
+     3
+    ]
+   ],
+   "swedish_flag_print": [
+    [
+     "swedish flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ],
+    [
+     "american flag print",
+     4
+    ]
+   ],
+   "umezu_kazuo_(style)": [
+    [
+     "umezu kazuo (style)",
+     6
+    ],
+    [
+     "comic",
+     5
+    ],
+    [
+     "monochrome",
+     4
+    ],
+    [
+     "greyscale",
+     3
+    ]
+   ],
+   "unicorn_print": [
+    [
+     "unicorn print",
+     6
+    ]
+   ],
+   "sawai_yoshio_(style)": [
+    [
+     "sawai yoshio (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ],
+    [
+     "vertical scroll comic",
+     2
+    ],
+    [
+     "right-to-left comic",
+     1
+    ]
+   ],
+   "j.k._(style)": [
+    [
+     "j.k. (style)",
+     6
+    ]
+   ],
+   "nagai_gou_(style)": [
+    [
+     "nagai gou (style)",
+     6
+    ],
+    [
+     "retro artstyle",
+     5
+    ],
+    [
+     "faux retro artstyle",
+     4
+    ]
+   ],
+   "itagaki_keisuke_(style)": [
+    [
+     "itagaki keisuke (style)",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "greyscale",
+     4
+    ],
+    [
+     "comic",
+     3
+    ]
+   ],
+   "dalmatian_print": [
+    [
+     "dalmatian print",
+     6
+    ],
+    [
+     "animal print",
+     5
+    ]
+   ],
+   "finger_painting": [
+    [
+     "finger painting",
+     6
+    ]
+   ],
+   "matt_groening_(style)": [
+    [
+     "matt groening (style)",
+     6
+    ]
+   ],
+   "mexican_flag_print": [
+    [
+     "mexican flag print",
+     6
+    ],
+    [
+     "flag print",
+     5
+    ],
+    [
+     "american flag print",
+     4
+    ]
+   ],
+   "alternate_tail_color": [
+    [
+     "alternate tail color",
+     6
+    ]
+   ],
+   "himaruya_hidekazu_(style)": [
+    [
+     "himaruya hidekazu (style)",
+     6
+    ]
+   ],
+   "ff_gradient": [
+    [
+     "ff gradient",
+     6
+    ],
+    [
+     "monochrome",
+     5
+    ],
+    [
+     "sketch",
+     4
+    ],
+    [
+     "lineart",
+     3
+    ]
+   ],
+   "airbrush": [
+    [
+     "airbrush",
+     6
+    ]
+   ],
+   "tomato_print": [
+    [
+     "tomato print",
+     6
+    ]
+   ],
+   "pointillism": [
+    [
+     "pointillism",
+     6
+    ]
+   ],
+   "pop'n_music_(style)": [
+    [
+     "pop'n music (style)",
+     6
+    ]
+   ],
+   "bug_print": [
+    [
+     "bug print",
+     6
+    ]
+   ],
+   "nejikirio_(style)": [
+    [
+     "nejikirio (style)",
+     6
+    ],
+    [
+     "chibi",
+     5
+    ],
+    [
+     "sexualized chibi",
+     4
+    ]
+   ],
+   "hyperreal": [
+    [
+     "hyperreal render",
+     3
+    ],
+    [
+     "realistic",
+     2
+    ],
+    [
+     "photorealistic",
+     1
+    ],
+    [
+     "super detailed skin",
+     2
+    ]
+   ],
+   "comic_manga": [
+    [
+     "manga",
+     3
+    ],
+    [
+     "comic",
+     2
+    ],
+    [
+     "screentone",
+     2
+    ],
+    [
+     "speed lines",
+     1
+    ],
+    [
+     "halftone",
+     1
+    ]
+   ],
+   "noir": [
+    [
+     "film noir",
+     3
+    ],
+    [
+     "monochrome",
+     2
+    ],
+    [
+     "hard shadows",
+     2
+    ],
+    [
+     "venetian blind shadow",
+     1
+    ],
+    [
+     "smoke",
+     1
+    ]
+   ],
+   "storybook": [
+    [
+     "storybook illustration",
+     3
+    ],
+    [
+     "whimsical",
+     2
+    ],
+    [
+     "soft edges",
+     2
+    ],
+    [
+     "muted colors",
+     1
+    ]
+   ],
+   "source_cartoon": [
+    [
+     "source_cartoon",
+     6
+    ]
+   ],
+   "physically_based_rendering": [
+    [
+     "physically based rendering",
+     6
+    ]
+   ],
+   "analog_photo": [
+    [
+     "analog photo",
+     6
+    ]
+   ],
+   "studio_photo": [
+    [
+     "studio photo",
+     6
+    ]
+   ],
+   "leading_lines": [
+    [
+     "leading lines",
+     6
+    ]
+   ],
+   "key_visual": [
+    [
+     "key visual",
+     6
+    ]
+   ],
+   "light_novel_illustration": [
+    [
+     "light novel illustration",
+     6
+    ]
+   ],
+   "visual_novel_cg": [
+    [
+     "visual novel cg",
+     6
+    ]
+   ],
+   "game_cg": [
+    [
+     "game cg",
+     6
+    ]
+   ],
+   "oil_painting_style": [
+    [
+     "oil painting style",
+     6
+    ]
+   ],
+   "gouache": [
+    [
+     "gouache",
+     6
+    ]
+   ],
+   "flat_shading": [
+    [
+     "flat shading",
+     6
+    ]
+   ],
+   "retro_anime_style": [
+    [
+     "retro anime style",
+     6
+    ]
+   ],
+   "90s_anime_style": [
+    [
+     "90s anime style",
+     6
+    ]
+   ],
+   "modern_anime_style": [
+    [
+     "modern anime style",
+     6
+    ]
+   ],
+   "semi-realistic_anime": [
+    [
+     "semi-realistic anime",
+     6
+    ]
+   ],
+   "glossy_shading": [
+    [
+     "glossy shading",
+     6
+    ]
+   ],
+   "highly_detailed_illustration": [
+    [
+     "highly detailed illustration",
+     6
+    ]
+   ]
+  }
+ },
+ "lighting": {
+  "top": {
+   "sky": [
+    [
+     "sky",
+     6
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "day",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "night",
+     1
+    ]
+   ],
+   "night": [
+    [
+     "night",
+     6
+    ],
+    [
+     "moonlight",
+     5
+    ],
+    [
+     "light rays",
+     4
+    ],
+    [
+     "light particles",
+     3
+    ],
+    [
+     "day",
+     2
+    ],
+    [
+     "snow",
+     1
+    ],
+    [
+     "volumetric lighting",
+     1
+    ]
+   ],
+   "day": [
+    [
+     "day",
+     6
+    ],
+    [
+     "cloudy sky",
+     5
+    ],
+    [
+     "sunlight",
+     4
+    ],
+    [
+     "lens flare",
+     3
+    ],
+    [
+     "rain",
+     2
+    ],
+    [
+     "sunset",
+     1
+    ],
+    [
+     "shadow",
+     1
+    ]
+   ],
+   "blue_sky": [
+    [
+     "blue sky",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "sunlight",
+     3
+    ],
+    [
+     "lens flare",
+     2
+    ],
+    [
+     "rain",
+     1
+    ],
+    [
+     "sunset",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "shadow",
+     6
+    ],
+    [
+     "colored shadow",
+     5
+    ],
+    [
+     "shadows",
+     4
+    ],
+    [
+     "day",
+     3
+    ],
+    [
+     "sunlight",
+     2
+    ],
+    [
+     "silhouette",
+     1
+    ],
+    [
+     "cloudy sky",
+     1
+    ]
+   ],
+   "light_particles": [
+    "light particles",
+    "soft lighting",
+    "lens flare"
+   ],
+   "sunlight": [
+    [
+     "sunlight",
+     6
+    ],
+    [
+     "dappled sunlight",
+     5
+    ],
+    [
+     "sunbeam",
+     4
+    ],
+    [
+     "day",
+     3
+    ],
+    [
+     "light rays",
+     2
+    ],
+    [
+     "god rays",
+     1
+    ],
+    [
+     "cloudy sky",
+     1
+    ]
+   ],
+   "lens_flare": [
+    [
+     "lens flare",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "high contrast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "dramatic lighting",
+     1
+    ]
+   ],
+   "backlit": [
+    "backlighting",
+    "rim light",
+    "silhouette",
+    "sun glare",
+    "light particles"
+   ],
+   "steam": [
+    [
+     "steam",
+     6
+    ],
+    [
+     "night",
+     5
+    ]
+   ],
+   "cloudy_sky": [
+    [
+     "cloudy sky",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "dawn",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "sunset",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "storm",
+     1
+    ]
+   ],
+   "sunset": [
+    [
+     "sunset",
+     6
+    ],
+    [
+     "twilight",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "golden hour",
+     3
+    ],
+    [
+     "overcast",
+     2
+    ],
+    [
+     "day",
+     1
+    ],
+    [
+     "dawn",
+     1
+    ]
+   ],
+   "bokeh": [
+    [
+     "bokeh",
+     6
+    ],
+    [
+     "glowing particles",
+     5
+    ],
+    [
+     "fluorescent lighting",
+     4
+    ],
+    [
+     "golden hour lighting",
+     3
+    ],
+    [
+     "dynamic light",
+     2
+    ],
+    [
+     "best lighting",
+     1
+    ],
+    [
+     "dark shadows",
+     1
+    ]
+   ],
+   "high_contrast": [
+    [
+     "high contrast",
+     6
+    ],
+    [
+     "dynamic light",
+     5
+    ],
+    [
+     "golden hour lighting",
+     4
+    ],
+    [
+     "warm light",
+     3
+    ],
+    [
+     "dramatic shadows",
+     2
+    ],
+    [
+     "lens flare",
+     1
+    ],
+    [
+     "dynamic lighting",
+     1
+    ]
+   ],
+   "rain": [
+    "rain",
+    "wet reflections",
+    "overcast",
+    "puddle reflections",
+    "raindrops",
+    "damp air"
+   ],
+   "reflection": [
+    [
+     "reflection",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "cloudy sky",
+     3
+    ],
+    [
+     "rain",
+     2
+    ],
+    [
+     "sunlight",
+     1
+    ],
+    [
+     "sunset",
+     1
+    ]
+   ],
+   "smoke": [
+    [
+     "smoke",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "night",
+     3
+    ]
+   ],
+   "dappled_sunlight": [
+    [
+     "dappled sunlight",
+     6
+    ],
+    [
+     "sunlight",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "sunbeam",
+     3
+    ],
+    [
+     "god rays",
+     2
+    ],
+    [
+     "light rays",
+     1
+    ],
+    [
+     "dramatic lighting",
+     1
+    ]
+   ],
+   "light_rays": [
+    [
+     "light rays",
+     6
+    ],
+    [
+     "sunbeam",
+     5
+    ],
+    [
+     "sunlight",
+     4
+    ],
+    [
+     "god rays",
+     3
+    ],
+    [
+     "day",
+     2
+    ],
+    [
+     "moonlight",
+     1
+    ],
+    [
+     "night",
+     1
+    ]
+   ],
+   "starry_sky": [
+    [
+     "starry sky",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "cloudy sky",
+     1
+    ],
+    [
+     "moonlight",
+     1
+    ]
+   ],
+   "silhouette": [
+    "silhouette",
+    "evening light",
+    "backlighting"
+   ],
+   "shade": [
+    [
+     "shade",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "dappled sunlight",
+     4
+    ],
+    [
+     "sunlight",
+     3
+    ],
+    [
+     "overcast",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "foggy": [
+    "fog",
+    "mist",
+    "diffused light",
+    "low visibility",
+    "muted colors"
+   ],
+   "snow": [
+    "snowing",
+    "snow",
+    "cold lighting",
+    "pale light",
+    "overcast",
+    "frost"
+   ],
+   "underwater": [
+    "underwater",
+    "caustics",
+    "blue theme",
+    "light rays",
+    "murky"
+   ],
+   "lantern_glow": [
+    "lantern",
+    "warm glow",
+    "night",
+    "pools of light",
+    "paper lantern"
+   ],
+   "evening": [
+    [
+     "evening",
+     6
+    ],
+    [
+     "sunset",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "twilight",
+     3
+    ],
+    [
+     "overcast",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "day",
+     1
+    ]
+   ],
+   "bloom": [
+    "bloom",
+    "sidelighting",
+    "bokeh"
+   ],
+   "drop_shadow": [
+    [
+     "drop shadow",
+     6
+    ],
+    [
+     "colored shadow",
+     5
+    ],
+    [
+     "dramatic lighting",
+     4
+    ]
+   ],
+   "moonlit": [
+    "moonlight",
+    "night",
+    "cool lighting",
+    "deep shadows",
+    "soft lighting"
+   ]
+  },
+  "tail": {
+   "sunbeam": [
+    [
+     "sunbeam",
+     6
+    ],
+    [
+     "light rays",
+     5
+    ],
+    [
+     "sunlight",
+     4
+    ],
+    [
+     "god rays",
+     3
+    ],
+    [
+     "day",
+     2
+    ],
+    [
+     "dappled sunlight",
+     1
+    ],
+    [
+     "overcast",
+     1
+    ]
+   ],
+   "see-through_silhouette": [
+    [
+     "see-through silhouette",
+     6
+    ],
+    [
+     "rim light",
+     5
+    ],
+    [
+     "dramatic lighting",
+     4
+    ],
+    [
+     "cinematic lighting",
+     3
+    ],
+    [
+     "colored shadow",
+     2
+    ]
+   ],
+   "night_neon": [
+    "neon lights",
+    "rim light",
+    "dark theme",
+    "high contrast",
+    "colored lighting",
+    "glowing"
+   ],
+   "dust_particles": [
+    [
+     "dust particles",
+     6
+    ],
+    [
+     "light particles",
+     5
+    ],
+    [
+     "volumetric lighting",
+     4
+    ]
+   ],
+   "dim_lighting": [
+    [
+     "dim lighting",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ],
+    [
+     "chiaroscuro",
+     3
+    ],
+    [
+     "strong shadow",
+     2
+    ],
+    [
+     "blue hour",
+     1
+    ],
+    [
+     "late night",
+     1
+    ]
+   ],
+   "sunrise": [
+    "sunrise",
+    "dawn",
+    "soft warm light",
+    "pale sky",
+    "long shadows"
+   ],
+   "morning": [
+    [
+     "morning",
+     6
+    ],
+    [
+     "sunlight",
+     5
+    ],
+    [
+     "dappled sunlight",
+     4
+    ],
+    [
+     "sunbeam",
+     3
+    ],
+    [
+     "god rays",
+     2
+    ],
+    [
+     "overcast",
+     1
+    ],
+    [
+     "light rays",
+     1
+    ]
+   ],
+   "x-ray": [
+    [
+     "x-ray",
+     6
+    ]
+   ],
+   "contrast": [
+    [
+     "contrast",
+     6
+    ]
+   ],
+   "chiaroscuro": [
+    [
+     "chiaroscuro",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "strong shadow",
+     4
+    ],
+    [
+     "blue hour",
+     3
+    ],
+    [
+     "late night",
+     2
+    ],
+    [
+     "hard light",
+     1
+    ],
+    [
+     "cloudy sky",
+     1
+    ]
+   ],
+   "dawn": [
+    [
+     "dawn",
+     6
+    ],
+    [
+     "cloudy sky",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "twilight",
+     3
+    ]
+   ],
+   "gradient_sky": [
+    [
+     "gradient sky",
+     6
+    ],
+    [
+     "sunset",
+     5
+    ],
+    [
+     "twilight",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "cloudy sky",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "night",
+     1
+    ]
+   ],
+   "stage_spotlight": [
+    "spotlight",
+    "stage lighting",
+    "dark background",
+    "rim light"
+   ],
+   "orange_sky": [
+    [
+     "orange sky",
+     6
+    ],
+    [
+     "sunset",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "twilight",
+     3
+    ],
+    [
+     "overcast",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "golden hour",
+     1
+    ]
+   ],
+   "twilight": [
+    "twilight",
+    "dusk",
+    "blue hour",
+    "fading light",
+    "cool tones"
+   ],
+   "grey_sky": [
+    [
+     "grey sky",
+     6
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "day",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "rain",
+     1
+    ]
+   ],
+   "stage_lights": [
+    [
+     "stage lights",
+     6
+    ]
+   ],
+   "city_lights": [
+    [
+     "city lights",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "day",
+     1
+    ]
+   ],
+   "crack_of_light": [
+    [
+     "crack of light",
+     6
+    ],
+    [
+     "shadow",
+     5
+    ],
+    [
+     "colored shadow",
+     4
+    ],
+    [
+     "shadows",
+     3
+    ]
+   ],
+   "purple_sky": [
+    [
+     "purple sky",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "sunset",
+     1
+    ],
+    [
+     "cloudy sky",
+     1
+    ]
+   ],
+   "ceiling_light": [
+    [
+     "ceiling light",
+     6
+    ]
+   ],
+   "red_light": [
+    [
+     "red light",
+     6
+    ],
+    [
+     "blue light",
+     5
+    ]
+   ],
+   "dusk": [
+    [
+     "dusk",
+     6
+    ],
+    [
+     "cloudy sky",
+     5
+    ],
+    [
+     "golden hour",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "sunset",
+     1
+    ]
+   ],
+   "blue_light": [
+    [
+     "blue light",
+     6
+    ],
+    [
+     "red light",
+     5
+    ]
+   ],
+   "golden_hour": [
+    "golden hour",
+    "warm lighting",
+    "backlighting",
+    "sunset",
+    "sun glare",
+    "orange sky"
+   ],
+   "cinematic": [
+    "cinematic lighting",
+    "volumetric lighting",
+    "depth of field",
+    "lens flare",
+    "god rays"
+   ],
+   "different_reflection": [
+    [
+     "different reflection",
+     6
+    ]
+   ],
+   "red_sky": [
+    [
+     "red sky",
+     6
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "dawn",
+     4
+    ],
+    [
+     "twilight",
+     3
+    ],
+    [
+     "cloudy sky",
+     2
+    ]
+   ],
+   "dramatic": [
+    "dramatic lighting",
+    "chiaroscuro",
+    "high contrast",
+    "rim light",
+    "deep shadows",
+    "spotlight"
+   ],
+   "ring_light_reflection": [
+    [
+     "ring light reflection",
+     6
+    ],
+    [
+     "colored shadow",
+     5
+    ]
+   ],
+   "overcast": [
+    "overcast",
+    "diffused light",
+    "flat lighting",
+    "grey sky",
+    "soft shadows"
+   ],
+   "volumetric_lighting": [
+    "volumetric lighting",
+    "high contrast",
+    "cinematic lighting"
+   ],
+   "colored_shadow": [
+    [
+     "colored shadow",
+     6
+    ],
+    [
+     "shadow",
+     5
+    ],
+    [
+     "shadows",
+     4
+    ]
+   ],
+   "tree_shade": [
+    [
+     "tree shade",
+     6
+    ],
+    [
+     "dappled sunlight",
+     5
+    ],
+    [
+     "sunlight",
+     4
+    ],
+    [
+     "day",
+     3
+    ],
+    [
+     "sunbeam",
+     2
+    ],
+    [
+     "god rays",
+     1
+    ],
+    [
+     "light rays",
+     1
+    ]
+   ],
+   "traffic_light": [
+    [
+     "traffic light",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "night",
+     1
+    ]
+   ],
+   "window_shadow": [
+    [
+     "window shadow",
+     6
+    ],
+    [
+     "sunlight",
+     5
+    ],
+    [
+     "dappled sunlight",
+     4
+    ],
+    [
+     "sunbeam",
+     3
+    ],
+    [
+     "god rays",
+     2
+    ],
+    [
+     "light rays",
+     1
+    ],
+    [
+     "day",
+     1
+    ]
+   ],
+   "christmas_lights": [
+    [
+     "christmas lights",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ]
+   ],
+   "yellow_sky": [
+    [
+     "yellow sky",
+     6
+    ],
+    [
+     "sunset",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "golden hour",
+     1
+    ]
+   ],
+   "pink_sky": [
+    [
+     "pink sky",
+     6
+    ],
+    [
+     "sunset",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "golden hour",
+     1
+    ]
+   ],
+   "black_sky": [
+    [
+     "black sky",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "moonlight",
+     1
+    ]
+   ],
+   "clear_sky": [
+    [
+     "clear sky",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ]
+   ],
+   "energy_beam": [
+    [
+     "energy beam",
+     6
+    ]
+   ],
+   "aurora": [
+    [
+     "aurora",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "snow",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "moonlight",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "white_sky": [
+    [
+     "white sky",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ]
+   ],
+   "soft": [
+    "soft lighting",
+    "diffused light",
+    "natural lighting",
+    "gentle shadows",
+    "overcast"
+   ],
+   "stormy": [
+    "storm",
+    "overcast",
+    "lightning",
+    "cold lighting",
+    "dark clouds"
+   ],
+   "hanging_light": [
+    [
+     "hanging light",
+     6
+    ]
+   ],
+   "candlelit": [
+    "candlelight",
+    "warm lighting",
+    "flickering light",
+    "deep shadows"
+   ],
+   "different_shadow": [
+    [
+     "different shadow",
+     6
+    ],
+    [
+     "shadow",
+     5
+    ],
+    [
+     "colored shadow",
+     4
+    ],
+    [
+     "shadows",
+     3
+    ]
+   ],
+   "head_steam": [
+    [
+     "head steam",
+     6
+    ],
+    [
+     "colored shadow",
+     5
+    ]
+   ],
+   "green_sky": [
+    [
+     "green sky",
+     6
+    ],
+    [
+     "cloudy sky",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "manta_ray": [
+    [
+     "manta ray",
+     6
+    ]
+   ],
+   "harsh_flash": [
+    "camera flash",
+    "harsh lighting",
+    "blown highlights",
+    "hard shadows"
+   ],
+   "screen_light": [
+    [
+     "screen light",
+     6
+    ],
+    [
+     "night",
+     5
+    ]
+   ],
+   "colored_smoke": [
+    [
+     "colored smoke",
+     6
+    ]
+   ],
+   "exhaling_smoke": [
+    [
+     "exhaling smoke",
+     6
+    ]
+   ],
+   "non-circular_lens_flare": [
+    [
+     "non-circular lens flare",
+     6
+    ],
+    [
+     "lens flare",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "outer_glow": [
+    [
+     "outer glow",
+     6
+    ]
+   ],
+   "bioluminescent": [
+    "bioluminescence",
+    "glowing",
+    "cool glow",
+    "dark theme",
+    "particles"
+   ],
+   "multicolored_sky": [
+    [
+     "multicolored sky",
+     6
+    ],
+    [
+     "sunset",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "night",
+     1
+    ]
+   ],
+   "window_light": [
+    "window light",
+    "indoor daylight",
+    "soft shadows",
+    "curtain shadow"
+   ],
+   "pov_shadow": [
+    [
+     "pov shadow",
+     6
+    ],
+    [
+     "shadow",
+     5
+    ],
+    [
+     "colored shadow",
+     4
+    ],
+    [
+     "shadows",
+     3
+    ],
+    [
+     "silhouette",
+     2
+    ],
+    [
+     "day",
+     1
+    ]
+   ],
+   "face_in_shadow": [
+    [
+     "face in shadow",
+     6
+    ],
+    [
+     "night",
+     5
+    ]
+   ],
+   "steel_beam": [
+    [
+     "steel beam",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ]
+   ],
+   "heavy_lens_flare": [
+    [
+     "heavy lens flare",
+     6
+    ],
+    [
+     "lens flare",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "bokeh",
+     1
+    ]
+   ],
+   "looking_at_reflection": [
+    [
+     "looking at reflection",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "day",
+     4
+    ]
+   ],
+   "dramatic_shadows": [
+    "dramatic shadows",
+    "warm light",
+    "dynamic light"
+   ],
+   "green_light": [
+    [
+     "green light",
+     6
+    ]
+   ],
+   "long_shadow": [
+    [
+     "long shadow",
+     6
+    ],
+    [
+     "shadow",
+     5
+    ],
+    [
+     "strong shadow",
+     4
+    ],
+    [
+     "hard light",
+     3
+    ],
+    [
+     "rim light",
+     2
+    ],
+    [
+     "colored shadow",
+     1
+    ],
+    [
+     "shadows",
+     1
+    ]
+   ],
+   "brown_sky": [
+    [
+     "brown sky",
+     6
+    ],
+    [
+     "cloudy sky",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ]
+   ],
+   "window_fog": [
+    [
+     "window fog",
+     6
+    ],
+    [
+     "rain",
+     5
+    ]
+   ],
+   "mouth_beam": [
+    [
+     "mouth beam",
+     6
+    ]
+   ],
+   "after_rain": [
+    [
+     "after rain",
+     6
+    ],
+    [
+     "sunlight",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "dappled sunlight",
+     3
+    ],
+    [
+     "sunbeam",
+     2
+    ],
+    [
+     "overcast",
+     1
+    ],
+    [
+     "rain",
+     1
+    ]
+   ],
+   "aviation_obstruction_lighting": [
+    [
+     "aviation obstruction lighting",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "day",
+     1
+    ]
+   ],
+   "team_flare": [
+    [
+     "team flare",
+     6
+    ]
+   ],
+   "neon": [
+    "neon",
+    "glowing",
+    "dramatic lighting"
+   ],
+   "rim_lighting": [
+    [
+     "rim lighting",
+     6
+    ],
+    [
+     "volumetric lighting",
+     5
+    ],
+    [
+     "cinematic lighting",
+     4
+    ],
+    [
+     "dramatic lighting",
+     3
+    ]
+   ],
+   "soft_light": [
+    "soft light",
+    "ambient light",
+    "dynamic lighting",
+    "soft shadows"
+   ],
+   "nose_shade": [
+    [
+     "nose shade",
+     6
+    ],
+    [
+     "colored shadow",
+     5
+    ]
+   ],
+   "natural_lighting": [
+    [
+     "natural lighting",
+     6
+    ],
+    [
+     "soft natural lighting",
+     5
+    ],
+    [
+     "golden hour lighting",
+     4
+    ]
+   ],
+   "pedestrian_lights": [
+    [
+     "pedestrian lights",
+     6
+    ],
+    [
+     "traffic light",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "lambent_light": [
+    [
+     "lambent light",
+     6
+    ]
+   ],
+   "horizontal_spotlight": [
+    [
+     "horizontal spotlight",
+     6
+    ],
+    [
+     "spotlight",
+     5
+    ]
+   ],
+   "day_and_night": [
+    [
+     "day and night",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "moonlight",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "glowing_particles": [
+    "glowing particles",
+    "glowing eyes",
+    "bokeh break standing"
+   ],
+   "headlight_beam": [
+    [
+     "headlight beam",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "haze": [
+    [
+     "haze",
+     6
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "dawn",
+     4
+    ],
+    [
+     "twilight",
+     3
+    ],
+    [
+     "bokeh",
+     2
+    ]
+   ],
+   "eyed_silhouette": [
+    [
+     "eyed silhouette",
+     6
+    ],
+    [
+     "silhouette",
+     5
+    ]
+   ],
+   "ultraviolet_light": [
+    [
+     "ultraviolet light",
+     6
+    ],
+    [
+     "stage lights",
+     5
+    ]
+   ],
+   "back_view_in_reflection": [
+    [
+     "back view in reflection",
+     6
+    ]
+   ],
+   "god_rays": [
+    [
+     "god rays",
+     6
+    ],
+    [
+     "sunbeam",
+     5
+    ],
+    [
+     "light rays",
+     4
+    ],
+    [
+     "sunlight",
+     3
+    ],
+    [
+     "day",
+     2
+    ],
+    [
+     "dappled sunlight",
+     1
+    ],
+    [
+     "volumetric lighting",
+     1
+    ]
+   ],
+   "ominous_shadow": [
+    [
+     "ominous shadow",
+     6
+    ],
+    [
+     "shadow",
+     5
+    ],
+    [
+     "colored shadow",
+     4
+    ],
+    [
+     "shadows",
+     3
+    ]
+   ],
+   "bad_reflection": [
+    [
+     "bad reflection",
+     6
+    ]
+   ],
+   "moody": [
+    "moody lighting",
+    "partial illumination",
+    "low key",
+    "deep shadows",
+    "candlelight"
+   ],
+   "tractor_beam": [
+    [
+     "tractor beam",
+     6
+    ],
+    [
+     "night",
+     5
+    ]
+   ],
+   "pantyshot_through_reflection": [
+    [
+     "pantyshot through reflection",
+     6
+    ]
+   ],
+   "pink_light": [
+    [
+     "pink light",
+     6
+    ],
+    [
+     "red light",
+     5
+    ]
+   ],
+   "flare": [
+    [
+     "flare",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "string_lights": [
+    [
+     "string lights",
+     6
+    ],
+    [
+     "christmas lights",
+     5
+    ]
+   ],
+   "ultra_beam": [
+    [
+     "ultra beam",
+     6
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "dawn",
+     4
+    ],
+    [
+     "twilight",
+     3
+    ]
+   ],
+   "purple_light": [
+    [
+     "purple light",
+     6
+    ]
+   ],
+   "ambient_light": [
+    [
+     "ambient light",
+     6
+    ],
+    [
+     "soft light",
+     5
+    ],
+    [
+     "dynamic lighting",
+     4
+    ],
+    [
+     "soft shadows",
+     3
+    ],
+    [
+     "dramatic lighting",
+     2
+    ],
+    [
+     "best lighting",
+     1
+    ]
+   ],
+   "black_smoke": [
+    [
+     "black smoke",
+     6
+    ]
+   ],
+   "flashlight_beam": [
+    [
+     "flashlight beam",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ]
+   ],
+   "wooden_beam": [
+    [
+     "wooden beam",
+     6
+    ],
+    [
+     "day",
+     5
+    ]
+   ],
+   "good_morning": [
+    [
+     "good morning",
+     6
+    ],
+    [
+     "colored shadow",
+     5
+    ]
+   ],
+   "yellow_light": [
+    [
+     "yellow light",
+     6
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "dawn",
+     4
+    ],
+    [
+     "twilight",
+     3
+    ],
+    [
+     "chiaroscuro",
+     2
+    ]
+   ],
+   "living_shadow": [
+    [
+     "living shadow",
+     6
+    ],
+    [
+     "shadow",
+     5
+    ],
+    [
+     "colored shadow",
+     4
+    ],
+    [
+     "shadows",
+     3
+    ]
+   ],
+   "orange_light": [
+    [
+     "orange light",
+     6
+    ],
+    [
+     "sunset",
+     5
+    ],
+    [
+     "cloudy sky",
+     4
+    ],
+    [
+     "night",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "overcast",
+     1
+    ],
+    [
+     "dawn",
+     1
+    ]
+   ],
+   "stadium_lights": [
+    [
+     "stadium lights",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ]
+   ],
+   "phone_light": [
+    [
+     "phone light",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "chiaroscuro",
+     4
+    ],
+    [
+     "moonlight",
+     3
+    ],
+    [
+     "strong shadow",
+     2
+    ],
+    [
+     "blue hour",
+     1
+    ],
+    [
+     "late night",
+     1
+    ]
+   ],
+   "dappled_moonlight": [
+    [
+     "dappled moonlight",
+     6
+    ],
+    [
+     "moonlight",
+     5
+    ],
+    [
+     "night",
+     4
+    ],
+    [
+     "light particles",
+     3
+    ],
+    [
+     "overcast",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "moon_reflection": [
+    [
+     "moon reflection",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ],
+    [
+     "overcast",
+     3
+    ],
+    [
+     "dawn",
+     2
+    ],
+    [
+     "twilight",
+     1
+    ],
+    [
+     "day",
+     1
+    ]
+   ],
+   "marquee_lights": [
+    [
+     "marquee lights",
+     6
+    ]
+   ],
+   "blood_on_snow": [
+    [
+     "blood on snow",
+     6
+    ],
+    [
+     "snow",
+     5
+    ],
+    [
+     "snowing",
+     4
+    ]
+   ],
+   "moon_in_daylight": [
+    [
+     "moon in daylight",
+     6
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "overcast",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ],
+    [
+     "night",
+     1
+    ],
+    [
+     "moonlight",
+     1
+    ]
+   ],
+   "hard_shadows": [
+    "hard shadows",
+    "direct sunlight",
+    "high contrast",
+    "sharp edges"
+   ],
+   "studio_lights": [
+    [
+     "studio lights",
+     6
+    ]
+   ],
+   "pillar_of_light": [
+    [
+     "pillar of light",
+     6
+    ],
+    [
+     "cloudy sky",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "night",
+     3
+    ],
+    [
+     "overcast",
+     2
+    ],
+    [
+     "dawn",
+     1
+    ],
+    [
+     "twilight",
+     1
+    ]
+   ],
+   "surgical_light": [
+    [
+     "surgical light",
+     6
+    ]
+   ],
+   "colored_lights": [
+    [
+     "colored lights",
+     6
+    ],
+    [
+     "stage lights",
+     5
+    ]
+   ],
+   "mikuru_beam": [
+    [
+     "mikuru beam",
+     6
+    ]
+   ],
+   "i-beam": [
+    [
+     "i-beam",
+     6
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "day",
+     4
+    ],
+    [
+     "dawn",
+     3
+    ],
+    [
+     "twilight",
+     2
+    ]
+   ],
+   "shielding_another_from_rain": [
+    [
+     "shielding another from rain",
+     6
+    ],
+    [
+     "rain",
+     5
+    ],
+    [
+     "storm",
+     4
+    ]
+   ],
+   "blu-ray": [
+    [
+     "blu-ray",
+     6
+    ]
+   ],
+   "bizarre_rain": [
+    [
+     "bizarre rain",
+     6
+    ],
+    [
+     "rain",
+     5
+    ],
+    [
+     "storm",
+     4
+    ]
+   ],
+   "rgb_lights": [
+    [
+     "rgb lights",
+     6
+    ]
+   ],
+   "no_reflection": [
+    [
+     "no reflection",
+     6
+    ]
+   ],
+   "rotating_light": [
+    [
+     "rotating light",
+     6
+    ],
+    [
+     "colored shadow",
+     5
+    ]
+   ],
+   "fairy_lights": [
+    [
+     "fairy lights",
+     6
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "moonlight",
+     4
+    ]
+   ],
+   "fire_light": [
+    [
+     "fire light",
+     6
+    ]
+   ],
+   "ring_light": [
+    [
+     "ring light",
+     6
+    ]
+   ],
+   "saint_snow": [
+    [
+     "saint snow",
+     6
+    ]
+   ],
+   "radiant_light": [
+    [
+     "radiant light",
+     6
+    ]
+   ],
+   "overhead_lights": [
+    [
+     "overhead lights",
+     6
+    ]
+   ],
+   "gn_particles": [
+    [
+     "gn particles",
+     6
+    ],
+    [
+     "light particles",
+     5
+    ]
+   ],
+   "flashing_light": [
+    [
+     "flashing light",
+     6
+    ]
+   ],
+   "heat_haze": [
+    [
+     "heat haze",
+     6
+    ],
+    [
+     "overcast",
+     5
+    ],
+    [
+     "dawn",
+     4
+    ],
+    [
+     "twilight",
+     3
+    ],
+    [
+     "colored shadow",
+     2
+    ]
+   ],
+   "polka_dot_shadow": [
+    [
+     "polka dot shadow",
+     6
+    ],
+    [
+     "drop shadow",
+     5
+    ],
+    [
+     "colored shadow",
+     4
+    ]
+   ],
+   "annihilate_ray": [
+    [
+     "annihilate ray",
+     6
+    ]
+   ],
+   "global_illumination": [
+    [
+     "global illumination",
+     6
+    ],
+    [
+     "cinematic lighting",
+     5
+    ],
+    [
+     "volumetric lighting",
+     4
+    ]
+   ],
+   "atmospheric_haze": [
+    [
+     "atmospheric haze",
+     6
+    ]
+   ],
+   "getter_rays": [
+    [
+     "getter rays",
+     6
+    ]
+   ],
+   "drawing_on_snow": [
+    [
+     "drawing on snow",
+     6
+    ],
+    [
+     "snow",
+     5
+    ],
+    [
+     "snowing",
+     4
+    ],
+    [
+     "day",
+     3
+    ]
+   ],
+   "gradient_shadow": [
+    [
+     "gradient shadow",
+     6
+    ],
+    [
+     "shadow",
+     5
+    ],
+    [
+     "colored shadow",
+     4
+    ],
+    [
+     "shadows",
+     3
+    ]
+   ],
+   "bow_of_light": [
+    [
+     "bow of light",
+     6
+    ]
+   ],
+   "daylight": [
+    "daylight",
+    "natural lighting",
+    "sunlight",
+    "blue sky",
+    "dappled sunlight",
+    "bright"
+   ],
+   "studio": [
+    "studio lighting",
+    "softbox lighting",
+    "clean lighting",
+    "simple background",
+    "even lighting"
+   ],
+   "firelight": [
+    "firelight",
+    "campfire",
+    "orange glow",
+    "warm lighting",
+    "dancing shadows"
+   ],
+   "colored_gels": [
+    "colored lighting",
+    "split lighting",
+    "magenta and cyan",
+    "high contrast"
+   ],
+   "volumetric_fog": [
+    [
+     "volumetric fog",
+     6
+    ]
+   ],
+   "key_light": [
+    [
+     "key light",
+     6
+    ]
+   ],
+   "fill_light": [
+    [
+     "fill light",
+     6
+    ]
+   ],
+   "split_lighting": [
+    [
+     "split lighting",
+     6
+    ]
+   ],
+   "rembrandt_lighting": [
+    [
+     "rembrandt lighting",
+     6
+    ]
+   ],
+   "soft_box_lighting": [
+    [
+     "soft box lighting",
+     6
+    ]
+   ],
+   "practical_lighting": [
+    [
+     "practical lighting",
+     6
+    ]
+   ],
+   "neon_lighting": [
+    [
+     "neon lighting",
+     6
+    ]
+   ],
+   "low_key_lighting": [
+    [
+     "low key lighting",
+     6
+    ]
+   ],
+   "high_key_lighting": [
+    [
+     "high key lighting",
+     6
+    ]
+   ],
+   "subsurface_glow": [
+    [
+     "subsurface glow",
+     6
+    ]
+   ]
+  }
+ },
+ "locations": {
+  "top": {
+   "water": {
+    "scene": [
+     "water",
+     "shallow water",
+     "outdoors",
+     "wading pool",
+     "sky",
+     "ocean"
+    ],
+    "lighting_bias": [
+     "day",
+     "night",
+     "sunlight"
+    ],
+    "extras": [
+     "stream",
+     "hydrokinesis",
+     "afloat",
+     "on innertube",
+     "partially submerged"
+    ]
+   },
+   "beach": {
+    "scene": [
+     "beach",
+     "outdoors",
+     "beach towel",
+     "ocean",
+     "sky",
+     "beach umbrella"
+    ],
+    "lighting_bias": [
+     "day",
+     "shadow",
+     "cloudy sky"
+    ],
+    "extras": [
+     "lounge chair",
+     "shore",
+     "sand",
+     "sand castle",
+     "cooler"
+    ]
+   },
+   "ocean": {
+    "scene": [
+     "ocean",
+     "sky",
+     "outdoors",
+     "cloud",
+     "water",
+     "beach"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "sunlight"
+    ],
+    "extras": [
+     "horizon",
+     "blue sky",
+     "watercraft",
+     "ship",
+     "warship"
+    ]
+   },
+   "bedroom": {
+    "scene": [
+     "bedroom",
+     "bed",
+     "indoors",
+     "on bed",
+     "curtains",
+     "window"
+    ],
+    "lighting_bias": [
+     "dramatic lighting"
+    ],
+    "extras": [
+     "pillow",
+     "bed sheet"
+    ]
+   },
+   "nature": {
+    "scene": [
+     "nature",
+     "forest",
+     "outdoors",
+     "bamboo forest",
+     "tree",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "sunlight",
+     "light rays"
+    ],
+    "extras": [
+     "jungle",
+     "stream",
+     "fern",
+     "grass"
+    ]
+   },
+   "moon": {
+    "scene": [
+     "moon",
+     "sky",
+     "outdoors",
+     "starry sky",
+     "cloud",
+     "water"
+    ],
+    "lighting_bias": [
+     "night",
+     "day"
+    ],
+    "extras": [
+     "full moon",
+     "huge moon",
+     "red moon",
+     "crescent moon"
+    ]
+   },
+   "forest": {
+    "scene": [
+     "forest",
+     "outdoors",
+     "bamboo forest",
+     "tree",
+     "scenery",
+     "sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "sunlight",
+     "light rays"
+    ],
+    "extras": [
+     "nature",
+     "stream",
+     "fern",
+     "grass",
+     "plant roots"
+    ]
+   },
+   "mountain": {
+    "scene": [
+     "mountain",
+     "outdoors",
+     "sky",
+     "cloud",
+     "scenery",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "snow"
+    ],
+    "extras": [
+     "blue sky",
+     "mountainous horizon",
+     "landscape",
+     "lake",
+     "cliff"
+    ]
+   },
+   "pool": {
+    "scene": [
+     "pool",
+     "pool ladder",
+     "water",
+     "outdoors",
+     "sky",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "poolside",
+     "one-piece swimsuit",
+     "wet",
+     "swim cap",
+     "competition swimsuit"
+    ]
+   },
+   "bathroom": {
+    "scene": [
+     "bathroom",
+     "indoors",
+     "tile wall",
+     "bath",
+     "water",
+     "tile floor"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "bathtub",
+     "tiles",
+     "bathing",
+     "wet",
+     "shower head"
+    ]
+   },
+   "city": {
+    "scene": [
+     "city",
+     "building",
+     "outdoors",
+     "sky",
+     "scenery",
+     "city lights"
+    ],
+    "lighting_bias": [
+     "day",
+     "night",
+     "traffic light"
+    ],
+    "extras": [
+     "cityscape",
+     "skyline",
+     "skyscraper",
+     "road",
+     "street"
+    ]
+   },
+   "kitchen": {
+    "scene": [
+     "kitchen",
+     "indoors",
+     "window",
+     "kitchen knife",
+     "window blinds",
+     "school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "stove",
+     "cooking",
+     "frying pan"
+    ]
+   },
+   "classroom": {
+    "scene": [
+     "classroom",
+     "desk",
+     "school desk",
+     "indoors",
+     "school chair",
+     "on desk"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "chalkboard",
+     "pencil case",
+     "chair"
+    ]
+   },
+   "underwater": {
+    "scene": [
+     "underwater",
+     "water",
+     "ocean",
+     "outdoors",
+     "scenery",
+     "building"
+    ],
+    "lighting_bias": [
+     "sunlight",
+     "light rays",
+     "day"
+    ],
+    "extras": [
+     "bubble",
+     "freediving",
+     "air bubble",
+     "fish",
+     "submerged"
+    ]
+   },
+   "field": {
+    "scene": [
+     "field",
+     "outdoors",
+     "sky",
+     "cloud",
+     "blue sky",
+     "grass"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "flower field",
+     "sunflower field",
+     "sunflower"
+    ]
+   },
+   "onsen": {
+    "scene": [
+     "onsen",
+     "water",
+     "outdoors",
+     "bath",
+     "shallow water",
+     "wading pool"
+    ],
+    "lighting_bias": [
+     "night",
+     "day"
+    ],
+    "extras": [
+     "hot spring",
+     "towel",
+     "wet",
+     "wet towel",
+     "steam"
+    ]
+   },
+   "space": {
+    "scene": [
+     "space",
+     "sky",
+     "starry sky",
+     "cloud",
+     "outdoors",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "spacecraft",
+     "zero gravity",
+     "realistic",
+     "thrusters",
+     "glowing"
+    ]
+   },
+   "landscape": {
+    "scene": [
+     "landscape",
+     "scenery",
+     "outdoors",
+     "sky",
+     "cloud",
+     "mountain"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "sunlight"
+    ],
+    "extras": [
+     "painterly",
+     "tree",
+     "nature",
+     "grass",
+     "mountainous horizon"
+    ]
+   },
+   "cityscape": {
+    "scene": [
+     "cityscape",
+     "city",
+     "building",
+     "outdoors",
+     "sky",
+     "city lights"
+    ],
+    "lighting_bias": [
+     "night",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "skyscraper",
+     "scenery",
+     "skyline",
+     "road"
+    ]
+   },
+   "river": {
+    "scene": [
+     "river",
+     "outdoors",
+     "water",
+     "scenery",
+     "sky",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "sunlight",
+     "cloudy sky"
+    ],
+    "extras": [
+     "bridge",
+     "nature",
+     "forest",
+     "grass",
+     "blue sky"
+    ]
+   },
+   "architecture": {
+    "scene": [
+     "architecture",
+     "east asian architecture",
+     "outdoors",
+     "sky",
+     "scenery",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "night",
+     "cloudy sky"
+    ],
+    "extras": [
+     "stone lantern",
+     "temple",
+     "vase",
+     "lantern"
+    ]
+   },
+   "castle": {
+    "scene": [
+     "castle",
+     "outdoors",
+     "sky",
+     "cloud",
+     "tree",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": []
+   },
+   "waterfall": {
+    "scene": [
+     "waterfall",
+     "water",
+     "outdoors",
+     "tree",
+     "scenery",
+     "sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "nature",
+     "rock",
+     "stream"
+    ]
+   },
+   "ruins": {
+    "scene": [
+     "ruins",
+     "outdoors",
+     "scenery",
+     "sky",
+     "building",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "post-apocalypse",
+     "abandoned",
+     "overgrown",
+     "rubble",
+     "broken window"
+    ]
+   },
+   "poolside": {
+    "scene": [
+     "poolside",
+     "pool",
+     "pool ladder",
+     "water",
+     "outdoors",
+     "new school swimsuit"
+    ],
+    "lighting_bias": [
+     "day",
+     "ambient light"
+    ],
+    "extras": [
+     "one-piece swimsuit",
+     "wet",
+     "competition swimsuit"
+    ]
+   },
+   "library": {
+    "scene": [
+     "library",
+     "bookshelf",
+     "indoors",
+     "school uniform",
+     "window blinds",
+     "yurigaoka girls academy school uniform"
+    ],
+    "lighting_bias": [
+     "dramatic lighting"
+    ],
+    "extras": [
+     "book",
+     "holding book"
+    ]
+   },
+   "lake": {
+    "scene": [
+     "lake",
+     "outdoors",
+     "sky",
+     "water",
+     "tree",
+     "mountain"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "scenery",
+     "nature",
+     "blue sky",
+     "grass",
+     "clear sky"
+    ]
+   },
+   "office": {
+    "scene": [
+     "office",
+     "office lady",
+     "office chair",
+     "indoors",
+     "desk",
+     "school chair"
+    ],
+    "lighting_bias": [
+     "dramatic lighting"
+    ],
+    "extras": [
+     "chair",
+     "swivel chair",
+     "pencil skirt"
+    ]
+   },
+   "street": {
+    "scene": [
+     "street",
+     "outdoors",
+     "building",
+     "scenery",
+     "sky",
+     "city"
+    ],
+    "lighting_bias": [
+     "day",
+     "traffic light",
+     "rain"
+    ],
+    "extras": [
+     "road",
+     "vanishing point",
+     "crosswalk",
+     "tree",
+     "sidewalk"
+    ]
+   },
+   "flower_field": {
+    "scene": [
+     "flower field",
+     "outdoors",
+     "sky",
+     "cloud",
+     "blue sky",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "field",
+     "sunflower field",
+     "sunflower",
+     "petals"
+    ]
+   },
+   "garden": {
+    "scene": [
+     "garden",
+     "outdoors",
+     "tree",
+     "sky",
+     "clear sky",
+     "under tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "volumetric lighting"
+    ],
+    "extras": [
+     "plant",
+     "rose"
+    ]
+   },
+   "park": {
+    "scene": [
+     "park",
+     "outdoors",
+     "tree",
+     "sky",
+     "grass",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "sunlight",
+     "overcast"
+    ],
+    "extras": [
+     "park bench",
+     "bench"
+    ]
+   },
+   "living_room": {
+    "scene": [
+     "living room",
+     "couch",
+     "indoors",
+     "on couch",
+     "window",
+     "curtains"
+    ],
+    "lighting_bias": [
+     "dramatic lighting"
+    ],
+    "extras": [
+     "table",
+     "plant"
+    ]
+   },
+   "cafe": {
+    "scene": [
+     "cafe",
+     "indoors",
+     "window",
+     "window blinds",
+     "round window",
+     "school chair"
+    ],
+    "lighting_bias": [
+     "dramatic lighting"
+    ],
+    "extras": [
+     "menu board",
+     "table"
+    ]
+   },
+   "alley": {
+    "scene": [
+     "alley",
+     "outdoors",
+     "building",
+     "scenery",
+     "clear sky",
+     "street"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": []
+   },
+   "hill": {
+    "scene": [
+     "hill",
+     "sky",
+     "outdoors",
+     "cloud",
+     "scenery",
+     "grass"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "tree",
+     "blue sky",
+     "landscape",
+     "clear sky",
+     "cumulonimbus cloud"
+    ]
+   },
+   "locker_room": {
+    "scene": [
+     "locker room",
+     "indoors",
+     "window blinds",
+     "school uniform",
+     "new school swimsuit",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "locker",
+     "undressing"
+    ]
+   },
+   "hallway": {
+    "scene": [
+     "hallway",
+     "indoors",
+     "window",
+     "school uniform",
+     "window blinds",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": []
+   },
+   "road": {
+    "scene": [
+     "road",
+     "outdoors",
+     "street",
+     "sky",
+     "building",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "traffic light",
+     "cloudy sky"
+    ],
+    "extras": [
+     "vanishing point",
+     "tree",
+     "city",
+     "sign",
+     "crosswalk"
+    ]
+   },
+   "jungle": {
+    "scene": [
+     "jungle",
+     "outdoors",
+     "tree",
+     "forest",
+     "bamboo forest",
+     "water"
+    ],
+    "lighting_bias": [
+     "day",
+     "sunlight"
+    ],
+    "extras": [
+     "nature",
+     "plant"
+    ]
+   },
+   "wheat_field": {
+    "scene": [
+     "wheat field",
+     "outdoors",
+     "sky",
+     "cloud",
+     "blue sky",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "wheat"
+    ]
+   },
+   "meadow": {
+    "scene": [
+     "meadow",
+     "outdoors",
+     "grass",
+     "sky",
+     "cloud",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "field",
+     "blue sky",
+     "nature",
+     "tree",
+     "clear sky"
+    ]
+   },
+   "school": {
+    "scene": [
+     "school",
+     "school uniform",
+     "classroom",
+     "desk",
+     "indoors",
+     "school desk"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "window"
+    ]
+   },
+   "house": {
+    "scene": [
+     "house",
+     "outdoors",
+     "tree",
+     "sky",
+     "scenery",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "sunlight",
+     "overcast"
+    ],
+    "extras": [
+     "building",
+     "chimney",
+     "blue sky",
+     "window",
+     "town"
+    ]
+   },
+   "bathtub": {
+    "scene": [
+     "bathtub",
+     "bath",
+     "water",
+     "bathroom",
+     "indoors",
+     "tile wall"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "bathing",
+     "partially submerged",
+     "wet",
+     "shared bathing",
+     "tiles"
+    ]
+   },
+   "planet": {
+    "scene": [
+     "planet",
+     "sky",
+     "starry sky",
+     "cloud",
+     "scenery",
+     "outdoors"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "space",
+     "astronaut",
+     "spacecraft",
+     "moon"
+    ]
+   },
+   "bridge": {
+    "scene": [
+     "bridge",
+     "outdoors",
+     "sky",
+     "scenery",
+     "cloud",
+     "building"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "sunlight"
+    ],
+    "extras": [
+     "river",
+     "tree",
+     "blue sky"
+    ]
+   },
+   "train_interior": {
+    "scene": [
+     "train interior",
+     "school uniform",
+     "shimokitazawa high school uniform",
+     "asahiyama high school uniform",
+     "school bag",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "hand grip",
+     "chikan",
+     "molestation"
+    ]
+   },
+   "skyscraper": {
+    "scene": [
+     "skyscraper",
+     "building",
+     "city",
+     "outdoors",
+     "sky",
+     "city lights"
+    ],
+    "lighting_bias": [
+     "night",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "cityscape",
+     "skyline",
+     "scenery"
+    ]
+   },
+   "stage": {
+    "scene": [
+     "stage",
+     "tracen school uniform",
+     "school uniform",
+     "curtains",
+     "asahiyama high school uniform",
+     "indoors"
+    ],
+    "lighting_bias": [
+     "stage lights"
+    ],
+    "extras": [
+     "concert",
+     "microphone",
+     "holding microphone",
+     "audience",
+     "idol"
+    ]
+   },
+   "shore": {
+    "scene": [
+     "shore",
+     "beach",
+     "outdoors",
+     "ocean",
+     "sky",
+     "water"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "blue sky",
+     "sand",
+     "horizon"
+    ]
+   },
+   "tower": {
+    "scene": [
+     "tower",
+     "sky",
+     "outdoors",
+     "cloud",
+     "building",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "clock tower",
+     "clock",
+     "blue sky",
+     "tree"
+    ]
+   },
+   "shop": {
+    "scene": [
+     "shop",
+     "indoors",
+     "bookshelf",
+     "outdoors",
+     "shelf",
+     "window"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "convenience store",
+     "storefront"
+    ]
+   },
+   "bar_(place)": {
+    "scene": [
+     "bar (place)",
+     "indoors",
+     "window blinds",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "bar stool",
+     "stool",
+     "drinking glass",
+     "bartender",
+     "bottle"
+    ]
+   },
+   "rooftop": {
+    "scene": [
+     "rooftop",
+     "outdoors",
+     "sky",
+     "building",
+     "cloud",
+     "blue sky"
+    ],
+    "lighting_bias": [
+     "night",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "on roof"
+    ]
+   },
+   "shrine": {
+    "scene": [
+     "shrine",
+     "outdoors",
+     "tree",
+     "sky",
+     "clear sky",
+     "stairs"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "sunlight"
+    ],
+    "extras": [
+     "torii",
+     "donation box",
+     "stone lantern"
+    ]
+   },
+   "car_interior": {
+    "scene": [
+     "car interior",
+     "sky",
+     "outdoors",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "steering wheel",
+     "seatbelt",
+     "driving",
+     "car"
+    ]
+   },
+   "desert": {
+    "scene": [
+     "desert",
+     "outdoors",
+     "sky",
+     "blue sky",
+     "cloud",
+     "palm tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "sand"
+    ]
+   },
+   "path": {
+    "scene": [
+     "path",
+     "outdoors",
+     "tree",
+     "scenery",
+     "grass",
+     "sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "sunlight",
+     "dappled sunlight"
+    ],
+    "extras": [
+     "road",
+     "blue sky",
+     "bush",
+     "nature",
+     "forest"
+    ]
+   },
+   "restaurant": {
+    "scene": [
+     "restaurant",
+     "indoors",
+     "window blinds",
+     "window",
+     "watermelon bar",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "booth seating",
+     "table"
+    ]
+   },
+   "church": {
+    "scene": [
+     "church",
+     "indoors",
+     "window",
+     "outdoors",
+     "sky",
+     "architecture"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "veil"
+    ]
+   },
+   "cliff": {
+    "scene": [
+     "cliff",
+     "outdoors",
+     "sky",
+     "cloud",
+     "scenery",
+     "mountain"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "tree",
+     "blue sky",
+     "grass",
+     "clear sky",
+     "ocean"
+    ]
+   },
+   "town": {
+    "scene": [
+     "town",
+     "outdoors",
+     "sky",
+     "building",
+     "scenery",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "tree",
+     "house",
+     "blue sky",
+     "clear sky",
+     "road"
+    ]
+   },
+   "bamboo_forest": {
+    "scene": [
+     "bamboo forest",
+     "forest",
+     "outdoors",
+     "tree",
+     "clear sky",
+     "sky"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "nature",
+     "bamboo",
+     "moon"
+    ]
+   },
+   "cave": {
+    "scene": [
+     "cave",
+     "water",
+     "outdoors",
+     "scenery",
+     "shallow water",
+     "wading pool"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": []
+   },
+   "shower_(place)": {
+    "scene": [
+     "shower (place)",
+     "tile wall",
+     "indoors",
+     "bathroom",
+     "tile floor",
+     "water"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "showering",
+     "wet",
+     "shower head",
+     "completely nude",
+     "shared bathing"
+    ]
+   },
+   "pond": {
+    "scene": [
+     "pond",
+     "water",
+     "outdoors",
+     "tree",
+     "grass",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "sunlight"
+    ],
+    "extras": [
+     "lily pad",
+     "nature"
+    ]
+   },
+   "crosswalk": {
+    "scene": [
+     "crosswalk",
+     "outdoors",
+     "street",
+     "building",
+     "city",
+     "sky"
+    ],
+    "lighting_bias": [
+     "traffic light",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "road",
+     "sign"
+    ]
+   },
+   "railroad_tracks": {
+    "scene": [
+     "railroad tracks",
+     "outdoors",
+     "sky",
+     "scenery",
+     "cloud",
+     "blue sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "cloudy sky"
+    ],
+    "extras": [
+     "train",
+     "train station",
+     "power lines",
+     "tree",
+     "building"
+    ]
+   },
+   "gym_storeroom": {
+    "scene": [
+     "gym storeroom",
+     "indoors",
+     "window blinds",
+     "holding beachball",
+     "shimokitazawa high school uniform",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "vaulting horse",
+     "mat",
+     "gym uniform",
+     "gym shirt",
+     "buruma"
+    ]
+   },
+   "wrestling_ring": {
+    "scene": [
+     "wrestling ring",
+     "asahiyama high school uniform",
+     "outdoors"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "wrestling outfit",
+     "wrestling",
+     "crowd",
+     "4koma"
+    ]
+   },
+   "train_station": {
+    "scene": [
+     "train station",
+     "outdoors",
+     "sky",
+     "scenery",
+     "cloud",
+     "school uniform"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "train",
+     "railroad tracks"
+    ]
+   },
+   "stadium": {
+    "scene": [
+     "stadium",
+     "outdoors",
+     "sky",
+     "blue sky",
+     "cloud",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "blurry",
+     "crowd"
+    ]
+   },
+   "ferris_wheel": {
+    "scene": [
+     "ferris wheel",
+     "outdoors",
+     "sky",
+     "cloud",
+     "clear sky",
+     "cumulonimbus cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "carousel",
+     "balloon"
+    ]
+   },
+   "graveyard": {
+    "scene": [
+     "graveyard",
+     "outdoors",
+     "tree",
+     "sky",
+     "clear sky",
+     "black sky"
+    ],
+    "lighting_bias": [
+     "night",
+     "moonlight",
+     "overcast"
+    ],
+    "extras": [
+     "tombstone",
+     "grave",
+     "moon",
+     "cross",
+     "halloween"
+    ]
+   },
+   "cockpit": {
+    "scene": [
+     "cockpit",
+     "sky",
+     "cloud",
+     "above clouds",
+     "cumulonimbus cloud",
+     "pink sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "mecha",
+     "mecha pilot suit",
+     "pilot",
+     "aircraft"
+    ]
+   },
+   "sidewalk": {
+    "scene": [
+     "sidewalk",
+     "outdoors",
+     "street",
+     "building",
+     "sky",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "road",
+     "sign"
+    ]
+   },
+   "fountain": {
+    "scene": [
+     "fountain",
+     "outdoors",
+     "water",
+     "sky",
+     "tree",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": []
+   },
+   "stream": {
+    "scene": [
+     "stream",
+     "water",
+     "outdoors",
+     "forest",
+     "tree",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "sunlight",
+     "dappled sunlight"
+    ],
+    "extras": [
+     "nature",
+     "rock",
+     "grass"
+    ]
+   },
+   "island": {
+    "scene": [
+     "island",
+     "ocean",
+     "cloud",
+     "sky",
+     "outdoors",
+     "water"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "blue sky",
+     "palm tree",
+     "tree",
+     "beach",
+     "cumulonimbus cloud"
+    ]
+   },
+   "aquarium": {
+    "scene": [
+     "aquarium",
+     "indoors",
+     "water",
+     "underwater",
+     "asahiyama high school uniform",
+     "shallow water"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "fish"
+    ]
+   },
+   "dungeon": {
+    "scene": [
+     "dungeon",
+     "indoors",
+     "spreader bar",
+     "window blinds",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "chain",
+     "bound",
+     "bdsm",
+     "bondage",
+     "cuffs"
+    ]
+   },
+   "windmill": {
+    "scene": [
+     "windmill",
+     "outdoors",
+     "sky",
+     "cloud",
+     "blue sky",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "grass",
+     "tree",
+     "clear sky"
+    ]
+   },
+   "public_restroom": {
+    "scene": [
+     "public restroom",
+     "indoors",
+     "school uniform",
+     "window blinds",
+     "tile floor",
+     "tile wall"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "toilet stall",
+     "toilet",
+     "urinal",
+     "tiles"
+    ]
+   },
+   "toilet_stall": {
+    "scene": [
+     "toilet stall",
+     "indoors",
+     "school uniform",
+     "shimokitazawa high school uniform",
+     "asahiyama high school uniform",
+     "window blinds"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "toilet",
+     "public restroom",
+     "tiles",
+     "toilet paper"
+    ]
+   },
+   "clock_tower": {
+    "scene": [
+     "clock tower",
+     "sky",
+     "outdoors",
+     "building",
+     "cloud",
+     "above clouds"
+    ],
+    "lighting_bias": [
+     "night",
+     "overcast",
+     "day"
+    ],
+    "extras": [
+     "tower",
+     "clock"
+    ]
+   },
+   "bus_stop": {
+    "scene": [
+     "bus stop",
+     "outdoors",
+     "sky",
+     "school uniform",
+     "clear sky",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "rain",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "bench",
+     "sign"
+    ]
+   },
+   "lighthouse": {
+    "scene": [
+     "lighthouse",
+     "outdoors",
+     "ocean",
+     "sky",
+     "cloud",
+     "blue sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "beach",
+     "clear sky",
+     "bird",
+     "cumulonimbus cloud"
+    ]
+   },
+   "sauna": {
+    "scene": [
+     "sauna",
+     "indoors",
+     "beach towel",
+     "sitting on stairs",
+     "window blinds",
+     "onsen"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "steam",
+     "towel",
+     "naked towel"
+    ]
+   },
+   "apartment": {
+    "scene": [
+     "apartment",
+     "building",
+     "outdoors",
+     "scenery",
+     "sky",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "window"
+    ]
+   },
+   "convenience_store": {
+    "scene": [
+     "convenience store",
+     "indoors",
+     "outdoors",
+     "shelf",
+     "window blinds",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "shop",
+     "employee uniform"
+    ]
+   },
+   "hospital": {
+    "scene": [
+     "hospital",
+     "hospital bed",
+     "bed",
+     "indoors",
+     "on bed",
+     "curtains"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "intravenous drip",
+     "nurse",
+     "nurse cap"
+    ]
+   },
+   "fitness_gym": {
+    "scene": [
+     "fitness gym",
+     "indoors",
+     "window blinds",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "sports bra",
+     "exercising",
+     "weights",
+     "yoga pants",
+     "weightlifting"
+    ]
+   },
+   "prison": {
+    "scene": [
+     "prison",
+     "indoors",
+     "window blinds",
+     "spreader bar",
+     "sitting on stairs",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "prison clothes",
+     "prisoner",
+     "cuffs",
+     "chain",
+     "bound"
+    ]
+   },
+   "infirmary": {
+    "scene": [
+     "infirmary",
+     "indoors",
+     "curtains",
+     "bed",
+     "on bed",
+     "school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "nurse",
+     "nurse cap"
+    ]
+   },
+   "messy_room": {
+    "scene": [
+     "messy room",
+     "indoors",
+     "bed",
+     "window",
+     "window blinds",
+     "round window"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "book",
+     "chair",
+     "table",
+     "barefoot"
+    ]
+   },
+   "on_roof": {
+    "scene": [
+     "on roof",
+     "outdoors",
+     "sky",
+     "cloud",
+     "building",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "night",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "rooftop"
+    ]
+   },
+   "floating_island": {
+    "scene": [
+     "floating island",
+     "sky",
+     "cloud",
+     "outdoors",
+     "scenery",
+     "blue sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "fantasy",
+     "tree",
+     "grass",
+     "clear sky",
+     "cumulonimbus cloud"
+    ]
+   },
+   "casino": {
+    "scene": [
+     "casino",
+     "indoors",
+     "window blinds"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "poker chip",
+     "playboy bunny",
+     "detached collar",
+     "side-tie leotard",
+     "strapless"
+    ]
+   },
+   "carousel": {
+    "scene": [
+     "carousel",
+     "outdoors",
+     "sky",
+     "clear sky",
+     "pink sky",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "day",
+     "dawn"
+    ],
+    "extras": [
+     "ferris wheel"
+    ]
+   },
+   "pier": {
+    "scene": [
+     "pier",
+     "water",
+     "outdoors",
+     "sky",
+     "ocean",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "blue sky",
+     "tree",
+     "clear sky",
+     "scenery",
+     "cumulonimbus cloud"
+    ]
+   },
+   "playground": {
+    "scene": [
+     "playground",
+     "outdoors",
+     "tree",
+     "sky",
+     "cloud",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "swing"
+    ]
+   },
+   "temple": {
+    "scene": [
+     "temple",
+     "outdoors",
+     "architecture",
+     "east asian architecture",
+     "sky",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "stairs",
+     "scenery"
+    ]
+   },
+   "boxing_ring": {
+    "scene": [
+     "boxing ring",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "boxing gloves",
+     "boxing",
+     "sports bra",
+     "abs"
+    ]
+   },
+   "volcano": {
+    "scene": [
+     "volcano",
+     "outdoors",
+     "sky",
+     "cloud",
+     "mountain",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "lava",
+     "smoke",
+     "fire"
+    ]
+   },
+   "dock": {
+    "scene": [
+     "dock",
+     "water",
+     "outdoors",
+     "sky",
+     "ocean",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "watercraft",
+     "boat",
+     "blue sky",
+     "scenery",
+     "tree"
+    ]
+   },
+   "amusement_park": {
+    "scene": [
+     "amusement park",
+     "outdoors",
+     "sky",
+     "clear sky",
+     "cumulonimbus cloud",
+     "pink sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "ferris wheel",
+     "carousel",
+     "balloon"
+    ]
+   },
+   "running_track": {
+    "scene": [
+     "running track",
+     "outdoors",
+     "sky",
+     "cloud",
+     "clear sky",
+     "cumulonimbus cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "track and field",
+     "buruma",
+     "gym uniform"
+    ]
+   },
+   "prison_cell": {
+    "scene": [
+     "prison cell",
+     "indoors",
+     "window blinds",
+     "spreader bar",
+     "dungeon"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "prison",
+     "prison clothes",
+     "chain",
+     "cuffs",
+     "bound"
+    ]
+   },
+   "pagoda": {
+    "scene": [
+     "pagoda",
+     "architecture",
+     "east asian architecture",
+     "outdoors",
+     "sky",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "building"
+    ]
+   },
+   "rural": {
+    "scene": [
+     "rural",
+     "outdoors",
+     "sky",
+     "scenery",
+     "cloud",
+     "mountainous horizon"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "grass",
+     "tree",
+     "mountain",
+     "blue sky",
+     "power lines"
+    ]
+   },
+   "closet": {
+    "scene": [
+     "closet",
+     "indoors",
+     "window blinds",
+     "asahiyama high school uniform",
+     "sitting on stairs",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "clothes hanger"
+    ]
+   },
+   "movie_theater": {
+    "scene": [
+     "movie theater",
+     "indoors",
+     "sitting on stairs",
+     "watermelon bar",
+     "window blinds",
+     "school chair"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "popcorn",
+     "chair"
+    ]
+   },
+   "vehicle_interior": {
+    "scene": [
+     "vehicle interior",
+     "sitting on stairs",
+     "asahiyama high school uniform",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "car interior",
+     "steering wheel",
+     "driving"
+    ]
+   },
+   "village": {
+    "scene": [
+     "village",
+     "outdoors",
+     "sky",
+     "tree",
+     "scenery",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "house",
+     "building",
+     "mountain",
+     "blue sky",
+     "grass"
+    ]
+   },
+   "fitting_room": {
+    "scene": [
+     "fitting room",
+     "curtains",
+     "indoors",
+     "curtain grab",
+     "window blinds",
+     "new school swimsuit"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "mirror",
+     "reflection"
+    ]
+   },
+   "market_stall": {
+    "scene": [
+     "market stall",
+     "outdoors",
+     "sky",
+     "clear sky",
+     "black sky",
+     "watermelon bar"
+    ],
+    "lighting_bias": [
+     "night",
+     "moonlight",
+     "overcast"
+    ],
+    "extras": [
+     "lantern",
+     "yukata",
+     "sash",
+     "obi"
+    ]
+   },
+   "arcade": {
+    "scene": [
+     "arcade",
+     "indoors",
+     "school uniform",
+     "asahiyama high school uniform",
+     "shimokitazawa high school uniform",
+     "window blinds"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "crane game",
+     "playing games"
+    ]
+   },
+   "rice_paddy": {
+    "scene": [
+     "rice paddy",
+     "outdoors",
+     "sky",
+     "cloud",
+     "scenery",
+     "mountain"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "grass",
+     "tree",
+     "blue sky",
+     "clear sky"
+    ]
+   },
+   "railroad_crossing": {
+    "scene": [
+     "railroad crossing",
+     "outdoors",
+     "sky",
+     "cloud",
+     "scenery",
+     "blue sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "railroad tracks",
+     "sign",
+     "road sign",
+     "power lines"
+    ]
+   },
+   "bus_interior": {
+    "scene": [
+     "bus interior",
+     "window",
+     "school uniform",
+     "asahiyama high school uniform",
+     "shimokitazawa high school uniform",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": []
+   },
+   "changing_room": {
+    "scene": [
+     "changing room",
+     "indoors",
+     "locker room",
+     "window blinds",
+     "asahiyama high school uniform",
+     "school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "undressing",
+     "locker",
+     "bra"
+    ]
+   },
+   "school_gym": {
+    "scene": [
+     "school gym",
+     "indoors",
+     "wooden floor",
+     "window blinds",
+     "holding beachball",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "bokeh"
+    ],
+    "extras": [
+     "gym uniform",
+     "blurry",
+     "ball"
+    ]
+   },
+   "laboratory": {
+    "scene": [
+     "laboratory",
+     "indoors",
+     "window blinds",
+     "sitting on stairs",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "lab coat",
+     "test tube",
+     "flask"
+    ]
+   },
+   "train_station_platform": {
+    "scene": [
+     "train station platform",
+     "outdoors",
+     "sky",
+     "school uniform",
+     "clear sky",
+     "cumulonimbus cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "train station",
+     "train",
+     "railroad tracks"
+    ]
+   },
+   "dirt_road": {
+    "scene": [
+     "dirt road",
+     "outdoors",
+     "grass",
+     "sky",
+     "cloud",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "road",
+     "tree",
+     "blue sky",
+     "landscape",
+     "mountain"
+    ]
+   },
+   "hangar": {
+    "scene": [
+     "hangar",
+     "indoors",
+     "window blinds",
+     "scenery",
+     "outdoors"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "mecha",
+     "realistic",
+     "mobile suit",
+     "mecha focus",
+     "spacecraft"
+    ]
+   },
+   "spacecraft_interior": {
+    "scene": [
+     "spacecraft interior",
+     "window",
+     "indoors",
+     "window blinds",
+     "round window",
+     "open window"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "space",
+     "zero gravity",
+     "spacecraft",
+     "planet",
+     "mecha"
+    ]
+   },
+   "phone_booth": {
+    "scene": [
+     "phone booth",
+     "outdoors",
+     "sky",
+     "clear sky",
+     "cloud",
+     "pink sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "phone",
+     "holding phone",
+     "corded phone"
+    ]
+   },
+   "hotel_room": {
+    "scene": [
+     "hotel room",
+     "bed",
+     "indoors",
+     "on bed",
+     "hospital bed",
+     "bedroom"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "pillow"
+    ]
+   },
+   "greenhouse": {
+    "scene": [
+     "greenhouse",
+     "indoors",
+     "tree",
+     "window blinds",
+     "against tree",
+     "under tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "hanging light"
+    ],
+    "extras": [
+     "plant",
+     "potted plant"
+    ]
+   },
+   "subway": {
+    "scene": [
+     "subway",
+     "school uniform",
+     "asahiyama high school uniform",
+     "shimokitazawa high school uniform",
+     "sitting on stairs",
+     "hanasakigawa school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "train interior"
+    ]
+   },
+   "stone_walkway": {
+    "scene": [
+     "stone walkway",
+     "outdoors",
+     "tree",
+     "sky",
+     "grass",
+     "architecture"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": []
+   },
+   "asteroid": {
+    "scene": [
+     "asteroid",
+     "black sky",
+     "outdoors",
+     "sky"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "space",
+     "mecha",
+     "mobile suit",
+     "zero gravity",
+     "mecha focus"
+    ]
+   },
+   "tunnel": {
+    "scene": [
+     "tunnel",
+     "outdoors",
+     "scenery",
+     "tree",
+     "sky",
+     "water"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": []
+   },
+   "battlefield": {
+    "scene": [
+     "battlefield",
+     "sky",
+     "outdoors",
+     "cloud",
+     "above clouds",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "war",
+     "battle",
+     "smoke"
+    ]
+   },
+   "baseball_stadium": {
+    "scene": [
+     "baseball stadium",
+     "outdoors",
+     "sky",
+     "cloud",
+     "above clouds",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "baseball uniform",
+     "baseball mitt",
+     "sportswear",
+     "shirt under shirt",
+     "undershirt"
+    ]
+   },
+   "bakery": {
+    "scene": [
+     "bakery",
+     "indoors",
+     "watermelon bar",
+     "window blinds",
+     "shimokitazawa high school uniform",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "shop",
+     "baguette",
+     "bread"
+    ]
+   },
+   "farm": {
+    "scene": [
+     "farm",
+     "outdoors",
+     "sky",
+     "cloud",
+     "scenery",
+     "tree"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "grass",
+     "field",
+     "blue sky",
+     "fence",
+     "clear sky"
+    ]
+   },
+   "canal": {
+    "scene": [
+     "canal",
+     "outdoors",
+     "water",
+     "scenery",
+     "building",
+     "sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "bridge",
+     "tree",
+     "blue sky",
+     "railing",
+     "boat"
+    ]
+   },
+   "racetrack": {
+    "scene": [
+     "racetrack",
+     "outdoors",
+     "sky",
+     "blue sky",
+     "cloud",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "race queen",
+     "race vehicle",
+     "racecar",
+     "car",
+     "on car"
+    ]
+   },
+   "wetland": {
+    "scene": [
+     "wetland",
+     "outdoors",
+     "water",
+     "tree",
+     "forest",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "nature",
+     "grass",
+     "wading",
+     "plant",
+     "stream"
+    ]
+   },
+   "roller_coaster": {
+    "scene": [
+     "roller coaster",
+     "outdoors",
+     "sky",
+     "cloud",
+     "blue sky",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "ferris wheel"
+    ]
+   },
+   "tavern": {
+    "scene": [
+     "tavern",
+     "indoors",
+     "window blinds",
+     "sitting on stairs",
+     "watermelon bar",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "mug",
+     "beer mug",
+     "holding cup",
+     "alcohol",
+     "table"
+    ]
+   },
+   "cathedral": {
+    "scene": [
+     "cathedral",
+     "indoors",
+     "window",
+     "outdoors",
+     "architecture",
+     "sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "church",
+     "building"
+    ]
+   },
+   "grasslands": {
+    "scene": [
+     "grasslands",
+     "grass",
+     "outdoors",
+     "sky",
+     "cloud",
+     "blue sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "scenery",
+     "mountain",
+     "tree",
+     "clear sky",
+     "cumulonimbus cloud"
+    ]
+   },
+   "market": {
+    "scene": [
+     "market",
+     "outdoors",
+     "sky",
+     "clear sky",
+     "cumulonimbus cloud",
+     "watermelon bar"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "night"
+    ],
+    "extras": []
+   },
+   "parking_lot": {
+    "scene": [
+     "parking lot",
+     "outdoors",
+     "sky",
+     "building",
+     "scenery",
+     "tree"
+    ],
+    "lighting_bias": [
+     "night",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "car",
+     "on car"
+    ]
+   },
+   "horse_racing_track": {
+    "scene": [
+     "horse racing track",
+     "outdoors",
+     "grass",
+     "tall grass",
+     "sky",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "horse girl",
+     "running",
+     "tracen swimsuit"
+    ]
+   },
+   "supermarket": {
+    "scene": [
+     "supermarket",
+     "indoors",
+     "window blinds",
+     "shelf",
+     "watermelon bar",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "shopping cart",
+     "shopping"
+    ]
+   },
+   "love_hotel": {
+    "scene": [
+     "love hotel",
+     "indoors",
+     "on bed",
+     "bed",
+     "window blinds",
+     "hospital bed"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "pillow"
+    ]
+   },
+   "airplane_interior": {
+    "scene": [
+     "airplane interior",
+     "window",
+     "sky",
+     "round window",
+     "sitting on stairs",
+     "open window"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "travel attendant"
+    ]
+   },
+   "barn": {
+    "scene": [
+     "barn",
+     "outdoors",
+     "sky",
+     "indoors",
+     "clear sky",
+     "cumulonimbus cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": []
+   },
+   "factory": {
+    "scene": [
+     "factory",
+     "scenery",
+     "outdoors",
+     "sky",
+     "building",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "smoke"
+    ]
+   },
+   "in_orbit": {
+    "scene": [
+     "in orbit",
+     "starry sky",
+     "sky",
+     "cloud",
+     "black sky",
+     "above clouds"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "planet",
+     "space",
+     "zero gravity",
+     "spacecraft",
+     "mecha"
+    ]
+   },
+   "canyon": {
+    "scene": [
+     "canyon",
+     "outdoors",
+     "sky",
+     "scenery",
+     "cloud",
+     "blue sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "cliff",
+     "rock",
+     "desert",
+     "clear sky",
+     "tree"
+    ]
+   },
+   "wooden_bridge": {
+    "scene": [
+     "wooden bridge",
+     "outdoors",
+     "tree",
+     "sky",
+     "scenery",
+     "water"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "bridge",
+     "river",
+     "blue sky",
+     "grass"
+    ]
+   },
+   "industrial": {
+    "scene": [
+     "industrial",
+     "scenery",
+     "outdoors",
+     "building",
+     "sky",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "industrial pipe",
+     "smoke",
+     "railing"
+    ]
+   },
+   "highway": {
+    "scene": [
+     "highway",
+     "outdoors",
+     "city",
+     "sky",
+     "building",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "night",
+     "overcast"
+    ],
+    "extras": [
+     "road",
+     "car",
+     "lamppost",
+     "cityscape",
+     "sign"
+    ]
+   },
+   "harbor": {
+    "scene": [
+     "harbor",
+     "outdoors",
+     "sky",
+     "ocean",
+     "water",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "watercraft",
+     "ship",
+     "scenery",
+     "building",
+     "boat"
+    ]
+   },
+   "well": {
+    "scene": [
+     "well",
+     "tree",
+     "outdoors",
+     "scenery",
+     "sky",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "bucket"
+    ]
+   },
+   "arena": {
+    "scene": [
+     "arena",
+     "sky",
+     "outdoors",
+     "clear sky",
+     "cumulonimbus cloud",
+     "pink sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": []
+   },
+   "space_station": {
+    "scene": [
+     "space station",
+     "scenery",
+     "building",
+     "sky",
+     "cloud",
+     "outdoors"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "space",
+     "planet",
+     "spacecraft",
+     "zero gravity",
+     "realistic"
+    ]
+   },
+   "airport": {
+    "scene": [
+     "airport",
+     "sky",
+     "cloud",
+     "indoors",
+     "outdoors",
+     "above clouds"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "day",
+     "dawn"
+    ],
+    "extras": [
+     "suitcase",
+     "rolling suitcase",
+     "airplane",
+     "aircraft"
+    ]
+   },
+   "gazebo": {
+    "scene": [
+     "gazebo",
+     "outdoors",
+     "tree",
+     "sky",
+     "cloud",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "rose"
+    ]
+   },
+   "dressing_room": {
+    "scene": [
+     "dressing room",
+     "indoors",
+     "window blinds",
+     "sitting on stairs",
+     "school chair",
+     "office chair"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "mirror",
+     "reflection",
+     "chair"
+    ]
+   },
+   "maid_cafe": {
+    "scene": [
+     "maid cafe",
+     "indoors",
+     "window blinds",
+     "watermelon bar"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "maid",
+     "maid headdress",
+     "maid apron",
+     "enmaided",
+     "white apron"
+    ]
+   },
+   "theater": {
+    "scene": [
+     "theater",
+     "indoors",
+     "window blinds",
+     "sitting on stairs",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "stage lights"
+    ],
+    "extras": [
+     "stage"
+    ]
+   },
+   "otaku_room": {
+    "scene": [
+     "otaku room",
+     "indoors",
+     "bookshelf",
+     "window",
+     "window blinds",
+     "school chair"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "otaku",
+     "figure",
+     "loaded interior",
+     "absurdly detailed composition",
+     "monitor"
+    ]
+   },
+   "seafloor": {
+    "scene": [
+     "seafloor",
+     "underwater",
+     "ocean",
+     "water",
+     "shallow water",
+     "wading pool"
+    ],
+    "lighting_bias": [
+     "sunlight",
+     "dappled sunlight",
+     "sunbeam"
+    ],
+    "extras": [
+     "bubble",
+     "air bubble",
+     "freediving",
+     "fish",
+     "submerged"
+    ]
+   },
+   "garage": {
+    "scene": [
+     "garage",
+     "outdoors",
+     "building",
+     "scenery",
+     "sky",
+     "indoors"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "car",
+     "on car"
+    ]
+   },
+   "hut": {
+    "scene": [
+     "hut",
+     "outdoors",
+     "tree",
+     "palm tree",
+     "sky",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "beach",
+     "blue sky"
+    ]
+   },
+   "soapland": {
+    "scene": [
+     "soapland",
+     "bathroom",
+     "indoors",
+     "tile wall",
+     "tile floor",
+     "new school swimsuit"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "mixed-sex bathing",
+     "shared bathing",
+     "completely nude",
+     "tiles"
+    ]
+   },
+   "construction_site": {
+    "scene": [
+     "construction site",
+     "outdoors",
+     "sky",
+     "building",
+     "cloud",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": []
+   },
+   "museum": {
+    "scene": [
+     "museum",
+     "indoors",
+     "window blinds",
+     "asahiyama high school uniform",
+     "shimokitazawa high school uniform",
+     "window"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": []
+   },
+   "mall": {
+    "scene": [
+     "mall",
+     "indoors",
+     "window blinds",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "shopping bag"
+    ]
+   },
+   "nightclub": {
+    "scene": [
+     "nightclub",
+     "indoors",
+     "window blinds",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "pole",
+     "stripper pole",
+     "pole dancing",
+     "high heels"
+    ]
+   },
+   "subway_station": {
+    "scene": [
+     "subway station",
+     "tile floor",
+     "indoors",
+     "tile wall",
+     "school uniform",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "tiles"
+    ]
+   },
+   "convention": {
+    "scene": [
+     "convention",
+     "yurigaoka girls academy school uniform",
+     "school uniform",
+     "asahiyama high school uniform",
+     "indoors"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "table",
+     "book"
+    ]
+   },
+   "stable": {
+    "scene": [
+     "stable",
+     "indoors",
+     "window blinds",
+     "asahiyama high school uniform",
+     "outdoors"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "horse",
+     "horse penis",
+     "animal penis",
+     "zoophilia",
+     "bestiality"
+    ]
+   },
+   "savannah": {
+    "scene": [
+     "savannah",
+     "outdoors",
+     "tree",
+     "sky",
+     "grass",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "animal print",
+     "elbow gloves",
+     "blue sky"
+    ]
+   },
+   "hotel": {
+    "scene": [
+     "hotel",
+     "indoors",
+     "outdoors",
+     "building",
+     "sky",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": []
+   },
+   "warehouse": {
+    "scene": [
+     "warehouse",
+     "indoors",
+     "window blinds",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "box",
+     "cardboard box"
+    ]
+   },
+   "treehouse": {
+    "scene": [
+     "treehouse",
+     "tree",
+     "outdoors",
+     "scenery",
+     "forest",
+     "sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "nature",
+     "stairs",
+     "grass",
+     "house",
+     "window"
+    ]
+   },
+   "zoo": {
+    "scene": [
+     "zoo",
+     "outdoors",
+     "shimokitazawa high school uniform",
+     "asahiyama high school uniform",
+     "clear sky",
+     "indoors"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "duck",
+     "bird",
+     "penguin",
+     "slice of life",
+     "overalls"
+    ]
+   },
+   "soccer_field": {
+    "scene": [
+     "soccer field",
+     "outdoors",
+     "sky",
+     "clear sky",
+     "holding beachball",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "soccer ball",
+     "soccer",
+     "soccer uniform",
+     "sportswear",
+     "ball"
+    ]
+   },
+   "izakaya": {
+    "scene": [
+     "izakaya",
+     "indoors",
+     "window blinds",
+     "watermelon bar",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "alcohol",
+     "beer mug",
+     "bird ears",
+     "tasuki",
+     "mug"
+    ]
+   },
+   "morgue": {
+    "scene": [
+     "morgue"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": []
+   },
+   "clothes_shop": {
+    "scene": [
+     "clothes shop",
+     "indoors",
+     "window blinds",
+     "shimokitazawa high school uniform",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "clothes hanger",
+     "shopping",
+     "mannequin",
+     "shop",
+     "holding unworn clothes"
+    ]
+   },
+   "clubroom": {
+    "scene": [
+     "clubroom",
+     "indoors",
+     "school uniform",
+     "hasu no sora school uniform",
+     "window",
+     "sobu high school uniform"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "in-universe location",
+     "winter uniform",
+     "sailor dress",
+     "white sailor collar",
+     "neckerchief"
+    ]
+   },
+   "flower_shop": {
+    "scene": [
+     "flower shop",
+     "indoors",
+     "outdoors",
+     "clear sky",
+     "window blinds",
+     "window"
+    ],
+    "lighting_bias": [
+     "hanging light"
+    ],
+    "extras": [
+     "shop",
+     "flower pot",
+     "potted plant",
+     "plant",
+     "yellow flower"
+    ]
+   },
+   "school_gateway": {
+    "scene": [
+     "school gateway",
+     "school",
+     "school uniform",
+     "outdoors",
+     "tree",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": []
+   },
+   "genkan": {
+    "scene": [
+     "genkan",
+     "wooden floor",
+     "indoors",
+     "tile floor",
+     "window blinds",
+     "wooden wall"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "doorway",
+     "pov doorway",
+     "open door",
+     "door",
+     "tiles"
+    ]
+   },
+   "dance_studio": {
+    "scene": [
+     "dance studio",
+     "indoors",
+     "window blinds",
+     "anzio school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "ballerina",
+     "ballet",
+     "ballet slippers",
+     "athletic leotard",
+     "white pantyhose"
+    ]
+   },
+   "courtroom": {
+    "scene": [
+     "courtroom",
+     "indoors",
+     "window blinds",
+     "asahiyama high school uniform",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "suit",
+     "pointing",
+     "formal clothes",
+     "parody"
+    ]
+   },
+   "waterpark": {
+    "scene": [
+     "waterpark",
+     "pool",
+     "water",
+     "outdoors",
+     "palm tree",
+     "sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "blue sky",
+     "tree"
+    ]
+   },
+   "bookstore": {
+    "scene": [
+     "bookstore",
+     "bookshelf",
+     "indoors",
+     "school uniform",
+     "shimokitazawa high school uniform",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "shop",
+     "book",
+     "holding book"
+    ]
+   },
+   "plain": {
+    "scene": [
+     "plain",
+     "outdoors",
+     "sky",
+     "cloud",
+     "grass",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "cloudy sky",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "landscape",
+     "painterly",
+     "mountainous horizon",
+     "blue sky",
+     "mountain"
+    ]
+   },
+   "dining_room": {
+    "scene": [
+     "dining room",
+     "indoors",
+     "window",
+     "window blinds",
+     "school chair",
+     "office chair"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "table",
+     "chair",
+     "plate",
+     "fork"
+    ]
+   },
+   "ashiyu": {
+    "scene": [
+     "ashiyu",
+     "water",
+     "onsen",
+     "outdoors",
+     "shallow water",
+     "sitting on stairs"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "soaking feet",
+     "barefoot",
+     "yukata"
+    ]
+   },
+   "skating_rink": {
+    "scene": [
+     "skating rink",
+     "asahiyama high school uniform",
+     "outdoors",
+     "sky"
+    ],
+    "lighting_bias": [
+     "snow"
+    ],
+    "extras": [
+     "ice skates",
+     "skates"
+    ]
+   },
+   "gas_station": {
+    "scene": [
+     "gas station",
+     "outdoors",
+     "sky",
+     "cloud",
+     "clear sky",
+     "cumulonimbus cloud"
+    ],
+    "lighting_bias": [
+     "night",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "car"
+    ]
+   },
+   "runway": {
+    "scene": [
+     "runway",
+     "sky",
+     "cloud",
+     "outdoors",
+     "blue sky",
+     "cumulonimbus cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "airplane",
+     "aircraft",
+     "fighter jet",
+     "vehicle focus",
+     "abyssal ship"
+    ]
+   },
+   "cubicle": {
+    "scene": [
+     "cubicle",
+     "office",
+     "office chair",
+     "office lady",
+     "desk",
+     "indoors"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "swivel chair",
+     "chair",
+     "monitor",
+     "pencil skirt",
+     "computer keyboard"
+    ]
+   },
+   "backstage": {
+    "scene": [
+     "backstage",
+     "indoors",
+     "window blinds",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": []
+   },
+   "ballroom": {
+    "scene": [
+     "ballroom",
+     "indoors",
+     "window blinds",
+     "window",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "chandelier",
+     "dancing",
+     "holding hands",
+     "looking at another"
+    ]
+   },
+   "megastructure": {
+    "scene": [
+     "megastructure",
+     "scenery",
+     "building",
+     "sky",
+     "outdoors",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "city",
+     "cityscape",
+     "tower",
+     "fantasy",
+     "spacecraft"
+    ]
+   },
+   "cafeteria": {
+    "scene": [
+     "cafeteria",
+     "indoors",
+     "school uniform",
+     "school chair",
+     "window blinds",
+     "hanasakigawa school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "table",
+     "chair",
+     "tray"
+    ]
+   },
+   "sewer": {
+    "scene": [
+     "sewer",
+     "water",
+     "shallow water",
+     "outdoors",
+     "wading pool",
+     "grass"
+    ],
+    "lighting_bias": [
+     "rain",
+     "day"
+    ],
+    "extras": []
+   },
+   "glacier": {
+    "scene": [
+     "glacier",
+     "outdoors",
+     "sky",
+     "clear sky",
+     "pink sky",
+     "black sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "goggles on head",
+     "goggles",
+     "white scarf",
+     "pink jacket",
+     "scarf"
+    ]
+   },
+   "trench": {
+    "scene": [
+     "trench",
+     "outdoors",
+     "sky",
+     "clear sky",
+     "pink sky",
+     "black sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "barbed wire",
+     "war",
+     "soldier",
+     "combat helmet"
+    ]
+   },
+   "shed": {
+    "scene": [
+     "shed",
+     "outdoors",
+     "tree",
+     "scenery",
+     "sky",
+     "grass"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "bush",
+     "blue sky",
+     "building",
+     "nature",
+     "clear sky"
+    ]
+   },
+   "wasteland": {
+    "scene": [
+     "wasteland",
+     "outdoors",
+     "sky",
+     "cloud",
+     "cumulonimbus cloud",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": []
+   },
+   "tank_interior": {
+    "scene": [
+     "tank interior",
+     "sitting on stairs",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "ooarai military uniform",
+     "tank",
+     "miniskirt"
+    ]
+   },
+   "junkyard": {
+    "scene": [
+     "junkyard",
+     "sky",
+     "outdoors",
+     "cloud",
+     "above clouds",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": []
+   },
+   "floating_city": {
+    "scene": [
+     "floating city",
+     "scenery",
+     "cloud",
+     "sky",
+     "outdoors",
+     "city"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "floating island",
+     "fantasy",
+     "cityscape",
+     "building",
+     "tree"
+    ]
+   },
+   "bell_tower": {
+    "scene": [
+     "bell tower",
+     "outdoors",
+     "sky",
+     "cloud",
+     "building",
+     "blue sky"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "bell",
+     "tower",
+     "tree"
+    ]
+   },
+   "storage_room": {
+    "scene": [
+     "storage room",
+     "shelf",
+     "indoors",
+     "school uniform",
+     "shimokitazawa high school uniform",
+     "window blinds"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "box",
+     "cardboard box"
+    ]
+   },
+   "grocery_store": {
+    "scene": [
+     "grocery store",
+     "indoors",
+     "window blinds",
+     "watermelon bar",
+     "asahiyama high school uniform",
+     "shimokitazawa high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "shopping",
+     "shopping cart"
+    ]
+   },
+   "floating_castle": {
+    "scene": [
+     "floating castle",
+     "castle",
+     "sky",
+     "cloud",
+     "outdoors",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "floating island",
+     "fantasy",
+     "blue sky",
+     "floating",
+     "cumulonimbus cloud"
+    ]
+   },
+   "shack": {
+    "scene": [
+     "shack",
+     "outdoors",
+     "scenery",
+     "sky",
+     "tree",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "grass",
+     "forest",
+     "nature",
+     "blue sky",
+     "clear sky"
+    ]
+   },
+   "workshop": {
+    "scene": [
+     "workshop",
+     "indoors",
+     "window",
+     "window blinds",
+     "round window",
+     "open window"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "tools",
+     "wrench",
+     "table"
+    ]
+   },
+   "conservatory": {
+    "scene": [
+     "conservatory",
+     "indoors",
+     "window",
+     "window blinds",
+     "round window",
+     "open window"
+    ],
+    "lighting_bias": [
+     "sunlight",
+     "day",
+     "dappled sunlight"
+    ],
+    "extras": [
+     "plant",
+     "potted plant",
+     "chair",
+     "table"
+    ]
+   },
+   "art_gallery": {
+    "scene": [
+     "art gallery",
+     "indoors",
+     "window blinds",
+     "window",
+     "shimokitazawa high school uniform",
+     "asahiyama high school uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "picture frame",
+     "from behind"
+    ]
+   },
+   "oasis": {
+    "scene": [
+     "oasis",
+     "palm tree",
+     "tree",
+     "outdoors",
+     "sky",
+     "water"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "desert",
+     "sand",
+     "blue sky"
+    ]
+   },
+   "shooting_range": {
+    "scene": [
+     "shooting range"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "ear protection",
+     "handgun",
+     "beretta 92"
+    ]
+   },
+   "bowling_alley": {
+    "scene": [
+     "bowling alley",
+     "indoors",
+     "holding beachball",
+     "window blinds",
+     "beachball"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "ball",
+     "playing sports",
+     "holding ball"
+    ]
+   },
+   "underwater_city": {
+    "scene": [
+     "underwater city",
+     "underwater",
+     "building",
+     "scenery",
+     "city",
+     "outdoors"
+    ],
+    "lighting_bias": [
+     "light rays",
+     "sunlight",
+     "sunbeam"
+    ],
+    "extras": [
+     "bubble",
+     "air bubble",
+     "fish",
+     "ruins",
+     "freediving"
+    ]
+   },
+   "town_square": {
+    "scene": [
+     "town square",
+     "outdoors",
+     "sky",
+     "city",
+     "building",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "day",
+     "cloudy sky",
+     "overcast"
+    ],
+    "extras": [
+     "fountain",
+     "tree",
+     "blue sky",
+     "stairs",
+     "clear sky"
+    ]
+   },
+   "planetarium": {
+    "scene": [
+     "planetarium",
+     "sky",
+     "starry sky",
+     "indoors",
+     "black sky",
+     "pink sky"
+    ],
+    "lighting_bias": [
+     "night",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "constellation"
+    ]
+   },
+   "candy_store": {
+    "scene": [
+     "candy store",
+     "outdoors",
+     "indoors",
+     "watermelon bar",
+     "chocolate bar",
+     "clear sky"
+    ],
+    "lighting_bias": [
+     "day"
+    ],
+    "extras": [
+     "shop",
+     "candy"
+    ]
+   },
+   "observatory": {
+    "scene": [
+     "observatory",
+     "sky",
+     "starry sky",
+     "outdoors",
+     "scenery",
+     "cloud"
+    ],
+    "lighting_bias": [
+     "night",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "telescope",
+     "book",
+     "black sky"
+    ]
+   },
+   "parking_garage": {
+    "scene": [
+     "parking garage",
+     "indoors",
+     "window blinds",
+     "outdoors",
+     "sky",
+     "building"
+    ],
+    "lighting_bias": [
+     "ceiling light",
+     "night",
+     "day"
+    ],
+    "extras": [
+     "car"
+    ]
+   },
+   "space_elevator": {
+    "scene": [
+     "space elevator",
+     "cloud",
+     "sky",
+     "outdoors",
+     "scenery",
+     "building"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "tower",
+     "blue sky",
+     "space",
+     "aircraft",
+     "fighter jet"
+    ]
+   },
+   "maritime_port": {
+    "scene": [
+     "maritime port",
+     "ocean",
+     "sky",
+     "cloud",
+     "outdoors",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "cloudy sky",
+     "day",
+     "overcast"
+    ],
+    "extras": [
+     "watercraft",
+     "ship",
+     "mast",
+     "warship",
+     "smokestack"
+    ]
+   },
+   "archery_dojo": {
+    "scene": [
+     "archery dojo",
+     "meiji schoolgirl uniform"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": [
+     "archery",
+     "yugake",
+     "muneate",
+     "partially fingerless gloves",
+     "hakama"
+    ]
+   },
+   "military_base": {
+    "scene": [
+     "military base",
+     "sky",
+     "building",
+     "cloud",
+     "outdoors",
+     "scenery"
+    ],
+    "lighting_bias": [
+     "overcast",
+     "dawn",
+     "twilight"
+    ],
+    "extras": [
+     "aircraft",
+     "airplane",
+     "mecha",
+     "mobile suit",
+     "blue sky"
+    ]
+   },
+   "suburb": {
+    "scene": [
+     "suburb",
+     "outdoors",
+     "sky",
+     "tree",
+     "scenery",
+     "building"
+    ],
+    "lighting_bias": [
+     "day",
+     "overcast",
+     "dawn"
+    ],
+    "extras": [
+     "house",
+     "power lines",
+     "utility pole",
+     "blue sky",
+     "road"
+    ]
+   },
+   "gym": {
+    "scene": [
+     "gym"
+    ],
+    "lighting_bias": [
+     "soft lighting"
+    ],
+    "extras": []
+   }
+  },
+  "tail": {}
+ }
+}

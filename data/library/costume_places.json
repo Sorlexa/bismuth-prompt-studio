@@ -1,0 +1,98 @@
+{
+ "_note": "P(costume | scene) = P(scene | costume) x N(costume) / N(scene), from danbooru's related_tag of the costume and the cached tag counts. Written by tools/build/harvest_costume_places.py.",
+ "min_share": 0.0005,
+ "costumes": {
+  "naked apron": {
+   "kitchen": 0.11001,
+   "cooking": 0.04646,
+   "valentine": 0.01069,
+   "indoors": 0.00373,
+   "steam": 0.00179,
+   "bed": 0.00119,
+   "on bed": 0.00103
+  },
+  "naked bandage": {
+   "halloween": 0.03149,
+   "moon": 0.00241,
+   "night": 0.00129
+  },
+  "naked cape": {
+   "halloween": 0.00338,
+   "forest": 0.00065,
+   "christmas": 0.00059,
+   "nature": 0.00056,
+   "moon": 0.00052
+  },
+  "naked cloak": {
+   "halloween": 0.00076
+  },
+  "naked coat": {
+   "night": 0.00097,
+   "snow": 0.0009,
+   "steam": 0.00069
+  },
+  "naked dress": {},
+  "naked hoodie": {
+   "bed": 0.00056,
+   "on bed": 0.00054
+  },
+  "naked jacket": {
+   "on bed": 0.00113,
+   "indoors": 0.00076,
+   "beach": 0.00053
+  },
+  "naked overalls": {},
+  "naked ribbon": {
+   "valentine": 0.02935,
+   "christmas": 0.02208,
+   "on bed": 0.00248,
+   "bed": 0.00191,
+   "indoors": 0.00071
+  },
+  "naked scarf": {
+   "snow": 0.00141,
+   "winter": 0.00137
+  },
+  "naked sheet": {
+   "under covers": 0.03601,
+   "morning": 0.01164,
+   "waking up": 0.01087,
+   "bed": 0.00574,
+   "on bed": 0.00415,
+   "bedroom": 0.00345,
+   "sleeping": 0.00333,
+   "halloween": 0.00128,
+   "indoors": 0.00091
+  },
+  "naked shirt": {
+   "waking up": 0.03086,
+   "on bed": 0.01013,
+   "bed": 0.00842,
+   "indoors": 0.00509,
+   "steam": 0.00353,
+   "water": 0.00087,
+   "outdoors": 0.00053
+  },
+  "naked shoes": {
+   "classroom": 0.00278,
+   "indoors": 0.0006
+  },
+  "naked tabard": {},
+  "naked towel": {
+   "sauna": 0.35563,
+   "onsen": 0.24575,
+   "bathing": 0.10233,
+   "steam": 0.04915,
+   "bathroom": 0.0455,
+   "bathtub": 0.03612,
+   "water": 0.01334,
+   "snow": 0.01083,
+   "night": 0.00713,
+   "moon": 0.00405,
+   "indoors": 0.00348,
+   "outdoors": 0.00261,
+   "on bed": 0.00148,
+   "bed": 0.00147
+  }
+ }
+}

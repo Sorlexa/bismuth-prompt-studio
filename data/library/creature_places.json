@@ -1,0 +1,696 @@
+{
+ "_note": "P(place | creature): the share of a creature's own posts at each place of the location pool (danbooru related_tag). Written by tools/build/harvest_creature_places.py.",
+ "min_share": 0.02,
+ "creatures": {
+  "ape": {
+   "posts": 427,
+   "places": {
+    "nature": 0.0327,
+    "water": 0.028,
+    "forest": 0.0234
+   }
+  },
+  "bat (animal)": {
+   "posts": 17794,
+   "places": {
+    "moon": 0.288,
+    "castle": 0.0382,
+    "graveyard": 0.0238
+   }
+  },
+  "bear": {
+   "posts": 8047,
+   "places": {
+    "water": 0.0362,
+    "nature": 0.0324,
+    "forest": 0.0258
+   }
+  },
+  "bee": {
+   "posts": 1702,
+   "places": {
+    "nature": 0.0288,
+    "water": 0.0211
+   }
+  },
+  "beetle": {
+   "posts": 1467,
+   "places": {
+    "nature": 0.0571,
+    "forest": 0.0442,
+    "water": 0.0306
+   }
+  },
+  "boar": {
+   "posts": 1801,
+   "places": {
+    "nature": 0.036,
+    "forest": 0.0349,
+    "water": 0.0227
+   }
+  },
+  "bug": {
+   "posts": 100622,
+   "places": {
+    "water": 0.0434,
+    "moon": 0.0302,
+    "nature": 0.0276
+   }
+  },
+  "bull": {
+   "posts": 968,
+   "places": {
+    "water": 0.033,
+    "mountain": 0.0227,
+    "nature": 0.0206
+   }
+  },
+  "butterfly": {
+   "posts": 77393,
+   "places": {
+    "water": 0.0458,
+    "moon": 0.0334,
+    "nature": 0.0294,
+    "forest": 0.0202
+   }
+  },
+  "centipede": {
+   "posts": 1413,
+   "places": {}
+  },
+  "chicken": {
+   "posts": 6339,
+   "places": {
+    "water": 0.0298
+   }
+  },
+  "chimera": {
+   "posts": 1900,
+   "places": {}
+  },
+  "cow": {
+   "posts": 2407,
+   "places": {
+    "farm": 0.0318,
+    "field": 0.0269,
+    "water": 0.0248,
+    "mountain": 0.0211
+   }
+  },
+  "crab": {
+   "posts": 8941,
+   "places": {
+    "beach": 0.2964,
+    "water": 0.1894,
+    "ocean": 0.186,
+    "underwater": 0.0202
+   }
+  },
+  "crane (animal)": {
+   "posts": 1450,
+   "places": {
+    "water": 0.0806,
+    "mountain": 0.0668,
+    "moon": 0.0551,
+    "architecture": 0.0489,
+    "nature": 0.0227
+   }
+  },
+  "crocodilian": {
+   "posts": 1822,
+   "places": {
+    "water": 0.0823,
+    "nature": 0.0269
+   }
+  },
+  "crow": {
+   "posts": 9618,
+   "places": {
+    "moon": 0.0514,
+    "water": 0.0298,
+    "nature": 0.024,
+    "forest": 0.02
+   }
+  },
+  "deer": {
+   "posts": 3366,
+   "places": {
+    "nature": 0.1782,
+    "forest": 0.1462,
+    "water": 0.0845,
+    "moon": 0.0445,
+    "mountain": 0.0305,
+    "landscape": 0.0302
+   }
+  },
+  "dolphin": {
+   "posts": 3047,
+   "places": {
+    "water": 0.2699,
+    "ocean": 0.1535,
+    "underwater": 0.1476,
+    "beach": 0.0633,
+    "aquarium": 0.0259
+   }
+  },
+  "dragon": {
+   "posts": 37904,
+   "places": {
+    "water": 0.051,
+    "mountain": 0.0258,
+    "moon": 0.0252
+   }
+  },
+  "dragonfly": {
+   "posts": 1452,
+   "places": {
+    "water": 0.1253,
+    "nature": 0.0695,
+    "forest": 0.0379,
+    "field": 0.0344,
+    "moon": 0.0268,
+    "mountain": 0.0262,
+    "river": 0.0234
+   }
+  },
+  "eastern dragon": {
+   "posts": 6768,
+   "places": {
+    "water": 0.0524,
+    "architecture": 0.0364,
+    "moon": 0.033,
+    "mountain": 0.0294
+   }
+  },
+  "eel": {
+   "posts": 1297,
+   "places": {
+    "underwater": 0.1186,
+    "water": 0.1162,
+    "ocean": 0.0339
+   }
+  },
+  "eldritch abomination": {
+   "posts": 2072,
+   "places": {
+    "moon": 0.0506,
+    "space": 0.0289,
+    "water": 0.0217
+   }
+  },
+  "elephant": {
+   "posts": 1412,
+   "places": {
+    "water": 0.068,
+    "nature": 0.0297,
+    "zoo": 0.0212
+   }
+  },
+  "familiar": {
+   "posts": 1273,
+   "places": {
+    "moon": 0.0274,
+    "water": 0.0211
+   }
+  },
+  "ferret": {
+   "posts": 1574,
+   "places": {
+    "water": 0.0413
+   }
+  },
+  "fox": {
+   "posts": 11496,
+   "places": {
+    "nature": 0.037,
+    "water": 0.032,
+    "forest": 0.0304
+   }
+  },
+  "frog": {
+   "posts": 16671,
+   "places": {
+    "water": 0.0788,
+    "nature": 0.026
+   }
+  },
+  "giant monster": {
+   "posts": 1750,
+   "places": {
+    "city": 0.0884,
+    "water": 0.0667,
+    "ocean": 0.0531,
+    "mountain": 0.0462,
+    "ruins": 0.0388,
+    "nature": 0.0337,
+    "forest": 0.028,
+    "cityscape": 0.0245,
+    "skyscraper": 0.0228
+   }
+  },
+  "goat": {
+   "posts": 1874,
+   "places": {
+    "nature": 0.0304,
+    "water": 0.0256,
+    "mountain": 0.0256,
+    "forest": 0.0203
+   }
+  },
+  "gorilla": {
+   "posts": 911,
+   "places": {
+    "nature": 0.0746,
+    "forest": 0.0614
+   }
+  },
+  "hamster": {
+   "posts": 4319,
+   "places": {}
+  },
+  "hawk": {
+   "posts": 1055,
+   "places": {
+    "mountain": 0.071,
+    "water": 0.0218,
+    "nature": 0.0218
+   }
+  },
+  "hedgehog": {
+   "posts": 1844,
+   "places": {
+    "water": 0.0309
+   }
+  },
+  "insect": {
+   "posts": 0,
+   "places": {
+    "water": 0.0434,
+    "moon": 0.0302,
+    "nature": 0.0276
+   }
+  },
+  "jellyfish": {
+   "posts": 6309,
+   "places": {
+    "underwater": 0.2588,
+    "water": 0.1366,
+    "ocean": 0.0572,
+    "aquarium": 0.0366,
+    "moon": 0.0228
+   }
+  },
+  "kaiju": {
+   "posts": 2387,
+   "places": {
+    "city": 0.1155,
+    "water": 0.0531,
+    "ocean": 0.0448,
+    "cityscape": 0.0322,
+    "ruins": 0.0272,
+    "skyscraper": 0.0255
+   }
+  },
+  "karakasa obake": {
+   "posts": 8368,
+   "places": {
+    "water": 0.0274
+   }
+  },
+  "ladybug": {
+   "posts": 1644,
+   "places": {
+    "nature": 0.0426,
+    "water": 0.0371,
+    "field": 0.0249
+   }
+  },
+  "lion": {
+   "posts": 3560,
+   "places": {
+    "water": 0.0247
+   }
+  },
+  "lizard": {
+   "posts": 2030,
+   "places": {
+    "water": 0.0486,
+    "nature": 0.0447,
+    "forest": 0.0256
+   }
+  },
+  "mimic": {
+   "posts": 1107,
+   "places": {}
+  },
+  "monkey": {
+   "posts": 3488,
+   "places": {
+    "water": 0.0593,
+    "onsen": 0.0504,
+    "nature": 0.0347,
+    "forest": 0.0221
+   }
+  },
+  "monster": {
+   "posts": 43275,
+   "places": {
+    "water": 0.03,
+    "nature": 0.0262,
+    "forest": 0.02
+   }
+  },
+  "moth": {
+   "posts": 2233,
+   "places": {
+    "moon": 0.034,
+    "nature": 0.0264,
+    "water": 0.0259
+   }
+  },
+  "mouse (animal)": {
+   "posts": 10559,
+   "places": {}
+  },
+  "octopus": {
+   "posts": 7075,
+   "places": {
+    "water": 0.097,
+    "ocean": 0.0622,
+    "beach": 0.043,
+    "underwater": 0.0384
+   }
+  },
+  "otter": {
+   "posts": 1410,
+   "places": {
+    "water": 0.0886,
+    "ocean": 0.0213
+   }
+  },
+  "owl": {
+   "posts": 5761,
+   "places": {
+    "moon": 0.036,
+    "water": 0.0306,
+    "nature": 0.0302,
+    "forest": 0.0258
+   }
+  },
+  "panda": {
+   "posts": 4849,
+   "places": {
+    "water": 0.0264
+   }
+  },
+  "parrot": {
+   "posts": 1609,
+   "places": {
+    "water": 0.0708,
+    "nature": 0.0509,
+    "beach": 0.0255,
+    "ocean": 0.0248,
+    "forest": 0.023
+   }
+  },
+  "pegasus": {
+   "posts": 1683,
+   "places": {
+    "water": 0.035,
+    "moon": 0.0261
+   }
+  },
+  "phoenix": {
+   "posts": 1079,
+   "places": {
+    "moon": 0.0445,
+    "architecture": 0.0361,
+    "water": 0.0287,
+    "nature": 0.0232,
+    "mountain": 0.0213
+   }
+  },
+  "pig": {
+   "posts": 4701,
+   "places": {
+    "water": 0.0336
+   }
+  },
+  "pigeon": {
+   "posts": 1988,
+   "places": {
+    "water": 0.0306,
+    "city": 0.0306
+   }
+  },
+  "raccoon": {
+   "posts": 2204,
+   "places": {
+    "water": 0.0512,
+    "nature": 0.0272,
+    "beach": 0.0249,
+    "ocean": 0.0236,
+    "forest": 0.0218
+   }
+  },
+  "rat": {
+   "posts": 0,
+   "places": {}
+  },
+  "raven (animal)": {
+   "posts": 0,
+   "places": {
+    "moon": 0.0514,
+    "water": 0.0298,
+    "nature": 0.024,
+    "forest": 0.02
+   }
+  },
+  "reindeer": {
+   "posts": 1717,
+   "places": {
+    "moon": 0.0745,
+    "nature": 0.0256,
+    "forest": 0.0233,
+    "mountain": 0.0204,
+    "house": 0.0204
+   }
+  },
+  "robot animal": {
+   "posts": 3003,
+   "places": {
+    "water": 0.0333
+   }
+  },
+  "sea monster": {
+   "posts": 151,
+   "places": {
+    "ocean": 0.3907,
+    "water": 0.3576,
+    "underwater": 0.2914,
+    "moon": 0.0331,
+    "beach": 0.0265,
+    "nature": 0.0265,
+    "city": 0.0265,
+    "mountain": 0.0265,
+    "island": 0.0265,
+    "seafloor": 0.0265
+   }
+  },
+  "seagull": {
+   "posts": 7229,
+   "places": {
+    "ocean": 0.4554,
+    "water": 0.2974,
+    "beach": 0.258,
+    "shore": 0.0262,
+    "lighthouse": 0.0258,
+    "mountain": 0.0204
+   }
+  },
+  "seal (animal)": {
+   "posts": 1930,
+   "places": {
+    "water": 0.0839,
+    "ocean": 0.0383,
+    "beach": 0.0217
+   }
+  },
+  "shark": {
+   "posts": 5383,
+   "places": {
+    "water": 0.144,
+    "underwater": 0.0996,
+    "ocean": 0.0934,
+    "beach": 0.0432,
+    "aquarium": 0.0326
+   }
+  },
+  "sheep": {
+   "posts": 7060,
+   "places": {
+    "water": 0.024,
+    "field": 0.0228,
+    "mountain": 0.0202
+   }
+  },
+  "sheet ghost": {
+   "posts": 1502,
+   "places": {
+    "moon": 0.0777
+   }
+  },
+  "slime (creature)": {
+   "posts": 5968,
+   "places": {
+    "water": 0.0416,
+    "nature": 0.0212
+   }
+  },
+  "slug": {
+   "posts": 936,
+   "places": {
+    "water": 0.0779,
+    "nature": 0.0309,
+    "forest": 0.0256,
+    "cave": 0.0235,
+    "beach": 0.0203
+   }
+  },
+  "small dragon": {
+   "posts": 1214,
+   "places": {
+    "water": 0.0329,
+    "moon": 0.0206
+   }
+  },
+  "snail": {
+   "posts": 2448,
+   "places": {
+    "water": 0.0657,
+    "nature": 0.0425,
+    "forest": 0.0233
+   }
+  },
+  "snake": {
+   "posts": 31590,
+   "places": {
+    "water": 0.0266
+   }
+  },
+  "sparrow": {
+   "posts": 1506,
+   "places": {
+    "nature": 0.0385,
+    "water": 0.0252,
+    "forest": 0.0239
+   }
+  },
+  "spider": {
+   "posts": 3837,
+   "places": {
+    "moon": 0.0362
+   }
+  },
+  "squid": {
+   "posts": 2771,
+   "places": {
+    "water": 0.058,
+    "ocean": 0.0393,
+    "underwater": 0.0378,
+    "beach": 0.0274
+   }
+  },
+  "squirrel": {
+   "posts": 4189,
+   "places": {
+    "nature": 0.1012,
+    "forest": 0.0796,
+    "water": 0.0457
+   }
+  },
+  "tiger": {
+   "posts": 6678,
+   "places": {
+    "water": 0.0248,
+    "nature": 0.0248
+   }
+  },
+  "turtle": {
+   "posts": 4135,
+   "places": {
+    "water": 0.1221,
+    "underwater": 0.0852,
+    "ocean": 0.0584,
+    "beach": 0.0321,
+    "nature": 0.0217
+   }
+  },
+  "unicorn": {
+   "posts": 2846,
+   "places": {
+    "water": 0.032,
+    "moon": 0.0302,
+    "nature": 0.026,
+    "forest": 0.0225,
+    "carousel": 0.0221
+   }
+  },
+  "western dragon": {
+   "posts": 2609,
+   "places": {
+    "water": 0.0459,
+    "mountain": 0.0448,
+    "nature": 0.0298,
+    "moon": 0.0264,
+    "landscape": 0.0241,
+    "castle": 0.0233,
+    "forest": 0.0222,
+    "city": 0.0203
+   }
+  },
+  "whale": {
+   "posts": 3787,
+   "places": {
+    "water": 0.1878,
+    "ocean": 0.1187,
+    "underwater": 0.1074,
+    "moon": 0.0448,
+    "beach": 0.0348,
+    "city": 0.0266,
+    "aquarium": 0.0206
+   }
+  },
+  "wolf": {
+   "posts": 10819,
+   "places": {
+    "nature": 0.0528,
+    "forest": 0.0464,
+    "moon": 0.0428,
+    "water": 0.02
+   }
+  },
+  "worm": {
+   "posts": 1185,
+   "places": {
+    "nature": 0.027,
+    "water": 0.0228,
+    "forest": 0.0211
+   }
+  },
+  "wyvern": {
+   "posts": 1297,
+   "places": {
+    "mountain": 0.0555,
+    "water": 0.0524,
+    "nature": 0.0432,
+    "castle": 0.0386,
+    "forest": 0.0355,
+    "moon": 0.0324,
+    "ocean": 0.0231,
+    "landscape": 0.0224,
+    "tower": 0.02
+   }
+  }
+ }
+}

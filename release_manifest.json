@@ -1,0 +1,531 @@
+{
+ "_note": "Bismuth Prompt Studio -- the files this build owns, fingerprinted. tools/update.py compares them with the latest build and downloads only what changed. Do not edit.",
+ "name": "Bismuth Prompt Studio",
+ "version": "0.1.0-beta",
+ "build": "2026-10-04 08:27 UTC",
+ "repo": "Sorlexa/bismuth-prompt-studio",
+ "branch": "main",
+ "policies": {
+  "data/library/llm_config.json": "keep",
+  "data/library/act_pair_counts.json": "merge",
+  "data/pools/slot_hints.json": "merge"
+ },
+ "files": {
+  ".gitignore": {
+   "sha256": "ef3fe08d7c920bf2eb80680c090a8fb380c019f10f6673f35cbc9af0b0dee36f",
+   "size": 258
+  },
+  "MANUAL.md": {
+   "sha256": "89b8ea0da580e74f478cd291473bb0c2d93ab07edc926c161a3e556c69221fae",
+   "size": 15991
+  },
+  "README.md": {
+   "sha256": "7e74d498ca45223ac56e01de2bfdf8c22d117e731a201212ad4728c6a5b8839f",
+   "size": 22381
+  },
+  "STYLE_TERMS.md": {
+   "sha256": "0f1bfb6472710ba90fa90d7ea036fd6bdc9fb11ac5611e30ff8334490133b467",
+   "size": 9245
+  },
+  "run_studio.cmd": {
+   "sha256": "1345d8ea71e684c04fb7832ca96e979b55bf89ce996bc00f152721a3a69626c7",
+   "size": 253
+  },
+  "run_studio.sh": {
+   "sha256": "4343ee088f60cb7c61b39f11599141e968998e131d01ae49852352e114231c77",
+   "size": 140
+  },
+  "setup.cmd": {
+   "sha256": "2b764d59492dff798dc6af2433dd71de75855cf8319a46ef98e0fa60d4dcbc66",
+   "size": 261
+  },
+  "update.cmd": {
+   "sha256": "8e7c1fbcdda06c34b5c108fc22c85952c2ebb889a92ec4806d58db081d96c4f3",
+   "size": 256
+  },
+  "LLM/README.txt": {
+   "sha256": "585ee2664ea656e72ffe8908423290ba60540d99fe8d235cfbe4448630b4ef04",
+   "size": 190
+  },
+  "LLM/llama.cpp/README.txt": {
+   "sha256": "0b493d89a17417fb3510896487ccd2bc09ccd919f9563bcda1a0e37ff538dfe4",
+   "size": 152
+  },
+  "LLM/llama.cpp/backend/README.txt": {
+   "sha256": "693a59a920773404898a9baa49c6fe52ad648637b5533e4ec58379c2826ed7c5",
+   "size": 70
+  },
+  "LLM/llama.cpp/vendor/README.txt": {
+   "sha256": "0b1165651a40b798fc6ffeef70ce6965d4fac71ddc37c3ef8ed01f2b80c79760",
+   "size": 123
+  },
+  "data/embeddings/artist_fingerprints.json": {
+   "sha256": "3eaec8dbf3361063e82e1506ae0a40c919a5e959dd74a9b5516db99e359b9822",
+   "size": 7167707
+  },
+  "data/embeddings/style_embeddings.json": {
+   "sha256": "80d8aa89329f776050d29dc8ec2d568414971923b9f5d85a4318b5ecfeaf57b3",
+   "size": 1308632
+  },
+  "data/library/act_anchors.json": {
+   "sha256": "f06bf09a4eacfd3fc6afded67a7dd62c525e1d695c66317a9bd477bad5f7ee06",
+   "size": 73772
+  },
+  "data/library/act_emotions_levels.json": {
+   "sha256": "926f441f9d804a93c70c27e42813861e44800eda16733931d6a39d8c7a10fac0",
+   "size": 210134
+  },
+  "data/library/act_focus_levels.json": {
+   "sha256": "c7a544c211fc71ffff472d6587bd7a98eb85ec7d2bd117c4f1d49a812e9b8845",
+   "size": 569147
+  },
+  "data/library/act_pair_counts.json": {
+   "sha256": "065052a0e4bfe7ccbbb29141498680b09a79e7167baaa3c09d163e1b8e020c67",
+   "size": 409564
+  },
+  "data/library/act_posture.json": {
+   "sha256": "c232726b7aa3bdeea3f6d2ab955e86e4dcfe671ab57400d04c55f29e8b9741ad",
+   "size": 1428093
+  },
+  "data/library/adopted_tags.json": {
+   "sha256": "ed4762a36c226020e562eca70f623f69f9a1b6c186b98b25d02cc896c01e56c2",
+   "size": 397148
+  },
+  "data/library/alias_map_local.json": {
+   "sha256": "7d0199d333d7469bd5843177aa05f690b7cdb8bb6b9a40f17b52888b61c6c5b1",
+   "size": 8498
+  },
+  "data/library/anchors.json": {
+   "sha256": "ae02413da6a4553d5ff2f729a57e0e2043042455c5b5b9ef9284412aa29864c4",
+   "size": 107602
+  },
+  "data/library/artist_denylist.json": {
+   "sha256": "eaed1fe2ed8ce0221e271157260af9598403b543a59eea9b0fa36903a63cc916",
+   "size": 7114
+  },
+  "data/library/artist_safety.json": {
+   "sha256": "9dc7f832edecff8a5fd2ee5be72ee440f646856570d93569929ddc7bd50e9a89",
+   "size": 2104442
+  },
+  "data/library/artist_signatures_vision.json": {
+   "sha256": "2ad3ae5ad59b68816740930e4d9e5d9e0c5447546bf0bb9449ca0f1b75e0ee6d",
+   "size": 16188726
+  },
+  "data/library/artist_styles_vision.json": {
+   "sha256": "119096e5b2ae8df6c55fa449cb1215d62e019467328e0def7d96f4d0f3fefb36",
+   "size": 31130358
+  },
+  "data/library/body.json": {
+   "sha256": "cadba351d7e0488e86b1bbca603fc327292b6d545b511f0027eec0ab4b7f7812",
+   "size": 102385
+  },
+  "data/library/character_ages.json": {
+   "sha256": "6c320a714b3e22d43adfc20020065a5ba59c6271a75e036f9222e9e70cab94e1",
+   "size": 2770105
+  },
+  "data/library/character_youth.json": {
+   "sha256": "408d19e867a07d402ecb19d70e0d7d478fc93d83159e941ce7ac63f576b9216e",
+   "size": 1897052
+  },
+  "data/library/clothes.json": {
+   "sha256": "cc80360df7e6cbd5b53dc112e72525bd62ec377b9cee9a7f8e64fde0f177e5f1",
+   "size": 863875
+  },
+  "data/library/concept_decomp.json": {
+   "sha256": "a3840aab57d4c850ca8938ffe69c0259af7239947fc3ceb44387d2bdd0538fc3",
+   "size": 1331
+  },
+  "data/library/concept_nl_only.json": {
+   "sha256": "a76d52462697375cdbbb21e5b7dd67b147a2a037cd92802ad1b86d6d7789e651",
+   "size": 29893
+  },
+  "data/library/costume_places.json": {
+   "sha256": "b64f272e6575189e4453ecad1ecffbe578ab305250f8bbd9816a54cc42c76b29",
+   "size": 2010
+  },
+  "data/library/creature_places.json": {
+   "sha256": "2a7dba20d444ed92da0572902d424e30c2f6947cae72a8d55154453f0521b9ec",
+   "size": 10968
+  },
+  "data/library/effect_contexts.json": {
+   "sha256": "7b464ede97b19bc0eabf5a506bd1e02634427558932caac9ec9e3a857d3f5ae9",
+   "size": 3024
+  },
+  "data/library/emotion_beside_levels.json": {
+   "sha256": "8e76a0a6ecf1b3303a5764bb863ab4a88dbe5292857b351001d3394ab6b7f995",
+   "size": 22875
+  },
+  "data/library/emotion_faces_levels.json": {
+   "sha256": "4ecd43320143414419b6d18e166951a5fd47da25adb47f06ad2d47cf65d952dc",
+   "size": 218675
+  },
+  "data/library/english_lexicon.json": {
+   "sha256": "0d311056cfeb24b6d664a45ec66f95f49b5f70de8bc33c5ce605f133d04a254c",
+   "size": 7101444
+  },
+  "data/library/events.json": {
+   "sha256": "eea864b0540ca673647ad8994cabdeec171a10e4607faa82b428613883d4857a",
+   "size": 13412
+  },
+  "data/library/external_concepts.json": {
+   "sha256": "0dff24da48227481600b71370d0fae2266f15ab0eaf8650fbf3c93aa72a243bc",
+   "size": 2002095
+  },
+  "data/library/furry.json": {
+   "sha256": "1b1459b89c9885179c7639c962170b1d071112a9a1580b4e3e5b1034f69f1f3e",
+   "size": 3379
+  },
+  "data/library/garment_pairs.json": {
+   "sha256": "5c7d5e969ef5c19c9ad8bb28ba32be1f14d01759e49cd5511d92b29b902c6048",
+   "size": 5788859
+  },
+  "data/library/gender_levels.json": {
+   "sha256": "263e24f665bbe1e23523fc490060c3afe0cff195b996212472dd340abb067346",
+   "size": 1435429
+  },
+  "data/library/genre_activities.json": {
+   "sha256": "e762e0459be24886735e03919f8add0f110c004db28e80a1a3a6b83874dc8a2f",
+   "size": 227811
+  },
+  "data/library/genre_locations.json": {
+   "sha256": "80191ac75a9b2072d4075f54bc2d4782ccb6d983ccf1278083e39d36df023278",
+   "size": 137438
+  },
+  "data/library/genre_occupations.json": {
+   "sha256": "b1ebcb853dd4978ea6c32810905954999e036efc240fe5e1818be20c62d37b8e",
+   "size": 234269
+  },
+  "data/library/genre_poses.json": {
+   "sha256": "ccfdc0ae381a8384ff39e86df9b92b5fb6592bc519d3826a3b67f5e3b4fbb618",
+   "size": 190629
+  },
+  "data/library/genre_races.json": {
+   "sha256": "e1066afdc084094773742e93ad025750229d2ec89a0112db59477b43fb87dd8e",
+   "size": 4017
+  },
+  "data/library/gloss_pending.json": {
+   "sha256": "fd3a3c85723e06f51b57879bad1177ec05823fadd3fc289c7017373547833448",
+   "size": 460
+  },
+  "data/library/llm_config.json": {
+   "sha256": "f1579b4cdff6ec2460c9e93be47e1734abc935aa5311001170b819ec15920655",
+   "size": 479
+  },
+  "data/library/location_rulings.json": {
+   "sha256": "2476b04fdde6fa7a4fb5bea88d7e5e72052bbad610f6a11e930d433fb035af54",
+   "size": 3307
+  },
+  "data/library/look_glossary.json": {
+   "sha256": "8a74d27c209339c8602c0b05188dd0151e69c8312f93da1120843960ca7484e7",
+   "size": 3203536
+  },
+  "data/library/moods.json": {
+   "sha256": "7e8254edf092794fa2c07653ef69c03c046395315c006942463cc5e071ddb804",
+   "size": 15818
+  },
+  "data/library/occupation_gender.json": {
+   "sha256": "554ac026f34df10a817f360302e948f0cbdb08e8f02ddf011eb5769bb4261151",
+   "size": 21549
+  },
+  "data/library/occupation_pool.json": {
+   "sha256": "cdbdb09c93360ac4906fbd71c742039593c5209e65b9270b1004fcdaf4d6af77",
+   "size": 8625
+  },
+  "data/library/place_clothes_levels.json": {
+   "sha256": "7337ec7b15df1e8513f71f857e0651d69421fba932b75df7785d2252fcd492ab",
+   "size": 1855967
+  },
+  "data/library/place_emotions_levels.json": {
+   "sha256": "21b29db8be137cb1f47f96c0975eb6d9565ee37ead1e148226229316db00e658",
+   "size": 65354
+  },
+  "data/library/place_related.json": {
+   "sha256": "b0793d1d4c44f094b041c7031c75c4dac0afa9396ccf195834ebbdee21bd39c6",
+   "size": 17866289
+  },
+  "data/library/place_stances.json": {
+   "sha256": "ee35fb0fabb0014c19af2e770938f781cd1ed3cf43616163e66f9d3175d291bd",
+   "size": 33668
+  },
+  "data/library/place_stances_levels.json": {
+   "sha256": "2b6ba145d60a742ff0125ba4ed3a03fabbab15dc9f37f2f3ccd06783e524c392",
+   "size": 117252
+  },
+  "data/library/pool_affinity.json": {
+   "sha256": "8a62d5d372dbec8c7c7830797c94f36c7f5f495ba2ff54ea6b97b693a3ec690e",
+   "size": 507398
+  },
+  "data/library/pose_companions.json": {
+   "sha256": "4d01eead3fa40d1f264f79088da78741e5e77205c877e65211aaf952dfedaa0b",
+   "size": 3045254
+  },
+  "data/library/pose_companions_levels.json": {
+   "sha256": "14b6733418f7b198aac22964d725b7a5b9b2a0e8f6f9f07e6fcb5afb5d218fbd",
+   "size": 6427775
+  },
+  "data/library/race_gender.json": {
+   "sha256": "12600e2c46ea0f08cd09f57d36715bfed1da5af1d626f08947541b2255ef6441",
+   "size": 6439
+  },
+  "data/library/race_parts_levels.json": {
+   "sha256": "99088bebc5845176765abf8cb6212ea9e139f174180b8e88d6d723e55ef5ee5d",
+   "size": 241002
+  },
+  "data/library/race_parts_related.json": {
+   "sha256": "503d7bf48c6c609ea7c6af159185c858be3991c94520924d6de3bf568c464545",
+   "size": 24122
+  },
+  "data/library/setup_manifest.json": {
+   "sha256": "92493e2eca333a8310e7f8a6a2f22ecf2c2522a1bfaae649162fa7d22233692b",
+   "size": 3156
+  },
+  "data/library/spice.json": {
+   "sha256": "e8e42cb86f702a30dadb33f8339aa3d998fe5bd2cc625c5e498020cd16209071",
+   "size": 168049
+  },
+  "data/library/spice_counts_levels.json": {
+   "sha256": "a9e0fa4da2204cbaaba1e196f6e320d72c5fd292f778593e22e1a6d70129c490",
+   "size": 106886
+  },
+  "data/library/tag_gender.json": {
+   "sha256": "2807867f067984382762bdbe585324ef1761f7b66d5f5c0a28282c8e10521de6",
+   "size": 399765
+  },
+  "data/library/thing_places.json": {
+   "sha256": "21fed2f1a164a0c414769d21128c5944c4ce8902ba5d74e43a0c3403ac7f60fd",
+   "size": 3628
+  },
+  "data/library/tree_vocab.json": {
+   "sha256": "10df339c65a950eccd66b18bfee0f676ac70e3bab5829cf6f639ac83f4ea4e8b",
+   "size": 6154941
+  },
+  "data/library/unrolled_rulings.json": {
+   "sha256": "5a9833a40f57bd043623c9ecbcd24d29f217e566ad1054ff4286327c8c4b1445",
+   "size": 51087
+  },
+  "data/library/weather_lighting.json": {
+   "sha256": "7ea2276f62ce13d05a5de063899cbcb8ecd8deff9b7ef499eebacd6be1685cf3",
+   "size": 18629
+  },
+  "data/pools/artist_pool.json": {
+   "sha256": "eb52ec18a734e4e3e94a97f1d7ed105b8a568bfe823ceafb1b3652086824d1ff",
+   "size": 10616421
+  },
+  "data/pools/cast_weights.json": {
+   "sha256": "f52a5c5dc1aa7cb2c74725d84a12be7da0d39b3ef113e9d7017ff11f9c8bc8ab",
+   "size": 4045
+  },
+  "data/pools/category_banks.json": {
+   "sha256": "3f5afb16e7d8037fd4ff579dde31c56c86b12cb4ec819c3d243efb98090b33e8",
+   "size": 166958
+  },
+  "data/pools/character_profiles.json": {
+   "sha256": "690d5f7eee4546bdda27357ff5826fb42c371f00c01b7e2c9d99c07d261a4a2a",
+   "size": 1204230
+  },
+  "data/pools/character_traits.json": {
+   "sha256": "cf8add5d401fcd6f28134ed371d24b4c6e27ffef684cf19a8b3e45c9766b43d7",
+   "size": 11660609
+  },
+  "data/pools/cultural_styles.json": {
+   "sha256": "3868ea804315763d1b1bff3dbd7163f9625c7b6677efad8886d255a56b2cfe11",
+   "size": 10652
+  },
+  "data/pools/genre_pool.json": {
+   "sha256": "a164d48c8048915d3e9cf4f67dedacdc01747222bbd940309c47aa31f174dba6",
+   "size": 12469
+  },
+  "data/pools/lighting_pool.json": {
+   "sha256": "3ae37d71ca70ef0a24252289d31c0baf377b08cbf91c10618fed44b14eb3f1fc",
+   "size": 7774
+  },
+  "data/pools/location_pool.json": {
+   "sha256": "ccc5a97c0fd58a991b14e1111ee095b56a9edebbc4740682039b25797132aaf3",
+   "size": 21274
+  },
+  "data/pools/medium_pool.json": {
+   "sha256": "85121d355933fbd8970881a7f450e44115bddb86316a9e1ff8eb446b970c3330",
+   "size": 8913
+  },
+  "data/pools/quality_pool.json": {
+   "sha256": "477221b979c3e2035e6f97ef5913c1b0163c54c5c7dec0a0952813206c76aa7a",
+   "size": 7128
+  },
+  "data/pools/slot_hints.json": {
+   "sha256": "bc5cb18b66e44e7616a7608f80ced09922c6054882625167d1cccd740d7c20b7",
+   "size": 683
+  },
+  "data/pools/style_pool.json": {
+   "sha256": "1757737626008bfe7f87c9f1e1b6aa91687e3c69edb99cab654cd3fdd20aae31",
+   "size": 26746
+  },
+  "data/pools/subject_pulls.json": {
+   "sha256": "536aacf302d9f254be5f39d99a7763663bd66b7b93b4825948ca5738a1f2f746",
+   "size": 55316
+  },
+  "data/tags/alias_map.json": {
+   "sha256": "aed34c88faf23369cdebab67014b4bd663c0581e39b00d252e33b43a1ab97f6b",
+   "size": 1677481
+  },
+  "data/tags/arity.json": {
+   "sha256": "93b7393e4ef85cc813d489258f8cb202054ad6ee925b886b7a8db35f87662322",
+   "size": 31236
+  },
+  "data/tags/contradictions.json": {
+   "sha256": "5e3c9fbdb09108d86f32aca019e52c86cac023381f6618091f9e540cdeb85f88",
+   "size": 8822
+  },
+  "data/tags/danbooru_tags.json": {
+   "sha256": "112747f3ead3cdf6c0f33bc384fd0df83b5cff974764a8be044a10c7fd7e76e5",
+   "size": 715235
+  },
+  "data/tags/danbooru_wiki.json": {
+   "sha256": "d8496eb5a11873d118b566cfbc7e80cac52e6410e2580b7ed0ab7126b23e076a",
+   "size": 416639
+  },
+  "data/tags/extra_tags.json": {
+   "sha256": "8a52895c9d4642253abb41b01e517710df0fbb58725d82c15e99722e7682f7f1",
+   "size": 4811
+  },
+  "data/tags/gelbooru_tags.json": {
+   "sha256": "693d04a636c6929681bdb46f45fadeeb8c1b8750ec3529c82aa35b4254faf7e8",
+   "size": 768986
+  },
+  "data/tags/safety_floor.json": {
+   "sha256": "b5ac2f259f2909fdb20fd8947228f3eb154ddaa9833a5331438a76dbbd0b7e68",
+   "size": 2074612
+  },
+  "data/tags/tag_bridge.json": {
+   "sha256": "996bf9318189baaf6f0fe5393538f6b1daa1716844ecd724e8288425ed8d4d8c",
+   "size": 1011
+  },
+  "data/tags/tag_categories.json": {
+   "sha256": "8b0f7bffc6e5790e99a59d078561e7a8c3e5ed25a06df636bfe84e34d67a0f7d",
+   "size": 1693424
+  },
+  "data/tags/tag_glosses.json": {
+   "sha256": "f47cca83a17a3cc187a8eb84ad0617b6fbd47bfc9555e7ee4a5484202a3c6077",
+   "size": 4029060
+  },
+  "data/tags/tag_graph.json": {
+   "sha256": "d7ae282145af8ad17e96e3040c00d0e361d0f5b750ee7932f93fc1893ba16f5c",
+   "size": 20776680
+  },
+  "data/tags/tag_implications.json": {
+   "sha256": "47ee3d453c5f0f83ea1c5604b3db102bbf627f5cc25cb2449e898b415b9110c9",
+   "size": 2161413
+  },
+  "promptstudio/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/paths.py": {
+   "sha256": "e63d8738b0c34f7b7a2d35649b4506d059cd2b9bd2132120d88db97fe4a1abf3",
+   "size": 2590
+  },
+  "promptstudio/engine/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/engine/affinity.py": {
+   "sha256": "671ba0bde4cc672b1b56e02dc5bf035a3732b930253b13b03097f8a5c631ecd4",
+   "size": 6975
+  },
+  "promptstudio/engine/aliases.py": {
+   "sha256": "5c71572baa9b823125f9a6294608018f592c26626b52c7fbfac6321dcaaaaa3d",
+   "size": 1414
+  },
+  "promptstudio/engine/bridge.py": {
+   "sha256": "6970797ed8e2ecf2cda67d5fd69a42d6634ab456dafd60f58a5fd00dc2eeab48",
+   "size": 858961
+  },
+  "promptstudio/engine/enhancer.py": {
+   "sha256": "8c4672c737c8cb4bc57a86c2e78e95739c9ee00ff3f6bf413053aecf9b829c52",
+   "size": 132920
+  },
+  "promptstudio/engine/fastplan.py": {
+   "sha256": "03628e8f3496862f9da10103b6538583121e2880e86cf0bd3bdc4b72f9d06960",
+   "size": 165163
+  },
+  "promptstudio/engine/lexicon.py": {
+   "sha256": "b2520d24d0a46a6ebca8f7ec016cf46790fd88ee9eff76f84e092b61ebdfc974",
+   "size": 11525
+  },
+  "promptstudio/engine/scene.py": {
+   "sha256": "21ef8cd7b44076c36e447361f8874b34170dc2037a6a4ce882e122abc903fed6",
+   "size": 20835
+  },
+  "promptstudio/engine/slot_hints.json": {
+   "sha256": "907b52793a32fe005a1589933a082e110ecc3d2e6cf58397e6a024cbdcd775db",
+   "size": 255
+  },
+  "promptstudio/engine/slots.py": {
+   "sha256": "92581b3dab3854675f1238f0a0e753cf442eac7c1c431f88649c59433753deb9",
+   "size": 40132
+  },
+  "promptstudio/engine/tagnet.py": {
+   "sha256": "5f082b8ef61cdab79ab8e2b62f24a877880b51ec522a7b01881ae9a0dd9be1ec",
+   "size": 20967
+  },
+  "promptstudio/engine/vocab.py": {
+   "sha256": "d85ea58497361ea00b13f5e0c35df13ab21d7b2b6766ea5c0ff0b6e3a29c5699",
+   "size": 23049
+  },
+  "promptstudio/library/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/library/artist_fit.py": {
+   "sha256": "771b4fe6ae407ab7d72c5980c0a9da066d04095d600b7fe587d5365eee96bc5b",
+   "size": 7760
+  },
+  "promptstudio/library/concepts.py": {
+   "sha256": "f9aa2ea217f5c8a889e24e0cae85a105037a0f038e5d5ef8403c3755e3315de9",
+   "size": 27444
+  },
+  "promptstudio/library/external.py": {
+   "sha256": "8afb6b2753c3fadc7e86674cd61bd9fbf8a07fb3c2d9b4d627e8765529a28f62",
+   "size": 9599
+  },
+  "promptstudio/library/looks.py": {
+   "sha256": "df9493512d612277b20a09348c00d64b285697776fc13ac63ac87423530b68f3",
+   "size": 53311
+  },
+  "promptstudio/library/matching.py": {
+   "sha256": "f8b87ef3e026eb46207fbcdb02de15a2bf096e330fc1c312385f2a4cb6d0ac9a",
+   "size": 3600
+  },
+  "promptstudio/llm/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/llm/config.py": {
+   "sha256": "178baa2cafb66e99f699321492b19aa99b12f0ecc4e3fbb2194844088780ee1b",
+   "size": 2975
+  },
+  "promptstudio/llm/server.py": {
+   "sha256": "282ce9dfd0016f8dd17f70ec80657a7e3c301dcdbfa8aa8f93ee042943888074",
+   "size": 12613
+  },
+  "promptstudio/ui/__init__.py": {
+   "sha256": "826ea1c72f365a8b1f0c221cab10ade82f45bfe43e3e073eafae2b7385705bfe",
+   "size": 28
+  },
+  "promptstudio/ui/studio.py": {
+   "sha256": "69b043b22e9c47ea2051e178be52ff44e871d0322d10c2e25fed407f2dd27274",
+   "size": 63184
+  },
+  "tools/selfcheck.py": {
+   "sha256": "776a721d066f60651b2569b4c8cf49c562f9ced3bbcdf4fd818662c6f11c2404",
+   "size": 1361
+  },
+  "tools/setup_models.py": {
+   "sha256": "45a42e3eab1d68ae6ce254bbc37cbba38614929187311afc5794a27c74b34fba",
+   "size": 14134
+  },
+  "tools/update.py": {
+   "sha256": "49a642ad0c3628f0ee6ccec580405fae294343319f66d2bd17184199f37570d5",
+   "size": 14553
+  }
+ }
+}
